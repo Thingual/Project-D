@@ -271,7 +271,7 @@ const LanguageTestStep = ({ onFinish, onBack }) => {
                 <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}>
                     <div className="success-icon-container" style={{ fontSize: '48px', marginBottom: '20px' }}>🎯</div>
                     <h2 className="onboarding-heading">Assessment Complete!</h2>
-                    <p className="onboarding-subheading">We've determined your starting level.</p>
+                    <p className="onboarding-subheading">We&apos;ve determined your starting level.</p>
 
                     <div className="level-result-card" style={{
                         background: '#f0f7ff',
@@ -330,8 +330,8 @@ const LanguageTestStep = ({ onFinish, onBack }) => {
 
                 <div className="onboarding-test-header" style={{ textAlign: 'center', marginBottom: '28px' }}>
                     <div className="step-indicator-centered">Step 3 of 3</div>
-                    <h2 className="onboarding-heading">Let's determine your baseline.</h2>
-                    <p className="onboarding-subheading" style={{ marginBottom: 0 }}>Don't worry — there's no penalty for wrong answers.</p>
+                    <h2 className="onboarding-heading">Let&apos;s determine your baseline.</h2>
+                    <p className="onboarding-subheading" style={{ marginBottom: 0 }}>Don&apos;t worry — there&apos;s no penalty for wrong answers.</p>
                 </div>
 
                 <div className="progress-bar-container" style={{ background: '#f1f5f9', height: '8px', borderRadius: '4px', marginBottom: '40px', overflow: 'hidden', width: '100%' }}>
@@ -597,7 +597,7 @@ const LanguageTestStep = ({ onFinish, onBack }) => {
                                     textUnderlineOffset: '4px'
                                 }}
                             >
-                                Skip / I don't know
+                                Skip / I don&apos;t know
                             </button>
                         </div>
                     </motion.div>

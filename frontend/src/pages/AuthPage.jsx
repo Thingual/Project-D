@@ -372,7 +372,7 @@ const SuccessState = ({ user, onStart, onBack }) => (
             </div>
             <h2 className="onboarding-heading" style={{ marginBottom: '12px' }}>Welcome, {user?.name || 'Explorer'}!</h2>
             <p className="onboarding-subheading">
-                You're all set. Your personalized language journey starts now.
+                You&apos;re all set. Your personalized language journey starts now.
             </p>
             <button className="btn-primary onboarding-next" onClick={onStart}>Get started</button>
         </div>
@@ -470,7 +470,7 @@ const InterestSelectionStep = ({ onFinish, onBack }) => {
 const HeroPanel = () => (
     <div className="auth-right">
         <div className="hero-logo"><ThingualLogo variant="light" height={48} /></div>
-        <p className="hero-tagline"><span>"Learn Languages.</span> Speak Confidently."</p>
+        <p className="hero-tagline"><span>&quot;Learn Languages.</span> Speak Confidently.&quot;</p>
         <p className="hero-sub">Practice daily. Improve faster. Achieve fluency.</p>
         <img src={heroIllustration.src || heroIllustration} alt="Hero" className="hero-illustration" />
     </div>
