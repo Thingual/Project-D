@@ -1,0 +1,579 @@
+:root {
+  --primary: #4f46e5;
+  --secondary: #8b5cf6;
+  --bg-gradient: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --success: #10b981;
+  --mic-red: #ef4444;
+  --mic-red-dark: #dc2626;
+  --player-blue: #3b82f6;
+  --player-blue-dark: #2563eb;
+}
+
+.onboarding-container {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-main);
+}
+
+.onboarding-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.step-indicator {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #3b82f6;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.question-text {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.option-button {
+  background: white;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.option-button:hover {
+  background: #f1f5f9;
+  transform: translateY(-2px);
+}
+
+.option-button.selected {
+  background: #3b82f6;
+  color: white;
+  border-color: #2563eb;
+}
+
+.audio-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* ═══════════════════════════════════════
+   LISTEN & REPEAT — PREMIUM UI
+   ═══════════════════════════════════════ */
+
+.listen-repeat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+/* Step Labels */
+.lr-step-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #94a3b8;
+  margin-bottom: 2px;
+  align-self: flex-start;
+}
+
+.lr-step-label .step-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+
+.lr-step-label.active .step-num {
+  background: var(--player-blue);
+  color: white;
+}
+
+.lr-step-label.active {
+  color: var(--player-blue);
+}
+
+.lr-step-label.done .step-num {
+  background: var(--success);
+  color: white;
+}
+
+.lr-step-label.done {
+  color: var(--success);
+}
+
+/* Player Card */
+.lr-player-card {
+  width: 100%;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
+  border: 1.5px solid #bfdbfe;
+  border-radius: 20px;
+  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.lr-player-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+  border-color: #93c5fd;
+}
+
+.lr-player-card.playing {
+  border-color: var(--player-blue);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1), 0 8px 25px rgba(59, 130, 246, 0.2);
+}
+
+.lr-play-btn {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 50%;
+  border: none;
+  background: var(--player-blue);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.35);
+}
+
+.lr-play-btn:hover {
+  background: var(--player-blue-dark);
+  transform: scale(1.08);
+}
+
+.lr-play-btn.playing {
+  background: var(--player-blue-dark);
+  animation: play-glow 2s ease-in-out infinite;
+}
+
+@keyframes play-glow {
+  0%, 100% { box-shadow: 0 4px 12px rgba(59, 130, 246, 0.35); }
+  50% { box-shadow: 0 4px 24px rgba(59, 130, 246, 0.6); }
+}
+
+.lr-player-info {
+  flex: 1;
+}
+
+.lr-player-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 4px;
+}
+
+.lr-player-sub {
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Soundwave animation */
+.lr-soundwave {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 28px;
+}
+
+.lr-soundwave span {
+  width: 3px;
+  border-radius: 3px;
+  background: var(--player-blue);
+  animation: lr-wave 1.2s ease-in-out infinite;
+}
+
+.lr-soundwave span:nth-child(1) { height: 8px; animation-delay: 0s; }
+.lr-soundwave span:nth-child(2) { height: 16px; animation-delay: 0.15s; }
+.lr-soundwave span:nth-child(3) { height: 24px; animation-delay: 0.3s; }
+.lr-soundwave span:nth-child(4) { height: 16px; animation-delay: 0.45s; }
+.lr-soundwave span:nth-child(5) { height: 8px; animation-delay: 0.6s; }
+
+@keyframes lr-wave {
+  0%, 100% { transform: scaleY(0.4); opacity: 0.5; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+/* Divider */
+.lr-divider {
+  width: 2px;
+  height: 28px;
+  background: linear-gradient(to bottom, transparent, #cbd5e1, transparent);
+  margin: 0 auto;
+}
+
+/* Mic Section */
+.lr-mic-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+
+.lr-mic-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Pulsing rings when recording */
+.lr-mic-ring {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid rgba(239, 68, 68, 0.15);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lr-mic-wrapper.recording .lr-mic-ring {
+  opacity: 1;
+  animation: mic-ring-pulse 2s ease-out infinite;
+}
+
+.lr-mic-ring:nth-child(2) {
+  width: 140px;
+  height: 140px;
+  animation-delay: 0.4s !important;
+}
+
+.lr-mic-ring:nth-child(3) {
+  width: 170px;
+  height: 170px;
+  animation-delay: 0.8s !important;
+}
+
+@keyframes mic-ring-pulse {
+  0% { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(1.3); opacity: 0; }
+}
+
+/* Mic Button */
+.lr-mic-btn {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.35);
+  z-index: 2;
+  position: relative;
+}
+
+.lr-mic-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 28px rgba(239, 68, 68, 0.45);
+}
+
+.lr-mic-btn:active {
+  transform: scale(0.95);
+}
+
+.lr-mic-btn.recording {
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+  animation: mic-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes mic-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+.lr-mic-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #64748b;
+  letter-spacing: 0.3px;
+}
+
+.lr-mic-label.recording {
+  color: var(--mic-red);
+  animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.lr-type-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.lr-type-link:hover {
+  color: var(--player-blue);
+  background: #f1f5f9;
+}
+
+/* Text Input Fallback */
+.lr-text-fallback {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lr-text-input {
+  width: 100%;
+  border: 2px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text-main);
+  outline: none;
+  transition: all 0.2s ease;
+  background: #fafbfc;
+}
+
+.lr-text-input:focus {
+  border-color: var(--player-blue);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.08);
+  background: white;
+}
+
+.lr-text-input::placeholder {
+  color: #94a3b8;
+}
+
+.lr-btn-row {
+  display: flex;
+  gap: 10px;
+}
+
+.lr-btn-secondary {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  background: #f1f5f9;
+  border: 1.5px solid #e2e8f0;
+  font-weight: 600;
+  font-size: 14px;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lr-btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+.lr-btn-submit {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--player-blue);
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+.lr-btn-submit:hover:not(:disabled) {
+  background: var(--player-blue-dark);
+  transform: translateY(-1px);
+}
+
+.lr-btn-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ═══════════════════════════════════════
+   IMAGE / PICTURE DESCRIPTION
+   ═══════════════════════════════════════ */
+
+.image-preview {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-preview:hover {
+  transform: scale(1.02);
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: all 0.2s ease;
+  border: 2px solid #e2e8f0 !important;
+}
+
+textarea:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+/* ═══════════════════════════════════════
+   GENERAL BUTTONS
+   ═══════════════════════════════════════ */
+
+.next-btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 14px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.next-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Legacy mic buttons (vocabulary/picture) */
+.record-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background: #ef4444;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+}
+
+.record-btn.recording {
+  animation: pulse 1.5s infinite;
+  background: #b91c1c;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+.record-btn-v2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #fef2f2;
+  background: #ef4444;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 10px 25px rgba(239, 68, 68, 0.3);
+}
+
+.record-btn-v2:hover {
+  transform: scale(1.05);
+  background: #dc2626;
+}
+
+.record-btn-v2.recording {
+  animation: pulse-v2 1.5s infinite;
+  background: #b91c1c;
+}
+
+@keyframes pulse-v2 {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 20px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}

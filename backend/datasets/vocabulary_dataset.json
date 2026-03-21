@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "image_url": "https://example.com/images/apple.jpg",
+    "keywords": ["apple", "fruit", "red", "green"]
+  },
+  {
+    "id": 2,
+    "image_url": "https://example.com/images/car.jpg",
+    "keywords": ["car", "vehicle", "automobile"]
+  },
+  {
+    "id": 3,
+    "image_url": "https://example.com/images/dog.jpg",
+    "keywords": ["dog", "puppy", "animal", "pet"]
+  },
+  {
+    "id": 4,
+    "image_url": "https://example.com/images/book.jpg",
+    "keywords": ["book", "read", "pages", "novel"]
+  },
+  {
+    "id": 5,
+    "image_url": "https://example.com/images/tree.jpg",
+    "keywords": ["tree", "leaves", "branches", "nature", "plant"]
+  }
+]

@@ -1,0 +1,19 @@
+# ── Thingual FastAPI Backend ─────────────────────────────────────
+# Shared auth API used by both the web frontend and mobile app.
+
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+httpx==0.27.0
+pyjwt==2.8.0
+sib-api-v3-sdk==7.6.0   # Brevo (Sendinblue) official SDK
+google-auth==2.29.0
+requests==2.31.0
+email-validator>=2.0.0
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+passlib[bcrypt]==1.7.4
+openai-whisper==20231117
+python-multipart==0.0.9
+pydantic[email]==2.6.4
+cloudinary==1.38.0

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "The barista ____ the coffee with expert precision.",
+    "option_a": "made",
+    "option_b": "maked",
+    "option_c": "makes",
+    "option_d": "making",
+    "correct_answer": "made",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "She ____ to the store yesterday.",
+    "option_a": "go",
+    "option_b": "goes",
+    "option_c": "went",
+    "option_d": "going",
+    "correct_answer": "went",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "He usually ____ up at 7 AM.",
+    "option_a": "wakes",
+    "option_b": "wake",
+    "option_c": "waking",
+    "option_d": "woken",
+    "correct_answer": "wakes",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "By the time we arrived, the movie ____.",
+    "option_a": "already started",
+    "option_b": "has already started",
+    "option_c": "had already started",
+    "option_d": "was already started",
+    "correct_answer": "had already started",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "I would have called you if I ____ your number.",
+    "option_a": "know",
+    "option_b": "knew",
+    "option_c": "had known",
+    "option_d": "have known",
+    "correct_answer": "had known",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "question": "She is used ____ early in the morning.",
+    "option_a": "to wake up",
+    "option_b": "waking up",
+    "option_c": "to waking up",
+    "option_d": "wake up",
+    "correct_answer": "to waking up",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "Scarcely ____ the room when the phone rang.",
+    "option_a": "he had entered",
+    "option_b": "had he entered",
+    "option_c": "he entered",
+    "option_d": "did he enter",
+    "correct_answer": "had he entered",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "question": "It is imperative that she ____ on time.",
+    "option_a": "be",
+    "option_b": "is",
+    "option_c": "was",
+    "option_d": "will be",
+    "correct_answer": "be",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "question": "Had it not been for the rain, we ____ a picnic.",
+    "option_a": "would have",
+    "option_b": "would have had",
+    "option_c": "had",
+    "option_d": "will have",
+    "correct_answer": "would have had",
+    "difficulty": "hard"
+  }
+]

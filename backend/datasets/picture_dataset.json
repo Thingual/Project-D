@@ -1,0 +1,22 @@
+[
+  {
+    "id": 6,
+    "image_url": "/picture/img1.jpg",
+    "difficulty": "medium",
+    "keywords": [
+      "Park",
+      "Bench",
+      "Friends",
+      "Eating",
+      "Sandwich",
+      "Picnic basket",
+      "Sunny",
+      "Lunch"
+    ],
+    "sample_answers": [
+      "In this picture, two friends are in the park. They are sitting on a green bench. They are eating sandwiches. They look happy.",
+      "There are two friends sitting on a bench in a sunny park. They are having lunch together and seem to be enjoying themselves while they talk. On the ground next to them, you can see a picnic basket and water bottles.",
+      "This photograph captures a casual and relaxed scene where two young adults, likely colleagues or friends, are having an outdoor lunch on a sunny afternoon in a park. They are seated on a wooden bench, engaged in conversation, and appear happy as they eat their sandwiches. A picnic basket and bottles are on the ground beside them, suggesting they planned this gathering to enjoy the nice weather together."
+    ]
+  }
+]

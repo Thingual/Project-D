@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "He dont like apples.",
+    "option_a": "He doesn't like apples.",
+    "option_b": "He not like apples.",
+    "option_c": "He don't likes apples.",
+    "option_d": "He isn't like apples.",
+    "correct_answer": "He doesn't like apples.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "She go to school everyday.",
+    "option_a": "She goes to school everyday.",
+    "option_b": "She going to school everyday.",
+    "option_c": "She went to school everyday.",
+    "option_d": "She go to school everyday.",
+    "correct_answer": "She goes to school everyday.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "I am having two brothers.",
+    "option_a": "I have two brothers.",
+    "option_b": "I having two brothers.",
+    "option_c": "I am have two brothers.",
+    "option_d": "I has two brothers.",
+    "correct_answer": "I have two brothers.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "I look forward to meet you.",
+    "option_a": "I look forward to meeting you.",
+    "option_b": "I looking forward to meet you.",
+    "option_c": "I look forward meeting you.",
+    "option_d": "I look forward to met you.",
+    "correct_answer": "I look forward to meeting you.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "She told to me that she is coming.",
+    "option_a": "She told me that she was coming.",
+    "option_b": "She told to me that she was coming.",
+    "option_c": "She told me that she is coming.",
+    "option_d": "She said me that she was coming.",
+    "correct_answer": "She told me that she was coming.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "question": "Despite of the rain, we went out.",
+    "option_a": "Despite the rain, we went out.",
+    "option_b": "In spite the rain, we went out.",
+    "option_c": "Despite of rain, we went out.",
+    "option_d": "Even the rain, we went out.",
+    "correct_answer": "Despite the rain, we went out.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "Between you and I, this is a mistake.",
+    "option_a": "Between you and me, this is a mistake.",
+    "option_b": "Between you and myself, this is a mistake.",
+    "option_c": "Among you and I, this is a mistake.",
+    "option_d": "Between I and you, this is a mistake.",
+    "correct_answer": "Between you and me, this is a mistake.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "question": "Fewer people than I expected was there.",
+    "option_a": "Fewer people than I expected were there.",
+    "option_b": "Less people than I expected was there.",
+    "option_c": "Less people than I expected were there.",
+    "option_d": "A few people than I expected was there.",
+    "correct_answer": "Fewer people than I expected were there.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "question": "Not only he is smart, but also hard-working.",
+    "option_a": "Not only is he smart, but he is also hard-working.",
+    "option_b": "Not only he is smart, but he also hard-working.",
+    "option_c": "Not only is he smart, but also hard-working.",
+    "option_d": "Not only is he smart, also he is hard-working.",
+    "correct_answer": "Not only is he smart, but he is also hard-working.",
+    "difficulty": "hard"
+  }
+]
