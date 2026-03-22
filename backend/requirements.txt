@@ -1,7 +1,7 @@
 # ── Thingual FastAPI Backend ─────────────────────────────────────
 # Shared auth API used by both the web frontend and mobile app.
 
-setuptools
+setuptools<70.0.0
 fastapi==0.110.1
 uvicorn[standard]==0.29.0
 python-dotenv==1.0.1
@@ -14,7 +14,7 @@ email-validator>=2.0.0
 sqlalchemy==2.0.29
 psycopg2-binary==2.9.9
 passlib[bcrypt]==1.7.4
-openai-whisper==20231117
+openai-whisper==20240930
 python-multipart==0.0.9
 pydantic[email]==2.6.4
 cloudinary==1.38.0
