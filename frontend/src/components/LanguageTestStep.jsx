@@ -299,7 +299,20 @@ const LanguageTestStep = ({ onFinish, onBack }) => {
     }
 
     if (!currentQuestion && !isLoading && !finished) {
-        return <div className="onboarding-content text-center" style={{ marginTop: '100px' }}>No questions available. Please refresh or try again later.</div>;
+        return (
+            <div className="onboarding-content text-center" style={{ marginTop: '100px' }}>
+                {errorMsg ? (
+                    <div>
+                        <div style={{ background: '#fef2f2', color: '#dc2626', padding: '12px', borderRadius: '12px', marginBottom: '20px', display: 'inline-block', border: '1px solid #fee2e2' }}>
+                            ⚠ {errorMsg}
+                        </div>
+                        <p style={{ marginTop: '20px', color: '#64748b' }}>If you are testing on a deployed app, check that your `NEXT_PUBLIC_API_URL` environment variable is set and CORS is configured.</p>
+                    </div>
+                ) : (
+                    <p>No questions available. Please refresh or try again later.</p>
+                )}
+            </div>
+        );
     }
 
     const isSpeechQuestion = currentQuestion ? ['listening', 'vocabulary', 'picture_description'].includes(currentQuestion.type) : false;
