@@ -217,6 +217,7 @@ async def login_password(body: LoginPasswordRequest, db: Session = Depends(get_d
         "token": token,
         "email": user.email,
         "name": user.name,
+        "is_new": False,
         "message": "Login successful"
     }
 
@@ -265,17 +266,20 @@ async def verify_otp(body: VerifyOtpRequest, db: Session = Depends(get_db)):
         db.commit()
         db.refresh(new_user)
         user = new_user
+        is_new_user = True
     else:
         # Normal login
         user = db.query(User).filter(User.email == body.email).first()
         if not user:
             raise HTTPException(status_code=400, detail="User not found")
+        is_new_user = False
 
     token = _create_jwt({"user_id": user.id, "email": user.email, "name": user.name})
     return {
         "token": token,
         "email": user.email,
         "name": user.name,
+        "is_new": is_new_user,
         "message": "Verification successful"
     }
 
@@ -287,17 +291,20 @@ async def google_auth(body: GoogleAuthRequest, db: Session = Depends(get_db)):
     name = body.userInfo.get("name", "User")
     
     user = db.query(User).filter(User.email == email).first()
+    is_new_user = False
     if not user:
         # Create user automatically for Google
         user = User(email=email, name=name)
         db.add(user)
         db.commit()
         db.refresh(user)
+        is_new_user = True
 
     token = _create_jwt({"user_id": user.id, "email": user.email, "name": user.name})
     return {
         "token": token,
         "email": user.email,
         "name": user.name,
+        "is_new": is_new_user,
         "message": "Google authentication successful"
     }

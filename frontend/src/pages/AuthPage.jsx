@@ -534,7 +534,7 @@ const AuthPage = () => {
         
         // If onboarding already done, always go straight to dashboard
         const alreadyOnboarded = localStorage.getItem('onboarding_done') === 'true';
-        if (!isNewUser || alreadyOnboarded) {
+        if (data.is_new === false || !isNewUser || alreadyOnboarded) {
             window.location.href = '/dashboard';
         } else {
             setDirection(1);
