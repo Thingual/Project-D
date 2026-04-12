@@ -86,7 +86,7 @@ export default function ReviewPage() {
       if (prog.first_year) {
         const first = Number(prog.first_year);
         const current = new Date().getFullYear();
-        const years = [];
+        const years: number[] = [];
         for (let y = current; y >= first; y--) years.push(y);
         setAvailableYears(years.length > 0 ? years : [currentYearInt]);
       }
