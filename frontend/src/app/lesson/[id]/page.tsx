@@ -121,6 +121,7 @@ function buildSteps(lesson: any): any[] {
               instruction: c.instruction,
               shuffled_words: shuffled,
               correct_sequence: c.correct_sentence,
+              alternative_correct: c.alternative_correct,
               explanation: c.explanation,
             },
           });
@@ -387,8 +388,11 @@ export default function LessonPage() {
     } else if (step.type === 'SCRAMBLE') {
       // Normalize both sides: lowercase + strip leading/trailing punctuation
       const normalize = (s: string) => s.toLowerCase().replace(/[.,!?;:'"]+$/g, '').trim();
-      isCorrect = normalize(scrambleAnswer.join(' ')) === normalize(step.data.correct_sequence ?? '');
-      correctMsg = step.data.explanation || step.data.correct_sequence;
+      const userStr = normalize(scrambleAnswer.join(' '));
+      const targetStr = normalize(step.data.correct_sequence ?? '');
+      const altStr = normalize(step.data.alternative_correct ?? '');
+      isCorrect = userStr === targetStr || (altStr.length > 0 && userStr === altStr);
+      correctMsg = step.data.correct_sequence + (step.data.explanation ? ` (${step.data.explanation})` : '');
     } else if (step.type === 'FILL_BLANK_MULTI') {
       const blanks: any[] = step.data.blanks ?? [];
       isCorrect = blanks.every((blank: any, i: number) => {
@@ -610,12 +614,12 @@ export default function LessonPage() {
                               {ex.structure && <span style={{ fontSize: '11px', color: '#94a3b8', fontWeight: 500, fontStyle: 'italic' }}>{ex.structure}</span>}
                             </div>
                           ) : (
-                            <div key={i} style={{ background: '#f8fafc', borderRadius: '12px', padding: '14px', border: '1px solid #e2e8f0' }}>
-                              <p style={{ margin: '0 0 8px 0', fontSize: '13px', color: '#64748b' }}>Statement: <strong style={{ color: '#1e293b' }}>{ex.statement}</strong></p>
-                              <p style={{ margin: '0 0 8px 0', fontSize: '14px', color: '#4f46e5', fontWeight: 'bold' }}>Question: {ex.question}</p>
+                            <div key={i} style={{ background: '#f8fafc', borderRadius: '12px', padding: '14px', border: '1px solid #e2e8f0', cursor: 'pointer' }} onClick={() => speak(ex.question || ex.statement || '')}>
+                              {ex.statement && <p style={{ margin: '0 0 8px 0', fontSize: '13px', color: '#64748b' }}>Statement: <strong style={{ color: '#1e293b' }}>{ex.statement}</strong></p>}
+                              {ex.question && <p style={{ margin: '0 0 8px 0', fontSize: '14px', color: '#4f46e5', fontWeight: 'bold' }}>Question: {ex.question}</p>}
                               <div style={{ display: 'flex', gap: '12px', fontSize: '13px' }}>
-                                <span style={{ color: '#16a34a', fontWeight: 'bold' }}>Yes: {ex.yes_reply}</span>
-                                <span style={{ color: '#ef4444', fontWeight: 'bold' }}>No: {ex.no_reply}</span>
+                                {(ex.yes_reply || ex.yes) && <span style={{ color: '#16a34a', fontWeight: 'bold' }}>Yes: {ex.yes_reply || ex.yes}</span>}
+                                {(ex.no_reply || ex.no) && <span style={{ color: '#ef4444', fontWeight: 'bold' }}>No: {ex.no_reply || ex.no}</span>}
                               </div>
                             </div>
                           )

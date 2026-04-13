@@ -195,6 +195,7 @@
         "instruction": "Rearrange the words to make a correct sentence.",
         "words": ["drawing", "I", "love", "and", "painting"],
         "correct_sentence": "I love drawing and painting.",
+        "alternative_correct": "I love painting and drawing.",
         "explanation": "I + love + verb-ing + and + verb-ing."
       }
     },
@@ -207,10 +208,8 @@
       "content": {
         "instruction": "Rearrange the words to make a question about hobbies.",
         "words": ["you", "Do", "like", "cooking", "enjoy", "or"],
-        "correct_sentence": "Do you like cooking or enjoy it?",
-        "hint": "Do + you + like + verb-ing",
-        "alternative_correct": "Do you like or enjoy cooking?",
-        "explanation": "'Do you like cooking?' is the standard question form."
+        "correct_sentence": "Do you like or enjoy cooking?",
+        "explanation": "'Do you like or enjoy cooking?' is a valid question to ask about hobbies."
       }
     },
     {
