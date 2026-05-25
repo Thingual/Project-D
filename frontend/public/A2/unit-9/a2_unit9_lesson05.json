@@ -1,0 +1,51 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Understand the key difference between present perfect and past simple.",
+    "xp_reward":  150,
+    "lesson_number":  5,
+    "tasks":  [
+                  {
+                      "title":  "Present Perfect vs Past Simple",
+                      "content":  {
+                                      "common_errors":  [
+                                                            "I have seen him yesterday. ❌ → I saw him yesterday. ✓"
+                                                        ],
+                                      "explanation":  "Use PAST SIMPLE for finished actions at a specific time. Use PRESENT PERFECT when the time is not specified or still relevant.",
+                                      "comparison":  [
+                                                         {
+                                                             "tense":  "Past Simple",
+                                                             "examples":  [
+                                                                              "I visited Paris last year.",
+                                                                              "She called me yesterday."
+                                                                          ],
+                                                             "use":  "Specific finished time"
+                                                         },
+                                                         {
+                                                             "tense":  "Present Perfect",
+                                                             "examples":  [
+                                                                              "I have visited Paris.",
+                                                                              "She has called me."
+                                                                          ],
+                                                             "use":  "Unspecified time / still relevant"
+                                                         }
+                                                     ]
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "content":  {
+                                      "correct_index":  1,
+                                      "question":  "I ___ to London last summer.",
+                                      "explanation":  "\u0027Last summer\u0027 is a specific past time, so use past simple.",
+                                      "options":  [
+                                                      "have been",
+                                                      "went",
+                                                      "have went"
+                                                  ]
+                                  },
+                      "type":  "mcq"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson05",
+    "title":  "Present Perfect vs Past Simple"
+}

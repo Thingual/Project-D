@@ -1,0 +1,132 @@
+{
+  "lesson_id": "a1_unit6_lesson03",
+  "unit": 6,
+  "lesson_number": 3,
+  "level": "A1",
+  "title": "Eating out complaints & dietary needs",
+  "description": "Learn to state dietary needs and make polite complaints at a restaurant.",
+  "estimated_minutes": 30,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0603_01",
+      "type": "learn_card",
+      "prompt": "Dietary needs vocabulary",
+      "content": {
+        "grammar_focus": "Expressing allergies and restrictions",
+        "example_sentences": [
+          "I am allergic to peanuts.",
+          "I can't eat spicy food.",
+          "Can I have this without onions?"
+        ],
+        "context": "Ordering food at a restaurant."
+      }
+    },
+    {
+      "task_id": "t0603_02",
+      "type": "listen_repeat",
+      "prompt": "Polite complaint openers",
+      "audio_key": "a1_u6_l3_repeat_01",
+      "content": {
+        "target_phrases": [
+          "Excuse me, my soup is cold.",
+          "Sorry, but this is not what I ordered.",
+          "Could you please heat this up?"
+        ]
+      }
+    },
+    {
+      "task_id": "t0603_03",
+      "type": "mcq",
+      "prompt": "Identify the problem",
+      "question": "You ordered chicken, but the waiter brought you fish. The problem is:",
+      "options": ["wrong order", "cold food", "spicy food", "missing item"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0603_04",
+      "type": "fill_blank",
+      "prompt": "I can't / I'm allergic to",
+      "content": {
+        "sentence": "I am ___ to dairy.",
+        "options": ["allergic", "allergy", "used", "sensitive"],
+        "correct": "allergic"
+      }
+    },
+    {
+      "task_id": "t0603_05",
+      "type": "sort_words",
+      "prompt": "Build the complaint",
+      "scramble": ["me", "Excuse", "cold", "is", "soup", "this"],
+      "answer": "Excuse me this soup is cold"
+    },
+    {
+      "task_id": "t0603_06",
+      "type": "match_pairs",
+      "prompt": "Match complaints to solutions",
+      "pairs": [
+        {"left": "My food is cold.", "right": "I will heat it up for you."},
+        {"left": "I didn't order this.", "right": "I'll bring the correct dish."},
+        {"left": "We are missing a fork.", "right": "Here is another one."}
+      ]
+    },
+    {
+      "task_id": "t0603_07",
+      "type": "error_correction",
+      "prompt": "Correct the dietary statement",
+      "instruction": "Fix the sentence.",
+      "wrong_sentence": "I has allergic to nuts.",
+      "correct_sentence": "I am allergic to nuts."
+    },
+    {
+      "task_id": "t0603_08",
+      "type": "scenario_mcq",
+      "prompt": "Staff question responses",
+      "question": "Staff asks: 'Is there anything you can’t eat?' You reply:",
+      "options": [
+        "Yes, I am a vegetarian.",
+        "Yes, I eat everything.",
+        "I like chicken.",
+        "This is cold."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0603_09",
+      "type": "speaking",
+      "prompt": "Speak: polite complaint",
+      "content": {
+        "min_words": 15,
+        "example_response": "Excuse me. I ordered the pasta, but this is a salad. Could you please check my order?"
+      }
+    },
+    {
+      "task_id": "t0603_10",
+      "type": "dialogue",
+      "prompt": "Roleplay: allergy-safe order",
+      "dialogue": {
+        "setting": "A restaurant",
+        "turns": [
+          {"speaker": "Customer", "text": "I'd like the curry, but I'm allergic to peanuts."},
+          {"speaker": "Staff", "text": "I can ask the chef to make it without peanuts."},
+          {"speaker": "Customer", "text": "Thank you, that would be great."}
+        ]
+      },
+      "comprehension_questions": [
+        {"question": "What is the customer allergic to?", "expected_answer": "Peanuts."}
+      ]
+    },
+    {
+      "task_id": "t0603_11",
+      "type": "lesson_summary",
+      "prompt": "Lesson summary: Eating out & dietary needs",
+      "content": {
+        "checklist": [
+          "I can state my food allergies.",
+          "I can ask for food modifications.",
+          "I can politely complain about food."
+        ]
+      }
+    }
+  ]
+}

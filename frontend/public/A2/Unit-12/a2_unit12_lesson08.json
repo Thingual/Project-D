@@ -1,0 +1,325 @@
+{
+  "lesson_id": "a2_unit12_lesson08",
+  "unit": 12,
+  "lesson_number": 8,
+  "level": "A2",
+  "title": "Present perfect vs past simple — when to use each",
+  "description": "Understand the most important distinction in English grammar — when to use the present perfect and when to use the past simple.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1208_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "The key difference — specific time or not?",
+        "body": "This is one of the most important grammar rules in English:\n\nPRESENT PERFECT → No specific time mentioned\n• 'I have seen that film.' (at some point — we don't say when)\n• 'She has visited Kerala.' (in her life — time not important)\n\nPAST SIMPLE → Specific time is mentioned OR the time is clearly finished\n• 'I saw that film last week.' (specific — last week)\n• 'She visited Kerala in 2019.' (specific year)\n• 'He called me this morning.' (this morning = finished time)\n\nThe golden rule:\nIf you say WHEN → use past simple\nIf you DON'T say when → often use present perfect",
+        "grammar_note": "Specific time (yesterday, last year, in 2020, at 3PM) → PAST SIMPLE\nNo specific time (ever, never, already, yet, just) → PRESENT PERFECT\nTime words that trigger past simple: ago, yesterday, last, in [year]"
+      }
+    },
+    {
+      "task_id": "t1208_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Time signal words — which tense do they trigger?",
+        "body": "PRESENT PERFECT time signals:\n• ever / never\n• already / yet / just / still\n• recently / lately\n• so far / up to now\n• for + duration (for 3 years)\n• since + start point (since Monday)\n• today / this week / this year (if still ongoing)\n\nPAST SIMPLE time signals:\n• yesterday\n• last week / last month / last year\n• ago (two days ago, a year ago)\n• in + year (in 2020)\n• on + day (on Monday)\n• at + time (at 3 PM)\n• when I was a child / when I was young",
+        "grammar_note": "TODAY is tricky — use past simple if the day is over, present perfect if still ongoing\nThis year = present perfect (year not finished)\nLast year = past simple (year is over)"
+      }
+    },
+    {
+      "task_id": "t1208_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — time expressions",
+        "vocabulary": [
+          {"word": "recently", "meaning": "not long ago, in the recent past", "example": "I've recently started a new course. (PP)"},
+          {"word": "ago", "meaning": "a period of time before now", "example": "I started that course two years ago. (PS)"},
+          {"word": "so far", "meaning": "up to this point in time", "example": "I've finished three chapters so far. (PP)"},
+          {"word": "last", "meaning": "the most recent one (last week / last month)", "example": "I went to Goa last summer. (PS)"},
+          {"word": "just now", "meaning": "a very short time ago", "example": "She called just now. (PS — very immediate)"},
+          {"word": "this morning", "meaning": "during the morning of today", "example": "I've had two coffees this morning. (PP if morning ongoing)"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l8_listen",
+        "sentences": [
+          "I have seen that film — it was brilliant!",
+          "I saw that film last Saturday with my cousin.",
+          "She has visited Jaipur twice.",
+          "She visited Jaipur in 2021 and 2023.",
+          "Have you ever tried sushi? — Yes, I tried it for the first time in Bangalore last month."
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "'I ___ the Taj Mahal in 2018.' Which tense fits?",
+        "options": [
+          "have visited",
+          "visited",
+          "visit",
+          "have been visiting"
+        ],
+        "correct": "visited",
+        "explanation": "'In 2018' is a specific time → PAST SIMPLE. 'Visited' is correct."
+      }
+    },
+    {
+      "task_id": "t1208_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "'She ___ the Taj Mahal — it's on her bucket list.' Which fits?",
+        "options": [
+          "visited",
+          "hasn't visited",
+          "didn't visit",
+          "wasn't visiting"
+        ],
+        "correct": "hasn't visited",
+        "explanation": "No specific time mentioned — life experience so far → PRESENT PERFECT NEGATIVE (hasn't visited)."
+      }
+    },
+    {
+      "task_id": "t1208_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence uses the CORRECT tense?",
+        "options": [
+          "I have seen him yesterday.",
+          "I saw him yesterday.",
+          "I have saw him yesterday.",
+          "I see him yesterday."
+        ],
+        "correct": "I saw him yesterday.",
+        "explanation": "'Yesterday' = specific finished time → PAST SIMPLE (saw). Never use present perfect with 'yesterday'."
+      }
+    },
+    {
+      "task_id": "t1208_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "'___ you ever tried Kashmiri food?' — Which is correct?",
+        "options": [
+          "Did",
+          "Have",
+          "Has",
+          "Do"
+        ],
+        "correct": "Have",
+        "explanation": "'Ever' = life experience question → PRESENT PERFECT. Have + you + ever + past participle?"
+      }
+    },
+    {
+      "task_id": "t1208_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Choose the correct tense — present perfect or past simple.",
+        "sentences": [
+          {"text": "I ___ (see) that exhibition last weekend — it was incredible.", "answer": "saw"},
+          {"text": "She ___ (work) here for five years now.", "answer": "has worked"},
+          {"text": "We ___ (visit) Hampi in 2022 during the monsoon season.", "answer": "visited"},
+          {"text": "He ___ (never/try) Thai food — he's a bit of an adventurous eater.", "answer": "has never tried"},
+          {"text": "They ___ (leave) about twenty minutes ago.", "answer": "left"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete the conversation using present perfect or past simple.",
+        "sentences": [
+          {"text": "A: ___ you ___ (ever/be) to Kerala? B: Yes! I ___ (go) there in 2021.", "answer": "Have / been / went"},
+          {"text": "A: ___ she ___ (finish) the report? B: Yes — she ___ (finish) it an hour ago.", "answer": "Has / finished / finished"},
+          {"text": "A: ___ you ___ (meet) the new manager? B: Yes, I ___ (meet) her yesterday at the team lunch.", "answer": "Have / met / met"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct sentence — choose the right tense based on context (time given).",
+        "words": ["Rajasthan", "I", "visited", "in", "2019"],
+        "answer": "I visited Rajasthan in 2019."
+      }
+    },
+    {
+      "task_id": "t1208_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct present perfect sentence (no specific time).",
+        "words": ["visited", "have", "Rajasthan", "I", "twice"],
+        "answer": "I have visited Rajasthan twice."
+      }
+    },
+    {
+      "task_id": "t1208_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the time expression to the correct tense.",
+        "pairs": [
+          {"left": "yesterday", "right": "Past simple"},
+          {"left": "ever / never", "right": "Present perfect"},
+          {"left": "last year", "right": "Past simple"},
+          {"left": "already / yet / just", "right": "Present perfect"},
+          {"left": "two years ago", "right": "Past simple"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Talking about food experiences — food blogger interview, Mumbai",
+        "setting": "A journalist is interviewing Kavya, a popular food blogger. The interview is full of natural present perfect and past simple switching.",
+        "dialogue": [
+          {"speaker": "Journalist", "text": "Kavya, you're a well-known food blogger. Have you always loved food?"},
+          {"speaker": "Kavya", "text": "Always! I grew up in a family where food was very important. My grandmother was an incredible cook."},
+          {"speaker": "Journalist", "text": "How many restaurants have you reviewed so far?"},
+          {"speaker": "Kavya", "text": "I've reviewed over 300 restaurants across India. I started the blog five years ago and I've been at it ever since."},
+          {"speaker": "Journalist", "text": "Which city has the best food in your experience?"},
+          {"speaker": "Kavya", "text": "I've eaten in every major city and I honestly can't pick one. But Hyderabad had the most unforgettable biryani I've ever tasted. I went there in 2021 specifically for the food."},
+          {"speaker": "Journalist", "text": "Have you ever had a bad experience at a restaurant?"},
+          {"speaker": "Kavya", "text": "Oh yes! Once I had food poisoning at a fancy restaurant in Delhi. I spent two days recovering. I've never returned there!"},
+          {"speaker": "Journalist", "text": "Have you been abroad for food research?"},
+          {"speaker": "Kavya", "text": "I have — I went to Thailand last year and I also visited Singapore. The hawker food culture there is amazing. I've never seen so many different cuisines in one place."},
+          {"speaker": "Journalist", "text": "What's the most unusual thing you've ever eaten?"},
+          {"speaker": "Kavya", "text": "I tried ant chutney in Chhattisgarh about three years ago. It was surprisingly tasty! I've eaten a lot of unusual things but that was certainly memorable."},
+          {"speaker": "Journalist", "text": "Any places you haven't visited yet but want to for food?"},
+          {"speaker": "Kavya", "text": "I haven't been to the North-East of India yet. I've heard the food there is extraordinary — very different from anything else in India. It's next on my list!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How many restaurants has Kavya reviewed so far?",
+            "options": ["Over 100", "Over 200", "Over 300", "Over 400"],
+            "correct": "Over 300"
+          },
+          {
+            "question": "Where did she have food poisoning?",
+            "options": ["Mumbai", "Hyderabad", "Delhi", "Singapore"],
+            "correct": "Delhi"
+          },
+          {
+            "question": "What unusual food did she try in Chhattisgarh?",
+            "options": ["Insect noodles", "Ant chutney", "Bamboo rice", "Frog curry"],
+            "correct": "Ant chutney"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the tense mistake.",
+        "sentences": [
+          {
+            "wrong": "I have seen him yesterday at the market.",
+            "correct": "I saw him yesterday at the market.",
+            "explanation": "'Yesterday' = specific finished time → PAST SIMPLE. Never use present perfect with 'yesterday'."
+          },
+          {
+            "wrong": "She worked here for five years — she's still here.",
+            "correct": "She has worked here for five years — she's still here.",
+            "explanation": "She is STILL here — the action continues to now → PRESENT PERFECT (has worked)."
+          },
+          {
+            "wrong": "Have you been to Goa last summer?",
+            "correct": "Did you go to Goa last summer?",
+            "explanation": "'Last summer' = specific finished time → PAST SIMPLE. Present perfect cannot be used with 'last'."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1208_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "Someone asks: 'Have you ever been to Varanasi?' You went there in March. What do you say?",
+        "options": [
+          "Yes, I have been last March.",
+          "Yes, I have! I went there last March — it was incredible.",
+          "Yes, I have gone in March.",
+          "Yes, I went there — have you?"
+        ],
+        "correct": "Yes, I have! I went there last March — it was incredible.",
+        "explanation": "Answer the PP question with 'Yes, I have!' then switch to past simple for the specific detail (last March)."
+      }
+    },
+    {
+      "task_id": "t1208_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Talk about your travel or food experiences using BOTH tenses correctly. Use present perfect for the general experience, then past simple for specific details.",
+        "prompt": "Describe 3 experiences — use present perfect to introduce, past simple to give details.",
+        "example_response": "Let me share three experiences using both tenses correctly. First — I have been to Munnar twice. The first time I went was in 2019 with my college friends. We drove up from Kochi and the journey took about four hours. The tea gardens were absolutely stunning. The second time I went was last year with my family. On that trip we also visited Eravikulam National Park. Second — I have tried making pasta from scratch. I attempted it for the first time about six months ago, following a recipe online. It took much longer than I expected and the pasta came out a bit uneven, but it tasted good! I've made it twice since then and it gets easier each time. Third — I have read the complete Harry Potter series. I started reading it when I was twelve years old. I finished the final book in about two weeks — I couldn't put it down. I have re-read certain parts many times since then.",
+        "key_phrases": ["I have been to...", "The first time I went was in...", "I have tried...", "I attempted it in...", "I have read...", "I started in..."],
+        "min_words": 120
+      }
+    },
+    {
+      "task_id": "t1208_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Answer these 5 questions naturally, choosing the correct tense and giving full details.",
+        "prompt": "1. Have you ever changed jobs? When? Why?\n2. Have you learned anything new recently?\n3. What was the last book or film you enjoyed?\n4. Have you ever made a decision you regretted?\n5. Have you done anything exciting this week?",
+        "example_response": "Great questions! For the first — yes, I have changed jobs twice. The first change was about four years ago when I moved from a small startup to a larger company. The second time was last year — I felt I had grown as much as I could in that role. Both decisions were good ones. Second — I have been learning watercolour painting recently. I started about two months ago after watching videos online. Third — the last film I really enjoyed was a Malayalam film I watched last weekend. It was beautifully made with incredible performances. For the fourth — yes, I have made a decision I regretted. I turned down a really good job opportunity about three years ago because I was too comfortable where I was. I regretted it for quite some time. And for the fifth — yes! This week I have tried a new running route near my neighbourhood. I ran it for the first time on Tuesday morning and it was lovely — along a lake I didn't even know existed.",
+        "key_phrases": ["Yes, I have — the first time was...", "I have been learning...", "I have made...", "I turned down... (past simple)", "This week I have..."],
+        "min_words": 130
+      }
+    },
+    {
+      "task_id": "t1208_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this blog post using present perfect or past simple.",
+        "text": "My Coffee Journey\n\nI ___ (1/love) coffee for as long as I can remember. Growing up, my grandfather ___ (2/make) the most incredible filter coffee every morning. I ___ (3/try) many different types of coffee since then. Last year, I ___ (4/visit) a coffee estate in Coorg and it completely changed the way I think about coffee. I ___ (5/never/realise) how much goes into a single cup before that trip. Since then, I ___ (6/start) learning about different brewing methods. Last month, I ___ (7/buy) my first pour-over coffee set and I ___ (8/practise) with it every morning since. I ___ (9/not/perfect) my technique yet but the results are already much better than what I ___ (10/drink) before. Coffee is a journey, not a destination!",
+        "answers": ["have loved", "made", "have tried", "visited", "had never realised", "have started", "bought", "have been practising / have practised", "haven't perfected", "drank"]
+      }
+    },
+    {
+      "task_id": "t1208_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 8 complete — Present perfect vs past simple",
+        "key_points": [
+          "PAST SIMPLE = specific finished time (yesterday, last year, in 2019, ago)",
+          "PRESENT PERFECT = no specific time / life experience / still ongoing",
+          "Key rule: If you mention WHEN → past simple. If you don't → often present perfect",
+          "PP time signals: ever, never, already, yet, just, recently, so far, for, since",
+          "PS time signals: yesterday, last, ago, in [year], on Monday, at 3 PM",
+          "Pattern in conversation: PP to introduce → PS to give specific detail"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "For and since — duration with present perfect"
+      }
+    }
+  ]
+}

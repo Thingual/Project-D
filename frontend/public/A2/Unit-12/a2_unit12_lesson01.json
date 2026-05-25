@@ -1,0 +1,318 @@
+{
+  "lesson_id": "a2_unit12_lesson01",
+  "unit": 12,
+  "lesson_number": 1,
+  "level": "A2",
+  "title": "Introducing have/has + past participle",
+  "description": "Meet the present perfect tense for the first time. Learn how to form it using have/has and regular past participles.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1201_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "What is the present perfect?",
+        "body": "The PRESENT PERFECT connects the past to the present. We use it to talk about things that happened at some point before now — without saying exactly when.\n\nThink of it like this:\nPast simple = 'I ate biryani YESTERDAY.' (specific time)\nPresent perfect = 'I have eaten biryani.' (at some point in my life — no specific time)\n\nExamples:\n• I have visited the Taj Mahal.\n• She has finished her homework.\n• We have watched that film.\n• He has worked here for two years.\n\nThe time is NOT mentioned with present perfect — that is the key difference from past simple.",
+        "grammar_note": "Present perfect = have/has + past participle\nNo specific time word (yesterday, last week, in 2020)\nIt connects a past experience to the present"
+      }
+    },
+    {
+      "task_id": "t1201_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "How to form the present perfect — regular verbs",
+        "body": "STRUCTURE:\nI / You / We / They + HAVE + past participle\nHe / She / It + HAS + past participle\n\nFor REGULAR verbs, the past participle = past simple (-ed form):\n• visit → visited     'I have visited Jaipur.'\n• finish → finished   'She has finished the report.'\n• work → worked      'He has worked here for years.'\n• watch → watched    'They have watched the match.'\n• cook → cooked      'I have cooked dal before.'\n• clean → cleaned    'She has cleaned the room.'\n\nShort forms (very common in speech):\n• I have = I've\n• She has = She's\n• We have = We've\n• He has = He's",
+        "grammar_note": "Regular past participle = same as past simple (-ed)\nHave → I/you/we/they\nHas → he/she/it\nShort forms: I've, she's, we've, he's"
+      }
+    },
+    {
+      "task_id": "t1201_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — experiences worth talking about",
+        "vocabulary": [
+          {"word": "experience", "meaning": "something you have done or felt in your life", "example": "Travelling alone is a great experience."},
+          {"word": "achieve", "meaning": "to successfully do something difficult", "example": "She has achieved a lot in her career."},
+          {"word": "try", "meaning": "to do something for the first time or as a test", "example": "I have tried Chettinad food — it's spicy!"},
+          {"word": "complete", "meaning": "to finish something fully", "example": "He has completed the training programme."},
+          {"word": "travel", "meaning": "to go from one place to another", "example": "We have travelled to five states this year."},
+          {"word": "participate", "meaning": "to take part in something", "example": "I have participated in two marathons."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l1_listen",
+        "sentences": [
+          "I have visited Chennai three times.",
+          "She has finished her assignment.",
+          "We have watched that film before.",
+          "He has worked at this company for five years.",
+          "They have cleaned the office already."
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Which sentence is in the PRESENT PERFECT tense?",
+        "options": [
+          "I visited Agra last year.",
+          "I have visited Agra.",
+          "I visit Agra every year.",
+          "I was visiting Agra."
+        ],
+        "correct": "I have visited Agra.",
+        "explanation": "Present perfect = have/has + past participle. No specific time word."
+      }
+    },
+    {
+      "task_id": "t1201_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Choose the correct form: 'She ___ the report.'",
+        "options": [
+          "have finished",
+          "has finish",
+          "has finished",
+          "is finished"
+        ],
+        "correct": "has finished",
+        "explanation": "She = HAS + past participle (finished). 'Has finish' is missing the -ed ending."
+      }
+    },
+    {
+      "task_id": "t1201_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence uses present perfect CORRECTLY?",
+        "options": [
+          "They have watch the match.",
+          "They has watched the match.",
+          "They have watched the match.",
+          "They have watching the match."
+        ],
+        "correct": "They have watched the match.",
+        "explanation": "They = HAVE + past participle (watched). 'Watch' needs -ed; 'has' is wrong for they; -ing is wrong."
+      }
+    },
+    {
+      "task_id": "t1201_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "What is the past participle of 'work'?",
+        "options": ["working", "works", "worked", "work"],
+        "correct": "worked",
+        "explanation": "Regular verbs: past participle = base verb + -ed. work → worked."
+      }
+    },
+    {
+      "task_id": "t1201_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with have or has + the past participle.",
+        "sentences": [
+          {"text": "I ___ ___ (visit) three southern states so far.", "answer": "have visited"},
+          {"text": "Meera ___ ___ (finish) her presentation.", "answer": "has finished"},
+          {"text": "We ___ ___ (cook) this dish before — it's delicious!", "answer": "have cooked"},
+          {"text": "He ___ ___ (work) in IT for six years.", "answer": "has worked"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Rewrite using the short form (I've / she's / we've / he's).",
+        "sentences": [
+          {"text": "I have visited Mysore twice. → ___ visited Mysore twice.", "answer": "I've"},
+          {"text": "She has completed the course. → ___ completed the course.", "answer": "She's"},
+          {"text": "We have watched all the episodes. → ___ watched all the episodes.", "answer": "We've"},
+          {"text": "He has worked here for two years. → ___ worked here for two years.", "answer": "He's"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange the words into a correct present perfect sentence.",
+        "words": ["visited", "have", "I", "Ooty", "before"],
+        "answer": "I have visited Ooty before."
+      }
+    },
+    {
+      "task_id": "t1201_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct present perfect sentence.",
+        "words": ["the", "She", "report", "has", "finished"],
+        "answer": "She has finished the report."
+      }
+    },
+    {
+      "task_id": "t1201_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the subject to the correct form of have/has.",
+        "pairs": [
+          {"left": "I", "right": "have visited"},
+          {"left": "She", "right": "has cooked"},
+          {"left": "We", "right": "have watched"},
+          {"left": "He", "right": "has worked"},
+          {"left": "They", "right": "have finished"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "First time trying things — Bangalore café",
+        "setting": "Arjun and his friend Priya are at a café. Arjun has just moved to Bangalore and they are talking about things he has and hasn't done there yet.",
+        "dialogue": [
+          {"speaker": "Priya", "text": "So Arjun — you've been in Bangalore for a month now. Have you explored the city at all?"},
+          {"speaker": "Arjun", "text": "A little! I have visited Lalbagh Botanical Garden — it's beautiful."},
+          {"speaker": "Priya", "text": "Oh lovely! And have you tried the food here? Bangalore has amazing options."},
+          {"speaker": "Arjun", "text": "Yes! I have tried the masala dosa at CTR in Malleshwaram — absolutely incredible."},
+          {"speaker": "Priya", "text": "CTR is the best! What about filter coffee? Have you had it from a traditional darshini?"},
+          {"speaker": "Arjun", "text": "I have! My colleague showed me a place near Jayanagar. I have visited that area twice already."},
+          {"speaker": "Priya", "text": "Great! And have you shopped at Commercial Street yet?"},
+          {"speaker": "Arjun", "text": "Not yet — I have looked at it online but I haven't actually gone. I've been quite busy with work."},
+          {"speaker": "Priya", "text": "We should go together this weekend! It's so much fun. Have you also visited MG Road?"},
+          {"speaker": "Arjun", "text": "Yes — I walked there last Sunday. I have also tried Koshy's café — I have heard about it for years."},
+          {"speaker": "Priya", "text": "That's one of Bangalore's oldest restaurants! I'm glad you've already discovered some gems."},
+          {"speaker": "Arjun", "text": "This city is wonderful. I have enjoyed every bit of it so far!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "Which garden has Arjun visited?",
+            "options": ["Cubbon Park", "Lalbagh Botanical Garden", "Bannerghatta", "Rose Garden"],
+            "correct": "Lalbagh Botanical Garden"
+          },
+          {
+            "question": "Where did Arjun try the masala dosa?",
+            "options": ["MG Road", "Jayanagar", "CTR in Malleshwaram", "Koshy's café"],
+            "correct": "CTR in Malleshwaram"
+          },
+          {
+            "question": "Why hasn't Arjun visited Commercial Street yet?",
+            "options": ["He doesn't like shopping.", "He has been busy with work.", "He doesn't know where it is.", "It was closed."],
+            "correct": "He has been busy with work."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the mistake in each sentence.",
+        "sentences": [
+          {
+            "wrong": "She have finished the project.",
+            "correct": "She has finished the project.",
+            "explanation": "She = HAS (not have). Have is used with I/you/we/they."
+          },
+          {
+            "wrong": "I have visit Chennai three times.",
+            "correct": "I have visited Chennai three times.",
+            "explanation": "Present perfect needs the past participle: visit → visited."
+          },
+          {
+            "wrong": "They has watched the match.",
+            "correct": "They have watched the match.",
+            "explanation": "They = HAVE (not has). Has is used only with he/she/it."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1201_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "You want to tell someone about your experience trying Kerala food at some point in your life. Which sentence is correct?",
+        "options": [
+          "I tried Kerala food last month.",
+          "I have tried Kerala food.",
+          "I try Kerala food before.",
+          "I was tried Kerala food."
+        ],
+        "correct": "I have tried Kerala food.",
+        "explanation": "Talking about a life experience without specifying when = present perfect. 'I have tried' is correct."
+      }
+    },
+    {
+      "task_id": "t1201_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Think about 5 things you have done in your life — places visited, food tried, activities done. Use 'I have + past participle' for each one.",
+        "prompt": "Tell me 5 things you have done using the present perfect. Keep it simple and natural.",
+        "example_response": "Let me share five things I have done in my life. I have visited the Golden Temple in Amritsar — it was one of the most peaceful places I have ever been. I have tried making biryani at home and it actually turned out well! I have also completed a ten-kilometre run — I trained for two months before doing it. I have learned to drive, which took me a while but I finally managed it. And I have watched every episode of a popular Indian web series — I have spent way too many weekends doing that! Each of these experiences has taught me something, so I am really glad I have done them.",
+        "key_phrases": ["I have visited", "I have tried", "I have completed", "I have learned", "I have watched"],
+        "min_words": 80
+      }
+    },
+    {
+      "task_id": "t1201_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Look at the dialogue between Arjun and Priya. Answer these questions about your own life in the same way Arjun does.",
+        "prompt": "Answer using present perfect:\n1. Have you visited any famous places in India?\n2. Have you tried any regional food from another state?\n3. Have you learned any new skill recently?",
+        "example_response": "For the first question — yes, I have visited a few famous places. I have been to the Mysore Palace and I have also visited Hampi, which was absolutely stunning. I haven't visited the Taj Mahal yet though — that's still on my list. For the second question — I have tried Rajasthani food at a restaurant in Chennai. I have eaten dal baati churma and I really enjoyed the flavours. For the third question — I have started learning digital photography in my free time. I have watched several online tutorials and I have practised quite a bit on weekends. I haven't enrolled in a formal course yet but I have made good progress on my own.",
+        "key_phrases": ["I have visited", "I have tried", "I have been to", "I haven't visited yet", "I have started"],
+        "min_words": 80
+      }
+    },
+    {
+      "task_id": "t1201_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete the passage using the correct present perfect form.",
+        "text": "Kavya ___ (1/travel) to four countries in the last two years. She ___ (2/visit) Sri Lanka, Thailand, Nepal, and the Maldives. She ___ (3/try) so many different foods along the way — she says she ___ (4/eat) the best curry of her life in Colombo. Her friend Meera ___ (5/not/travel) abroad yet, but she ___ (6/explore) many parts of India. They both ___ (7/agree) that travel changes the way you see the world.",
+        "answers": ["has travelled", "has visited", "has tried", "has eaten", "hasn't travelled", "has explored", "have agreed"]
+      }
+    },
+    {
+      "task_id": "t1201_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 1 complete — Introducing have/has + past participle",
+        "key_points": [
+          "Present perfect = have/has + past participle",
+          "I/you/we/they → HAVE | he/she/it → HAS",
+          "Regular past participle = verb + -ed (visit → visited)",
+          "No specific time word — talk about life experience in general",
+          "Short forms: I've, she's, he's, we've, they've",
+          "Key difference from past simple: present perfect = no specific time stated"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Irregular past participles"
+      }
+    }
+  ]
+}

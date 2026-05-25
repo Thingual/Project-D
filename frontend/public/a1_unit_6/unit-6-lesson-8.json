@@ -1,0 +1,249 @@
+{
+  "lesson_id": "a1_unit6_lesson08",
+  "unit": 6,
+  "lesson_number": 8,
+  "level": "A1",
+  "title": "Unit 6 Final Review + A1 Exit Test",
+  "description": "Mixed review of Unit 6 skills: phone/messages, shopping & returns, restaurant complaints & dietary needs, health & lifestyle, directions, jobs, and weather. Includes a final speaking test.",
+  "estimated_minutes": 40,
+  "xp_reward": 220,
+  "tasks": [
+    {
+      "task_id": "t0608_01",
+      "type": "learn_card",
+      "prompt": "Quick review: Polite phone/message requests",
+      "content": {
+        "grammar_focus": "Polite request forms (Can you… / Would you…?)",
+        "example_sentences": [
+          "Could you call me back?",
+          "Can you send the address, please?",
+          "Would you like to confirm the time?"
+        ],
+        "context": "Sending a message in Hyderabad."
+      }
+    },
+    {
+      "task_id": "t0608_02",
+      "type": "learn_card",
+      "prompt": "Quick review: Directions imperatives",
+      "content": {
+        "grammar_focus": "Imperatives (Turn/Go/Take) + movement prepositions",
+        "example_sentences": [
+          "Go straight for two minutes.",
+          "Take the second right.",
+          "Walk past the bank."
+        ],
+        "context": "Finding a pharmacy in Chennai."
+      }
+    },
+    {
+      "task_id": "t0608_03",
+      "type": "learn_card",
+      "prompt": "Quick review: Present continuous (now at work / weather)",
+      "content": {
+        "grammar_focus": "Present continuous for current actions",
+        "example_sentences": [
+          "I’m currently working on a report.",
+          "She is preparing orders now.",
+          "It’s raining now."
+        ],
+        "context": "A busy afternoon in Bangalore."
+      }
+    },
+    {
+      "task_id": "t0608_04",
+      "type": "listen_repeat",
+      "prompt": "Repeat a mixed set",
+      "audio_key": "a1_u6_l8_repeat_mixed_01",
+      "content": {
+        "target_phrases": [
+          "Could you call me back?",
+          "Go straight for two minutes.",
+          "I’m currently working on a report.",
+          "It will rain soon."
+        ]
+      }
+    },
+    {
+      "task_id": "t0608_05",
+      "type": "mcq",
+      "prompt": "Shopping/returns: Which is best for an exchange request?",
+      "question": "I want to exchange this shirt because it doesn’t fit. I need…",
+      "options": ["an exchange", "a complaint about weather", "a second umbrella", "a new phone call"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0608_06",
+      "type": "mcq",
+      "prompt": "Restaurant dietary needs: Pick the correct sentence.",
+      "question": "Choose the correct way to say a restriction.",
+      "options": [
+        "I’m allergic to peanuts.",
+        "I like peanuts very much.",
+        "I can eat peanuts later.",
+        "Peanuts are very sunny."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0608_07",
+      "type": "mcq",
+      "prompt": "Health & lifestyle: Choose the best advice phrase.",
+      "question": "If someone is tired, you say:",
+      "options": ["You should sleep early.", "You should buy a shirt.", "You should go left always.", "You should speak to the weather."],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0608_08",
+      "type": "mcq",
+      "prompt": "Weather: prediction vs statement",
+      "question": "Choose the prediction: Tomorrow it ___ windy.",
+      "options": ["will be", "is be", "is", "was"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0608_09",
+      "type": "fill_blank",
+      "prompt": "Directions: Complete the sentence.",
+      "content": {
+        "sentence": "Walk ___ the bank and turn right.",
+        "options": ["past", "pass", "through", "across"],
+        "correct": "past"
+      }
+    },
+    {
+      "task_id": "t0608_10",
+      "type": "fill_blank",
+      "prompt": "Jobs: Complete the sentence.",
+      "content": {
+        "sentence": "Ravi is currently ___ a new schedule.",
+        "options": ["making", "doing", "taking", "creating"],
+        "correct": "making"
+      }
+    },
+    {
+      "task_id": "t0608_11",
+      "type": "sort_words",
+      "prompt": "Reorder: polite message sentence",
+      "scramble": ["please", "send", "me", "the", "address", "Could", "you"],
+      "answer": "Could you please send me the address?"
+    },
+    {
+      "task_id": "t0608_12",
+      "type": "sort_words",
+      "prompt": "Reorder: directions sentence",
+      "scramble": ["across", "street", "go", "the", "and", "cross"],
+      "answer": "Go across the street"
+    },
+    {
+      "task_id": "t0608_13",
+      "type": "match_pairs",
+      "prompt": "Match situations to the best response style.",
+      "pairs": [
+        { "left": "Lost and asking directions", "right": "Use Turn/Go/Take + landmarks" },
+        { "left": "Diet restriction at a restaurant", "right": "Use I’m allergic to… / I can’t eat…" },
+        { "left": "Need help on the phone", "right": "Use Could you… / Can you…?" },
+        { "left": "Now at work", "right": "Use I’m currently… / She is…" }
+      ]
+    },
+    {
+      "task_id": "t0608_14",
+      "type": "dialogue",
+      "prompt": "Final mixed dialogue (Unit 6). Read and answer.",
+      "dialogue": {
+        "setting": "Mumbai, outside a metro station and nearby café",
+        "turns": [
+          { "speaker": "Sonal", "text": "Hi Arjun! I have a message problem. Can you help me?" },
+          { "speaker": "Arjun", "text": "Sure. What happened?" },
+          { "speaker": "Sonal", "text": "My phone is not working. Could you call me back when you can?" },
+          { "speaker": "Arjun", "text": "Okay. Also, you look hungry. Are you going to the café?" },
+          { "speaker": "Sonal", "text": "Yes, but I’m allergic to peanuts. I can’t eat any peanuts." },
+          { "speaker": "Arjun", "text": "No problem. What about the route? The café is near the station." },
+          { "speaker": "Sonal", "text": "How do I get there from here?" },
+          { "speaker": "Arjun", "text": "Go straight for two minutes. Take the second right, and walk past the pharmacy." },
+          { "speaker": "Sonal", "text": "It’s raining now. Will it get worse?" },
+          { "speaker": "Arjun", "text": "I think it will stop soon. I’m going to wait here, and then we can go together." },
+          { "speaker": "Sonal", "text": "Great! Let’s meet inside after 10 minutes." }
+        ]
+      },
+      "comprehension_questions": [
+        { "question": "What does Sonal ask Arjun to do?", "expected_answer": "Call her back." },
+        { "question": "Why can’t Sonal eat peanuts?", "expected_answer": "She is allergic to peanuts." },
+        { "question": "What does Arjun say about the weather?", "expected_answer": "He thinks it will stop soon." }
+      ]
+    },
+    {
+      "task_id": "t0608_15",
+      "type": "error_correction",
+      "prompt": "Find and fix the mistake.",
+      "instruction": "Correct the sentence.",
+      "wrong_sentence": "I’m currently work on a new report.",
+      "correct_sentence": "I’m currently working on a new report."
+    },
+    {
+      "task_id": "t0608_16",
+      "type": "scenario_mcq",
+      "prompt": "Exit test: You want an exchange at a store. Choose best first line.",
+      "question": "What should you say?",
+      "options": [
+        "Hello, I want to make an exchange. It doesn’t fit.",
+        "Hello, where is the weather?",
+        "Hello, turn left at the receipt.",
+        "Hello, I’m currently sleeping now."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0608_17",
+      "type": "speaking",
+      "title": "Final Speaking Test: Part 1",
+      "prompt": "Ask for directions to a pharmacy. Give 2 direction steps and ask a confirmation question.",
+      "content": {
+        "instruction": "Speak for 60-80 seconds. Include: 1 request for directions, 2 steps using imperatives, and 1 confirmation question.",
+        "min_words": 95,
+        "example_response": "Excuse me, can you help me? I want to find a pharmacy near here. Go straight for two minutes. Then take the second right and walk past the bank. After that, go through the park. How far is it from here? Is it on the left?"
+      }
+    },
+    {
+      "task_id": "t0608_18",
+      "type": "speaking",
+      "title": "Final Speaking Test: Part 2",
+      "prompt": "Talk about your workplace, the current weather, and one dietary need. Speak for 60-80 seconds.",
+      "content": {
+        "instruction": "Include: workplace + present continuous, weather prediction, and a dietary restriction.",
+        "min_words": 100,
+        "example_response": "Hi! I work at a small office. Today I'm currently working on a report for my manager. Right now it's raining outside, so I'm staying inside. Also, I have a diet need: I'm allergic to peanuts, so I can't eat food with peanuts. If we go out later, we will choose a place with safe food."
+      }
+    },
+    {
+      "task_id": "t0608_19",
+      "type": "fill_blank",
+      "prompt": "Comprehensive multi-skill fill (fast check).",
+      "content": {
+        "sentence": "Complete: Could you ___ me back? I'm allergic ___ peanuts. Go straight ___ two minutes. It ___ rain tomorrow. I'm currently working ___ a new test case.",
+        "blanks": [
+          {"correct": "call", "options": ["call", "calls", "called", "calling"]},
+          {"correct": "to", "options": ["to", "of", "for", "at"]},
+          {"correct": "for", "options": ["for", "in", "at", "about"]},
+          {"correct": "will", "options": ["will", "is", "was", "can"]},
+          {"correct": "on", "options": ["on", "in", "at", "for"]}
+        ]
+      }
+    },
+    {
+      "task_id": "t0608_20",
+      "type": "lesson_summary",
+      "prompt": "Unit 6 summary + exit",
+      "content": {
+        "checklist": [
+          "I can handle basic phone/message requests.",
+          "I can shop and ask for size/returns changes.",
+          "I can express dietary needs and polite restaurant issues.",
+          "I can give and ask for directions.",
+          "I can talk about my job and what I’m doing now.",
+          "I can talk about weather with predictions and plans."
+        ]
+      }
+    }
+  ]
+}

@@ -15,13 +15,29 @@ export default function OnboardingPage() {
   const [finished, setFinished] = useState(false);
   const [descriptionText, setDescriptionText] = useState('');
   const [useTextInput, setUseTextInput] = useState(false);
+  const [authorized, setAuthorized] = useState(false);
   
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
 
   useEffect(() => {
-    fetchTest();
+    const token = localStorage.getItem('token') || localStorage.getItem('thingual_token');
+    const user = localStorage.getItem('thingual_user');
+    if (!token || !user) {
+      localStorage.removeItem('token');
+      localStorage.removeItem('thingual_token');
+      localStorage.removeItem('thingual_user');
+      window.location.href = '/';
+    } else {
+      setAuthorized(true);
+    }
   }, []);
+
+  useEffect(() => {
+    if (authorized) {
+      fetchTest();
+    }
+  }, [authorized]);
 
   const fetchTest = async () => {
     try {
@@ -111,6 +127,14 @@ export default function OnboardingPage() {
       setIsRecording(false);
     }
   };
+
+  if (!authorized) {
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#f8fafc', fontFamily: "'Inter', sans-serif" }}>
+        <div style={{ fontSize: '16px', fontWeight: 700, color: '#2563EB' }}>Verifying session…</div>
+      </div>
+    );
+  }
 
   if (isLoading) return <div className="onboarding-container">Loading your personalized test...</div>;
 

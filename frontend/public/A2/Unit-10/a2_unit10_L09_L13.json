@@ -1,0 +1,1642 @@
+{
+  "unit": 10,
+  "level": "A2",
+  "title": "Future, plans & communication",
+  "lesson_range": "9-13",
+  "lessons": [
+
+    {
+      "lesson_id": "a2_unit10_lesson09",
+      "unit": 10,
+      "lesson_number": 9,
+      "level": "A2",
+      "title": "Making appointments",
+      "description": "Learn how to suggest, accept, decline, and confirm appointments — by phone, email, and in conversation.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1009_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Suggesting a time — language for making appointments",
+            "body": "When making an appointment, you suggest a time and check if the other person is free.\n\nSuggesting:\n• Are you free on Tuesday at 3 PM?\n• Would Wednesday morning work for you?\n• How does Thursday afternoon suit you?\n• Shall we say 2 o'clock on Friday?\n• Could we meet sometime next week?\n\nAccepting:\n• Yes, that works for me.\n• Tuesday at 3 is perfect.\n• That suits me well.\n• I'll put it in my calendar.\n\nDeclining politely:\n• I'm afraid I'm not free then.\n• That doesn't work for me — could we try another time?\n• I'm busy that morning — would afternoon be possible?",
+            "grammar_note": "Use WOULD/COULD for polite suggestions\n'Shall we say...' = very natural for appointments\n'I'm afraid...' = polite way to decline"
+          }
+        },
+        {
+          "task_id": "t1009_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Confirming and checking appointment details",
+            "body": "After agreeing a time, always confirm the details clearly.\n\nConfirming:\n• So, we're meeting on Tuesday at 3 PM — is that correct?\n• Just to confirm — the appointment is on Friday at 10 AM.\n• I'll send you a calendar invite to confirm.\n• Can I just double-check the venue?\n\nChecking details:\n• Where exactly are we meeting?\n• Is it at your office or mine?\n• Should I call you or will you call me?\n• What's the address?\n\nReminding:\n• Just a reminder about our meeting tomorrow at 2 PM.\n• Don't forget — we're meeting on Thursday!",
+            "grammar_note": "'Just to confirm...' = polite way to double check\n'Just a reminder...' = gentle notification"
+          }
+        },
+        {
+          "task_id": "t1009_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Appointments and scheduling",
+            "vocabulary": [
+              {"word": "slot", "meaning": "a fixed time period for an appointment", "example": "There's a slot available at 4 PM."},
+              {"word": "availability", "meaning": "the times when you are free", "example": "What's your availability next week?"},
+              {"word": "confirm", "meaning": "to make something officially definite", "example": "Please confirm the appointment by email."},
+              {"word": "double-check", "meaning": "to check something again to be sure", "example": "Let me double-check the time."},
+              {"word": "mutual", "meaning": "agreed or shared by both people", "example": "We need to find a mutually convenient time."},
+              {"word": "in advance", "meaning": "before the time of the appointment", "example": "Please book at least 24 hours in advance."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l9_listen",
+            "sentences": [
+              "Are you free for a meeting on Wednesday at 11 AM?",
+              "That works perfectly for me — I'll put it in my calendar.",
+              "I'm afraid I'm busy that morning — would afternoon be possible?",
+              "Just to confirm — we're meeting on Friday at 2 PM at your office.",
+              "Could we reschedule? Something urgent has come up."
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Priya wants to suggest a meeting time to a client. Which is the most professional way?",
+            "options": [
+              "Can you come at 3?",
+              "Meet me on Tuesday.",
+              "Would Tuesday at 3 PM suit you?",
+              "I need you at 3 PM Tuesday."
+            ],
+            "correct": "Would Tuesday at 3 PM suit you?",
+            "explanation": "'Would...suit you?' is polite and professional — it puts the other person's convenience first."
+          }
+        },
+        {
+          "task_id": "t1009_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "The suggested time doesn't work for Arjun. How does he politely decline?",
+            "options": [
+              "No. That's bad for me.",
+              "I'm afraid that time doesn't work for me — would Thursday be possible instead?",
+              "I can't. Try again.",
+              "That's wrong for me."
+            ],
+            "correct": "I'm afraid that time doesn't work for me — would Thursday be possible instead?",
+            "explanation": "'I'm afraid...' softens the refusal. Suggesting an alternative shows you still want to meet."
+          }
+        },
+        {
+          "task_id": "t1009_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "After agreeing on a time, Meera wants to confirm. Which is correct?",
+            "options": [
+              "So we are meeting, yes?",
+              "Just to confirm — we're meeting at your office on Monday at 10 AM.",
+              "Meeting confirmed, bye.",
+              "Monday 10 AM, my office, okay?"
+            ],
+            "correct": "Just to confirm — we're meeting at your office on Monday at 10 AM.",
+            "explanation": "'Just to confirm...' is the standard professional way to check all details before ending the conversation."
+          }
+        },
+        {
+          "task_id": "t1009_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Which phrase is most appropriate to send the day before an appointment?",
+            "options": [
+              "Don't forget our meeting tomorrow.",
+              "Just a gentle reminder about our meeting tomorrow at 2 PM. See you then!",
+              "You have to come tomorrow at 2.",
+              "Meeting is tomorrow. Be there."
+            ],
+            "correct": "Just a gentle reminder about our meeting tomorrow at 2 PM. See you then!",
+            "explanation": "'Just a gentle reminder' is polite and friendly — perfect for professional reminders."
+          }
+        },
+        {
+          "task_id": "t1009_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill the gaps to complete the appointment conversation.",
+            "sentences": [
+              {"text": "A: ___ you free on Thursday afternoon? B: Yes, that ___ perfectly.", "answer": "Are / works"},
+              {"text": "A: Shall we ___ 3 PM? B: 3 PM works — I'll ___ it in my diary.", "answer": "say / put"},
+              {"text": "A: Just ___ confirm — your office on Thursday at 3? B: That's correct — see you then.", "answer": "to"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete the appointment email with correct phrases.",
+            "sentences": [
+              {"text": "I am writing to ___ a meeting to discuss the project timeline.", "answer": "request / suggest / arrange"},
+              {"text": "Would ___ afternoon suit you, or would you prefer morning?", "answer": "Thursday / Wednesday / Tuesday [any day]"},
+              {"text": "Please ___ me know your availability and I will send a calendar invite.", "answer": "let"},
+              {"text": "I look forward to ___ from you.", "answer": "hearing"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a polite appointment suggestion.",
+            "words": ["suit", "Would", "3", "PM", "you", "Friday", "at"],
+            "answer": "Would Friday at 3 PM suit you?"
+          }
+        },
+        {
+          "task_id": "t1009_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into an appointment confirmation sentence.",
+            "words": ["confirm", "meeting", "Monday", "10", "AM", "we're", "at", "Just", "to"],
+            "answer": "Just to confirm — we're meeting on Monday at 10 AM."
+          }
+        },
+        {
+          "task_id": "t1009_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the situation to the correct appointment phrase.",
+            "pairs": [
+              {"left": "Suggesting a time", "right": "Would Tuesday at 2 PM suit you?"},
+              {"left": "Accepting an appointment", "right": "That works perfectly — I'll add it to my calendar."},
+              {"left": "Politely declining", "right": "I'm afraid that time doesn't work — could we try Wednesday?"},
+              {"left": "Confirming details", "right": "Just to confirm — your office, Monday at 10?"},
+              {"left": "Sending a reminder", "right": "Just a reminder about our meeting tomorrow at 3 PM."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Booking a client meeting — advertising agency, Mumbai",
+            "setting": "Sonal from an advertising agency is calling a potential client, Mr Nair, to arrange a meeting.",
+            "dialogue": [
+              {"speaker": "Sonal", "text": "Good morning, Mr Nair. This is Sonal Mehta from Creative Spark Agency. I hope I'm not disturbing you."},
+              {"speaker": "Mr Nair", "text": "Not at all, Sonal. Good morning. What can I do for you?"},
+              {"speaker": "Sonal", "text": "I was hoping we could arrange a meeting to present our campaign proposal. Would you have some time this week?"},
+              {"speaker": "Mr Nair", "text": "This week is quite tight. Would next week be possible?"},
+              {"speaker": "Sonal", "text": "Of course. Would Tuesday afternoon suit you? Say, around 3 PM?"},
+              {"speaker": "Mr Nair", "text": "Tuesday at 3 — let me just check. I'm afraid I have a board meeting until 4 on Tuesday. Would Wednesday work instead?"},
+              {"speaker": "Sonal", "text": "Wednesday is perfect. What time suits you best?"},
+              {"speaker": "Mr Nair", "text": "How about 11 AM? I'm usually free in the mornings."},
+              {"speaker": "Sonal", "text": "Wednesday at 11 AM works very well. Should we meet at your office or would you prefer our office?"},
+              {"speaker": "Mr Nair", "text": "Let's do your office — I'd like to see your setup."},
+              {"speaker": "Sonal", "text": "Wonderful! We're at Creative Spark, 4th floor, Bandra Kurla Complex. I'll send you the exact address and a calendar invite."},
+              {"speaker": "Mr Nair", "text": "Perfect. Just to confirm — Wednesday the 12th, 11 AM, your office?"},
+              {"speaker": "Sonal", "text": "That's exactly right. I'll send a confirmation email shortly. We look forward to seeing you, Mr Nair!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "Why can't Mr Nair meet on Tuesday at 3 PM?",
+                "options": ["He is travelling.", "He has a board meeting until 4 PM.", "He is on holiday.", "He doesn't work on Tuesdays."],
+                "correct": "He has a board meeting until 4 PM."
+              },
+              {
+                "question": "What time and day did they agree on?",
+                "options": ["Tuesday at 3 PM", "Wednesday at 11 AM", "Thursday at 10 AM", "Friday at 2 PM"],
+                "correct": "Wednesday at 11 AM"
+              },
+              {
+                "question": "Where will the meeting take place?",
+                "options": ["Mr Nair's office", "Sonal's office at Bandra Kurla Complex", "A coffee shop", "Online via video call"],
+                "correct": "Sonal's office at Bandra Kurla Complex"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "Would Friday at 3 PM suits you?",
+                "correct": "Would Friday at 3 PM suit you?",
+                "explanation": "After WOULD: base verb without 's'. 'Suit', not 'suits'."
+              },
+              {
+                "wrong": "I afraid I'm not free on Tuesday.",
+                "correct": "I'm afraid I'm not free on Tuesday.",
+                "explanation": "'I'm afraid' — needs the contraction or full form: 'I am afraid'. 'I afraid' is incorrect."
+              },
+              {
+                "wrong": "Just for confirm — we meet at 10 AM?",
+                "correct": "Just to confirm — we're meeting at 10 AM?",
+                "explanation": "'Just to confirm' — use 'to', not 'for'. Also 'we're meeting' (present continuous for arranged plan)."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1009_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You have a phone call with a doctor's clinic to book an appointment. The receptionist says Tuesday at 9 AM or Thursday at 4 PM are available. You prefer Thursday but want to confirm. What do you say?",
+            "options": [
+              "Thursday is fine. Bye.",
+              "Thursday 4 PM works for me. Could you confirm the address and what I need to bring?",
+              "I want 4 PM Thursday.",
+              "Give me Thursday."
+            ],
+            "correct": "Thursday 4 PM works for me. Could you confirm the address and what I need to bring?",
+            "explanation": "Accept politely + ask for relevant details. This is natural, professional appointment language."
+          }
+        },
+        {
+          "task_id": "t1009_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Role-play making an appointment. You are calling a dentist's clinic to book an appointment for next week. Suggest a time, check availability, and confirm the details.",
+            "prompt": "Speak through a full appointment-booking phone call with a dentist's receptionist. Cover: greeting, purpose, time suggestion, confirmation.",
+            "example_response": "Good morning! I'd like to book an appointment with Dr Kavitha for next week if possible. I have a toothache that's been bothering me for a couple of days. Which days are available? Great — would Wednesday afternoon suit? Say around 3 or 4 PM? Oh, 3 PM is taken but 4:30 is free — 4:30 PM Wednesday works perfectly for me. Can I just confirm a few things? The clinic is still at the same address on Anna Salai, correct? And is there anything I need to bring — like my previous X-rays? Perfect. And is there a parking space nearby? Great, thank you. So just to confirm — Dr Kavitha, Wednesday the 14th at 4:30 PM. I'll be there. Should I call if anything changes? Wonderful. Thank you so much for your help!",
+            "key_phrases": ["I'd like to book", "Would [day] suit?", "That works for me", "Just to confirm", "Is there anything I need to bring?"],
+            "min_words": 90
+          }
+        },
+        {
+          "task_id": "t1009_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "You need to arrange a meeting with a colleague to work on a shared project. Both of you are very busy. Describe negotiating a time — offer 3 time options, respond to rejections, and finally confirm a time.",
+            "prompt": "Role-play scheduling a meeting with a busy colleague. Show negotiation of time, polite decline, suggestion, and confirmation.",
+            "example_response": "Hi Meera, I wanted to check if we could find a time to work on the Q4 presentation together. I know we're both quite busy but this needs to get done. Would Monday morning work for you — maybe 10 or 11 AM? Oh, you have a client call then — okay, no problem. What about Tuesday afternoon? Around 2 or 3 PM? You're travelling on Tuesday — right. How about Thursday? I'm mostly free on Thursday. Morning or afternoon — whatever suits you. Thursday at 2 PM works for you? Perfect! So Thursday the 17th at 2 PM — shall we meet in the large meeting room? The one by the pantry? Yes, that's free as far as I know. Let me book it now. So just to confirm — Thursday 17th, 2 PM, Meeting Room 2. I'll send a calendar invite with the agenda. See you then!",
+            "key_phrases": ["Would [time] work?", "I'm afraid I'm busy then", "What about...", "That works perfectly", "Just to confirm", "I'll send a calendar invite"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1009_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this appointment-scheduling email.",
+            "text": "Subject: Meeting Request — Project Alpha Review\n\nDear Priya,\n\nI am ___ (1) to request a meeting to review the progress on Project Alpha.\n\n___ (2) Wednesday the 19th at 2 PM ___ (3) you? Alternatively, I am also ___ (4) on Thursday morning between 10 AM and 12 PM.\n\nThe meeting should take ___ (5) 45 minutes. We could meet at the ___ (6) floor meeting room or online — whichever is more ___ (7) for you.\n\nCould you please let me know your ___ (8) at your earliest convenience? I will then send a calendar ___ (9) to confirm.\n\nKind ___ (10),\nArjun",
+            "answers": ["writing", "Would", "suit", "available", "approximately / roughly", "second [or any floor]", "convenient", "availability", "invite / invitation", "regards"]
+          }
+        },
+        {
+          "task_id": "t1009_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 9 complete — Making appointments",
+            "key_points": [
+              "Suggest: 'Would [day/time] suit you?' / 'Are you free on...?'",
+              "Accept: 'That works perfectly.' / 'I'll put it in my calendar.'",
+              "Decline politely: 'I'm afraid I'm busy then — could we try...?'",
+              "Confirm: 'Just to confirm — [day, time, place]'",
+              "Remind: 'Just a gentle reminder about our meeting tomorrow.'",
+              "After WOULD: base verb — 'Would it suit you?' not 'suits'"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Changing and cancelling plans"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson10",
+      "unit": 10,
+      "lesson_number": 10,
+      "level": "A2",
+      "title": "Changing and cancelling plans",
+      "description": "Learn how to apologise for cancellations, explain reasons, and suggest new times — politely and naturally.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1010_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Cancelling plans — what to say",
+            "body": "When cancelling, you need three things:\n1. Apology — I'm so sorry / I apologise\n2. Reason — something has come up / I'm unwell\n3. Offer to reschedule — can we find another time?\n\nFormal cancellation:\n• I am writing to cancel our appointment on Friday.\n• I sincerely apologise for the inconvenience.\n• I wonder if we could reschedule for the following week.\n\nInformal cancellation:\n• Hey, I'm really sorry but I have to cancel tomorrow.\n• Something came up — can we move it?\n• So sorry! Can we do it next week instead?",
+            "grammar_note": "'Something came up' = an unexpected problem appeared\n'I wonder if we could...' = very polite way to suggest"
+          }
+        },
+        {
+          "task_id": "t1010_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Changing plans — rescheduling language",
+            "body": "When you need to change (not cancel) a plan:\n\n• Could we move the meeting to Thursday instead?\n• Would it be possible to push it back by an hour?\n• I need to bring it forward — could we meet earlier?\n• Can we reschedule for next week?\n• Would you mind if we changed the time?\n\nKey vocabulary:\n• Reschedule = arrange for a different time\n• Push back = move to a later time\n• Bring forward = move to an earlier time\n• Move = change to a different time\n• Postpone = delay to a later date",
+            "grammar_note": "'Push back' = later\n'Bring forward' = earlier\nThese are opposite phrasal verbs — easy to confuse!"
+          }
+        },
+        {
+          "task_id": "t1010_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Apologies and changes",
+            "vocabulary": [
+              {"word": "reschedule", "meaning": "to arrange a new time for something", "example": "Can we reschedule for Friday?"},
+              {"word": "postpone", "meaning": "to delay to a later time", "example": "The meeting has been postponed to next week."},
+              {"word": "urgent", "meaning": "very important and needs immediate attention", "example": "Something urgent has come up."},
+              {"word": "inconvenience", "meaning": "trouble caused to someone", "example": "I apologise for any inconvenience."},
+              {"word": "unavailable", "meaning": "not free, not able to attend", "example": "I'm afraid I'm unavailable that day."},
+              {"word": "prior", "meaning": "existing before something else", "example": "I have a prior commitment on that day."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l10_listen",
+            "sentences": [
+              "I'm really sorry but I need to cancel tomorrow's meeting.",
+              "Something urgent has come up — could we reschedule?",
+              "I apologise for the short notice.",
+              "Would it be possible to push the meeting back to 4 PM?",
+              "I'm afraid I have a prior commitment — can we move it to next week?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Ravi needs to cancel a formal business meeting due to illness. Which response is best?",
+            "options": [
+              "I can't come. I'm sick.",
+              "I am writing to cancel tomorrow's meeting. I am unfortunately unwell and unable to attend. I sincerely apologise and would like to reschedule at your earliest convenience.",
+              "Sorry, not coming.",
+              "Meeting cancelled. Sick today."
+            ],
+            "correct": "I am writing to cancel tomorrow's meeting. I am unfortunately unwell and unable to attend. I sincerely apologise and would like to reschedule at your earliest convenience.",
+            "explanation": "Formal cancellation = full explanation, clear apology, and offer to reschedule."
+          }
+        },
+        {
+          "task_id": "t1010_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "The meeting is at 2 PM but Priya needs it 30 minutes later. What does she say?",
+            "options": [
+              "Could we push the meeting back to 2:30?",
+              "Could we bring the meeting forward to 1:30?",
+              "Can we cancel the meeting?",
+              "Move meeting earlier please."
+            ],
+            "correct": "Could we push the meeting back to 2:30?",
+            "explanation": "PUSH BACK = move to a later time. 2:30 is later than 2:00, so 'push back' is correct."
+          }
+        },
+        {
+          "task_id": "t1010_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "A meeting is planned for Friday but needs to move to Wednesday (earlier in the week). What do you say?",
+            "options": [
+              "Could we push the meeting back to Wednesday?",
+              "Could we bring the meeting forward to Wednesday?",
+              "Could we postpone to Wednesday?",
+              "Can we delay to Wednesday?"
+            ],
+            "correct": "Could we bring the meeting forward to Wednesday?",
+            "explanation": "BRING FORWARD = move to an earlier time/date. Wednesday is earlier in the week than Friday."
+          }
+        },
+        {
+          "task_id": "t1010_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Your friend texts: 'Something came up — can we do Saturday instead of Friday?' What does this mean?",
+            "options": [
+              "They want to cancel completely.",
+              "They want to meet on Friday and Saturday.",
+              "An unexpected thing happened — they want to reschedule from Friday to Saturday.",
+              "They are free on both Friday and Saturday."
+            ],
+            "correct": "An unexpected thing happened — they want to reschedule from Friday to Saturday.",
+            "explanation": "'Something came up' = an unexpected event occurred. They want to move, not cancel."
+          }
+        },
+        {
+          "task_id": "t1010_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the gaps with the correct cancellation/rescheduling phrase.",
+            "sentences": [
+              {"text": "I'm afraid I need to ___ our meeting — could we find a new time?", "answer": "cancel / reschedule"},
+              {"text": "I ___ for any inconvenience this may cause.", "answer": "apologise"},
+              {"text": "Something ___ up — I won't be able to make it tomorrow.", "answer": "came"},
+              {"text": "Could we ___ the meeting ___ by an hour? (push/back)", "answer": "push / back"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "PUSH BACK or BRING FORWARD? Fill in correctly.",
+            "sentences": [
+              {"text": "The meeting is at 4 PM but I need it at 5 PM. Can we ___ it ___?", "answer": "push / back"},
+              {"text": "The event is on Friday but we want it on Wednesday. Can we ___ it ___?", "answer": "bring / forward"},
+              {"text": "The deadline is Sunday. The client wants it Saturday. They want us to ___ it ___.", "answer": "bring / forward"},
+              {"text": "I can't make the 10 AM slot — can we ___ it ___ to 11?", "answer": "push / back"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a polite cancellation message.",
+            "words": ["sorry", "I'm", "cancel", "to", "have", "meeting", "tomorrow's", "I", "but"],
+            "answer": "I'm sorry but I have to cancel tomorrow's meeting."
+          }
+        },
+        {
+          "task_id": "t1010_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a rescheduling request.",
+            "words": ["we", "possible", "Would", "reschedule", "it", "be", "next", "to", "week", "for"]  ,
+            "answer": "Would it be possible to reschedule it for next week?"
+          }
+        },
+        {
+          "task_id": "t1010_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the situation to the correct phrase.",
+            "pairs": [
+              {"left": "Move to a later time today", "right": "Could we push it back by an hour?"},
+              {"left": "Move to an earlier date", "right": "Could we bring it forward to Tuesday?"},
+              {"left": "Cancel with apology", "right": "I sincerely apologise — I need to cancel."},
+              {"left": "Unexpected problem arose", "right": "Something urgent has come up."},
+              {"left": "Offer to meet again", "right": "Could we find another time that suits you?"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Cancelling a job interview — Bangalore",
+            "setting": "Kavya had a job interview scheduled. She needs to reschedule because of a family emergency.",
+            "dialogue": [
+              {"speaker": "HR Manager", "text": "Hello, this is Deepa from TechNova HR. Am I speaking with Kavya Iyer?"},
+              {"speaker": "Kavya", "text": "Yes, good morning. Thank you for calling."},
+              {"speaker": "HR Manager", "text": "I'm calling to confirm your interview tomorrow at 10 AM. Are you all set?"},
+              {"speaker": "Kavya", "text": "I'm actually very glad you called. I need to speak with you about that. I'm afraid I'm unable to attend tomorrow — I have a family emergency."},
+              {"speaker": "HR Manager", "text": "I'm sorry to hear that. Is everything alright?"},
+              {"speaker": "Kavya", "text": "It's a medical situation with my mother — she needs to be taken to the hospital. I sincerely apologise for such short notice."},
+              {"speaker": "HR Manager", "text": "Please don't worry — family comes first. Would you like to reschedule?"},
+              {"speaker": "Kavya", "text": "I absolutely would — I'm very keen on this opportunity. Would it be possible to reschedule for later this week or early next week?"},
+              {"speaker": "HR Manager", "text": "Let me check. We have Thursday at 2 PM — would that work?"},
+              {"speaker": "Kavya", "text": "Thursday at 2 PM works perfectly. Thank you so much for being so understanding."},
+              {"speaker": "HR Manager", "text": "No problem at all. I'll send a confirmation email shortly. I hope your mother recovers quickly."},
+              {"speaker": "Kavya", "text": "Thank you — that's very kind. I look forward to Thursday. Good morning!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "Why does Kavya need to cancel?",
+                "options": ["She forgot about the interview.", "She has a family medical emergency.", "She got another job offer.", "She is travelling abroad."],
+                "correct": "She has a family medical emergency."
+              },
+              {
+                "question": "What does Kavya say to show she still wants the job?",
+                "options": [
+                  "She says she is very busy.",
+                  "She says she is very keen on this opportunity.",
+                  "She says the interview is too early.",
+                  "She says she will call back."
+                ],
+                "correct": "She says she is very keen on this opportunity."
+              },
+              {
+                "question": "When is the rescheduled interview?",
+                "options": ["Wednesday at 10 AM", "Thursday at 2 PM", "Friday at 11 AM", "Monday at 3 PM"],
+                "correct": "Thursday at 2 PM"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "I want to postpone meeting to next week.",
+                "correct": "I would like to postpone the meeting to next week.",
+                "explanation": "Needs article 'the' before meeting. Also 'would like' is more polite than 'want'."
+              },
+              {
+                "wrong": "Could we push forward the meeting by an hour?",
+                "correct": "Could we push back the meeting by an hour?",
+                "explanation": "PUSH FORWARD is not standard. PUSH BACK = later time. BRING FORWARD = earlier time."
+              },
+              {
+                "wrong": "I apologise the short notice.",
+                "correct": "I apologise for the short notice.",
+                "explanation": "APOLOGISE FOR — always use 'for' after 'apologise'."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1010_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You agreed to meet a client at 3 PM. It's now 2:45 and you're stuck in traffic. You realise you'll be 20 minutes late. What do you text?",
+            "options": [
+              "Coming late.",
+              "I'm stuck in traffic and running about 20 minutes behind schedule. I sincerely apologise — I'll be there by 3:20. So sorry for the inconvenience.",
+              "Traffic bad. Will come.",
+              "Late! Traffic!!!"
+            ],
+            "correct": "I'm stuck in traffic and running about 20 minutes behind schedule. I sincerely apologise — I'll be there by 3:20. So sorry for the inconvenience.",
+            "explanation": "Even for a text to a client, a brief but clear apology + specific time is professional and respectful."
+          }
+        },
+        {
+          "task_id": "t1010_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "You need to cancel a dinner plan with a friend at the last minute. Call them. Apologise, explain the reason, and suggest a new time.",
+            "prompt": "Role-play cancelling plans with a friend — give a genuine reason and suggest rescheduling.",
+            "example_response": "Hey Meera! I'm so sorry to call like this, but I have to cancel dinner tonight. I know it's last minute and I feel terrible about it. My younger brother just called and he's had a bit of an accident — nothing serious, thankfully, but I need to take him to the hospital for a check-up and I'm not sure how long it'll take. I really was looking forward to tonight. Can we please reschedule? How about this Saturday? I know that amazing biryani place you mentioned is open for dinner on Saturdays — I'd love to try it. I'll make it up to you, I promise! Again, I'm so sorry — I hope you understand. I'll call you tomorrow to confirm Saturday.",
+            "key_phrases": ["I'm so sorry", "I have to cancel", "Can we reschedule?", "How about...?", "I'll make it up to you"],
+            "min_words": 90
+          }
+        },
+        {
+          "task_id": "t1010_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Write and say a formal email cancelling a business meeting. You must include: a clear subject line, apology, reason, and offer to reschedule.",
+            "prompt": "Dictate a formal email cancelling a meeting with a business partner. Include all required elements.",
+            "example_response": "Subject: Cancellation of Meeting — 14th October\n\nDear Mr Sharma,\n\nI am writing to inform you that I am unfortunately unable to attend our meeting scheduled for Tuesday, 14th October at 2 PM.\n\nDue to an urgent internal matter that requires my immediate attention, I must cancel this appointment. I sincerely apologise for the inconvenience this may cause, particularly given the short notice.\n\nI remain very keen to meet and discuss the proposal. I wonder if we could reschedule for the following week? I am available on Tuesday 21st or Wednesday 22nd, at any time that suits you.\n\nOnce again, I apologise for this change of plan and I thank you for your understanding. I look forward to your response.\n\nKind regards,\nArjun Mehta",
+            "key_phrases": ["I am writing to inform you", "I sincerely apologise", "I wonder if we could reschedule", "I remain keen to meet"],
+            "min_words": 110
+          }
+        },
+        {
+          "task_id": "t1010_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this rescheduling conversation.",
+            "text": "Priya: Hi Ravi, I'm ___ (1) sorry but I need to ___ (2) our meeting this afternoon.\nRavi: Oh no — is everything okay?\nPriya: Yes — something ___ (3) up at work. A client emergency. I ___ (4) for the short notice.\nRavi: No worries at all. Would you like to ___ (5) for later this week?\nPriya: That would be great. Could we ___ (6) it ___ (7) to tomorrow at the same time?\nRavi: Tomorrow at 3 PM works for me. ___ (8) to confirm — tomorrow, Thursday, 3 PM at the coffee shop?\nPriya: Exactly right. Thank you so much for being so ___ (9). See you then!\nRavi: See you tomorrow. Hope the client situation gets sorted ___ (10)!",
+            "answers": ["really", "cancel", "came", "apologise", "reschedule", "push", "back", "Just", "understanding", "soon"]
+          }
+        },
+        {
+          "task_id": "t1010_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 10 complete — Changing and cancelling plans",
+            "key_points": [
+              "Cancellation = apology + reason + offer to reschedule",
+              "'Something came up' = unexpected event",
+              "PUSH BACK = later time; BRING FORWARD = earlier time",
+              "POSTPONE = delay to a later date",
+              "'I apologise FOR...' — always use 'for'",
+              "Formal cancellations need full sentences; informal can be briefer but still warm"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Giving directions in writing"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson11",
+      "unit": 10,
+      "lesson_number": 11,
+      "level": "A2",
+      "title": "Giving directions in writing",
+      "description": "Write clear directions in emails and messages using imperative verbs, prepositions of movement, and landmark language.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1011_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Imperatives for directions",
+            "body": "When giving written directions, use IMPERATIVE verbs — the base form of the verb.\n\nBasic direction verbs:\n• Turn left / Turn right\n• Go straight ahead / Continue straight\n• Take the first / second / third turning\n• Cross the road / cross at the signal\n• Go past the temple / go past the petrol station\n• Walk along the main road\n• Go through the gate / through the underpass\n• Head towards the flyover\n• Keep going until you reach...\n• You will see... / You can't miss it!\n\nDistance and time:\n• It's about 200 metres / about 5 minutes on foot.",
+            "grammar_note": "Imperatives use base verb — no subject needed\n'Turn left' NOT 'You should turn left' (though both are possible)\nWritten directions use numbers: 'Take the 2nd right'"
+          }
+        },
+        {
+          "task_id": "t1011_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Prepositions of movement",
+            "body": "These prepositions describe how you move through space:\n\n• ALONG — move in the same direction as a road\n  'Walk along MG Road for 200 metres.'\n\n• PAST — go further than a landmark without stopping\n  'Go past the Apollo hospital.'\n\n• THROUGH — move from one side to the other\n  'Go through the main gate.'\n\n• ACROSS — cross from one side to the other\n  'Walk across the bridge.'\n\n• TOWARDS — in the direction of something\n  'Head towards the railway station.'\n\n• INTO — enter a place\n  'Turn into the lane on your left.'",
+            "grammar_note": "along = direction\npast = movement beyond a point\nthrough = from side to side\nacross = from one side to the other"
+          }
+        },
+        {
+          "task_id": "t1011_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Landmarks and location words",
+            "vocabulary": [
+              {"word": "landmark", "meaning": "a well-known place used as a reference point", "example": "The temple is a useful landmark."},
+              {"word": "junction", "meaning": "where two or more roads meet", "example": "Turn left at the junction."},
+              {"word": "flyover", "meaning": "a bridge that goes over a road", "example": "Go under the flyover and take a right."},
+              {"word": "roundabout", "meaning": "a circular junction", "example": "At the roundabout, take the third exit."},
+              {"word": "opposite", "meaning": "directly across from something", "example": "We're opposite the post office."},
+              {"word": "adjacent", "meaning": "next to, beside", "example": "The parking is adjacent to the building."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l11_listen",
+            "sentences": [
+              "Walk along the main road for about 300 metres.",
+              "Turn left at the traffic signal near the petrol station.",
+              "Go past the bus stand and take the second right.",
+              "Go through the gate — the office is on the ground floor.",
+              "You can't miss it — it's a large blue building on the corner."
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Which preposition correctly completes: 'Walk ___ the bridge and turn right.'?",
+            "options": ["along", "past", "across", "into"],
+            "correct": "across",
+            "explanation": "ACROSS = move from one side to the other. A bridge goes across water — you walk 'across' it."
+          }
+        },
+        {
+          "task_id": "t1011_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Which sentence gives the clearest written direction?",
+            "options": [
+              "It's somewhere near a temple, I think.",
+              "Take the second left after the petrol station — the building is on your right, opposite the post office.",
+              "You'll find it if you look.",
+              "Near the temple, go somewhere and then right."
+            ],
+            "correct": "Take the second left after the petrol station — the building is on your right, opposite the post office.",
+            "explanation": "Good written directions: specific landmarks + numbered turns + final location."
+          }
+        },
+        {
+          "task_id": "t1011_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Complete: 'Go ___ the main road until you reach the railway station.'",
+            "options": ["past", "through", "along", "across"],
+            "correct": "along",
+            "explanation": "ALONG = travel in the same direction as a road. You go 'along' a road."
+          }
+        },
+        {
+          "task_id": "t1011_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What does 'You can't miss it!' mean in directions?",
+            "options": [
+              "The place is very far away.",
+              "The place is hidden and hard to find.",
+              "The place is very obvious and easy to spot.",
+              "You must not go there."
+            ],
+            "correct": "The place is very obvious and easy to spot.",
+            "explanation": "'You can't miss it!' = it's very visible and easy to find — a common reassurance in directions."
+          }
+        },
+        {
+          "task_id": "t1011_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the correct preposition of movement.",
+            "sentences": [
+              {"text": "Walk ___ the bridge to get to the other side of the river.", "answer": "across"},
+              {"text": "Go ___ the school — don't stop — keep walking till the next signal.", "answer": "past"},
+              {"text": "Head ___ the hospital and then turn right.", "answer": "towards"},
+              {"text": "Walk ___ Anna Salai for about 500 metres.", "answer": "along"},
+              {"text": "Go ___ the main gate and the reception is straight ahead.", "answer": "through"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete these written directions to a restaurant.",
+            "sentences": [
+              {"text": "From the metro station, ___ (exit/walk) through the north exit.", "answer": "walk"},
+              {"text": "Turn ___ at the first signal.", "answer": "left / right"},
+              {"text": "Go ___ the petrol station — don't turn there.", "answer": "past"},
+              {"text": "___ along that road for about 200 metres.", "answer": "Walk / Continue"},
+              {"text": "The restaurant is on the ___ side, opposite a green park.", "answer": "left / right"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a written direction.",
+            "words": ["the", "Take", "turning", "at", "signal", "second", "right", "the"],
+            "answer": "Take the second right at the signal."
+          }
+        },
+        {
+          "task_id": "t1011_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a landmark-based direction.",
+            "words": ["the", "Go", "hospital", "past", "left", "take", "and", "then"],
+            "answer": "Go past the hospital and then take a left."
+          }
+        },
+        {
+          "task_id": "t1011_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the direction instruction to the preposition of movement.",
+            "pairs": [
+              {"left": "Move in the same direction as the road", "right": "Walk along"},
+              {"left": "Go further than the temple without stopping", "right": "Go past the temple"},
+              {"left": "Enter from one side and exit the other", "right": "Go through"},
+              {"left": "Move from one side to the other (bridge/road)", "right": "Walk across"},
+              {"left": "Face in the direction of something", "right": "Head towards"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Sending directions in a message — Chennai",
+            "setting": "Priya is hosting a housewarming party. Her friend Ankit from out of town asks for directions from Chennai Central station to her flat.",
+            "dialogue": [
+              {"speaker": "Ankit", "text": "Priya! So excited about the housewarming. Can you send me directions from Chennai Central? I'll be coming by auto."},
+              {"speaker": "Priya", "text": "Of course! So from Chennai Central, tell the auto driver to go towards Anna Salai — that's the main road."},
+              {"speaker": "Ankit", "text": "Okay, Anna Salai. Then?"},
+              {"speaker": "Priya", "text": "Go along Anna Salai past the LIC building — it's a big tall building, you can't miss it. Keep going for about a kilometre."},
+              {"speaker": "Ankit", "text": "Got it. After LIC building?"},
+              {"speaker": "Priya", "text": "After that, you'll see a big signal at the junction with a petrol station on the left. Turn left there."},
+              {"speaker": "Ankit", "text": "Turn left at the petrol station signal. Okay!"},
+              {"speaker": "Priya", "text": "Then go straight along that road — go past a small temple on the right, then cross the small bridge over the canal."},
+              {"speaker": "Ankit", "text": "Temple on the right, then across the bridge."},
+              {"speaker": "Priya", "text": "After the bridge, take the first right — it's a narrow lane. Go through the gate at the end — our building is called 'Sai Krupa Apartments'."},
+              {"speaker": "Ankit", "text": "Sai Krupa Apartments — got it. What floor?"},
+              {"speaker": "Priya", "text": "Third floor, flat 3B. The lift is right opposite the entrance. Total distance from the station is about 4 kilometres — maybe 15 minutes by auto."},
+              {"speaker": "Ankit", "text": "Perfect! Should I save your number in case I get lost?"},
+              {"speaker": "Priya", "text": "Yes! And I'll send you the Google Maps pin too — just in case. See you Saturday!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What road does Priya tell Ankit to go towards first?",
+                "options": ["Mount Road", "Anna Salai", "Cathedral Road", "Nungambakkam"],
+                "correct": "Anna Salai"
+              },
+              {
+                "question": "Where does Ankit turn left?",
+                "options": ["At the temple", "At the canal bridge", "At the signal near the petrol station", "At the LIC building"],
+                "correct": "At the signal near the petrol station"
+              },
+              {
+                "question": "What is the name of Priya's building?",
+                "options": ["Sai Apartments", "Sai Krupa Apartments", "Krupa Flats", "Central Apartments"],
+                "correct": "Sai Krupa Apartments"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake in the directions.",
+            "sentences": [
+              {
+                "wrong": "Walk across the main road for 500 metres.",
+                "correct": "Walk along the main road for 500 metres.",
+                "explanation": "ALONG = travel in the same direction as a road. ACROSS = from one side to the other."
+              },
+              {
+                "wrong": "Go past through the gate — the office is inside.",
+                "correct": "Go through the gate — the office is inside.",
+                "explanation": "PAST and THROUGH are not used together here. 'Go through the gate' means enter it."
+              },
+              {
+                "wrong": "Towards head the station and turn left.",
+                "correct": "Head towards the station and turn left.",
+                "explanation": "Correct word order: verb + preposition + object. 'Head towards' (not 'towards head')."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1011_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "A foreign colleague emails you asking how to reach your Bangalore office from MG Road metro station. Which written direction is clearest?",
+            "options": [
+              "Just come towards our area, it's near a temple.",
+              "Exit MG Road metro at Gate 3. Walk along Brigade Road for about 400 metres, go past the Café Coffee Day on the left, and turn right at the junction. The building is the third on the left — a glass-fronted building called 'Tech Hub'. It's about a 7-minute walk.",
+              "It's not far from MG Road.",
+              "Take a left somewhere and keep going."
+            ],
+            "correct": "Exit MG Road metro at Gate 3. Walk along Brigade Road for about 400 metres, go past the Café Coffee Day on the left, and turn right at the junction. The building is the third on the left — a glass-fronted building called 'Tech Hub'. It's about a 7-minute walk.",
+            "explanation": "Good written directions: specific exit, road name, landmark, turn, building description, and estimated time."
+          }
+        },
+        {
+          "task_id": "t1011_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Give written-style directions from a well-known location to your home, college, or office. Use landmarks, imperative verbs, and prepositions of movement.",
+            "prompt": "Give directions from a local landmark to a place you know well. Use at least 6 direction steps.",
+            "example_response": "Here are directions from Besant Nagar beach to my flat in Chennai. Exit the beach from the main entrance and head towards the Elliot's Beach road. Walk along the beach road going north for about 300 metres. Go past the popular Ratna Café on your right — don't turn there. Continue straight until you reach a signal with a petrol station on the left corner. Turn left at that signal. Walk along that road for about 150 metres and go past a small park. After the park, take the first right — it's a quiet lane. Go through the white metal gate at the end of the lane. My building, Sunrise Apartments, is straight ahead — it's a four-storey pink building, you can't miss it. I'm on the second floor, Flat 2A. The whole walk takes about 10 minutes from the beach.",
+            "key_phrases": ["Walk along", "Go past", "Turn left/right at", "Head towards", "Go through", "Take the first/second"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1011_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "A friend is visiting your city for the first time. They are at the main railway station. Give them step-by-step written directions to a famous local restaurant or attraction you like.",
+            "prompt": "Give detailed directions from the main railway station to a local restaurant or attraction. Speak as if writing a message.",
+            "example_response": "Hey! So glad you're finally in Chennai! Here are the directions from Chennai Central to Saravana Bhavan on Usman Road — it's one of the best places for South Indian food! From Chennai Central station, take the main exit and head towards the Anna Salai road — that's the wide main road facing you. Walk along Anna Salai going south for about 600 metres. You'll pass a big LIC building on your right — keep going. At the big roundabout, take the second exit — that puts you on the road towards T. Nagar. Go along that road past the Panagal Park bus stop and continue until you see a big intersection. Turn right at that intersection — you're now on Usman Road. Walk along Usman Road for about 200 metres. Saravana Bhavan is on the left side — it's a large restaurant with green and white signage, you absolutely can't miss it. Total walking time from the station: about 20 minutes. Or just take an auto and show the driver 'Saravana Bhavan, Usman Road, T. Nagar' — everyone knows it!",
+            "key_phrases": ["Walk along", "Go past", "Head towards", "At the roundabout", "Turn right/left at", "You can't miss it"],
+            "min_words": 120
+          }
+        },
+        {
+          "task_id": "t1011_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this WhatsApp-style direction message using prepositions and direction verbs.",
+            "text": "Hey Ravi! Here's how to get to our office from Silk Board junction:\n\n1. ___ (1) towards the flyover — don't go under it, take the service road on the left.\n2. Walk ___ (2) the service road for about 400 metres.\n3. ___ (3) the petrol station — keep going.\n4. At the next signal, ___ (4) right.\n5. ___ (5) along that road past a school on your left.\n6. ___ (6) through the blue iron gate — the guard will let you in.\n7. Our building is ___ (7) the car park — 'Brightworks Tower', 5th floor.\n\nTotal time: ___ (8) 12 minutes on foot. You can't ___ (9) it — it's a tall glass building. Let me know when you're close and I'll come down!",
+            "answers": ["Head", "along", "Go past / Pass", "turn", "Walk / Continue", "Go", "adjacent to / next to / opposite", "approximately / roughly / about", "miss"]
+          }
+        },
+        {
+          "task_id": "t1011_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 11 complete — Giving directions in writing",
+            "key_points": [
+              "Use IMPERATIVE verbs for directions: Turn, Go, Walk, Take, Head",
+              "ALONG = travel the length of a road",
+              "PAST = move further than a landmark",
+              "THROUGH = from one side to the other (gates, tunnels)",
+              "ACROSS = from one side to the other (bridges, roads)",
+              "TOWARDS = in the direction of something",
+              "Use landmarks + numbered turns + distance/time estimates for clear directions"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Plans, scheduling and calendars"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson12",
+      "unit": 10,
+      "lesson_number": 12,
+      "level": "A2",
+      "title": "Plans, scheduling and calendars",
+      "description": "Talk about schedules, priorities, and time management using a range of future and planning expressions.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1012_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Talking about schedules",
+            "body": "Useful language for discussing schedules and calendars:\n\nDescribing what's planned:\n• I have a meeting first thing in the morning.\n• The presentation is scheduled for 2 PM.\n• I've got a packed day tomorrow.\n• My afternoon is free / blocked / taken.\n\nAsking about schedule:\n• Are you free at any point this week?\n• Do you have a window on Thursday?\n• When are you next available?\n• Is your morning free or do you have something?\n\nPriority language:\n• My top priority this week is...\n• The most urgent thing is...\n• After that, I'll focus on...\n• I need to fit this in before Friday.",
+            "grammar_note": "'Have a window' = have a free time slot\n'Packed day' = very busy day with no free time\n'First thing' = very early in the morning"
+          }
+        },
+        {
+          "task_id": "t1012_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Time management expressions",
+            "body": "Useful time and planning expressions:\n\n• I'm tied up until 3 PM. (busy)\n• I'm snowed under this week. (overwhelmed with work)\n• I need to block some time for this. (reserve time)\n• Let me check my calendar and get back to you.\n• I'll pencil you in for Tuesday. (tentative booking)\n• Can we move this to the next slot?\n• I've overbooked myself this week!\n• I like to plan ahead / I tend to leave things to the last minute.\n• Deadline pressure really motivates me.",
+            "grammar_note": "'Tied up' = busy, unavailable\n'Snowed under' = overwhelmed\n'Block time' = reserve a specific time for a task\n'Pencil in' = put in schedule but not final"
+          }
+        },
+        {
+          "task_id": "t1012_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Time and scheduling",
+            "vocabulary": [
+              {"word": "deadline", "meaning": "the last time by which something must be done", "example": "The report deadline is Friday at 5 PM."},
+              {"word": "priority", "meaning": "the most important thing to do first", "example": "My top priority is finishing the presentation."},
+              {"word": "schedule", "meaning": "a plan for when things will happen", "example": "Check the schedule and find a free slot."},
+              {"word": "workload", "meaning": "the total amount of work to be done", "example": "My workload is very heavy this month."},
+              {"word": "overdue", "meaning": "not done by the expected time", "example": "This report is already overdue."},
+              {"word": "allocate", "meaning": "to decide how much time or resources to give to something", "example": "I need to allocate more time to this project."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l12_listen",
+            "sentences": [
+              "I've got a packed day tomorrow — back-to-back meetings until 5.",
+              "Do you have a window on Friday afternoon?",
+              "My top priority this week is the client proposal.",
+              "I'm tied up until 3 but free after that.",
+              "Let me check my calendar and get back to you."
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Priya says: 'I'm completely snowed under this week.' What does she mean?",
+            "options": [
+              "She is on a winter holiday.",
+              "She has nothing to do this week.",
+              "She is overwhelmed with work and very busy.",
+              "She doesn't like the cold."
+            ],
+            "correct": "She is overwhelmed with work and very busy.",
+            "explanation": "'Snowed under' = informal expression for being overwhelmed with work."
+          }
+        },
+        {
+          "task_id": "t1012_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Arjun says: 'I'll pencil you in for Thursday.' What does this mean?",
+            "options": [
+              "He will write the plan in pencil only.",
+              "He will put you in his schedule tentatively — it's not completely confirmed yet.",
+              "He will cancel all Thursday plans.",
+              "He will call you on Thursday."
+            ],
+            "correct": "He will put you in his schedule tentatively — it's not completely confirmed yet.",
+            "explanation": "'Pencil in' = a tentative plan — like writing in pencil because it can be erased (changed)."
+          }
+        },
+        {
+          "task_id": "t1012_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "How do you ask someone if they have a free time slot this week?",
+            "options": [
+              "Are you bored this week?",
+              "Do you have a window anywhere this week?",
+              "Is your calendar empty?",
+              "Have you got nothing to do?"
+            ],
+            "correct": "Do you have a window anywhere this week?",
+            "explanation": "'Do you have a window?' = professional way to ask if someone has a free slot."
+          }
+        },
+        {
+          "task_id": "t1012_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Which sentence correctly uses 'tied up'?",
+            "options": [
+              "I'm tied up on Wednesday morning — I have three meetings back to back.",
+              "I tied up my calendar yesterday.",
+              "Wednesday is tied up free.",
+              "My schedule is tied up empty."
+            ],
+            "correct": "I'm tied up on Wednesday morning — I have three meetings back to back.",
+            "explanation": "'Tied up' = unavailable/busy. 'I'm tied up on [day/time]' is the natural structure."
+          }
+        },
+        {
+          "task_id": "t1012_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in with the correct scheduling expression from the lesson.",
+            "sentences": [
+              {"text": "I'll ___ some time for the research this afternoon — maybe 2 hours.", "answer": "block / allocate"},
+              {"text": "My ___ priority this week is completing the budget report.", "answer": "top"},
+              {"text": "I'm ___ until 4 PM today — can we talk after?", "answer": "tied up"},
+              {"text": "Let me check my ___ and get back to you this afternoon.", "answer": "calendar / schedule"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete this scheduling email.",
+            "sentences": [
+              {"text": "I'm ___ under this week but I could make time on Friday.", "answer": "snowed"},
+              {"text": "Do you have a ___ on Thursday afternoon, say around 3?", "answer": "window"},
+              {"text": "I'll ___ you in for Friday at 2 PM — please confirm by Thursday.", "answer": "pencil"},
+              {"text": "This project is already ___ — we need to move quickly.", "answer": "overdue"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a scheduling question.",
+            "words": ["a", "window", "you", "on", "have", "Do", "morning", "Thursday"],
+            "answer": "Do you have a window on Thursday morning?"
+          }
+        },
+        {
+          "task_id": "t1012_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a priority statement.",
+            "words": ["priority", "week", "My", "the", "this", "finishing", "top", "is", "report"],
+            "answer": "My top priority this week is finishing the report."
+          }
+        },
+        {
+          "task_id": "t1012_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the scheduling expression to its meaning.",
+            "pairs": [
+              {"left": "I'm snowed under.", "right": "I'm overwhelmed with work."},
+              {"left": "Do you have a window?", "right": "Do you have a free time slot?"},
+              {"left": "I'll pencil you in.", "right": "I'll add you tentatively to my schedule."},
+              {"left": "I'm tied up until 3.", "right": "I'm busy/unavailable until 3."},
+              {"left": "Let me block some time.", "right": "Let me reserve specific time for this task."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Weekly planning conversation — startup office, Bengaluru",
+            "setting": "Kavya (team lead) is planning the week with her colleague Arjun on Monday morning.",
+            "dialogue": [
+              {"speaker": "Kavya", "text": "Morning Arjun! Crazy week ahead — let's do a quick schedule check."},
+              {"speaker": "Arjun", "text": "Yes, I already feel snowed under and it's only Monday!"},
+              {"speaker": "Kavya", "text": "Ha! So, my top priority this week is the investor deck — that's due Friday. What's yours?"},
+              {"speaker": "Arjun", "text": "Finishing the API integration — it's already a day overdue. I need to block at least 6 hours for that."},
+              {"speaker": "Kavya", "text": "Absolutely. Do you have a window for a sync with the design team? They need 30 minutes with you."},
+              {"speaker": "Arjun", "text": "I'm tied up Tuesday morning — back-to-back calls. But I have a window on Wednesday from 11 to 12."},
+              {"speaker": "Kavya", "text": "Perfect. I'll pencil you in for Wednesday at 11 with the design team."},
+              {"speaker": "Arjun", "text": "And the client call this Thursday — is that still on?"},
+              {"speaker": "Kavya", "text": "Yes, 3 PM Thursday is confirmed. I'd suggest preparing your technical summary by Wednesday evening at the latest."},
+              {"speaker": "Arjun", "text": "I'll allocate Thursday morning to the prep. I work better first thing anyway."},
+              {"speaker": "Kavya", "text": "Good plan. Also, team lunch on Friday — that's scheduled for 1 PM at the usual place. It won't take more than an hour."},
+              {"speaker": "Arjun", "text": "I've got it in my calendar. Looks like a packed week but manageable."},
+              {"speaker": "Kavya", "text": "Exactly. Let's check in again on Wednesday to see where we are. Does that work?"},
+              {"speaker": "Arjun", "text": "Wednesday morning — 9:30 AM? That suits me perfectly."}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What is Kavya's top priority for the week?",
+                "options": ["The API integration", "The investor deck", "The client call", "The team lunch"],
+                "correct": "The investor deck"
+              },
+              {
+                "question": "Why is Arjun tied up on Tuesday morning?",
+                "options": ["He is travelling.", "He has back-to-back calls.", "He is working on the API.", "He has a doctor's appointment."],
+                "correct": "He has back-to-back calls."
+              },
+              {
+                "question": "When does Arjun plan to prepare his technical summary?",
+                "options": ["Tuesday evening", "Wednesday morning", "Thursday morning", "Friday morning"],
+                "correct": "Thursday morning"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "I'm very snowed in with work this week.",
+                "correct": "I'm very snowed under with work this week.",
+                "explanation": "The correct idiom is 'snowed UNDER' (overwhelmed), not 'snowed in' (which means trapped inside due to snow)."
+              },
+              {
+                "wrong": "Do you have a window on Thursday morning free?",
+                "correct": "Do you have a window on Thursday morning?",
+                "explanation": "'Do you have a window' already implies a free slot — 'free' is redundant."
+              },
+              {
+                "wrong": "I'll pen you in for Friday.",
+                "correct": "I'll pencil you in for Friday.",
+                "explanation": "The correct expression is 'PENCIL in' — not 'pen in'. Pencil implies it can be changed."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1012_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your manager asks if you can attend an optional training session on Thursday. Your Thursday is already packed with two client calls and a deadline. What do you say?",
+            "options": [
+              "I'm free all day Thursday!",
+              "I'm afraid Thursday is completely packed — I have two client calls and a project deadline. Is the training available on another day?",
+              "I don't want to attend.",
+              "Thursday may be okay I suppose."
+            ],
+            "correct": "I'm afraid Thursday is completely packed — I have two client calls and a project deadline. Is the training available on another day?",
+            "explanation": "Honest, professional response using 'I'm afraid' + clear reason + constructive alternative question."
+          }
+        },
+        {
+          "task_id": "t1012_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Describe your ideal productive week. What would your schedule look like? What would be your top priorities? Use the scheduling language from this lesson.",
+            "prompt": "Describe your ideal work or study week — what is scheduled, what your priorities are, and how you plan your time.",
+            "example_response": "If I could design my ideal productive week, here's how it would look. My top priority on Monday would be to tackle the most difficult task of the week first thing in the morning — when my energy is highest. I'd block two to three hours for deep, focused work before any meetings start. I'd schedule all team meetings on Tuesday and Thursday afternoons — that way Monday, Wednesday, and Friday mornings stay free for actual work. I don't like having a packed day with no breathing room, so I'd always leave at least a 30-minute window between tasks. Wednesday would be my creative day — I'd allocate time for brainstorming and planning future projects. I'd make sure my Friday afternoon is relatively free so I can wrap up any overdue tasks and plan for the following week. And I absolutely would not leave anything overdue — I find that deadline pressure stresses me out, so I prefer to work ahead.",
+            "key_phrases": ["my top priority", "I'd block time for", "packed day", "a window between", "allocate time", "overdue"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1012_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Describe a time when you were completely snowed under with work or study. What was the situation? How did you manage? What would you do differently?",
+            "prompt": "Tell a story about a very hectic, overloaded week using scheduling and time management vocabulary.",
+            "example_response": "Last December, just before our company's year-end deadline, I was completely snowed under. My workload was absolutely unmanageable — I had three major reports that were all overdue, a product demo scheduled for a key client, and my manager had added two more tasks to my list without removing anything else. I was tied up from 8 AM to 9 PM every day. I didn't have a single window in my day and I was surviving on coffee. What I should have done differently: I should have blocked time earlier in the month for those reports instead of leaving them to the last minute. I should also have been honest with my manager about my workload — I was trying to do everything but doing nothing properly. The lesson I learned was to always allocate time proactively, be transparent about capacity, and never agree to take on more when you're already at maximum. Now I always keep at least one buffer hour in my day — I never fully pack my schedule.",
+            "key_phrases": ["snowed under", "tied up", "overdue", "blocked", "allocate time", "workload", "window", "packed"],
+            "min_words": 110
+          }
+        },
+        {
+          "task_id": "t1012_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete Kavya's weekly planning email to her team.",
+            "text": "Hi team,\n\nHere's a quick overview of our ___ (1) for this week:\n\nMONDAY: Team standup at 9 AM. My ___ (2) priority today is reviewing the client brief — it's already ___ (3) by two days.\n\nTUESDAY: I'm completely ___ (4) up in the morning with back-to-back calls. However, I have a ___ (5) between 2 and 3 PM for any quick discussions.\n\nWEDNESDAY: I've ___ (6) out 10 AM–12 PM for the campaign planning session — please don't schedule anything in that time.\n\nTHURSDAY: Client presentation at 3 PM — everyone involved, please ___ (7) this as your top task for the day.\n\nFRIDAY: Team lunch at 1 PM — looking forward to it! I'll ___ (8) you all in once I confirm the venue.\n\nPlease check your own ___ (9) and let me know if there are any conflicts. It looks like a ___ (10) week — let's stay focused!",
+            "answers": ["schedule", "top", "overdue", "tied", "window", "blocked", "prioritise", "pencil", "calendars", "packed"]
+          }
+        },
+        {
+          "task_id": "t1012_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 12 complete — Plans, scheduling and calendars",
+            "key_points": [
+              "'Snowed under' = overwhelmed with work",
+              "'Tied up' = busy, unavailable",
+              "'Do you have a window?' = do you have a free slot?",
+              "'Pencil in' = tentative booking",
+              "'Block time' = reserve time for a specific task",
+              "'Top priority' = most important task",
+              "'Packed day' = very busy day with no free time"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Unit 10 Review and A2 Exit Practice"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson13",
+      "unit": 10,
+      "lesson_number": 13,
+      "level": "A2",
+      "title": "Unit 10 Review + A2 Exit Practice",
+      "description": "A comprehensive review of all Unit 10 grammar, vocabulary, and communication skills, plus extended A2-level speaking practice.",
+      "estimated_minutes": 35,
+      "xp_reward": 250,
+      "tasks": [
+        {
+          "task_id": "t1013_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Unit 10 — Complete grammar summary",
+            "body": "All grammar covered in Unit 10:\n\n1. PRESENT CONTINUOUS for future: fixed, arranged plans\n   'I'm meeting her at 6 tonight.'\n\n2. GOING TO: decided plans + evidence predictions\n   'I'm going to apply.' / 'It's going to rain!'\n\n3. WILL: predictions, spontaneous decisions, offers, promises\n   'I think it'll rain.' / 'I'll get it!' / 'I promise I'll call.'\n\n4. MAY / MIGHT: possibility, not certain\n   'She might come.' / 'It may rain.'\n\n5. HEDGING: I think, probably, as far as I know, I suppose\n\n6. FORMAL EMAILS: structure + language\n\n7. APPOINTMENTS: suggest / accept / decline / confirm\n\n8. CANCELLATIONS: apologise + reason + reschedule\n\n9. DIRECTIONS: imperatives + prepositions of movement\n\n10. SCHEDULING: snowed under, tied up, window, pencil in"
+          }
+        },
+        {
+          "task_id": "t1013_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "The three futures — final comparison",
+            "body": "Quick decision guide for the three futures:\n\nIs it a FIXED APPOINTMENT? (booked, specific date/time)\n→ PRESENT CONTINUOUS\n'We're meeting at 3 on Thursday.'\n\nDid you DECIDE BEFORE speaking? OR visible evidence?\n→ GOING TO\n'I'm going to study medicine.' / 'It's going to fall!'\n\nDid you decide JUST NOW? OR general prediction/offer/promise?\n→ WILL\n'I'll get the door!' / 'India will grow.' / 'I'll call you.'\n\nNOT SURE if it will happen?\n→ MAY / MIGHT\n'She might come.' / 'It may rain.'"
+          }
+        },
+        {
+          "task_id": "t1013_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Unit 10 vocabulary — master list",
+            "vocabulary": [
+              {"word": "arrange", "meaning": "plan and fix something in advance", "example": "We arranged to meet on Friday."},
+              {"word": "reschedule", "meaning": "change to a different time", "example": "Can we reschedule the meeting?"},
+              {"word": "postpone", "meaning": "delay to a later time", "example": "The event was postponed."},
+              {"word": "availability", "meaning": "free time; when you are free", "example": "What's your availability next week?"},
+              {"word": "regarding", "meaning": "about/concerning (formal email)", "example": "I am writing regarding your application."},
+              {"word": "sincerely", "meaning": "formal email sign-off", "example": "Yours sincerely, Priya Rajan"},
+              {"word": "priority", "meaning": "most important task", "example": "My top priority is the presentation."},
+              {"word": "uncertain", "meaning": "not sure", "example": "I'm uncertain about the schedule."},
+              {"word": "landmark", "meaning": "reference point in directions", "example": "Use the temple as a landmark."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l13_listen",
+            "sentences": [
+              "I'm presenting to the board at 10 AM on Thursday — it's in the calendar.",
+              "She's going to resign — she told me her decision last night.",
+              "I'll help you with that — just tell me what you need.",
+              "It might rain this evening — take an umbrella just in case.",
+              "I am writing to request a meeting at your earliest convenience."
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Which sentence correctly uses the PRESENT CONTINUOUS for a future arrangement?",
+            "options": [
+              "I will have a meeting tomorrow.",
+              "I'm going to have a meeting.",
+              "I'm having a meeting with the CEO at 10 AM tomorrow — it's confirmed.",
+              "I meet the CEO tomorrow."
+            ],
+            "correct": "I'm having a meeting with the CEO at 10 AM tomorrow — it's confirmed.",
+            "explanation": "Fixed, confirmed plan with specific time = present continuous for future."
+          }
+        },
+        {
+          "task_id": "t1013_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Your glass of water is right at the edge of the table and looks like it's about to fall. What do you say?",
+            "options": [
+              "The glass will fall.",
+              "The glass is falling tomorrow.",
+              "The glass is going to fall!",
+              "The glass might fall at some point."
+            ],
+            "correct": "The glass is going to fall!",
+            "explanation": "Visible, immediate evidence = GOING TO prediction. You can see it about to fall right now."
+          }
+        },
+        {
+          "task_id": "t1013_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which closing line belongs in a FORMAL email?",
+            "options": [
+              "Talk soon! 😊",
+              "Later!",
+              "I look forward to hearing from you. Kind regards,",
+              "Bye bye, thanks a ton!"
+            ],
+            "correct": "I look forward to hearing from you. Kind regards,",
+            "explanation": "Standard formal closing = 'I look forward to hearing from you' + professional sign-off."
+          }
+        },
+        {
+          "task_id": "t1013_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "The meeting is at 2 PM. You need it to be at 3 PM instead (later). What do you say?",
+            "options": [
+              "Could we bring the meeting forward to 3 PM?",
+              "Could we push the meeting back to 3 PM?",
+              "Could we postpone the meeting to 1 PM?",
+              "Could we bring the meeting backwards to 3 PM?"
+            ],
+            "correct": "Could we push the meeting back to 3 PM?",
+            "explanation": "PUSH BACK = move to a later time. 3 PM is later than 2 PM."
+          }
+        },
+        {
+          "task_id": "t1013_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Mixed review — choose the best option for each.",
+            "sentences": [
+              {"text": "I've booked a table for 8 PM on Saturday — we ___ (have) dinner at Coastal Kitchen.", "answer": "are having"},
+              {"text": "She's been saving for years — she ___ (go to) travel around Europe next summer.", "answer": "is going to"},
+              {"text": "The phone's ringing — I ___ (get) it!", "answer": "will / 'll"},
+              {"text": "I'm not sure, but it ___ (might/rain) this afternoon.", "answer": "might rain"},
+              {"text": "I ___ (writing/request) a formal meeting with the HR manager.", "answer": "am writing to request"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete this mixed-skills communication exercise.",
+            "sentences": [
+              {"text": "Walk ___ the main road for 300 metres, then turn right at the signal.", "answer": "along"},
+              {"text": "Go ___ the hospital without stopping — our office is the next building.", "answer": "past"},
+              {"text": "I ___ forward to hearing from you. (formal email closing)", "answer": "look"},
+              {"text": "___ to confirm — we're meeting at 2 PM on Wednesday, yes? (checking appointment)", "answer": "Just"},
+              {"text": "I'm ___ up all morning but I have a ___ from 2 to 3 PM.", "answer": "tied / window"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a complete formal email sentence.",
+            "words": ["writing", "am", "regarding", "I", "interview", "to", "scheduled", "enquire", "the", "for", "Monday"],
+            "answer": "I am writing to enquire regarding the interview scheduled for Monday."
+          }
+        },
+        {
+          "task_id": "t1013_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a polite appointment suggestion.",
+            "words": ["suit", "Would", "Thursday", "afternoon", "you", "at", "3", "PM"]  ,
+            "answer": "Would Thursday afternoon at 3 PM suit you?"
+          }
+        },
+        {
+          "task_id": "t1013_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the sentence to the grammar structure it uses.",
+            "pairs": [
+              {"left": "I'm flying to Chennai on Sunday — ticket booked.", "right": "Present continuous for future"},
+              {"left": "She's going to quit — she already decided.", "right": "Going to (decided plan)"},
+              {"left": "The bag is too heavy — it's going to tear!", "right": "Going to (evidence prediction)"},
+              {"left": "I'll help you with that — just say the word.", "right": "Will (spontaneous offer)"},
+              {"left": "I might visit next month — not sure yet.", "right": "Might (possibility)"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Unit 10 review dialogue — Full professional conversation",
+            "setting": "Arjun (startup founder) and Meera (potential investor) are wrapping up an initial call and planning next steps.",
+            "dialogue": [
+              {"speaker": "Meera", "text": "Arjun, I've really enjoyed learning about your product today. I think it has strong potential."},
+              {"speaker": "Arjun", "text": "Thank you so much, Meera. I'm glad you see the value in it. We're going to launch the full version in March."},
+              {"speaker": "Meera", "text": "March — that's ambitious. Are you on track?"},
+              {"speaker": "Arjun", "text": "We might push it back by two weeks if the testing phase reveals issues, but as of now, March 15th is the target."},
+              {"speaker": "Meera", "text": "I see. I'll probably want to see the technical details before making any commitment. Could we arrange a follow-up?"},
+              {"speaker": "Arjun", "text": "Absolutely. I'll send you a formal proposal by Friday. I'm writing it up this week."},
+              {"speaker": "Meera", "text": "That works. As for a meeting — would early next week suit you? I'm tied up all of this week."},
+              {"speaker": "Arjun", "text": "Of course. Would Tuesday or Wednesday morning work for you?"},
+              {"speaker": "Meera", "text": "I'm afraid Tuesday is packed — I have board meetings all day. Wednesday at 10 AM works perfectly."},
+              {"speaker": "Arjun", "text": "Wednesday 10 AM — wonderful. Shall we meet at your office, or would you prefer a video call?"},
+              {"speaker": "Meera", "text": "Let's do it in person — I find it easier to have these conversations face to face."},
+              {"speaker": "Arjun", "text": "Agreed. Just to confirm — Wednesday, 10 AM, your office. I'll bring printed copies of the proposal."},
+              {"speaker": "Meera", "text": "Perfect. I look forward to it. I'll send you a calendar invite shortly."},
+              {"speaker": "Arjun", "text": "Thank you so much, Meera. I'll have the proposal in your inbox by Friday. Have a great day!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "When is the target launch date?",
+                "options": ["February 15th", "March 1st", "March 15th", "April 1st"],
+                "correct": "March 15th"
+              },
+              {
+                "question": "Why can't Meera meet on Tuesday?",
+                "options": ["She is travelling.", "She has board meetings all day.", "She has a packed morning.", "She is presenting to investors."],
+                "correct": "She has board meetings all day."
+              },
+              {
+                "question": "What will Arjun send by Friday?",
+                "options": ["A calendar invite", "A formal proposal", "The product demo", "A legal contract"],
+                "correct": "A formal proposal"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Mixed Unit 10 error correction — 3 sentences with mistakes.",
+            "sentences": [
+              {
+                "wrong": "I'm going to will travel to Goa next month.",
+                "correct": "I'm going to travel to Goa next month.",
+                "explanation": "Don't combine GOING TO and WILL — use one. 'I'm going to travel' or 'I'll travel' — not both."
+              },
+              {
+                "wrong": "I apologise by the short notice.",
+                "correct": "I apologise for the short notice.",
+                "explanation": "APOLOGISE FOR — not 'apologise by'."
+              },
+              {
+                "wrong": "Go across the road for 500 metres, then turn right.",
+                "correct": "Go along the road for 500 metres, then turn right.",
+                "explanation": "ALONG = travel in the same direction as a road. ACROSS = from one side to the other."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1013_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You receive an email from a company you applied to — they've invited you to an interview. You want to confirm attendance and ask about what to bring. Which is the best reply?",
+            "options": [
+              "Yes! I'll be there. What do I need?",
+              "Dear [Name], Thank you for your email. I am delighted to confirm my attendance for the interview on [date] at [time]. Could you please advise what documents I should bring? I look forward to meeting you. Kind regards, [Your name]",
+              "OK confirmed.",
+              "Hey! So excited — I'll come. What do I bring? Thanks 😊"
+            ],
+            "correct": "Dear [Name], Thank you for your email. I am delighted to confirm my attendance for the interview on [date] at [time]. Could you please advise what documents I should bring? I look forward to meeting you. Kind regards, [Your name]",
+            "explanation": "A company email = formal register. This response confirms clearly, asks a polite question, and closes professionally."
+          }
+        },
+        {
+          "task_id": "t1013_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "A2 Exit Speaking Task 1: Talk for 90 seconds about your plans for the next 3 months. Use all three future forms (will, going to, present continuous) at least once each, plus may/might for uncertainty.",
+            "prompt": "Describe your plans for the next 3 months using all future forms: will, going to, present continuous, and may/might.",
+            "example_response": "For the next three months, I have quite a mix of fixed plans, decisions, and hopes. Starting with what's already arranged: I'm attending my colleague's wedding on the 20th of this month — it's fully confirmed and I've already RSVP'd. I'm also presenting at a department meeting on the 5th of next month. Moving on to decisions I've already made: I'm going to enrol in an advanced Excel course in January — I've been meaning to do this for a while. I'm also going to start saving more systematically — I've already opened a new account for it. As for predictions: I think the project I'm leading will probably be completed by March. I believe the team will do well — everyone is very motivated. And for the uncertain parts: I might visit my grandparents in February if I can get leave approved — I'm not sure yet because my manager hasn't confirmed it. There's also a chance I may get a chance to travel for work to Delhi in March — but nothing is decided. So it's a mix of fixed things, solid decisions, and exciting possibilities!",
+            "key_phrases": ["I'm + -ing (arranged)", "I'm going to", "I will / I'll", "I might", "I may", "I think... will", "probably"],
+            "min_words": 140
+          }
+        },
+        {
+          "task_id": "t1013_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "A2 Exit Speaking Task 2: Write and say aloud a complete formal email. Choose ONE situation: (A) applying for a job, (B) requesting a meeting with a professor, or (C) cancelling an appointment with a client.",
+            "prompt": "Compose and speak a full formal email — subject, greeting, opening, body, closing, sign-off. 5 parts complete.",
+            "example_response": "I'll write a formal email applying for a job:\n\nSubject: Application for Marketing Executive Position — Ref: MKT/2025/04\n\nDear Ms Sharma,\n\nI am writing to apply for the position of Marketing Executive advertised on your company's website on 5th January 2025.\n\nI hold a Bachelor's degree in Business Management from Anna University and have two years of experience in digital marketing at a Chennai-based startup. I believe my skills in content strategy and social media management would make me a strong addition to your team.\n\nPlease find my CV and portfolio attached. I would be grateful for the opportunity to discuss my application further at your convenience.\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nYours sincerely,\nPriya Rajan\n+91 98765 43210\npriya.rajan@email.com",
+            "key_phrases": ["I am writing to apply for", "I hold a degree in", "Please find attached", "I would be grateful", "I look forward to hearing from you", "Yours sincerely"],
+            "min_words": 130
+          }
+        },
+        {
+          "task_id": "t1013_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Final comprehensive gap fill — all Unit 10 grammar and vocabulary.",
+            "text": "Kavya is writing to a new client to arrange a meeting. Complete the email:\n\nSubject: Meeting ___ (1) — New Project Discussion\n\nDear Mr Mehta,\n\nI ___ (2) writing to request a meeting to discuss the proposed project in detail.\n\n___ (3) Wednesday the 21st at 2 PM ___ (4) you? I am also available on Thursday morning if that ___ (5) better.\n\nThe meeting should take ___ (6) one hour. I will send you the agenda in ___ (7) so you can prepare any questions.\n\nI have ___ (8) some directions to our office below:\n\nFrom MG Road metro: Walk ___ (9) Brigade Road for 400 metres. Go ___ (10) the Café Coffee Day and take the next right. Our building, Innovation House, is on your left — a glass building, you ___ (11) miss it.\n\nI ___ (12) forward to your response. Please do not ___ (13) to contact me if you need any further information.\n\n___ (14) regards,\nKavya Iyer",
+            "answers": ["Request", "am", "Would", "suit", "works", "approximately", "advance", "included", "along", "past", "can't", "look", "hesitate", "Kind"]
+          }
+        },
+        {
+          "task_id": "t1013_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "UNIT 10 COMPLETE — Future, plans & communication",
+            "key_points": [
+              "Present continuous: fixed future arrangements with specific time",
+              "Going to: decided plans + evidence predictions",
+              "Will: general predictions, spontaneous decisions, offers, promises",
+              "May/might: possibility and uncertainty (not 'will maybe')",
+              "Hedging: I think, probably, as far as I know, I suppose",
+              "Formal emails: 5 parts — subject, greeting, opening, body, closing",
+              "Appointments: suggest → accept/decline → confirm",
+              "Cancellations: apologise + reason + reschedule",
+              "Directions: imperatives + along/past/through/across/towards",
+              "Scheduling: snowed under, tied up, window, pencil in, top priority"
+            ],
+            "xp_earned": 250,
+            "unit_complete": true,
+            "next_unit": "Unit 11 — Everyday English in real life"
+          }
+        }
+      ]
+    }
+
+  ]
+}

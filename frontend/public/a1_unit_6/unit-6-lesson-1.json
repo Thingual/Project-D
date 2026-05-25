@@ -1,0 +1,132 @@
+{
+  "lesson_id": "a1_unit6_lesson01",
+  "unit": 6,
+  "lesson_number": 1,
+  "level": "A1",
+  "title": "Phone calls & messages",
+  "description": "Learn to make phone calls and leave messages politely.",
+  "estimated_minutes": 30,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0601_01",
+      "type": "learn_card",
+      "prompt": "Core call verbs",
+      "content": {
+        "grammar_focus": "Phone call vocabulary",
+        "example_sentences": [
+          "Can you call me back?",
+          "I will leave a message.",
+          "Let's schedule a meeting."
+        ],
+        "context": "Making a phone call."
+      }
+    },
+    {
+      "task_id": "t0601_02",
+      "type": "listen_repeat",
+      "prompt": "Say it clearly: key phrases",
+      "audio_key": "a1_u6_l1_repeat_01",
+      "content": {
+        "target_phrases": [
+          "Could you please call me back?",
+          "I'm not available right now.",
+          "Can I leave a message?"
+        ]
+      }
+    },
+    {
+      "task_id": "t0601_03",
+      "type": "mcq",
+      "prompt": "Which message was sent?",
+      "question": "If you want someone to call you again, you ask them to:",
+      "options": ["call back", "hang up", "text back", "delete"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0601_04",
+      "type": "fill_blank",
+      "prompt": "Complete the callback request",
+      "content": {
+        "sentence": "Can you ___ me back later?",
+        "options": ["call", "calling", "called", "calls"],
+        "correct": "call"
+      }
+    },
+    {
+      "task_id": "t0601_05",
+      "type": "sort_words",
+      "prompt": "Put message steps in order",
+      "scramble": ["you", "call", "me", "back", "Can"],
+      "answer": "Can you call me back"
+    },
+    {
+      "task_id": "t0601_06",
+      "type": "match_pairs",
+      "prompt": "Match greeting + response",
+      "pairs": [
+        {"left": "Hello, is this Arjun?", "right": "Yes, speaking."},
+        {"left": "Can I leave a message?", "right": "Sure, I'll pass it on."},
+        {"left": "I'm busy right now.", "right": "Okay, I'll call back later."}
+      ]
+    },
+    {
+      "task_id": "t0601_07",
+      "type": "error_correction",
+      "prompt": "Correct the mistakes",
+      "instruction": "Fix the sentence.",
+      "wrong_sentence": "Can you calls me back?",
+      "correct_sentence": "Can you call me back?"
+    },
+    {
+      "task_id": "t0601_08",
+      "type": "scenario_mcq",
+      "prompt": "Choose what to say",
+      "question": "You missed a call from your boss. What do you text?",
+      "options": [
+        "Sorry I missed your call. I will call you back soon.",
+        "Why did you call?",
+        "Don't call me.",
+        "I am not answering."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0601_09",
+      "type": "speaking",
+      "prompt": "Speak: leaving a short voicemail",
+      "content": {
+        "min_words": 15,
+        "example_response": "Hi, this is Priya. I am calling about the meeting. Please call me back when you are free."
+      }
+    },
+    {
+      "task_id": "t0601_10",
+      "type": "dialogue",
+      "prompt": "Conversation turn-taking",
+      "dialogue": {
+        "setting": "A phone call",
+        "turns": [
+          {"speaker": "A", "text": "Hello, is Sonal there?"},
+          {"speaker": "B", "text": "She is not available right now. Can I take a message?"},
+          {"speaker": "A", "text": "Yes, please ask her to call me back."}
+        ]
+      },
+      "comprehension_questions": [
+        {"question": "Is Sonal available?", "expected_answer": "No, she is not."}
+      ]
+    },
+    {
+      "task_id": "t0601_11",
+      "type": "lesson_summary",
+      "prompt": "Lesson summary: Phone calls & messages",
+      "content": {
+        "checklist": [
+          "I can ask someone to call me back.",
+          "I can leave a voicemail.",
+          "I know phone call vocabulary."
+        ]
+      }
+    }
+  ]
+}

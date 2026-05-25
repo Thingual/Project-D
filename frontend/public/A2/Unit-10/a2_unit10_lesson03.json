@@ -1,0 +1,473 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson03",
+    "unit":  10,
+    "lesson_number":  3,
+    "level":  "A2",
+    "title":  "Will â€” predictions and spontaneous decisions",
+    "description":  "Use \u0027will\u0027 for predictions about the future, spontaneous decisions, offers, and promises.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1003_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Will â€” four main uses",
+                                      "body":  "WILL + base verb has four important uses:\n\n1. PREDICTIONS (general, based on belief/knowledge)\nâ€¢ Electric vehicles will be everywhere in 10 years.\nâ€¢ She\u0027ll be a great doctor â€” she works so hard.\n\n2. SPONTANEOUS DECISIONS (decided at the moment of speaking)\nâ€¢ [Phone rings] I\u0027ll get it!\nâ€¢ [Friend is struggling] I\u0027ll help you carry that.\n\n3. OFFERS\nâ€¢ I\u0027ll make tea. You rest.\nâ€¢ Shall I carry that for you? / I\u0027ll carry that.\n\n4. PROMISES\nâ€¢ I\u0027ll call you as soon as I reach.\nâ€¢ I won\u0027t tell anyone â€” I promise.",
+                                      "grammar_note":  "will + base verb (all persons: I/you/he/she/we/they)\nShort form: I\u0027ll, you\u0027ll, she\u0027ll, we\u0027ll, they\u0027ll\nNegative: won\u0027t (= will not)"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Will â€” questions and negative",
+                                      "body":  "Questions with WILL:\nâ€¢ Will you be at the office tomorrow?\nâ€¢ Will it rain this evening?\nâ€¢ Will she accept the offer?\n\nNegative â€” WON\u0027T:\nâ€¢ I won\u0027t be late, I promise.\nâ€¢ They won\u0027t finish by Friday at this rate.\nâ€¢ He won\u0027t tell you â€” he never talks about personal things.\n\nShall I / Shall we? (offers/suggestions, British English)\nâ€¢ Shall I open the window?\nâ€¢ Shall we order food?",
+                                      "grammar_note":  "Question: Will + subject + base verb?\nNegative: won\u0027t / will not + base verb"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Predictions and offers",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "predict",
+                                                             "meaning":  "to say what you think will happen",
+                                                             "example":  "Experts predict prices will rise."
+                                                         },
+                                                         {
+                                                             "word":  "promise",
+                                                             "meaning":  "to say you will definitely do something",
+                                                             "example":  "I promise I\u0027ll return the book."
+                                                         },
+                                                         {
+                                                             "word":  "offer",
+                                                             "meaning":  "to say you are willing to do something for someone",
+                                                             "example":  "She offered to help with the project."
+                                                         },
+                                                         {
+                                                             "word":  "refuse",
+                                                             "meaning":  "to say no",
+                                                             "example":  "He refused to share the data."
+                                                         },
+                                                         {
+                                                             "word":  "probably",
+                                                             "meaning":  "likely but not certain",
+                                                             "example":  "It\u0027ll probably be cold in Shimla."
+                                                         },
+                                                         {
+                                                             "word":  "definitely",
+                                                             "meaning":  "certainly",
+                                                             "example":  "She\u0027ll definitely get the job â€” she\u0027s brilliant."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l3_listen",
+                                      "sentences":  [
+                                                        "Don\u0027t worry â€” I\u0027ll help you with the presentation.",
+                                                        "She\u0027ll probably be promoted by the end of the year.",
+                                                        "I won\u0027t tell anyone, I promise.",
+                                                        "Will you be free for a call at 3 PM?",
+                                                        "Technology will change everything in the next decade."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Your friend drops her bag and things fall everywhere. You decide at that moment to help. What do you say?",
+                                      "options":  [
+                                                      "I am going to help you.",
+                                                      "I\u0027ll help you pick those up!",
+                                                      "I help you now.",
+                                                      "I was going to help you."
+                                                  ],
+                                      "correct":  "I\u0027ll help you pick those up!",
+                                      "explanation":  "A decision made at the moment of speaking = WILL. You decided just now, not before."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Meera wants to make a promise to her mother. Which is correct?",
+                                      "options":  [
+                                                      "I\u0027m going to call you every day, Amma.",
+                                                      "I will call you every day, Amma.",
+                                                      "I call you every day, Amma.",
+                                                      "I\u0027m calling you every day, Amma."
+                                                  ],
+                                      "correct":  "I will call you every day, Amma.",
+                                      "explanation":  "Promises use WILL. Both options A and B are possible, but WILL is the classic promise structure."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which sentence is a GENERAL PREDICTION using will?",
+                                      "options":  [
+                                                      "I\u0027ll get the door â€” I\u0027m nearest.",
+                                                      "I\u0027m meeting my boss at 2 PM.",
+                                                      "Renewable energy will replace fossil fuels in the coming decades.",
+                                                      "I\u0027m going to apply for the visa next week."
+                                                  ],
+                                      "correct":  "Renewable energy will replace fossil fuels in the coming decades.",
+                                      "explanation":  "A general, opinion-based prediction about the future = WILL."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Your colleague looks tired and is struggling to carry heavy boxes. You want to offer help. Which is the most natural?",
+                                      "options":  [
+                                                      "You are going to need help.",
+                                                      "Shall I help you carry those?",
+                                                      "I help you now.",
+                                                      "You must let me help."
+                                                  ],
+                                      "correct":  "Shall I help you carry those?",
+                                      "explanation":  "\u0027Shall I...?\u0027 is a natural offer in English. \u0027I\u0027ll help you carry those\u0027 is also correct and common."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in with WILL or WON\u0027T.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "[Someone knocks] Don\u0027t get up â€” I ___ get it.",
+                                                            "answer":  "will / \u0027ll"
+                                                        },
+                                                        {
+                                                            "text":  "Don\u0027t worry about the secret â€” I ___ tell anyone.",
+                                                            "answer":  "won\u0027t"
+                                                        },
+                                                        {
+                                                            "text":  "India ___ probably be a top 3 economy by 2040.",
+                                                            "answer":  "will"
+                                                        },
+                                                        {
+                                                            "text":  "You ___ believe what happened to me today!",
+                                                            "answer":  "won\u0027t"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Label each sentence: PREDICTION, OFFER, PROMISE, or SPONTANEOUS DECISION.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I\u0027ll call you when I land â€” I promise. [type?]",
+                                                            "answer":  "PROMISE"
+                                                        },
+                                                        {
+                                                            "text":  "Shall I make coffee for everyone? [type?]",
+                                                            "answer":  "OFFER"
+                                                        },
+                                                        {
+                                                            "text":  "Don\u0027t worry â€” I\u0027ll get that for you. [type?]",
+                                                            "answer":  "SPONTANEOUS DECISION / OFFER"
+                                                        },
+                                                        {
+                                                            "text":  "India will host the Olympics one day. [type?]",
+                                                            "answer":  "PREDICTION"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange the words to make a promise.",
+                                      "words":  [
+                                                    "be",
+                                                    "I",
+                                                    "late",
+                                                    "won\u0027t",
+                                                    "I",
+                                                    "promise"
+                                                ],
+                                      "answer":  "I won\u0027t be late, I promise."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a prediction sentence.",
+                                      "words":  [
+                                                    "more",
+                                                    "expensive",
+                                                    "will",
+                                                    "next",
+                                                    "Petrol",
+                                                    "be",
+                                                    "year",
+                                                    "probably"
+                                                ],
+                                      "answer":  "Petrol will probably be more expensive next year."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the situation to the correct WILL sentence.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "A colleague needs help moving a desk.",
+                                                        "right":  "I\u0027ll help you move that."
+                                                    },
+                                                    {
+                                                        "left":  "Your friend asks if you\u0027ll keep a secret.",
+                                                        "right":  "I won\u0027t tell anyone â€” I promise."
+                                                    },
+                                                    {
+                                                        "left":  "You believe India will grow economically.",
+                                                        "right":  "India will be a superpower soon."
+                                                    },
+                                                    {
+                                                        "left":  "The phone rings while you\u0027re sitting close.",
+                                                        "right":  "I\u0027ll get it!"
+                                                    },
+                                                    {
+                                                        "left":  "Your friend looks lost â€” you offer to guide her.",
+                                                        "right":  "Shall I show you the way?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Helping a friend move flats â€” Mumbai",
+                                      "setting":  "Ravi is moving to a new flat in Mumbai. His friend Sonal calls to offer help.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Ravi! I heard you\u0027re moving this weekend. Do you need any help?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "Yes! It\u0027s going to be a lot of work. The new flat is on the 5th floor and there\u0027s no lift."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027ll come and help you on Saturday. What time do you want to start?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "We\u0027re starting at 9 AM. Are you sure? It\u0027ll be a lot of carrying."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027m sure! I\u0027ll bring Ankit too â€” he won\u0027t say no if I ask him nicely."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "That\u0027s so kind of you both. I\u0027ll organise lunch for everyone. What do you want?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Don\u0027t worry about that â€” I\u0027ll order biryani for everyone. It\u0027ll be my contribution."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "You\u0027re amazing. I promise I\u0027ll help you the next time you move!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Ha! I won\u0027t hold you to that. Will your family come too?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "My brother will come in the afternoon. He\u0027s busy in the morning. It\u0027ll go faster with more people."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "It will definitely be done by evening. Don\u0027t worry!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "I really appreciate it. I won\u0027t forget this. See you Saturday!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What does Sonal offer to bring on Saturday?",
+                                                                          "options":  [
+                                                                                          "A moving truck",
+                                                                                          "Ankit and food",
+                                                                                          "Her family",
+                                                                                          "Packing boxes"
+                                                                                      ],
+                                                                          "correct":  "Ankit and food"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Sonal say she will order for lunch?",
+                                                                          "options":  [
+                                                                                          "Pizza",
+                                                                                          "Biryani",
+                                                                                          "Dosa",
+                                                                                          "Sandwiches"
+                                                                                      ],
+                                                                          "correct":  "Biryani"
+                                                                      },
+                                                                      {
+                                                                          "question":  "When will Ravi\u0027s brother arrive?",
+                                                                          "options":  [
+                                                                                          "9 AM",
+                                                                                          "In the morning",
+                                                                                          "In the afternoon",
+                                                                                          "In the evening"
+                                                                                      ],
+                                                                          "correct":  "In the afternoon"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "I will to help you with the project.",
+                                                            "correct":  "I will help you with the project.",
+                                                            "explanation":  "WILL + BASE VERB â€” no \u0027to\u0027. \u0027Will to help\u0027 is wrong."
+                                                        },
+                                                        {
+                                                            "wrong":  "She wills finish the report by Friday.",
+                                                            "correct":  "She will finish the report by Friday.",
+                                                            "explanation":  "WILL never changes â€” no \u0027s\u0027. Always: will + base verb."
+                                                        },
+                                                        {
+                                                            "wrong":  "I won\u0027t to tell anyone, I promise.",
+                                                            "correct":  "I won\u0027t tell anyone, I promise.",
+                                                            "explanation":  "WON\u0027T + BASE VERB â€” no \u0027to\u0027."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "Your team member is about to leave for an important client meeting but has forgotten to bring the presentation folder. You notice. What do you say?",
+                                      "options":  [
+                                                      "I\u0027m going to get the folder for you.",
+                                                      "I\u0027ll get the folder â€” go, I\u0027ll bring it to you!",
+                                                      "I\u0027ll getting the folder.",
+                                                      "I get the folder now."
+                                                  ],
+                                      "correct":  "I\u0027ll get the folder â€” go, I\u0027ll bring it to you!",
+                                      "explanation":  "A spontaneous decision made at the moment = WILL. You decided right now, not before."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Make 5 predictions about India or your city 20 years from now. Use WILL, WON\u0027T, and WILL PROBABLY.",
+                                      "prompt":  "What do you think India or your city will look like in 2044? Make confident and realistic predictions.",
+                                      "example_response":  "I think India will look very different in 20 years. First, I believe most cars will be electric â€” petrol vehicles won\u0027t be as common as they are today. Cities like Chennai and Bangalore will have much better public transport â€” more metro lines, more buses, and possibly even hyperloop connections between major cities. I think education will change a lot too â€” students will probably study online much more, and traditional classrooms won\u0027t be the only way to learn. On the other hand, I think some things won\u0027t change â€” family values and festivals will remain very important in Indian culture. And I hope that food won\u0027t change too much â€” our regional cuisines are too good to lose! Overall, I think life will be more convenient but also more competitive.",
+                                      "key_phrases":  [
+                                                          "will",
+                                                          "won\u0027t",
+                                                          "will probably",
+                                                          "will definitely",
+                                                          "I think / I believe"
+                                                      ],
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Role-play: Your friend has just arrived after a long journey and looks exhausted. You want to make her feel welcome. Make 5 offers using WILL and SHALL I.",
+                                      "prompt":  "Make spontaneous offers to help an exhausted friend who has just arrived at your home. Use will and shall I.",
+                                      "example_response":  "Meera, you look absolutely exhausted! Come in, come in â€” I\u0027ll take your bag, you just sit down. Shall I make you a cup of tea or would you prefer coffee? I\u0027ll switch on the fan â€” it\u0027s quite warm today. Are you hungry? I\u0027ll heat up some food â€” I made daal and rice, it\u0027s already cooked. Shall I run some warm water so you can freshen up? You can use the guest bathroom. Don\u0027t worry about anything â€” I\u0027ll handle everything. Just rest! I\u0027ll wake you up in an hour if you want to take a quick nap. What time do you need to be somewhere tomorrow? I\u0027ll make sure you have an alarm set.",
+                                      "key_phrases":  [
+                                                          "I\u0027ll",
+                                                          "Shall I",
+                                                          "I won\u0027t let you",
+                                                          "don\u0027t worry, I\u0027ll handle it"
+                                                      ],
+                                      "min_words":  80
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete the conversation using WILL, WON\u0027T, or SHALL.",
+                                      "text":  "Kavya: The printer is out of paper again!\nArjun: ___ (1) I go and get some from the storeroom?\nKavya: Yes please! And ___ (2) you check if there\u0027s also more ink?\nArjun: Sure, I ___ (3) be back in five minutes.\nKavya: Thanks! By the way, ___ (4) you be free at 2 PM for the client call?\nArjun: I think so â€” I ___ (5) check my calendar. If I\u0027m in a meeting, I ___ (6) message you straight away.\nKavya: Perfect. I promise I ___ (7) share all the notes with you after.",
+                                      "answers":  [
+                                                      "Shall",
+                                                      "will",
+                                                      "will / \u0027ll",
+                                                      "will",
+                                                      "will / \u0027ll",
+                                                      "will / \u0027ll",
+                                                      "will / \u0027ll"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1003_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 3 complete â€” Will",
+                                      "key_points":  [
+                                                         "WILL use 1: General predictions (based on belief/knowledge)",
+                                                         "WILL use 2: Spontaneous decisions (decided at the moment of speaking)",
+                                                         "WILL use 3: Offers (I\u0027ll help / Shall I...?)",
+                                                         "WILL use 4: Promises (I\u0027ll call you / I won\u0027t tell anyone)",
+                                                         "Form: will + BASE VERB (no change for any person)",
+                                                         "Negative: WON\u0027T (will not) + base verb",
+                                                         "Short forms: I\u0027ll, you\u0027ll, she\u0027ll, he\u0027ll, we\u0027ll, they\u0027ll"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Three futures compared â€” will vs going to vs present continuous"
+                                  }
+                  }
+              ]
+}

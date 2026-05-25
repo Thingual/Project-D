@@ -1,0 +1,325 @@
+{
+  "lesson_id": "a2_unit12_lesson07",
+  "unit": 12,
+  "lesson_number": 7,
+  "level": "A2",
+  "title": "Present perfect questions — Have you...? Has she...?",
+  "description": "Form and use present perfect questions naturally in conversation, with correct short answers and follow-ups.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1207_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Forming present perfect questions",
+        "body": "To make a QUESTION in the present perfect, move HAVE/HAS to the front:\n\nStructure: HAVE/HAS + subject + past participle?\n\nExamples:\n• 'Have you eaten?' (I/you/we/they → Have)\n• 'Has she called?' (he/she/it → Has)\n• 'Have they arrived yet?'\n• 'Has the parcel come?'\n• 'Have you ever been to Delhi?'\n• 'Has he finished the report?'\n\nWH- questions:\n• 'What have you done today?'\n• 'Where has she gone?'\n• 'How long have you worked here?'\n• 'Why haven't they replied?'",
+        "grammar_note": "Question: HAVE/HAS + subject + past participle?\nWH- question: WH- word + have/has + subject + past participle?\nNo DO/DID in present perfect questions"
+      }
+    },
+    {
+      "task_id": "t1207_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Short answers and natural follow-ups",
+        "body": "SHORT ANSWERS:\n• 'Have you eaten?' → 'Yes, I have.' / 'No, I haven't.'\n• 'Has she called?' → 'Yes, she has.' / 'No, she hasn't.'\n• 'Have they arrived?' → 'Yes, they have.' / 'No, not yet.'\n\nNATURAL FOLLOW-UPS after YES:\nPresent perfect question → Past simple for details (when, where, how)\n• 'Have you been to Goa?' — 'Yes, I have! I went last March.'\n• 'Has she tried the new place?' — 'Yes — she went yesterday and loved it.'\n\nThis is very important — the present perfect opens the topic, past simple gives the detail.",
+        "grammar_note": "Short answer: Yes, I have. / No, I haven't.\nNEVER: Yes, I have eaten. (too long for short answer)\nFollow up with past simple for specific details"
+      }
+    },
+    {
+      "task_id": "t1207_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — asking about experiences and updates",
+        "vocabulary": [
+          {"word": "heard", "meaning": "past participle of hear — to receive news", "example": "Have you heard the latest news?"},
+          {"word": "managed", "meaning": "past participle of manage — to succeed", "example": "Have you managed to fix it?"},
+          {"word": "come across", "meaning": "to find or meet by chance", "example": "Have you come across any good restaurants?"},
+          {"word": "settle in", "meaning": "to become comfortable in a new place", "example": "Have you settled in to the new office?"},
+          {"word": "sort out", "meaning": "to resolve or organise", "example": "Have you sorted out the visa issue?"},
+          {"word": "catch up", "meaning": "to do things you haven't done", "example": "Have you had a chance to catch up on emails?"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l7_listen",
+        "sentences": [
+          "Have you heard the news about the new project?",
+          "Yes, I have — I heard it this morning!",
+          "Has she sorted out the visa issue yet?",
+          "No, she hasn't — she's still working on it.",
+          "How long have you worked at this company?"
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Choose the correct question form.",
+        "options": [
+          "Has you eaten yet?",
+          "Have you eaten yet?",
+          "Do you have eaten yet?",
+          "Have you eat yet?"
+        ],
+        "correct": "Have you eaten yet?",
+        "explanation": "Question: HAVE + you + past participle (eaten). No DO, no base verb."
+      }
+    },
+    {
+      "task_id": "t1207_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Choose the correct question: asking about Priya finishing her report.",
+        "options": [
+          "Have Priya finished her report?",
+          "Has Priya finished her report?",
+          "Did Priya finish her report?",
+          "Does Priya have finished her report?"
+        ],
+        "correct": "Has Priya finished her report?",
+        "explanation": "Priya = she = HAS. Question: Has + Priya + past participle (finished)?"
+      }
+    },
+    {
+      "task_id": "t1207_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "'Have you been to the new café on MG Road?' — Which is the best natural reply if yes?",
+        "options": [
+          "Yes, I have been.",
+          "Yes, I went there last Saturday — the coffee was excellent!",
+          "Yes, I have been going.",
+          "Yes, I did."
+        ],
+        "correct": "Yes, I went there last Saturday — the coffee was excellent!",
+        "explanation": "Short answer + past simple for the specific detail (when, what happened). This is the most natural reply."
+      }
+    },
+    {
+      "task_id": "t1207_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "Which WH- question is CORRECT?",
+        "options": [
+          "Where have you been gone?",
+          "Where you have gone?",
+          "Where has she gone?",
+          "Where she has gone?"
+        ],
+        "correct": "Where has she gone?",
+        "explanation": "WH- question: Where + HAS + she + past participle (gone). Subject comes after have/has."
+      }
+    },
+    {
+      "task_id": "t1207_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Write the present perfect question for each situation.",
+        "sentences": [
+          {"text": "You want to know if Meera has submitted the form. → ___ Meera ___ the form?", "answer": "Has / submitted"},
+          {"text": "You want to know if your friends have arrived. → ___ they ___?", "answer": "Have / arrived"},
+          {"text": "You want to know how long Arjun has worked here. → How long ___ Arjun ___ here?", "answer": "has / worked"},
+          {"text": "You want to know if Kavya has ever tried Thai food. → ___ Kavya ever ___ Thai food?", "answer": "Has / tried"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete the short answer correctly.",
+        "sentences": [
+          {"text": "'Have you met the new manager?' 'Yes, ___ ___. She seems great!'", "answer": "I have"},
+          {"text": "'Has Ravi submitted the report?' 'No, he ___.'", "answer": "hasn't"},
+          {"text": "'Have they left already?' 'Yes, ___ ___ — they left an hour ago.'", "answer": "they have"},
+          {"text": "'Has the package arrived?' 'No, ___ ___ yet.'", "answer": "it hasn't"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct present perfect question.",
+        "words": ["spoken", "manager", "Have", "to", "you", "the"],
+        "answer": "Have you spoken to the manager?"
+      }
+    },
+    {
+      "task_id": "t1207_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a WH- present perfect question.",
+        "words": ["long", "How", "you", "known", "have", "her"],
+        "answer": "How long have you known her?"
+      }
+    },
+    {
+      "task_id": "t1207_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the question to the most natural short answer + detail.",
+        "pairs": [
+          {"left": "Have you tried the new restaurant?", "right": "Yes, I have — I went on Friday and loved it!"},
+          {"left": "Has she ever been to Japan?", "right": "Yes, she has — she went twice for work."},
+          {"left": "Have they finished the project?", "right": "No, they haven't — they need two more days."},
+          {"left": "Has the mail arrived?", "right": "Yes, it has — it came about an hour ago."},
+          {"left": "Have you ever run a marathon?", "right": "No, I haven't — but I'd love to try!"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "New colleague questions — first week at a company, Pune",
+        "setting": "Sonal has just started a new job. Her friendly colleague Ravi is asking her questions about her experience and how she's settling in.",
+        "dialogue": [
+          {"speaker": "Ravi", "text": "Hey Sonal! Have you settled into the office yet?"},
+          {"speaker": "Sonal", "text": "Mostly yes! Everyone has been so welcoming. Have you worked here long?"},
+          {"speaker": "Ravi", "text": "About three years now. Have you met the whole team yet?"},
+          {"speaker": "Sonal", "text": "I've met most people but I haven't spoken to Kavya in accounts yet — she's been in meetings all week."},
+          {"speaker": "Ravi", "text": "She's always in meetings! Have you had a look at the project dashboard?"},
+          {"speaker": "Sonal", "text": "I have — briefly. Have you worked on the Horizon project before?"},
+          {"speaker": "Ravi", "text": "Yes, I have — I worked on Phase 1 last year. It was quite intense. Have you handled a project of this scale before?"},
+          {"speaker": "Sonal", "text": "I have, actually. I managed a similar one in my previous company. It took about six months."},
+          {"speaker": "Ravi", "text": "Impressive! Have you tried the canteen food here yet?"},
+          {"speaker": "Sonal", "text": "I have — I had lunch there yesterday. The South Indian thali was excellent!"},
+          {"speaker": "Ravi", "text": "It's the best on Fridays! Have you sorted out your laptop access and system logins?"},
+          {"speaker": "Sonal", "text": "Almost — I haven't got the VPN access yet. IT said they'd sort it by today."},
+          {"speaker": "Ravi", "text": "They're usually quick. Has your manager given you your first task?"},
+          {"speaker": "Sonal", "text": "Yes, she has — I have to prepare a brief introduction for the team meeting on Friday. I haven't started yet but I have plenty of ideas!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "Who hasn't Sonal spoken to yet?",
+            "options": ["Ravi", "Her manager", "Kavya in accounts", "The IT team"],
+            "correct": "Kavya in accounts"
+          },
+          {
+            "question": "Has Ravi worked on the Horizon project before?",
+            "options": ["No, never", "Yes, on Phase 1 last year", "Yes, on Phase 2", "He doesn't know the project"],
+            "correct": "Yes, on Phase 1 last year"
+          },
+          {
+            "question": "What hasn't Sonal received from IT yet?",
+            "options": ["Her laptop", "Her email login", "VPN access", "Her employee ID"],
+            "correct": "VPN access"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the present perfect question mistake.",
+        "sentences": [
+          {
+            "wrong": "Have she finished the assignment?",
+            "correct": "Has she finished the assignment?",
+            "explanation": "She = HAS (not have). Questions: Has + she + past participle?"
+          },
+          {
+            "wrong": "Did you have eaten today?",
+            "correct": "Have you eaten today?",
+            "explanation": "Present perfect questions don't use DID. Use: Have + you + past participle?"
+          },
+          {
+            "wrong": "Where you have been?",
+            "correct": "Where have you been?",
+            "explanation": "WH- question word order: Where + HAVE + you + past participle? Subject comes after have/has."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1207_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "You want to ask your manager if she has reviewed your proposal yet. Which is the most professional way?",
+        "options": [
+          "Did you see my proposal?",
+          "Have you had a chance to review my proposal yet?",
+          "You reviewed my proposal?",
+          "Has you seen the proposal?"
+        ],
+        "correct": "Have you had a chance to review my proposal yet?",
+        "explanation": "'Have you had a chance to...' is polite and professional. Adding 'yet' makes it natural present perfect."
+      }
+    },
+    {
+      "task_id": "t1207_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Imagine you are catching up with a friend you haven't seen in three months. Ask them 6 present perfect questions about their life — things they may have done, tried, or experienced.",
+        "prompt": "Ask 6 Have you...? / Has she...? questions naturally. Then give example answers.",
+        "example_response": "I'd ask my friend these questions! First — 'Have you been anywhere interesting lately? I know you love to travel.' Then — 'Have you tried that new restaurant you mentioned last time we spoke?' And — 'Has your sister had her baby yet? She was due last month!' Also — 'Have you heard any news from Ravi? I haven't spoken to him in ages.' And — 'Have you started that online course you were thinking about?' Finally — 'Have you made any big decisions recently — work, life, anything?'\n\nAs for the answers — my friend might say: 'Yes, I've been to Coorg! We went last month and it was stunning.' Or 'No, I haven't tried that restaurant yet — let's go together!' Or 'Yes, she has had the baby — a little girl! Born two weeks ago.' Each answer opens up a whole new conversation naturally.",
+        "key_phrases": ["Have you been...?", "Have you tried...?", "Has she...?", "Have you heard...?", "Yes, I have — I...", "No, I haven't yet."],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1207_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Answer these 5 questions about yourself using present perfect with natural follow-ups in past simple.",
+        "prompt": "Answer each question fully:\n1. Have you ever lived in another city?\n2. Have you tried any new food recently?\n3. How long have you known your best friend?\n4. Have you read any good books this year?\n5. Have you taken up any new hobby or skill?",
+        "example_response": "Let me answer all five! First — have I ever lived in another city? Yes, I have! I lived in Bangalore for two years when I was in my mid-twenties. I moved there for work and I absolutely loved the city. The weather was my favourite part. Second — have I tried any new food recently? I have actually — I tried Vietnamese pho for the first time last week at a new restaurant in the city. It was lighter than I expected and very delicious. Third — how long have I known my best friend? I've known her for about twelve years. We met in college during the first week of the first year. Fourth — have I read any good books this year? I have! I've read two so far. The one I enjoyed most was a travel memoir by an Indian author — I forget the exact title but it was about cycling across Europe. Fifth — have I taken up any new hobby? I have started learning watercolour painting. I've attended three classes and I've produced some questionable but enjoyable paintings!",
+        "key_phrases": ["Yes, I have — I...", "I've known her for", "I've read", "I've started", "I've attended"],
+        "min_words": 130
+      }
+    },
+    {
+      "task_id": "t1207_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this interview-style conversation using present perfect questions and answers.",
+        "text": "Interviewer: ___ (1) you worked in the education sector before?\n\nCandidate: Yes, I ___ (2). I worked at a training company for two years.\n\nInterviewer: And ___ (3) you managed a team before?\n\nCandidate: I ___ (4) — I led a team of five people on a product launch.\n\nInterviewer: Excellent. How long ___ (5) you been in your current role?\n\nCandidate: I ___ (6) been there for about three years.\n\nInterviewer: And ___ (7) you used project management software like Jira or Trello?\n\nCandidate: Yes, I ___ (8) — I've used both. I prefer Trello for smaller teams.\n\nInterviewer: Great. ___ (9) you any questions for us at this stage?\n\nCandidate: Yes, I ___ (10) — I'd love to know more about the team structure.",
+        "answers": ["Have", "have", "have", "have", "have", "have", "have", "have", "Have", "have"]
+      }
+    },
+    {
+      "task_id": "t1207_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 7 complete — Present perfect questions",
+        "key_points": [
+          "Question: HAVE/HAS + subject + past participle?",
+          "WH- question: WH- word + have/has + subject + past participle?",
+          "Short answers: Yes, I have. / No, she hasn't. (not full sentences)",
+          "NO do/did in present perfect questions",
+          "After YES, give details using past simple: 'Yes, I have — I went last year.'",
+          "Has = he/she/it | Have = I/you/we/they"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Present perfect vs past simple — the key difference"
+      }
+    }
+  ]
+}

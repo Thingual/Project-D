@@ -1,0 +1,325 @@
+{
+  "lesson_id": "a2_unit12_lesson06",
+  "unit": 12,
+  "lesson_number": 6,
+  "level": "A2",
+  "title": "Present perfect negatives — haven't and hasn't",
+  "description": "Form and use negative present perfect sentences to talk about things that have not happened.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1206_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Forming the negative — haven't and hasn't",
+        "body": "To make a NEGATIVE present perfect sentence, add NOT after have/has:\n\nhave not = HAVEN'T\nhas not = HASN'T\n\nStructure:\nI / You / We / They + HAVEN'T + past participle\nHe / She / It + HASN'T + past participle\n\nExamples:\n• 'I haven't eaten lunch yet.'\n• 'She hasn't called back.'\n• 'We haven't seen that film.'\n• 'He hasn't finished the report.'\n• 'They haven't arrived yet.'\n\nFull forms (more formal/emphatic):\n• 'I have not received any reply.'\n• 'She has not submitted the form.'",
+        "grammar_note": "haven't = have not (I/you/we/they)\nhasn't = has not (he/she/it)\nFull forms used for emphasis or formal writing"
+      }
+    },
+    {
+      "task_id": "t1206_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Common contexts for negative present perfect",
+        "body": "We use the negative present perfect in many everyday situations:\n\nTasks not done:\n• 'I haven't finished the assignment.'\n• 'She hasn't booked the tickets yet.'\n\nExperiences not had:\n• 'I haven't been to North India.'\n• 'He hasn't tried Korean food.'\n\nExpected things that didn't happen:\n• 'They haven't replied to our email.'\n• 'The doctor hasn't called back yet.'\n\nUseful combinations:\n• haven't + yet = expected but not done\n• still + haven't = stronger expectation\n• haven't + ever = never in my life",
+        "grammar_note": "haven't yet = expected soon\nstill haven't = been waiting / frustrated\nhaven't ever = same as never"
+      }
+    },
+    {
+      "task_id": "t1206_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — things not done or experienced",
+        "vocabulary": [
+          {"word": "manage", "meaning": "to succeed in doing something difficult", "example": "I haven't managed to fix it yet."},
+          {"word": "get round to", "meaning": "to find time to do something", "example": "I haven't got round to calling her yet."},
+          {"word": "bother", "meaning": "to make the effort to do something", "example": "He hasn't bothered to reply."},
+          {"word": "attempt", "meaning": "to try to do something", "example": "She hasn't attempted the last question."},
+          {"word": "deal with", "meaning": "to handle a situation or task", "example": "I haven't dealt with those emails yet."},
+          {"word": "get back to", "meaning": "to reply or return contact", "example": "He hasn't got back to me yet."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l6_listen",
+        "sentences": [
+          "I haven't finished the report yet — give me an hour.",
+          "She hasn't called back — I'm still waiting.",
+          "We haven't been to Rajasthan — it's on our list.",
+          "He hasn't got back to me about the meeting time.",
+          "They haven't replied to the proposal yet."
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Choose the correct negative form: 'She ___ the email.'",
+        "options": [
+          "haven't sent",
+          "hasn't sent",
+          "hasn't send",
+          "not has sent"
+        ],
+        "correct": "hasn't sent",
+        "explanation": "She = HASN'T + past participle (sent). Haven't is for I/you/we/they."
+      }
+    },
+    {
+      "task_id": "t1206_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Which sentence is CORRECT?",
+        "options": [
+          "We hasn't finished the project.",
+          "We haven't finished the project.",
+          "We have not finishing the project.",
+          "We not have finished the project."
+        ],
+        "correct": "We haven't finished the project.",
+        "explanation": "We = HAVEN'T + past participle. 'Hasn't' is wrong for we; -ing form is wrong."
+      }
+    },
+    {
+      "task_id": "t1206_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Ravi says: 'I ___  to Ravi yet — I keep forgetting.' Which fits?",
+        "options": [
+          "haven't spoken",
+          "hasn't spoken",
+          "didn't speak",
+          "am not speaking"
+        ],
+        "correct": "haven't spoken",
+        "explanation": "I = HAVEN'T + past participle (spoken). The 'yet' confirms present perfect is needed."
+      }
+    },
+    {
+      "task_id": "t1206_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "Which sentence correctly uses the FULL FORM for emphasis?",
+        "options": [
+          "She not has received any confirmation.",
+          "She has not received any confirmation.",
+          "She hasn't not received any confirmation.",
+          "She have not received any confirmation."
+        ],
+        "correct": "She has not received any confirmation.",
+        "explanation": "Full form: HAS + NOT (not 'not has'). She has not = formal and emphatic."
+      }
+    },
+    {
+      "task_id": "t1206_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with HAVEN'T or HASN'T + the past participle.",
+        "sentences": [
+          {"text": "I ___ ___ (start) the assignment — I'll begin tonight.", "answer": "haven't started"},
+          {"text": "The doctor ___ ___ (call) back yet.", "answer": "hasn't called"},
+          {"text": "We ___ ___ (decide) on a venue for the wedding.", "answer": "haven't decided"},
+          {"text": "He ___ ___ (eat) anything all day.", "answer": "hasn't eaten"},
+          {"text": "They ___ ___ (book) their flight tickets yet.", "answer": "haven't booked"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Make these positive sentences negative using haven't or hasn't.",
+        "sentences": [
+          {"text": "I have finished the chapter. → I ___ ___ the chapter.", "answer": "haven't finished"},
+          {"text": "She has tried sushi. → She ___ ___ sushi.", "answer": "hasn't tried"},
+          {"text": "They have confirmed the booking. → They ___ ___ the booking.", "answer": "haven't confirmed"},
+          {"text": "He has spoken to the manager. → He ___ ___ to the manager.", "answer": "hasn't spoken"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct negative sentence.",
+        "words": ["the", "haven't", "We", "results", "yet", "received"],
+        "answer": "We haven't received the results yet."
+      }
+    },
+    {
+      "task_id": "t1206_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct negative sentence.",
+        "words": ["hasn't", "She", "the", "form", "submitted", "yet"],
+        "answer": "She hasn't submitted the form yet."
+      }
+    },
+    {
+      "task_id": "t1206_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the subject to the correct negative form.",
+        "pairs": [
+          {"left": "I (not finish)", "right": "I haven't finished"},
+          {"left": "She (not call)", "right": "She hasn't called"},
+          {"left": "They (not arrive)", "right": "They haven't arrived"},
+          {"left": "He (not eat)", "right": "He hasn't eaten"},
+          {"left": "We (not decide)", "right": "We haven't decided"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Things on the to-do list — Chennai household",
+        "setting": "Kavya and her husband Arjun are reviewing their weekend to-do list. Many things haven't been done yet.",
+        "dialogue": [
+          {"speaker": "Arjun", "text": "Kavya, have you paid the electricity bill yet?"},
+          {"speaker": "Kavya", "text": "No — I haven't paid it yet. I'll do it online right now."},
+          {"speaker": "Arjun", "text": "Okay. And have you called your mother back? She messaged me this morning."},
+          {"speaker": "Kavya", "text": "I know — I haven't got round to it yet. I've been busy all morning. Has the courier arrived?"},
+          {"speaker": "Arjun", "text": "No, he hasn't come yet. I've been waiting since 10 AM."},
+          {"speaker": "Kavya", "text": "Strange — they haven't sent a tracking update either. Let me check the website."},
+          {"speaker": "Arjun", "text": "Good idea. By the way — I haven't booked the restaurant for Saturday yet. Should I do it now?"},
+          {"speaker": "Kavya", "text": "Yes please — I haven't checked if they're open on Saturdays though. Call and confirm first."},
+          {"speaker": "Arjun", "text": "Sure. And have you taken the car for service? The garage said it was overdue."},
+          {"speaker": "Kavya", "text": "I haven't had time — I'll go next week. There's too much happening this weekend."},
+          {"speaker": "Arjun", "text": "Fair enough. Oh — have the kids finished their homework?"},
+          {"speaker": "Kavya", "text": "Riya hasn't started hers yet but Vikram has finished. I'll speak to Riya after lunch."},
+          {"speaker": "Arjun", "text": "Great. Right — let's make a proper list so we don't forget anything else we haven't dealt with!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What has Kavya not done yet that Arjun's mother is waiting for?",
+            "options": ["Paid the bill", "Called her back", "Sent a message", "Visited her"],
+            "correct": "Called her back"
+          },
+          {
+            "question": "Which child hasn't started their homework yet?",
+            "options": ["Vikram", "Riya", "Both of them", "Neither of them"],
+            "correct": "Riya"
+          },
+          {
+            "question": "What hasn't Arjun done for Saturday yet?",
+            "options": ["Called the courier", "Checked the car", "Booked the restaurant", "Paid the bill"],
+            "correct": "Booked the restaurant"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the negative present perfect mistake.",
+        "sentences": [
+          {
+            "wrong": "She haven't finished the report.",
+            "correct": "She hasn't finished the report.",
+            "explanation": "She = HASN'T (not haven't). Haven't is for I/you/we/they."
+          },
+          {
+            "wrong": "I have not receiving the parcel yet.",
+            "correct": "I have not received the parcel yet.",
+            "explanation": "After have/has (not), use the PAST PARTICIPLE — not the -ing form."
+          },
+          {
+            "wrong": "They hasn't replied to our email.",
+            "correct": "They haven't replied to our email.",
+            "explanation": "They = HAVEN'T (not hasn't). Hasn't is only for he/she/it."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1206_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "Your colleague asks if you've sent the weekly update to the whole team. You forgot. What do you say honestly?",
+        "options": [
+          "Yes, I've sent it already.",
+          "I haven't sent it yet — I'll do it right now, sorry!",
+          "She hasn't sent it.",
+          "I didn't send it last week."
+        ],
+        "correct": "I haven't sent it yet — I'll do it right now, sorry!",
+        "explanation": "Honest, present perfect negative + immediate action plan. Natural and professional."
+      }
+    },
+    {
+      "task_id": "t1206_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Think of 6 things you HAVEN'T done yet this week — tasks, goals, or experiences. Explain each one briefly.",
+        "prompt": "Share 6 things you haven't done yet this week and why.",
+        "example_response": "There are quite a few things I haven't managed this week! I haven't replied to some important messages because my schedule has been completely packed. I haven't exercised at all — I planned to go jogging three times but the weather has not been great. I haven't cooked a proper meal even once — I've been surviving on takeaway food which I know isn't ideal. I haven't called my grandparents yet, which I feel guilty about because they always love to hear from me. I haven't read the news at all this week — I usually try to stay updated but I simply haven't had time. And I haven't finished the online module I started last Sunday — I've watched three lessons but I haven't completed the final quiz yet. Hopefully the weekend will give me time to catch up on all of these!",
+        "key_phrases": ["I haven't ... yet", "I haven't managed to", "I haven't got round to", "I haven't had time to"],
+        "min_words": 100
+      }
+    },
+    {
+      "task_id": "t1206_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Talk about 3 places in India or the world that you haven't visited yet but really want to. Explain why you haven't gone and why you want to go.",
+        "prompt": "Describe 3 places you haven't been to yet. Use haven't/hasn't been naturally.",
+        "example_response": "There are three places I haven't visited yet that are really on my list. The first is Ladakh — I haven't been there because it requires good planning and the right season, and I haven't managed to get both of those things right at the same time. But the photographs I have seen are extraordinary — the landscapes look like another planet. The second is Hampi in Karnataka — surprisingly I haven't been there even though it's not too far from Chennai. I haven't found the right travel companion for it because it's the kind of place that deserves a slow, curious exploration. And the third is Japan. I haven't been abroad much and Japan has been my dream destination for years. The culture, the food, the architecture — I haven't experienced anything quite like what people describe. I haven't saved enough for it yet either, but I'm working on it!",
+        "key_phrases": ["I haven't been to", "I haven't visited", "I haven't managed to", "I haven't found", "I haven't saved enough yet"],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1206_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this project status email using haven't or hasn't + past participle.",
+        "text": "Subject: Project Status Update — Week 3\n\nHi team,\n\nHere is a quick update on where things stand. I ___ (1) finalised the budget yet — I'm waiting for the finance team's approval. Sonal ___ (2) submitted her section of the report yet but she confirmed it'll be ready by Thursday. We ___ (3) scheduled the client review meeting — could someone pick a date this week? The design team ___ (4) sent the updated mockups yet, which is holding up the development side. I ___ (5) had a chance to review the competitor analysis either — I'll try to do that tomorrow. Arjun, you ___ (6) shared the access credentials with the new team members yet — could you do that today please? Overall we ___ (7) fallen behind seriously but there are a few things we need to action quickly. Let's catch up on Friday.\n\nThanks,\nKavya",
+        "answers": ["haven't", "hasn't", "haven't", "hasn't", "haven't", "haven't", "haven't"]
+      }
+    },
+    {
+      "task_id": "t1206_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 6 complete — Present perfect negatives",
+        "key_points": [
+          "HAVEN'T = have not — used with I/you/we/they",
+          "HASN'T = has not — used with he/she/it",
+          "Structure: subject + haven't/hasn't + past participle",
+          "Full forms (have not / has not) for emphasis or formal writing",
+          "Common combos: haven't + yet / still + haven't / haven't + ever",
+          "Common mistake: using hasn't with they/we — always use haven't"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Present perfect questions — Have you...? Has she...?"
+      }
+    }
+  ]
+}

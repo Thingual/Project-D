@@ -1,0 +1,509 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson04",
+    "unit":  11,
+    "lesson_number":  4,
+    "level":  "A2",
+    "title":  "Polite requests â€” Would you mind / Could you possibly",
+    "description":  "Make polite requests in formal and everyday situations using a range of structures from gentle to very polite.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1104_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "A scale of politeness for requests",
+                                      "body":  "Requests in English range from casual to very formal. Choose based on the situation:\n\nMOST CASUAL (friends, family):\nâ€¢ \u0027Give me that pen.\u0027 / \u0027Pass the salt.\u0027\nâ€¢ \u0027Can you help me?\u0027\n\nPOLITE (colleagues, shopkeepers, most situations):\nâ€¢ \u0027Could you help me, please?\u0027\nâ€¢ \u0027Would you help me?\u0027\n\nMORE POLITE (strangers, bosses, formal):\nâ€¢ \u0027Could you possibly help me?\u0027\nâ€¢ \u0027Would it be possible to...?\u0027\n\nMOST POLITE (formal or when asking a big favour):\nâ€¢ \u0027Would you mind helping me?\u0027\nâ€¢ \u0027I was wondering if you could possibly...\u0027\nâ€¢ \u0027Would you be so kind as to...?\u0027",
+                                      "grammar_note":  "COULD = more polite than CAN\nWOULD YOU MIND + -ING (gerund)\n\u0027Possibly\u0027 makes any request softer"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Would you mindâ€¦? â€” special structure",
+                                      "body":  "WOULD YOU MIND is followed by a GERUND (-ing form):\n\nâ€¢ \u0027Would you mind opening the window?\u0027\nâ€¢ \u0027Would you mind waiting for a moment?\u0027\nâ€¢ \u0027Would you mind repeating that?\u0027\nâ€¢ \u0027Would you mind sending me the document?\u0027\n\nAnswering \u0027Would you mind...?\u0027:\nâœ“ \u0027Not at all!\u0027 (= I don\u0027t mind = Yes, I\u0027ll do it)\nâœ“ \u0027Of course!\u0027 (= happy to)\nâœ“ \u0027No problem.\u0027\nâœ“ \u0027Sure!\u0027\nâœ— \u0027No.\u0027 (this sounds like refusal â€” confusing!)\n\nNote: \u0027No, not at all\u0027 = I\u0027m happy to help (confusing but common)",
+                                      "grammar_note":  "WOULD YOU MIND + verb-ING\n\u0027Not at all\u0027 = positive response (I\u0027ll do it)\nDon\u0027t say just \u0027No\u0027 â€” it sounds like refusal"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Requests and responses",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "favour",
+                                                             "meaning":  "something you do to help someone",
+                                                             "example":  "Could you do me a favour?"
+                                                         },
+                                                         {
+                                                             "word":  "oblige",
+                                                             "meaning":  "to do something as a favour",
+                                                             "example":  "I\u0027d be happy to oblige."
+                                                         },
+                                                         {
+                                                             "word":  "inconvenient",
+                                                             "meaning":  "causing difficulty",
+                                                             "example":  "I hope this isn\u0027t inconvenient for you."
+                                                         },
+                                                         {
+                                                             "word":  "spare",
+                                                             "meaning":  "to give a small amount of something",
+                                                             "example":  "Could you spare five minutes?"
+                                                         },
+                                                         {
+                                                             "word":  "assist",
+                                                             "meaning":  "to help",
+                                                             "example":  "Could you assist me with this form?"
+                                                         },
+                                                         {
+                                                             "word":  "appreciate",
+                                                             "meaning":  "to be grateful for",
+                                                             "example":  "I\u0027d really appreciate your help."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l4_listen",
+                                      "sentences":  [
+                                                        "Could you possibly send me the file by end of day?",
+                                                        "Would you mind moving your bag? I\u0027d like to sit down.",
+                                                        "I was wondering if you could help me with this form.",
+                                                        "Would it be possible to change my appointment to Thursday?",
+                                                        "Not at all â€” I\u0027d be happy to help!"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Which is the most polite way to ask a senior colleague to review your report?",
+                                      "options":  [
+                                                      "Review my report.",
+                                                      "Can you look at my report?",
+                                                      "I was wondering if you could possibly take a look at my report when you have a moment.",
+                                                      "Look at this for me please."
+                                                  ],
+                                      "correct":  "I was wondering if you could possibly take a look at my report when you have a moment.",
+                                      "explanation":  "\u0027I was wondering if you could possibly...\u0027 + \u0027when you have a moment\u0027 = very polite, acknowledges their time."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "\u0027Would you mind closing the door?\u0027 â€” What is the correct positive response?",
+                                      "options":  [
+                                                      "No, I will not.",
+                                                      "Yes, I mind.",
+                                                      "Not at all â€” of course!",
+                                                      "No."
+                                                  ],
+                                      "correct":  "Not at all â€” of course!",
+                                      "explanation":  "\u0027Not at all\u0027 = I don\u0027t mind = Yes, I\u0027ll do it. Just saying \u0027No\u0027 sounds like a refusal!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which sentence uses \u0027Would you mind\u0027 CORRECTLY?",
+                                      "options":  [
+                                                      "Would you mind to wait?",
+                                                      "Would you mind wait?",
+                                                      "Would you mind waiting?",
+                                                      "Would you minding waiting?"
+                                                  ],
+                                      "correct":  "Would you mind waiting?",
+                                      "explanation":  "WOULD YOU MIND + verb-ING (gerund). \u0027Waiting\u0027 not \u0027to wait\u0027 or \u0027wait\u0027."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "You need to use your office phone quickly. Your colleague is on a long personal call. What do you say politely?",
+                                      "options":  [
+                                                      "Get off the phone!",
+                                                      "Give me the phone.",
+                                                      "Excuse me â€” would you mind if I used the phone quickly? It\u0027s a brief work call.",
+                                                      "Can I have the phone now?"
+                                                  ],
+                                      "correct":  "Excuse me â€” would you mind if I used the phone quickly? It\u0027s a brief work call.",
+                                      "explanation":  "Polite request + brief explanation = natural and considerate. \u0027Would you mind if I...\u0027 is very polite."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Complete the polite request using the given structure.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "___ you mind ___ (open) the window? It\u0027s quite warm.",
+                                                            "answer":  "Would / opening"
+                                                        },
+                                                        {
+                                                            "text":  "Could you ___ send me the agenda before the meeting?",
+                                                            "answer":  "possibly"
+                                                        },
+                                                        {
+                                                            "text":  "I was ___ if you could spare a few minutes to help me.",
+                                                            "answer":  "wondering"
+                                                        },
+                                                        {
+                                                            "text":  "Would it be ___ to reschedule for next week?",
+                                                            "answer":  "possible"
+                                                        },
+                                                        {
+                                                            "text":  "I\u0027d really ___ your help with this task.",
+                                                            "answer":  "appreciate"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Write a more polite version of each direct request.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027Turn the music down.\u0027 â†’ \u0027___ you mind ___ the music down?\u0027",
+                                                            "answer":  "Would / turning"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Explain that again.\u0027 â†’ \u0027Could you possibly ___ that again?\u0027",
+                                                            "answer":  "explain"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Help me.\u0027 â†’ \u0027I was wondering if you ___ ___ me.\u0027",
+                                                            "answer":  "could help"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Move your chair.\u0027 â†’ \u0027Would it be possible for you to ___ your chair slightly?\u0027",
+                                                            "answer":  "move"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct polite request.",
+                                      "words":  [
+                                                    "if",
+                                                    "wondering",
+                                                    "could",
+                                                    "you",
+                                                    "I",
+                                                    "was",
+                                                    "the",
+                                                    "file",
+                                                    "send"
+                                                ],
+                                      "answer":  "I was wondering if you could send the file."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a \u0027Would you mind\u0027 request.",
+                                      "words":  [
+                                                    "checking",
+                                                    "you",
+                                                    "Would",
+                                                    "the",
+                                                    "again",
+                                                    "report",
+                                                    "mind"
+                                                ],
+                                      "answer":  "Would you mind checking the report again?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the situation to the most appropriate polite request.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Asking a friend to take a photo",
+                                                        "right":  "Could you take a photo of us?"
+                                                    },
+                                                    {
+                                                        "left":  "Asking a manager for an extension",
+                                                        "right":  "I was wondering if it would be possible to have a brief extension."
+                                                    },
+                                                    {
+                                                        "left":  "Asking a stranger to move their bag on a bus",
+                                                        "right":  "Would you mind moving your bag? I\u0027d like to sit down."
+                                                    },
+                                                    {
+                                                        "left":  "Asking a colleague to lower their voice",
+                                                        "right":  "Could you possibly speak a little more softly?"
+                                                    },
+                                                    {
+                                                        "left":  "Asking HR for a form",
+                                                        "right":  "Would it be possible to get the leave request form from you?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "â˜… FEATURED DIALOGUE â€” Scenario 3: Customer service call â€” Priya calls a bank, Chennai",
+                                      "scenario_id":  "scenario_3",
+                                      "setting":  "Priya\u0027s debit card was blocked and she needs to get it unblocked. She calls her bank\u0027s customer service line. This dialogue features polite requests throughout.",
+                                      "learning_note":  "Notice how BOTH the customer and the bank agent use polite language. This scenario is revisited in Lesson 13 for speaking practice.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Good afternoon, City Bank customer service. How may I assist you today?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Good afternoon. I\u0027m calling because my debit card seems to have been blocked. I\u0027m not sure why."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "I\u0027m sorry to hear that. Could you please verify your name and registered mobile number?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Of course â€” my name is Priya Rajan and the number is 98765 43210."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Thank you. And could you tell me your account number or the last 4 digits of your card?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "The last 4 digits are 7824."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Perfect. Would you mind holding for a moment while I pull up your account?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Not at all, please go ahead."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Thank you for holding, Ms Rajan. I can see your card was blocked after 3 incorrect PIN attempts. Is that possible?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Oh â€” yes, I think I typed the wrong PIN at the petrol station. Could you possibly unblock it for me?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Absolutely. Would you mind confirming your date of birth for security purposes?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes â€” 14th March 1992."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Perfect. Your card has been unblocked now. Could I ask you to try a transaction and confirm it works?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I will â€” thank you so much! One more thing â€” would it be possible to also increase my daily transaction limit?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Of course â€” I can raise it up to â‚¹1 lakh per day. Would that work for you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "That would be perfect. I really appreciate your help today."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "My pleasure, Ms Rajan. Is there anything else I can help you with?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "No, that\u0027s everything. Thank you very much! Bye!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Why was Priya\u0027s card blocked?",
+                                                                          "options":  [
+                                                                                          "She reported it stolen.",
+                                                                                          "She entered the wrong PIN 3 times.",
+                                                                                          "The card expired.",
+                                                                                          "She exceeded her limit."
+                                                                                      ],
+                                                                          "correct":  "She entered the wrong PIN 3 times."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What did Priya ask for in addition to unblocking?",
+                                                                          "options":  [
+                                                                                          "A new card",
+                                                                                          "A refund",
+                                                                                          "An increase in her daily transaction limit",
+                                                                                          "A PIN reset"
+                                                                                      ],
+                                                                          "correct":  "An increase in her daily transaction limit"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What did the agent ask Priya to confirm for security?",
+                                                                          "options":  [
+                                                                                          "Her address",
+                                                                                          "Her email",
+                                                                                          "Her date of birth",
+                                                                                          "Her mother\u0027s name"
+                                                                                      ],
+                                                                          "correct":  "Her date of birth"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "Find 4 polite requests in the dialogue â€” who makes them and what structure is used?",
+                                                                   "Why does the agent also use polite language even though they are the service provider?",
+                                                                   "How does Priya\u0027s response \u0027Not at all, please go ahead\u0027 show politeness?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the polite request mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Would you mind to send the report by tomorrow?",
+                                                            "correct":  "Would you mind sending the report by tomorrow?",
+                                                            "explanation":  "WOULD YOU MIND + gerund (-ing). Not \u0027to send\u0027 â€” \u0027sending\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Could you possibly to help me with this?",
+                                                            "correct":  "Could you possibly help me with this?",
+                                                            "explanation":  "After COULD YOU, use base verb directly â€” no \u0027to\u0027. \u0027Could you possibly help\u0027 not \u0027to help\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Would it be possible changing the time?",
+                                                            "correct":  "Would it be possible to change the time?",
+                                                            "explanation":  "WOULD IT BE POSSIBLE + TO + base verb (infinitive). Not the -ing form."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You are in a library. Someone near you is talking loudly on the phone. It\u0027s disturbing you and others. What do you say?",
+                                      "options":  [
+                                                      "Stop talking!",
+                                                      "Your phone is too loud.",
+                                                      "Excuse me â€” would you mind taking your call outside? People are trying to study.",
+                                                      "Phone outside please."
+                                                  ],
+                                      "correct":  "Excuse me â€” would you mind taking your call outside? People are trying to study.",
+                                      "explanation":  "Public place + stranger = polite request needed. \u0027Excuse me\u0027 softens it further. WOULD YOU MIND + -ing is ideal."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Make 5 polite requests for different situations using different structures from this lesson.",
+                                      "prompt":  "Create a polite request for each situation:\n1. Asking a colleague to cover your work while you\u0027re on leave.\n2. Asking a stranger to take your photo at a tourist spot.\n3. Asking your manager for a one-day deadline extension.\n4. Asking a fellow passenger to switch seats on a train.\n5. Asking a customer service agent to repeat information slowly.",
+                                      "example_response":  "Here are my five polite requests! For the first one â€” asking a colleague to cover my work: \u0027Hey Ravi, I was wondering if you could possibly cover my tasks on Thursday while I\u0027m on leave? I\u0027ll prepare a detailed handover note so everything is clear.\u0027 For the second â€” asking a stranger for a photo: \u0027Excuse me, would you mind taking a quick photo of us? We\u0027re trying to get the whole monument in the frame!\u0027 For the manager â€” deadline extension: \u0027I was wondering if it would be possible to have one additional day for the report? The data analysis is taking longer than I anticipated.\u0027 For the train seat â€” \u0027Excuse me, would you mind swapping seats with me? I\u0027d prefer to sit near the window for the journey.\u0027 And for customer service: \u0027Could you possibly repeat that information a little more slowly? I want to make sure I note it correctly.\u0027",
+                                      "key_phrases":  [
+                                                          "Would you mindâ€¦-ing?",
+                                                          "Could you possiblyâ€¦?",
+                                                          "I was wondering if you couldâ€¦",
+                                                          "Would it be possible toâ€¦?"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Re-read Scenario 3 (Bank call dialogue). Then role-play: you are calling to dispute a transaction on your credit card. Use polite requests throughout.",
+                                      "prompt":  "Role-play a bank call in which you report an unknown charge on your card. Use: Could you pleaseâ€¦?, Would you mindâ€¦?, I was wondering ifâ€¦, Would it be possible toâ€¦?",
+                                      "example_response":  "Good morning! I\u0027m calling to report an issue with my credit card. I noticed an unfamiliar transaction on my statement and I\u0027d like to get some help with it. Could you please pull up my account? My name is Arjun Mehta and my card number ends in 4391. Yes, thank you for confirming. I was wondering if you could tell me more about a transaction of â‚¹3,200 from a merchant called \u0027QuickShop Online\u0027 dated the 12th? I don\u0027t recall making that purchase. It does look suspicious â€” would it be possible to raise a dispute for that transaction? I\u0027d appreciate that. And would you mind sending me the dispute reference number by SMS once it\u0027s raised? I\u0027d like to keep a record. Also â€” could you possibly block that card and issue me a replacement? I\u0027m worried there may have been unauthorised access. How long would a replacement take to arrive? Three to five business days â€” that\u0027s fine. Thank you so much for your help today!",
+                                      "key_phrases":  [
+                                                          "Could you pleaseâ€¦?",
+                                                          "I was wondering ifâ€¦",
+                                                          "Would it be possible toâ€¦?",
+                                                          "Would you mindâ€¦-ing?"
+                                                      ],
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this email using polite request language.",
+                                      "text":  "Subject: Request for Support â€” Project Documentation\n\nDear Sonal,\n\nI hope you\u0027re well. I\u0027m working on the year-end project documentation and I ___ (1) wondering if you ___ (2) possibly share the Q3 reports with me. I understand you may be busy â€” ___ (3) it be possible to send them by Wednesday?\n\nAlso, ___ (4) you mind reviewing the summary I\u0027ve drafted? I\u0027d really ___ (5) a second opinion before I submit it to the manager.\n\nFinally, ___ (6) you possibly spare 20 minutes this week for a quick catch-up call?\n\nI ___ (7) really appreciate your help. Please do not hesitate to let me know if any of this is ___ (8) for you.\n\nKind regards,\nKavya",
+                                      "answers":  [
+                                                      "was",
+                                                      "could",
+                                                      "would",
+                                                      "would",
+                                                      "appreciate",
+                                                      "could",
+                                                      "would",
+                                                      "inconvenient"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1104_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 4 complete â€” Polite requests",
+                                      "key_points":  [
+                                                         "Scale: Can you? â†’ Could you? â†’ Could you possibly? â†’ Would you mind? â†’ I was wondering if...",
+                                                         "WOULD YOU MIND + verb-ING (not \u0027to\u0027)",
+                                                         "WOULD IT BE POSSIBLE + TO + base verb",
+                                                         "\u0027Not at all\u0027 / \u0027Of course\u0027 = positive response to \u0027Would you mind?\u0027",
+                                                         "COULD YOU POSSIBLY = extra polite, good for formal situations",
+                                                         "Add \u0027when you have a moment\u0027 / \u0027if it\u0027s not too much trouble\u0027 to soften further"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Phone English â€” calling, holding, transferring"
+                                  }
+                  }
+              ]
+}

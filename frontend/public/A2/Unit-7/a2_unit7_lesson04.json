@@ -1,0 +1,357 @@
+{
+  "lesson_id": "a2_unit7_lesson04",
+  "unit": 7,
+  "lesson_number": 4,
+  "level": "A2",
+  "title": "Asking For and Giving Advice",
+  "description": "Learn how to ask for advice politely and give useful advice using should, shouldn't, ought to, and why don't you / you could.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0704_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Giving Advice — Should & Shouldn't",
+      "content": {
+        "explanation": "We use SHOULD to give advice or recommendations. We use SHOULDN'T to advise someone NOT to do something.\n\n✅ SHOULD + base verb:\n• You should drink more water.\n• She should see a doctor.\n• They should leave early to avoid traffic.\n\n❌ SHOULDN'T + base verb:\n• You shouldn't eat too much junk food.\n• He shouldn't skip his classes.\n• You shouldn't stay up so late.\n\n🔑 KEY PHRASES FOR ADVICE:\n• I think you should... → I think you should talk to your manager.\n• You really should... → You really should try this restaurant!\n• If I were you, I would... → If I were you, I would apologise.\n• My advice would be to... → My advice would be to practise every day.\n• Why don't you...? → Why don't you take a day off?",
+        "examples": [
+          "You should apply for that job — you're well qualified.",
+          "She shouldn't drink coffee so late at night.",
+          "If I were you, I would speak to the teacher directly.",
+          "Why don't you try a different approach?"
+        ],
+        "tip": "SHOULD is a suggestion or recommendation — it is NOT as strong as MUST or HAVE TO."
+      }
+    },
+    {
+      "task_id": "t0704_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Asking for Advice",
+      "content": {
+        "explanation": "There are several useful ways to ASK for advice in English:\n\n❓ Common expressions:\n• What should I do?\n• What do you think I should do?\n• What would you do if you were me?\n• Do you think I should...?\n• Any advice on...?\n• What's your suggestion?\n• Should I...?\n• Do you have any tips for...?\n\n📌 OUGHT TO — another way to give advice:\n• You ought to see a doctor. (= You should see a doctor.)\n• He ought to apologise. (= He should apologise.)\n• OUGHT TO is slightly more formal but means the same as SHOULD.\n\n📌 COULD — softer advice:\n• You could try calling them again.\n• She could take a break if she's tired.\n• COULD is gentler — it gives options without pressure.",
+        "examples": [
+          "What do you think I should do about this problem?",
+          "You ought to register early — places fill up fast.",
+          "You could speak to the HR department about this.",
+          "If I were you, I'd take the job offer."
+        ],
+        "tip": "OUGHT TO = SHOULD (same meaning). COULD is softer — it suggests options, not obligations."
+      }
+    },
+    {
+      "task_id": "t0704_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Advice Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "recommend", "meaning": "to suggest something as good or suitable", "example": "I recommend this restaurant — the food is excellent." },
+          { "word": "suggest", "meaning": "to mention an idea for someone to consider", "example": "I suggest you arrive early to avoid the rush." },
+          { "word": "consider", "meaning": "to think carefully about something", "example": "You should consider all your options before deciding." },
+          { "word": "hesitate", "meaning": "to pause before doing something", "example": "Don't hesitate to call me if you need help." },
+          { "word": "consult", "meaning": "to seek advice or information from an expert", "example": "You should consult a lawyer before signing anything." },
+          { "word": "reconsider", "meaning": "to think again about a decision", "example": "I think you should reconsider — it's a big decision." },
+          { "word": "practical", "meaning": "sensible and useful in real situations", "example": "His advice was very practical and easy to follow." },
+          { "word": "perspective", "meaning": "a way of thinking about something", "example": "Try to see it from her perspective." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0704_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Advice Phrases",
+      "content": {
+        "instruction": "Listen and repeat these common advice expressions. Try to sound natural and friendly.",
+        "items": [
+          { "audio_key": "a2_u7_l4_lr1", "text": "I think you should talk to your manager about it." },
+          { "audio_key": "a2_u7_l4_lr2", "text": "If I were you, I would take the job." },
+          { "audio_key": "a2_u7_l4_lr3", "text": "Why don't you try speaking to her directly?" },
+          { "audio_key": "a2_u7_l4_lr4", "text": "You really shouldn't skip breakfast every day." },
+          { "audio_key": "a2_u7_l4_lr5", "text": "What do you think I should do about this?" }
+        ]
+      }
+    },
+    {
+      "task_id": "t0704_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Ravi has a headache and hasn't slept well. What is the BEST advice?",
+      "options": [
+        "You should work harder tonight.",
+        "You shouldn't rest — you have a lot to do.",
+        "You should rest and drink plenty of water.",
+        "You ought to eating more food."
+      ],
+      "correct_answer": "You should rest and drink plenty of water.",
+      "explanation": "Rest and hydration are the most sensible advice for a headache and poor sleep."
+    },
+    {
+      "task_id": "t0704_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "You ought to seeing a doctor.",
+        "You ought to see a doctor.",
+        "You ought see a doctor.",
+        "You ought to saw a doctor."
+      ],
+      "correct_answer": "You ought to see a doctor.",
+      "explanation": "OUGHT TO is followed by the BASE VERB. Unlike 'must' and 'should', 'ought to' keeps the 'to'."
+    },
+    {
+      "task_id": "t0704_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Kavya wants to improve her English. What is a SOFT piece of advice using COULD?",
+      "options": [
+        "You must watch English films.",
+        "You should watch English films every day.",
+        "You could watch English films — it really helps.",
+        "You mustn't miss any English classes."
+      ],
+      "correct_answer": "You could watch English films — it really helps.",
+      "explanation": "COULD gives a gentler suggestion — it presents an option rather than a strong obligation."
+    },
+    {
+      "task_id": "t0704_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Your friend says 'I have a big job interview tomorrow but I'm very nervous. What should I do?' Which response asks for clarification before advising?",
+      "options": [
+        "You should just relax.",
+        "What kind of job is it? Tell me more and I can give better advice.",
+        "You mustn't be nervous.",
+        "You ought to cancel the interview."
+      ],
+      "correct_answer": "What kind of job is it? Tell me more and I can give better advice.",
+      "explanation": "Good advisors ask for more information before giving advice — this shows care and helps give relevant suggestions."
+    },
+    {
+      "task_id": "t0704_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Fill in the blank with should, shouldn't, or ought to.",
+      "items": [
+        {
+          "sentence": "You _____ eat more fruits and vegetables. They are very good for your health.",
+          "answer": "should",
+          "hint": "This is positive advice."
+        },
+        {
+          "sentence": "You _____ stay up so late every night — you look exhausted.",
+          "answer": "shouldn't",
+          "hint": "This is advice to stop a bad habit."
+        },
+        {
+          "sentence": "You _____ apply for that scholarship. You have excellent grades.",
+          "answer": "ought to",
+          "hint": "This is a recommendation — similar to 'should'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0704_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete the sentence with an appropriate advice phrase from the box: Why don't you / If I were you / You could / I think you should.",
+      "items": [
+        {
+          "sentence": "_____ talk to your professor directly about this issue.",
+          "answer": "I think you should",
+          "hint": "A direct but polite recommendation."
+        },
+        {
+          "sentence": "_____, I would apologise to her right away.",
+          "answer": "If I were you",
+          "hint": "Giving advice from your own perspective."
+        },
+        {
+          "sentence": "_____ take a different route to avoid the traffic on MG Road?",
+          "answer": "Why don't you",
+          "hint": "A question form of advice."
+        }
+      ]
+    },
+    {
+      "task_id": "t0704_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make correct advice sentences.",
+      "items": [
+        {
+          "words": ["I", "think", "you", "should", "apply", "for", "the", "scholarship"],
+          "answer": "I think you should apply for the scholarship."
+        },
+        {
+          "words": ["If", "I", "were", "you", "I", "would", "talk", "to", "a", "doctor"],
+          "answer": "If I were you, I would talk to a doctor."
+        }
+      ]
+    },
+    {
+      "task_id": "t0704_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make correct advice sentences.",
+      "items": [
+        {
+          "words": ["You", "shouldn't", "eat", "so", "much", "fried", "food"],
+          "answer": "You shouldn't eat so much fried food."
+        },
+        {
+          "words": ["Why", "don't", "you", "try", "a", "different", "approach?"],
+          "answer": "Why don't you try a different approach?"
+        }
+      ]
+    },
+    {
+      "task_id": "t0704_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the problem with the best piece of advice.",
+      "pairs": [
+        { "left": "I always feel tired in the morning.", "right": "You should go to bed earlier." },
+        { "left": "I failed my driving test.", "right": "You could practise more before trying again." },
+        { "left": "My English pronunciation is not clear.", "right": "I think you should listen to more English podcasts." },
+        { "left": "I'm stressed about my exams.", "right": "If I were you, I would make a study schedule." },
+        { "left": "I haven't spoken to my friend in weeks.", "right": "Why don't you give her a call today?" }
+      ]
+    },
+    {
+      "task_id": "t0704_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Advice Between Friends — Mumbai",
+      "dialogue": {
+        "context": "Sonal is feeling stressed about her job situation. She is talking to her friend Priya at a café in Mumbai.",
+        "turns": [
+          { "speaker": "Sonal", "text": "Priya, I really need some advice. I'm not happy at my current job, but I'm scared to leave." },
+          { "speaker": "Priya", "text": "Tell me more. What exactly is making you unhappy?" },
+          { "speaker": "Sonal", "text": "My manager is very difficult. He never appreciates my work and the salary is low. I've been there for two years." },
+          { "speaker": "Priya", "text": "I think you should speak to your HR department first. Have you tried that?" },
+          { "speaker": "Sonal", "text": "No, I haven't. I'm scared they won't listen." },
+          { "speaker": "Priya", "text": "You ought to try — you have nothing to lose. If they don't respond, then you can think about leaving." },
+          { "speaker": "Sonal", "text": "That's true. But if I leave, what should I do? I don't have another job lined up." },
+          { "speaker": "Priya", "text": "If I were you, I would start applying while I'm still employed. It's much easier to find a job when you already have one." },
+          { "speaker": "Sonal", "text": "That makes sense. Do you think I should update my LinkedIn profile?" },
+          { "speaker": "Priya", "text": "Absolutely! You should update it this week and connect with people in your industry." },
+          { "speaker": "Sonal", "text": "I'm also thinking of doing a certification course. Should I?" },
+          { "speaker": "Priya", "text": "You could do that — it would definitely strengthen your CV. Why don't you check what's available online?" },
+          { "speaker": "Sonal", "text": "You're right. I shouldn't just complain — I should take action!" },
+          { "speaker": "Priya", "text": "Exactly! And don't worry — I'm here to help. You've got this!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What is Sonal's main problem at work?",
+            "options": ["She earns too much", "Her manager is difficult and the salary is low", "She has too many meetings", "She works too far from home"],
+            "correct_answer": "Her manager is difficult and the salary is low"
+          },
+          {
+            "question": "What does Priya recommend Sonal do FIRST?",
+            "options": ["Resign immediately", "Apply for new jobs", "Speak to the HR department", "Do a certification course"],
+            "correct_answer": "Speak to the HR department"
+          },
+          {
+            "question": "What does Priya say about job searching?",
+            "options": ["You should quit first, then look", "It's easier to find a job when you already have one", "You shouldn't apply for new jobs", "You ought to take a long holiday first"],
+            "correct_answer": "It's easier to find a job when you already have one"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0704_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each sentence.",
+      "items": [
+        {
+          "sentence": "You ought see a doctor about that cough.",
+          "error": "ought see",
+          "correction": "ought to see",
+          "explanation": "OUGHT TO always keeps 'to' before the base verb."
+        },
+        {
+          "sentence": "If I was you, I would ask for help.",
+          "error": "If I was you",
+          "correction": "If I were you",
+          "explanation": "'If I were you' is the correct fixed phrase — always use 'were', not 'was'."
+        },
+        {
+          "sentence": "Why you don't take a break?",
+          "error": "Why you don't",
+          "correction": "Why don't you",
+          "explanation": "The correct question structure is 'Why don't you + base verb?'"
+        }
+      ]
+    },
+    {
+      "task_id": "t0704_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "Your colleague Rajesh tells you he has been having trouble sleeping for two weeks. He also has a headache every morning. He asks what he should do.",
+      "question": "What is the most helpful and appropriate advice?",
+      "options": [
+        "You mustn't sleep at all — it will make it worse.",
+        "I think you should see a doctor, and you could also try reducing screen time before bed.",
+        "You don't need to do anything — it will pass.",
+        "If I were you, I would drink more coffee to stay awake."
+      ],
+      "correct_answer": "I think you should see a doctor, and you could also try reducing screen time before bed.",
+      "explanation": "This combines a direct recommendation (should) and a gentle suggestion (could), which is well-balanced and practical advice."
+    },
+    {
+      "task_id": "t0704_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Your friend wants to improve their English. Give them at least 5 pieces of advice using should, shouldn't, could, and why don't you. Speak for at least 60 seconds.",
+      "prompt": "Give advice to a friend who wants to improve their English skills.",
+      "example_response": "If you want to improve your English, I have some good advice for you. First, I think you should watch English movies and TV shows with English subtitles — not Hindi subtitles. This really helps you understand natural speech. You could also listen to English podcasts when you travel or during free time. Why don't you keep a small notebook and write down new words you learn every day? You should also try speaking English with friends or classmates — don't be shy! You shouldn't worry about making mistakes — everyone makes mistakes and that is how you learn. I also think you ought to read an English newspaper or news website for at least ten minutes every day. And you shouldn't translate word by word — try to think in English directly. If you follow all this advice, your English will improve very quickly!",
+      "key_phrases": ["I think you should", "you could", "why don't you", "you shouldn't", "I recommend", "it would help to"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0704_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Think of a problem you have or had recently — at work, at home, with studies, or with health. Describe the problem and ask for advice. Then give yourself the advice you think you need.",
+      "prompt": "Describe a problem and ask for / give yourself advice.",
+      "example_response": "I have a problem with time management. I always feel like I have too much to do and not enough time. I procrastinate a lot and leave things to the last minute. What should I do? Well, I think I should make a proper schedule every morning and list the things I need to do in order of priority. I ought to stop checking my phone every few minutes — it's a huge distraction. I could also use a timer to focus for 25 minutes without interruptions, and then take a 5-minute break. I shouldn't try to do everything at once — I should focus on one task at a time. If I were someone giving me advice, I would say: stop overthinking and just start! Even small progress is better than nothing.",
+      "key_phrases": ["I think I should", "I ought to", "I could", "I shouldn't", "my advice to myself is"],
+      "min_words": 80
+    },
+    {
+      "task_id": "t0704_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this advice paragraph using should, shouldn't, ought to, could, or if I were you.",
+      "paragraph": "Meera wants to start exercising regularly. Here is some advice for her. She (1)_____ start with short workouts of 20-30 minutes rather than trying to run for an hour on day one. She (2)_____ exercise on an empty stomach — that can cause dizziness. (3)_____ she also join a local yoga or fitness class. She (4)_____ try different types of exercise to find what she enjoys. (5)_____, I would start walking for 30 minutes every morning — it's free and easy to do anywhere. She (6)_____ forget to drink enough water before and after exercising. Consistency is the most important thing — she (7)_____ give up after just a few days.",
+      "answers": ["should", "shouldn't", "Could", "could", "If I were you", "shouldn't", "shouldn't"],
+      "hint": "Think about which word is the most natural in each situation."
+    },
+    {
+      "task_id": "t0704_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 4 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "SHOULD + base verb → giving advice (You should rest.)",
+          "SHOULDN'T + base verb → advising against something (You shouldn't skip meals.)",
+          "OUGHT TO + base verb → same as should, slightly more formal",
+          "COULD → softer suggestion / option (You could try yoga.)",
+          "WHY DON'T YOU + base verb? → friendly advice question",
+          "IF I WERE YOU, I WOULD → advice from your perspective",
+          "Key phrases for asking: What should I do? / Do you think I should...?",
+          "Key vocab: recommend, suggest, consider, consult, practical, perspective"
+        ],
+        "grammar_summary": "Use SHOULD and OUGHT TO for recommendations. Use COULD and WHY DON'T YOU for softer suggestions. Always use 'If I WERE you' (not 'was').",
+        "encouragement": "Fantastic! Giving and asking for advice is one of the most useful skills in real conversations. You now have many tools to do this naturally. Keep practising! 🌟"
+      }
+    }
+  ]
+}

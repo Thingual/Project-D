@@ -1,0 +1,407 @@
+{
+  "lesson_id": "a2_unit8_lesson08",
+  "unit": 8,
+  "lesson_number": 8,
+  "level": "A2",
+  "title": "Unit 8 Review — Describing and Comparing",
+  "description": "Review and consolidate all Unit 8 skills: intensified comparatives, superlatives with ever, adjective order, adverbs of manner, describing places and people, and writing reviews.",
+  "estimated_minutes": 30,
+  "xp_reward": 200,
+  "tasks": [
+    {
+      "task_id": "t0808_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Unit 8 Grammar Review — Comparatives & Superlatives",
+      "content": {
+        "explanation": "Complete Unit 8 grammar summary:\n\n✅ INTENSIFIED COMPARATIVES:\n• BIG difference: much / far / a lot / significantly + comparative\n  → This road is much faster than the old route.\n  → Bangalore is far cooler than Chennai in summer.\n• SMALL difference: a bit / slightly / a little + comparative\n  → Today is a bit warmer than yesterday.\n  → This model is slightly heavier than the last one.\n• ❌ NEVER: 'very faster' / 'more better' / 'faster than that'\n\n✅ SUPERLATIVES WITH EVER:\n• Pattern: the + superlative + I've / he's / she's / we've + ever + PAST PARTICIPLE\n  → It was the best meal I've ever eaten.\n  → She is the most inspiring teacher I've ever had.\n• NEVER: 'the most best' / 'ever eat' (must be past participle)\n\n✅ ADJECTIVE ORDER — OSASCOMP:\n• Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose\n  → a beautiful long red silk saree\n  → a big old round wooden table\n\n✅ ADVERBS OF MANNER:\n• adjective + -ly: careful → carefully / slow → slowly / happy → happily\n• Irregular: good → WELL / fast → FAST (not 'fastly')\n• Position: AFTER verb or AFTER object (never between verb and object)",
+        "examples": [
+          "This phone is much better than the old one. (intensified comparative)",
+          "It was the best biryani I've ever tasted. (superlative + ever)",
+          "She wore a beautiful long blue cotton dupatta. (adjective order)",
+          "He explained the instructions very clearly. (adverb of manner)"
+        ],
+        "tip": "Review tip: MUCH/FAR = big difference. SLIGHTLY/A BIT = small difference. BEST/WORST not MOST GOOD/MOST BAD."
+      }
+    },
+    {
+      "task_id": "t0808_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Unit 8 Skills Review — Describing and Reviewing",
+      "content": {
+        "explanation": "Summary of Unit 8 communication skills:\n\n🏙️ DESCRIBING PLACES:\n• Structure: WHAT/WHERE → LOOKS → ATMOSPHERE → COMPARISON → RECOMMENDATION\n• Key phrases: is situated in / located on / surrounded by / overlooking\n• The streets are lined with... / dotted with...\n• It is famous / known for...\n• It has a [adjective] atmosphere unlike anywhere else.\n\n👤 DESCRIBING PEOPLE:\n• Appearance: height + build + hair (length→colour→type) + eyes + age\n• Personality: tends to be / is known for being / one of the most... I've ever met\n• 'In terms of appearance... / In terms of personality...'\n\n⭐ WRITING REVIEWS:\n• Structure: Overall → Positives → Negatives → Comparison → Recommendation\n• Key: 'by far the best I've ever' / 'the only downside is' / 'outstanding value for money'\n• 'I would highly recommend this to anyone who...'\n\n🔗 COMBINING ALL SKILLS:\n'It was the most vibrant, atmospheric city I've ever visited — far more colourful than any place I know, with streets lined with beautiful old stone temples.'",
+        "examples": [
+          "She is a tall, slim woman with long dark wavy hair — one of the most empathetic people I've ever met.",
+          "It is by far the most atmospheric bazaar I've ever explored — far more interesting than any modern mall.",
+          "The food was absolutely outstanding — by far the best I've tasted in this city."
+        ],
+        "tip": "In real communication, combining skills creates richer, more natural English. Practice using multiple Unit 8 elements in every answer."
+      }
+    },
+    {
+      "task_id": "t0808_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Unit 8 Complete Vocabulary Review",
+      "content": {
+        "vocabulary": [
+          { "word": "breathtaking", "meaning": "extremely impressive or beautiful; takes your breath away", "example": "The view from the fort was absolutely breathtaking." },
+          { "word": "cosmopolitan", "meaning": "influenced by many cultures; international in character", "example": "Bangalore has become a truly cosmopolitan city." },
+          { "word": "meticulous", "meaning": "showing great attention to detail; very careful and precise", "example": "She is a meticulous worker who never makes errors." },
+          { "word": "eloquent", "meaning": "able to express ideas clearly and impressively in speech or writing", "example": "His presentation was eloquent and held everyone's attention." },
+          { "word": "seamless", "meaning": "smooth and without any problems or visible joins", "example": "The transition between the two sections was seamless." },
+          { "word": "atmospheric", "meaning": "having a distinctive mood or feeling; evocative", "example": "The old quarter of Jaipur is incredibly atmospheric at night." },
+          { "word": "value for money", "meaning": "worth the price paid; good quality relative to cost", "example": "This restaurant is outstanding value for money." },
+          { "word": "distinctive", "meaning": "characteristic and easily recognisable; standing out", "example": "She has a very distinctive style of speaking." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0808_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Unit 8 Showcase Sentences",
+      "content": {
+        "instruction": "Listen and repeat these sentences that combine multiple Unit 8 skills. Focus on natural rhythm and emphasis.",
+        "items": [
+          { "audio_key": "a2_u8_l8_lr1", "text": "It is by far the most beautiful place I've ever visited in India." },
+          { "audio_key": "a2_u8_l8_lr2", "text": "She is a tall, slim woman with long dark wavy hair and warm expressive eyes." },
+          { "audio_key": "a2_u8_l8_lr3", "text": "The only downside is the price — it's slightly more expensive than similar products." },
+          { "audio_key": "a2_u8_l8_lr4", "text": "He explained the instructions very clearly and patiently to everyone." },
+          { "audio_key": "a2_u8_l8_lr5", "text": "She wore a beautiful long red embroidered silk saree to the wedding." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0808_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence has the CORRECT adjective order?",
+      "options": [
+        "a wooden old beautiful big table",
+        "a beautiful big old wooden table",
+        "a big beautiful wooden old table",
+        "an old big beautiful wooden table"
+      ],
+      "correct_answer": "a beautiful big old wooden table",
+      "explanation": "OSASCOMP: Opinion (beautiful) → Size (big) → Age (old) → Material (wooden). Opinion always comes first."
+    },
+    {
+      "task_id": "t0808_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Which sentence uses an adverb of manner INCORRECTLY?",
+      "options": [
+        "She completed the report efficiently.",
+        "He ran quickly to catch the metro.",
+        "She drives very fastly on the expressway.",
+        "He explained the rules clearly and calmly."
+      ],
+      "correct_answer": "She drives very fastly on the expressway.",
+      "explanation": "FAST is already an adverb — 'fastly' does not exist in English. Correct: 'She drives very fast on the expressway.'"
+    },
+    {
+      "task_id": "t0808_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Choose the sentence that CORRECTLY uses a superlative with EVER.",
+      "options": [
+        "That was the most delicious food I've ever ate.",
+        "That was the most delicious food I ever eaten.",
+        "That was the most delicious food I've ever eaten.",
+        "That was the most delicious food I've ever eat."
+      ],
+      "correct_answer": "That was the most delicious food I've ever eaten.",
+      "explanation": "Pattern: the + superlative + I've ever + PAST PARTICIPLE. 'Eaten' is the past participle of 'eat'. After 'have/has ever', always use the past participle."
+    },
+    {
+      "task_id": "t0808_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which intensified comparative is MOST appropriate for comparing a five-star hotel with a budget hostel?",
+      "options": [
+        "The hotel is slightly more comfortable than the hostel.",
+        "The hotel is a bit more comfortable than the hostel.",
+        "The hotel is far more comfortable than the hostel.",
+        "The hotel is a little more comfortable than the hostel."
+      ],
+      "correct_answer": "The hotel is far more comfortable than the hostel.",
+      "explanation": "A five-star hotel vs a budget hostel represents a VERY large difference in comfort — so FAR (or much/a lot) is the correct intensifier."
+    },
+    {
+      "task_id": "t0808_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete each sentence with the correct Unit 8 language.",
+      "items": [
+        {
+          "sentence": "Varanasi is _____ on the banks of the Ganga and is one of the oldest cities in the world.",
+          "answer": "situated / located",
+          "hint": "Location passive phrase: 'is situated' or 'is located'."
+        },
+        {
+          "sentence": "She is one of the most _____ people I've ever worked with — she always understands exactly how others feel.",
+          "answer": "empathetic",
+          "hint": "The ability to understand and share feelings."
+        },
+        {
+          "sentence": "For ₹1,500, this water bottle is _____ value for money — far better than more expensive brands.",
+          "answer": "outstanding / excellent / exceptional",
+          "hint": "Strong positive review phrase for price-quality ratio."
+        }
+      ]
+    },
+    {
+      "task_id": "t0808_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete each sentence with the correct Unit 8 review or description language.",
+      "items": [
+        {
+          "sentence": "The _____ downside is the charging time — everything else about this phone is exceptional.",
+          "answer": "only",
+          "hint": "'The only downside is' — used to minimise and isolate a single negative."
+        },
+        {
+          "sentence": "This is _____ the most beautiful sunset I've ever seen — truly unforgettable.",
+          "answer": "by far / absolutely / without doubt",
+          "hint": "An intensifier used before a superlative to make it even stronger."
+        },
+        {
+          "sentence": "I would _____ recommend Ooty to anyone who enjoys hill stations and cool weather.",
+          "answer": "highly / strongly / definitely",
+          "hint": "Adverb that strengthens a recommendation."
+        }
+      ]
+    },
+    {
+      "task_id": "t0808_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct sentence using Unit 8 grammar.",
+      "items": [
+        {
+          "words": ["She", "wore", "a", "beautiful", "long", "green", "embroidered", "silk", "saree"],
+          "answer": "She wore a beautiful long green embroidered silk saree."
+        },
+        {
+          "words": ["That", "was", "the", "most", "atmospheric", "place", "I've", "ever", "visited", "in", "Karnataka"],
+          "answer": "That was the most atmospheric place I've ever visited in Karnataka."
+        }
+      ]
+    },
+    {
+      "task_id": "t0808_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct sentence using Unit 8 grammar.",
+      "items": [
+        {
+          "words": ["He", "is", "much", "more", "patient", "than", "his", "previous", "manager", "ever", "was"],
+          "answer": "He is much more patient than his previous manager ever was."
+        },
+        {
+          "words": ["I", "would", "highly", "recommend", "this", "restaurant", "to", "anyone", "who", "loves", "South", "Indian", "food"],
+          "answer": "I would highly recommend this restaurant to anyone who loves South Indian food."
+        }
+      ]
+    },
+    {
+      "task_id": "t0808_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match each Unit 8 grammar point with its correct example sentence.",
+      "pairs": [
+        { "left": "Intensified comparative (big difference)", "right": "Bangalore is far cooler than Chennai in summer." },
+        { "left": "Superlative with EVER", "right": "It was the best biryani I've ever tasted." },
+        { "left": "Correct adjective order", "right": "a beautiful long dark embroidered cotton dupatta" },
+        { "left": "Adverb of manner", "right": "She sang the classical piece beautifully and confidently." },
+        { "left": "Review recommendation", "right": "I would highly recommend this to anyone who loves South Indian food." }
+      ]
+    },
+    {
+      "task_id": "t0808_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Unit 8 Showcase Conversation — Jaipur Trip Review",
+      "dialogue": {
+        "context": "Priya has just returned from a trip to Jaipur. She is having tea with her aunt Meenakshi in Chennai and describing everything — the city, the people, the food, and a product she bought there.",
+        "turns": [
+          { "speaker": "Meenakshi", "text": "Priya! Tell me everything about Jaipur! I've always wanted to visit." },
+          { "speaker": "Priya", "text": "Meena Aunty, it was absolutely incredible — by far the most spectacular city I've ever visited in India." },
+          { "speaker": "Meenakshi", "text": "What does it look like? I've only seen photos." },
+          { "speaker": "Priya", "text": "The city is painted a warm, dusty pink — it's much more colourful than I expected. The streets are lined with beautiful old stone buildings and vibrant bazaars. Very atmospheric." },
+          { "speaker": "Meenakshi", "text": "And the people? Were they welcoming?" },
+          { "speaker": "Priya", "text": "Incredibly warm! Our guide was a tall, distinguished man in his fifties with short silver hair and a very distinctive moustache. He was one of the most eloquent and knowledgeable people I've ever met." },
+          { "speaker": "Meenakshi", "text": "That sounds lovely. What about the food?" },
+          { "speaker": "Priya", "text": "Outstanding! The dal baati churma was the most flavourful dish I've ever tasted — far richer and more complex than any dal I've had in Tamil Nadu." },
+          { "speaker": "Meenakshi", "text": "And you bought some things at the market?" },
+          { "speaker": "Priya", "text": "Yes! I bought a beautiful large brass elephant — genuinely the most intricate piece of craftwork I've ever seen. And a gorgeous long deep blue embroidered cotton dupatta." },
+          { "speaker": "Meenakshi", "text": "Was the shopping good value?" },
+          { "speaker": "Priya", "text": "Excellent value for money — far cheaper than similar items in Chennai. I also tried haggling for the first time, which was surprisingly fun!" },
+          { "speaker": "Meenakshi", "text": "Anything you didn't enjoy?" },
+          { "speaker": "Priya", "text": "The only downside was the heat — far more intense than Chennai, which is saying something. And some tourist areas were a bit too crowded on weekends." },
+          { "speaker": "Meenakshi", "text": "Would you recommend I go?" },
+          { "speaker": "Priya", "text": "Absolutely! I would highly recommend Jaipur to anyone who loves history, colour, craft, and exceptional food. Go in November — the weather is much more pleasant then." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How does Priya describe the city of Jaipur overall?",
+            "options": [
+              "Very similar to Chennai",
+              "By far the most spectacular city she's ever visited in India",
+              "A bit disappointing",
+              "Too crowded to enjoy"
+            ],
+            "correct_answer": "By far the most spectacular city she's ever visited in India"
+          },
+          {
+            "question": "What does Priya say about the food she ate?",
+            "options": [
+              "It was similar to Tamil Nadu food",
+              "It was overpriced",
+              "The dal baati churma was the most flavourful dish she's ever tasted",
+              "She didn't enjoy Rajasthani food"
+            ],
+            "correct_answer": "The dal baati churma was the most flavourful dish she's ever tasted"
+          },
+          {
+            "question": "What is the ONLY downside Priya mentions?",
+            "options": [
+              "The people were unfriendly",
+              "The food was too spicy",
+              "The heat and some areas being too crowded on weekends",
+              "The shopping was overpriced"
+            ],
+            "correct_answer": "The heat and some areas being too crowded on weekends"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0808_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the ONE mistake in each sentence. All errors relate to Unit 8 grammar.",
+      "items": [
+        {
+          "sentence": "She is one of the more generous people I've ever met.",
+          "error": "the more generous",
+          "correction": "the most generous",
+          "explanation": "'One of the MOST' is required for superlative expressions. 'One of the more' is incorrect."
+        },
+        {
+          "sentence": "He wore a silk dark long traditional kurta to the ceremony.",
+          "error": "silk dark long traditional",
+          "correction": "long dark traditional silk",
+          "explanation": "Correct order: SIZE/LENGTH (long) → COLOUR (dark) → ORIGIN (traditional) → MATERIAL (silk). Opinion first if there is one."
+        },
+        {
+          "sentence": "She completed efficient the presentation before the deadline.",
+          "error": "completed efficient the presentation",
+          "correction": "completed the presentation efficiently",
+          "explanation": "Adverbs of manner go AFTER the object ('the presentation'), never between verb and object. 'Efficient' needs -ly: 'efficiently'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0808_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "A foreign friend visiting India for the first time asks you to recommend one city that best represents Indian culture — history, food, art, and people. They want a detailed, vivid recommendation.",
+      "question": "Which response uses the most Unit 8 language effectively?",
+      "options": [
+        "Go to Delhi. It's good.",
+        "I would recommend Rajasthan.",
+        "I would strongly recommend Jaipur in Rajasthan — it's a vibrant, ancient, pink-painted city that is by far the most visually striking place I've ever visited. The Amber Fort is the most impressive historical monument I've ever seen, the bazaars are lined with beautiful, colourful traditional crafts, and the food is the most richly flavoured I've ever tasted in India.",
+        "Any city is fine — India is all beautiful."
+      ],
+      "correct_answer": "I would strongly recommend Jaipur in Rajasthan — it's a vibrant, ancient, pink-painted city that is by far the most visually striking place I've ever visited. The Amber Fort is the most impressive historical monument I've ever seen, the bazaars are lined with beautiful, colourful traditional crafts, and the food is the most richly flavoured I've ever tasted in India.",
+      "explanation": "This uses: strong recommendation, multiple adjectives in order (vibrant ancient pink-painted), 'by far the most', superlative + ever (three times), and 'lined with' — expertly combining all Unit 8 skills."
+    },
+    {
+      "task_id": "t0808_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "UNIT 8 FINAL SPEAKING TASK 1: Give a detailed description of a place you love in India. Use intensified comparatives, superlatives with ever, correct adjective order, adverbs of manner, and place description language. This is your showcase — make it vivid and impressive! Speak for at least 80 seconds.",
+      "prompt": "Describe your favourite place in India using all Unit 8 skills.",
+      "example_response": "My absolute favourite place in India is the backwaters of Kerala, specifically the town of Alleppey. It is a serene, ancient waterside town situated in Kerala, surrounded by an extraordinary network of canals, lagoons, and rice paddies. The landscape is the most lush and breathtaking I have ever seen anywhere in India — an endless carpet of vivid green, broken only by the beautiful narrow canals that wind quietly through the countryside. We stayed on a traditional wooden houseboat, which is the most unique and peaceful accommodation I have ever experienced in my life. Watching the sun set slowly over the still water while sitting on the boat's deck was by far the most beautiful moment I have ever witnessed in India. The food on the houseboat was exceptional — the freshly cooked Kerala meals were far more flavourful and authentic than anything I've eaten in a restaurant. The boatman who guided us was a quiet, deeply knowledgeable man who explained the landscape eloquently and patiently. The whole experience was significantly more relaxing than any city holiday I have ever taken. Alleppey is far less crowded than other Kerala backwater spots and has a much more authentic atmosphere. I would absolutely recommend it to anyone who wants to experience a truly peaceful, unforgettable side of India.",
+      "key_phrases": [
+        "is situated in / surrounded by",
+        "the most... I have ever seen/experienced",
+        "by far the most...",
+        "far more... than",
+        "much more... than",
+        "is lined/dotted with",
+        "I would absolutely recommend"
+      ],
+      "min_words": 110
+    },
+    {
+      "task_id": "t0808_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "UNIT 8 FINAL SPEAKING TASK 2: Describe someone you admire deeply — their appearance, personality, and what makes them special. Then give a 'life review' of this person as if writing a review. Use all Unit 8 language to make your answer rich and expressive. Speak for at least 80 seconds.",
+      "prompt": "Describe and 'review' someone you admire using all Unit 8 language.",
+      "example_response": "I want to describe and celebrate my college professor, Dr. Anand Kumar, who I consider to be one of the most inspirational people I have ever encountered in my life. In terms of appearance, he is a man in his early sixties, of medium height with a slightly stocky build. He has short, neat, silver hair and a well-trimmed grey beard. He has remarkably bright, intelligent eyes behind small round gold-rimmed glasses, and a very distinctive, calm, warm smile that instantly puts you at ease. In terms of personality, he is without question the most patient and dedicated teacher I have ever had the privilege of learning from. He tends to be quite serious and methodical in the classroom, but his explanations are always outstandingly clear and his examples are brilliantly chosen from real life. He is known for being deeply empathetic with students who are struggling — he never makes anyone feel embarrassed for asking a question. He has a wonderfully dry sense of humour that appears quietly in the middle of the most complex lectures. If I were to write a review of him as an educator, I would give him five stars without any hesitation. He is the most genuinely dedicated, meticulous, and charismatic teacher I have ever met. His influence on my thinking has been far greater than any book or course I have ever taken.",
+      "key_phrases": [
+        "in terms of appearance", "in terms of personality",
+        "one of the most... I've ever",
+        "tends to be", "is known for being",
+        "by far the most", "if I were to write a review",
+        "his influence has been far greater than"
+      ],
+      "min_words": 120
+    },
+    {
+      "task_id": "t0808_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this comprehensive Unit 8 review passage about a travel experience. Use the most appropriate word or phrase for each blank.",
+      "paragraph": "My recent trip to Mysore was (1)_____ the most rewarding experience I've had this year. Mysore is (2)_____ in southern Karnataka and is (3)_____ for its magnificent palaces, fragrant jasmine markets, and rich cultural heritage. The Mysore Palace is (4)_____ the most stunning historical building I have ever seen — it is (5)_____ more impressive in person than in any photograph. The streets are (6)_____ with beautiful old trees, flower sellers, and traditional silk shops. The city has a (7)_____ more regal and peaceful atmosphere than Bangalore, which is just three hours away. Our guide, a tall, distinguished man in his (8)_____ fifties with short silver hair, explained everything (9)_____ and (10)_____. He was one of the most (11)_____ and knowledgeable guides I've ever had. The food in Mysore is (12)_____ better than in most cities I've visited — the Mysore masala dosa is (13)_____ the best I've ever eaten. My (14)_____ small criticism is that some areas near the palace felt (15)_____ crowded on Sunday morning. (16)_____, I would (17)_____ recommend Mysore to anyone visiting Karnataka — it is genuinely one of India's most (18)_____ and (19)_____ destinations.",
+      "answers": [
+        "by far",
+        "situated / located",
+        "famous / known",
+        "by far",
+        "far / much / significantly",
+        "lined",
+        "much / far",
+        "mid / late",
+        "clearly",
+        "patiently / eloquently",
+        "eloquent / charismatic / knowledgeable",
+        "far / much / significantly",
+        "by far",
+        "only",
+        "slightly / a bit",
+        "Overall",
+        "highly / strongly / definitely",
+        "beautiful",
+        "underrated / atmospheric / unforgettable"
+      ],
+      "hint": "Use: by far / situated in / famous for / lined with / far more / much better / the only downside / I would highly recommend — and correct adverb forms."
+    },
+    {
+      "task_id": "t0808_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Unit 8 Complete! Outstanding Achievement! 🎉🏆",
+      "content": {
+        "what_you_learned": [
+          "L1: Intensified comparatives — much/far/a lot (big) vs slightly/a bit (small); NEVER 'very faster'",
+          "L2: Superlatives with EVER — the best I've ever eaten; NEVER 'the most best' or 'ever eat'",
+          "L3: Adjective order — OSASCOMP; beautiful long blue silk saree; same-type → comma",
+          "L4: Adverbs of manner — carefully/slowly/beautifully; GOOD→WELL; FAST→FAST (not 'fastly')",
+          "L5: Describing places — situated in / lined with / famous for / the most I've ever visited",
+          "L6: Describing people — height+build+hair(length→colour→type)+eyes; tends to be / known for being",
+          "L7: Product reviews — overall→positives→negatives→comparison→recommendation; 'by far the best'",
+          "L8: All skills combined in real-world descriptions, dialogues, and extended speaking"
+        ],
+        "grammar_summary": "Unit 8 = Description Unit. Four grammar pillars: INTENSIFIED COMPARATIVES (much better than) + SUPERLATIVES WITH EVER (the best I've ever) + ADJECTIVE ORDER (OSASCOMP) + ADVERBS OF MANNER (carefully/well). Use these together for rich, expressive, natural English.",
+        "encouragement": "🌟 CONGRATULATIONS! You have completed A2 Unit 8 with outstanding commitment and skill! Your ability to describe, compare, and evaluate in English is now truly impressive — this is the language of confident, fluent communication. You now have the tools to describe any place, person, or product vividly and accurately. Unit 9 brings you into the world of detailed past storytelling — an exciting next step. You should be immensely proud of your progress. Keep going! 🚀🎊"
+      }
+    }
+  ]
+}

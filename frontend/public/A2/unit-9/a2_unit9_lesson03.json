@@ -1,0 +1,56 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Use for and since to describe how long something has been happening.",
+    "xp_reward":  150,
+    "lesson_number":  3,
+    "tasks":  [
+                  {
+                      "title":  "For \u0026 Since",
+                      "content":  {
+                                      "examples":  [
+                                                       {
+                                                           "sentence":  "I have lived here for five years."
+                                                       },
+                                                       {
+                                                           "sentence":  "She has worked there since January."
+                                                       }
+                                                   ],
+                                      "items":  [
+                                                    {
+                                                        "phrase":  "for three years",
+                                                        "note":  "Duration"
+                                                    },
+                                                    {
+                                                        "phrase":  "since 2020",
+                                                        "note":  "Starting point"
+                                                    },
+                                                    {
+                                                        "phrase":  "for a long time",
+                                                        "note":  "Duration"
+                                                    },
+                                                    {
+                                                        "phrase":  "since Monday",
+                                                        "note":  "Starting point"
+                                                    }
+                                                ],
+                                      "explanation":  "Use FOR with a period of time. Use SINCE with a starting point in time."
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "content":  {
+                                      "correct_index":  1,
+                                      "question":  "Which is correct?",
+                                      "explanation":  "Use \u0027for\u0027 with a period of time like \u00273 years\u0027.",
+                                      "options":  [
+                                                      "I\u0027ve known her since 3 years.",
+                                                      "I\u0027ve known her for 3 years.",
+                                                      "I know her for 3 years."
+                                                  ]
+                                  },
+                      "type":  "mcq"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson03",
+    "title":  "For \u0026 Since"
+}

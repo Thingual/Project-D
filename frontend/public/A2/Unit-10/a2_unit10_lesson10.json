@@ -1,0 +1,480 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson10",
+    "unit":  10,
+    "lesson_number":  10,
+    "level":  "A2",
+    "title":  "Changing and cancelling plans",
+    "description":  "Learn how to apologise for cancellations, explain reasons, and suggest new times â€” politely and naturally.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1010_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Cancelling plans â€” what to say",
+                                      "body":  "When cancelling, you need three things:\n1. Apology â€” I\u0027m so sorry / I apologise\n2. Reason â€” something has come up / I\u0027m unwell\n3. Offer to reschedule â€” can we find another time?\n\nFormal cancellation:\nâ€¢ I am writing to cancel our appointment on Friday.\nâ€¢ I sincerely apologise for the inconvenience.\nâ€¢ I wonder if we could reschedule for the following week.\n\nInformal cancellation:\nâ€¢ Hey, I\u0027m really sorry but I have to cancel tomorrow.\nâ€¢ Something came up â€” can we move it?\nâ€¢ So sorry! Can we do it next week instead?",
+                                      "grammar_note":  "\u0027Something came up\u0027 = an unexpected problem appeared\n\u0027I wonder if we could...\u0027 = very polite way to suggest"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Changing plans â€” rescheduling language",
+                                      "body":  "When you need to change (not cancel) a plan:\n\nâ€¢ Could we move the meeting to Thursday instead?\nâ€¢ Would it be possible to push it back by an hour?\nâ€¢ I need to bring it forward â€” could we meet earlier?\nâ€¢ Can we reschedule for next week?\nâ€¢ Would you mind if we changed the time?\n\nKey vocabulary:\nâ€¢ Reschedule = arrange for a different time\nâ€¢ Push back = move to a later time\nâ€¢ Bring forward = move to an earlier time\nâ€¢ Move = change to a different time\nâ€¢ Postpone = delay to a later date",
+                                      "grammar_note":  "\u0027Push back\u0027 = later\n\u0027Bring forward\u0027 = earlier\nThese are opposite phrasal verbs â€” easy to confuse!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Apologies and changes",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "reschedule",
+                                                             "meaning":  "to arrange a new time for something",
+                                                             "example":  "Can we reschedule for Friday?"
+                                                         },
+                                                         {
+                                                             "word":  "postpone",
+                                                             "meaning":  "to delay to a later time",
+                                                             "example":  "The meeting has been postponed to next week."
+                                                         },
+                                                         {
+                                                             "word":  "urgent",
+                                                             "meaning":  "very important and needs immediate attention",
+                                                             "example":  "Something urgent has come up."
+                                                         },
+                                                         {
+                                                             "word":  "inconvenience",
+                                                             "meaning":  "trouble caused to someone",
+                                                             "example":  "I apologise for any inconvenience."
+                                                         },
+                                                         {
+                                                             "word":  "unavailable",
+                                                             "meaning":  "not free, not able to attend",
+                                                             "example":  "I\u0027m afraid I\u0027m unavailable that day."
+                                                         },
+                                                         {
+                                                             "word":  "prior",
+                                                             "meaning":  "existing before something else",
+                                                             "example":  "I have a prior commitment on that day."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l10_listen",
+                                      "sentences":  [
+                                                        "I\u0027m really sorry but I need to cancel tomorrow\u0027s meeting.",
+                                                        "Something urgent has come up â€” could we reschedule?",
+                                                        "I apologise for the short notice.",
+                                                        "Would it be possible to push the meeting back to 4 PM?",
+                                                        "I\u0027m afraid I have a prior commitment â€” can we move it to next week?"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Ravi needs to cancel a formal business meeting due to illness. Which response is best?",
+                                      "options":  [
+                                                      "I can\u0027t come. I\u0027m sick.",
+                                                      "I am writing to cancel tomorrow\u0027s meeting. I am unfortunately unwell and unable to attend. I sincerely apologise and would like to reschedule at your earliest convenience.",
+                                                      "Sorry, not coming.",
+                                                      "Meeting cancelled. Sick today."
+                                                  ],
+                                      "correct":  "I am writing to cancel tomorrow\u0027s meeting. I am unfortunately unwell and unable to attend. I sincerely apologise and would like to reschedule at your earliest convenience.",
+                                      "explanation":  "Formal cancellation = full explanation, clear apology, and offer to reschedule."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "The meeting is at 2 PM but Priya needs it 30 minutes later. What does she say?",
+                                      "options":  [
+                                                      "Could we push the meeting back to 2:30?",
+                                                      "Could we bring the meeting forward to 1:30?",
+                                                      "Can we cancel the meeting?",
+                                                      "Move meeting earlier please."
+                                                  ],
+                                      "correct":  "Could we push the meeting back to 2:30?",
+                                      "explanation":  "PUSH BACK = move to a later time. 2:30 is later than 2:00, so \u0027push back\u0027 is correct."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "A meeting is planned for Friday but needs to move to Wednesday (earlier in the week). What do you say?",
+                                      "options":  [
+                                                      "Could we push the meeting back to Wednesday?",
+                                                      "Could we bring the meeting forward to Wednesday?",
+                                                      "Could we postpone to Wednesday?",
+                                                      "Can we delay to Wednesday?"
+                                                  ],
+                                      "correct":  "Could we bring the meeting forward to Wednesday?",
+                                      "explanation":  "BRING FORWARD = move to an earlier time/date. Wednesday is earlier in the week than Friday."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Your friend texts: \u0027Something came up â€” can we do Saturday instead of Friday?\u0027 What does this mean?",
+                                      "options":  [
+                                                      "They want to cancel completely.",
+                                                      "They want to meet on Friday and Saturday.",
+                                                      "An unexpected thing happened â€” they want to reschedule from Friday to Saturday.",
+                                                      "They are free on both Friday and Saturday."
+                                                  ],
+                                      "correct":  "An unexpected thing happened â€” they want to reschedule from Friday to Saturday.",
+                                      "explanation":  "\u0027Something came up\u0027 = an unexpected event occurred. They want to move, not cancel."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the gaps with the correct cancellation/rescheduling phrase.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I\u0027m afraid I need to ___ our meeting â€” could we find a new time?",
+                                                            "answer":  "cancel / reschedule"
+                                                        },
+                                                        {
+                                                            "text":  "I ___ for any inconvenience this may cause.",
+                                                            "answer":  "apologise"
+                                                        },
+                                                        {
+                                                            "text":  "Something ___ up â€” I won\u0027t be able to make it tomorrow.",
+                                                            "answer":  "came"
+                                                        },
+                                                        {
+                                                            "text":  "Could we ___ the meeting ___ by an hour? (push/back)",
+                                                            "answer":  "push / back"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "PUSH BACK or BRING FORWARD? Fill in correctly.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "The meeting is at 4 PM but I need it at 5 PM. Can we ___ it ___?",
+                                                            "answer":  "push / back"
+                                                        },
+                                                        {
+                                                            "text":  "The event is on Friday but we want it on Wednesday. Can we ___ it ___?",
+                                                            "answer":  "bring / forward"
+                                                        },
+                                                        {
+                                                            "text":  "The deadline is Sunday. The client wants it Saturday. They want us to ___ it ___.",
+                                                            "answer":  "bring / forward"
+                                                        },
+                                                        {
+                                                            "text":  "I can\u0027t make the 10 AM slot â€” can we ___ it ___ to 11?",
+                                                            "answer":  "push / back"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a polite cancellation message.",
+                                      "words":  [
+                                                    "sorry",
+                                                    "I\u0027m",
+                                                    "cancel",
+                                                    "to",
+                                                    "have",
+                                                    "meeting",
+                                                    "tomorrow\u0027s",
+                                                    "I",
+                                                    "but"
+                                                ],
+                                      "answer":  "I\u0027m sorry but I have to cancel tomorrow\u0027s meeting."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a rescheduling request.",
+                                      "words":  [
+                                                    "we",
+                                                    "possible",
+                                                    "Would",
+                                                    "reschedule",
+                                                    "it",
+                                                    "be",
+                                                    "next",
+                                                    "to",
+                                                    "week",
+                                                    "for"
+                                                ],
+                                      "answer":  "Would it be possible to reschedule it for next week?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the situation to the correct phrase.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Move to a later time today",
+                                                        "right":  "Could we push it back by an hour?"
+                                                    },
+                                                    {
+                                                        "left":  "Move to an earlier date",
+                                                        "right":  "Could we bring it forward to Tuesday?"
+                                                    },
+                                                    {
+                                                        "left":  "Cancel with apology",
+                                                        "right":  "I sincerely apologise â€” I need to cancel."
+                                                    },
+                                                    {
+                                                        "left":  "Unexpected problem arose",
+                                                        "right":  "Something urgent has come up."
+                                                    },
+                                                    {
+                                                        "left":  "Offer to meet again",
+                                                        "right":  "Could we find another time that suits you?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Cancelling a job interview â€” Bangalore",
+                                      "setting":  "Kavya had a job interview scheduled. She needs to reschedule because of a family emergency.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "HR Manager",
+                                                           "text":  "Hello, this is Deepa from TechNova HR. Am I speaking with Kavya Iyer?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Yes, good morning. Thank you for calling."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Manager",
+                                                           "text":  "I\u0027m calling to confirm your interview tomorrow at 10 AM. Are you all set?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I\u0027m actually very glad you called. I need to speak with you about that. I\u0027m afraid I\u0027m unable to attend tomorrow â€” I have a family emergency."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Manager",
+                                                           "text":  "I\u0027m sorry to hear that. Is everything alright?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "It\u0027s a medical situation with my mother â€” she needs to be taken to the hospital. I sincerely apologise for such short notice."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Manager",
+                                                           "text":  "Please don\u0027t worry â€” family comes first. Would you like to reschedule?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I absolutely would â€” I\u0027m very keen on this opportunity. Would it be possible to reschedule for later this week or early next week?"
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Manager",
+                                                           "text":  "Let me check. We have Thursday at 2 PM â€” would that work?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Thursday at 2 PM works perfectly. Thank you so much for being so understanding."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Manager",
+                                                           "text":  "No problem at all. I\u0027ll send a confirmation email shortly. I hope your mother recovers quickly."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Thank you â€” that\u0027s very kind. I look forward to Thursday. Good morning!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Why does Kavya need to cancel?",
+                                                                          "options":  [
+                                                                                          "She forgot about the interview.",
+                                                                                          "She has a family medical emergency.",
+                                                                                          "She got another job offer.",
+                                                                                          "She is travelling abroad."
+                                                                                      ],
+                                                                          "correct":  "She has a family medical emergency."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Kavya say to show she still wants the job?",
+                                                                          "options":  [
+                                                                                          "She says she is very busy.",
+                                                                                          "She says she is very keen on this opportunity.",
+                                                                                          "She says the interview is too early.",
+                                                                                          "She says she will call back."
+                                                                                      ],
+                                                                          "correct":  "She says she is very keen on this opportunity."
+                                                                      },
+                                                                      {
+                                                                          "question":  "When is the rescheduled interview?",
+                                                                          "options":  [
+                                                                                          "Wednesday at 10 AM",
+                                                                                          "Thursday at 2 PM",
+                                                                                          "Friday at 11 AM",
+                                                                                          "Monday at 3 PM"
+                                                                                      ],
+                                                                          "correct":  "Thursday at 2 PM"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "I want to postpone meeting to next week.",
+                                                            "correct":  "I would like to postpone the meeting to next week.",
+                                                            "explanation":  "Needs article \u0027the\u0027 before meeting. Also \u0027would like\u0027 is more polite than \u0027want\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Could we push forward the meeting by an hour?",
+                                                            "correct":  "Could we push back the meeting by an hour?",
+                                                            "explanation":  "PUSH FORWARD is not standard. PUSH BACK = later time. BRING FORWARD = earlier time."
+                                                        },
+                                                        {
+                                                            "wrong":  "I apologise the short notice.",
+                                                            "correct":  "I apologise for the short notice.",
+                                                            "explanation":  "APOLOGISE FOR â€” always use \u0027for\u0027 after \u0027apologise\u0027."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You agreed to meet a client at 3 PM. It\u0027s now 2:45 and you\u0027re stuck in traffic. You realise you\u0027ll be 20 minutes late. What do you text?",
+                                      "options":  [
+                                                      "Coming late.",
+                                                      "I\u0027m stuck in traffic and running about 20 minutes behind schedule. I sincerely apologise â€” I\u0027ll be there by 3:20. So sorry for the inconvenience.",
+                                                      "Traffic bad. Will come.",
+                                                      "Late! Traffic!!!"
+                                                  ],
+                                      "correct":  "I\u0027m stuck in traffic and running about 20 minutes behind schedule. I sincerely apologise â€” I\u0027ll be there by 3:20. So sorry for the inconvenience.",
+                                      "explanation":  "Even for a text to a client, a brief but clear apology + specific time is professional and respectful."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "You need to cancel a dinner plan with a friend at the last minute. Call them. Apologise, explain the reason, and suggest a new time.",
+                                      "prompt":  "Role-play cancelling plans with a friend â€” give a genuine reason and suggest rescheduling.",
+                                      "example_response":  "Hey Meera! I\u0027m so sorry to call like this, but I have to cancel dinner tonight. I know it\u0027s last minute and I feel terrible about it. My younger brother just called and he\u0027s had a bit of an accident â€” nothing serious, thankfully, but I need to take him to the hospital for a check-up and I\u0027m not sure how long it\u0027ll take. I really was looking forward to tonight. Can we please reschedule? How about this Saturday? I know that amazing biryani place you mentioned is open for dinner on Saturdays â€” I\u0027d love to try it. I\u0027ll make it up to you, I promise! Again, I\u0027m so sorry â€” I hope you understand. I\u0027ll call you tomorrow to confirm Saturday.",
+                                      "key_phrases":  [
+                                                          "I\u0027m so sorry",
+                                                          "I have to cancel",
+                                                          "Can we reschedule?",
+                                                          "How about...?",
+                                                          "I\u0027ll make it up to you"
+                                                      ],
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Write and say a formal email cancelling a business meeting. You must include: a clear subject line, apology, reason, and offer to reschedule.",
+                                      "prompt":  "Dictate a formal email cancelling a meeting with a business partner. Include all required elements.",
+                                      "example_response":  "Subject: Cancellation of Meeting â€” 14th October\n\nDear Mr Sharma,\n\nI am writing to inform you that I am unfortunately unable to attend our meeting scheduled for Tuesday, 14th October at 2 PM.\n\nDue to an urgent internal matter that requires my immediate attention, I must cancel this appointment. I sincerely apologise for the inconvenience this may cause, particularly given the short notice.\n\nI remain very keen to meet and discuss the proposal. I wonder if we could reschedule for the following week? I am available on Tuesday 21st or Wednesday 22nd, at any time that suits you.\n\nOnce again, I apologise for this change of plan and I thank you for your understanding. I look forward to your response.\n\nKind regards,\nArjun Mehta",
+                                      "key_phrases":  [
+                                                          "I am writing to inform you",
+                                                          "I sincerely apologise",
+                                                          "I wonder if we could reschedule",
+                                                          "I remain keen to meet"
+                                                      ],
+                                      "min_words":  110
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this rescheduling conversation.",
+                                      "text":  "Priya: Hi Ravi, I\u0027m ___ (1) sorry but I need to ___ (2) our meeting this afternoon.\nRavi: Oh no â€” is everything okay?\nPriya: Yes â€” something ___ (3) up at work. A client emergency. I ___ (4) for the short notice.\nRavi: No worries at all. Would you like to ___ (5) for later this week?\nPriya: That would be great. Could we ___ (6) it ___ (7) to tomorrow at the same time?\nRavi: Tomorrow at 3 PM works for me. ___ (8) to confirm â€” tomorrow, Thursday, 3 PM at the coffee shop?\nPriya: Exactly right. Thank you so much for being so ___ (9). See you then!\nRavi: See you tomorrow. Hope the client situation gets sorted ___ (10)!",
+                                      "answers":  [
+                                                      "really",
+                                                      "cancel",
+                                                      "came",
+                                                      "apologise",
+                                                      "reschedule",
+                                                      "push",
+                                                      "back",
+                                                      "Just",
+                                                      "understanding",
+                                                      "soon"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1010_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 10 complete â€” Changing and cancelling plans",
+                                      "key_points":  [
+                                                         "Cancellation = apology + reason + offer to reschedule",
+                                                         "\u0027Something came up\u0027 = unexpected event",
+                                                         "PUSH BACK = later time; BRING FORWARD = earlier time",
+                                                         "POSTPONE = delay to a later date",
+                                                         "\u0027I apologise FOR...\u0027 â€” always use \u0027for\u0027",
+                                                         "Formal cancellations need full sentences; informal can be briefer but still warm"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Giving directions in writing"
+                                  }
+                  }
+              ]
+}

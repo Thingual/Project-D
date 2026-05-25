@@ -1,0 +1,370 @@
+{
+  "lesson_id": "a2_unit8_lesson04",
+  "unit": 8,
+  "lesson_number": 4,
+  "level": "A2",
+  "title": "Adverbs of Manner — Quickly, Carefully, Well",
+  "description": "Learn to use adverbs of manner to describe HOW something is done — a key skill for adding detail and colour to your English.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0804_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "What Are Adverbs of Manner?",
+      "content": {
+        "explanation": "Adverbs of manner tell us HOW something is done. They describe verbs.\n\n📌 HOW TO FORM MOST ADVERBS:\n• adjective + -ly\n• slow → slowly\n• quick → quickly\n• careful → carefully\n• loud → loudly\n• quiet → quietly\n• beautiful → beautifully\n• patient → patiently\n• nervous → nervously\n\n📌 SPELLING CHANGES:\n• adjective ending in -y → change y to i + -ly\n  → happy → happily\n  → angry → angrily\n  → easy → easily\n\n• adjective ending in -le → replace -le with -ly\n  → gentle → gently\n  → terrible → terribly\n  → comfortable → comfortably\n\n📌 IRREGULAR ADVERBS (don't add -ly!):\n• good → well (NOT 'goodly')\n• fast → fast (NOT 'fastly')\n• hard → hard (NOT 'hardly') [different meaning!]\n• late → late (NOT 'lately') [different meaning!]\n\n✅ POSITION: Usually AFTER the verb or after the object:\n• She sang beautifully. ✅\n• He drove the car carefully. ✅\n• She quickly finished her work. (also OK — before verb)",
+        "examples": [
+          "Please speak slowly — I can't understand you.",
+          "She danced beautifully at the performance.",
+          "He runs fast but tires quickly.",
+          "She plays the veena very well."
+        ],
+        "tip": "GOOD → WELL (not 'goodly'). FAST → FAST (not 'fastly'). These are the most common irregular adverbs."
+      }
+    },
+    {
+      "task_id": "t0804_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Position and Use of Adverbs of Manner",
+      "content": {
+        "explanation": "📌 WHERE TO PUT ADVERBS OF MANNER:\n\n1. AFTER the main verb (most common):\n• She whispered softly.\n• He worked hard all day.\n• The child laughed loudly.\n\n2. AFTER the object:\n• She completed the task efficiently.\n• He explained the problem clearly.\n• She answered the question confidently.\n\n3. BEFORE the verb (for emphasis, especially in writing):\n• She carefully opened the letter.\n• He quietly entered the room.\n\n⚠️ NEVER put adverbs of manner between the verb and object:\n❌ She completed efficiently the task.\n✅ She completed the task efficiently.\n\n📌 ADVERB vs ADJECTIVE — common confusion:\n• She is a careful driver. (adjective — describes the noun)\n• She drives carefully. (adverb — describes the verb)\n• He is a fast runner. (adjective)\n• He runs fast. (adverb)\n• She is a good singer. (adjective)\n• She sings well. (adverb)",
+        "examples": [
+          "He explained the instructions clearly.",
+          "She carefully packed her suitcase before the trip.",
+          "The patient waited anxiously for the results.",
+          "The children played happily in the garden."
+        ],
+        "tip": "ADJECTIVE = describes a noun. ADVERB = describes a verb. Remember: 'good' is adjective, 'well' is adverb."
+      }
+    },
+    {
+      "task_id": "t0804_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Adverb Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "fluently", "meaning": "speaking or writing a language smoothly and easily", "example": "She speaks three languages fluently." },
+          { "word": "thoroughly", "meaning": "completely and carefully", "example": "He cleaned the kitchen thoroughly before the guests arrived." },
+          { "word": "precisely", "meaning": "exactly and accurately", "example": "The engineer measured the parts precisely." },
+          { "word": "eagerly", "meaning": "with great enthusiasm and excitement", "example": "The students eagerly raised their hands to answer." },
+          { "word": "reluctantly", "meaning": "unwillingly; without enthusiasm", "example": "She reluctantly agreed to take on the extra work." },
+          { "word": "confidently", "meaning": "in a self-assured, certain way", "example": "He walked into the interview confidently." },
+          { "word": "abruptly", "meaning": "suddenly and unexpectedly", "example": "The meeting ended abruptly when the fire alarm went off." },
+          { "word": "gracefully", "meaning": "in a smooth, elegant, and beautiful way", "example": "The dancer moved gracefully across the stage." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0804_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Adverbs of Manner",
+      "content": {
+        "instruction": "Listen and repeat. Notice how adverbs change the feeling of each sentence.",
+        "items": [
+          { "audio_key": "a2_u8_l4_lr1", "text": "Please speak more slowly — I'm still learning." },
+          { "audio_key": "a2_u8_l4_lr2", "text": "She answered all the questions confidently." },
+          { "audio_key": "a2_u8_l4_lr3", "text": "He drives very carefully in the rain." },
+          { "audio_key": "a2_u8_l4_lr4", "text": "The children sang happily at the school function." },
+          { "audio_key": "a2_u8_l4_lr5", "text": "She plays the piano beautifully." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0804_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence uses an adverb CORRECTLY?",
+      "options": [
+        "She speaks English very good.",
+        "She speaks English very goodly.",
+        "She speaks English very well.",
+        "She speaks English very better."
+      ],
+      "correct_answer": "She speaks English very well.",
+      "explanation": "GOOD is an adjective. The adverb form of GOOD is WELL. 'Goodly' and 'more good' are not real words."
+    },
+    {
+      "task_id": "t0804_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Which sentence is INCORRECT?",
+      "options": [
+        "He ran quickly to catch the bus.",
+        "She explained the lesson clearly.",
+        "They worked hard all weekend.",
+        "She drives fastly on the highway."
+      ],
+      "correct_answer": "She drives fastly on the highway.",
+      "explanation": "FAST is already an adverb — 'fastly' is NOT a word in English. Correct: 'She drives fast on the highway.'"
+    },
+    {
+      "task_id": "t0804_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Arjun was very nervous during his presentation. Which sentence correctly uses an adverb to describe this?",
+      "options": [
+        "He spoke nervous to the audience.",
+        "He spoke in a nervously way.",
+        "He nervously spoke to the audience.",
+        "He spoke nervously to the audience."
+      ],
+      "correct_answer": "He spoke nervously to the audience.",
+      "explanation": "Both 'He spoke nervously' and 'He nervously spoke' are correct. Adverbs can go after the verb OR before it for emphasis. The adverb form of 'nervous' is 'nervously'."
+    },
+    {
+      "task_id": "t0804_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which sentence correctly shows the difference between adjective and adverb?",
+      "options": [
+        "She is a good cook and she cooks good.",
+        "She is a good cook and she cooks well.",
+        "She is a well cook and she cooks well.",
+        "She is a well cook and she cooks good."
+      ],
+      "correct_answer": "She is a good cook and she cooks well.",
+      "explanation": "GOOD = adjective (describes the noun 'cook'). WELL = adverb (describes the verb 'cooks')."
+    },
+    {
+      "task_id": "t0804_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Convert the adjective in brackets to an adverb and complete the sentence.",
+      "items": [
+        {
+          "sentence": "She _____ (patient) listened to all the students' questions.",
+          "answer": "patiently",
+          "hint": "patient + ly"
+        },
+        {
+          "sentence": "The surgeon performed the operation _____ (careful).",
+          "answer": "carefully",
+          "hint": "careful + ly"
+        },
+        {
+          "sentence": "He completed the exam _____ (easy) — he had prepared very well.",
+          "answer": "easily",
+          "hint": "easy → easi + ly (change y to i)"
+        }
+      ]
+    },
+    {
+      "task_id": "t0804_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Choose the correct word — adjective or adverb — to complete each sentence.",
+      "items": [
+        {
+          "sentence": "She is a _____ (quick/quickly) learner — she picks up new skills fast.",
+          "answer": "quick",
+          "hint": "Describes the noun 'learner' — use adjective."
+        },
+        {
+          "sentence": "He finished the marathon surprisingly _____ (quick/quickly).",
+          "answer": "quickly",
+          "hint": "Describes the verb 'finished' — use adverb."
+        },
+        {
+          "sentence": "Kavya dances very _____ (beautiful/beautifully) — she trained for ten years.",
+          "answer": "beautifully",
+          "hint": "Describes the verb 'dances' — use adverb."
+        }
+      ]
+    },
+    {
+      "task_id": "t0804_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct sentence with an adverb of manner.",
+      "items": [
+        {
+          "words": ["She", "explained", "the", "instructions", "very", "clearly"],
+          "answer": "She explained the instructions very clearly."
+        },
+        {
+          "words": ["He", "walked", "confidently", "into", "the", "interview", "room"],
+          "answer": "He walked confidently into the interview room."
+        }
+      ]
+    },
+    {
+      "task_id": "t0804_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct sentence with an adverb of manner.",
+      "items": [
+        {
+          "words": ["The", "children", "played", "happily", "in", "the", "park", "all", "afternoon"],
+          "answer": "The children played happily in the park all afternoon."
+        },
+        {
+          "words": ["Please", "speak", "more", "slowly", "—", "I", "can't", "follow", "you"],
+          "answer": "Please speak more slowly — I can't follow you."
+        }
+      ]
+    },
+    {
+      "task_id": "t0804_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the adjective with its correct adverb form.",
+      "pairs": [
+        { "left": "angry", "right": "angrily" },
+        { "left": "gentle", "right": "gently" },
+        { "left": "good", "right": "well" },
+        { "left": "fast", "right": "fast" },
+        { "left": "happy", "right": "happily" },
+        { "left": "terrible", "right": "terribly" }
+      ]
+    },
+    {
+      "task_id": "t0804_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Music Lesson Feedback — Chennai",
+      "dialogue": {
+        "context": "Nithya is a classical Carnatic music teacher in Chennai. She is giving feedback to her student, Aakash, after his first solo performance.",
+        "turns": [
+          { "speaker": "Nithya", "text": "Aakash, well done on your first solo! I have some feedback for you. Are you ready?" },
+          { "speaker": "Aakash", "text": "Yes, please. I was so nervous — I think I played too quickly at some points." },
+          { "speaker": "Nithya", "text": "Yes, I noticed that. In the second section, you played slightly too quickly and the notes didn't flow naturally." },
+          { "speaker": "Aakash", "text": "I was trying to keep the tempo, but my fingers moved faster than my brain!" },
+          { "speaker": "Nithya", "text": "That happens! But the first section — you played that beautifully. Very smoothly and with excellent expression." },
+          { "speaker": "Aakash", "text": "Really? I felt I made a mistake in the third phrase." },
+          { "speaker": "Nithya", "text": "Yes, but you recovered quickly and confidently — the audience barely noticed. That showed real stage experience." },
+          { "speaker": "Aakash", "text": "What about my vocal improvisations — the alapana?" },
+          { "speaker": "Nithya", "text": "You sang those very naturally. Your voice moves gently between the notes — that's something you've worked on well." },
+          { "speaker": "Aakash", "text": "Thank you! I think I held the final note a bit too briefly." },
+          { "speaker": "Nithya", "text": "Yes, hold it more confidently next time. Don't cut it short — let it breathe." },
+          { "speaker": "Aakash", "text": "I will practise that specifically. Anything else?" },
+          { "speaker": "Nithya", "text": "One thing — you bowed slightly too quickly at the end. Take a moment, breathe slowly, and bow gracefully. Presentation matters." },
+          { "speaker": "Aakash", "text": "Understood. Overall, it went better than I expected. I'll practise more carefully next time." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What mistake does Nithya say Aakash made in the second section?",
+            "options": ["He sang too quietly", "He played too quickly", "He played incorrectly", "He forgot the notes"],
+            "correct_answer": "He played too quickly"
+          },
+          {
+            "question": "What does Nithya say about Aakash's alapana (vocal improvisation)?",
+            "options": ["He sang it badly", "He rushed through it nervously", "He sang it very naturally", "He forgot the melody"],
+            "correct_answer": "He sang it very naturally"
+          },
+          {
+            "question": "What does Nithya advise Aakash to do differently when bowing at the end?",
+            "options": ["Bow more quickly", "Stop bowing altogether", "Bow gracefully and slowly, not quickly", "Bow before the applause"],
+            "correct_answer": "Bow gracefully and slowly, not quickly"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0804_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the adverb mistake in each sentence.",
+      "items": [
+        {
+          "sentence": "She plays the sitar very good.",
+          "error": "very good",
+          "correction": "very well",
+          "explanation": "GOOD is an adjective. The adverb of 'good' is WELL. Use 'well' to describe how someone plays."
+        },
+        {
+          "sentence": "He drove the car fastly to reach the hospital.",
+          "error": "fastly",
+          "correction": "fast",
+          "explanation": "FAST is both an adjective and an adverb — 'fastly' is not a word in English."
+        },
+        {
+          "sentence": "She completed efficient the project before the deadline.",
+          "error": "completed efficient the project",
+          "correction": "completed the project efficiently",
+          "explanation": "Adverbs of manner go AFTER the object, not between the verb and object. 'Efficient' needs -ly to become an adverb."
+        }
+      ]
+    },
+    {
+      "task_id": "t0804_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are a manager giving feedback to a new employee, Rohan. He is very good at his technical work but speaks too quickly in client meetings and sometimes doesn't explain things clearly. How do you phrase your feedback?",
+      "question": "Which feedback uses adverbs of manner most effectively and professionally?",
+      "options": [
+        "Rohan, you are good at work but you talk fast and unclear.",
+        "Rohan, your technical work is excellent. However, in client meetings, you should try to speak more slowly and explain things more clearly.",
+        "Rohan, you speak bad in meetings.",
+        "Rohan, speak slow and clear in meetings."
+      ],
+      "correct_answer": "Rohan, your technical work is excellent. However, in client meetings, you should try to speak more slowly and explain things more clearly.",
+      "explanation": "This uses adverbs correctly (slowly, clearly) in comparative form (more slowly, more clearly) and is the most professional and natural way to give this feedback."
+    },
+    {
+      "task_id": "t0804_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Describe how different people in your life do things — family members, friends, teachers, or colleagues. Use at least 6 different adverbs of manner. Speak for at least 70 seconds.",
+      "prompt": "Describe how people in your life do things using adverbs of manner.",
+      "example_response": "Let me describe a few people in my life and how they do things. My father drives very carefully — he never speeds and always checks his mirrors. My mother cooks beautifully — everything she makes tastes delicious and she always presents the food neatly on the plate. My younger brother studies quite lazily most of the time, but just before exams he suddenly works very hard and somehow manages to pass! My English teacher explains grammar very clearly — she always gives good examples and speaks slowly enough for everyone to understand. My best friend speaks very loudly — you can hear her laughing from the other end of the street! And my grandmother prays quietly and patiently every morning for at least 30 minutes. She moves gently and peacefully through her daily routine. I try to work efficiently, but I think I sometimes rush things when I'm nervous.",
+      "key_phrases": ["she/he [verb] + adverb", "very + adverb", "quite + adverb", "always + adverb"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0804_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Tell me about a time when you did something particularly well — or particularly badly! Describe what happened using adverbs of manner. Speak for at least 70 seconds.",
+      "prompt": "Tell me about a time you did something well or badly, using adverbs of manner.",
+      "example_response": "I want to tell you about my first time presenting in English at college. I had prepared very thoroughly — I practised my speech carefully at least ten times at home. When the day came, I walked into the room confidently and set up my presentation neatly. However, when I started speaking, I noticed everyone was looking at me and I began speaking extremely quickly — so fast that I could see the professor frowning. I was breathing too shallowly and my voice came out slightly too quietly at first. About halfway through, I suddenly remembered to breathe properly and I slowed down. I started speaking more clearly and looking around the room more naturally. By the end, I was speaking confidently and explaining my points well. The professor said I had recovered impressively. It taught me that preparation is important, but staying calm and speaking slowly and clearly matters even more when presenting.",
+      "key_phrases": ["I [verb] + adverb", "very + adverb", "I started speaking more + adverb", "I remembered to"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0804_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this performance review using appropriate adverbs of manner.",
+      "paragraph": "PERFORMANCE REVIEW — PRIYA SHARMA, CUSTOMER SERVICE TEAM\n\nPriya has performed (1)_____ (excellent) this quarter and we are very pleased with her progress. She handles customer complaints (2)_____ (patience) and always listens (3)_____ (care) before responding. She explains solutions (4)_____ (clear) so that customers understand immediately. When things get stressful, she manages the situation (5)_____ (calm) — she never raises her voice. She works (6)_____ (efficient) and completes her tasks on time. Sometimes she works a little too (7)_____ (quick) when she's under pressure and makes small errors, but she corrects them (8)_____ (prompt). She communicates with colleagues (9)_____ (friendly) and contributes (10)_____ (active) to team meetings. Overall, she performs her role (11)_____ (outstanding) and we recommend her for promotion.",
+      "answers": [
+        "excellently",
+        "patiently",
+        "carefully",
+        "clearly",
+        "calmly",
+        "efficiently",
+        "quickly",
+        "promptly",
+        "in a friendly way / in a friendly manner",
+        "actively",
+        "outstandingly"
+      ],
+      "hint": "Most adjectives → add -ly. Special cases: good → well, fast → fast. Check spelling changes for -y ending adjectives."
+    },
+    {
+      "task_id": "t0804_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 4 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Adverbs of manner describe HOW something is done",
+          "Most adverbs: adjective + -ly (slow → slowly, careful → carefully)",
+          "Spelling: -y adjectives → change y to i + ly (happy → happily)",
+          "Spelling: -le adjectives → replace -le with -ly (gentle → gently)",
+          "Irregular: good → well | fast → fast | hard → hard | late → late",
+          "Position: AFTER the verb or AFTER the object (NOT between verb and object)",
+          "NEVER: 'very good' to describe a verb — always use 'very well'",
+          "Key vocab: fluently, thoroughly, precisely, eagerly, reluctantly, confidently, abruptly, gracefully"
+        ],
+        "grammar_summary": "Adverbs of manner describe verbs. Form: adjective + -ly (with spelling rules). Position: after the verb / after the object. Key irregular forms: good→well, fast→fast.",
+        "encouragement": "Superb work! Using adverbs of manner correctly is what makes English descriptions come alive. You now have the tools to be much more precise and expressive. Excellent! 🌟"
+      }
+    }
+  ]
+}

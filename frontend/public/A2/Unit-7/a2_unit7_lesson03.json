@@ -1,0 +1,354 @@
+{
+  "lesson_id": "a2_unit7_lesson03",
+  "unit": 7,
+  "lesson_number": 3,
+  "level": "A2",
+  "title": "Need To — Necessity",
+  "description": "Learn to use 'need to' and 'needn't' to talk about what is necessary or unnecessary in everyday situations.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0703_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Need To — Expressing Necessity",
+      "content": {
+        "explanation": "NEED TO means something is necessary. It works like HAVE TO.\n\n✅ Positive forms:\n• I / You / We / They + need to + base verb\n  → I need to buy a new phone charger.\n• He / She / It + needs to + base verb\n  → She needs to see a doctor.\n\n✅ Question forms:\n• Do you need to...? / Does he need to...?\n  → Do we need to book in advance?\n\n✅ Negative forms:\n• I don't need to / He doesn't need to\n  → You don't need to bring anything — we have everything.\n\n✅ Past form:\n• I needed to / She needed to\n  → I needed to renew my passport before the trip.\n• I didn't need to / She didn't need to\n  → We didn't need to queue — there was no crowd.",
+        "examples": [
+          "You need to fill in this form before the interview.",
+          "Does she need to bring her original documents?",
+          "He doesn't need to worry — everything is arranged.",
+          "We needed to leave early to catch the train."
+        ],
+        "tip": "NEED TO is very similar to HAVE TO in meaning. Both express necessity."
+      }
+    },
+    {
+      "task_id": "t0703_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Needn't — Formal English",
+      "content": {
+        "explanation": "NEEDN'T (= need not) is a more formal or old-fashioned way to say 'don't need to' or 'don't have to'.\n\n• You needn't worry — I'll take care of it.\n• She needn't come tomorrow if she's unwell.\n• We needn't bring extra copies.\n\n⚠️ NEEDN'T is followed by the BASE VERB (no 'to'):\n✅ You needn't bring anything. (correct)\n❌ You needn't to bring anything. (wrong)\n\nIN SPEAKING: 'You don't need to' is more common.\nIN WRITING/FORMAL: 'You needn't' is sometimes used.\n\n📌 KEY COMPARISON:\n• NEED TO / HAVE TO / MUST = necessary\n• DON'T NEED TO / DON'T HAVE TO / NEEDN'T = not necessary",
+        "examples": [
+          "You needn't apologise — it wasn't your fault.",
+          "She needn't prepare a presentation — just a summary.",
+          "They needn't book — walk-ins are welcome."
+        ],
+        "tip": "NEEDN'T + base verb (no 'to'). It is more formal than 'don't need to'."
+      }
+    },
+    {
+      "task_id": "t0703_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Necessity Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "essential", "meaning": "extremely important or necessary", "example": "Water is essential for life." },
+          { "word": "urgent", "meaning": "requiring immediate attention", "example": "This is urgent — please respond today." },
+          { "word": "appointment", "meaning": "a planned meeting at a specific time", "example": "I need to make an appointment with the doctor." },
+          { "word": "advance", "meaning": "before something happens; ahead of time", "example": "You need to book in advance during festival season." },
+          { "word": "confirm", "meaning": "to make sure something is certain", "example": "Please confirm your booking by email." },
+          { "word": "priority", "meaning": "something that is more important than other things", "example": "Health should be your priority." },
+          { "word": "document", "meaning": "an official paper with information", "example": "You need to show your documents at immigration." },
+          { "word": "valid", "meaning": "officially acceptable; not expired", "example": "Your ID must be valid to enter the exam hall." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0703_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Need To Sentences",
+      "content": {
+        "instruction": "Listen and repeat. Notice how 'need to' sounds natural and connected in speech.",
+        "items": [
+          { "audio_key": "a2_u7_l3_lr1", "text": "I need to speak to the manager." },
+          { "audio_key": "a2_u7_l3_lr2", "text": "She needs to renew her passport soon." },
+          { "audio_key": "a2_u7_l3_lr3", "text": "Do we need to book a table in advance?" },
+          { "audio_key": "a2_u7_l3_lr4", "text": "You don't need to bring anything extra." },
+          { "audio_key": "a2_u7_l3_lr5", "text": "He needed to take a day off to recover." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0703_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "She need to see a doctor.",
+        "She needs to see a doctor.",
+        "She needsto see a doctor.",
+        "She need sees a doctor."
+      ],
+      "correct_answer": "She needs to see a doctor.",
+      "explanation": "With he/she/it, we use NEEDS TO (not 'need to')."
+    },
+    {
+      "task_id": "t0703_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Rohan already has his train tickets. He _____ buy them again.",
+      "options": [
+        "needs to",
+        "must",
+        "doesn't need to",
+        "has to"
+      ],
+      "correct_answer": "doesn't need to",
+      "explanation": "He already has the tickets — it is no longer necessary to buy them."
+    },
+    {
+      "task_id": "t0703_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which sentence uses NEEDN'T correctly?",
+      "options": [
+        "You needn't to worry about it.",
+        "You needn't worrying about it.",
+        "You needn't worry about it.",
+        "You needn't worried about it."
+      ],
+      "correct_answer": "You needn't worry about it.",
+      "explanation": "NEEDN'T is followed directly by the base verb (no 'to', no '-ing')."
+    },
+    {
+      "task_id": "t0703_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Priya's company arranged transport for the conference. She _____ take the public bus.",
+      "options": [
+        "needs to",
+        "needed to",
+        "didn't need to",
+        "must"
+      ],
+      "correct_answer": "didn't need to",
+      "explanation": "Since transport was arranged, it was not necessary for her to take the public bus — past tense: 'didn't need to'."
+    },
+    {
+      "task_id": "t0703_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Fill in the blank with need to, needs to, don't need to, or doesn't need to.",
+      "items": [
+        {
+          "sentence": "The doctor says Raj _____ rest for at least three days.",
+          "answer": "needs to",
+          "hint": "Subject is 'Raj' — singular third person."
+        },
+        {
+          "sentence": "It's a free event. You _____ register in advance.",
+          "answer": "don't need to",
+          "hint": "Since it is free, registration is not required."
+        },
+        {
+          "sentence": "I _____ call the bank today — my card was blocked.",
+          "answer": "need to",
+          "hint": "The blocked card makes this necessary."
+        }
+      ]
+    },
+    {
+      "task_id": "t0703_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete each sentence with needed to or didn't need to.",
+      "items": [
+        {
+          "sentence": "The hospital gave us all the medicines. We _____ go to the pharmacy.",
+          "answer": "didn't need to",
+          "hint": "It was not necessary because the hospital provided them."
+        },
+        {
+          "sentence": "I _____ present my Aadhaar card at the bank to open my account.",
+          "answer": "needed to",
+          "hint": "This was a required document."
+        },
+        {
+          "sentence": "My professor gave us an extension, so I _____ rush to finish.",
+          "answer": "didn't need to",
+          "hint": "The extension removed the urgency."
+        }
+      ]
+    },
+    {
+      "task_id": "t0703_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["We", "need", "to", "confirm", "our", "booking", "today"],
+          "answer": "We need to confirm our booking today."
+        },
+        {
+          "words": ["She", "doesn't", "need", "to", "bring", "extra", "documents"],
+          "answer": "She doesn't need to bring extra documents."
+        }
+      ]
+    },
+    {
+      "task_id": "t0703_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["Do", "I", "need", "to", "book", "a", "ticket", "in", "advance?"],
+          "answer": "Do I need to book a ticket in advance?"
+        },
+        {
+          "words": ["You", "needn't", "worry", "everything", "is", "ready"],
+          "answer": "You needn't worry — everything is ready."
+        }
+      ]
+    },
+    {
+      "task_id": "t0703_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match each situation with the correct sentence using need to or don't need to.",
+      "pairs": [
+        { "left": "Your passport expires in one month.", "right": "You need to renew it immediately." },
+        { "left": "The hotel includes breakfast.", "right": "You don't need to find a restaurant in the morning." },
+        { "left": "Her phone battery is at 2%.", "right": "She needs to charge it now." },
+        { "left": "All flights were cancelled.", "right": "We didn't need to go to the airport." },
+        { "left": "He speaks English fluently.", "right": "He doesn't need to take an English class." }
+      ]
+    },
+    {
+      "task_id": "t0703_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Booking a Doctor's Appointment — Chennai",
+      "dialogue": {
+        "context": "Meera is calling a clinic in Chennai to make an appointment for her mother. She is speaking to the receptionist, Geetha.",
+        "turns": [
+          { "speaker": "Geetha", "text": "Good morning, Sundar Clinic. How can I help you?" },
+          { "speaker": "Meera", "text": "Hello, I need to make an appointment for my mother. She hasn't been feeling well." },
+          { "speaker": "Geetha", "text": "Of course. Does she need to see a general doctor or a specialist?" },
+          { "speaker": "Meera", "text": "A general doctor will be fine. She has a fever and some body pain." },
+          { "speaker": "Geetha", "text": "We have a slot today at 4 pm. Does she need to come in or is a video consultation okay?" },
+          { "speaker": "Meera", "text": "She needs to come in — the doctor should check her properly." },
+          { "speaker": "Geetha", "text": "No problem. Does she need to bring any previous medical reports?" },
+          { "speaker": "Meera", "text": "She has some old reports. Does she need to bring all of them?" },
+          { "speaker": "Geetha", "text": "She doesn't need to bring old reports if they are from over a year ago. Just bring recent ones." },
+          { "speaker": "Meera", "text": "Understood. Does she need to pay before seeing the doctor?" },
+          { "speaker": "Geetha", "text": "No, she doesn't need to pay in advance. She can pay after the consultation." },
+          { "speaker": "Meera", "text": "Great. Does she need to fast before the appointment? The doctor might ask for blood tests." },
+          { "speaker": "Geetha", "text": "She needn't fast unless the doctor specifically asks. Just come normally." },
+          { "speaker": "Meera", "text": "Perfect. We will be there at 4 pm. Thank you so much!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "Why does Meera's mother need to come in person?",
+            "options": ["Video consultations are not available", "The doctor should check her properly", "She needs to pay in advance", "She needs to bring reports"],
+            "correct_answer": "The doctor should check her properly"
+          },
+          {
+            "question": "What reports does Meera's mother NOT need to bring?",
+            "options": ["Recent reports", "Reports from last month", "Old reports from over a year ago", "Her Aadhaar card"],
+            "correct_answer": "Old reports from over a year ago"
+          },
+          {
+            "question": "Does Meera's mother need to fast before the appointment?",
+            "options": ["Yes, always", "Yes, for blood tests", "No, not unless the doctor specifically asks", "Yes, for two hours"],
+            "correct_answer": "No, not unless the doctor specifically asks"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0703_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each sentence.",
+      "items": [
+        {
+          "sentence": "You needn't to call them — I already did.",
+          "error": "needn't to call",
+          "correction": "needn't call",
+          "explanation": "NEEDN'T is followed directly by the base verb — no 'to' is needed."
+        },
+        {
+          "sentence": "She need to submit the form today.",
+          "error": "need to",
+          "correction": "needs to",
+          "explanation": "With she/he/it, we use NEEDS TO."
+        },
+        {
+          "sentence": "We needed renew our membership last week.",
+          "error": "needed renew",
+          "correction": "needed to renew",
+          "explanation": "NEEDED TO requires 'to' before the base verb (unlike NEEDN'T)."
+        }
+      ]
+    },
+    {
+      "task_id": "t0703_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "Your friend Sonal is visiting Mumbai for a job interview. She's worried about many things. She already has directions, knows the address, and has printed her CV. What do you tell her to reassure her?",
+      "question": "Which is the most appropriate response?",
+      "options": [
+        "You need to find the address urgently.",
+        "You need to print your CV again.",
+        "You needn't worry — you already have everything you need.",
+        "You need to learn the directions now."
+      ],
+      "correct_answer": "You needn't worry — you already have everything you need.",
+      "explanation": "Since she already has everything prepared, there is nothing more she needs to do — 'needn't worry' is correct and reassuring."
+    },
+    {
+      "task_id": "t0703_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Think about something you are preparing for — an exam, a trip, a job interview, or an event. Tell me what you need to do to prepare. Speak for at least 60 seconds.",
+      "prompt": "What do you need to do to prepare for something important?",
+      "example_response": "I am preparing for my engineering entrance exam next month, so I need to do a lot of things. First, I need to finish revising all the chapters in Physics and Mathematics. I also need to practise solving mock tests every day to improve my speed. I need to make sure I sleep for at least seven hours because rest is essential for the brain. I also need to eat well and drink enough water. I don't need to spend time on social media — that is a distraction. My parents say I needn't worry too much and just focus on my preparation. I need to stay calm on the day of the exam. I am going to work very hard!",
+      "key_phrases": ["I need to", "I don't need to", "it is essential to", "I needn't", "the most important thing is to"],
+      "min_words": 80
+    },
+    {
+      "task_id": "t0703_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Think of a time in the past when you needed to do something important, or when you found out you didn't need to do something you thought was necessary. Tell me what happened.",
+      "prompt": "Tell me about a time you needed to do something or found out it wasn't necessary.",
+      "example_response": "Last year, I needed to get a new Aadhaar card because mine was old and the photo was not clear. I needed to go to the Aadhaar centre and fill in all the details again. I also needed to bring proof of my address — so I brought my electricity bill and my bank passbook. When I arrived, I found out I only needed to bring one document, not both. I didn't need to wait very long because I had booked an appointment online. The whole process was quicker than I expected. I needed to update my mobile number too, which was easy. After everything was done, I didn't need to visit the centre again — the new card came by post.",
+      "key_phrases": ["I needed to", "I didn't need to", "it turned out that", "I found out", "fortunately"],
+      "min_words": 80
+    },
+    {
+      "task_id": "t0703_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Fill in the blanks with need to, needs to, needed to, don't need to, doesn't need to, or didn't need to.",
+      "paragraph": "Arjun is planning a trip to Goa next month. He (1)_____ book his flight tickets immediately because they are filling up fast. He also (2)_____ apply for any visa because Goa is part of India. His friend Vikram is joining him. Vikram (3)_____ bring too much luggage — they are only staying for three days. Last year when they went to Manali, they (4)_____ carry extra warm clothes because it was very cold. This time, Arjun (5)_____ pack light summer clothes. His sister said she (6)_____ join them because she has exams, but she hopes to join them next time.",
+      "answers": ["needs to", "doesn't need to", "doesn't need to", "needed to", "needs to", "doesn't need to"],
+      "hint": "Think about present or past tense, and whether the action is necessary or not."
+    },
+    {
+      "task_id": "t0703_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 3 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "NEED TO + base verb = necessary: I need to / She needs to",
+          "DON'T / DOESN'T NEED TO = not necessary",
+          "NEEDED TO = past necessity",
+          "DIDN'T NEED TO = not necessary in the past",
+          "NEEDN'T + base verb (no 'to') = more formal way to say 'don't need to'",
+          "Key vocab: essential, urgent, appointment, advance, confirm, priority, document, valid"
+        ],
+        "grammar_summary": "NEED TO works like HAVE TO — it uses do/does/did for questions and negatives. NEEDN'T is followed directly by the base verb with no 'to'.",
+        "encouragement": "Wonderful work! Understanding 'need to' and 'needn't' helps you communicate necessity and reassure people clearly. You're making great progress! 🚀"
+      }
+    }
+  ]
+}

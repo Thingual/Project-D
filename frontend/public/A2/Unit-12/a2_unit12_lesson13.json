@@ -1,0 +1,326 @@
+{
+  "lesson_id": "a2_unit12_lesson13",
+  "unit": 12,
+  "lesson_number": 13,
+  "level": "A2",
+  "title": "Life experiences — extended speaking and practice",
+  "description": "Combine present perfect, quantity language, and natural conversation skills to talk about your life experiences in depth.",
+  "estimated_minutes": 30,
+  "xp_reward": 175,
+  "tasks": [
+    {
+      "task_id": "t1213_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Talking about life experiences — putting it together",
+        "body": "By now you know how to use the present perfect for experiences. Let's combine everything:\n\nOPENING with present perfect:\n'I have visited quite a few places in India.'\n\nAdding detail with past simple:\n'Last year I went to Meghalaya — it was extraordinary.'\n\nUsing ever/never:\n'I have never been outside India but I've always wanted to.'\n\nUsing for/since:\n'I have been interested in photography since college.'\n\nAdding quantity:\n'I have taken a lot of photographs over the years — thousands probably.'\n\nUsing already/yet/just:\n'I've just booked a trip to Ladakh — I haven't been there yet!'",
+        "grammar_note": "Natural conversation mixes ALL these patterns\nPresent perfect = introduce the experience\nPast simple = give specific details\nQuantity words = add depth and colour"
+      }
+    },
+    {
+      "task_id": "t1213_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Phrases for talking about experiences naturally",
+        "body": "These phrases make your conversation sound natural and fluent:\n\nIntroducing:\n• 'One of the best things I've ever done is...'\n• 'Something I've always wanted to try is...'\n• 'I've had some incredible experiences with...'\n\nDescribing the experience:\n• 'It was unlike anything I've ever seen.'\n• 'I'd never felt so... before.'\n• 'It completely changed the way I think about...'\n\nRecommending:\n• 'If you ever get the chance, you should definitely...'\n• 'I'd highly recommend it — I've been three times!'\n• 'Once you've tried it, you'll never go back!'",
+        "grammar_note": "These phrases use present perfect naturally\n'One of the best things I've ever done' = superlative + ever\n'If you ever get the chance' = future real conditional"
+      }
+    },
+    {
+      "task_id": "t1213_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — describing memorable experiences",
+        "vocabulary": [
+          {"word": "unforgettable", "meaning": "so good or powerful it stays in your memory", "example": "It was the most unforgettable trip I've ever taken."},
+          {"word": "life-changing", "meaning": "significant enough to change how you live or think", "example": "Volunteering there was a life-changing experience."},
+          {"word": "eye-opening", "meaning": "something that makes you see things differently", "example": "Travelling alone for the first time was eye-opening."},
+          {"word": "overrated", "meaning": "not as good as people say", "example": "Honestly, I found that restaurant a bit overrated."},
+          {"word": "worth it", "meaning": "the effort or cost was justified by the result", "example": "The hike was tough but absolutely worth it."},
+          {"word": "bucket list", "meaning": "a list of things you want to do before you die", "example": "Seeing the Northern Lights is on my bucket list."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l13_listen",
+        "sentences": [
+          "One of the best things I've ever done is trekked in the Himalayas.",
+          "I've had some incredible experiences travelling alone.",
+          "I'd never felt so free before that trip.",
+          "If you ever get the chance to visit Hampi — just go!",
+          "It completely changed the way I see adventure."
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Which sentence combines present perfect and past simple CORRECTLY to talk about an experience?",
+        "options": [
+          "I have gone to Ladakh and it was beautiful last year.",
+          "I have been to Ladakh — I went there last October and it was breathtaking.",
+          "I have been going to Ladakh last October.",
+          "I went to Ladakh and I have been there."
+        ],
+        "correct": "I have been to Ladakh — I went there last October and it was breathtaking.",
+        "explanation": "Present perfect to introduce (I have been) + past simple for specific detail (went, last October, was). This is the natural pattern."
+      }
+    },
+    {
+      "task_id": "t1213_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Which phrase introduces a life experience most naturally?",
+        "options": [
+          "I did the best thing ever which was...",
+          "One of the most memorable experiences I've ever had was...",
+          "I have done a good thing once which was...",
+          "The thing I did that was very good is..."
+        ],
+        "correct": "One of the most memorable experiences I've ever had was...",
+        "explanation": "This uses the superlative + present perfect with 'ever' — the most natural structure for introducing a great experience."
+      }
+    },
+    {
+      "task_id": "t1213_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "You're recommending a restaurant to a friend. Which is most natural?",
+        "options": [
+          "You should go there — I have been three times.",
+          "Go there — it is good.",
+          "I went there — it was nice enough.",
+          "You have to try it and I went once."
+        ],
+        "correct": "You should go there — I have been three times.",
+        "explanation": "Present perfect (I have been) for repeated experiences + recommendation. 'Three times' adds credibility."
+      }
+    },
+    {
+      "task_id": "t1213_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "Which sentence uses quantity language to add depth to an experience?",
+        "options": [
+          "I have taken photographs.",
+          "I have taken a lot of photographs — I think I've taken over two thousand on that trip alone!",
+          "I have not taken many photographs.",
+          "I took photographs."
+        ],
+        "correct": "I have taken a lot of photographs — I think I've taken over two thousand on that trip alone!",
+        "explanation": "A lot of + specific number adds vivid detail. This makes the description much more engaging."
+      }
+    },
+    {
+      "task_id": "t1213_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Complete these experience-sharing sentences naturally.",
+        "sentences": [
+          {"text": "One of the ___ things I've ever done is learn to cook from my grandmother.", "answer": "best / most memorable / greatest"},
+          {"text": "I have been interested in music ___ I was very young — probably since age five.", "answer": "since"},
+          {"text": "I've tried a ___ of different sports over the years — cricket, badminton, swimming, tennis.", "answer": "lot"},
+          {"text": "If you ___ get the chance to see the sunrise from a hilltop, do it — it's unforgettable.", "answer": "ever"},
+          {"text": "I'd ___ recommend it — I've been there twice and it just gets better!", "answer": "highly / definitely"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete this experience paragraph using the correct tense and quantity language.",
+        "sentences": [
+          {"text": "I ___ (visit) many national parks across India over the years. The most memorable was Kaziranga, which I ___ (see) for the first time in 2019.", "answer": "have visited / saw"},
+          {"text": "I ___ (never/see) so many one-horned rhinos in one place — there ___ (be) a lot of them right by the road.", "answer": "had never seen / were"},
+          {"text": "I ___ (take) a lot of photographs that day — I think I ___ (take) over 300 in total.", "answer": "took / took"},
+          {"text": "I ___ (always/want) to go back and I ___ (just/book) another trip for this December!", "answer": "have always wanted / have just booked"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a natural experience-sharing sentence.",
+        "words": ["ever", "best", "I've", "One", "done", "of", "the", "things", "is", "trek", "to", "Triund"],
+        "answer": "One of the best things I've ever done is trek to Triund."
+      }
+    },
+    {
+      "task_id": "t1213_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a recommendation sentence.",
+        "words": ["you", "chance", "get", "If", "the", "ever", "go", "just"],
+        "answer": "If you ever get the chance, just go."
+      }
+    },
+    {
+      "task_id": "t1213_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the experience opener to the most natural follow-up.",
+        "pairs": [
+          {"left": "I've been to Jaipur twice.", "right": "The first time I went was for a wedding — absolutely spectacular."},
+          {"left": "I've never tried bungee jumping.", "right": "I'm a bit scared of heights honestly, but I'd love to try!"},
+          {"left": "I've just started learning Spanish.", "right": "I've done three lessons so far and I'm really enjoying it."},
+          {"left": "I've known Priya since school.", "right": "We've been friends for over fifteen years — she's like a sister."},
+          {"left": "I've eaten a lot of street food across India.", "right": "The best I've ever had was pani puri in Ahmedabad."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Sharing life experiences — house party, Bangalore",
+        "setting": "At a relaxed house party, a group of friends are sharing memorable experiences. The conversation flows naturally using present perfect, past simple, and quantity language.",
+        "dialogue": [
+          {"speaker": "Ravi", "text": "Okay — everyone share one experience they've had that they'd recommend to others. I'll start. I've been to Spiti Valley in Himachal and it's one of the most beautiful places I've ever seen. I went two summers ago with three friends."},
+          {"speaker": "Kavya", "text": "Spiti! I've always wanted to go but I've never made it. Was it difficult to reach?"},
+          {"speaker": "Ravi", "text": "The journey is long — we drove for almost two days. But every minute was worth it. I've taken a lot of photographs there — I think it's the best collection I've ever shot."},
+          {"speaker": "Priya", "text": "Beautiful! My experience is a bit different. I've been volunteering at an animal shelter for the past year — I've spent every Saturday there since last November. It's been genuinely life-changing."},
+          {"speaker": "Arjun", "text": "That's wonderful, Priya. I've never volunteered anywhere — I've always thought about it but never got around to it."},
+          {"speaker": "Priya", "text": "If you ever get the chance, just do it. You learn so much about yourself. What about you, Arjun?"},
+          {"speaker": "Arjun", "text": "Mine is food-related! I've eaten at some incredible restaurants across the country but nothing has compared to a small roadside dhaba I found in Rajasthan in 2021. I've been back twice since then."},
+          {"speaker": "Meera", "text": "A dhaba that's worth a return trip — it must be extraordinary! I've had a similar experience. One of the most eye-opening things I've ever done is travel alone. I went to Pondicherry for a week by myself three years ago."},
+          {"speaker": "Kavya", "text": "Travelling alone! I've never done that — I've always been a bit nervous about it."},
+          {"speaker": "Meera", "text": "I was too at first. But I've never felt as confident as I did after that trip. I had nowhere to be and no one to consider — just me and my curiosity."},
+          {"speaker": "Ravi", "text": "That's the dream! And Kavya — what's yours?"},
+          {"speaker": "Kavya", "text": "I've recently completed a six-month photography course — I've always loved taking photos but I've never formally studied it. I've learned so much. I've already sold some prints online!"},
+          {"speaker": "Priya", "text": "Kavya — that's amazing! I've seen your work and it's brilliant. I've been meaning to ask — will you do a small exhibition?"},
+          {"speaker": "Kavya", "text": "Actually — I've just been offered a spot at a local gallery. I haven't confirmed yet but I think I will!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "Where has Ravi been that he recommends?",
+            "options": ["Ladakh", "Spiti Valley", "Leh", "Manali"],
+            "correct": "Spiti Valley"
+          },
+          {
+            "question": "How long has Priya been volunteering at the shelter?",
+            "options": ["Six months", "Three months", "About a year", "Two years"],
+            "correct": "About a year"
+          },
+          {
+            "question": "What has Kavya just been offered?",
+            "options": ["A photography job", "A spot at a local gallery", "A teaching position", "A travel assignment"],
+            "correct": "A spot at a local gallery"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the mistake in these experience-sharing sentences.",
+        "sentences": [
+          {
+            "wrong": "One of the best things I've ever did is travel alone.",
+            "correct": "One of the best things I've ever done is travel alone.",
+            "explanation": "Present perfect with ever needs the PAST PARTICIPLE: done (not did)."
+          },
+          {
+            "wrong": "I've been to Goa last March — it was amazing.",
+            "correct": "I went to Goa last March — it was amazing.",
+            "explanation": "'Last March' = specific finished time → PAST SIMPLE. Present perfect cannot be used with 'last'."
+          },
+          {
+            "wrong": "I've taken many photographs — I have over two thousand since that trip.",
+            "correct": "I've taken a lot of photographs — I took over two thousand on that trip.",
+            "explanation": "'Since that trip' is wrong here — the trip is finished. Say 'on that trip' (past). Also 'a lot of' is more natural than 'many' in positive speech."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1213_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "A new friend asks you: 'What's the most interesting thing you've ever done?' You went trekking in Meghalaya two years ago. How do you answer?",
+        "options": [
+          "I went trekking two years ago.",
+          "The most interesting thing I've ever done is trek in Meghalaya. I went two years ago and it completely changed how I see nature.",
+          "I have gone two years ago to Meghalaya.",
+          "I've trekked — it was good."
+        ],
+        "correct": "The most interesting thing I've ever done is trek in Meghalaya. I went two years ago and it completely changed how I see nature.",
+        "explanation": "Present perfect for the experience + past simple for the detail (two years ago) + personal impact. Rich, natural, engaging."
+      }
+    },
+    {
+      "task_id": "t1213_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Tell someone about the most memorable experience of your life. Use present perfect to introduce it, past simple for details, and quantity language throughout. Speak for at least 90 seconds.",
+        "prompt": "Share your most memorable life experience — combine all Unit 12 language naturally.",
+        "example_response": "The most memorable experience I've ever had is probably the time I visited Varanasi for the first time. I've been to many cities across India but nothing has prepared me for what Varanasi is like. I went there about three years ago with my father — it was his idea and I wasn't sure what to expect. We arrived in the evening and went directly to the ghats for the Ganga Aarti ceremony. I'd never seen anything like it — there were hundreds of people gathered, a lot of chanting, fire, flowers, and the smell of incense everywhere. I couldn't process it all at once. I have since thought about that evening many times. We stayed for four days and every morning I woke up before sunrise — I've never been an early riser, but something about Varanasi made me want to. We took a boat on the Ganga at dawn every single day. I took so many photographs — hundreds — but honestly no photograph has ever fully captured what it felt like. I have recommended Varanasi to almost everyone I know since then. If you've never been and you get the chance, just go. Go with no expectations and just absorb it. It's unlike anything else in the world.",
+        "key_phrases": ["The most memorable experience I've ever had", "I've been to many but nothing has compared", "I went... (past simple)", "I'd never seen anything like it", "I have recommended since then", "If you've never been"],
+        "min_words": 150
+      }
+    },
+    {
+      "task_id": "t1213_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Talk about something you have NEVER done but really want to do. Give reasons, describe what you imagine it would be like, and explain why you haven't done it yet.",
+        "prompt": "Describe a dream experience you haven't had yet — use never, yet, not enough, and future language.",
+        "example_response": "Something I have never done but have always dreamed of is seeing the Northern Lights. I've read so much about them and I've seen so many photographs and videos — but I've never experienced them in real life and I imagine nothing compares to actually being there. The experience is described as completely surreal — colours dancing across the night sky that you can't quite believe are real. I haven't gone yet for a few practical reasons. First — it's not cheap. Travelling to Norway or Iceland requires a lot of planning and a considerable budget, and I haven't saved enough for it yet. Second — you need to go at the right time of year and in the right weather conditions. There's no guarantee you'll see them even if you go — some people have been and seen nothing. That uncertainty is a bit daunting. But I have already started researching the best time and locations. I've also spoken to someone who has been — she said it was the most extraordinary thing she's ever seen in her life. That's all the motivation I need. I haven't booked anything yet but it's the experience I've been dreaming about for years and I'm determined to make it happen.",
+        "key_phrases": ["I have never done", "I haven't gone yet", "I haven't saved enough", "I have already started", "I haven't booked yet", "I've always dreamed of"],
+        "min_words": 150
+      }
+    },
+    {
+      "task_id": "t1213_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this 'My Life So Far' personal profile using the correct tense and Unit 12 language.",
+        "text": "My name is Meera and I ___ (1/live) in Hyderabad for the last four years. Before that I ___ (2/grow) up in Coimbatore. I ___ (3/study) engineering and I ___ (4/work) as a product manager since 2021.\n\nI ___ (5/travel) to eight Indian states so far and I ___ (6/visit) Sri Lanka once — I ___ (7/go) there in 2022 for a friend's wedding. I ___ (8/never/be) to Europe yet but it's on my bucket list.\n\nI ___ (9/always/love) music — I ___ (10/learn) Carnatic singing since I was six. I ___ (11/not/perform) publicly for a few years now but I ___ (12/just/start) a new class and I'm hoping to change that.\n\nI ___ (13/read) a lot of books over the years — probably more than a hundred. I ___ (14/not/read) as much recently because of work but I ___ (15/already/buy) three new books this month, so things are looking up!",
+        "answers": ["have lived", "grew", "studied", "have worked", "have travelled", "have visited", "went", "have never been", "have always loved", "have been learning", "haven't performed", "have just started", "have read", "haven't read", "have already bought"]
+      }
+    },
+    {
+      "task_id": "t1213_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 13 complete — Life experiences extended practice",
+        "key_points": [
+          "Introduce an experience with present perfect: 'I have been to / I have tried'",
+          "Add specific detail with past simple: 'I went there in 2022 / it was amazing'",
+          "Use ever/never for life experience questions and statements",
+          "Use for/since to show how long something has continued",
+          "Add quantity language (a lot of, so many, not enough) to make descriptions richer",
+          "Useful phrases: 'One of the best things I've ever done', 'If you ever get the chance', 'I'd highly recommend it'"
+        ],
+        "xp_earned": 175,
+        "next_lesson": "Reading and describing things — reviews, bucket lists, profiles"
+      }
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson07",
+    "unit":  10,
+    "lesson_number":  7,
+    "level":  "A2",
+    "title":  "Writing formal emails â€” structure and language",
+    "description":  "Learn how to write clear, polite formal emails in English â€” greeting, purpose, body, and sign-off.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1007_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "The structure of a formal email",
+                                      "body":  "A formal email has five parts:\n\n1. SUBJECT LINE â€” short and clear\n   \u0027Request for Leave â€” 12-14 March\u0027\n\n2. GREETING\n   \u0027Dear Mr Sharma,\u0027 / \u0027Dear Ms Priya,\u0027 / \u0027Dear Sir/Madam,\u0027\n\n3. OPENING LINE â€” state your reason\n   \u0027I am writing to request...\u0027 / \u0027I am writing regarding...\u0027\n\n4. BODY â€” your main message (1-3 short paragraphs)\n\n5. CLOSING + SIGN-OFF\n   \u0027I look forward to hearing from you.\u0027\n   \u0027Yours sincerely,\u0027 / \u0027Kind regards,\u0027 / \u0027Best regards,\u0027\n   [Your name]",
+                                      "grammar_note":  "Formal emails use full forms: I am (not I\u0027m), I do not (not I don\u0027t)\nAvoid casual phrases: \u0027Hey!\u0027, \u0027Thanks a ton\u0027, \u0027Cheers\u0027"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Key formal email phrases",
+                                      "body":  "OPENING LINES:\nâ€¢ I am writing to inform you that...\nâ€¢ I am writing with regard to...\nâ€¢ Further to our conversation, I would like to...\nâ€¢ I am contacting you regarding...\n\nMAKING REQUESTS:\nâ€¢ I would be grateful if you could...\nâ€¢ Could you please...?\nâ€¢ I would appreciate it if...\nâ€¢ Please find attached...\n\nCLOSING LINES:\nâ€¢ I look forward to hearing from you.\nâ€¢ Please do not hesitate to contact me if you have any questions.\nâ€¢ Thank you for your time and consideration.\nâ€¢ I await your response.",
+                                      "grammar_note":  "Use \u0027would\u0027 for polite requests â€” more formal than \u0027can\u0027\n\u0027I would be grateful\u0027 \u003e \u0027I want\u0027"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Formal email words",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "regarding",
+                                                             "meaning":  "about, concerning",
+                                                             "example":  "I am writing regarding your recent application."
+                                                         },
+                                                         {
+                                                             "word":  "attached",
+                                                             "meaning":  "included with the email",
+                                                             "example":  "Please find the report attached."
+                                                         },
+                                                         {
+                                                             "word":  "grateful",
+                                                             "meaning":  "thankful",
+                                                             "example":  "I would be grateful for your prompt response."
+                                                         },
+                                                         {
+                                                             "word":  "hesitate",
+                                                             "meaning":  "to pause/be unsure before doing something",
+                                                             "example":  "Please do not hesitate to contact me."
+                                                         },
+                                                         {
+                                                             "word":  "at your earliest convenience",
+                                                             "meaning":  "as soon as you can",
+                                                             "example":  "Please reply at your earliest convenience."
+                                                         },
+                                                         {
+                                                             "word":  "sincerely",
+                                                             "meaning":  "genuinely, used in formal sign-offs",
+                                                             "example":  "Yours sincerely, Priya Rajan"
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l7_listen",
+                                      "sentences":  [
+                                                        "I am writing to request a meeting at your earliest convenience.",
+                                                        "Please find the completed form attached to this email.",
+                                                        "I would be grateful if you could confirm receipt of this message.",
+                                                        "Please do not hesitate to contact me if you have any questions.",
+                                                        "I look forward to hearing from you."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Which is the correct formal email greeting when you know the person\u0027s name?",
+                                      "options":  [
+                                                      "Hey Priya,",
+                                                      "Hi there!",
+                                                      "Dear Ms Priya,",
+                                                      "Hello friend,"
+                                                  ],
+                                      "correct":  "Dear Ms Priya,",
+                                      "explanation":  "\u0027Dear + title + name\u0027 is the standard formal greeting. \u0027Hey\u0027 and \u0027Hi there\u0027 are too casual."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Which is the best opening line for a formal email requesting a meeting?",
+                                      "options":  [
+                                                      "I want to meet you.",
+                                                      "Can we meet?",
+                                                      "I am writing to request a brief meeting at your convenience.",
+                                                      "Just wanted to check if we can chat."
+                                                  ],
+                                      "correct":  "I am writing to request a brief meeting at your convenience.",
+                                      "explanation":  "\u0027I am writing to...\u0027 is the standard formal opening. The others are too casual or vague."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which closing line is most appropriate for a formal email?",
+                                      "options":  [
+                                                      "Talk soon!",
+                                                      "Bye for now,",
+                                                      "I look forward to hearing from you. Kind regards,",
+                                                      "Cheers and thanks a lot!"
+                                                  ],
+                                      "correct":  "I look forward to hearing from you. Kind regards,",
+                                      "explanation":  "\u0027I look forward to hearing from you\u0027 + \u0027Kind regards\u0027 = professional and standard formal closing."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Ravi wants to ask his professor if she received his assignment. Which is the most appropriate formal sentence?",
+                                      "options":  [
+                                                      "Did you get my assignment?",
+                                                      "I wanted to check â€” did you see my work?",
+                                                      "I am writing to confirm whether you received my assignment submission.",
+                                                      "Just checking if my assignment reached you!"
+                                                  ],
+                                      "correct":  "I am writing to confirm whether you received my assignment submission.",
+                                      "explanation":  "Formal structure + polite language = \u0027I am writing to confirm whether...\u0027 This is professional and respectful."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Complete the formal email phrases.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I am writing ___ regard ___ your job application.",
+                                                            "answer":  "with / to"
+                                                        },
+                                                        {
+                                                            "text":  "Please find the updated document ___ to this email.",
+                                                            "answer":  "attached"
+                                                        },
+                                                        {
+                                                            "text":  "I would be ___ if you could confirm the date.",
+                                                            "answer":  "grateful"
+                                                        },
+                                                        {
+                                                            "text":  "Please do not ___ to contact me if you have any further questions.",
+                                                            "answer":  "hesitate"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Make these informal phrases formal.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I want to know about the job. â†’ I am writing ___ regarding the position.",
+                                                            "answer":  "to enquire"
+                                                        },
+                                                        {
+                                                            "text":  "Can you send the file? â†’ I ___ be grateful if you could send the file.",
+                                                            "answer":  "would"
+                                                        },
+                                                        {
+                                                            "text":  "I\u0027ll wait for your reply. â†’ I ___ forward ___ hearing from you.",
+                                                            "answer":  "look / to"
+                                                        },
+                                                        {
+                                                            "text":  "Thanks a lot! â†’ ___ you for your time and consideration.",
+                                                            "answer":  "Thank"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct formal email opening sentence.",
+                                      "words":  [
+                                                    "writing",
+                                                    "request",
+                                                    "I",
+                                                    "am",
+                                                    "a",
+                                                    "to",
+                                                    "meeting",
+                                                    "brief"
+                                                ],
+                                      "answer":  "I am writing to request a brief meeting."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct formal email closing sentence.",
+                                      "words":  [
+                                                    "hearing",
+                                                    "look",
+                                                    "I",
+                                                    "you",
+                                                    "from",
+                                                    "forward",
+                                                    "to"
+                                                ],
+                                      "answer":  "I look forward to hearing from you."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the informal phrase to its formal equivalent.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "I want to ask about...",
+                                                        "right":  "I am writing to enquire about..."
+                                                    },
+                                                    {
+                                                        "left":  "Can you help me?",
+                                                        "right":  "I would be grateful if you could assist me."
+                                                    },
+                                                    {
+                                                        "left":  "Here\u0027s the file.",
+                                                        "right":  "Please find the document attached."
+                                                    },
+                                                    {
+                                                        "left":  "Talk soon!",
+                                                        "right":  "I look forward to hearing from you."
+                                                    },
+                                                    {
+                                                        "left":  "Thanks!",
+                                                        "right":  "Thank you for your time and consideration."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Discussing how to write a formal email â€” college, Bangalore",
+                                      "setting":  "Sonal is helping her friend Arjun write a formal email to a professor requesting an extension on his assignment.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Sonal, I need to write a formal email to Professor Verma asking for an assignment extension. I\u0027ve never written one before."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Okay, it\u0027s not too difficult. First, write a clear subject line â€” something like \u0027Request for Assignment Extension â€” Arjun Mehta\u0027."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Okay. Then how do I start?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Start with \u0027Dear Professor Verma,\u0027 â€” never \u0027Hey\u0027 or just her first name in a formal email."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Got it. And then?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Your opening line should state why you\u0027re writing. Something like: \u0027I am writing to request an extension for the Marketing Case Study assignment.\u0027"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Simple and to the point. What do I put in the body?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Explain your reason briefly â€” keep it honest and professional. Something like: \u0027I have been unwell this week and have been unable to complete the work to the required standard.\u0027"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Should I mention the new date I want?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Yes â€” say exactly what you need: \u0027I would be grateful if you could grant me an extension until Friday, 14th March.\u0027"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Perfect. And how do I end it?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "End with: \u0027I apologise for any inconvenience caused and I look forward to your response.\u0027 Then sign off with \u0027Yours sincerely\u0027 or \u0027Kind regards\u0027 and your full name."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "This is really helpful. Should I say anything else?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "You could add: \u0027Please do not hesitate to contact me if you require any further information.\u0027 That shows you\u0027re being professional and cooperative."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Great! I\u0027ll write it up now. Thanks so much, Sonal."
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What should Arjun use as the subject line?",
+                                                                          "options":  [
+                                                                                          "Extension Please",
+                                                                                          "Request for Assignment Extension â€” Arjun Mehta",
+                                                                                          "Hi Professor â€” urgent!",
+                                                                                          "About my assignment"
+                                                                                      ],
+                                                                          "correct":  "Request for Assignment Extension â€” Arjun Mehta"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Why is Arjun requesting an extension?",
+                                                                          "options":  [
+                                                                                          "He forgot the assignment.",
+                                                                                          "He has been unwell.",
+                                                                                          "He lost his notes.",
+                                                                                          "He misunderstood the brief."
+                                                                                      ],
+                                                                          "correct":  "He has been unwell."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What sign-off does Sonal recommend?",
+                                                                          "options":  [
+                                                                                          "Thanks!",
+                                                                                          "Bye for now,",
+                                                                                          "Yours sincerely / Kind regards",
+                                                                                          "See you soon!"
+                                                                                      ],
+                                                                          "correct":  "Yours sincerely / Kind regards"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "This formal email has 3 mistakes. Find and correct them.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Hey Mr Kapoor, I\u0027m writing to ask about the job.",
+                                                            "correct":  "Dear Mr Kapoor, I am writing to enquire about the position.",
+                                                            "explanation":  "\u0027Hey\u0027 is too casual for a formal email. Use \u0027Dear\u0027. Also use full forms: \u0027I am\u0027 not \u0027I\u0027m\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Can you please tell me when the results will come?",
+                                                            "correct":  "I would be grateful if you could inform me when the results will be announced.",
+                                                            "explanation":  "\u0027Can you\u0027 is informal. Use \u0027I would be grateful if you could...\u0027 in formal emails."
+                                                        },
+                                                        {
+                                                            "wrong":  "Thanks a lot! Cheers, Ravi",
+                                                            "correct":  "Thank you for your time. Kind regards, Ravi Kumar",
+                                                            "explanation":  "\u0027Thanks a lot\u0027 and \u0027Cheers\u0027 are too informal. Use \u0027Thank you\u0027 and \u0027Kind regards\u0027 or \u0027Yours sincerely\u0027."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You are writing to a hotel in Mysore to ask if they have rooms available for the Dussehra weekend. What is the best subject line?",
+                                      "options":  [
+                                                      "Question",
+                                                      "Hi â€” need a room?",
+                                                      "Room Availability Enquiry â€” Dussehra Weekend (12-14 October)",
+                                                      "Do you have rooms?"
+                                                  ],
+                                      "correct":  "Room Availability Enquiry â€” Dussehra Weekend (12-14 October)",
+                                      "explanation":  "A good formal email subject line is specific, clear, and professional. Include what + when."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Read this formal email aloud and then explain each part â€” what is the subject, greeting, opening line, body, and closing?",
+                                      "prompt":  "Read and explain the structure of this email:\n\nSubject: Request for Meeting â€” Project Proposal\n\nDear Ms Kavitha,\n\nI am writing to request a brief meeting to discuss my project proposal for the upcoming product launch.\n\nI would be grateful if you could spare 20 minutes at your earliest convenience. I am available on Tuesday or Wednesday afternoon.\n\nPlease find a summary of the proposal attached.\n\nI look forward to hearing from you. Please do not hesitate to contact me if you require any further information.\n\nYours sincerely,\nArjun Mehta",
+                                      "example_response":  "This is a well-structured formal email. The subject line is \u0027Request for Meeting â€” Project Proposal\u0027 â€” it\u0027s short, clear and tells the reader exactly what the email is about. The greeting is \u0027Dear Ms Kavitha\u0027 â€” formal and respectful, using the title and name. The opening line \u0027I am writing to request a brief meeting\u0027 immediately states the purpose â€” this is very important in formal emails. The body has two short paragraphs: the first makes the request and explains how long it will take, and the second offers specific availability â€” Tuesday or Wednesday afternoon â€” which makes it easy for the reader to respond. There\u0027s also a mention of an attachment. The closing lines are very professional: \u0027I look forward to hearing from you\u0027 is the standard formal closing, and \u0027please do not hesitate to contact me\u0027 shows politeness. The sign-off \u0027Yours sincerely\u0027 followed by full name is perfectly formal.",
+                                      "key_phrases":  [
+                                                          "subject line",
+                                                          "greeting",
+                                                          "opening line",
+                                                          "body",
+                                                          "closing",
+                                                          "sign-off"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "You need to write a formal email to your company\u0027s HR department requesting a work-from-home arrangement for the next month. Describe what you would write â€” include all 5 parts of the email.",
+                                      "prompt":  "Dictate a formal email to HR requesting a work-from-home arrangement. Include subject, greeting, reason, request, and sign-off.",
+                                      "example_response":  "Here is the formal email I would write:\n\nSubject: Request for Work-From-Home Arrangement â€” November 2025\n\nDear HR Team,\n\nI am writing to request a work-from-home arrangement for the month of November 2025. I am currently managing a health situation that requires me to stay close to home during this period, though I am fully able to continue my work responsibilities remotely.\n\nI would be grateful if you could grant this arrangement for the period of 1st to 30th November. I assure you that my availability, productivity and response times will not be affected. I am happy to attend any mandatory in-person meetings with sufficient notice.\n\nI have attached a brief note from my doctor for your reference.\n\nThank you for your understanding. I look forward to your response at your earliest convenience. Please do not hesitate to contact me if you require any further information.\n\nYours sincerely,\nPriya Rajan\nSoftware Engineer, Team Horizon",
+                                      "key_phrases":  [
+                                                          "I am writing to request",
+                                                          "I would be grateful",
+                                                          "Please find attached",
+                                                          "I look forward to",
+                                                          "Yours sincerely"
+                                                      ],
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this formal email with the correct words/phrases.",
+                                      "text":  "Subject: ___ (1) for Leave of Absence â€” 3-5 April\n\nDear Mr Sharma,\n\nI am ___ (2) to request three days of leave from 3rd to 5th April 2025, due to a family function.\n\nI have ensured that all my current deliverables ___ (3) be completed before my leave begins. I will also ensure a proper handover ___ (4) my colleague Ms Meera Iyer.\n\nI ___ (5) be grateful if you could kindly approve this request. I am happy to discuss this ___ (6) your convenience.\n\nThank you for your time. I ___ (7) forward to your response.\n\n___ (8) sincerely,\nKavya Nair",
+                                      "answers":  [
+                                                      "Request",
+                                                      "writing",
+                                                      "will",
+                                                      "to",
+                                                      "would",
+                                                      "at",
+                                                      "look",
+                                                      "Yours"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1007_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 7 complete â€” Writing formal emails",
+                                      "key_points":  [
+                                                         "5 parts: Subject line, Greeting (Dear...), Opening line, Body, Closing + Sign-off",
+                                                         "Use full forms: I am, I do not, I would (not I\u0027m, don\u0027t, I\u0027d) â€” though contractions are acceptable in less formal professional emails",
+                                                         "Opening: \u0027I am writing to...\u0027",
+                                                         "Request: \u0027I would be grateful if you could...\u0027",
+                                                         "Closing: \u0027I look forward to hearing from you.\u0027",
+                                                         "Sign-off: \u0027Yours sincerely / Kind regards / Best regards\u0027"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Formal vs informal email language"
+                                  }
+                  }
+              ]
+}

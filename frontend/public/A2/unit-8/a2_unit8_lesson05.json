@@ -1,0 +1,365 @@
+{
+  "lesson_id": "a2_unit8_lesson05",
+  "unit": 8,
+  "lesson_number": 5,
+  "level": "A2",
+  "title": "Describing Places in Detail",
+  "description": "Learn to describe places with rich, detailed language using adjectives, adverbs, comparatives, and superlatives together.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0805_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Describing Places — Key Language",
+      "content": {
+        "explanation": "When we describe places, we use several types of language together:\n\n🏙️ OVERALL IMPRESSION — adjectives:\n• It is a beautiful / bustling / peaceful / historic place.\n• The city is vibrant / cosmopolitan / overcrowded / charming.\n\n📍 LOCATION LANGUAGE:\n• It is located in the south of India / on the coast / in the hills.\n• It is situated near... / surrounded by... / overlooking...\n• It lies between... and...\n\n📐 SIZE AND SCALE:\n• It is enormous / vast / compact / sprawling.\n• It covers an area of... / It stretches for...\n\n🌡️ ATMOSPHERE AND FEELING:\n• It has a lively / relaxed / hectic / traditional atmosphere.\n• It feels like a village / a modern city / a place from another time.\n• The streets are lined with... / The area is full of...\n\n🔗 COMBINING TECHNIQUES:\n• Chennai is a vast, bustling coastal city in Tamil Nadu.\n• It is one of the most culturally rich cities I've ever visited.\n• The old quarter is far more charming than the modern business district.",
+        "examples": [
+          "Ooty is a small, picturesque hill station situated in the Nilgiri mountains.",
+          "Mumbai is a densely populated, fast-paced metropolis on the west coast of India.",
+          "Hampi is an ancient, atmospheric UNESCO World Heritage site in Karnataka.",
+          "Pondicherry has a uniquely charming French colonial area that feels very different from the rest of India."
+        ],
+        "tip": "Combine: location + size + atmosphere + unique feature. Use comparatives and superlatives to make descriptions more vivid."
+      }
+    },
+    {
+      "task_id": "t0805_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Describing Places — Structure",
+      "content": {
+        "explanation": "Use this structure to give a well-organised description of any place:\n\n1. WHAT + WHERE:\n• [Place] is a [adjective] [type of place] located in [location].\n\n2. WHAT IT LOOKS LIKE:\n• The [feature] is/are [adjective]. The streets/buildings/landscape...\n\n3. ATMOSPHERE / FEELING:\n• It has a [adjective] atmosphere. It feels... / The place is known for...\n\n4. COMPARISON (optional):\n• It is much more [adjective] than [other place].\n• It is the most [adjective] place I have ever visited.\n\n5. PERSONAL RECOMMENDATION:\n• I would definitely recommend visiting because...\n• It is worth visiting if you enjoy...\n\n📌 USEFUL DESCRIBING PHRASES:\n• The streets are lined with...\n• The area is dotted with...\n• The skyline is dominated by...\n• It is surrounded by...\n• The place is famous for...\n• What makes it special is...",
+        "examples": [
+          "Mysore is a beautiful royal city situated in Karnataka. The streets are lined with impressive palaces and old buildings. It has a regal, calm atmosphere.",
+          "Varanasi is one of the oldest and most spiritually significant cities in the world. It is situated on the banks of the Ganga and it has a deeply spiritual atmosphere unlike anywhere else."
+        ],
+        "tip": "Structure your description: WHAT/WHERE → LOOKS LIKE → ATMOSPHERE → COMPARISON → RECOMMENDATION"
+      }
+    },
+    {
+      "task_id": "t0805_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Place Description Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "bustling", "meaning": "full of activity and energy; busy", "example": "The bazaar is a bustling, noisy market full of colours." },
+          { "word": "serene", "meaning": "calm, peaceful, and undisturbed", "example": "The temple lake was perfectly serene in the early morning." },
+          { "word": "vibrant", "meaning": "full of life, energy, and colour", "example": "The city has a vibrant arts and music scene." },
+          { "word": "picturesque", "meaning": "visually attractive, like a picture", "example": "The old fishing village was utterly picturesque." },
+          { "word": "sprawling", "meaning": "spread out over a large area", "example": "Mumbai is a sprawling megacity covering many islands." },
+          { "word": "atmospheric", "meaning": "having a distinctive, interesting, or emotional quality", "example": "Hampi is one of the most atmospheric places in India." },
+          { "word": "cosmopolitan", "meaning": "influenced by many cultures; international", "example": "Bangalore is a cosmopolitan city with people from all over India." },
+          { "word": "ancient", "meaning": "very old; from a long time ago", "example": "Madurai is an ancient city with over 2,500 years of history." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0805_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Place Descriptions",
+      "content": {
+        "instruction": "Listen and repeat these natural, vivid place descriptions.",
+        "items": [
+          { "audio_key": "a2_u8_l5_lr1", "text": "Ooty is a small, picturesque hill station in the Nilgiri mountains." },
+          { "audio_key": "a2_u8_l5_lr2", "text": "Mumbai is a vast, bustling city on the west coast of India." },
+          { "audio_key": "a2_u8_l5_lr3", "text": "The old quarter is far more charming than the modern area." },
+          { "audio_key": "a2_u8_l5_lr4", "text": "It is the most atmospheric place I've ever visited." },
+          { "audio_key": "a2_u8_l5_lr5", "text": "The streets are lined with old colonial buildings and mango trees." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0805_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence gives the MOST vivid description of a place?",
+      "options": [
+        "Goa is a place. There are beaches there.",
+        "Goa is nice and has good beaches.",
+        "Goa is a beautiful, laid-back coastal state in western India, famous for its stunning beaches, vibrant nightlife, and Portuguese colonial architecture.",
+        "Goa is very nice and people go there for the beach."
+      ],
+      "correct_answer": "Goa is a beautiful, laid-back coastal state in western India, famous for its stunning beaches, vibrant nightlife, and Portuguese colonial architecture.",
+      "explanation": "This answer uses multiple adjectives, specific location language, and details about what the place is known for — creating a vivid, informative picture."
+    },
+    {
+      "task_id": "t0805_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Which phrase correctly describes the location of a place?",
+      "options": [
+        "Mysore is on Karnataka.",
+        "Mysore is situated in Karnataka, in southern India.",
+        "Mysore is locate south India Karnataka.",
+        "Mysore is a Karnataka place south."
+      ],
+      "correct_answer": "Mysore is situated in Karnataka, in southern India.",
+      "explanation": "'Situated in' is the correct phrase for location. 'Situated on' is used for rivers or coasts. 'Located in' also works."
+    },
+    {
+      "task_id": "t0805_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which comparison describes Varanasi most effectively?",
+      "options": [
+        "Varanasi is spiritual.",
+        "Varanasi is more spiritual than other cities.",
+        "Varanasi is one of the most spiritually significant and atmospheric cities in India — unlike any other place I've experienced.",
+        "Varanasi is very spiritual and nice."
+      ],
+      "correct_answer": "Varanasi is one of the most spiritually significant and atmospheric cities in India — unlike any other place I've experienced.",
+      "explanation": "This combines a superlative, a strong adjective, and a personal comparison statement — the most complete and expressive answer."
+    },
+    {
+      "task_id": "t0805_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which phrase CORRECTLY describes the atmosphere of a place?",
+      "options": [
+        "The place has atmospheric very much.",
+        "It has a lively, colourful atmosphere with music and festivals throughout the year.",
+        "The atmosphere of the place is very much lively.",
+        "There is a atmosphere lively in the city."
+      ],
+      "correct_answer": "It has a lively, colourful atmosphere with music and festivals throughout the year.",
+      "explanation": "This uses correct adjective order (lively, colourful), the correct structure 'It has a [adj] atmosphere', and adds specific details."
+    },
+    {
+      "task_id": "t0805_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete the place description using the words in brackets.",
+      "items": [
+        {
+          "sentence": "Kodaikanal _____ (situated) in the Palani hills of Tamil Nadu and is one of the most _____ (popular) hill stations in South India.",
+          "answer": "is situated / popular",
+          "hint": "Use present tense 'is situated' and the superlative of 'popular'."
+        },
+        {
+          "sentence": "The old market in Mysore is _____ (lined) with stalls selling sandalwood products, silk sarees, and incense.",
+          "answer": "lined",
+          "hint": "Use 'lined with' as a fixed phrase."
+        },
+        {
+          "sentence": "Pondicherry is far _____ (peaceful) than Chennai and has a very different, almost European atmosphere.",
+          "answer": "more peaceful",
+          "hint": "Use comparative with 'far' as an intensifier."
+        }
+      ]
+    },
+    {
+      "task_id": "t0805_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete these place descriptions with suitable words.",
+      "items": [
+        {
+          "sentence": "Rajasthan is _____ for its magnificent forts, colourful festivals, and vast desert landscapes.",
+          "answer": "famous / known",
+          "hint": "Use a common phrase: 'famous / known for'."
+        },
+        {
+          "sentence": "The city _____ surrounded by lush green tea plantations that stretch as far as the eye can see.",
+          "answer": "is",
+          "hint": "Simple present passive: 'is surrounded by'."
+        },
+        {
+          "sentence": "What makes Madurai special _____ its incredible Meenakshi Temple — one of the largest and most elaborate temple complexes in India.",
+          "answer": "is",
+          "hint": "What makes [X] special IS [the feature]."
+        }
+      ]
+    },
+    {
+      "task_id": "t0805_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a natural place description sentence.",
+      "items": [
+        {
+          "words": ["Hampi", "is", "a", "vast", "ancient", "atmospheric", "UNESCO", "Heritage", "Site", "in", "Karnataka"],
+          "answer": "Hampi is a vast, ancient, atmospheric UNESCO Heritage Site in Karnataka."
+        },
+        {
+          "words": ["The", "streets", "are", "lined", "with", "old", "tamarind", "trees", "and", "colonial", "buildings"],
+          "answer": "The streets are lined with old tamarind trees and colonial buildings."
+        }
+      ]
+    },
+    {
+      "task_id": "t0805_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a natural place description sentence.",
+      "items": [
+        {
+          "words": ["It", "is", "the", "most", "peaceful", "place", "I've", "ever", "visited", "in", "my", "life"],
+          "answer": "It is the most peaceful place I've ever visited in my life."
+        },
+        {
+          "words": ["The", "city", "has", "a", "unique", "cosmopolitan", "atmosphere", "unlike", "anywhere", "else", "in", "India"],
+          "answer": "The city has a unique cosmopolitan atmosphere unlike anywhere else in India."
+        }
+      ]
+    },
+    {
+      "task_id": "t0805_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the city with the best description phrase.",
+      "pairs": [
+        { "left": "Varanasi", "right": "an ancient, deeply spiritual city on the banks of the Ganga" },
+        { "left": "Bangalore", "right": "a cosmopolitan, fast-growing tech hub surrounded by pleasant weather" },
+        { "left": "Jaipur", "right": "a vibrant, colourful city known as the Pink City of Rajasthan" },
+        { "left": "Kerala backwaters", "right": "a serene network of canals and lagoons surrounded by coconut palms" },
+        { "left": "Darjeeling", "right": "a picturesque hill station overlooking the Himalayas and famous for tea" }
+      ]
+    },
+    {
+      "task_id": "t0805_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Recommending a Travel Destination — Kolkata",
+      "dialogue": {
+        "context": "Rohit and Deepa are colleagues in Mumbai. Rohit has just returned from a trip to Kolkata and is recommending it to Deepa.",
+        "turns": [
+          { "speaker": "Deepa", "text": "Rohit, you look refreshed! You went to Kolkata, right? How was it?" },
+          { "speaker": "Rohit", "text": "Deepa, it was absolutely incredible. It's the most culturally rich city I've ever visited in India." },
+          { "speaker": "Deepa", "text": "Really? I always thought Kolkata was just crowded and old." },
+          { "speaker": "Rohit", "text": "That's a common misconception. Yes, it's a large, sprawling city — but it has a unique, intellectual atmosphere unlike anywhere else in India." },
+          { "speaker": "Deepa", "text": "What does it look like? I've never been there." },
+          { "speaker": "Rohit", "text": "The older parts of the city are lined with beautiful, decaying colonial buildings — it's like walking through history. There's the Howrah Bridge, the Victoria Memorial..." },
+          { "speaker": "Deepa", "text": "Oh, I've seen photos of those. Is the food good?" },
+          { "speaker": "Rohit", "text": "The food is far better than anywhere I've eaten in Western India. The fish curry, the mishti doi, the kathi rolls — the most delicious street food I've ever tasted." },
+          { "speaker": "Deepa", "text": "That sounds amazing. What's the atmosphere like?" },
+          { "speaker": "Rohit", "text": "It's vibrant and artistic. The city is full of bookshops, art galleries, old coffee houses, and street musicians. It has a wonderfully bohemian feel." },
+          { "speaker": "Deepa", "text": "Is it easy to get around?" },
+          { "speaker": "Rohit", "text": "Yes — the tram system is charming, and the metro is efficient. It's much cheaper to travel there than in Mumbai." },
+          { "speaker": "Deepa", "text": "What's the best time to visit?" },
+          { "speaker": "Rohit", "text": "During Durga Puja — it's the most spectacular festival I've ever seen. The entire city transforms overnight." },
+          { "speaker": "Deepa", "text": "You've convinced me! I'm adding Kolkata to my travel list." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How does Rohit describe Kolkata's older areas?",
+            "options": ["Modern and clean", "Lined with beautiful, decaying colonial buildings", "Small and quiet", "Similar to Mumbai"],
+            "correct_answer": "Lined with beautiful, decaying colonial buildings"
+          },
+          {
+            "question": "What does Rohit say about Kolkata's street food?",
+            "options": ["It's mediocre", "It's overrated", "It's the most delicious street food he's ever tasted", "It's too spicy"],
+            "correct_answer": "It's the most delicious street food he's ever tasted"
+          },
+          {
+            "question": "When does Rohit recommend visiting Kolkata?",
+            "options": ["In summer", "During Diwali", "During Durga Puja", "In January"],
+            "correct_answer": "During Durga Puja"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0805_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each place description sentence.",
+      "items": [
+        {
+          "sentence": "Mysore is situate in Karnataka in the south of India.",
+          "error": "is situate",
+          "correction": "is situated",
+          "explanation": "The correct passive form is 'is situated' — not 'is situate'."
+        },
+        {
+          "sentence": "The streets are line with old trees and colonial buildings.",
+          "error": "are line",
+          "correction": "are lined",
+          "explanation": "The correct passive form is 'are lined with' — 'lined' needs -d at the end."
+        },
+        {
+          "sentence": "It is the most beautiful place I've ever visit.",
+          "error": "ever visit",
+          "correction": "ever visited",
+          "explanation": "After 'have/has ever', use the PAST PARTICIPLE: visited."
+        }
+      ]
+    },
+    {
+      "task_id": "t0805_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "A foreign colleague asks you to recommend one Indian city for a one-week holiday. They enjoy history, culture, and local food. Which response gives the best description and recommendation?",
+      "question": "Which is the most helpful and well-described response?",
+      "options": [
+        "Go to Delhi. It's good.",
+        "You should visit Rajasthan.",
+        "I would strongly recommend Jaipur — it's a vibrant, historic city in Rajasthan, famous for its beautiful pink-painted buildings, magnificent Amber Fort, and the most colourful bazaars I've ever seen. The food is rich and flavourful, and the city is full of art, culture, and history.",
+        "India has many cities. Mumbai or Goa are fine."
+      ],
+      "correct_answer": "I would strongly recommend Jaipur — it's a vibrant, historic city in Rajasthan, famous for its beautiful pink-painted buildings, magnificent Amber Fort, and the most colourful bazaars I've ever seen. The food is rich and flavourful, and the city is full of art, culture, and history.",
+      "explanation": "This response uses vivid adjectives, superlative + ever, specific landmarks, and personalised recommendation — exactly how to describe a place well."
+    },
+    {
+      "task_id": "t0805_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Describe your hometown or the city where you live. Use adjectives, comparatives, superlatives, and adverbs to make your description vivid. Talk for at least 70 seconds.",
+      "prompt": "Describe your hometown or current city in detail.",
+      "example_response": "I come from Chennai, which is a vast, bustling coastal city in Tamil Nadu, in the south of India. It is situated on the Bay of Bengal and is one of the largest cities in India. Chennai is famous for its beautiful beaches, rich cultural heritage, and its incredibly vibrant music and dance tradition — especially Carnatic classical music. The city has a very warm and humid climate throughout the year, which can feel quite intense in April and May. However, from November to February, the weather is pleasantly cooler. The food in Chennai is absolutely outstanding — the dosas, idlis, filter coffee, and chettinad curries are some of the most delicious things you will ever eat. The city is far less chaotic than Mumbai or Delhi, but it is much more traditional than Bangalore. The Marina Beach in Chennai is the longest urban beach in India and one of the most beautiful I've ever seen. I love my city for its warmth — both the weather and the people!",
+      "key_phrases": ["is situated", "is famous for", "is one of the most", "far more / less ... than", "the most ... I've ever"],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0805_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Describe a place you have visited that made a strong impression on you — positively or negatively. Use all the description language you have learned. Speak for at least 70 seconds.",
+      "prompt": "Describe a memorable place you have visited.",
+      "example_response": "One of the most memorable places I have ever visited is Hampi in Karnataka. It is an ancient, atmospheric UNESCO World Heritage Site situated in northern Karnataka among a dramatic landscape of enormous granite boulders. The place feels like stepping back in time — the ruins of the Vijayanagara Empire stretch for kilometres in every direction. The Virupaksha Temple is the most impressive structure I have ever seen — it towers above the surrounding landscape and has been in use for over a thousand years. The atmosphere is deeply atmospheric and slightly mysterious. What makes Hampi uniquely special is the contrast between the ancient stone ruins and the modern backpacker cafés along the river. The landscape is far more dramatic than any other place I've visited in South India — the orange boulders piled impossibly high against a bright blue sky create the most surreal scenery. I would strongly recommend visiting during winter, between November and February, when the weather is pleasantly cool and perfect for exploring.",
+      "key_phrases": ["one of the most... I've ever", "is situated", "what makes it special is", "is far more... than", "I would strongly recommend"],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0805_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this travel blog post about Pondicherry using appropriate description language.",
+      "paragraph": "Pondicherry is one of the (1)_____ (unique) places in all of India. It is (2)_____ on the southeastern coast of Tamil Nadu and was a French colonial territory for over 300 years. The French Quarter, or 'White Town', is (3)_____ with beautiful pastel-coloured colonial buildings, bougainvillea-covered walls, and quietly cobbled streets. The atmosphere is (4)_____ more relaxed than in Chennai, which is just two hours away. The streets are (5)_____ with cafés, boutiques, and art galleries. The food is outstanding — the French-influenced cuisine is (6)_____ the most interesting food I've ever tasted in India. The beaches are (7)_____ less crowded than Goa's and have a (8)_____ serene and peaceful atmosphere. What (9)_____ Pondicherry special is the unique blend of Indian and French culture. It is (10)_____ the most charming small city I've ever explored in South India.",
+      "answers": [
+        "most unique",
+        "situated / located",
+        "lined",
+        "far / much",
+        "filled / lined / dotted",
+        "the best / absolutely",
+        "far / much",
+        "beautifully",
+        "makes",
+        "definitely / certainly / arguably"
+      ],
+      "hint": "Use superlatives, comparison phrases, and passive forms where appropriate."
+    },
+    {
+      "task_id": "t0805_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 5 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Structure for place descriptions: WHAT/WHERE → LOOKS → ATMOSPHERE → COMPARISON → RECOMMENDATION",
+          "Location phrases: situated in / located on / surrounded by / overlooking",
+          "Atmosphere phrases: it has a [adj] atmosphere / the streets are lined with / dotted with",
+          "Comparisons: far more... than / the most... I've ever visited",
+          "What makes it special is... / It is known / famous for...",
+          "Key vocab: bustling, serene, vibrant, picturesque, sprawling, atmospheric, cosmopolitan, ancient"
+        ],
+        "grammar_summary": "Combine adjective order + comparatives + superlatives + passive phrases to create rich place descriptions. Use: 'is situated in', 'lined with', 'is famous for', 'the most... I've ever'.",
+        "encouragement": "Excellent! Describing places well is a key skill for travel conversations, writing, and presentations. You are becoming much more expressive in English. Keep going! ✈️"
+      }
+    }
+  ]
+}

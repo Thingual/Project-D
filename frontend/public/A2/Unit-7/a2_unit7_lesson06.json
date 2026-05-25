@@ -1,0 +1,356 @@
+{
+  "lesson_id": "a2_unit7_lesson06",
+  "unit": 7,
+  "lesson_number": 6,
+  "level": "A2",
+  "title": "Safety and Warning Signs",
+  "description": "Learn to understand and use language about safety instructions, warning signs, and emergency situations using must, mustn't, should, and imperatives.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0706_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Safety Language — Must, Should & Imperatives",
+      "content": {
+        "explanation": "We use specific language when talking about safety. The stronger and more urgent, the stronger the language:\n\n🔴 IMPERATIVE (orders/instructions — strongest, urgent):\n• Stop! / Don't touch! / Call an ambulance! / Get out!\n• Use in emergencies or very direct safety instructions.\n\n🔴 MUST / MUSTN'T (strong rules):\n• You must wear a hard hat on the construction site.\n• You mustn't enter without safety equipment.\n\n🟡 SHOULD / SHOULDN'T (recommendations for safety):\n• You should always read the safety instructions first.\n• You shouldn't leave children near open water.\n\n🟢 CAN'T (prohibition — based on inability or strict rules):\n• You can't smoke in petrol stations.\n• Children under 12 can't enter without an adult.\n\n📋 WARNING SIGN LANGUAGE:\n• Danger! / Warning! / Caution! / Notice\n• Hazard / Risk / Emergency exit / First aid\n• Keep out / Do not enter / No smoking / No entry",
+        "examples": [
+          "Warning: You must not enter this area without protective equipment.",
+          "Caution: The floor is wet — you should walk slowly.",
+          "Danger! Do not touch the electrical panel.",
+          "In case of fire, you must use the stairs — do not use the lift."
+        ],
+        "tip": "Imperatives are used in emergencies and on signs. MUST is used for strong safety rules. SHOULD is for general safety advice."
+      }
+    },
+    {
+      "task_id": "t0706_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Emergency & Safety Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "hazard", "meaning": "something that can cause danger or harm", "example": "Wet floors are a slipping hazard." },
+          { "word": "evacuation", "meaning": "moving people away from a dangerous place", "example": "In case of fire, follow the evacuation procedure." },
+          { "word": "assembly point", "meaning": "a safe place where people meet during an emergency", "example": "Please go to the assembly point outside the main gate." },
+          { "word": "first aid", "meaning": "basic medical treatment given quickly in an emergency", "example": "Do you know where the first aid kit is?" },
+          { "word": "extinguisher", "meaning": "a device for putting out fires", "example": "There is a fire extinguisher near every exit." },
+          { "word": "emergency exit", "meaning": "a way out of a building used only in emergencies", "example": "Emergency exits must never be blocked." },
+          { "word": "caution", "meaning": "care taken to avoid danger", "example": "Caution: This surface is very hot." },
+          { "word": "prohibited", "meaning": "officially not allowed; forbidden", "example": "Smoking is prohibited in all public areas." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0706_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Reading Warning Signs",
+      "content": {
+        "explanation": "Warning signs in English use specific words. Learn these common patterns:\n\n🔴 DANGER / WARNING signs:\n• 'Danger: High Voltage' → You mustn't touch the wires.\n• 'Warning: Deep Water' → You should be careful near this area.\n• 'No Entry' → You mustn't enter / You can't enter.\n• 'Keep Out' → You must stay away / You aren't allowed to enter.\n\n🟡 CAUTION signs:\n• 'Caution: Wet Floor' → You should walk carefully.\n• 'Caution: Low Ceiling' → You should watch your head.\n\n🟢 INFORMATION signs:\n• 'Emergency Exit →' → Use this exit in emergencies.\n• 'First Aid ↗' → First aid is in that direction.\n• 'Fire Extinguisher' → Use this if there is a fire.\n\n📌 How to interpret signs:\n1. Read the keyword (Danger / Warning / Caution / Notice)\n2. Identify what is prohibited or required\n3. Use the correct modal to explain it",
+        "examples": [
+          "'No Smoking' → You mustn't smoke here.",
+          "'Wear Safety Goggles' → You must wear safety goggles.",
+          "'Emergency exit — do not block' → You mustn't block this exit.",
+          "'Caution: Machinery in operation' → You should be careful near the machinery."
+        ],
+        "tip": "Practice translating signs into full sentences — this is a useful real-world skill!"
+      }
+    },
+    {
+      "task_id": "t0706_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Safety Instructions",
+      "content": {
+        "instruction": "Listen and repeat these safety phrases clearly. Notice the firm, clear tone used for safety instructions.",
+        "items": [
+          { "audio_key": "a2_u7_l6_lr1", "text": "You must wear a safety helmet at all times." },
+          { "audio_key": "a2_u7_l6_lr2", "text": "In case of fire, do not use the lift." },
+          { "audio_key": "a2_u7_l6_lr3", "text": "You mustn't block the emergency exit." },
+          { "audio_key": "a2_u7_l6_lr4", "text": "Please proceed to the nearest assembly point." },
+          { "audio_key": "a2_u7_l6_lr5", "text": "Caution: The floor is wet — walk slowly." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0706_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "A factory has a sign: 'Hard hats must be worn in this area.' What does this mean?",
+      "options": [
+        "Workers should wear hard hats if possible.",
+        "Workers don't have to wear hard hats.",
+        "Workers must wear hard hats — it is compulsory.",
+        "Workers can wear hard hats if they want."
+      ],
+      "correct_answer": "Workers must wear hard hats — it is compulsory.",
+      "explanation": "'Must be worn' is passive — it means wearing a hard hat is compulsory in that area."
+    },
+    {
+      "task_id": "t0706_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "You see a sign at a chemical plant: 'Danger: No naked flames.' What does this mean?",
+      "options": [
+        "Flames are sometimes allowed.",
+        "You must use flames carefully.",
+        "You mustn't bring fire or open flames here.",
+        "You should light a candle here."
+      ],
+      "correct_answer": "You mustn't bring fire or open flames here.",
+      "explanation": "'No naked flames' means any source of fire is strictly prohibited — very dangerous in a chemical plant."
+    },
+    {
+      "task_id": "t0706_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "During a fire drill at a school in Chennai, the teacher says: 'Leave your belongings and go directly to the assembly point.' What should students do?",
+      "options": [
+        "Take all their bags before leaving.",
+        "Wait for another instruction.",
+        "Leave their belongings and go to the assembly point.",
+        "Call their parents before moving."
+      ],
+      "correct_answer": "Leave their belongings and go to the assembly point.",
+      "explanation": "In emergencies, the imperative instruction must be followed immediately. Belongings are not important — safety is."
+    },
+    {
+      "task_id": "t0706_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which sentence best explains the sign 'CAUTION: Slippery Surface'?",
+      "options": [
+        "You mustn't walk here.",
+        "You should walk carefully because the surface is slippery.",
+        "You must run quickly.",
+        "You can't enter this area."
+      ],
+      "correct_answer": "You should walk carefully because the surface is slippery.",
+      "explanation": "'Caution' suggests care and a recommendation — not a complete prohibition. SHOULD is the best modal here."
+    },
+    {
+      "task_id": "t0706_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Translate these warning signs into full sentences using must, mustn't, or should.",
+      "items": [
+        {
+          "sentence": "Sign: 'No Entry'. → You _____ enter this area.",
+          "answer": "mustn't",
+          "hint": "No Entry = prohibited."
+        },
+        {
+          "sentence": "Sign: 'Wear gloves when handling chemicals'. → You _____ wear gloves when handling chemicals.",
+          "answer": "must",
+          "hint": "This is a safety requirement — compulsory."
+        },
+        {
+          "sentence": "Sign: 'Caution: Low bridge'. → You _____ check the height of your vehicle before entering.",
+          "answer": "should",
+          "hint": "Caution signs are recommendations for care."
+        }
+      ]
+    },
+    {
+      "task_id": "t0706_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete the safety instructions with an appropriate modal or imperative.",
+      "items": [
+        {
+          "sentence": "In case of a fire, _____ use the stairs. Never use the lift.",
+          "answer": "use",
+          "hint": "This is an imperative instruction — direct command."
+        },
+        {
+          "sentence": "Workers _____ eat or drink near the machinery — it is a health and safety regulation.",
+          "answer": "mustn't",
+          "hint": "This is a strict prohibition."
+        },
+        {
+          "sentence": "You _____ check the expiry date on the fire extinguisher every six months.",
+          "answer": "should",
+          "hint": "This is a safety recommendation — good practice."
+        }
+      ]
+    },
+    {
+      "task_id": "t0706_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make correct safety sentences.",
+      "items": [
+        {
+          "words": ["You", "must", "wear", "a", "life", "jacket", "on", "the", "boat"],
+          "answer": "You must wear a life jacket on the boat."
+        },
+        {
+          "words": ["Do", "not", "block", "the", "emergency", "exit", "at", "any", "time"],
+          "answer": "Do not block the emergency exit at any time."
+        }
+      ]
+    },
+    {
+      "task_id": "t0706_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make correct safety sentences.",
+      "items": [
+        {
+          "words": ["Children", "mustn't", "play", "near", "the", "swimming", "pool", "alone"],
+          "answer": "Children mustn't play near the swimming pool alone."
+        },
+        {
+          "words": ["You", "should", "always", "read", "the", "safety", "instructions", "first"],
+          "answer": "You should always read the safety instructions first."
+        }
+      ]
+    },
+    {
+      "task_id": "t0706_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the safety sign with the correct explanation.",
+      "pairs": [
+        { "left": "High Voltage — Keep Out", "right": "You mustn't enter — there is serious danger of electric shock." },
+        { "left": "Wear eye protection", "right": "You must wear safety goggles in this area." },
+        { "left": "Caution: Hot surface", "right": "You should be careful not to touch it — it is very hot." },
+        { "left": "Emergency exit →", "right": "Use this exit only in an emergency." },
+        { "left": "No Smoking", "right": "You mustn't smoke here — it is strictly prohibited." }
+      ]
+    },
+    {
+      "task_id": "t0706_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Safety Induction at a Construction Site — Mumbai",
+      "dialogue": {
+        "context": "A new worker, Suresh, is getting his safety induction from the site safety officer, Pradeep, at a construction site in Mumbai.",
+        "turns": [
+          { "speaker": "Pradeep", "text": "Good morning, Suresh. Before you start work, you need to complete your safety induction. This is compulsory for all new workers." },
+          { "speaker": "Suresh", "text": "Of course. I want to make sure I stay safe." },
+          { "speaker": "Pradeep", "text": "Good attitude! First — you must always wear your hard hat and safety vest in this area. No exceptions." },
+          { "speaker": "Suresh", "text": "Understood. What about footwear?" },
+          { "speaker": "Pradeep", "text": "You must wear steel-toe boots at all times. You can't work in trainers or sandals — it's far too dangerous." },
+          { "speaker": "Suresh", "text": "I brought my boots today. What else should I know?" },
+          { "speaker": "Pradeep", "text": "You mustn't enter the crane operation area without permission. There are yellow lines on the ground — you must stay outside them." },
+          { "speaker": "Suresh", "text": "I see the yellow markings. What should I do if I see an accident or someone gets hurt?" },
+          { "speaker": "Pradeep", "text": "Immediately call the emergency number — it's posted on every pillar. You should also shout for help if someone is near. Don't try to move an injured person unless they are in immediate danger." },
+          { "speaker": "Suresh", "text": "What about the fire safety?" },
+          { "speaker": "Pradeep", "text": "Good question. You mustn't smoke anywhere on site — there is fuel and chemicals here. If there's a fire alarm, you must go immediately to the assembly point near the main gate." },
+          { "speaker": "Suresh", "text": "Should I take anything with me?" },
+          { "speaker": "Pradeep", "text": "No — leave everything and go straight to the assembly point. Your safety is the only priority. You mustn't stop to collect your tools or belongings." },
+          { "speaker": "Suresh", "text": "I understand completely. Thank you, Pradeep. I feel much more confident now." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What must Suresh wear on the construction site at all times?",
+            "options": ["A uniform and boots", "A hard hat, safety vest, and steel-toe boots", "Just a hard hat", "Regular clothes"],
+            "correct_answer": "A hard hat, safety vest, and steel-toe boots"
+          },
+          {
+            "question": "What should Suresh do if someone gets injured?",
+            "options": ["Move them to a safe place immediately", "Call the emergency number and shout for help", "Take them to the hospital himself", "Continue working"],
+            "correct_answer": "Call the emergency number and shout for help"
+          },
+          {
+            "question": "What must Suresh NOT do during a fire alarm?",
+            "options": ["Go to the assembly point", "Leave the building", "Stop to collect his tools or belongings", "Follow the safety officer"],
+            "correct_answer": "Stop to collect his tools or belongings"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0706_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each safety instruction.",
+      "items": [
+        {
+          "sentence": "You must to wear a helmet on the construction site.",
+          "error": "must to wear",
+          "correction": "must wear",
+          "explanation": "MUST is followed directly by the base verb — no 'to'."
+        },
+        {
+          "sentence": "In case of fire, you mustn't to use the stairs.",
+          "error": "mustn't to use",
+          "correction": "mustn't use OR must use",
+          "explanation": "MUSTN'T is followed by the base verb. Also — in a fire, you MUST use the stairs (not the lift)! The meaning here is reversed."
+        },
+        {
+          "sentence": "Workers should wore protective goggles near the laser.",
+          "error": "should wore",
+          "correction": "should wear",
+          "explanation": "SHOULD is followed by the base verb (wear), not the past tense (wore)."
+        }
+      ]
+    },
+    {
+      "task_id": "t0706_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are visiting a chemical storage facility in Chennai for a work inspection. At the entrance, you see a box of safety goggles with a sign: 'Eye protection must be worn beyond this point.' Your visitor pass allows entry but your colleague says 'I don't want to wear them — they're uncomfortable.'",
+      "question": "What do you tell your colleague?",
+      "options": [
+        "That's fine — it's just a suggestion.",
+        "You don't have to wear them if you find them uncomfortable.",
+        "You must wear them — it is compulsory and it's for your safety.",
+        "Only wear them if the chemicals are nearby."
+      ],
+      "correct_answer": "You must wear them — it is compulsory and it's for your safety.",
+      "explanation": "When a sign says 'must be worn', there are no exceptions — it is a strict safety rule. Comfort is not a valid reason to ignore it."
+    },
+    {
+      "task_id": "t0706_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Describe the safety rules in a place you know — your home, school, office, or a public place like a metro station or hospital. Use must, mustn't, should, and can't. Speak for at least 60 seconds.",
+      "prompt": "Describe safety rules in a familiar place.",
+      "example_response": "In the Chennai Metro, there are several important safety rules. First, passengers must stand behind the yellow line on the platform and wait for the train to stop completely before boarding. You mustn't push other passengers or block the doors — you should wait for everyone to get off before you get on. Eating and drinking are not allowed on the metro — you can't eat inside the trains or on the platform. You should hold on to the handrail when the train is moving, especially during rush hour. In case of emergency, passengers must press the emergency button near the door and wait for instructions. You mustn't block the emergency exits or put your bags on the seats when it is crowded. Children must be accompanied by adults at all times. These rules keep everyone safe and make the journey pleasant for all passengers.",
+      "key_phrases": ["must", "mustn't", "you can't", "you should", "in case of emergency", "it is compulsory to"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0706_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "You are a safety officer giving a short briefing to new visitors at a hospital in Bangalore. Tell them the important safety rules using must, mustn't, should, and can.",
+      "prompt": "Give a safety briefing for visitors to a hospital.",
+      "example_response": "Good morning, and welcome to City Care Hospital, Bangalore. Before you visit your patient, I need to explain some important safety rules. First, you must wear the visitor pass at all times inside the hospital. You can collect one from the reception. You should wash your hands or use the hand sanitiser before entering any ward — this is very important for infection control. You mustn't visit if you are feeling unwell — we ask you to stay at home if you have a cold or fever. Mobile phones must be kept on silent — you can use them in the waiting area, but mustn't disturb patients. You mustn't smoke anywhere inside or within 50 metres of the hospital building. If you see an emergency, please contact a nurse or doctor immediately — don't try to help on your own unless you are trained. Emergency exits are at the end of each corridor. Please follow all directions from hospital staff. Thank you for cooperating.",
+      "key_phrases": ["you must", "you mustn't", "you should", "you can", "please", "it is important to"],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0706_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this safety notice with the correct words: must, mustn't, should, can, can't, or do not.",
+      "paragraph": "SAFETY NOTICE — VIKRAM CHEMICALS LIMITED, PUNE\n\nAll visitors (1)_____ sign in at the reception and collect a visitor badge. You (2)_____ enter the production area without a badge under any circumstances. Visitors (3)_____ wear the provided safety equipment — hard hat, gloves, and goggles — in all restricted areas. You (4)_____ eat, drink, or smoke anywhere on the premises. In case of a fire alarm, everyone (5)_____ proceed immediately to the assembly point near Gate 2. You (6)_____ use the lifts during an evacuation — always use the stairs. If you see a hazard, you (7)_____ report it to the nearest safety officer immediately. You (8)_____ take photographs inside the facility without prior written permission from management.",
+      "answers": ["must", "can't / mustn't", "must", "mustn't / can't", "must", "mustn't / can't", "should", "mustn't / can't"],
+      "hint": "Think about the strength of each rule — is it obligatory, prohibited, or recommended?"
+    },
+    {
+      "task_id": "t0706_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 6 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "IMPERATIVES (Stop! / Do not enter!) = urgent direct safety commands",
+          "MUST = strong safety obligation (You must wear protective equipment.)",
+          "MUSTN'T = strict prohibition in safety contexts (You mustn't block the exit.)",
+          "SHOULD = safety recommendation (You should read instructions first.)",
+          "CAN'T = prohibition based on rules (Children can't enter without an adult.)",
+          "Warning sign keywords: Danger / Warning / Caution / Notice / Hazard",
+          "Key vocab: hazard, evacuation, assembly point, first aid, extinguisher, emergency exit, caution, prohibited"
+        ],
+        "grammar_summary": "Safety language uses a range of modals. MUST and MUSTN'T are for strict rules. SHOULD is for recommendations. IMPERATIVES are used in urgent situations.",
+        "encouragement": "Excellent work! Understanding safety language is a critical real-world skill. You can now explain rules, interpret signs, and give safety instructions in English. Stay safe and keep going! 🦺"
+      }
+    }
+  ]
+}

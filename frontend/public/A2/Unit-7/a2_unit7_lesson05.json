@@ -1,0 +1,358 @@
+{
+  "lesson_id": "a2_unit7_lesson05",
+  "unit": 7,
+  "lesson_number": 5,
+  "level": "A2",
+  "title": "Rules at Work and School",
+  "description": "Learn to talk about rules, policies, and expectations in professional and educational environments using must, have to, should, and can/can't.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0705_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Talking About Rules — Review & Combination",
+      "content": {
+        "explanation": "In work and school settings, we combine many modal verbs to talk about different types of rules:\n\n💼 STRONG OBLIGATION — MUST / HAVE TO:\n• You must wear your ID at all times.\n• Employees have to clock in by 9 am.\n\n🚫 PROHIBITION — MUSTN'T / CAN'T:\n• You mustn't share confidential information.\n• Students can't use calculators in this exam.\n\n✅ RECOMMENDATION — SHOULD / OUGHT TO:\n• You should inform your manager if you're going to be late.\n• Students ought to review their notes after each class.\n\n⭕ NOT NECESSARY — DON'T HAVE TO / DON'T NEED TO:\n• You don't have to attend the optional workshop.\n• Staff don't need to bring their own stationery.\n\n🔓 PERMISSION — CAN:\n• You can take your lunch break anytime between 12 and 2.\n• Students can use the library until 8 pm.",
+        "examples": [
+          "All employees must submit their timesheets every Friday.",
+          "You can't take photos inside the factory.",
+          "You should let your team leader know about any delays.",
+          "Part-time staff don't have to attend the annual dinner."
+        ],
+        "tip": "Different modal verbs show different strengths of rules — from strong obligation (MUST) to recommendation (SHOULD) to permission (CAN)."
+      }
+    },
+    {
+      "task_id": "t0705_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Workplace & School Rule Language",
+      "content": {
+        "explanation": "In formal environments (work, school), rules are often stated in specific ways:\n\n📋 POLICY LANGUAGE:\n• It is against company policy to...\n• According to the rules, all students must...\n• The policy states that...\n• It is strictly forbidden to...\n• Permission must be obtained before...\n\n📋 INFORMAL RULE LANGUAGE:\n• We're not supposed to...\n• You're expected to...\n• It's okay to... (= allowed)\n• It's not okay to... (= not allowed)\n• You're allowed to...\n• You're not allowed to...\n\n'You're not supposed to' = you shouldn't / you mustn't (soft prohibition)\n'You're expected to' = you should / you must (expectation)",
+        "examples": [
+          "We're not supposed to leave early without informing our manager.",
+          "Students are expected to complete all assigned readings.",
+          "It is against company policy to use social media during work hours.",
+          "You're allowed to work from home on Wednesdays."
+        ],
+        "tip": "'You're not supposed to' and 'You're expected to' are very natural in conversation."
+      }
+    },
+    {
+      "task_id": "t0705_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Workplace & School Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "policy", "meaning": "an official set of rules that an organisation follows", "example": "Our company has a strict late-arrival policy." },
+          { "word": "code of conduct", "meaning": "a set of rules about how people should behave", "example": "All students must follow the code of conduct." },
+          { "word": "probation", "meaning": "a trial period at the beginning of a job", "example": "During probation, you have to follow all rules strictly." },
+          { "word": "attendance", "meaning": "the act of being present regularly", "example": "Good attendance is important for your grade." },
+          { "word": "appraisal", "meaning": "a formal review of an employee's performance", "example": "She has her annual appraisal next week." },
+          { "word": "punctuality", "meaning": "the habit of arriving on time", "example": "Punctuality is essential in a professional environment." },
+          { "word": "confidential", "meaning": "meant to be kept secret; private", "example": "Client information is confidential — don't share it." },
+          { "word": "induction", "meaning": "training given to new employees or students", "example": "New staff must attend a two-day induction." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0705_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Workplace Rule Phrases",
+      "content": {
+        "instruction": "Listen and repeat. These phrases are commonly used when explaining rules in professional settings.",
+        "items": [
+          { "audio_key": "a2_u7_l5_lr1", "text": "You're not supposed to leave without signing out." },
+          { "audio_key": "a2_u7_l5_lr2", "text": "It is against company policy to share passwords." },
+          { "audio_key": "a2_u7_l5_lr3", "text": "All students are expected to submit work on time." },
+          { "audio_key": "a2_u7_l5_lr4", "text": "You can take your break between 1 and 2 pm." },
+          { "audio_key": "a2_u7_l5_lr5", "text": "Attendance at morning assembly is compulsory." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0705_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "The school notice says: 'Mobile phones are not permitted during examinations.' What does this mean?",
+      "options": [
+        "Students should try to avoid using phones.",
+        "Students can use phones quietly.",
+        "Students must not use phones during exams.",
+        "Students don't have to have phones."
+      ],
+      "correct_answer": "Students must not use phones during exams.",
+      "explanation": "'Not permitted' = not allowed = mustn't. This is a prohibition."
+    },
+    {
+      "task_id": "t0705_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "The office policy says lunch breaks are 'optional for senior staff'. What does this mean?",
+      "options": [
+        "Senior staff must take a lunch break.",
+        "Senior staff can decide whether to take a break.",
+        "Senior staff mustn't take a lunch break.",
+        "Senior staff are not allowed to eat."
+      ],
+      "correct_answer": "Senior staff can decide whether to take a break.",
+      "explanation": "'Optional' means it is not required — you can choose. Senior staff don't have to take the break, but they can if they want."
+    },
+    {
+      "task_id": "t0705_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which phrase means 'you are prohibited from doing this' in a softer, conversational way?",
+      "options": [
+        "You should...",
+        "You can...",
+        "You're not supposed to...",
+        "You don't have to..."
+      ],
+      "correct_answer": "You're not supposed to...",
+      "explanation": "'You're not supposed to' is a soft but clear prohibition — used often in conversation instead of 'mustn't'."
+    },
+    {
+      "task_id": "t0705_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Arjun has just started a new job. His colleague says 'You're expected to send a weekly progress report'. What does this mean?",
+      "options": [
+        "It is optional — he can send it if he wants.",
+        "It is something he is required to do regularly.",
+        "He must only send it once.",
+        "He shouldn't send any reports."
+      ],
+      "correct_answer": "It is something he is required to do regularly.",
+      "explanation": "'You're expected to' means this is a regular obligation — similar to 'you should' or 'you have to'."
+    },
+    {
+      "task_id": "t0705_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete the rule using must, mustn't, can, or can't.",
+      "items": [
+        {
+          "sentence": "You _____ take photos inside the server room — it is a secure area.",
+          "answer": "can't / mustn't",
+          "hint": "Photos are prohibited in secure areas."
+        },
+        {
+          "sentence": "Employees _____ use the company gym after 6 pm for free.",
+          "answer": "can",
+          "hint": "This is a benefit — it is permitted."
+        },
+        {
+          "sentence": "All new staff _____ complete their compliance training in the first week.",
+          "answer": "must",
+          "hint": "This is a strong obligation."
+        }
+      ]
+    },
+    {
+      "task_id": "t0705_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete each sentence with the correct modal: should, don't have to, or are not supposed to.",
+      "items": [
+        {
+          "sentence": "You _____ use personal email for work purposes — it is against company policy.",
+          "answer": "are not supposed to",
+          "hint": "This is a soft prohibition — it is against the rules."
+        },
+        {
+          "sentence": "Part-time workers _____ attend the full-day training. Only full-time staff need to.",
+          "answer": "don't have to",
+          "hint": "This is not required for part-time workers."
+        },
+        {
+          "sentence": "You _____ keep your workspace clean and organised — it improves focus.",
+          "answer": "should",
+          "hint": "This is a recommendation, not a strict rule."
+        }
+      ]
+    },
+    {
+      "task_id": "t0705_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make correct sentences about workplace or school rules.",
+      "items": [
+        {
+          "words": ["All", "students", "must", "arrive", "before", "8:30", "am"],
+          "answer": "All students must arrive before 8:30 am."
+        },
+        {
+          "words": ["You're", "not", "supposed", "to", "use", "social", "media", "at", "work"],
+          "answer": "You're not supposed to use social media at work."
+        }
+      ]
+    },
+    {
+      "task_id": "t0705_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make correct sentences about workplace or school rules.",
+      "items": [
+        {
+          "words": ["Employees", "are", "expected", "to", "submit", "reports", "every", "Friday"],
+          "answer": "Employees are expected to submit reports every Friday."
+        },
+        {
+          "words": ["It", "is", "against", "policy", "to", "share", "your", "password"],
+          "answer": "It is against policy to share your password."
+        }
+      ]
+    },
+    {
+      "task_id": "t0705_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the rule with the correct modal verb explanation.",
+      "pairs": [
+        { "left": "Must attend the induction session", "right": "It is obligatory — no exceptions." },
+        { "left": "Can use the library till 9 pm", "right": "This is permitted — you are allowed." },
+        { "left": "Shouldn't leave without logging off", "right": "This is a strong recommendation — a security habit." },
+        { "left": "Don't have to wear a tie on Fridays", "right": "This is not required — it is your choice." },
+        { "left": "Can't share client data with anyone", "right": "This is strictly prohibited." }
+      ]
+    },
+    {
+      "task_id": "t0705_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Induction Day at a Tech Company — Bangalore",
+      "dialogue": {
+        "context": "Vikram has just joined a tech company in Bangalore. The HR manager, Deepa, is explaining the company rules and policies.",
+        "turns": [
+          { "speaker": "Deepa", "text": "Good morning, Vikram! Welcome aboard. Today is your induction day. I'll explain our company rules and policies." },
+          { "speaker": "Vikram", "text": "Thank you, Deepa. I'm eager to learn everything." },
+          { "speaker": "Deepa", "text": "Let's start with attendance. You must be at your desk by 9:30 am. If you're going to be late, you have to notify your team lead before 9." },
+          { "speaker": "Vikram", "text": "Understood. What about working from home?" },
+          { "speaker": "Deepa", "text": "You can work from home on Tuesdays and Thursdays after your first month. During probation, you have to come in every day." },
+          { "speaker": "Vikram", "text": "That's fine. Are there any rules about dress code?" },
+          { "speaker": "Deepa", "text": "Business casual is expected Monday to Thursday. On Fridays, you don't have to follow the dress code — it's casual day." },
+          { "speaker": "Vikram", "text": "Great! What about using my personal phone at work?" },
+          { "speaker": "Deepa", "text": "You can use it during breaks. But you're not supposed to use it during meetings or at your desk while working." },
+          { "speaker": "Vikram", "text": "Makes sense. Is there a policy about social media?" },
+          { "speaker": "Deepa", "text": "Yes — you mustn't post anything about company projects or clients on social media. It is strictly against our confidentiality policy." },
+          { "speaker": "Vikram", "text": "Absolutely. I understand. What about the kitchen area?" },
+          { "speaker": "Deepa", "text": "You should keep the kitchen clean after use. You don't have to wash your dishes immediately, but please don't leave them for more than a day." },
+          { "speaker": "Vikram", "text": "Of course. I'm happy to follow all these rules. Thank you for explaining everything so clearly!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "When can Vikram start working from home?",
+            "options": ["Immediately", "After his first month", "Never", "After one year"],
+            "correct_answer": "After his first month"
+          },
+          {
+            "question": "What must Vikram do if he is going to be late?",
+            "options": ["Email the CEO", "Call the reception", "Notify his team lead before 9 am", "Work an extra hour"],
+            "correct_answer": "Notify his team lead before 9 am"
+          },
+          {
+            "question": "Why mustn't Vikram post about company projects on social media?",
+            "options": ["The company doesn't use social media", "It is against the confidentiality policy", "His manager doesn't like social media", "Posting takes too much time"],
+            "correct_answer": "It is against the confidentiality policy"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0705_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each rule sentence.",
+      "items": [
+        {
+          "sentence": "Students are expected attending morning assembly every day.",
+          "error": "expected attending",
+          "correction": "expected to attend",
+          "explanation": "'Expected to' is followed by the base verb with 'to'."
+        },
+        {
+          "sentence": "You're not suppose to use your phone during class.",
+          "error": "not suppose to",
+          "correction": "not supposed to",
+          "explanation": "The correct phrase is 'not supposed to' — 'supposed' needs -d at the end."
+        },
+        {
+          "sentence": "It is against the policy sharing client data.",
+          "error": "against the policy sharing",
+          "correction": "against company policy to share",
+          "explanation": "The correct structure is 'against policy TO + base verb'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0705_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are a team leader in a Bangalore office. A new employee asks if she can leave 30 minutes early because she has a doctor's appointment. Your company policy allows this with prior approval from the manager.",
+      "question": "What do you tell her?",
+      "options": [
+        "You mustn't leave early — it is not allowed.",
+        "You can leave early, but you have to get approval from the manager first.",
+        "You don't have to come back after the doctor.",
+        "You should leave without telling anyone."
+      ],
+      "correct_answer": "You can leave early, but you have to get approval from the manager first.",
+      "explanation": "This correctly combines permission (can) with the condition/obligation (have to get approval) — which reflects real workplace policy language."
+    },
+    {
+      "task_id": "t0705_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Describe the rules at your school, college, or workplace. Use must, mustn't, can, can't, should, and don't have to in your answer. Speak for at least 60 seconds.",
+      "prompt": "Tell me about rules at your school or workplace.",
+      "example_response": "At my college in Chennai, there are many rules we have to follow. First, we must carry our college ID card at all times — if we don't, the security will not let us in. We can't bring outside food into the labs. During exams, we mustn't look at anyone else's paper — if we do, we can be disqualified. We should attend at least 75% of our classes, otherwise we are not allowed to appear for the final exam. We can use the college library until 8 pm, which is really helpful during exam season. We don't have to wear a uniform in my college — that's one rule I'm happy about! We are not supposed to make noise in the library or the study halls. Overall, the rules are quite fair and help create a good environment for learning.",
+      "key_phrases": ["we must", "we can't", "we mustn't", "we should", "we don't have to", "we are not supposed to", "we are allowed to"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0705_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Imagine you are the principal of a school or the manager of a company. Create and explain 6-8 rules for your school or workplace. Use different modal verbs.",
+      "prompt": "Create and explain rules for your school or company.",
+      "example_response": "Good morning everyone. I'm the principal of Sunrise Academy in Bangalore, and I would like to explain our school rules clearly. First, all students must arrive by 8 am. Late arrivals will be asked to meet me personally. Students must wear the school uniform from Monday to Friday — they don't have to wear the uniform on sports day. Students mustn't use mobile phones during class hours — phones must be kept in the locker. Students can use the computer lab from 3 pm to 5 pm. They should show respect to all teachers and staff at all times. Students are not supposed to run in the corridors or shout inside the building. Finally, if any student has a problem, they should speak to their class teacher — they don't have to manage difficulties alone. We are here to help everyone succeed.",
+      "key_phrases": ["all students must", "students are not supposed to", "students can", "they don't have to", "students mustn't", "they should"],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0705_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this workplace policy notice with the correct modals: must, mustn't, can, can't, should, or don't have to.",
+      "paragraph": "WELCOME TO VIJAY TECH SOLUTIONS — EMPLOYEE GUIDELINES\n\nAll employees (1)_____ wear their ID badges at all times inside the office. You (2)_____ leave your badge at home — if you do, you will need to collect a visitor pass. Employees (3)_____ use the company canteen for all meals — it is free of charge. However, you (4)_____ bring outside food into the server room. You (5)_____ report any technical problems to the IT department immediately. You (6)_____ work overtime unless it is agreed with your manager in advance. Employees (7)_____ park in the reserved spots marked 'Management Only'. All staff (8)_____ take at least 15 days of annual leave per year — this is required by company policy.",
+      "answers": ["must", "mustn't", "can", "can't / mustn't", "should", "don't have to", "mustn't / can't", "must"],
+      "hint": "Read each sentence carefully — think about whether it is obligatory, prohibited, permitted, recommended, or not required."
+    },
+    {
+      "task_id": "t0705_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 5 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "MUST / HAVE TO = strong obligation in work/school",
+          "MUSTN'T / CAN'T = prohibition",
+          "SHOULD / OUGHT TO = recommendation or expectation",
+          "DON'T HAVE TO / DON'T NEED TO = not required",
+          "CAN = permission",
+          "You're expected to... = strong expectation",
+          "You're not supposed to... = soft prohibition",
+          "It is against policy to... = formal prohibition",
+          "Key vocab: policy, code of conduct, probation, attendance, punctuality, confidential, induction"
+        ],
+        "grammar_summary": "In professional settings, different modals show different strengths. MUST/HAVE TO are strongest; SHOULD is a recommendation; CAN gives permission; DON'T HAVE TO means optional.",
+        "encouragement": "Amazing work! Understanding workplace and school rules will help you navigate professional life in English confidently. You're doing brilliantly! 🏆"
+      }
+    }
+  ]
+}

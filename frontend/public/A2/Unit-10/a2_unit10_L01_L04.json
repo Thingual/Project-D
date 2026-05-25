@@ -1,0 +1,1312 @@
+{
+  "unit": 10,
+  "level": "A2",
+  "title": "Future, plans & communication",
+  "lesson_range": "1-4",
+  "lessons": [
+
+    {
+      "lesson_id": "a2_unit10_lesson01",
+      "unit": 10,
+      "lesson_number": 1,
+      "level": "A2",
+      "title": "Present continuous for future plans",
+      "description": "Use the present continuous tense to talk about fixed, arranged future plans.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1001_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Present continuous for the future",
+            "body": "We can use the present continuous (am/is/are + -ing) to talk about FIXED future plans — things that are already arranged and confirmed.\n\nExamples:\n• I'm meeting Priya at 6 PM tonight. (already arranged)\n• We're flying to Delhi on Saturday. (tickets booked)\n• She's starting her new job on Monday. (confirmed plan)\n\nKey signals: future time words → tonight, tomorrow, next week, on Friday, in the morning",
+            "grammar_note": "am/is/are + verb-ing + future time expression\nThis tense = fixed plan, not a prediction"
+          }
+        },
+        {
+          "task_id": "t1001_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Negative and question forms",
+            "body": "Negative: am/is/are NOT + -ing\n• I'm not coming to the party — I have an exam.\n• She isn't attending the meeting tomorrow.\n\nQuestions: Am/Is/Are + subject + -ing?\n• Are you coming to Meera's wedding?\n• What are you doing this weekend?\n• Is he travelling to Bangalore next week?\n\nShort answers:\n• Yes, I am. / No, I'm not.\n• Yes, she is. / No, she isn't.",
+            "grammar_note": "Question: Are you + verb-ing?\nNegative: I'm not + verb-ing"
+          }
+        },
+        {
+          "task_id": "t1001_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Plans and arrangements",
+            "vocabulary": [
+              {"word": "arrange", "meaning": "to plan and organise something in advance", "example": "We've arranged a team lunch for Friday."},
+              {"word": "confirm", "meaning": "to make a plan definite and official", "example": "Can you confirm if you're attending?"},
+              {"word": "schedule", "meaning": "a plan of when things will happen", "example": "Check the schedule for tomorrow's meetings."},
+              {"word": "appointment", "meaning": "a fixed time to meet someone", "example": "I have a dentist appointment on Thursday."},
+              {"word": "venue", "meaning": "the place where an event happens", "example": "The venue for the party is Hotel Raj."},
+              {"word": "available", "meaning": "free and able to do something", "example": "Are you available on Saturday evening?"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l1_listen",
+            "sentences": [
+              "I'm meeting my cousin at the airport tomorrow morning.",
+              "We're having a team dinner on Friday evening.",
+              "She isn't coming to college next week — she's travelling.",
+              "Are you doing anything special this weekend?",
+              "They're moving to their new flat on the 15th."
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Ravi has booked train tickets to Mysore for Saturday. Which sentence is correct?",
+            "options": [
+              "Ravi travels to Mysore on Saturday.",
+              "Ravi is travelling to Mysore on Saturday.",
+              "Ravi will travels to Mysore on Saturday.",
+              "Ravi travel to Mysore on Saturday."
+            ],
+            "correct": "Ravi is travelling to Mysore on Saturday.",
+            "explanation": "A confirmed, booked plan uses present continuous: IS + travelling."
+          }
+        },
+        {
+          "task_id": "t1001_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Priya wants to ask her friend about Saturday plans. Which question is correct?",
+            "options": [
+              "Do you come to the wedding on Saturday?",
+              "Are you coming to the wedding on Saturday?",
+              "Will you coming to the wedding on Saturday?",
+              "You are coming to the wedding on Saturday?"
+            ],
+            "correct": "Are you coming to the wedding on Saturday?",
+            "explanation": "Future arrangement question: Are + you + verb-ing?"
+          }
+        },
+        {
+          "task_id": "t1001_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Arjun's calendar shows 'Doctor - 4 PM Tuesday'. Which is correct?",
+            "options": [
+              "Arjun sees the doctor on Tuesday.",
+              "Arjun is seeing the doctor at 4 PM on Tuesday.",
+              "Arjun will saw the doctor on Tuesday.",
+              "Arjun seeing the doctor at 4 PM Tuesday."
+            ],
+            "correct": "Arjun is seeing the doctor at 4 PM on Tuesday.",
+            "explanation": "A booked appointment = fixed future plan → present continuous."
+          }
+        },
+        {
+          "task_id": "t1001_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Which sentence uses present continuous for the FUTURE correctly?",
+            "options": [
+              "I am eating breakfast right now.",
+              "She is presenting at the conference next month.",
+              "They are watching a movie at the moment.",
+              "He is cooking dinner currently."
+            ],
+            "correct": "She is presenting at the conference next month.",
+            "explanation": "'Next month' is a future time signal — this is a fixed plan. The others describe actions happening now."
+          }
+        },
+        {
+          "task_id": "t1001_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Complete with the present continuous form for future plans.",
+            "sentences": [
+              {"text": "We ___ (have) a family reunion next Sunday. All relatives are coming.", "answer": "are having"},
+              {"text": "I ___ (not/work) on Monday — it's a public holiday.", "answer": "am not working"},
+              {"text": "Meera ___ (join) the new Bangalore office next month.", "answer": "is joining"},
+              {"text": "___ you ___ (attend) the product launch event tomorrow? (Are/attend)", "answer": "Are / attending"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Fill the gap — present continuous for future.",
+            "sentences": [
+              {"text": "Kavya and Sonal ___ (meet) for lunch at 1 PM tomorrow.", "answer": "are meeting"},
+              {"text": "The company ___ (launch) its new app next Thursday.", "answer": "is launching"},
+              {"text": "I ___ (not/travel) to Mumbai this weekend — plans changed.", "answer": "am not travelling"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange the words to make a correct future plan sentence.",
+            "words": ["dinner", "friends", "having", "I'm", "my", "with", "tonight"],
+            "answer": "I'm having dinner with my friends tonight."
+          }
+        },
+        {
+          "task_id": "t1001_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a correct question.",
+            "words": ["weekend", "Are", "doing", "this", "anything", "you", "special"],
+            "answer": "Are you doing anything special this weekend?"
+          }
+        },
+        {
+          "task_id": "t1001_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match each situation to the correct present continuous future sentence.",
+            "pairs": [
+              {"left": "Tickets booked to Goa — next Friday", "right": "I'm flying to Goa next Friday."},
+              {"left": "Doctor booked — Wednesday 3 PM", "right": "She's seeing the doctor at 3 on Wednesday."},
+              {"left": "Team call — 10 AM tomorrow, in calendar", "right": "We're having a team call at 10 tomorrow."},
+              {"left": "No office — public holiday Monday", "right": "I'm not going to the office on Monday."},
+              {"left": "Interview confirmed — Thursday morning", "right": "He's attending an interview on Thursday morning."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Weekend plans — friends in Bangalore",
+            "setting": "Kavya and Sonal are colleagues in Bangalore catching up about their weekend.",
+            "dialogue": [
+              {"speaker": "Kavya", "text": "Sonal, do you have any plans this weekend?"},
+              {"speaker": "Sonal", "text": "Yes! I'm attending my cousin's engagement on Saturday. The function is in Koramangala."},
+              {"speaker": "Kavya", "text": "Oh wow, how exciting! Are you going alone?"},
+              {"speaker": "Sonal", "text": "No, my whole family is coming. My parents are arriving from Pune on Friday night."},
+              {"speaker": "Kavya", "text": "That's lovely. What are you doing on Sunday?"},
+              {"speaker": "Sonal", "text": "I'm resting at home in the morning, and then I'm meeting a friend from college for coffee in the evening."},
+              {"speaker": "Kavya", "text": "Sounds like a great weekend! I'm visiting the new exhibition at Cubbon Park on Sunday."},
+              {"speaker": "Sonal", "text": "Oh nice! Are you going with anyone?"},
+              {"speaker": "Kavya", "text": "Yes, I'm going with my neighbour Meera. We've been planning it for two weeks — we already have the tickets."},
+              {"speaker": "Sonal", "text": "What time are you going?"},
+              {"speaker": "Kavya", "text": "We're meeting there at 11 AM. Are you working late tonight? We could have chai before leaving."},
+              {"speaker": "Sonal", "text": "I'm finishing at 6 today. Yes, let's do that!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What is Sonal attending on Saturday?",
+                "options": ["A wedding", "Her cousin's engagement", "A birthday party", "A college reunion"],
+                "correct": "Her cousin's engagement"
+              },
+              {
+                "question": "When are Sonal's parents arriving?",
+                "options": ["Saturday morning", "Friday night", "Sunday afternoon", "Saturday evening"],
+                "correct": "Friday night"
+              },
+              {
+                "question": "What time are Kavya and Meera meeting at the exhibition?",
+                "options": ["10 AM", "11 AM", "12 PM", "2 PM"],
+                "correct": "11 AM"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "I am meet my manager at 3 PM tomorrow.",
+                "correct": "I am meeting my manager at 3 PM tomorrow.",
+                "explanation": "Present continuous = am/is/are + verb-ING. 'Meet' must become 'meeting'."
+              },
+              {
+                "wrong": "Are you come to the party on Friday?",
+                "correct": "Are you coming to the party on Friday?",
+                "explanation": "Question form: Are + you + verb-ING."
+              },
+              {
+                "wrong": "She is not attend the training next week.",
+                "correct": "She is not attending the training next week.",
+                "explanation": "Negative: is not + verb-ING (attending)."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1001_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your manager asks if you can join a meeting on Tuesday at 2 PM. You already have a confirmed dentist appointment at that exact time. What do you say?",
+            "options": [
+              "I will go to the dentist maybe on Tuesday.",
+              "I'm seeing my dentist at 2 PM on Tuesday — I already have that appointment. Can we do a different time?",
+              "I don't come on Tuesday.",
+              "I see the dentist on Tuesday."
+            ],
+            "correct": "I'm seeing my dentist at 2 PM on Tuesday — I already have that appointment. Can we do a different time?",
+            "explanation": "A booked appointment = present continuous for future. The response is polite and suggests an alternative."
+          }
+        },
+        {
+          "task_id": "t1001_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Talk about your real or imagined plans for this coming weekend. Use the present continuous for future and future time expressions.",
+            "prompt": "What are you doing this weekend? Describe at least 4 arranged plans using present continuous.",
+            "example_response": "This weekend is quite busy for me! On Saturday morning, I'm going to the gym with my friend Ravi — we've been planning it since last week. In the afternoon, I'm helping my mother shop for the upcoming festival. She wants to buy new clothes and some decoration items, so we're going to T. Nagar. On Saturday evening, I'm watching a movie with my cousins — we've already bought the tickets online for the 7 PM show. On Sunday, I'm not doing anything very special in the morning, just relaxing at home. But in the afternoon, I'm meeting my college friend Ananya for lunch at a restaurant near my place. We're catching up after almost three months.",
+            "key_phrases": ["I'm going", "we're meeting", "she's arriving", "I'm not working", "are you coming"],
+            "min_words": 80
+          }
+        },
+        {
+          "task_id": "t1001_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Imagine you are a very busy person next week. Describe your week using present continuous for future plans — at least one plan per day.",
+            "prompt": "Describe a busy week ahead using present continuous. Include: who you are meeting, where you are going, and what you are doing each day.",
+            "example_response": "Next week is going to be very hectic! On Monday, I'm presenting the monthly report to my manager at 10 AM. I've already prepared the slides. On Tuesday, I'm having lunch with a client from Mumbai who is visiting our Bangalore office. On Wednesday, I'm attending a digital marketing workshop all day — my company has enrolled me. Thursday is slightly free — I'm only having a team check-in at 4 PM. But on Friday, I'm flying to Chennai for a family event. My cousin is getting married on Saturday. My flight is at 6 AM, so I'm waking up at 4! On Saturday afternoon, I'm attending the wedding ceremony, and on Sunday, I'm coming back to Bangalore in the evening.",
+            "key_phrases": ["I'm presenting", "I'm having lunch", "I'm attending", "I'm flying", "I'm coming back"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1001_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete Priya's message to her friend using present continuous for future.",
+            "text": "Hi Meera!\n\nJust wanted to update you on my plans. I ___ (1/not work) this Friday — I took a leave. On Friday morning, I ___ (2/go) to the art gallery with my sister. We already bought the tickets! In the evening, I ___ (3/join) the family for dinner at Grandma's house. On Saturday, my friend Riya ___ (4/visit) from Hyderabad — she ___ (5/stay) with us for two days. We ___ (6/take) her to some good restaurants in Chennai since it's her first visit. Are you free on Sunday? What ___ you ___ (7/do)?",
+            "answers": ["am not working", "am going", "am joining", "is visiting", "is staying", "are taking", "are / doing"]
+          }
+        },
+        {
+          "task_id": "t1001_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 1 complete — Present continuous for future",
+            "key_points": [
+              "Use am/is/are + -ing for FIXED, ARRANGED future plans",
+              "Always use a future time expression: tonight, tomorrow, next week, on Friday",
+              "Question: Are you + verb-ing + time?",
+              "Negative: I'm not / She isn't + verb-ing",
+              "This tense shows the plan is confirmed — not just a thought or prediction"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Going to — review and deepen"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson02",
+      "unit": 10,
+      "lesson_number": 2,
+      "level": "A2",
+      "title": "Going to — review and deepen",
+      "description": "Master 'going to' for decided plans and predictions based on present evidence. Build on A1 knowledge with more complex uses.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1002_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Going to — two main uses",
+            "body": "GOING TO has two important uses:\n\n1. DECIDED PLANS (you already decided before speaking)\n• I'm going to apply for a new job this year.\n• We're going to repaint the living room next month.\n• She's going to study medicine.\n\n2. PREDICTIONS based on evidence (you can see something now)\n• Look at those clouds — it's going to rain!\n• He's not wearing a helmet — he's going to fall!\n• The traffic is terrible — we're going to be late.",
+            "grammar_note": "am/is/are + going to + base verb\nEvidence predictions: you can SEE the reason right now"
+          }
+        },
+        {
+          "task_id": "t1002_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Going to negative and questions",
+            "body": "Negative: am/is/are NOT going to + base verb\n• I'm not going to waste my time on this.\n• She isn't going to join that company.\n• They aren't going to make it on time.\n\nQuestions: Am/Is/Are + subject + going to + base verb?\n• Are you going to attend the training?\n• What are you going to do after college?\n• Is she going to accept the offer?\n\nShort answers:\n• Yes, I am. / No, I'm not.\n• Yes, she is. / No, she isn't.",
+            "grammar_note": "Negative: NOT going to + base verb\nQuestion: Are you going to + base verb?"
+          }
+        },
+        {
+          "task_id": "t1002_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Decisions and intentions",
+            "vocabulary": [
+              {"word": "intend", "meaning": "to plan to do something", "example": "I intend to finish this course by December."},
+              {"word": "aim", "meaning": "to try to achieve something", "example": "We're aiming to launch the app next quarter."},
+              {"word": "apply for", "meaning": "to formally request a job/course", "example": "She's going to apply for the MBA programme."},
+              {"word": "resign", "meaning": "to formally leave a job", "example": "He's going to resign from his current position."},
+              {"word": "postpone", "meaning": "to move something to a later time", "example": "They're going to postpone the event."},
+              {"word": "definitely", "meaning": "certainly, without doubt", "example": "I'm definitely going to save more this year."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l2_listen",
+            "sentences": [
+              "I'm going to start learning Python next month.",
+              "Look at those clouds — it's going to pour!",
+              "Are you going to apply for the promotion?",
+              "She isn't going to renew her contract.",
+              "They're going to build a new metro line in this area."
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Arjun has decided to quit his job and start his own business. Which sentence is correct?",
+            "options": [
+              "Arjun will quit his job tomorrow.",
+              "Arjun is going to start his own business.",
+              "Arjun starts his own business.",
+              "Arjun is starting his own business tomorrow."
+            ],
+            "correct": "Arjun is going to start his own business.",
+            "explanation": "A decision already made before speaking = GOING TO. (Note: present continuous would also be possible if a date was arranged, but GOING TO is more natural for a decision without a fixed date.)"
+          }
+        },
+        {
+          "task_id": "t1002_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "You see your friend walking fast toward a wet floor without noticing the warning sign. What do you shout?",
+            "options": [
+              "He will slip!",
+              "He slips!",
+              "He's going to slip!",
+              "He is slipping now!"
+            ],
+            "correct": "He's going to slip!",
+            "explanation": "You can see the evidence right now — wet floor + he's not stopping = prediction based on evidence → GOING TO."
+          }
+        },
+        {
+          "task_id": "t1002_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which sentence shows a DECIDED PLAN using 'going to'?",
+            "options": [
+              "I think it might rain later.",
+              "I'm going to visit my grandparents during Diwali — I already bought the ticket.",
+              "Look — she's going to drop that tray!",
+              "I will help you if you need me."
+            ],
+            "correct": "I'm going to visit my grandparents during Diwali — I already bought the ticket.",
+            "explanation": "A pre-decided plan = GOING TO. The other options are prediction (might), evidence prediction, or will-offer."
+          }
+        },
+        {
+          "task_id": "t1002_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Kavya says: 'The baby looks really tired — she ___ fall asleep soon.' Which fits?",
+            "options": ["is going to", "goes to", "went to", "is going"],
+            "correct": "is going to",
+            "explanation": "Visible evidence (baby looks tired) → prediction with GOING TO."
+          }
+        },
+        {
+          "task_id": "t1002_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in with the correct 'going to' form.",
+            "sentences": [
+              {"text": "My brother ___ (go) to the USA next year for his Masters degree — he's already applied.", "answer": "is going to go"},
+              {"text": "I ___ (not/join) that gym — it's too expensive.", "answer": "am not going to join"},
+              {"text": "Look at that car — it ___ (crash)! It's going too fast.", "answer": "is going to crash"},
+              {"text": "___ you ___ (tell) her the news today? (Are/going to)", "answer": "Are / going to tell"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Is it a PLAN or EVIDENCE PREDICTION? Fill in 'going to' and label each.",
+            "sentences": [
+              {"text": "She already handed in her resignation — she ___ leave the company. [type?]", "answer": "is going to — PLAN"},
+              {"text": "The traffic on OMR is terrible — we ___ be very late. [type?]", "answer": "are going to — EVIDENCE PREDICTION"},
+              {"text": "He's decided to propose to her this weekend — he ___ buy a ring today. [type?]", "answer": "is going to — PLAN"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange the words into a correct sentence.",
+            "words": ["next", "going", "We're", "to", "year", "house", "our", "renovate"],
+            "answer": "We're going to renovate our house next year."
+          }
+        },
+        {
+          "task_id": "t1002_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into an evidence prediction sentence.",
+            "words": ["going", "he's", "that", "fall", "step", "to", "Watch", "—"],
+            "answer": "Watch — he's going to fall on that step!"
+          }
+        },
+        {
+          "task_id": "t1002_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the situation to the correct GOING TO sentence.",
+            "pairs": [
+              {"left": "She booked a flight to London last month.", "right": "She's going to fly to London."},
+              {"left": "The ice cream is melting fast in the sun.", "right": "It's going to melt completely."},
+              {"left": "He signed up for a gym membership yesterday.", "right": "He's going to start working out."},
+              {"left": "The queue is enormous — 200 people!", "right": "We're going to wait a very long time."},
+              {"left": "They decided not to continue the project.", "right": "They aren't going to continue the project."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "New Year resolutions — Chennai",
+            "setting": "Priya and her friend Arjun are talking about their plans and resolutions for the coming year.",
+            "dialogue": [
+              {"speaker": "Arjun", "text": "Priya, it's almost the new year! Do you have any big plans or resolutions?"},
+              {"speaker": "Priya", "text": "Yes, quite a few! I'm going to start a savings plan — I'm going to put aside 20% of my salary every month."},
+              {"speaker": "Arjun", "text": "That's very disciplined! I've been meaning to do that too. Any other plans?"},
+              {"speaker": "Priya", "text": "I'm going to apply for a certification course in data analytics. It starts in February."},
+              {"speaker": "Arjun", "text": "Wow, you're serious! What about fitness? Are you going to join a gym or something?"},
+              {"speaker": "Priya", "text": "I'm not going to join a gym — it didn't work for me last time. But I'm going to start running in the mornings at Besant Nagar beach."},
+              {"speaker": "Arjun", "text": "That's a great idea! What about travel? Are you going to go anywhere?"},
+              {"speaker": "Priya", "text": "Yes! My cousin and I are going to go to Coorg in March. We already found a lovely homestay. What about you?"},
+              {"speaker": "Arjun", "text": "I'm going to focus on my career this year. I'm going to look for better opportunities — maybe in Hyderabad or Pune."},
+              {"speaker": "Priya", "text": "Oh, are you going to leave Chennai?"},
+              {"speaker": "Arjun", "text": "Maybe. Look at my current situation — the company isn't growing, my salary hasn't increased in two years. Something is going to have to change."},
+              {"speaker": "Priya", "text": "I understand. I hope you find something great, Arjun. This year is going to be better for both of us — I can feel it!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What percentage of her salary is Priya going to save?",
+                "options": ["10%", "15%", "20%", "25%"],
+                "correct": "20%"
+              },
+              {
+                "question": "Why is Priya NOT going to join a gym?",
+                "options": [
+                  "It is too expensive.",
+                  "It didn't work for her last time.",
+                  "There is no gym near her.",
+                  "She prefers swimming."
+                ],
+                "correct": "It didn't work for her last time."
+              },
+              {
+                "question": "Where is Arjun thinking of moving for work?",
+                "options": ["Mumbai or Delhi", "Hyderabad or Pune", "Bangalore or Kochi", "Coorg or Mysore"],
+                "correct": "Hyderabad or Pune"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "I'm going to studying for the exam this weekend.",
+                "correct": "I'm going to study for the exam this weekend.",
+                "explanation": "GOING TO + BASE VERB (no -ing). 'Study', not 'studying'."
+              },
+              {
+                "wrong": "Look — the glass is going to fell!",
+                "correct": "Look — the glass is going to fall!",
+                "explanation": "Base verb after GOING TO: 'fall', not 'fell'."
+              },
+              {
+                "wrong": "Are they going to comes to the event?",
+                "correct": "Are they going to come to the event?",
+                "explanation": "GOING TO + BASE VERB: 'come', not 'comes'."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1002_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You see your younger brother about to pour a full glass of water with a broken glass. What do you say?",
+            "options": [
+              "You will break it.",
+              "You're going to break it — that glass is cracked!",
+              "You're breaking it right now.",
+              "You broke it already."
+            ],
+            "correct": "You're going to break it — that glass is cracked!",
+            "explanation": "You can see the evidence (cracked glass + pouring water) → GOING TO for evidence prediction."
+          }
+        },
+        {
+          "task_id": "t1002_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "What are your personal goals and plans for the next six months? Talk about decided plans using GOING TO.",
+            "prompt": "Share 5 or more things you ARE GOING TO do in the next 6 months. Be specific.",
+            "example_response": "In the next six months, I have several plans I've already decided on. First, I'm going to complete an online English communication course — I've already enrolled. I'm also going to save money to buy a new laptop by June. I've already started putting money aside each month. I'm going to cut down on eating out — I spend way too much on food delivery. I'm not going to order food online more than twice a week. I'm going to read at least one book every month — I've already bought three books to start with. And finally, I'm going to repair my relationship with my cousin Ravi — we haven't spoken for six months and that's silly. I'm going to call him this weekend.",
+            "key_phrases": ["I'm going to", "I'm not going to", "We're going to", "already decided"],
+            "min_words": 90
+          }
+        },
+        {
+          "task_id": "t1002_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Look around you or imagine a scene. Make 4 predictions about what is GOING TO happen based on what you can see.",
+            "prompt": "Describe 4 evidence-based predictions using 'going to'. Use phrases like: 'look at...', 'I can see that...', 'the sky is...'",
+            "example_response": "Let me look around and make some predictions! I can see that the sky outside is getting very dark and cloudy — it's going to rain heavily in the next hour. My phone battery is at 3% and I haven't found a charger — it's going to die very soon. My neighbour has been playing loud music for 3 hours and I can hear other neighbours knocking on the wall — I think there's going to be an argument. And I can see my younger sister hasn't studied at all for her exam tomorrow — she's going to have a very tough time! These are all things that seem very likely based on what I can observe right now.",
+            "key_phrases": ["is going to", "are going to", "look at", "I can see that", "it seems like"],
+            "min_words": 80
+          }
+        },
+        {
+          "task_id": "t1002_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this New Year message using GOING TO.",
+            "text": "Happy New Year, everyone!\n\nThis year, our team ___ (1/focus) on three main goals. First, we ___ (2/launch) the upgraded version of our app by March — the development team has already started. Second, we ___ (3/expand) to two new cities — Hyderabad and Pune. We have already shortlisted office spaces. Third, we ___ (4/not/repeat) the mistakes of last year — we ___ (5/improve) our customer support system significantly. I ___ (6/personally/meet) each team every month to ensure we stay on track. Together, we ___ (7/make) this our best year yet!",
+            "answers": ["is going to focus", "are going to launch", "are going to expand", "are not going to repeat", "are going to improve", "am going to personally meet", "are going to make"]
+          }
+        },
+        {
+          "task_id": "t1002_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 2 complete — Going to",
+            "key_points": [
+              "GOING TO use 1: Decided plans made before speaking",
+              "GOING TO use 2: Predictions based on evidence you can see NOW",
+              "Form: am/is/are + going to + BASE VERB",
+              "Negative: am/is/are NOT going to + base verb",
+              "Question: Are you going to + base verb?",
+              "Key difference: Present continuous = arranged date/time; Going to = decision or visible evidence"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Will — predictions and spontaneous decisions"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson03",
+      "unit": 10,
+      "lesson_number": 3,
+      "level": "A2",
+      "title": "Will — predictions and spontaneous decisions",
+      "description": "Use 'will' for predictions about the future, spontaneous decisions, offers, and promises.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1003_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Will — four main uses",
+            "body": "WILL + base verb has four important uses:\n\n1. PREDICTIONS (general, based on belief/knowledge)\n• Electric vehicles will be everywhere in 10 years.\n• She'll be a great doctor — she works so hard.\n\n2. SPONTANEOUS DECISIONS (decided at the moment of speaking)\n• [Phone rings] I'll get it!\n• [Friend is struggling] I'll help you carry that.\n\n3. OFFERS\n• I'll make tea. You rest.\n• Shall I carry that for you? / I'll carry that.\n\n4. PROMISES\n• I'll call you as soon as I reach.\n• I won't tell anyone — I promise.",
+            "grammar_note": "will + base verb (all persons: I/you/he/she/we/they)\nShort form: I'll, you'll, she'll, we'll, they'll\nNegative: won't (= will not)"
+          }
+        },
+        {
+          "task_id": "t1003_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Will — questions and negative",
+            "body": "Questions with WILL:\n• Will you be at the office tomorrow?\n• Will it rain this evening?\n• Will she accept the offer?\n\nNegative — WON'T:\n• I won't be late, I promise.\n• They won't finish by Friday at this rate.\n• He won't tell you — he never talks about personal things.\n\nShall I / Shall we? (offers/suggestions, British English)\n• Shall I open the window?\n• Shall we order food?",
+            "grammar_note": "Question: Will + subject + base verb?\nNegative: won't / will not + base verb"
+          }
+        },
+        {
+          "task_id": "t1003_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Predictions and offers",
+            "vocabulary": [
+              {"word": "predict", "meaning": "to say what you think will happen", "example": "Experts predict prices will rise."},
+              {"word": "promise", "meaning": "to say you will definitely do something", "example": "I promise I'll return the book."},
+              {"word": "offer", "meaning": "to say you are willing to do something for someone", "example": "She offered to help with the project."},
+              {"word": "refuse", "meaning": "to say no", "example": "He refused to share the data."},
+              {"word": "probably", "meaning": "likely but not certain", "example": "It'll probably be cold in Shimla."},
+              {"word": "definitely", "meaning": "certainly", "example": "She'll definitely get the job — she's brilliant."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l3_listen",
+            "sentences": [
+              "Don't worry — I'll help you with the presentation.",
+              "She'll probably be promoted by the end of the year.",
+              "I won't tell anyone, I promise.",
+              "Will you be free for a call at 3 PM?",
+              "Technology will change everything in the next decade."
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Your friend drops her bag and things fall everywhere. You decide at that moment to help. What do you say?",
+            "options": [
+              "I am going to help you.",
+              "I'll help you pick those up!",
+              "I help you now.",
+              "I was going to help you."
+            ],
+            "correct": "I'll help you pick those up!",
+            "explanation": "A decision made at the moment of speaking = WILL. You decided just now, not before."
+          }
+        },
+        {
+          "task_id": "t1003_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Meera wants to make a promise to her mother. Which is correct?",
+            "options": [
+              "I'm going to call you every day, Amma.",
+              "I will call you every day, Amma.",
+              "I call you every day, Amma.",
+              "I'm calling you every day, Amma."
+            ],
+            "correct": "I will call you every day, Amma.",
+            "explanation": "Promises use WILL. Both options A and B are possible, but WILL is the classic promise structure."
+          }
+        },
+        {
+          "task_id": "t1003_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which sentence is a GENERAL PREDICTION using will?",
+            "options": [
+              "I'll get the door — I'm nearest.",
+              "I'm meeting my boss at 2 PM.",
+              "Renewable energy will replace fossil fuels in the coming decades.",
+              "I'm going to apply for the visa next week."
+            ],
+            "correct": "Renewable energy will replace fossil fuels in the coming decades.",
+            "explanation": "A general, opinion-based prediction about the future = WILL."
+          }
+        },
+        {
+          "task_id": "t1003_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Your colleague looks tired and is struggling to carry heavy boxes. You want to offer help. Which is the most natural?",
+            "options": [
+              "You are going to need help.",
+              "Shall I help you carry those?",
+              "I help you now.",
+              "You must let me help."
+            ],
+            "correct": "Shall I help you carry those?",
+            "explanation": "'Shall I...?' is a natural offer in English. 'I'll help you carry those' is also correct and common."
+          }
+        },
+        {
+          "task_id": "t1003_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in with WILL or WON'T.",
+            "sentences": [
+              {"text": "[Someone knocks] Don't get up — I ___ get it.", "answer": "will / 'll"},
+              {"text": "Don't worry about the secret — I ___ tell anyone.", "answer": "won't"},
+              {"text": "India ___ probably be a top 3 economy by 2040.", "answer": "will"},
+              {"text": "You ___ believe what happened to me today!", "answer": "won't"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Label each sentence: PREDICTION, OFFER, PROMISE, or SPONTANEOUS DECISION.",
+            "sentences": [
+              {"text": "I'll call you when I land — I promise. [type?]", "answer": "PROMISE"},
+              {"text": "Shall I make coffee for everyone? [type?]", "answer": "OFFER"},
+              {"text": "Don't worry — I'll get that for you. [type?]", "answer": "SPONTANEOUS DECISION / OFFER"},
+              {"text": "India will host the Olympics one day. [type?]", "answer": "PREDICTION"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange the words to make a promise.",
+            "words": ["be", "I", "late", "won't", "I", "promise"],
+            "answer": "I won't be late, I promise."
+          }
+        },
+        {
+          "task_id": "t1003_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a prediction sentence.",
+            "words": ["more", "expensive", "will", "next", "Petrol", "be", "year", "probably"],
+            "answer": "Petrol will probably be more expensive next year."
+          }
+        },
+        {
+          "task_id": "t1003_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the situation to the correct WILL sentence.",
+            "pairs": [
+              {"left": "A colleague needs help moving a desk.", "right": "I'll help you move that."},
+              {"left": "Your friend asks if you'll keep a secret.", "right": "I won't tell anyone — I promise."},
+              {"left": "You believe India will grow economically.", "right": "India will be a superpower soon."},
+              {"left": "The phone rings while you're sitting close.", "right": "I'll get it!"},
+              {"left": "Your friend looks lost — you offer to guide her.", "right": "Shall I show you the way?"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Helping a friend move flats — Mumbai",
+            "setting": "Ravi is moving to a new flat in Mumbai. His friend Sonal calls to offer help.",
+            "dialogue": [
+              {"speaker": "Sonal", "text": "Ravi! I heard you're moving this weekend. Do you need any help?"},
+              {"speaker": "Ravi", "text": "Yes! It's going to be a lot of work. The new flat is on the 5th floor and there's no lift."},
+              {"speaker": "Sonal", "text": "I'll come and help you on Saturday. What time do you want to start?"},
+              {"speaker": "Ravi", "text": "We're starting at 9 AM. Are you sure? It'll be a lot of carrying."},
+              {"speaker": "Sonal", "text": "I'm sure! I'll bring Ankit too — he won't say no if I ask him nicely."},
+              {"speaker": "Ravi", "text": "That's so kind of you both. I'll organise lunch for everyone. What do you want?"},
+              {"speaker": "Sonal", "text": "Don't worry about that — I'll order biryani for everyone. It'll be my contribution."},
+              {"speaker": "Ravi", "text": "You're amazing. I promise I'll help you the next time you move!"},
+              {"speaker": "Sonal", "text": "Ha! I won't hold you to that. Will your family come too?"},
+              {"speaker": "Ravi", "text": "My brother will come in the afternoon. He's busy in the morning. It'll go faster with more people."},
+              {"speaker": "Sonal", "text": "It will definitely be done by evening. Don't worry!"},
+              {"speaker": "Ravi", "text": "I really appreciate it. I won't forget this. See you Saturday!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What does Sonal offer to bring on Saturday?",
+                "options": ["A moving truck", "Ankit and food", "Her family", "Packing boxes"],
+                "correct": "Ankit and food"
+              },
+              {
+                "question": "What does Sonal say she will order for lunch?",
+                "options": ["Pizza", "Biryani", "Dosa", "Sandwiches"],
+                "correct": "Biryani"
+              },
+              {
+                "question": "When will Ravi's brother arrive?",
+                "options": ["9 AM", "In the morning", "In the afternoon", "In the evening"],
+                "correct": "In the afternoon"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "I will to help you with the project.",
+                "correct": "I will help you with the project.",
+                "explanation": "WILL + BASE VERB — no 'to'. 'Will to help' is wrong."
+              },
+              {
+                "wrong": "She wills finish the report by Friday.",
+                "correct": "She will finish the report by Friday.",
+                "explanation": "WILL never changes — no 's'. Always: will + base verb."
+              },
+              {
+                "wrong": "I won't to tell anyone, I promise.",
+                "correct": "I won't tell anyone, I promise.",
+                "explanation": "WON'T + BASE VERB — no 'to'."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1003_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your team member is about to leave for an important client meeting but has forgotten to bring the presentation folder. You notice. What do you say?",
+            "options": [
+              "I'm going to get the folder for you.",
+              "I'll get the folder — go, I'll bring it to you!",
+              "I'll getting the folder.",
+              "I get the folder now."
+            ],
+            "correct": "I'll get the folder — go, I'll bring it to you!",
+            "explanation": "A spontaneous decision made at the moment = WILL. You decided right now, not before."
+          }
+        },
+        {
+          "task_id": "t1003_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Make 5 predictions about India or your city 20 years from now. Use WILL, WON'T, and WILL PROBABLY.",
+            "prompt": "What do you think India or your city will look like in 2044? Make confident and realistic predictions.",
+            "example_response": "I think India will look very different in 20 years. First, I believe most cars will be electric — petrol vehicles won't be as common as they are today. Cities like Chennai and Bangalore will have much better public transport — more metro lines, more buses, and possibly even hyperloop connections between major cities. I think education will change a lot too — students will probably study online much more, and traditional classrooms won't be the only way to learn. On the other hand, I think some things won't change — family values and festivals will remain very important in Indian culture. And I hope that food won't change too much — our regional cuisines are too good to lose! Overall, I think life will be more convenient but also more competitive.",
+            "key_phrases": ["will", "won't", "will probably", "will definitely", "I think / I believe"],
+            "min_words": 90
+          }
+        },
+        {
+          "task_id": "t1003_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Role-play: Your friend has just arrived after a long journey and looks exhausted. You want to make her feel welcome. Make 5 offers using WILL and SHALL I.",
+            "prompt": "Make spontaneous offers to help an exhausted friend who has just arrived at your home. Use will and shall I.",
+            "example_response": "Meera, you look absolutely exhausted! Come in, come in — I'll take your bag, you just sit down. Shall I make you a cup of tea or would you prefer coffee? I'll switch on the fan — it's quite warm today. Are you hungry? I'll heat up some food — I made daal and rice, it's already cooked. Shall I run some warm water so you can freshen up? You can use the guest bathroom. Don't worry about anything — I'll handle everything. Just rest! I'll wake you up in an hour if you want to take a quick nap. What time do you need to be somewhere tomorrow? I'll make sure you have an alarm set.",
+            "key_phrases": ["I'll", "Shall I", "I won't let you", "don't worry, I'll handle it"],
+            "min_words": 80
+          }
+        },
+        {
+          "task_id": "t1003_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete the conversation using WILL, WON'T, or SHALL.",
+            "text": "Kavya: The printer is out of paper again!\nArjun: ___ (1) I go and get some from the storeroom?\nKavya: Yes please! And ___ (2) you check if there's also more ink?\nArjun: Sure, I ___ (3) be back in five minutes.\nKavya: Thanks! By the way, ___ (4) you be free at 2 PM for the client call?\nArjun: I think so — I ___ (5) check my calendar. If I'm in a meeting, I ___ (6) message you straight away.\nKavya: Perfect. I promise I ___ (7) share all the notes with you after.",
+            "answers": ["Shall", "will", "will / 'll", "will", "will / 'll", "will / 'll", "will / 'll"]
+          }
+        },
+        {
+          "task_id": "t1003_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 3 complete — Will",
+            "key_points": [
+              "WILL use 1: General predictions (based on belief/knowledge)",
+              "WILL use 2: Spontaneous decisions (decided at the moment of speaking)",
+              "WILL use 3: Offers (I'll help / Shall I...?)",
+              "WILL use 4: Promises (I'll call you / I won't tell anyone)",
+              "Form: will + BASE VERB (no change for any person)",
+              "Negative: WON'T (will not) + base verb",
+              "Short forms: I'll, you'll, she'll, he'll, we'll, they'll"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Three futures compared — will vs going to vs present continuous"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson04",
+      "unit": 10,
+      "lesson_number": 4,
+      "level": "A2",
+      "title": "Three futures compared",
+      "description": "Understand and choose correctly between will, going to, and present continuous for future meaning.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1004_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Three ways to talk about the future",
+            "body": "English has three common ways to express the future:\n\n1. WILL + base verb\n   → Predictions (no evidence), spontaneous decisions, offers, promises\n   'I think it will rain.' / 'I'll get the door!'\n\n2. GOING TO + base verb\n   → Decided plans, evidence-based predictions\n   'I'm going to study medicine.' / 'Look — it's going to fall!'\n\n3. PRESENT CONTINUOUS (am/is/are + -ing)\n   → Fixed, arranged plans with a time/date\n   'I'm meeting her at 6 tonight.' / 'We're flying to Delhi on Monday.'",
+            "grammar_note": "Will = no plan before / just decided / belief\nGoing to = decision before / visible evidence\nPresent continuous = arranged date & time already"
+          }
+        },
+        {
+          "task_id": "t1004_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Choosing the right future — quick guide",
+            "body": "Use this guide to decide:\n\nQ: Did you decide JUST NOW? → WILL\n• 'The phone's ringing.' → 'I'll get it!'\n\nQ: Did you decide BEFORE speaking? → GOING TO\n• 'I decided last week to save more money.' → 'I'm going to save more.'\n\nQ: Is it a FIXED APPOINTMENT with a date/time? → PRESENT CONTINUOUS\n• 'I have a booked meeting slot.' → 'I'm meeting the client at 3.'\n\nQ: Is it a GENERAL PREDICTION (no evidence)? → WILL\n• 'I think electric cars will be normal in 10 years.'\n\nQ: Can you SEE the evidence right now? → GOING TO\n• 'The sky is black.' → 'It's going to storm!'",
+            "grammar_note": "When in doubt: Is there a specific time/date? → Present continuous. Decided before? → Going to. Just now? → Will."
+          }
+        },
+        {
+          "task_id": "t1004_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Future time expressions",
+            "vocabulary": [
+              {"word": "in a moment", "meaning": "very soon, now", "example": "I'll be with you in a moment."},
+              {"word": "shortly", "meaning": "very soon", "example": "The train will arrive shortly."},
+              {"word": "by the end of", "meaning": "before a time limit", "example": "I'll finish it by the end of today."},
+              {"word": "at some point", "meaning": "at an unspecified time in the future", "example": "I'll visit Japan at some point."},
+              {"word": "in the long run", "meaning": "eventually, after a long time", "example": "It will pay off in the long run."},
+              {"word": "sooner or later", "meaning": "eventually, at some time", "example": "Sooner or later, things will improve."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l4_listen",
+            "sentences": [
+              "I'm meeting the director at 9 AM tomorrow — it's already in the calendar.",
+              "I think things will get better — don't worry.",
+              "She's going to resign — she told me last night.",
+              "The bag is too heavy — it's going to break!",
+              "I'll carry that for you — put it down."
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Arjun booked a table at a restaurant for Saturday 8 PM — two weeks ago. What does he tell his friend?",
+            "options": [
+              "I'll go to that restaurant on Saturday.",
+              "I'm going to book a table on Saturday.",
+              "I'm having dinner at Pind Balluchi on Saturday at 8.",
+              "I will have had dinner on Saturday."
+            ],
+            "correct": "I'm having dinner at Pind Balluchi on Saturday at 8.",
+            "explanation": "A booked, fixed arrangement with a specific time → PRESENT CONTINUOUS."
+          }
+        },
+        {
+          "task_id": "t1004_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "You see a child running toward a busy road. What do you shout?",
+            "options": [
+              "She will run into the road!",
+              "She's going to run into the road!",
+              "She is running into the road next!",
+              "She runs into the road!"
+            ],
+            "correct": "She's going to run into the road!",
+            "explanation": "Visible, immediate evidence → GOING TO for prediction."
+          }
+        },
+        {
+          "task_id": "t1004_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Your friend asks what you want to drink. You just decided you want water. What do you say?",
+            "options": [
+              "I'm going to drink water.",
+              "I'm drinking water in a moment.",
+              "I'll have water, please.",
+              "I have water."
+            ],
+            "correct": "I'll have water, please.",
+            "explanation": "A decision made at the moment of speaking (you just decided) → WILL."
+          }
+        },
+        {
+          "task_id": "t1004_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Kavya has decided to quit her job. She thought about it for months. She tells her friend:",
+            "options": [
+              "I'll quit my job.",
+              "I'm quitting my job on Monday at 9.",
+              "I'm going to quit my job.",
+              "I quit my job next month."
+            ],
+            "correct": "I'm going to quit my job.",
+            "explanation": "A decision made before this conversation = GOING TO. (If she had a specific, booked exit date, present continuous might be used.)"
+          }
+        },
+        {
+          "task_id": "t1004_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Choose the correct future form: will, going to, or present continuous.",
+            "sentences": [
+              {"text": "The sky is getting very dark — it ___ (rain). [evidence prediction]", "answer": "is going to rain"},
+              {"text": "My flight to Delhi ___ (depart) at 6:15 AM on Thursday. [booked ticket]", "answer": "is departing / departs"},
+              {"text": "I ___ (help) you with your bags — they look very heavy. [spontaneous offer]", "answer": "will / 'll help"},
+              {"text": "She ___ (apply) for the MBA — she already started filling the form. [decided plan]", "answer": "is going to apply"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Fill the blanks with the best future form and explain why.",
+            "sentences": [
+              {"text": "I think AI ___ change every industry in the next 20 years. [belief, no evidence]", "answer": "will change"},
+              {"text": "We ___ have a project debrief at 4 PM today. [meeting is in the calendar]", "answer": "are having"},
+              {"text": "That ladder doesn't look stable — he ___ fall! [visible danger now]", "answer": "is going to fall"},
+              {"text": "A: 'The printer is broken.' B: 'Don't worry — ___ fix it.' [B just decided]", "answer": "I'll"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a correct present continuous future sentence.",
+            "words": ["Thursday", "are", "We", "the", "presenting", "results", "on"],
+            "answer": "We are presenting the results on Thursday."
+          }
+        },
+        {
+          "task_id": "t1004_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a correct will sentence (spontaneous decision).",
+            "words": ["answer", "I'll", "door", "the", "—", "sit", "you", "down"],
+            "answer": "I'll answer the door — you sit down."
+          }
+        },
+        {
+          "task_id": "t1004_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the situation to the correct future form.",
+            "pairs": [
+              {"left": "Train tickets booked for 6 PM tomorrow", "right": "Present continuous"},
+              {"left": "You see dark clouds gathering", "right": "Going to (evidence)"},
+              {"left": "Your friend's bag falls — you grab it immediately", "right": "Will (spontaneous)"},
+              {"left": "He decided last month to learn Spanish", "right": "Going to (decided plan)"},
+              {"left": "You believe prices will rise next year", "right": "Will (general prediction)"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Planning a product launch — startup office, Hyderabad",
+            "setting": "Meera (marketing lead) and Arjun (tech lead) are discussing their startup's upcoming product launch.",
+            "dialogue": [
+              {"speaker": "Meera", "text": "Arjun, we need to talk about the launch. Are we still on track?"},
+              {"speaker": "Arjun", "text": "Mostly yes. We're releasing the beta version to testers next Monday — that's all confirmed."},
+              {"speaker": "Meera", "text": "Good. I'm presenting the marketing plan to investors on Wednesday at 10 AM."},
+              {"speaker": "Arjun", "text": "Do you want me to join? I can walk them through the technical side."},
+              {"speaker": "Meera", "text": "That would be great! I'll add you to the calendar invite right now."},
+              {"speaker": "Arjun", "text": "Perfect. Do you think the launch will go well?"},
+              {"speaker": "Meera", "text": "I think it's going to be a big success — the early feedback from testers has been amazing."},
+              {"speaker": "Arjun", "text": "I agree, but the server load worries me. If too many users sign up at once, the system is going to crash."},
+              {"speaker": "Meera", "text": "I see your point. What are you going to do about that?"},
+              {"speaker": "Arjun", "text": "I'm upgrading the server capacity this weekend. I've already ordered the additional cloud space."},
+              {"speaker": "Meera", "text": "Great. I'll send out the press release on launch day morning. It'll definitely get attention."},
+              {"speaker": "Arjun", "text": "Will you send it to the national media as well, or just the tech blogs?"},
+              {"speaker": "Meera", "text": "Both. I promise this launch will put us on the map!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "When are they releasing the beta version?",
+                "options": ["This Friday", "Next Monday", "Next Wednesday", "Next weekend"],
+                "correct": "Next Monday"
+              },
+              {
+                "question": "What is Arjun going to do this weekend?",
+                "options": [
+                  "Present to investors",
+                  "Upgrade the server capacity",
+                  "Send the press release",
+                  "Write the marketing plan"
+                ],
+                "correct": "Upgrade the server capacity"
+              },
+              {
+                "question": "What does Meera promise will happen after the launch?",
+                "options": [
+                  "They will crash the server.",
+                  "The launch will put them on the map.",
+                  "They will go international immediately.",
+                  "Investors will double their funding."
+                ],
+                "correct": "The launch will put them on the map."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find the mistake in future tense usage.",
+            "sentences": [
+              {
+                "wrong": "I'll going to the conference next week — my ticket is booked.",
+                "correct": "I'm going to the conference next week — my ticket is booked. OR: I'm attending the conference next week.",
+                "explanation": "Booked ticket + specific event = PRESENT CONTINUOUS. 'I'll going' is not a valid form."
+              },
+              {
+                "wrong": "She goes to travel to Japan next year — she's been saving for two years.",
+                "correct": "She's going to travel to Japan next year.",
+                "explanation": "A decided plan (been saving for it) = GOING TO, not simple present."
+              },
+              {
+                "wrong": "I will to call you when I arrive.",
+                "correct": "I'll call you when I arrive.",
+                "explanation": "WILL + BASE VERB — no 'to'. 'Will to call' is wrong."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1004_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your friend calls and says she's very upset and needs to talk. You want to go see her right now — you just decided this second. What do you say?",
+            "options": [
+              "I'm going to come and see you — I decided earlier.",
+              "I come to see you now.",
+              "I'll come and see you right now — give me 20 minutes.",
+              "I'm coming to see you on Thursday at 3."
+            ],
+            "correct": "I'll come and see you right now — give me 20 minutes.",
+            "explanation": "You decided right now, at this moment → WILL. If it were pre-arranged, you'd use present continuous."
+          }
+        },
+        {
+          "task_id": "t1004_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Think of 6 sentences about the future — 2 using will, 2 using going to, and 2 using present continuous. Then explain WHY you chose each form.",
+            "prompt": "Create 2 examples each of will, going to, and present continuous for future. Explain your choice.",
+            "example_response": "Let me give you six future sentences with my reasons.\n\nUsing WILL: 'I think electric vehicles will be the standard within 10 years' — this is my general prediction based on current trends, not specific evidence I can see right now. 'The phone is ringing — I'll get it!' — I decided this just now, spontaneously.\n\nUsing GOING TO: 'I'm going to start a YouTube channel this year — I've already bought the camera' — this is a plan I decided before speaking and I have evidence I'm serious. 'Look at that ice cream melting in the sun — it's going to drip everywhere!' — I can see the evidence happening right now.\n\nUsing PRESENT CONTINUOUS: 'I'm attending my sister's graduation ceremony on Saturday at 2 PM' — fixed, booked event with a specific time. 'We're having a team offsite on Friday — the hotel is booked and everyone confirmed' — fully arranged plan.",
+            "key_phrases": ["I'll (will)", "I'm going to", "I'm + -ing", "because this is a... [prediction/plan/arrangement]"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1004_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "You are a career counsellor speaking to a student who wants advice about their future. Ask and answer questions about their plans using all three future forms naturally.",
+            "prompt": "Role-play as yourself or a student: describe your future plans, predictions, and arrangements using all 3 future forms.",
+            "example_response": "As a career counsellor, I would first ask: 'So, what are you planning to do after finishing your degree?' And my student might say: 'I'm going to take a break for a few months — I've already decided. I need time to think.' Then I'd ask about specific steps: 'Have you arranged anything for that period?' And they might say: 'Yes, I'm doing a 2-month internship at a design agency — starts on June 1st.' Then for bigger predictions: 'Where do you see yourself in 5 years?' — 'I think I'll probably work in the creative industry. I believe good designers will always have opportunities.' At the end of the session, I'd make an offer: 'I'll send you some resources about portfolio building this evening — check your email.'",
+            "key_phrases": ["I'm going to", "I'm + -ing (arranged)", "I think / I believe ... will", "I'll send / I'll help"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1004_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Choose the best future form for each gap in this conversation.",
+            "text": "Ravi: What ___ (1) you ___ do this Sunday?\nKavya: I ___ (2) have brunch with my cousins at 11 AM — we booked the place last week. After that I'm free.\nRavi: Oh nice! ___ (3) you ___ join us for the cricket match in the evening then?\nKavya: I think so! What time ___ (4) it start?\nRavi: It ___ (5) start at 5 PM. The match might go till 8 or 9 — it ___ (6) probably be a close game.\nKavya: Great! I ___ (7) bring snacks — just tell me what everyone wants.\nRavi: Actually, look at those clouds — it ___ (8) rain. Should we move it indoors?\nKavya: Let's keep an eye on it. If it rains, I ___ (9) ask my neighbour if we can use his hall.",
+            "answers": ["are / going to", "am having / 'm having", "Will / Are", "will / is it going to", "will / 's going to", "will", "will / 'll", "is going to", "will / 'll"]
+          }
+        },
+        {
+          "task_id": "t1004_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 4 complete — Three futures compared",
+            "key_points": [
+              "WILL: prediction (no evidence), spontaneous decision, offer, promise",
+              "GOING TO: decided plan OR evidence-based prediction",
+              "PRESENT CONTINUOUS: fixed, arranged plan with specific time/date",
+              "Key question: Did you decide just now? → Will. Did you decide before? → Going to. Is it booked/arranged? → Present continuous.",
+              "All three are correct in English — choosing right = sounding natural"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "May & might — possibility"
+          }
+        }
+      ]
+    }
+  ]
+}

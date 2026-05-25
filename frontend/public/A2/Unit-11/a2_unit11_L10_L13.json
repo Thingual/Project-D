@@ -1,0 +1,1365 @@
+{
+  "unit": 11,
+  "level": "A2",
+  "lesson_range": "10-13",
+  "lessons": [
+
+    {
+      "lesson_id": "a2_unit11_lesson10",
+      "unit": 11,
+      "lesson_number": 10,
+      "level": "A2",
+      "title": "Expressing opinions and agreeing/disagreeing",
+      "description": "Share your views confidently, agree and disagree politely, and discuss everyday topics using natural opinion language.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1110_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Expressing opinions — a full toolkit",
+            "body": "There are many ways to share your opinion in English. Use stronger or softer language depending on how certain you are:\n\nSTRONG opinion:\n• 'I strongly believe that...'\n• 'I'm absolutely convinced that...'\n• 'There's no doubt in my mind that...'\n\nMILD opinion:\n• 'I think...'\n• 'I feel that...'\n• 'In my opinion,...'\n• 'Personally, I...'\n• 'As far as I'm concerned,...'\n• 'From my perspective,...'\n\nSOFT / HEDGED opinion:\n• 'I suppose...'\n• 'I tend to think...'\n• 'I'm inclined to think...'\n• 'It seems to me that...'",
+            "grammar_note": "Opinion phrases come BEFORE the main statement\n'I think + clause' — no 'to' between\n'In my opinion' = formal; 'If you ask me' = informal"
+          }
+        },
+        {
+          "task_id": "t1110_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Agreeing and disagreeing politely",
+            "body": "AGREEING:\n• 'Absolutely!'\n• 'Exactly — that's what I think too.'\n• 'I completely agree.'\n• 'You're absolutely right.'\n• 'That's a very good point.'\n• 'I couldn't agree more.'\n• 'That's exactly how I feel.'\n\nPARTIAL AGREEMENT:\n• 'You have a point, but...'\n• 'I agree up to a point, however...'\n• 'That's true to some extent, but...'\n• 'I see where you're coming from, although...'\n\nDISAGREEING POLITELY:\n• 'I'm not sure I agree with that.'\n• 'I see it slightly differently.'\n• 'I take your point, but...'\n• 'With respect, I think...'\n• 'I'm afraid I disagree — in my view...'",
+            "grammar_note": "Partial agreement = acknowledge + BUT\nAlways soften disagreement — never just say 'Wrong!'\n'With respect' = polite way to introduce disagreement"
+          }
+        },
+        {
+          "task_id": "t1110_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Discussion and debate language",
+            "vocabulary": [
+              {"word": "perspective", "meaning": "a particular way of looking at something", "example": "From my perspective, remote work has more benefits."},
+              {"word": "valid", "meaning": "having a good, solid basis", "example": "That's a valid point — I hadn't thought of it that way."},
+              {"word": "controversial", "meaning": "causing strong disagreement", "example": "This is a controversial topic with many different views."},
+              {"word": "argument", "meaning": "a reason given to support an opinion", "example": "Her main argument was that quality matters more than quantity."},
+              {"word": "counterpoint", "meaning": "an opposing argument", "example": "I understand your view, but here's the counterpoint."},
+              {"word": "nuanced", "meaning": "taking into account different sides and shades of meaning", "example": "It's a nuanced issue — neither side is completely right."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l10_listen",
+            "sentences": [
+              "In my opinion, working from home is more productive for most people.",
+              "I completely agree — the flexibility really helps focus.",
+              "I see your point, but I think office collaboration is also very important.",
+              "That's a valid point — I suppose it depends on the type of work.",
+              "I'm inclined to think that a hybrid model works best for everyone."
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Which phrase best introduces a STRONG personal opinion?",
+            "options": [
+              "Maybe...",
+              "I suppose it could be...",
+              "I strongly believe that quality education should be free for everyone.",
+              "Some people think..."
+            ],
+            "correct": "I strongly believe that quality education should be free for everyone.",
+            "explanation": "'I strongly believe' = clear, confident, personal opinion. The others are hedged or distanced."
+          }
+        },
+        {
+          "task_id": "t1110_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Someone shares an opinion you partly agree with but have a counterpoint to. Which response is best?",
+            "options": [
+              "You're completely wrong.",
+              "I agree totally.",
+              "I see where you're coming from, although I think there's another side to consider.",
+              "That is not a good point."
+            ],
+            "correct": "I see where you're coming from, although I think there's another side to consider.",
+            "explanation": "Partial agreement: acknowledge their view ('I see where you're coming from') + add your counterpoint ('although...')."
+          }
+        },
+        {
+          "task_id": "t1110_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which phrase is the most polite way to DISAGREE?",
+            "options": [
+              "That's wrong.",
+              "No.",
+              "I'm afraid I see it slightly differently — in my view...",
+              "You don't understand."
+            ],
+            "correct": "I'm afraid I see it slightly differently — in my view...",
+            "explanation": "'I'm afraid' softens; 'see it differently' disagrees without attacking. Then state your own view calmly."
+          }
+        },
+        {
+          "task_id": "t1110_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What does 'I couldn't agree more' mean?",
+            "options": [
+              "I slightly disagree.",
+              "I am unable to agree.",
+              "I completely and strongly agree.",
+              "I agree with some parts only."
+            ],
+            "correct": "I completely and strongly agree.",
+            "explanation": "'I couldn't agree more' = maximum agreement. The double negative ('couldn't' + 'more') creates emphasis."
+          }
+        },
+        {
+          "task_id": "t1110_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the correct opinion or agreement phrase.",
+            "sentences": [
+              {"text": "___ my opinion, social media does more harm than good to teenagers.", "answer": "In"},
+              {"text": "You have a ___, but I think the solution is more complicated than that.", "answer": "point"},
+              {"text": "I ___ agree more — public transport is absolutely essential in big cities.", "answer": "couldn't"},
+              {"text": "I ___ where you're coming from, although I feel the evidence tells a different story.", "answer": "see"},
+              {"text": "From my ___, the benefits outweigh the risks significantly.", "answer": "perspective"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete the discussion with the correct response.",
+            "sentences": [
+              {"text": "Arjun: 'I think people should work fewer hours.' Priya: '___ agree — employee wellbeing matters more than output.'", "answer": "I completely / Absolutely"},
+              {"text": "Meera: 'Social media is making people less sociable.' Sonal: 'I ___ your point, but I think it also connects people who couldn't meet otherwise.'", "answer": "take / see"},
+              {"text": "Ravi: 'Online education will replace traditional schools.' Kavya: 'I'm not sure I ___ — I think face-to-face teaching has unique value.'", "answer": "agree"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a strong opinion sentence.",
+            "words": ["believe", "I", "that", "essential", "strongly", "is", "exercise", "daily"],
+            "answer": "I strongly believe that daily exercise is essential."
+          }
+        },
+        {
+          "task_id": "t1110_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a polite partial disagreement.",
+            "words": ["that", "point", "think", "see", "the", "I", "but", "your", "I", "differently"],
+            "answer": "I see your point, but I think differently."
+          }
+        },
+        {
+          "task_id": "t1110_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the opinion phrase to its level of certainty.",
+            "pairs": [
+              {"left": "I strongly believe that...", "right": "Very strong, confident opinion"},
+              {"left": "I suppose...", "right": "Soft, hesitant opinion"},
+              {"left": "I couldn't agree more.", "right": "Maximum agreement"},
+              {"left": "I see your point, but...", "right": "Partial agreement with counterpoint"},
+              {"left": "I'm afraid I see it differently.", "right": "Polite disagreement"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Opinion debate — work from home vs office — Mumbai startup",
+            "setting": "Three colleagues — Priya, Arjun, and Meera — are having a friendly debate during lunch about remote working. They all have different views.",
+            "dialogue": [
+              {"speaker": "Priya", "text": "I strongly believe that working from home is the future. The productivity stats speak for themselves."},
+              {"speaker": "Arjun", "text": "I completely agree about productivity for individual tasks. But I think collaboration suffers when everyone is remote."},
+              {"speaker": "Priya", "text": "I see your point, but tools like Slack and Teams have made collaboration much easier. Physical presence isn't always necessary."},
+              {"speaker": "Meera", "text": "I'm inclined to think a hybrid model is the answer. In my opinion, neither extreme is ideal."},
+              {"speaker": "Arjun", "text": "That's a valid point, Meera. I agree up to a point — but I think junior employees especially need to be in the office to learn and grow."},
+              {"speaker": "Priya", "text": "I take your point on that. There's definitely a difference between senior staff and people just starting out."},
+              {"speaker": "Meera", "text": "Exactly! From my perspective, the best arrangement depends on the role, the team, and the individual."},
+              {"speaker": "Arjun", "text": "I couldn't agree more with that last point. It's not one-size-fits-all."},
+              {"speaker": "Priya", "text": "Personally, what I find most valuable about remote work is the time saved on commuting. Two hours a day back in my life is enormous."},
+              {"speaker": "Meera", "text": "Oh, I absolutely agree there — the commute factor alone is life-changing for many people in Mumbai."},
+              {"speaker": "Arjun", "text": "Fair enough — I'm coming around to the idea. I suppose what I really want is choice. The freedom to decide for myself."},
+              {"speaker": "Priya", "text": "Now that's something I think all three of us can agree on!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What does Arjun think suffers with remote work?",
+                "options": ["Productivity", "Individual output", "Collaboration", "Technology use"],
+                "correct": "Collaboration"
+              },
+              {
+                "question": "What does Meera say is the best working arrangement?",
+                "options": ["Full remote", "Full office", "A hybrid model", "Four-day week"],
+                "correct": "A hybrid model"
+              },
+              {
+                "question": "What does Priya say is the most valuable thing about working from home?",
+                "options": ["No dress code", "Better pay", "Time saved on commuting", "More meetings"],
+                "correct": "Time saved on commuting"
+              }
+            ],
+            "discussion_questions": [
+              "Find 3 examples of PARTIAL AGREEMENT in the dialogue. What structure is used each time?",
+              "Find 2 examples of STRONG AGREEMENT. Which phrases are used?",
+              "By the end, do all three colleagues agree on anything? What is it?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the opinion language mistake.",
+            "sentences": [
+              {
+                "wrong": "In my opinion I think that technology is good.",
+                "correct": "In my opinion, technology has been largely beneficial. / I think technology is generally good.",
+                "explanation": "'In my opinion' and 'I think' mean the same — don't use both together. Choose one."
+              },
+              {
+                "wrong": "I see your point but you are wrong.",
+                "correct": "I see your point, but I think there's another perspective worth considering.",
+                "explanation": "After acknowledging their point, disagree constructively — not bluntly. Explain your view instead."
+              },
+              {
+                "wrong": "I couldn't agree less with you completely.",
+                "correct": "I couldn't agree more. / I completely agree.",
+                "explanation": "'I couldn't agree more' = maximum agreement. 'I couldn't agree less' = maximum disagreement. These mean opposite things — don't mix them."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1110_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "In a team meeting, a senior colleague presents an idea you think has a flaw. How do you politely raise your concern?",
+            "options": [
+              "That idea won't work.",
+              "I disagree completely.",
+              "That's a really interesting approach. I wonder if we've also considered what might happen if the budget runs over — could that be a challenge?",
+              "This is wrong."
+            ],
+            "correct": "That's a really interesting approach. I wonder if we've also considered what might happen if the budget runs over — could that be a challenge?",
+            "explanation": "Acknowledge the idea positively + raise concern as a question = professional and constructive disagreement."
+          }
+        },
+        {
+          "task_id": "t1110_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Give your opinion on this topic for 90 seconds: 'Social media does more harm than good.' Express your view clearly, acknowledge the other side, and explain your reasoning.",
+            "prompt": "Express your opinion on social media being harmful or beneficial. Use strong opinion language AND partial agreement/counterpoints.",
+            "example_response": "In my opinion, social media does more harm than good — but I'll acknowledge that it's a nuanced issue. Let me start with the problems. From my perspective, social media has contributed significantly to mental health issues, especially among young people. The constant comparison to other people's highlight reels creates unrealistic expectations and a deep sense of inadequacy. I strongly believe this is one of the biggest challenges of our generation. The spread of misinformation is another serious concern — false news travels much faster than facts, and I think that's genuinely dangerous for society. That said, I do see the counterarguments. Social media has made it possible for communities to organise, for small businesses to reach customers they never could before, and for people separated by distance to stay connected. I take that point — those are real benefits. But on balance, as far as I'm concerned, the mental health impact and the misinformation crisis outweigh the positives — at least the way social media currently works. I'm inclined to think that with better regulation and education, it could be reformed into something much healthier.",
+            "key_phrases": ["In my opinion", "From my perspective", "I strongly believe", "That said", "I take that point", "On balance", "As far as I'm concerned"],
+            "min_words": 130
+          }
+        },
+        {
+          "task_id": "t1110_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Read the debate dialogue again. Then discuss: which speaker — Priya, Arjun, or Meera — do YOU agree with most, and why?",
+            "prompt": "Evaluate the three positions in the work-from-home debate and explain which you find most convincing.",
+            "example_response": "Having read all three positions in the debate, I find myself agreeing most with Meera's view — that a hybrid model is the best solution. And I'll explain why. Priya makes some strong points about productivity and the value of saved commuting time — I absolutely see where she's coming from and I think she's right about individual focused work being better at home. However, I take Arjun's point too — I think collaboration and mentoring do suffer with full remote work. Junior employees especially need that in-person learning environment. Meera's position, to my mind, is the most thoughtful because it acknowledges both sides rather than taking an extreme stance. She says the right arrangement depends on the role, the team, and the individual — and I strongly believe that's true. A data analyst may work perfectly well remotely, while a new junior designer might need office time to absorb the culture and get quick feedback. As far as I'm concerned, the best companies will be those that trust their employees to know what works for them — with some structure around team time. So yes — I'm very much in Meera's camp on this one!",
+            "key_phrases": ["I find myself agreeing with", "I absolutely see where they're coming from", "I take their point", "to my mind", "I strongly believe", "As far as I'm concerned"],
+            "min_words": 140
+          }
+        },
+        {
+          "task_id": "t1110_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this opinion paragraph using the phrases in brackets.",
+            "text": "___ (1) my opinion, the Indian education system needs significant reform. ___ (2), the focus on rote memorisation over critical thinking is a serious limitation. ___ (3) I understand why standardised exams exist — they provide a common measure — ___ (4) believe they do not adequately assess creativity or problem-solving skills.\n\nThat ___ (5), I do think some aspects of the system are strong. The emphasis on mathematics and science, ___ (6) example, has produced some of the world's best engineers and doctors. ___ (7) point, Ravi — and it's a fair one.\n\n___ (8) the whole, however, I am ___ (9) to think that a more skills-based, project-driven approach would serve students better in today's world. ___ (10) me that the countries producing the most innovative graduates are those with the most flexible education systems.",
+            "answers": ["In", "Personally", "While", "I strongly", "said", "for", "Good", "On", "inclined", "It seems to"]
+          }
+        },
+        {
+          "task_id": "t1110_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 10 complete — Expressing opinions and agreeing/disagreeing",
+            "key_points": [
+              "Strong: 'I strongly believe / I'm absolutely convinced'",
+              "Mild: 'I think / I feel / In my opinion / Personally'",
+              "Soft: 'I suppose / I tend to think / It seems to me'",
+              "Full agreement: 'I couldn't agree more / Absolutely / Exactly'",
+              "Partial agreement: 'You have a point, but... / I agree up to a point, however...'",
+              "Polite disagreement: 'I see it differently / I'm afraid I disagree / With respect, I think...'",
+              "Don't use 'In my opinion' AND 'I think' together — they mean the same"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Complaints and requests in person"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson11",
+      "unit": 11,
+      "lesson_number": 11,
+      "level": "A2",
+      "title": "Complaints and requests in person",
+      "description": "Make polite complaints and requests face-to-face — at hotels, shops, restaurants, and offices — and handle responses professionally.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1111_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "How to make a polite complaint",
+            "body": "A good complaint has THREE parts:\n1. EXPLAIN the problem clearly\n2. GIVE a reason why it matters\n3. REQUEST a solution\n\nUseful language:\n• 'I'm afraid there's a problem with...'\n• 'I'd like to bring something to your attention.'\n• 'I'm not entirely happy with...'\n• 'I think there may have been a mistake with...'\n• 'I was expecting... but instead...'\n• 'This isn't quite what I ordered / asked for.'\n\nRequesting a solution:\n• 'Could you possibly...?'\n• 'I'd appreciate it if you could...'\n• 'Would it be possible to...?'\n• 'I'd like a replacement / refund / correction, please.'",
+            "grammar_note": "Polite complaints use 'I'm afraid' to soften\n'I'm not entirely happy' = softer than 'This is terrible'\nAlways request a solution, not just complain"
+          }
+        },
+        {
+          "task_id": "t1111_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Handling a complaint — the staff side",
+            "body": "If you work in service and receive a complaint, respond professionally:\n\nACKNOWLEDGING:\n• 'I understand completely — I'm very sorry about that.'\n• 'Thank you for bringing this to our attention.'\n• 'I sincerely apologise for the inconvenience.'\n\nOFFERING SOLUTIONS:\n• 'I'll look into this right away.'\n• 'I can offer you a replacement / refund / discount.'\n• 'Let me speak to the manager for you.'\n• 'We'll make sure this doesn't happen again.'\n\nNEVER say:\n✗ 'That's not my problem.'\n✗ 'You should have checked before.'\n✗ 'I can't do anything about it.'",
+            "grammar_note": "Always acknowledge before offering a solution\n'I'll look into this' = I will investigate immediately\nNever blame the customer"
+          }
+        },
+        {
+          "task_id": "t1111_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Complaints and service",
+            "vocabulary": [
+              {"word": "defective", "meaning": "broken or not working properly", "example": "The charger I bought is defective — it doesn't work."},
+              {"word": "overcharged", "meaning": "made to pay too much", "example": "I think I've been overcharged — the bill seems too high."},
+              {"word": "refund", "meaning": "money given back after returning a product", "example": "I'd like a full refund, please."},
+              {"word": "exchange", "meaning": "to swap a product for another", "example": "Could I exchange this for a larger size?"},
+              {"word": "escalate", "meaning": "to take a problem to a higher level", "example": "If this isn't resolved, I'll need to escalate the complaint."},
+              {"word": "resolution", "meaning": "the solution to a problem or complaint", "example": "Thank you — I'm happy with this resolution."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l11_listen",
+            "sentences": [
+              "I'm afraid there's a problem with my room — the air conditioning isn't working.",
+              "I think there may have been a mistake with my bill — I was charged for a dish I didn't order.",
+              "I understand completely — I'll look into this right away.",
+              "Could you possibly send someone to fix it as soon as possible?",
+              "I'd like to return this — it seems to be defective."
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "You ordered a vegetarian meal but received a non-vegetarian one. Which is the most polite complaint?",
+            "options": [
+              "This is wrong! Take it back!",
+              "Excuse me — I'm afraid this isn't what I ordered. I asked for the vegetarian option. Could you check and replace it, please?",
+              "I hate this food.",
+              "Wrong food. Change it."
+            ],
+            "correct": "Excuse me — I'm afraid this isn't what I ordered. I asked for the vegetarian option. Could you check and replace it, please?",
+            "explanation": "'I'm afraid' softens the complaint. State the problem clearly, reference your original request, and politely ask for a solution."
+          }
+        },
+        {
+          "task_id": "t1111_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "You bought a pair of headphones and one side doesn't work. What do you say at the shop?",
+            "options": [
+              "These headphones are broken! Give me money back!",
+              "Excuse me — I bought these headphones yesterday and I'm afraid one side appears to be defective. I'd like to exchange them or get a refund, please.",
+              "This doesn't work.",
+              "I want to complain about everything in this shop."
+            ],
+            "correct": "Excuse me — I bought these headphones yesterday and I'm afraid one side appears to be defective. I'd like to exchange them or get a refund, please.",
+            "explanation": "Polite structure: context (when you bought) + problem ('I'm afraid' + defective) + clear request (exchange or refund)."
+          }
+        },
+        {
+          "task_id": "t1111_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "A customer complains that their hotel room was not cleaned. The best staff response is:",
+            "options": [
+              "You should have called earlier.",
+              "That's housekeeping's fault, not mine.",
+              "I sincerely apologise for this — that's certainly not the standard we aim for. I'll send housekeeping up immediately.",
+              "The room was cleaned — you must be wrong."
+            ],
+            "correct": "I sincerely apologise for this — that's certainly not the standard we aim for. I'll send housekeeping up immediately.",
+            "explanation": "Acknowledge, apologise, reassure, and offer immediate action. Never blame the customer or defend poorly."
+          }
+        },
+        {
+          "task_id": "t1111_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "You check your restaurant bill and notice you've been charged for a dessert you didn't have. What do you say?",
+            "options": [
+              "You made a mistake!",
+              "Excuse me — I think there might be an error on my bill. I see a charge for dessert, but I don't believe we ordered any. Could you double-check?",
+              "The bill is wrong. Change it.",
+              "I'm not paying this."
+            ],
+            "correct": "Excuse me — I think there might be an error on my bill. I see a charge for dessert, but I don't believe we ordered any. Could you double-check?",
+            "explanation": "'I think there might be an error' = polite framing. 'I don't believe' = less accusatory than 'you made a mistake'."
+          }
+        },
+        {
+          "task_id": "t1111_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the correct complaint or resolution phrase.",
+            "sentences": [
+              {"text": "'I'm ___ there's a problem with my order — it seems to be missing an item.'", "answer": "afraid"},
+              {"text": "'I ___ like a replacement or a full refund, please.'", "answer": "would / 'd"},
+              {"text": "'Thank you for ___ this to our attention — I'll sort it immediately.'", "answer": "bringing"},
+              {"text": "'I was ___ for two coffees but I only ordered one.'", "answer": "charged / overcharged"},
+              {"text": "'Could you ___ send someone to check the issue?'", "answer": "possibly"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete this hotel complaint conversation.",
+            "sentences": [
+              {"text": "Guest: '___ there seems to be a problem with the hot water in my room.' (Excuse me)", "answer": "Excuse me —"},
+              {"text": "Staff: 'I ___ — I'll send maintenance right away.' (apologise sincerely)", "answer": "sincerely apologise"},
+              {"text": "Guest: 'Also, I ___ I was charged for breakfast I didn't have.' (think — mistake)", "answer": "think there may have been a mistake —"},
+              {"text": "Staff: 'Let me ___ the bill and correct it immediately.' (check)", "answer": "check"},
+              {"text": "Guest: 'Thank you — I appreciate your ___ response.' (quick)", "answer": "quick / prompt"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a polite complaint sentence.",
+            "words": ["the", "afraid", "not", "quite", "I'm", "working", "heating", "is"],
+            "answer": "I'm afraid the heating is not quite working."
+          }
+        },
+        {
+          "task_id": "t1111_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a resolution offer from staff.",
+            "words": ["right", "into", "look", "I'll", "this", "away"],
+            "answer": "I'll look into this right away."
+          }
+        },
+        {
+          "task_id": "t1111_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the complaint to the appropriate solution response.",
+            "pairs": [
+              {"left": "'My room hasn't been cleaned.'", "right": "I sincerely apologise — I'll send housekeeping up immediately."},
+              {"left": "'I've been charged for something I didn't order.'", "right": "I'll check the bill and correct it right away."},
+              {"left": "'This product I bought is defective.'", "right": "I can offer you an exchange or a full refund."},
+              {"left": "'The food took over an hour to arrive.'", "right": "I'm very sorry for the wait — let me offer a complimentary dessert."},
+              {"left": "'The Wi-Fi password I was given doesn't work.'", "right": "Let me reset it for you — here's the updated password."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "★ FEATURED DIALOGUE — Scenario 4: Hotel complaint and resolution — Chennai",
+            "scenario_id": "scenario_4",
+            "setting": "Kavya checks into a business hotel in Chennai. Several things are not right with her room and she needs to sort them out. This dialogue features polite complaints, professional staff responses, and a successful resolution.",
+            "learning_note": "Notice how Kavya stays calm and specific throughout — and how the staff responds with genuine solutions. This scenario is revisited in Lesson 13.",
+            "dialogue": [
+              {"speaker": "Kavya", "text": "Excuse me — I checked in about an hour ago. I'm in Room 412."},
+              {"speaker": "Receptionist", "text": "Yes of course — how can I help you, Ms Iyer?"},
+              {"speaker": "Kavya", "text": "I'm afraid there are a couple of issues with my room. First — the air conditioning isn't cooling properly. It's quite warm in there."},
+              {"speaker": "Receptionist", "text": "I sincerely apologise for that. I'll send our maintenance team up right away to check it."},
+              {"speaker": "Kavya", "text": "Thank you. The second issue is — I requested a non-smoking room when I booked, but the room smells strongly of smoke."},
+              {"speaker": "Receptionist", "text": "Oh — I'm very sorry about that. That's certainly not acceptable. Would you like us to move you to a different room?"},
+              {"speaker": "Kavya", "text": "Yes, I think that would be best. Could you possibly find me a room on a higher floor? I'd prefer the view as well if that's possible."},
+              {"speaker": "Receptionist", "text": "Of course — let me check availability. We do have Room 608 on the sixth floor — it's a deluxe room with a city view. I can move you there at no extra charge."},
+              {"speaker": "Kavya", "text": "That sounds perfect. One more thing — I was charged for airport pickup in my bill but I actually made my own way here."},
+              {"speaker": "Receptionist", "text": "I'll look into that right away. I can see there may have been a mix-up with the booking. I'll remove that charge from your bill immediately."},
+              {"speaker": "Kavya", "text": "Thank you — I appreciate that. And could I also request extra towels to be sent to the new room?"},
+              {"speaker": "Receptionist", "text": "Absolutely — I'll have them sent up along with a welcome amenity as our apology for the inconvenience."},
+              {"speaker": "Kavya", "text": "That's very kind. Thank you for handling this so efficiently — I appreciate it."},
+              {"speaker": "Receptionist", "text": "Of course, Ms Iyer. We want to make sure your stay is as comfortable as possible. I'll arrange for your bags to be moved to Room 608 within the next 15 minutes."}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What are the THREE problems Kavya reports?",
+                "options": [
+                  "Bad food, broken TV, wrong room",
+                  "AC not cooling, smoky room, incorrect charge on bill",
+                  "No hot water, smoky room, wrong floor",
+                  "Dirty room, AC problem, slow room service"
+                ],
+                "correct": "AC not cooling, smoky room, incorrect charge on bill"
+              },
+              {
+                "question": "What room is Kavya moved to?",
+                "options": ["Room 412", "Room 504", "Room 608", "Room 412 after fixing"],
+                "correct": "Room 608"
+              },
+              {
+                "question": "What extra does the hotel offer as an apology?",
+                "options": ["A free dinner", "A late checkout", "A welcome amenity", "A room upgrade fee waived and free dinner"],
+                "correct": "A welcome amenity"
+              }
+            ],
+            "discussion_questions": [
+              "What three complaint phrases does Kavya use? How does each one stay polite?",
+              "What makes the receptionist's responses professional? List 3 things.",
+              "How does the conversation end positively despite the problems?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the complaint language mistake.",
+            "sentences": [
+              {
+                "wrong": "This food is disgusting — you should be ashamed!",
+                "correct": "Excuse me — I'm afraid this dish doesn't taste quite right. Could you check if everything is okay with it?",
+                "explanation": "Personal attacks and extreme language make complaints worse. Stay calm and specific."
+              },
+              {
+                "wrong": "Staff response: 'That's not my department.'",
+                "correct": "Staff response: 'Let me find the right person to help you — I'll connect you to the manager right away.'",
+                "explanation": "Good service = never pass the buck. Take ownership and connect them to a solution even if it's not directly your responsibility."
+              },
+              {
+                "wrong": "I want to make a complaint about everything.",
+                "correct": "Excuse me — I'd like to raise a concern about [specific issue], please.",
+                "explanation": "Complaints should be specific and focused. 'Everything' is vague and unhelpful."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1111_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You ordered a product online and it arrived damaged. You call customer service. What do you say?",
+            "options": [
+              "Your company is terrible! The product arrived broken!",
+              "Hello — I recently placed an order and I'm afraid the product arrived damaged. The packaging was intact but the item inside was cracked. Could you arrange a replacement or refund, please?",
+              "Damaged item. Want money back.",
+              "This is unacceptable and I'll never order again."
+            ],
+            "correct": "Hello — I recently placed an order and I'm afraid the product arrived damaged. The packaging was intact but the item inside was cracked. Could you arrange a replacement or refund, please?",
+            "explanation": "Polite, specific complaint: 'I'm afraid' + clear description of damage + specific request for resolution."
+          }
+        },
+        {
+          "task_id": "t1111_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Role-play a restaurant complaint. You've been waiting 45 minutes for your food. When it arrives, it's cold and the wrong order. Make a polite but firm complaint and request a resolution.",
+            "prompt": "Make a polite restaurant complaint covering: the wait time, the wrong food, the temperature, and your requested resolution.",
+            "example_response": "Excuse me — I'm afraid there are a couple of issues I need to raise. Firstly, we've been waiting nearly 45 minutes for our food — the expected time was 20 minutes. We were quite worried that the order had been forgotten. Secondly, when the food arrived, I'm afraid this isn't what I ordered. I asked for the paneer tikka masala, but this appears to be a different dish — I think it might be the butter chicken. And unfortunately, the food has also arrived quite cold, which suggests it may have been sitting for a while. I completely understand that you're busy today and I don't want to make a scene — but I'd like to request that you replace my dish with the correct one, freshly made and hot. It would also be very much appreciated if the manager could check on this. I've been a regular here for years and I know this isn't the standard you normally maintain.",
+            "key_phrases": ["I'm afraid there are a couple of issues", "I asked for... but this appears to be...", "I'd like to request that you replace", "I completely understand", "It would be appreciated if"],
+            "min_words": 130
+          }
+        },
+        {
+          "task_id": "t1111_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Now role-play the OTHER side — you are the restaurant manager. A customer comes to you with the complaint from Task 17. Handle it professionally.",
+            "prompt": "As a restaurant manager, respond to a customer's complaint about wait time, wrong food, and cold temperature. Acknowledge, apologise, and offer a solution.",
+            "example_response": "Good evening — I'm the manager. I understand you've had some issues this evening and I want to sincerely apologise for that. A 45-minute wait is absolutely not what we aim for and I can see that we fell short of our standards tonight. I also apologise for the mix-up with your order — receiving the wrong dish is completely unacceptable and I take full responsibility for that. And the food being cold on top of that — I'm truly sorry. Here's what I'd like to do. First, I'm having the correct dish — the paneer tikka masala — prepared fresh for you right now. It'll be ready in about 10 minutes. Second, I'd like to offer you and your companion complimentary desserts as an apology for the inconvenience. And finally, I'm removing the main course from your bill tonight. You've been a loyal customer and I want to make sure you leave tonight feeling that we've done right by you. I'll personally check on your table once the food arrives. Once again, I'm genuinely sorry for your experience this evening.",
+            "key_phrases": ["I sincerely apologise", "that's completely unacceptable", "I take full responsibility", "here's what I'd like to do", "I want to make sure you leave satisfied"],
+            "min_words": 140
+          }
+        },
+        {
+          "task_id": "t1111_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this written complaint email.",
+            "text": "Subject: Complaint Regarding Stay — Room 412 — 10-12 October\n\nDear Manager,\n\nI am writing ___ (1) a complaint regarding my recent stay at your hotel on the above dates.\n\n___ (2), I would like to highlight that my room was not ___ (3) — I specifically requested a non-smoking room during booking, yet the room had a strong smell of smoke. I was eventually ___ (4) to Room 608, which I appreciate.\n\nSecondly, I ___ (5) to have been incorrectly charged for an airport pickup service that I did not use. ___ (6), this was resolved at reception, but I would ask that you review your booking system to prevent similar errors.\n\nI was generally satisfied with the ___ (7) of your staff in resolving these issues. However, given the ___ (8) I experienced, I ___ (9) appreciate a partial refund or a complimentary upgrade on my next visit.\n\n___ (10) forward to your response.\n\nYours sincerely,\nKavya Iyer",
+            "answers": ["to raise / regarding", "Firstly", "as requested / non-smoking", "moved", "appear / appeared", "Fortunately", "professionalism / responsiveness", "inconvenience", "would", "I look"]
+          }
+        },
+        {
+          "task_id": "t1111_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 11 complete — Complaints and requests in person",
+            "key_points": [
+              "Structure: explain problem + why it matters + request a solution",
+              "'I'm afraid there's a problem with...' softens the opening",
+              "'I think there may have been a mistake with...' = polite framing",
+              "Request: 'Could you possibly...?' / 'I'd appreciate it if...'",
+              "Staff response: acknowledge → apologise → offer solution immediately",
+              "Never blame the customer or say 'That's not my problem'",
+              "Stay calm and specific — vague or emotional complaints are harder to resolve"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Describing problems and solutions"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson12",
+      "unit": 11,
+      "lesson_number": 12,
+      "level": "A2",
+      "title": "Describing problems and solutions",
+      "description": "Explain problems clearly and suggest practical solutions using structured language in conversations and written communication.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1112_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Describing a problem clearly",
+            "body": "When explaining a problem, be CLEAR, SPECIFIC, and STRUCTURED.\n\nUseful phrases:\n• 'The issue is that...'\n• 'The problem is...'\n• 'I'm having trouble with...'\n• 'What's happening is...'\n• 'The main concern is...'\n• 'It seems like...'\n• 'This has been going on for [time].'\n• 'It started when...'\n• 'Every time I [action], [problem] happens.'\n\nExample:\n'The issue is that the website keeps crashing every time I try to submit a form. This has been happening for three days. It started after the latest update.'",
+            "grammar_note": "Be specific: what + when + how long + trigger\n'Every time + I + verb + problem' = cause-effect pattern\nUse present continuous for ongoing problems: 'It's been happening'"
+          }
+        },
+        {
+          "task_id": "t1112_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Suggesting and evaluating solutions",
+            "body": "Suggesting solutions:\n• 'What I'd suggest is...'\n• 'One option would be to...'\n• 'Have you tried...?'\n• 'It might be worth trying...'\n• 'Perhaps we could...'\n• 'The best course of action would be to...'\n• 'My recommendation would be to...'\n\nEvaluating solutions:\n• 'That could work, but...'\n• 'That's a good idea — it would also...'\n• 'The downside of that is...'\n• 'I think that's the most practical option.'\n• 'That might not work because...'\n• 'On balance, I think [option] is the best approach.'",
+            "grammar_note": "Suggestions: conditional mood — 'would be', 'could', 'might'\n'On balance' = considering everything\n'The downside of that is' = identifying a weakness"
+          }
+        },
+        {
+          "task_id": "t1112_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Problems and solutions",
+            "vocabulary": [
+              {"word": "root cause", "meaning": "the original reason behind a problem", "example": "We need to identify the root cause before we can fix it."},
+              {"word": "workaround", "meaning": "a temporary solution to a problem", "example": "Until the bug is fixed, this is a useful workaround."},
+              {"word": "interim", "meaning": "temporary, in the meantime", "example": "This is an interim solution while we wait for the full fix."},
+              {"word": "resolve", "meaning": "to find a solution to a problem", "example": "We hope to resolve this by end of week."},
+              {"word": "ongoing", "meaning": "still continuing", "example": "This is an ongoing issue that needs urgent attention."},
+              {"word": "mitigate", "meaning": "to reduce the severity of a problem", "example": "We can mitigate the risk by backing up data daily."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l12_listen",
+            "sentences": [
+              "The issue is that the system keeps freezing every time we run a large report.",
+              "This has been going on for about a week — ever since the latest update.",
+              "What I'd suggest is rolling back the update and running a clean install.",
+              "That could work, but the downside is we'd lose some recent data.",
+              "On balance, I think the clean install is our best option right now."
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Which sentence describes a problem most clearly and specifically?",
+            "options": [
+              "Everything is broken.",
+              "Something is wrong with the computer sometimes.",
+              "The laptop freezes every time I open the design software — it's been happening since yesterday afternoon.",
+              "I have a problem."
+            ],
+            "correct": "The laptop freezes every time I open the design software — it's been happening since yesterday afternoon.",
+            "explanation": "Specific problem (freezes) + trigger (when I open design software) + duration (since yesterday) = clear, actionable description."
+          }
+        },
+        {
+          "task_id": "t1112_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Your colleague suggests a solution. You think it's good but has one weakness. What do you say?",
+            "options": [
+              "No, that's a bad idea.",
+              "That's a good idea — the only downside is the extra cost, but I think it's worth it.",
+              "Maybe.",
+              "We already tried that."
+            ],
+            "correct": "That's a good idea — the only downside is the extra cost, but I think it's worth it.",
+            "explanation": "Acknowledge the strength first, identify one downside, then give your overall view — balanced and constructive."
+          }
+        },
+        {
+          "task_id": "t1112_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which phrase suggests a solution most politely?",
+            "options": [
+              "Do this.",
+              "You should do this.",
+              "What I'd suggest is starting with a smaller pilot before committing to a full rollout.",
+              "That is the solution."
+            ],
+            "correct": "What I'd suggest is starting with a smaller pilot before committing to a full rollout.",
+            "explanation": "'What I'd suggest is...' = professional, soft-worded recommendation that doesn't sound like a command."
+          }
+        },
+        {
+          "task_id": "t1112_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What does 'on balance' mean when evaluating solutions?",
+            "options": [
+              "Weighing something on a scale",
+              "After considering all factors, overall",
+              "The most balanced diet",
+              "Balancing two jobs"
+            ],
+            "correct": "After considering all factors, overall",
+            "explanation": "'On balance' = having weighed the pros and cons, this is my overall conclusion."
+          }
+        },
+        {
+          "task_id": "t1112_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the correct problem or solution phrase.",
+            "sentences": [
+              {"text": "'The ___ is that the delivery was sent to the wrong address — twice.'", "answer": "issue / problem"},
+              {"text": "'This has been ___ on since last Tuesday.'", "answer": "going"},
+              {"text": "'What I'd ___ is calling the courier directly — they can reroute it.'", "answer": "suggest"},
+              {"text": "'That could work, but the ___ is the extra 2-day delay it would cause.'", "answer": "downside"},
+              {"text": "'On ___, I think Option B is the more practical solution.'", "answer": "balance"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Describe this problem in 3 sentences using the given prompts.",
+            "sentences": [
+              {"text": "Problem: App crashes on login. Duration: 2 days. Trigger: After update. → 'The ___ is that the app ___ every time I try to log in. This has been ___ since the update two days ago. It ___ working before the update was installed.'", "answer": "issue / crashes / happening / was"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a clear problem description.",
+            "words": ["the", "every", "freezes", "issue", "I", "open", "is", "that", "it", "time", "the", "app"],
+            "answer": "The issue is that it freezes every time I open the app."
+          }
+        },
+        {
+          "task_id": "t1112_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a solution suggestion.",
+            "words": ["suggest", "first", "the", "What", "testing", "is", "I'd", "new", "system"],
+            "answer": "What I'd suggest is testing the new system first."
+          }
+        },
+        {
+          "task_id": "t1112_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the problem phrase to its function.",
+            "pairs": [
+              {"left": "The issue is that...", "right": "States the problem clearly"},
+              {"left": "This has been going on for...", "right": "Gives the duration"},
+              {"left": "It started when...", "right": "Identifies when it began"},
+              {"left": "What I'd suggest is...", "right": "Offers a solution politely"},
+              {"left": "The downside of that is...", "right": "Identifies a weakness in a solution"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Problem-solving meeting — EdTech startup, Bangalore",
+            "setting": "The product team at an education app startup is having a problem-solving meeting. The app has a bug affecting users. Meera (product lead), Arjun (tech lead), and Sonal (user experience) discuss the issue and solutions.",
+            "dialogue": [
+              {"speaker": "Meera", "text": "Right — let's get into it. Arjun, can you describe exactly what the issue is?"},
+              {"speaker": "Arjun", "text": "Sure. The problem is that users on Android devices are unable to complete a quiz without the app crashing. Every time they reach question 10, it freezes and exits."},
+              {"speaker": "Meera", "text": "How long has this been going on?"},
+              {"speaker": "Arjun", "text": "Since yesterday evening — about 18 hours. It started after we pushed the 2.4.1 update."},
+              {"speaker": "Sonal", "text": "I've had 47 user complaints in the last 12 hours — people are really frustrated. Some say they've lost their quiz scores entirely."},
+              {"speaker": "Meera", "text": "Okay. What do we think the root cause is?"},
+              {"speaker": "Arjun", "text": "It seems like the new question-rendering code has a memory leak on Android. It's fine on iOS — only Android is affected."},
+              {"speaker": "Meera", "text": "So what are our options?"},
+              {"speaker": "Arjun", "text": "Option one: roll back to version 2.4.0 — that would fix the crash immediately but we'd lose the new features."},
+              {"speaker": "Sonal", "text": "The downside of that is users who downloaded 2.4.1 expecting those features would be unhappy."},
+              {"speaker": "Arjun", "text": "Agreed. Option two: patch the memory leak — I think I can have a fix ready in about 4 hours."},
+              {"speaker": "Meera", "text": "What I'd suggest is the patch — it addresses the root cause. In the meantime, we should push a pop-up to Android users warning them and asking them to restart the app if it crashes."},
+              {"speaker": "Sonal", "text": "That's a good interim measure. I can also draft a message to affected users explaining the issue and confirming we're working on it."},
+              {"speaker": "Meera", "text": "Perfect. On balance, the patch plus communication to users is the right approach. Arjun — how confident are you in 4 hours?"},
+              {"speaker": "Arjun", "text": "Very confident — I've already identified the line causing the issue."},
+              {"speaker": "Meera", "text": "Great. Let's go. Update me at 4 PM."}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "Which device is affected by the bug?",
+                "options": ["iOS only", "Both iOS and Android", "Android only", "Windows"],
+                "correct": "Android only"
+              },
+              {
+                "question": "What does the team decide to do?",
+                "options": [
+                  "Roll back to 2.4.0",
+                  "Shut down the app",
+                  "Patch the memory leak + send a communication to users",
+                  "Wait for user complaints to stop"
+                ],
+                "correct": "Patch the memory leak + send a communication to users"
+              },
+              {
+                "question": "How long does Arjun say the fix will take?",
+                "options": ["1 hour", "2 hours", "4 hours", "Until tomorrow"],
+                "correct": "4 hours"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the problem-description language mistake.",
+            "sentences": [
+              {
+                "wrong": "The problem is everything doesn't work since a long time.",
+                "correct": "The problem is that nothing is working properly — this has been going on for about a week.",
+                "explanation": "'Everything doesn't work' is vague. 'Since a long time' is wrong — use 'for a long time' or 'for about a week'."
+              },
+              {
+                "wrong": "My suggestion is you must do this immediately.",
+                "correct": "What I'd suggest is addressing this as soon as possible.",
+                "explanation": "'You must' is too commanding for a suggestion. Use 'What I'd suggest is...' for a professional recommendation."
+              },
+              {
+                "wrong": "That idea is bad because it won't work at all.",
+                "correct": "I see merit in that idea, though I'm concerned it might not fully address the root cause — perhaps we could combine it with...?",
+                "explanation": "Never flatly dismiss an idea in a professional setting. Acknowledge, raise concern, and build on it."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1112_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "A colleague suggests solving a data backup problem by emailing all files to a personal Gmail account. You see an obvious security issue with this. What do you say?",
+            "options": [
+              "That's a terrible idea.",
+              "No, that's against company policy.",
+              "I see why that seems practical, but the concern with using personal email is data security — it would potentially violate our privacy policy. What I'd suggest instead is using the company's approved cloud storage system.",
+              "We can't do that."
+            ],
+            "correct": "I see why that seems practical, but the concern with using personal email is data security — it would potentially violate our privacy policy. What I'd suggest instead is using the company's approved cloud storage system.",
+            "explanation": "Acknowledge the intent → identify the specific concern professionally → offer a constructive alternative."
+          }
+        },
+        {
+          "task_id": "t1112_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Describe a real or imagined work or study problem clearly. Then suggest two possible solutions and evaluate which is better.",
+            "prompt": "Describe a problem (what, when, how long, trigger) + suggest 2 solutions + evaluate them using 'the downside of... / on balance...'",
+            "example_response": "Let me describe a problem I've been having with time management at work. The issue is that I keep missing my own deadlines — not external ones set by managers, but the personal targets I set for myself. This has been going on for about two months. It started when our team expanded and I began attending many more meetings per day. Every time I sit down to focus, a meeting or a message interrupts me.\n\nI can see two solutions. Option one is to block two hours in my calendar every morning as 'focus time' — no meetings allowed during that block. The downside of that is that some of my team's standup meetings happen at 10 AM and I'd need to exclude those. Option two is to shift my focused work to early morning before the office hours officially begin — say 7 to 9 AM — when there are genuinely no interruptions.\n\nOn balance, I think Option two is more practical for now, because I have full control over it without needing anyone else's cooperation. I'll try it for two weeks and reassess.",
+            "key_phrases": ["The issue is that", "This has been going on for", "It started when", "Every time I...", "The downside of that is", "On balance, I think"],
+            "min_words": 140
+          }
+        },
+        {
+          "task_id": "t1112_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Think of a community or social problem you feel strongly about. Describe the problem clearly and suggest what you think the best solution is — and why.",
+            "prompt": "Describe a real social problem (traffic, pollution, water, education, etc.) and propose a solution using the language from this lesson.",
+            "example_response": "The problem I want to talk about is traffic congestion in Indian cities — specifically Chennai, which I know well. The issue is that the number of private vehicles on the road has grown massively over the past decade, but the road infrastructure hasn't kept pace. This has been worsening steadily for the past five to six years. Every morning, millions of people spend one to two hours commuting distances that should take 20 minutes. It started becoming critical around the time app-based cab services expanded rapidly and added significantly to road vehicles.\n\nThere are a few possible solutions. One option would be to significantly invest in and improve public transport — more metro lines, better buses, integrated ticketing systems. The downside of relying on this alone is that it takes years to build and doesn't help people today. Another option would be to introduce congestion pricing — charging a fee to drive into the city centre during peak hours, similar to what London and Singapore do. The concern with this is that it affects lower-income commuters more heavily.\n\nWhat I'd suggest as the most practical short-term step is a combination: better bus rapid transit corridors that can be set up relatively quickly, combined with employer incentives to stagger working hours so not everyone is on the road at the same time. On balance, I think reducing the NEED to travel during peak hours is as important as improving infrastructure.",
+            "key_phrases": ["The issue is that", "This has been worsening for", "One option would be to", "The downside of this is", "What I'd suggest is", "On balance"],
+            "min_words": 160
+          }
+        },
+        {
+          "task_id": "t1112_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this problem-and-solution email.",
+            "text": "Subject: Issue with Payroll System — Urgent\n\nDear IT Team,\n\nI am writing to ___ (1) an ongoing issue with the payroll system that has been affecting the finance team.\n\nThe ___ (2) is that the system is generating incorrect salary calculations for employees who work part-time hours. This has been ___ (3) on for approximately two weeks — ever since the system was updated on the 1st of this month.\n\nEvery time we try to ___ (4) a payroll run for part-time staff, the totals are 10-15% lower than they should be. We have checked the data entry and it appears to be a system ___ (5), not a user error.\n\nWhat I would ___ (6) is scheduling a system audit as soon as possible. In the ___ (7), could we process part-time payroll manually using the previous month's figures as a reference?\n\nThe ___ (8) of that workaround is the additional time it takes, but given the ___ (9) of getting salaries wrong, I believe it's the right step.\n\nCould you please ___ (10) this as a priority? I look forward to your response.\n\nKind regards,\nPriya Rajan, Finance Manager",
+            "answers": ["raise / report", "problem / issue", "going", "run", "error / bug / issue", "suggest", "interim / meantime", "downside", "risk / importance / seriousness", "treat / prioritise"]
+          }
+        },
+        {
+          "task_id": "t1112_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 12 complete — Describing problems and solutions",
+            "key_points": [
+              "Problem: 'The issue is that... / I'm having trouble with... / What's happening is...'",
+              "Duration: 'This has been going on for... / It started when...'",
+              "Trigger: 'Every time I [action], [problem] happens'",
+              "Suggest: 'What I'd suggest is... / One option would be to... / It might be worth...'",
+              "Evaluate: 'The downside of that is... / On balance, I think... / That could work, but...'",
+              "Root cause = original source of the problem",
+              "Workaround = temporary solution until the real fix is ready"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Unit 11 Review — All 5 dialogue scenarios + speaking test"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson13",
+      "unit": 11,
+      "lesson_number": 13,
+      "level": "A2",
+      "title": "Unit 11 Review — All 5 dialogue scenarios + speaking test",
+      "description": "Comprehensive review of all Unit 11 grammar, vocabulary, and communication skills. Revisit all 5 featured dialogue scenarios and complete extended speaking tasks.",
+      "estimated_minutes": 40,
+      "xp_reward": 250,
+      "tasks": [
+        {
+          "task_id": "t1113_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Unit 11 — Complete grammar and language summary",
+            "body": "All key language from Unit 11:\n\n1. QUESTION TAGS: positive → negative tag / negative → positive tag\n   'She works here, doesn't she?' / 'You haven't met him, have you?'\n\n2. SO/NEITHER + auxiliary: agreement with positive/negative statements\n   'So do I!' / 'Neither am I.' / 'Me neither.'\n\n3. INDIRECT QUESTIONS: statement word order + if/whether for yes/no\n   'Could you tell me where the station is?'\n\n4. POLITE REQUESTS: Would you mind + -ing / Could you possibly / I was wondering if\n\n5. PHONE ENGLISH: This is [name] calling / Bear with me / I'll put you through\n\n6. DIGITAL REGISTER: formal vs informal / abbreviations = casual only\n\n7. SMALL TALK: safe topics + reactions + follow-up questions\n\n8. OPINIONS: In my opinion / I strongly believe / I see your point but\n\n9. COMPLAINTS: I'm afraid there's a problem / Could you possibly / I'd appreciate\n\n10. PROBLEMS & SOLUTIONS: The issue is / What I'd suggest / On balance"
+          }
+        },
+        {
+          "task_id": "t1113_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "The 5 featured dialogue scenarios — recap",
+            "body": "In this lesson you will revisit all 5 featured dialogues:\n\n★ SCENARIO 1 (Lesson 1): Priya and Kavya catching up at a café — question tags in natural conversation\n\n★ SCENARIO 2 (Lesson 2): Office colleagues agreeing and disagreeing — So do I / Neither do I\n\n★ SCENARIO 3 (Lesson 4): Customer service phone call — polite requests and phone English\n\n★ SCENARIO 4 (Lesson 11): Hotel complaint and resolution — polite complaints and professional responses\n\n★ SCENARIO 5 (Lesson 7): Workplace team chat — professional online communication\n\nFor each scenario you will: recall the story, identify key language, and practise speaking.",
+            "grammar_note": "All 5 scenarios use real-world English you can use immediately\nFocus on: which language feature does each scenario practice?"
+          }
+        },
+        {
+          "task_id": "t1113_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Unit 11 vocabulary — master list",
+            "vocabulary": [
+              {"word": "question tag", "meaning": "short question at end of statement to check or invite agreement", "example": "It's cold today, isn't it?"},
+              {"word": "indirect question", "meaning": "polite question using statement word order", "example": "Could you tell me where the exit is?"},
+              {"word": "register", "meaning": "level of formality in language", "example": "Use formal register in professional emails."},
+              {"word": "heads up", "meaning": "advance notice", "example": "Just a heads up — the meeting moved."},
+              {"word": "loop in", "meaning": "to include someone in a conversation", "example": "Can you loop Meera in on this?"},
+              {"word": "root cause", "meaning": "original source of a problem", "example": "We found the root cause of the bug."},
+              {"word": "resolution", "meaning": "solution to a complaint or problem", "example": "I'm happy with this resolution."},
+              {"word": "on balance", "meaning": "after considering everything", "example": "On balance, Option A is better."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1113_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l13_listen",
+            "sentences": [
+              "It's been a while, hasn't it? — Almost a year, isn't it?",
+              "I love filter coffee. — So do I! It's the best way to start the day.",
+              "Could you tell me whether the conference room is free this afternoon?",
+              "I'm afraid there's a problem with my bill — I seem to have been overcharged.",
+              "The issue is that the system crashes every time I try to export a file."
+            ]
+          }
+        },
+        {
+          "task_id": "t1113_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "SCENARIO 1 RECALL: What was the question tag Priya used when she first saw Kavya?",
+            "options": [
+              "'It's lovely to see you, isn't it?'",
+              "'It's been so long, hasn't it?'",
+              "'You look great, don't you?'",
+              "'We should meet more, shouldn't we?'"
+            ],
+            "correct": "'It's been so long, hasn't it?'",
+            "explanation": "Priya opened with 'it's been so long, hasn't it?' — a classic question tag to check shared understanding and invite agreement."
+          }
+        },
+        {
+          "task_id": "t1113_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "SCENARIO 2 RECALL: What did Ravi and Arjun agree they BOTH hadn't done?",
+            "options": [
+              "Finished the project",
+              "Tried the new canteen menu",
+              "Taken their annual leave",
+              "Used the new software"
+            ],
+            "correct": "Taken their annual leave",
+            "explanation": "Both Ravi and Arjun hadn't taken their annual leave — Sonal also hadn't. 'Neither have I' was used for this."
+          }
+        },
+        {
+          "task_id": "t1113_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "SCENARIO 3 RECALL: Why was Priya's card blocked?",
+            "options": [
+              "She reported it lost.",
+              "She entered the wrong PIN three times.",
+              "The card expired.",
+              "There was suspicious online activity."
+            ],
+            "correct": "She entered the wrong PIN three times.",
+            "explanation": "In Scenario 3 (bank call), Priya's card was blocked after 3 incorrect PIN attempts at a petrol station."
+          }
+        },
+        {
+          "task_id": "t1113_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "SCENARIO 4 RECALL: How many problems did Kavya report at the hotel?",
+            "options": ["One", "Two", "Three", "Four"],
+            "correct": "Three",
+            "explanation": "Kavya reported: (1) AC not cooling, (2) room smelled of smoke despite requesting non-smoking, (3) incorrect charge for airport pickup."
+          }
+        },
+        {
+          "task_id": "t1113_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Mixed Unit 11 grammar review — fill in correctly.",
+            "sentences": [
+              {"text": "She hasn't replied yet, ___ ___? (question tag)", "answer": "has she"},
+              {"text": "'I'm exhausted after that trip.' → '___ ___ ___! (So/am/I)' (agreement)", "answer": "So am I"},
+              {"text": "Could you tell me ___ the nearest pharmacy ___? (indirect: where/is)", "answer": "where / is"},
+              {"text": "'I'd like to raise a ___.' (polite way to start a complaint)", "answer": "concern / complaint"},
+              {"text": "'___ I'd suggest is using the backup file.' (problem-solution)", "answer": "What"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1113_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "SCENARIO 5 RECALL: Complete this section from the workplace team chat.",
+            "text": "Priya: Hi team — ___ (1) a heads up: the client presentation is moved to Thursday at 3 PM.\nArjun: ___ (2) it — updated. Should I prepare any new slides?\nPriya: Yes — could you add a slide on Q3 results? Sonal — could you ___ (3) Meera in on this thread?\nSonal: ___ (4) do — I'll add her now.\nMeera: Good ___ (5), Priya — has the client seen our latest proposal?\nPriya: Good ___ (6), Meera — I'll check and get back to you by EOD.\nArjun: I've ___ (7) the Q3 data in the shared folder — file name 'Q3_Results_Oct_final'.",
+            "answers": ["just", "Got", "loop", "Will", "morning / afternoon", "flag / point / question", "dropped"]
+          }
+        },
+        {
+          "task_id": "t1113_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a complete sentence with a question tag.",
+            "words": ["been", "you", "Bangalore", "to", "haven't", "you", "haven't"],
+            "answer": "You haven't been to Bangalore, have you?"
+          }
+        },
+        {
+          "task_id": "t1113_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a polite complaint sentence.",
+            "words": ["there's", "I'm", "with", "a", "afraid", "bill", "problem", "my"],
+            "answer": "I'm afraid there's a problem with my bill."
+          }
+        },
+        {
+          "task_id": "t1113_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match each sentence to its Unit 11 language category.",
+            "pairs": [
+              {"left": "'The food is amazing, isn't it?'", "right": "Question tag"},
+              {"left": "'Neither do I — I find it too noisy.'", "right": "So/Neither agreement"},
+              {"left": "'Could you tell me if the lift is working?'", "right": "Indirect question"},
+              {"left": "'Would you mind lowering your voice?'", "right": "Polite request"},
+              {"left": "'The downside of that option is the extra cost.'", "right": "Evaluating a solution"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1113_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "★ ALL 5 SCENARIOS — Final review dialogue: A day in Priya's life",
+            "scenario_id": "all_scenarios_review",
+            "setting": "Follow Priya through one full day — a morning catch-up, a work challenge, a complaint, a phone call, and an evening chat. All 5 scenario types appear in this single connected dialogue.",
+            "learning_note": "This is your FINAL REVIEW DIALOGUE. It brings all 5 scenarios together. After reading, you will answer questions, identify language features, and role-play sections in the speaking tasks.",
+            "dialogue": [
+              {"speaker": "Narrator", "text": "MORNING — Coffee shop. Priya runs into her old college friend Kavya."},
+              {"speaker": "Priya", "text": "Kavya! What a coincidence — you're back in Chennai already, aren't you?"},
+              {"speaker": "Kavya", "text": "Just for two days! You look great — you haven't changed at all, have you?"},
+              {"speaker": "Priya", "text": "Ha! Flattery. How's the new job in Bangalore going?"},
+              {"speaker": "Kavya", "text": "Really well — I love it. I'm a bit tired though. So am I, honestly — I've barely slept this week."},
+              {"speaker": "Priya", "text": "Neither have I! Project deadlines. Anyway — I have to run. Let's catch up properly soon, shall we?"},
+              {"speaker": "Kavya", "text": "Absolutely — let's plan something!"},
+              {"speaker": "Narrator", "text": "AT THE OFFICE. Priya receives a message from her team lead Arjun."},
+              {"speaker": "Arjun (team chat)", "text": "Hi Priya — just a heads up: the client demo has moved to 3 PM today, not 4."},
+              {"speaker": "Priya (team chat)", "text": "Got it — I'll loop in Sonal and update the slides. Will action this by 2."},
+              {"speaker": "Arjun (team chat)", "text": "Perfect — flag me if anything needs sign-off."},
+              {"speaker": "Narrator", "text": "AT LUNCH. Priya calls a courier company about a package that was delivered to the wrong address."},
+              {"speaker": "Agent", "text": "Speedy Couriers — how can I help?"},
+              {"speaker": "Priya", "text": "Good afternoon — this is Priya Rajan calling. I'm afraid there's a problem with a delivery. The issue is that my package was sent to the wrong address — it happened yesterday and I still haven't received it."},
+              {"speaker": "Agent", "text": "I sincerely apologise — could you hold the line while I look into this?"},
+              {"speaker": "Priya", "text": "Of course — not at all."},
+              {"speaker": "Agent", "text": "Thank you for holding. I can see the package was delivered to 14B instead of 14A. I'll arrange a re-delivery for tomorrow morning."},
+              {"speaker": "Priya", "text": "I'd appreciate that. Could you confirm my address is correct on the system? I'd hate for this to happen again."},
+              {"speaker": "Agent", "text": "Absolutely — I'll verify and correct it right now."},
+              {"speaker": "Narrator", "text": "EVENING. Priya is on a call with her friend Sonal about a weekend plan."},
+              {"speaker": "Sonal", "text": "I've been thinking about visiting Pondicherry this weekend — have you been?"},
+              {"speaker": "Priya", "text": "I have — it's absolutely lovely, isn't it? You'll love the French Quarter."},
+              {"speaker": "Sonal", "text": "I'm so excited! Btw — should I book a hotel or just use Airbnb?"},
+              {"speaker": "Priya", "text": "In my opinion, Airbnb is better for Pondicherry — you get a more authentic experience. The boutique hotels near the beachfront are beautiful though."},
+              {"speaker": "Sonal", "text": "I see your point — I'll look at both options. What I'd suggest is booking early — it fills up fast at weekends."},
+              {"speaker": "Priya", "text": "Exactly — on balance, booking tonight is the right call. You'll have a wonderful time — I'm slightly jealous!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "In the morning, what do both Priya and Kavya have in common?",
+                "options": ["They've both been to Bangalore.", "Neither of them has slept well this week.", "They both work at the same company.", "They've both been to Pondicherry."],
+                "correct": "Neither of them has slept well this week."
+              },
+              {
+                "question": "In the office section, what does Priya say she will do about Sonal?",
+                "options": ["Call Sonal directly", "Loop Sonal in and update the slides", "Send Sonal an email", "Ask Sonal to join the demo"],
+                "correct": "Loop Sonal in and update the slides"
+              },
+              {
+                "question": "What was the problem with Priya's package delivery?",
+                "options": [
+                  "It was lost completely.",
+                  "It was delivered to the wrong address — 14B instead of 14A.",
+                  "It arrived damaged.",
+                  "It was delayed by three days."
+                ],
+                "correct": "It was delivered to the wrong address — 14B instead of 14A."
+              }
+            ],
+            "language_identification_task": {
+              "instruction": "Find one example of each language feature in the dialogue:",
+              "features": [
+                "A question tag",
+                "A So/Neither agreement",
+                "A professional chat phrase (heads up / loop in / action)",
+                "A polite complaint opener",
+                "An opinion phrase",
+                "A solution suggestion"
+              ]
+            }
+          }
+        },
+        {
+          "task_id": "t1113_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Mixed Unit 11 error correction — 3 mistakes from across the unit.",
+            "sentences": [
+              {
+                "wrong": "She doesn't work here, doesn't she?",
+                "correct": "She doesn't work here, does she?",
+                "explanation": "Negative statement → POSITIVE tag. 'Doesn't' → 'does she' (not another 'doesn't')."
+              },
+              {
+                "wrong": "Could you tell me where is the manager's office?",
+                "correct": "Could you tell me where the manager's office is?",
+                "explanation": "Indirect questions use statement word order — no inversion after the opener."
+              },
+              {
+                "wrong": "'I love this restaurant.' → 'So I do!'",
+                "correct": "'I love this restaurant.' → 'So do I!'",
+                "explanation": "Word order: SO + auxiliary + subject. 'So do I' — not 'So I do'."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1113_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You're at a professional networking event. Someone says: 'I find it really hard to start conversations with strangers at events like this.' You feel exactly the same. What do you say — and how do you keep the conversation going?",
+            "options": [
+              "Me too. Bye.",
+              "So do I — it's always a bit nerve-wracking, isn't it? I'm Priya by the way — what brings you to this event?",
+              "Neither do I enjoy this.",
+              "So I do find it hard."
+            ],
+            "correct": "So do I — it's always a bit nerve-wracking, isn't it? I'm Priya by the way — what brings you to this event?",
+            "explanation": "Perfect: correct agreement (So do I) + question tag to invite further comment + introduction + follow-up question = natural, warm conversation starter."
+          }
+        },
+        {
+          "task_id": "t1113_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "★ FINAL SPEAKING TASK 1 — SCENARIO ROLE-PLAY: Choose ONE of the 5 featured scenarios and role-play BOTH sides of the conversation (or the main character's side if both sides are not possible alone). Speak for at least 90 seconds.",
+            "prompt": "Choose: Scenario 1 (café catch-up), 2 (office agreement debate), 3 (bank call), 4 (hotel complaint), or 5 (team chat). Role-play it naturally using the language from those lessons.",
+            "example_response": "I'll role-play Scenario 4 — the hotel complaint — as Kavya.\n\n'Excuse me — I checked in about an hour ago, Room 412. I'm afraid there are a couple of issues I need to raise. First — the air conditioning isn't cooling at all. It's really quite warm in the room and I've tried adjusting it without any improvement. Second — and this is more important — I specifically requested a non-smoking room when I booked. The confirmation email I have shows that clearly. But the room smells strongly of cigarettes. That's not at all acceptable when I have a respiratory condition. Could you possibly move me to a genuinely non-smoking room? If there's a room on a higher floor, that would be ideal.\n\n'Also — I noticed my bill includes a charge for an airport pickup service. I didn't use that — I arrived by my own transport. Could you look into that and remove it if it's an error?\n\n'I should say — your reception staff have been very friendly and I don't want to make a fuss, but these are things that really need to be sorted. If a room change isn't possible tonight, could you at least send maintenance to check the AC? I'd appreciate a quick resolution — I have an early morning meeting and I need a good night's sleep.'",
+            "key_phrases": ["I'm afraid there are a couple of issues", "I specifically requested", "Could you possibly", "I'd appreciate a quick resolution", "I don't want to make a fuss, but"],
+            "min_words": 160
+          }
+        },
+        {
+          "task_id": "t1113_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "★ FINAL SPEAKING TASK 2 — UNIT EXIT SPEAKING TEST: Talk for 2 minutes on this topic, using as many Unit 11 language features as possible: 'What makes someone a great communicator?'",
+            "prompt": "Give a 2-minute structured talk on what makes someone a great communicator. Use: opinion language, question tags, agreement structures, indirect questions, and any other Unit 11 features naturally.",
+            "example_response": "In my opinion, communication is one of the most important skills a person can develop — and yet it's often the one most taken for granted. So what makes someone a truly great communicator?\n\nFirstly, I strongly believe that great communicators LISTEN as much as they speak — probably more. Have you ever spoken to someone who makes you feel completely heard? It's a remarkable feeling, isn't it? They react naturally — 'Oh really? Tell me more!' — and ask the right follow-up questions. That's a skill.\n\nSecondly, I think great communicators adapt their style to the situation. They know when to be formal — like in a job interview or a complaint email — and when to be relaxed and warm, like in small talk at a coffee shop. They match their register to their audience. I couldn't agree more with people who say that reading the room is half the battle.\n\nThirdly — and this is where I see people struggle most — great communicators know how to disagree without damaging relationships. I see your point, but I think differently — said calmly, with evidence — is far more powerful than 'You're wrong!' wouldn't you say?\n\nAnd finally, I think they're not afraid to be direct when needed. They can raise a complaint, say 'I'm afraid there's a problem with this', or suggest 'What I'd recommend is...' without being aggressive. On balance, great communication is about clarity, empathy, and adaptability — and I believe everyone can improve with practice.",
+            "key_phrases": ["In my opinion", "I strongly believe", "isn't it?", "I couldn't agree more", "I see your point, but", "On balance", "What I'd recommend is"],
+            "min_words": 200
+          }
+        },
+        {
+          "task_id": "t1113_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Final comprehensive Unit 11 review — complete the dialogue using any appropriate language from the unit.",
+            "text": "Arjun: Morning Priya! Coffee's on — you look tired, ___ (1)?\n\nPriya: Is it that obvious? ___ (2) am I — I barely slept. The hotel was noisy.\n\nArjun: Oh no — which hotel?\n\nPriya: The one by the airport. I ___ (3) to raise quite a few complaints actually. The room was dirty and the AC didn't work.\n\nArjun: You're ___ (4)! Did you complain at reception?\n\nPriya: I did. I said 'I'm ___ (5) there are a couple of issues' — very politely. And they were helpful actually.\n\nArjun: Good. ___ (6) do I find complaining uncomfortable — I always worry it seems rude.\n\nPriya: I ___ (7) your point. But honestly — they can't fix what they don't know about, ___ (8)?\n\nArjun: That's very true. Could you tell me ___ (9) they offered any compensation?\n\nPriya: A room upgrade! So it worked out in the end. ___ (10) balance, it was fine — I just need the coffee!",
+            "answers": ["aren't you", "So", "had", "joking / kidding", "afraid", "Neither", "take / see", "can they", "if / whether", "On"]
+          }
+        },
+        {
+          "task_id": "t1113_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "UNIT 11 COMPLETE — Everyday English in Real Life",
+            "key_points": [
+              "Question tags: positive → negative / negative → positive. Match tense.",
+              "So/Neither + auxiliary = agreement. 'So do I' / 'Neither am I'",
+              "Indirect questions = statement word order. 'Could you tell me where it IS'",
+              "Polite requests: Would you mind + -ing / Could you possibly / I was wondering if",
+              "Phone: 'This is [name] calling' / 'I'll put you through' / 'Can I take a message?'",
+              "Register: formal = full words + professional phrases / informal = casual + abbreviations OK",
+              "Small talk: safe topics + reactions + follow-up questions — never one-word answers",
+              "Opinions: 'In my opinion / I strongly believe / I see your point but...'",
+              "Complaints: 'I'm afraid there's a problem' + reason + solution request",
+              "Problems: 'The issue is / This has been going on / What I'd suggest / On balance'"
+            ],
+            "xp_earned": 250,
+            "unit_complete": true,
+            "next_unit": "Unit 12 — Experiences and quantity"
+          }
+        }
+      ]
+    }
+
+  ]
+}

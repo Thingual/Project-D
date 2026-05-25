@@ -1,0 +1,303 @@
+{
+  "lesson_id": "a1_unit6_lesson05",
+  "unit": 6,
+  "lesson_number": 5,
+  "level": "A1",
+  "title": "Directions",
+  "description": "Ask for and give step-by-step directions using imperatives and common location/movement prepositions.",
+  "estimated_minutes": 30,
+  "xp_reward": 160,
+  "tasks": [
+    {
+      "task_id": "t0605_01",
+      "type": "learn_card",
+      "prompt": "Learn directions imperatives",
+      "content": {
+        "grammar_focus": "Imperatives (Turn left / Go straight / Take the second right)",
+        "example_sentences": [
+          "Turn left at the corner.",
+          "Go straight for two minutes.",
+          "Take the second right."
+        ],
+        "context": "You are helping a friend in Chennai to find a pharmacy."
+      }
+    },
+    {
+      "task_id": "t0605_02",
+      "type": "learn_card",
+      "prompt": "Learn movement prepositions",
+      "content": {
+        "vocab_focus": ["along", "past", "through", "across"],
+        "example_sentences": [
+          "Go along the road.",
+          "Walk past the bank.",
+          "Go through the park.",
+          "Go across the street."
+        ],
+        "context": "Finding places near a road and a park."
+      }
+    },
+    {
+      "task_id": "t0605_03",
+      "type": "learn_card",
+      "prompt": "Learn distance/time questions",
+      "content": {
+        "grammar_focus": "How far / How long to get there",
+        "example_sentences": [
+          "How far is the bus stop?",
+          "How long does it take to walk there?",
+          "It’s about ten minutes."
+        ],
+        "context": "Your friend asks how long the walk is."
+      }
+    },
+    {
+      "task_id": "t0605_04",
+      "type": "listen_repeat",
+      "prompt": "Repeat: Turn left / Go straight / Take the second right",
+      "audio_key": "a1_u6_l5_repeat_directions_01",
+      "content": {
+        "target_phrases": [
+          "Turn left at the corner.",
+          "Go straight for two minutes.",
+          "Take the second right."
+        ]
+      }
+    },
+    {
+      "task_id": "t0605_05",
+      "type": "mcq",
+      "prompt": "You want someone to turn. Choose the best instruction.",
+      "question": "Choose: ___ at the corner.",
+      "options": ["Turn left", "Turn loves", "Turn lefts", "Turning left"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0605_06",
+      "type": "mcq",
+      "prompt": "Which option matches 'Walk past the bank'?",
+      "question": "The word 'past' means…",
+      "options": ["near", "behind/after", "under", "before"],
+      "correct_option_index": 1
+    },
+    {
+      "task_id": "t0605_07",
+      "type": "mcq",
+      "prompt": "How do you ask about distance?",
+      "question": "Choose the correct question:",
+      "options": [
+        "How far is the hospital?",
+        "How hot is the hospital?",
+        "How many is the hospital?",
+        "How is the hospital?"
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0605_08",
+      "type": "mcq",
+      "prompt": "Pick the best instruction for reaching a place.",
+      "question": "You want to say: 'Go straight for two minutes.' Choose the best option.",
+      "options": [
+        "Go straight for two minutes.",
+        "Goes straight for two minutes.",
+        "Going straight for two minutes.",
+        "Go straight two minutes ago."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0605_09",
+      "type": "fill_blank",
+      "prompt": "Complete the direction sentence.",
+      "content": {
+        "sentence": "Go ___ the park.",
+        "options": ["through", "across", "straight", "along"],
+        "correct": "through"
+      }
+    },
+    {
+      "task_id": "t0605_10",
+      "type": "fill_blank",
+      "prompt": "Complete the direction sentence.",
+      "content": {
+        "sentence": "Walk ___ the bank and turn right.",
+        "options": ["past", "pass", "through", "across"],
+        "correct": "past"
+      }
+    },
+    {
+      "task_id": "t0605_11",
+      "type": "sort_words",
+      "prompt": "Reorder the words to make a correct instruction.",
+      "scramble": ["second", "right", "Take", "the"],
+      "answer": "Take the second right"
+    },
+    {
+      "task_id": "t0605_12",
+      "type": "sort_words",
+      "prompt": "Reorder the words to make a correct instruction.",
+      "scramble": ["straight", "Go", "for", "two", "minutes"],
+      "answer": "Go straight for two minutes"
+    },
+    {
+      "task_id": "t0605_13",
+      "type": "match_pairs",
+      "prompt": "Match the preposition to the meaning in your directions.",
+      "pairs": [
+        { "left": "along", "right": "next to a road/path" },
+        { "left": "past", "right": "after/near it and continue" },
+        { "left": "through", "right": "enter and go inside" },
+        { "left": "across", "right": "to the other side" }
+      ]
+    },
+    {
+      "task_id": "t0605_14",
+      "type": "dialogue",
+      "prompt": "Read the dialogue and answer the questions.",
+      "dialogue": {
+        "setting": "Chennai, near a bus stop and a small park",
+        "turns": [
+          {
+            "speaker": "Priya",
+            "text": "Hi Arjun! Excuse me, where is the pharmacy near here?"
+          },
+          {
+            "speaker": "Arjun",
+            "text": "Sure. Go straight for two minutes."
+          },
+          {
+            "speaker": "Priya",
+            "text": "Okay. After that?"
+          },
+          {
+            "speaker": "Arjun",
+            "text": "Take the second right, and walk past the bank."
+          },
+          {
+            "speaker": "Priya",
+            "text": "Past the bank... got it. Is it close?"
+          },
+          {
+            "speaker": "Arjun",
+            "text": "It’s about ten minutes on foot."
+          },
+          {
+            "speaker": "Priya",
+            "text": "Do I go through the park?"
+          },
+          {
+            "speaker": "Arjun",
+            "text": "Yes, go through the park, then go across the street."
+          },
+          {
+            "speaker": "Priya",
+            "text": "Great! Thank you so much."
+          },
+          {
+            "speaker": "Arjun",
+            "text": "No problem. You’ll see the pharmacy on the left."
+          }
+        ]
+      },
+      "comprehension_questions": [
+        {
+          "question": "Where does Priya want to go?",
+          "expected_answer": "The pharmacy."
+        },
+        {
+          "question": "How long does Arjun say it takes to walk there?",
+          "expected_answer": "About ten minutes."
+        },
+        {
+          "question": "What does Arjun say Priya should do after walking past the bank?",
+          "expected_answer": "Go through the park and go across the street."
+        }
+      ]
+    },
+    {
+      "task_id": "t0605_15",
+      "type": "error_correction",
+      "prompt": "Find and fix the mistake.",
+      "instruction": "Correct the sentence.",
+      "wrong_sentence": "Go through the street and across the park.",
+      "correct_sentence": "Go across the street and through the park."
+    },
+    {
+      "task_id": "t0605_16",
+      "type": "scenario_mcq",
+      "prompt": "Real-world choice: Your friend is lost. What should you say first?",
+      "question": "You should say:",
+      "options": [
+        "Turn left at the corner. (start directions)",
+        "You are lost. (not helpful)",
+        "The weather is good. (unrelated)",
+        "I like tea. (unrelated)"
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0605_17",
+      "type": "speaking",
+      "title": "Give directions",
+      "prompt": "Say directions from a bus stop to a nearby temple.",
+      "content": {
+        "instruction": "Give directions clearly using imperatives.",
+        "min_words": 85,
+        "example_response": "Hi! To go to the temple, go straight from the bus stop. After two minutes, take the second right. Then walk past the bakery and go through the small lane. After that, cross the street and you will see the temple on the left. It is about ten or twelve minutes.",
+        "key_phrases": [
+          "Go straight for two minutes.",
+          "Take the second right.",
+          "Walk past the bank/bakery.",
+          "Go through the park/lane.",
+          "Go across the street.",
+          "It’s about ten minutes."
+        ]
+      }
+    },
+    {
+      "task_id": "t0605_18",
+      "type": "speaking",
+      "title": "Ask for confirmation",
+      "prompt": "Your friend follows your directions but is not sure. Ask two follow-up questions using 'How far'/'How long' and one yes/no question.",
+      "content": {
+        "instruction": "Ask for confirmation clearly.",
+        "min_words": 75,
+        "example_response": "Hi! Are you near the park now? How long does it take from here? How far is the temple from your side? Tell me if you can see the signboard.",
+        "key_phrases": [
+          "Are you near...?",
+          "How far is...?",
+          "How long does it take...?",
+          "Tell me if..."
+        ]
+      }
+    },
+    {
+      "task_id": "t0605_19",
+      "type": "fill_blank",
+      "prompt": "Comprehensive directions (fill all blanks).",
+      "content": {
+        "sentence": "Complete the directions: Go ___ for two minutes. Then ___ the second right. Walk ___ the bank. Finally, go ___ the park and ___ the street.",
+        "blanks": [
+          {"correct": "straight", "options": ["straight", "through", "past", "take"]},
+          {"correct": "take", "options": ["take", "turn", "make", "go"]},
+          {"correct": "past", "options": ["past", "pass", "through", "along"]},
+          {"correct": "through", "options": ["through", "across", "along", "past"]},
+          {"correct": "across", "options": ["across", "through", "cross", "along"]}
+        ]
+      }
+    },
+    {
+      "task_id": "t0605_20",
+      "type": "lesson_summary",
+      "prompt": "Lesson summary: Directions",
+      "content": {
+        "checklist": [
+          "I can use imperatives: Turn / Go / Take.",
+          "I can use movement prepositions: along / past / through / across.",
+          "I can ask: How far / How long?"
+        ]
+      }
+    }
+  ]
+}

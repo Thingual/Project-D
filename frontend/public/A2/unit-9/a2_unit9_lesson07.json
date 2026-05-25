@@ -1,0 +1,48 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Review all past simple forms alongside the present perfect.",
+    "xp_reward":  150,
+    "lesson_number":  7,
+    "tasks":  [
+                  {
+                      "title":  "Past Simple Review",
+                      "content":  {
+                                      "items":  [
+                                                    {
+                                                        "phrase":  "worked / worked",
+                                                        "note":  "Regular verb"
+                                                    },
+                                                    {
+                                                        "phrase":  "go / went",
+                                                        "note":  "Irregular verb"
+                                                    },
+                                                    {
+                                                        "phrase":  "She didn\u0027t come.",
+                                                        "note":  "Negative"
+                                                    },
+                                                    {
+                                                        "phrase":  "Did you see him?",
+                                                        "note":  "Question"
+                                                    }
+                                                ],
+                                      "explanation":  "Regular verbs: add -ed. Irregular verbs: must be memorized. Negatives: didn\u0027t + base form. Questions: Did + subject + base form?"
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "content":  {
+                                      "correct_index":  1,
+                                      "question":  "She ___ to work by bus yesterday.",
+                                      "explanation":  "\u0027Yesterday\u0027 shows a specific past time, so use past simple \u0027went\u0027.",
+                                      "options":  [
+                                                      "has gone",
+                                                      "went",
+                                                      "goes"
+                                                  ]
+                                  },
+                      "type":  "mcq"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson07",
+    "title":  "Past Simple Review"
+}

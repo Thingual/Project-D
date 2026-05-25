@@ -8,12 +8,34 @@ import thingualLogo from '@/assets/thingual-logo.png';
 
 interface Props {
   children: React.ReactNode;
-  title?: string;
+  title?: string | React.ReactNode;
   user_name?: string;
 }
 
 export default function DashboardLayout({ children, title = 'Dashboard', user_name = 'Student' }: Props) {
   const pathname = usePathname();
+  const [authorized, setAuthorized] = React.useState(false);
+
+  React.useEffect(() => {
+    const token = localStorage.getItem('token') || localStorage.getItem('thingual_token');
+    const user = localStorage.getItem('thingual_user');
+    if (!token || !user) {
+      localStorage.removeItem('token');
+      localStorage.removeItem('thingual_token');
+      localStorage.removeItem('thingual_user');
+      window.location.href = '/';
+    } else {
+      setAuthorized(true);
+    }
+  }, []);
+
+  if (!authorized) {
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#f8fafc', fontFamily: "'Inter', sans-serif" }}>
+        <div style={{ fontSize: '16px', fontWeight: 700, color: '#2563EB' }}>Verifying session…</div>
+      </div>
+    );
+  }
 
   const navItems = [
     {

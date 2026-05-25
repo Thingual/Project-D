@@ -1,0 +1,494 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson12",
+    "unit":  11,
+    "lesson_number":  12,
+    "level":  "A2",
+    "title":  "Describing problems and solutions",
+    "description":  "Explain problems clearly and suggest practical solutions using structured language in conversations and written communication.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1112_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Describing a problem clearly",
+                                      "body":  "When explaining a problem, be CLEAR, SPECIFIC, and STRUCTURED.\n\nUseful phrases:\nâ€¢ \u0027The issue is that...\u0027\nâ€¢ \u0027The problem is...\u0027\nâ€¢ \u0027I\u0027m having trouble with...\u0027\nâ€¢ \u0027What\u0027s happening is...\u0027\nâ€¢ \u0027The main concern is...\u0027\nâ€¢ \u0027It seems like...\u0027\nâ€¢ \u0027This has been going on for [time].\u0027\nâ€¢ \u0027It started when...\u0027\nâ€¢ \u0027Every time I [action], [problem] happens.\u0027\n\nExample:\n\u0027The issue is that the website keeps crashing every time I try to submit a form. This has been happening for three days. It started after the latest update.\u0027",
+                                      "grammar_note":  "Be specific: what + when + how long + trigger\n\u0027Every time + I + verb + problem\u0027 = cause-effect pattern\nUse present continuous for ongoing problems: \u0027It\u0027s been happening\u0027"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Suggesting and evaluating solutions",
+                                      "body":  "Suggesting solutions:\nâ€¢ \u0027What I\u0027d suggest is...\u0027\nâ€¢ \u0027One option would be to...\u0027\nâ€¢ \u0027Have you tried...?\u0027\nâ€¢ \u0027It might be worth trying...\u0027\nâ€¢ \u0027Perhaps we could...\u0027\nâ€¢ \u0027The best course of action would be to...\u0027\nâ€¢ \u0027My recommendation would be to...\u0027\n\nEvaluating solutions:\nâ€¢ \u0027That could work, but...\u0027\nâ€¢ \u0027That\u0027s a good idea â€” it would also...\u0027\nâ€¢ \u0027The downside of that is...\u0027\nâ€¢ \u0027I think that\u0027s the most practical option.\u0027\nâ€¢ \u0027That might not work because...\u0027\nâ€¢ \u0027On balance, I think [option] is the best approach.\u0027",
+                                      "grammar_note":  "Suggestions: conditional mood â€” \u0027would be\u0027, \u0027could\u0027, \u0027might\u0027\n\u0027On balance\u0027 = considering everything\n\u0027The downside of that is\u0027 = identifying a weakness"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Problems and solutions",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "root cause",
+                                                             "meaning":  "the original reason behind a problem",
+                                                             "example":  "We need to identify the root cause before we can fix it."
+                                                         },
+                                                         {
+                                                             "word":  "workaround",
+                                                             "meaning":  "a temporary solution to a problem",
+                                                             "example":  "Until the bug is fixed, this is a useful workaround."
+                                                         },
+                                                         {
+                                                             "word":  "interim",
+                                                             "meaning":  "temporary, in the meantime",
+                                                             "example":  "This is an interim solution while we wait for the full fix."
+                                                         },
+                                                         {
+                                                             "word":  "resolve",
+                                                             "meaning":  "to find a solution to a problem",
+                                                             "example":  "We hope to resolve this by end of week."
+                                                         },
+                                                         {
+                                                             "word":  "ongoing",
+                                                             "meaning":  "still continuing",
+                                                             "example":  "This is an ongoing issue that needs urgent attention."
+                                                         },
+                                                         {
+                                                             "word":  "mitigate",
+                                                             "meaning":  "to reduce the severity of a problem",
+                                                             "example":  "We can mitigate the risk by backing up data daily."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l12_listen",
+                                      "sentences":  [
+                                                        "The issue is that the system keeps freezing every time we run a large report.",
+                                                        "This has been going on for about a week â€” ever since the latest update.",
+                                                        "What I\u0027d suggest is rolling back the update and running a clean install.",
+                                                        "That could work, but the downside is we\u0027d lose some recent data.",
+                                                        "On balance, I think the clean install is our best option right now."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Which sentence describes a problem most clearly and specifically?",
+                                      "options":  [
+                                                      "Everything is broken.",
+                                                      "Something is wrong with the computer sometimes.",
+                                                      "The laptop freezes every time I open the design software â€” it\u0027s been happening since yesterday afternoon.",
+                                                      "I have a problem."
+                                                  ],
+                                      "correct":  "The laptop freezes every time I open the design software â€” it\u0027s been happening since yesterday afternoon.",
+                                      "explanation":  "Specific problem (freezes) + trigger (when I open design software) + duration (since yesterday) = clear, actionable description."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Your colleague suggests a solution. You think it\u0027s good but has one weakness. What do you say?",
+                                      "options":  [
+                                                      "No, that\u0027s a bad idea.",
+                                                      "That\u0027s a good idea â€” the only downside is the extra cost, but I think it\u0027s worth it.",
+                                                      "Maybe.",
+                                                      "We already tried that."
+                                                  ],
+                                      "correct":  "That\u0027s a good idea â€” the only downside is the extra cost, but I think it\u0027s worth it.",
+                                      "explanation":  "Acknowledge the strength first, identify one downside, then give your overall view â€” balanced and constructive."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which phrase suggests a solution most politely?",
+                                      "options":  [
+                                                      "Do this.",
+                                                      "You should do this.",
+                                                      "What I\u0027d suggest is starting with a smaller pilot before committing to a full rollout.",
+                                                      "That is the solution."
+                                                  ],
+                                      "correct":  "What I\u0027d suggest is starting with a smaller pilot before committing to a full rollout.",
+                                      "explanation":  "\u0027What I\u0027d suggest is...\u0027 = professional, soft-worded recommendation that doesn\u0027t sound like a command."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What does \u0027on balance\u0027 mean when evaluating solutions?",
+                                      "options":  [
+                                                      "Weighing something on a scale",
+                                                      "After considering all factors, overall",
+                                                      "The most balanced diet",
+                                                      "Balancing two jobs"
+                                                  ],
+                                      "correct":  "After considering all factors, overall",
+                                      "explanation":  "\u0027On balance\u0027 = having weighed the pros and cons, this is my overall conclusion."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the correct problem or solution phrase.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027The ___ is that the delivery was sent to the wrong address â€” twice.\u0027",
+                                                            "answer":  "issue / problem"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027This has been ___ on since last Tuesday.\u0027",
+                                                            "answer":  "going"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027What I\u0027d ___ is calling the courier directly â€” they can reroute it.\u0027",
+                                                            "answer":  "suggest"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027That could work, but the ___ is the extra 2-day delay it would cause.\u0027",
+                                                            "answer":  "downside"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027On ___, I think Option B is the more practical solution.\u0027",
+                                                            "answer":  "balance"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Describe this problem in 3 sentences using the given prompts.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Problem: App crashes on login. Duration: 2 days. Trigger: After update. â†’ \u0027The ___ is that the app ___ every time I try to log in. This has been ___ since the update two days ago. It ___ working before the update was installed.\u0027",
+                                                            "answer":  "issue / crashes / happening / was"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a clear problem description.",
+                                      "words":  [
+                                                    "the",
+                                                    "every",
+                                                    "freezes",
+                                                    "issue",
+                                                    "I",
+                                                    "open",
+                                                    "is",
+                                                    "that",
+                                                    "it",
+                                                    "time",
+                                                    "the",
+                                                    "app"
+                                                ],
+                                      "answer":  "The issue is that it freezes every time I open the app."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a solution suggestion.",
+                                      "words":  [
+                                                    "suggest",
+                                                    "first",
+                                                    "the",
+                                                    "What",
+                                                    "testing",
+                                                    "is",
+                                                    "I\u0027d",
+                                                    "new",
+                                                    "system"
+                                                ],
+                                      "answer":  "What I\u0027d suggest is testing the new system first."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the problem phrase to its function.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "The issue is that...",
+                                                        "right":  "States the problem clearly"
+                                                    },
+                                                    {
+                                                        "left":  "This has been going on for...",
+                                                        "right":  "Gives the duration"
+                                                    },
+                                                    {
+                                                        "left":  "It started when...",
+                                                        "right":  "Identifies when it began"
+                                                    },
+                                                    {
+                                                        "left":  "What I\u0027d suggest is...",
+                                                        "right":  "Offers a solution politely"
+                                                    },
+                                                    {
+                                                        "left":  "The downside of that is...",
+                                                        "right":  "Identifies a weakness in a solution"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Problem-solving meeting â€” EdTech startup, Bangalore",
+                                      "setting":  "The product team at an education app startup is having a problem-solving meeting. The app has a bug affecting users. Meera (product lead), Arjun (tech lead), and Sonal (user experience) discuss the issue and solutions.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Right â€” let\u0027s get into it. Arjun, can you describe exactly what the issue is?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Sure. The problem is that users on Android devices are unable to complete a quiz without the app crashing. Every time they reach question 10, it freezes and exits."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "How long has this been going on?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Since yesterday evening â€” about 18 hours. It started after we pushed the 2.4.1 update."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027ve had 47 user complaints in the last 12 hours â€” people are really frustrated. Some say they\u0027ve lost their quiz scores entirely."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Okay. What do we think the root cause is?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "It seems like the new question-rendering code has a memory leak on Android. It\u0027s fine on iOS â€” only Android is affected."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "So what are our options?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Option one: roll back to version 2.4.0 â€” that would fix the crash immediately but we\u0027d lose the new features."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "The downside of that is users who downloaded 2.4.1 expecting those features would be unhappy."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Agreed. Option two: patch the memory leak â€” I think I can have a fix ready in about 4 hours."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "What I\u0027d suggest is the patch â€” it addresses the root cause. In the meantime, we should push a pop-up to Android users warning them and asking them to restart the app if it crashes."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "That\u0027s a good interim measure. I can also draft a message to affected users explaining the issue and confirming we\u0027re working on it."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Perfect. On balance, the patch plus communication to users is the right approach. Arjun â€” how confident are you in 4 hours?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Very confident â€” I\u0027ve already identified the line causing the issue."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Great. Let\u0027s go. Update me at 4 PM."
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Which device is affected by the bug?",
+                                                                          "options":  [
+                                                                                          "iOS only",
+                                                                                          "Both iOS and Android",
+                                                                                          "Android only",
+                                                                                          "Windows"
+                                                                                      ],
+                                                                          "correct":  "Android only"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does the team decide to do?",
+                                                                          "options":  [
+                                                                                          "Roll back to 2.4.0",
+                                                                                          "Shut down the app",
+                                                                                          "Patch the memory leak + send a communication to users",
+                                                                                          "Wait for user complaints to stop"
+                                                                                      ],
+                                                                          "correct":  "Patch the memory leak + send a communication to users"
+                                                                      },
+                                                                      {
+                                                                          "question":  "How long does Arjun say the fix will take?",
+                                                                          "options":  [
+                                                                                          "1 hour",
+                                                                                          "2 hours",
+                                                                                          "4 hours",
+                                                                                          "Until tomorrow"
+                                                                                      ],
+                                                                          "correct":  "4 hours"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the problem-description language mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "The problem is everything doesn\u0027t work since a long time.",
+                                                            "correct":  "The problem is that nothing is working properly â€” this has been going on for about a week.",
+                                                            "explanation":  "\u0027Everything doesn\u0027t work\u0027 is vague. \u0027Since a long time\u0027 is wrong â€” use \u0027for a long time\u0027 or \u0027for about a week\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "My suggestion is you must do this immediately.",
+                                                            "correct":  "What I\u0027d suggest is addressing this as soon as possible.",
+                                                            "explanation":  "\u0027You must\u0027 is too commanding for a suggestion. Use \u0027What I\u0027d suggest is...\u0027 for a professional recommendation."
+                                                        },
+                                                        {
+                                                            "wrong":  "That idea is bad because it won\u0027t work at all.",
+                                                            "correct":  "I see merit in that idea, though I\u0027m concerned it might not fully address the root cause â€” perhaps we could combine it with...?",
+                                                            "explanation":  "Never flatly dismiss an idea in a professional setting. Acknowledge, raise concern, and build on it."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "A colleague suggests solving a data backup problem by emailing all files to a personal Gmail account. You see an obvious security issue with this. What do you say?",
+                                      "options":  [
+                                                      "That\u0027s a terrible idea.",
+                                                      "No, that\u0027s against company policy.",
+                                                      "I see why that seems practical, but the concern with using personal email is data security â€” it would potentially violate our privacy policy. What I\u0027d suggest instead is using the company\u0027s approved cloud storage system.",
+                                                      "We can\u0027t do that."
+                                                  ],
+                                      "correct":  "I see why that seems practical, but the concern with using personal email is data security â€” it would potentially violate our privacy policy. What I\u0027d suggest instead is using the company\u0027s approved cloud storage system.",
+                                      "explanation":  "Acknowledge the intent â†’ identify the specific concern professionally â†’ offer a constructive alternative."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Describe a real or imagined work or study problem clearly. Then suggest two possible solutions and evaluate which is better.",
+                                      "prompt":  "Describe a problem (what, when, how long, trigger) + suggest 2 solutions + evaluate them using \u0027the downside of... / on balance...\u0027",
+                                      "example_response":  "Let me describe a problem I\u0027ve been having with time management at work. The issue is that I keep missing my own deadlines â€” not external ones set by managers, but the personal targets I set for myself. This has been going on for about two months. It started when our team expanded and I began attending many more meetings per day. Every time I sit down to focus, a meeting or a message interrupts me.\n\nI can see two solutions. Option one is to block two hours in my calendar every morning as \u0027focus time\u0027 â€” no meetings allowed during that block. The downside of that is that some of my team\u0027s standup meetings happen at 10 AM and I\u0027d need to exclude those. Option two is to shift my focused work to early morning before the office hours officially begin â€” say 7 to 9 AM â€” when there are genuinely no interruptions.\n\nOn balance, I think Option two is more practical for now, because I have full control over it without needing anyone else\u0027s cooperation. I\u0027ll try it for two weeks and reassess.",
+                                      "key_phrases":  [
+                                                          "The issue is that",
+                                                          "This has been going on for",
+                                                          "It started when",
+                                                          "Every time I...",
+                                                          "The downside of that is",
+                                                          "On balance, I think"
+                                                      ],
+                                      "min_words":  140
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Think of a community or social problem you feel strongly about. Describe the problem clearly and suggest what you think the best solution is â€” and why.",
+                                      "prompt":  "Describe a real social problem (traffic, pollution, water, education, etc.) and propose a solution using the language from this lesson.",
+                                      "example_response":  "The problem I want to talk about is traffic congestion in Indian cities â€” specifically Chennai, which I know well. The issue is that the number of private vehicles on the road has grown massively over the past decade, but the road infrastructure hasn\u0027t kept pace. This has been worsening steadily for the past five to six years. Every morning, millions of people spend one to two hours commuting distances that should take 20 minutes. It started becoming critical around the time app-based cab services expanded rapidly and added significantly to road vehicles.\n\nThere are a few possible solutions. One option would be to significantly invest in and improve public transport â€” more metro lines, better buses, integrated ticketing systems. The downside of relying on this alone is that it takes years to build and doesn\u0027t help people today. Another option would be to introduce congestion pricing â€” charging a fee to drive into the city centre during peak hours, similar to what London and Singapore do. The concern with this is that it affects lower-income commuters more heavily.\n\nWhat I\u0027d suggest as the most practical short-term step is a combination: better bus rapid transit corridors that can be set up relatively quickly, combined with employer incentives to stagger working hours so not everyone is on the road at the same time. On balance, I think reducing the NEED to travel during peak hours is as important as improving infrastructure.",
+                                      "key_phrases":  [
+                                                          "The issue is that",
+                                                          "This has been worsening for",
+                                                          "One option would be to",
+                                                          "The downside of this is",
+                                                          "What I\u0027d suggest is",
+                                                          "On balance"
+                                                      ],
+                                      "min_words":  160
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this problem-and-solution email.",
+                                      "text":  "Subject: Issue with Payroll System â€” Urgent\n\nDear IT Team,\n\nI am writing to ___ (1) an ongoing issue with the payroll system that has been affecting the finance team.\n\nThe ___ (2) is that the system is generating incorrect salary calculations for employees who work part-time hours. This has been ___ (3) on for approximately two weeks â€” ever since the system was updated on the 1st of this month.\n\nEvery time we try to ___ (4) a payroll run for part-time staff, the totals are 10-15% lower than they should be. We have checked the data entry and it appears to be a system ___ (5), not a user error.\n\nWhat I would ___ (6) is scheduling a system audit as soon as possible. In the ___ (7), could we process part-time payroll manually using the previous month\u0027s figures as a reference?\n\nThe ___ (8) of that workaround is the additional time it takes, but given the ___ (9) of getting salaries wrong, I believe it\u0027s the right step.\n\nCould you please ___ (10) this as a priority? I look forward to your response.\n\nKind regards,\nPriya Rajan, Finance Manager",
+                                      "answers":  [
+                                                      "raise / report",
+                                                      "problem / issue",
+                                                      "going",
+                                                      "run",
+                                                      "error / bug / issue",
+                                                      "suggest",
+                                                      "interim / meantime",
+                                                      "downside",
+                                                      "risk / importance / seriousness",
+                                                      "treat / prioritise"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1112_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 12 complete â€” Describing problems and solutions",
+                                      "key_points":  [
+                                                         "Problem: \u0027The issue is that... / I\u0027m having trouble with... / What\u0027s happening is...\u0027",
+                                                         "Duration: \u0027This has been going on for... / It started when...\u0027",
+                                                         "Trigger: \u0027Every time I [action], [problem] happens\u0027",
+                                                         "Suggest: \u0027What I\u0027d suggest is... / One option would be to... / It might be worth...\u0027",
+                                                         "Evaluate: \u0027The downside of that is... / On balance, I think... / That could work, but...\u0027",
+                                                         "Root cause = original source of the problem",
+                                                         "Workaround = temporary solution until the real fix is ready"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Unit 11 Review â€” All 5 dialogue scenarios + speaking test"
+                                  }
+                  }
+              ]
+}

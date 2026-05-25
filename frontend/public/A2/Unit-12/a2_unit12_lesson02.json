@@ -1,0 +1,315 @@
+{
+  "lesson_id": "a2_unit12_lesson02",
+  "unit": 12,
+  "lesson_number": 2,
+  "level": "A2",
+  "title": "Irregular past participles",
+  "description": "Learn the most common irregular past participles needed for the present perfect tense.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1202_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Irregular past participles — Group 1",
+        "body": "Some verbs don't follow the regular -ed rule. These are called IRREGULAR verbs. You need to learn their past participles separately.\n\nGroup 1 — Base verb / Past simple / Past participle:\n• go → went → GONE / BEEN\n  'I have gone to the market.' (and am still there)\n  'I have been to Goa.' (in my life, now back)\n• see → saw → SEEN\n  'I have seen that film.'\n• eat → ate → EATEN\n  'She has eaten already.'\n• drink → drank → DRUNK\n  'He has drunk three cups of chai.'\n• give → gave → GIVEN\n  'They have given us permission.'",
+        "grammar_note": "BEEN = visited and returned\nGONE = went and is still there\n'I've been to Kerala' (visited, back now)\n'She's gone to Kerala' (she went, still there)"
+      }
+    },
+    {
+      "task_id": "t1202_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Irregular past participles — Group 2",
+        "body": "Group 2 — more common irregular past participles:\n• have → had → HAD\n  'I have had this phone for two years.'\n• do → did → DONE\n  'She has done the dishes.'\n• write → wrote → WRITTEN\n  'He has written three books.'\n• speak → spoke → SPOKEN\n  'I have spoken to the manager.'\n• buy → bought → BOUGHT\n  'We have bought a new car.'\n• make → made → MADE\n  'She has made dinner.'\n• take → took → TAKEN\n  'He has taken the medicine.'\n• come → came → COME\n  'They have come a long way.'",
+        "grammar_note": "bought / made / taken = same as past simple\nwritten / spoken / done = different from past simple\nPractise these by using them in sentences"
+      }
+    },
+    {
+      "task_id": "t1202_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Irregular past participles — Group 3",
+        "vocabulary": [
+          {"word": "read → read → READ (pronounced 'red')", "meaning": "past participle of read", "example": "I have read that book twice."},
+          {"word": "meet → met → MET", "meaning": "past participle of meet", "example": "We have met before, haven't we?"},
+          {"word": "know → knew → KNOWN", "meaning": "past participle of know", "example": "I have known her for years."},
+          {"word": "sleep → slept → SLEPT", "meaning": "past participle of sleep", "example": "I haven't slept well this week."},
+          {"word": "feel → felt → FELT", "meaning": "past participle of feel", "example": "She has felt unwell since morning."},
+          {"word": "find → found → FOUND", "meaning": "past participle of find", "example": "He has found a new job."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l2_listen",
+        "sentences": [
+          "I have been to Kerala twice — it's beautiful.",
+          "She has done all her homework.",
+          "We have met before, haven't we?",
+          "He has written a fantastic report.",
+          "I haven't slept well for a week."
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "What is the past participle of 'go' when talking about a visited place (you are back now)?",
+        "options": ["went", "gone", "been", "going"],
+        "correct": "been",
+        "explanation": "I have BEEN to Goa = I visited and came back. I have GONE to Goa = I went and am still there."
+      }
+    },
+    {
+      "task_id": "t1202_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Choose the correct sentence: 'She ___ three books this year.'",
+        "options": [
+          "has wrote",
+          "has written",
+          "have written",
+          "has write"
+        ],
+        "correct": "has written",
+        "explanation": "She = has. Write → written (irregular past participle). 'Wrote' is past simple, not past participle."
+      }
+    },
+    {
+      "task_id": "t1202_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence is CORRECT?",
+        "options": [
+          "I have drank two cups of coffee.",
+          "I have drink two cups of coffee.",
+          "I have drunk two cups of coffee.",
+          "I have drinking two cups of coffee."
+        ],
+        "correct": "I have drunk two cups of coffee.",
+        "explanation": "Drink → drank (past simple) → drunk (past participle). Present perfect uses the past participle: drunk."
+      }
+    },
+    {
+      "task_id": "t1202_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "What is the past participle of 'do'?",
+        "options": ["did", "done", "does", "doing"],
+        "correct": "done",
+        "explanation": "do → did → done. 'Did' is the past simple. 'Done' is the past participle used in present perfect."
+      }
+    },
+    {
+      "task_id": "t1202_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with have/has + the correct IRREGULAR past participle.",
+        "sentences": [
+          {"text": "I ___ ___ (see) that film three times — it's my favourite.", "answer": "have seen"},
+          {"text": "She ___ ___ (make) the best biryani I've ever tasted.", "answer": "has made"},
+          {"text": "We ___ ___ (meet) the new manager already.", "answer": "have met"},
+          {"text": "He ___ ___ (buy) a new laptop for the office.", "answer": "has bought"},
+          {"text": "I ___ ___ (read) almost every book in this series.", "answer": "have read"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete with the correct past participle from the box: [been / done / spoken / found / slept]",
+        "sentences": [
+          {"text": "Have you ___ to the HR manager about the issue?", "answer": "spoken"},
+          {"text": "I have ___ to Coorg twice — I love it there.", "answer": "been"},
+          {"text": "She has ___ a great new restaurant near the office.", "answer": "found"},
+          {"text": "I haven't ___ well this week — too much stress.", "answer": "slept"},
+          {"text": "Has he ___ all the tasks on the list?", "answer": "done"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct present perfect sentence.",
+        "words": ["before", "have", "seen", "this", "I", "film"],
+        "answer": "I have seen this film before."
+      }
+    },
+    {
+      "task_id": "t1202_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct present perfect sentence.",
+        "words": ["has", "Meera", "for", "known", "years", "him"],
+        "answer": "Meera has known him for years."
+      }
+    },
+    {
+      "task_id": "t1202_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the base verb to its correct past participle.",
+        "pairs": [
+          {"left": "write", "right": "written"},
+          {"left": "speak", "right": "spoken"},
+          {"left": "take", "right": "taken"},
+          {"left": "give", "right": "given"},
+          {"left": "feel", "right": "felt"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Talking about life experiences — train journey, Mumbai to Pune",
+        "setting": "Kavya and Sonal are strangers who meet on a train. They start talking about places they have been to and things they have done.",
+        "dialogue": [
+          {"speaker": "Sonal", "text": "Excuse me — is this seat taken?"},
+          {"speaker": "Kavya", "text": "No, please sit! Have you been on this route before?"},
+          {"speaker": "Sonal", "text": "Many times! I've done this journey at least twenty times. Have you been to Pune before?"},
+          {"speaker": "Kavya", "text": "Yes — I've visited twice for work. I've met some lovely people there."},
+          {"speaker": "Sonal", "text": "It's a great city! Have you seen the Shaniwar Wada fort?"},
+          {"speaker": "Kavya", "text": "I have! It was incredible — I had read about it before I went so I was excited. Have you been abroad at all?"},
+          {"speaker": "Sonal", "text": "I have been to Singapore once — for my cousin's wedding. I hadn't seen her in years! Have you?"},
+          {"speaker": "Kavya", "text": "I've been to Sri Lanka and Nepal. Nepal was absolutely stunning — I have never felt so small looking at the Himalayas."},
+          {"speaker": "Sonal", "text": "I've always wanted to go! What's the best thing you have done there?"},
+          {"speaker": "Kavya", "text": "I have trekked to Nagarkot — the sunrise view was unforgettable. I have taken so many photographs!"},
+          {"speaker": "Sonal", "text": "That sounds wonderful. I have never done a proper trek. Maybe it's time!"},
+          {"speaker": "Kavya", "text": "Absolutely — once you've done one, you'll be hooked. By the way, I'm Kavya."},
+          {"speaker": "Sonal", "text": "I'm Sonal. It's so nice to have spoken to someone interesting on this journey for once!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How many times has Sonal done this train journey?",
+            "options": ["Once", "A few times", "At least twenty times", "Every week"],
+            "correct": "At least twenty times"
+          },
+          {
+            "question": "Which two countries has Kavya visited?",
+            "options": ["Nepal and Thailand", "Sri Lanka and Nepal", "Singapore and Nepal", "Sri Lanka and Singapore"],
+            "correct": "Sri Lanka and Nepal"
+          },
+          {
+            "question": "What has Kavya done in Nepal?",
+            "options": ["Visited Kathmandu", "Trekked to Nagarkot", "Seen the Himalayas from a hotel", "Taken a helicopter tour"],
+            "correct": "Trekked to Nagarkot"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the irregular past participle mistake.",
+        "sentences": [
+          {
+            "wrong": "I have went to Ooty many times.",
+            "correct": "I have been to Ooty many times.",
+            "explanation": "go → went (past simple) → been/gone (past participle). For visited places use 'been'."
+          },
+          {
+            "wrong": "She has speaked to the principal.",
+            "correct": "She has spoken to the principal.",
+            "explanation": "speak → spoke (past simple) → spoken (past participle). 'Speaked' is not a word."
+          },
+          {
+            "wrong": "He has buyed a new bike.",
+            "correct": "He has bought a new bike.",
+            "explanation": "buy → bought (past simple AND past participle). 'Buyed' doesn't exist."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1202_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "You want to say that Priya went to the market and hasn't come back yet. Which sentence is correct?",
+        "options": [
+          "Priya has been to the market.",
+          "Priya has gone to the market.",
+          "Priya have gone to the market.",
+          "Priya went to the market before."
+        ],
+        "correct": "Priya has gone to the market.",
+        "explanation": "GONE = went and is still there. BEEN = visited and came back. Priya hasn't returned, so 'gone' is correct."
+      }
+    },
+    {
+      "task_id": "t1202_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Talk about things you have seen, read, eaten, or done using IRREGULAR past participles. Use at least 6 different irregular verbs.",
+        "prompt": "Share 6 experiences using irregular past participles: seen, eaten, read, done, met, spoken, been, written, found, felt, bought, made.",
+        "example_response": "I have seen quite a few classic Indian films — I have watched Sholay at least five times and I still enjoy it every time. I have eaten some incredible street food over the years — the pav bhaji I had in Mumbai was something I have never forgotten. I have read a few novels in English — the one I have enjoyed most is The White Tiger by Aravind Adiga. I have spoken to people from all over India because of my work, which has really helped my communication skills. I have been to Varanasi once — it was one of the most powerful experiences of my life, standing by the Ganga at sunrise. And I have met some truly wonderful people through travel. Each of these experiences has made me who I am.",
+        "key_phrases": ["I have seen", "I have eaten", "I have read", "I have spoken", "I have been", "I have met"],
+        "min_words": 90
+      }
+    },
+    {
+      "task_id": "t1202_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Look at the train journey dialogue. Sonal says she has never done a proper trek. Imagine you are encouraging her. Use present perfect to talk about what trekking involves and what you have experienced.",
+        "prompt": "Encourage a friend to try trekking. Use 'I have + irregular past participle' throughout.",
+        "example_response": "You should definitely try it, Sonal! I have done three treks now and each one has been completely different. The first time I felt nervous because I had never done anything like it before. But once I started, I forgot about the nervousness completely. I have seen sunrises from hilltops that I would never have seen otherwise. I have met some of the most interesting people on trails — people I would never have spoken to in my normal daily life. I have also found that it changes the way you feel about your own body. After a trek, I have always felt stronger and more confident. And the food at the campsite — I have eaten the simplest meals that somehow tasted like the best food in the world because I was so hungry! Just start with an easy day trek. Once you have done your first one, you will want to do more, I promise!",
+        "key_phrases": ["I have done", "I have seen", "I have met", "I have found", "I have felt", "I have eaten"],
+        "min_words": 90
+      }
+    },
+    {
+      "task_id": "t1202_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this social media bio using the correct present perfect forms.",
+        "text": "Hi! I'm Ravi — a traveller, foodie, and photographer based in Chennai.\n\nI ___ (1/be) to 12 Indian states so far. I ___ (2/eat) everything from Kashmiri Wazwan to Kerala Sadya and I ___ (3/find) that every region has its own magic. I ___ (4/meet) incredible people on my journeys — some ___ (5/become) lifelong friends. I ___ (6/take) over 5,000 photographs and I ___ (7/write) about my travels on my blog. I ___ (8/not/go) abroad yet but that's next on the list! If you ___ (9/read) this far, I think we'd get along well. Let's connect!",
+        "answers": ["have been", "have eaten", "have found", "have met", "have become", "have taken", "have written", "haven't gone", "have read"]
+      }
+    },
+    {
+      "task_id": "t1202_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 2 complete — Irregular past participles",
+        "key_points": [
+          "Irregular verbs have special past participles — must be learned separately",
+          "go → been (visited and back) OR gone (went, still there)",
+          "Key irregulars: written, spoken, seen, eaten, drunk, done, met, read, felt, found, bought, made, taken",
+          "Past simple ≠ past participle for irregular verbs: wrote ≠ written, spoke ≠ spoken",
+          "Practice tip: say the trio aloud — go / went / been — until it feels natural"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Ever and never — life experience questions"
+      }
+    }
+  ]
+}

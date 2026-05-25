@@ -1,0 +1,312 @@
+{
+  "lesson_id": "a2_unit12_lesson12",
+  "unit": 12,
+  "lesson_number": 12,
+  "level": "A2",
+  "title": "Some, any, no and their compounds",
+  "description": "Use some, any, no and compound words like someone, anyone, nowhere correctly in everyday sentences.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1212_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Some, any, no — the basics",
+        "body": "SOME → positive sentences and offers/requests\n• 'I have some money.' (positive)\n• 'Would you like some chai?' (offer)\n• 'Can I borrow some notes?' (request)\n\nANY → negative sentences and questions\n• 'I don't have any money.' (negative)\n• 'Is there any milk left?' (question)\n• 'She didn't get any sleep last night.'\n\nNO → replaces not any — makes the whole sentence negative\n• 'I have no money.' (= I don't have any money)\n• 'There's no milk left.' (= There isn't any milk)\n• 'He has no idea.' (a very common phrase)\n\nNote: NO is stronger and more direct than not + any.",
+        "grammar_note": "SOME = positive, offers, requests\nANY = negatives and questions\nNO = replaces not + any (stronger/more direct)\nAll three work with countable AND uncountable nouns"
+      }
+    },
+    {
+      "task_id": "t1212_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Compound words — someone, anyone, nowhere...",
+        "body": "SOME + body/one/thing/where:\n• somebody / someone = a person (unknown)\n• something = a thing (unknown)\n• somewhere = a place (unknown)\n→ Used in positive sentences\n'Someone called for you.'\n'I'd like something to eat.'\n'Let's go somewhere nice.'\n\nANY + body/one/thing/where:\n• anybody / anyone = any person at all\n• anything = any thing at all\n• anywhere = any place at all\n→ Used in questions and negatives\n'Has anyone seen my keys?'\n'I didn't eat anything this morning.'\n'She can't find her bag anywhere.'\n\nNO + body/one/thing/where:\n• nobody / no one = no person\n• nothing = no thing\n• nowhere = no place\n→ Makes a complete negative (no extra 'not' needed)\n'Nobody came to the meeting.'\n'I have nothing to wear.'\n'There's nowhere to park.'",
+        "grammar_note": "SOME- = positive\nANY- = questions and negatives\nNO- = already negative (no NOT needed)\nNobody/nothing/nowhere are singular"
+      }
+    },
+    {
+      "task_id": "t1212_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — common compound phrases",
+        "vocabulary": [
+          {"word": "somewhere safe", "meaning": "a secure place", "example": "Put the documents somewhere safe."},
+          {"word": "nothing to worry about", "meaning": "no reason for concern", "example": "It's nothing to worry about — it's a minor issue."},
+          {"word": "anyone can", "meaning": "it is possible for all people", "example": "Anyone can learn a new language with practice."},
+          {"word": "no one else", "meaning": "not any other person", "example": "No one else knows about this yet."},
+          {"word": "something wrong", "meaning": "a problem exists", "example": "I think there's something wrong with the system."},
+          {"word": "nowhere near", "meaning": "not at all close (to a target/place)", "example": "We're nowhere near finished — it'll take another hour."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l12_listen",
+        "sentences": [
+          "I heard something strange outside last night.",
+          "Has anyone seen my phone? I can't find it anywhere.",
+          "Nobody told me about the meeting — I had no idea!",
+          "Would you like something to drink?",
+          "There's nowhere to sit — the café is completely full."
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "'I don't have ___ cash with me today.' Which fits?",
+        "options": ["some", "no", "any", "nobody"],
+        "correct": "any",
+        "explanation": "NEGATIVE sentence → ANY. 'I don't have any cash.' (not + any = any)"
+      }
+    },
+    {
+      "task_id": "t1212_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "'___ called for you while you were out.' Which fits?",
+        "options": ["Anyone", "No one", "Someone", "Nothing"],
+        "correct": "Someone",
+        "explanation": "POSITIVE statement — a person called → SOMEONE (unknown person, positive context)."
+      }
+    },
+    {
+      "task_id": "t1212_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence uses NO correctly?",
+        "options": [
+          "There's no any milk left.",
+          "There's no milk left.",
+          "There's not no milk left.",
+          "There's none milk left."
+        ],
+        "correct": "There's no milk left.",
+        "explanation": "NO + noun = complete negative. Don't add 'any' or 'not' — NO does the job alone."
+      }
+    },
+    {
+      "task_id": "t1212_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "'___ knew the answer — the whole class was confused.' Which fits?",
+        "options": ["Anyone", "Someone", "Nobody", "Somebody"],
+        "correct": "Nobody",
+        "explanation": "NOBODY = no person at all. This is a complete negative — no NOT needed with nobody."
+      }
+    },
+    {
+      "task_id": "t1212_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with SOME, ANY, or NO.",
+        "sentences": [
+          {"text": "Would you like ___ water? You look thirsty.", "answer": "some"},
+          {"text": "I didn't buy ___ vegetables at the market — they all looked old.", "answer": "any"},
+          {"text": "There's ___ signal in this area — my phone is useless here.", "answer": "no"},
+          {"text": "Can I borrow ___ money? I'll pay you back tomorrow.", "answer": "some"},
+          {"text": "She didn't make ___ mistakes in the entire exam!", "answer": "any"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Fill in with the correct compound: someone/anyone/no one, something/anything/nothing, somewhere/anywhere/nowhere.",
+        "sentences": [
+          {"text": "I need to tell you ___ — it's quite important.", "answer": "something"},
+          {"text": "Has ___ seen my glasses? I've looked ___!", "answer": "anyone / everywhere"},
+          {"text": "I have ___ to do this afternoon — want to meet?", "answer": "nothing"},
+          {"text": "___ in the team knew about the change — the manager forgot to inform us.", "answer": "No one / Nobody"},
+          {"text": "Let's go ___ quiet for dinner — I need a break from the noise.", "answer": "somewhere"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct sentence using a compound word.",
+        "words": ["called", "Someone", "you", "you", "were", "while", "out"],
+        "answer": "Someone called you while you were out."
+      }
+    },
+    {
+      "task_id": "t1212_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct NOTHING sentence.",
+        "words": ["There's", "the", "fridge", "in", "nothing"],
+        "answer": "There's nothing in the fridge."
+      }
+    },
+    {
+      "task_id": "t1212_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the situation to the correct compound word sentence.",
+        "pairs": [
+          {"left": "An unknown person is at the door.", "right": "Someone is at the door."},
+          {"left": "No place is available to sit.", "right": "There's nowhere to sit."},
+          {"left": "You felt an unusual feeling.", "right": "I felt something strange."},
+          {"left": "Not a single person attended.", "right": "Nobody came."},
+          {"left": "Asking if any person knows the answer.", "right": "Does anyone know the answer?"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "A mystery at the office — Chennai tech company",
+        "setting": "Priya arrives at the office to find something strange has happened. She talks to her colleague Arjun about it.",
+        "dialogue": [
+          {"speaker": "Priya", "text": "Arjun — something strange is going on. Has anyone been in the meeting room today?"},
+          {"speaker": "Arjun", "text": "Not that I know of. Why? Is there something wrong?"},
+          {"speaker": "Priya", "text": "All my notes from yesterday have disappeared. There's nothing on the whiteboard — someone has erased everything!"},
+          {"speaker": "Arjun", "text": "Are you sure? Could they be somewhere else in the room?"},
+          {"speaker": "Priya", "text": "I've looked everywhere — there's nowhere I haven't checked. And the chair arrangement is different too."},
+          {"speaker": "Arjun", "text": "That's odd. Has anyone else noticed anything?"},
+          {"speaker": "Priya", "text": "I've asked everyone nearby — nobody saw anything unusual. No one came in after 6 PM apparently."},
+          {"speaker": "Arjun", "text": "Did you save any notes digitally? Sometimes people erase whiteboards without realising someone was using them."},
+          {"speaker": "Priya", "text": "I have some photographs on my phone — thankfully! But there were some important diagrams I hadn't saved anywhere."},
+          {"speaker": "Arjun", "text": "Hmm. Is there any CCTV coverage of the corridor?"},
+          {"speaker": "Priya", "text": "There's no camera in that corridor — it's a blind spot unfortunately. I'll have to redo the diagrams."},
+          {"speaker": "Arjun", "text": "I'll help you. And from now on — photograph everything before you leave a room. Nothing should be left undocumented!"},
+          {"speaker": "Priya", "text": "Good advice. I have no idea who did it — but hopefully it was just an innocent mistake."}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What has disappeared from the meeting room?",
+            "options": ["Priya's laptop", "The chairs", "Her notes from the whiteboard", "The projector"],
+            "correct": "Her notes from the whiteboard"
+          },
+          {
+            "question": "Did anyone see what happened?",
+            "options": ["Yes, a colleague saw someone erase it.", "No — nobody saw anything unusual.", "Yes, CCTV recorded it.", "No, but they have a suspect."],
+            "correct": "No — nobody saw anything unusual."
+          },
+          {
+            "question": "What does Priya still have on her phone?",
+            "options": ["Nothing", "Some photographs of the notes", "A video recording", "The digital version of the diagrams"],
+            "correct": "Some photographs of the notes"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the some/any/no compound mistake.",
+        "sentences": [
+          {
+            "wrong": "Nobody didn't come to the event.",
+            "correct": "Nobody came to the event.",
+            "explanation": "NOBODY is already negative. Don't add didn't — it creates a double negative."
+          },
+          {
+            "wrong": "I saw anyone at the door.",
+            "correct": "I saw someone at the door.",
+            "explanation": "POSITIVE sentence → SOMEONE (not anyone). Anyone is for questions and negatives."
+          },
+          {
+            "wrong": "There's no any information about it.",
+            "correct": "There's no information about it.",
+            "explanation": "NO + noun directly — don't add 'any'. 'No any' is incorrect."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1212_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "You walk into a party and you don't know a single person there. How do you describe this to a friend later?",
+        "options": [
+          "I didn't know nobody there.",
+          "I didn't know anyone there — it was a bit awkward at first!",
+          "I knew no anyone there.",
+          "Someone didn't I know there."
+        ],
+        "correct": "I didn't know anyone there — it was a bit awkward at first!",
+        "explanation": "NEGATIVE sentence → ANYONE (not nobody — that would be a double negative with didn't)."
+      }
+    },
+    {
+      "task_id": "t1212_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Talk about a time when something unexpected happened — use some, any, no and their compounds naturally throughout.",
+        "prompt": "Describe an unexpected situation using someone/anyone/no one, something/anything/nothing, somewhere/anywhere/nowhere.",
+        "example_response": "I want to share something that happened to me last month that was quite stressful! I was travelling from Chennai to Bangalore by bus and somewhere near Vellore, the bus suddenly stopped. Nobody knew what was happening at first — no announcement, no explanation, nothing. I asked the person next to me but she hadn't heard anything either. After about twenty minutes, someone from the bus crew came and said there was a technical problem. There was nowhere to wait comfortably — just a roadside with no shelter anywhere. Some passengers got off to stretch but there was nothing to eat or drink nearby. No one had any information about how long we'd be stopped. I tried calling for help but there was no signal in that area — my phone was useless. Eventually, after almost two hours, another bus arrived and took us the rest of the way. Some passengers missed their connections but I was lucky — I had some extra time built in to my plan. It was stressful but actually ended up being a good story to tell!",
+        "key_phrases": ["something happened", "nobody knew", "nowhere to wait", "nothing to eat", "no one had any information", "no signal anywhere", "some passengers"],
+        "min_words": 130
+      }
+    },
+    {
+      "task_id": "t1212_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Talk about your ideal holiday using some, any, no and compound words — where you'd go, what you'd do, who you'd bring.",
+        "prompt": "Describe your dream holiday using some, any, no, someone, something, somewhere, nothing, nowhere, anyone.",
+        "example_response": "If I could plan my ideal holiday right now, I'd want to go somewhere peaceful and green — maybe a hill station or a forest retreat somewhere in Kerala or Coorg. I wouldn't want anywhere crowded or touristy. I'd bring someone close to me — maybe my best friend or my sister — someone who enjoys nature and doesn't need constant entertainment. I'd want some good books, some music, some simple home-cooked food, and absolutely nothing from work. No emails, no calls — nothing. I want to go somewhere I've never been before, so the North-East of India is really calling to me. Meghalaya has these incredible root bridges — I've read about them but I've never seen anything like them in real life. There's nothing quite like that anywhere else in India. I'd spend about ten days — enough time to really settle in and not feel rushed. I'd have no fixed schedule — just some rough ideas of places to explore. That kind of holiday, where there's no pressure and nowhere you have to be at a specific time — that's the most restful thing I can imagine.",
+        "key_phrases": ["somewhere peaceful", "someone close", "nothing from work", "nowhere crowded", "some good books", "nothing quite like it"],
+        "min_words": 140
+      }
+    },
+    {
+      "task_id": "t1212_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this notice board message using some, any, no and their compounds.",
+        "text": "NOTICE TO ALL STAFF\n\n___ (1) important items were left in Meeting Room 2 yesterday evening — including a laptop bag and ___ (2) printed documents. If these belong to ___ (3) please collect them from reception. We do not have ___ (4) information about who left them.\n\nAlso, please note that ___ (5) food or drink is allowed in the server room. ___ (6) was found eating inside yesterday — this is a serious safety concern. If ___ (7) sees this happening, please report it immediately.\n\nFinally, if ___ (8) notices ___ (9) wrong with the lift, please do not use it and report it to facilities. There have been ___ (10) complaints this week about unusual sounds.\n\nThank you for your cooperation.",
+        "answers": ["Some", "some", "anyone", "any", "No", "Someone", "anyone", "anyone", "something", "some"]
+      }
+    },
+    {
+      "task_id": "t1212_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 12 complete — Some, any, no and compounds",
+        "key_points": [
+          "SOME = positive sentences, offers and requests",
+          "ANY = negative sentences and questions",
+          "NO = direct negative (replaces not + any) — stronger",
+          "SOME-: someone/somebody, something, somewhere → positive",
+          "ANY-: anyone/anybody, anything, anywhere → questions and negatives",
+          "NO-: no one/nobody, nothing, nowhere → already negative (no NOT needed)",
+          "Double negative is WRONG: 'Nobody didn't come' → 'Nobody came'"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Life experiences — extended speaking and practice"
+      }
+    }
+  ]
+}

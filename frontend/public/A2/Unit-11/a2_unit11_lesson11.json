@@ -1,0 +1,500 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson11",
+    "unit":  11,
+    "lesson_number":  11,
+    "level":  "A2",
+    "title":  "Complaints and requests in person",
+    "description":  "Make polite complaints and requests face-to-face â€” at hotels, shops, restaurants, and offices â€” and handle responses professionally.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1111_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "How to make a polite complaint",
+                                      "body":  "A good complaint has THREE parts:\n1. EXPLAIN the problem clearly\n2. GIVE a reason why it matters\n3. REQUEST a solution\n\nUseful language:\nâ€¢ \u0027I\u0027m afraid there\u0027s a problem with...\u0027\nâ€¢ \u0027I\u0027d like to bring something to your attention.\u0027\nâ€¢ \u0027I\u0027m not entirely happy with...\u0027\nâ€¢ \u0027I think there may have been a mistake with...\u0027\nâ€¢ \u0027I was expecting... but instead...\u0027\nâ€¢ \u0027This isn\u0027t quite what I ordered / asked for.\u0027\n\nRequesting a solution:\nâ€¢ \u0027Could you possibly...?\u0027\nâ€¢ \u0027I\u0027d appreciate it if you could...\u0027\nâ€¢ \u0027Would it be possible to...?\u0027\nâ€¢ \u0027I\u0027d like a replacement / refund / correction, please.\u0027",
+                                      "grammar_note":  "Polite complaints use \u0027I\u0027m afraid\u0027 to soften\n\u0027I\u0027m not entirely happy\u0027 = softer than \u0027This is terrible\u0027\nAlways request a solution, not just complain"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Handling a complaint â€” the staff side",
+                                      "body":  "If you work in service and receive a complaint, respond professionally:\n\nACKNOWLEDGING:\nâ€¢ \u0027I understand completely â€” I\u0027m very sorry about that.\u0027\nâ€¢ \u0027Thank you for bringing this to our attention.\u0027\nâ€¢ \u0027I sincerely apologise for the inconvenience.\u0027\n\nOFFERING SOLUTIONS:\nâ€¢ \u0027I\u0027ll look into this right away.\u0027\nâ€¢ \u0027I can offer you a replacement / refund / discount.\u0027\nâ€¢ \u0027Let me speak to the manager for you.\u0027\nâ€¢ \u0027We\u0027ll make sure this doesn\u0027t happen again.\u0027\n\nNEVER say:\nâœ— \u0027That\u0027s not my problem.\u0027\nâœ— \u0027You should have checked before.\u0027\nâœ— \u0027I can\u0027t do anything about it.\u0027",
+                                      "grammar_note":  "Always acknowledge before offering a solution\n\u0027I\u0027ll look into this\u0027 = I will investigate immediately\nNever blame the customer"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Complaints and service",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "defective",
+                                                             "meaning":  "broken or not working properly",
+                                                             "example":  "The charger I bought is defective â€” it doesn\u0027t work."
+                                                         },
+                                                         {
+                                                             "word":  "overcharged",
+                                                             "meaning":  "made to pay too much",
+                                                             "example":  "I think I\u0027ve been overcharged â€” the bill seems too high."
+                                                         },
+                                                         {
+                                                             "word":  "refund",
+                                                             "meaning":  "money given back after returning a product",
+                                                             "example":  "I\u0027d like a full refund, please."
+                                                         },
+                                                         {
+                                                             "word":  "exchange",
+                                                             "meaning":  "to swap a product for another",
+                                                             "example":  "Could I exchange this for a larger size?"
+                                                         },
+                                                         {
+                                                             "word":  "escalate",
+                                                             "meaning":  "to take a problem to a higher level",
+                                                             "example":  "If this isn\u0027t resolved, I\u0027ll need to escalate the complaint."
+                                                         },
+                                                         {
+                                                             "word":  "resolution",
+                                                             "meaning":  "the solution to a problem or complaint",
+                                                             "example":  "Thank you â€” I\u0027m happy with this resolution."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l11_listen",
+                                      "sentences":  [
+                                                        "I\u0027m afraid there\u0027s a problem with my room â€” the air conditioning isn\u0027t working.",
+                                                        "I think there may have been a mistake with my bill â€” I was charged for a dish I didn\u0027t order.",
+                                                        "I understand completely â€” I\u0027ll look into this right away.",
+                                                        "Could you possibly send someone to fix it as soon as possible?",
+                                                        "I\u0027d like to return this â€” it seems to be defective."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "You ordered a vegetarian meal but received a non-vegetarian one. Which is the most polite complaint?",
+                                      "options":  [
+                                                      "This is wrong! Take it back!",
+                                                      "Excuse me â€” I\u0027m afraid this isn\u0027t what I ordered. I asked for the vegetarian option. Could you check and replace it, please?",
+                                                      "I hate this food.",
+                                                      "Wrong food. Change it."
+                                                  ],
+                                      "correct":  "Excuse me â€” I\u0027m afraid this isn\u0027t what I ordered. I asked for the vegetarian option. Could you check and replace it, please?",
+                                      "explanation":  "\u0027I\u0027m afraid\u0027 softens the complaint. State the problem clearly, reference your original request, and politely ask for a solution."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "You bought a pair of headphones and one side doesn\u0027t work. What do you say at the shop?",
+                                      "options":  [
+                                                      "These headphones are broken! Give me money back!",
+                                                      "Excuse me â€” I bought these headphones yesterday and I\u0027m afraid one side appears to be defective. I\u0027d like to exchange them or get a refund, please.",
+                                                      "This doesn\u0027t work.",
+                                                      "I want to complain about everything in this shop."
+                                                  ],
+                                      "correct":  "Excuse me â€” I bought these headphones yesterday and I\u0027m afraid one side appears to be defective. I\u0027d like to exchange them or get a refund, please.",
+                                      "explanation":  "Polite structure: context (when you bought) + problem (\u0027I\u0027m afraid\u0027 + defective) + clear request (exchange or refund)."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "A customer complains that their hotel room was not cleaned. The best staff response is:",
+                                      "options":  [
+                                                      "You should have called earlier.",
+                                                      "That\u0027s housekeeping\u0027s fault, not mine.",
+                                                      "I sincerely apologise for this â€” that\u0027s certainly not the standard we aim for. I\u0027ll send housekeeping up immediately.",
+                                                      "The room was cleaned â€” you must be wrong."
+                                                  ],
+                                      "correct":  "I sincerely apologise for this â€” that\u0027s certainly not the standard we aim for. I\u0027ll send housekeeping up immediately.",
+                                      "explanation":  "Acknowledge, apologise, reassure, and offer immediate action. Never blame the customer or defend poorly."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "You check your restaurant bill and notice you\u0027ve been charged for a dessert you didn\u0027t have. What do you say?",
+                                      "options":  [
+                                                      "You made a mistake!",
+                                                      "Excuse me â€” I think there might be an error on my bill. I see a charge for dessert, but I don\u0027t believe we ordered any. Could you double-check?",
+                                                      "The bill is wrong. Change it.",
+                                                      "I\u0027m not paying this."
+                                                  ],
+                                      "correct":  "Excuse me â€” I think there might be an error on my bill. I see a charge for dessert, but I don\u0027t believe we ordered any. Could you double-check?",
+                                      "explanation":  "\u0027I think there might be an error\u0027 = polite framing. \u0027I don\u0027t believe\u0027 = less accusatory than \u0027you made a mistake\u0027."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the correct complaint or resolution phrase.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027I\u0027m ___ there\u0027s a problem with my order â€” it seems to be missing an item.\u0027",
+                                                            "answer":  "afraid"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I ___ like a replacement or a full refund, please.\u0027",
+                                                            "answer":  "would / \u0027d"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Thank you for ___ this to our attention â€” I\u0027ll sort it immediately.\u0027",
+                                                            "answer":  "bringing"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I was ___ for two coffees but I only ordered one.\u0027",
+                                                            "answer":  "charged / overcharged"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Could you ___ send someone to check the issue?\u0027",
+                                                            "answer":  "possibly"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete this hotel complaint conversation.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Guest: \u0027___ there seems to be a problem with the hot water in my room.\u0027 (Excuse me)",
+                                                            "answer":  "Excuse me â€”"
+                                                        },
+                                                        {
+                                                            "text":  "Staff: \u0027I ___ â€” I\u0027ll send maintenance right away.\u0027 (apologise sincerely)",
+                                                            "answer":  "sincerely apologise"
+                                                        },
+                                                        {
+                                                            "text":  "Guest: \u0027Also, I ___ I was charged for breakfast I didn\u0027t have.\u0027 (think â€” mistake)",
+                                                            "answer":  "think there may have been a mistake â€”"
+                                                        },
+                                                        {
+                                                            "text":  "Staff: \u0027Let me ___ the bill and correct it immediately.\u0027 (check)",
+                                                            "answer":  "check"
+                                                        },
+                                                        {
+                                                            "text":  "Guest: \u0027Thank you â€” I appreciate your ___ response.\u0027 (quick)",
+                                                            "answer":  "quick / prompt"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a polite complaint sentence.",
+                                      "words":  [
+                                                    "the",
+                                                    "afraid",
+                                                    "not",
+                                                    "quite",
+                                                    "I\u0027m",
+                                                    "working",
+                                                    "heating",
+                                                    "is"
+                                                ],
+                                      "answer":  "I\u0027m afraid the heating is not quite working."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a resolution offer from staff.",
+                                      "words":  [
+                                                    "right",
+                                                    "into",
+                                                    "look",
+                                                    "I\u0027ll",
+                                                    "this",
+                                                    "away"
+                                                ],
+                                      "answer":  "I\u0027ll look into this right away."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the complaint to the appropriate solution response.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "\u0027My room hasn\u0027t been cleaned.\u0027",
+                                                        "right":  "I sincerely apologise â€” I\u0027ll send housekeeping up immediately."
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I\u0027ve been charged for something I didn\u0027t order.\u0027",
+                                                        "right":  "I\u0027ll check the bill and correct it right away."
+                                                    },
+                                                    {
+                                                        "left":  "\u0027This product I bought is defective.\u0027",
+                                                        "right":  "I can offer you an exchange or a full refund."
+                                                    },
+                                                    {
+                                                        "left":  "\u0027The food took over an hour to arrive.\u0027",
+                                                        "right":  "I\u0027m very sorry for the wait â€” let me offer a complimentary dessert."
+                                                    },
+                                                    {
+                                                        "left":  "\u0027The Wi-Fi password I was given doesn\u0027t work.\u0027",
+                                                        "right":  "Let me reset it for you â€” here\u0027s the updated password."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "â˜… FEATURED DIALOGUE â€” Scenario 4: Hotel complaint and resolution â€” Chennai",
+                                      "scenario_id":  "scenario_4",
+                                      "setting":  "Kavya checks into a business hotel in Chennai. Several things are not right with her room and she needs to sort them out. This dialogue features polite complaints, professional staff responses, and a successful resolution.",
+                                      "learning_note":  "Notice how Kavya stays calm and specific throughout â€” and how the staff responds with genuine solutions. This scenario is revisited in Lesson 13.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Excuse me â€” I checked in about an hour ago. I\u0027m in Room 412."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Yes of course â€” how can I help you, Ms Iyer?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I\u0027m afraid there are a couple of issues with my room. First â€” the air conditioning isn\u0027t cooling properly. It\u0027s quite warm in there."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "I sincerely apologise for that. I\u0027ll send our maintenance team up right away to check it."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Thank you. The second issue is â€” I requested a non-smoking room when I booked, but the room smells strongly of smoke."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Oh â€” I\u0027m very sorry about that. That\u0027s certainly not acceptable. Would you like us to move you to a different room?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Yes, I think that would be best. Could you possibly find me a room on a higher floor? I\u0027d prefer the view as well if that\u0027s possible."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Of course â€” let me check availability. We do have Room 608 on the sixth floor â€” it\u0027s a deluxe room with a city view. I can move you there at no extra charge."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "That sounds perfect. One more thing â€” I was charged for airport pickup in my bill but I actually made my own way here."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "I\u0027ll look into that right away. I can see there may have been a mix-up with the booking. I\u0027ll remove that charge from your bill immediately."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Thank you â€” I appreciate that. And could I also request extra towels to be sent to the new room?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Absolutely â€” I\u0027ll have them sent up along with a welcome amenity as our apology for the inconvenience."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "That\u0027s very kind. Thank you for handling this so efficiently â€” I appreciate it."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Of course, Ms Iyer. We want to make sure your stay is as comfortable as possible. I\u0027ll arrange for your bags to be moved to Room 608 within the next 15 minutes."
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What are the THREE problems Kavya reports?",
+                                                                          "options":  [
+                                                                                          "Bad food, broken TV, wrong room",
+                                                                                          "AC not cooling, smoky room, incorrect charge on bill",
+                                                                                          "No hot water, smoky room, wrong floor",
+                                                                                          "Dirty room, AC problem, slow room service"
+                                                                                      ],
+                                                                          "correct":  "AC not cooling, smoky room, incorrect charge on bill"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What room is Kavya moved to?",
+                                                                          "options":  [
+                                                                                          "Room 412",
+                                                                                          "Room 504",
+                                                                                          "Room 608",
+                                                                                          "Room 412 after fixing"
+                                                                                      ],
+                                                                          "correct":  "Room 608"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What extra does the hotel offer as an apology?",
+                                                                          "options":  [
+                                                                                          "A free dinner",
+                                                                                          "A late checkout",
+                                                                                          "A welcome amenity",
+                                                                                          "A room upgrade fee waived and free dinner"
+                                                                                      ],
+                                                                          "correct":  "A welcome amenity"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "What three complaint phrases does Kavya use? How does each one stay polite?",
+                                                                   "What makes the receptionist\u0027s responses professional? List 3 things.",
+                                                                   "How does the conversation end positively despite the problems?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the complaint language mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "This food is disgusting â€” you should be ashamed!",
+                                                            "correct":  "Excuse me â€” I\u0027m afraid this dish doesn\u0027t taste quite right. Could you check if everything is okay with it?",
+                                                            "explanation":  "Personal attacks and extreme language make complaints worse. Stay calm and specific."
+                                                        },
+                                                        {
+                                                            "wrong":  "Staff response: \u0027That\u0027s not my department.\u0027",
+                                                            "correct":  "Staff response: \u0027Let me find the right person to help you â€” I\u0027ll connect you to the manager right away.\u0027",
+                                                            "explanation":  "Good service = never pass the buck. Take ownership and connect them to a solution even if it\u0027s not directly your responsibility."
+                                                        },
+                                                        {
+                                                            "wrong":  "I want to make a complaint about everything.",
+                                                            "correct":  "Excuse me â€” I\u0027d like to raise a concern about [specific issue], please.",
+                                                            "explanation":  "Complaints should be specific and focused. \u0027Everything\u0027 is vague and unhelpful."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You ordered a product online and it arrived damaged. You call customer service. What do you say?",
+                                      "options":  [
+                                                      "Your company is terrible! The product arrived broken!",
+                                                      "Hello â€” I recently placed an order and I\u0027m afraid the product arrived damaged. The packaging was intact but the item inside was cracked. Could you arrange a replacement or refund, please?",
+                                                      "Damaged item. Want money back.",
+                                                      "This is unacceptable and I\u0027ll never order again."
+                                                  ],
+                                      "correct":  "Hello â€” I recently placed an order and I\u0027m afraid the product arrived damaged. The packaging was intact but the item inside was cracked. Could you arrange a replacement or refund, please?",
+                                      "explanation":  "Polite, specific complaint: \u0027I\u0027m afraid\u0027 + clear description of damage + specific request for resolution."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Role-play a restaurant complaint. You\u0027ve been waiting 45 minutes for your food. When it arrives, it\u0027s cold and the wrong order. Make a polite but firm complaint and request a resolution.",
+                                      "prompt":  "Make a polite restaurant complaint covering: the wait time, the wrong food, the temperature, and your requested resolution.",
+                                      "example_response":  "Excuse me â€” I\u0027m afraid there are a couple of issues I need to raise. Firstly, we\u0027ve been waiting nearly 45 minutes for our food â€” the expected time was 20 minutes. We were quite worried that the order had been forgotten. Secondly, when the food arrived, I\u0027m afraid this isn\u0027t what I ordered. I asked for the paneer tikka masala, but this appears to be a different dish â€” I think it might be the butter chicken. And unfortunately, the food has also arrived quite cold, which suggests it may have been sitting for a while. I completely understand that you\u0027re busy today and I don\u0027t want to make a scene â€” but I\u0027d like to request that you replace my dish with the correct one, freshly made and hot. It would also be very much appreciated if the manager could check on this. I\u0027ve been a regular here for years and I know this isn\u0027t the standard you normally maintain.",
+                                      "key_phrases":  [
+                                                          "I\u0027m afraid there are a couple of issues",
+                                                          "I asked for... but this appears to be...",
+                                                          "I\u0027d like to request that you replace",
+                                                          "I completely understand",
+                                                          "It would be appreciated if"
+                                                      ],
+                                      "min_words":  130
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Now role-play the OTHER side â€” you are the restaurant manager. A customer comes to you with the complaint from Task 17. Handle it professionally.",
+                                      "prompt":  "As a restaurant manager, respond to a customer\u0027s complaint about wait time, wrong food, and cold temperature. Acknowledge, apologise, and offer a solution.",
+                                      "example_response":  "Good evening â€” I\u0027m the manager. I understand you\u0027ve had some issues this evening and I want to sincerely apologise for that. A 45-minute wait is absolutely not what we aim for and I can see that we fell short of our standards tonight. I also apologise for the mix-up with your order â€” receiving the wrong dish is completely unacceptable and I take full responsibility for that. And the food being cold on top of that â€” I\u0027m truly sorry. Here\u0027s what I\u0027d like to do. First, I\u0027m having the correct dish â€” the paneer tikka masala â€” prepared fresh for you right now. It\u0027ll be ready in about 10 minutes. Second, I\u0027d like to offer you and your companion complimentary desserts as an apology for the inconvenience. And finally, I\u0027m removing the main course from your bill tonight. You\u0027ve been a loyal customer and I want to make sure you leave tonight feeling that we\u0027ve done right by you. I\u0027ll personally check on your table once the food arrives. Once again, I\u0027m genuinely sorry for your experience this evening.",
+                                      "key_phrases":  [
+                                                          "I sincerely apologise",
+                                                          "that\u0027s completely unacceptable",
+                                                          "I take full responsibility",
+                                                          "here\u0027s what I\u0027d like to do",
+                                                          "I want to make sure you leave satisfied"
+                                                      ],
+                                      "min_words":  140
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this written complaint email.",
+                                      "text":  "Subject: Complaint Regarding Stay â€” Room 412 â€” 10-12 October\n\nDear Manager,\n\nI am writing ___ (1) a complaint regarding my recent stay at your hotel on the above dates.\n\n___ (2), I would like to highlight that my room was not ___ (3) â€” I specifically requested a non-smoking room during booking, yet the room had a strong smell of smoke. I was eventually ___ (4) to Room 608, which I appreciate.\n\nSecondly, I ___ (5) to have been incorrectly charged for an airport pickup service that I did not use. ___ (6), this was resolved at reception, but I would ask that you review your booking system to prevent similar errors.\n\nI was generally satisfied with the ___ (7) of your staff in resolving these issues. However, given the ___ (8) I experienced, I ___ (9) appreciate a partial refund or a complimentary upgrade on my next visit.\n\n___ (10) forward to your response.\n\nYours sincerely,\nKavya Iyer",
+                                      "answers":  [
+                                                      "to raise / regarding",
+                                                      "Firstly",
+                                                      "as requested / non-smoking",
+                                                      "moved",
+                                                      "appear / appeared",
+                                                      "Fortunately",
+                                                      "professionalism / responsiveness",
+                                                      "inconvenience",
+                                                      "would",
+                                                      "I look"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1111_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 11 complete â€” Complaints and requests in person",
+                                      "key_points":  [
+                                                         "Structure: explain problem + why it matters + request a solution",
+                                                         "\u0027I\u0027m afraid there\u0027s a problem with...\u0027 softens the opening",
+                                                         "\u0027I think there may have been a mistake with...\u0027 = polite framing",
+                                                         "Request: \u0027Could you possibly...?\u0027 / \u0027I\u0027d appreciate it if...\u0027",
+                                                         "Staff response: acknowledge â†’ apologise â†’ offer solution immediately",
+                                                         "Never blame the customer or say \u0027That\u0027s not my problem\u0027",
+                                                         "Stay calm and specific â€” vague or emotional complaints are harder to resolve"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Describing problems and solutions"
+                                  }
+                  }
+              ]
+}

@@ -1,0 +1,558 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson13",
+    "unit":  11,
+    "lesson_number":  13,
+    "level":  "A2",
+    "title":  "Unit 11 Review â€” All 5 dialogue scenarios + speaking test",
+    "description":  "Comprehensive review of all Unit 11 grammar, vocabulary, and communication skills. Revisit all 5 featured dialogue scenarios and complete extended speaking tasks.",
+    "estimated_minutes":  40,
+    "xp_reward":  250,
+    "tasks":  [
+                  {
+                      "task_id":  "t1113_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Unit 11 â€” Complete grammar and language summary",
+                                      "body":  "All key language from Unit 11:\n\n1. QUESTION TAGS: positive â†’ negative tag / negative â†’ positive tag\n   \u0027She works here, doesn\u0027t she?\u0027 / \u0027You haven\u0027t met him, have you?\u0027\n\n2. SO/NEITHER + auxiliary: agreement with positive/negative statements\n   \u0027So do I!\u0027 / \u0027Neither am I.\u0027 / \u0027Me neither.\u0027\n\n3. INDIRECT QUESTIONS: statement word order + if/whether for yes/no\n   \u0027Could you tell me where the station is?\u0027\n\n4. POLITE REQUESTS: Would you mind + -ing / Could you possibly / I was wondering if\n\n5. PHONE ENGLISH: This is [name] calling / Bear with me / I\u0027ll put you through\n\n6. DIGITAL REGISTER: formal vs informal / abbreviations = casual only\n\n7. SMALL TALK: safe topics + reactions + follow-up questions\n\n8. OPINIONS: In my opinion / I strongly believe / I see your point but\n\n9. COMPLAINTS: I\u0027m afraid there\u0027s a problem / Could you possibly / I\u0027d appreciate\n\n10. PROBLEMS \u0026 SOLUTIONS: The issue is / What I\u0027d suggest / On balance"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "The 5 featured dialogue scenarios â€” recap",
+                                      "body":  "In this lesson you will revisit all 5 featured dialogues:\n\nâ˜… SCENARIO 1 (Lesson 1): Priya and Kavya catching up at a cafÃ© â€” question tags in natural conversation\n\nâ˜… SCENARIO 2 (Lesson 2): Office colleagues agreeing and disagreeing â€” So do I / Neither do I\n\nâ˜… SCENARIO 3 (Lesson 4): Customer service phone call â€” polite requests and phone English\n\nâ˜… SCENARIO 4 (Lesson 11): Hotel complaint and resolution â€” polite complaints and professional responses\n\nâ˜… SCENARIO 5 (Lesson 7): Workplace team chat â€” professional online communication\n\nFor each scenario you will: recall the story, identify key language, and practise speaking.",
+                                      "grammar_note":  "All 5 scenarios use real-world English you can use immediately\nFocus on: which language feature does each scenario practice?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Unit 11 vocabulary â€” master list",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "question tag",
+                                                             "meaning":  "short question at end of statement to check or invite agreement",
+                                                             "example":  "It\u0027s cold today, isn\u0027t it?"
+                                                         },
+                                                         {
+                                                             "word":  "indirect question",
+                                                             "meaning":  "polite question using statement word order",
+                                                             "example":  "Could you tell me where the exit is?"
+                                                         },
+                                                         {
+                                                             "word":  "register",
+                                                             "meaning":  "level of formality in language",
+                                                             "example":  "Use formal register in professional emails."
+                                                         },
+                                                         {
+                                                             "word":  "heads up",
+                                                             "meaning":  "advance notice",
+                                                             "example":  "Just a heads up â€” the meeting moved."
+                                                         },
+                                                         {
+                                                             "word":  "loop in",
+                                                             "meaning":  "to include someone in a conversation",
+                                                             "example":  "Can you loop Meera in on this?"
+                                                         },
+                                                         {
+                                                             "word":  "root cause",
+                                                             "meaning":  "original source of a problem",
+                                                             "example":  "We found the root cause of the bug."
+                                                         },
+                                                         {
+                                                             "word":  "resolution",
+                                                             "meaning":  "solution to a complaint or problem",
+                                                             "example":  "I\u0027m happy with this resolution."
+                                                         },
+                                                         {
+                                                             "word":  "on balance",
+                                                             "meaning":  "after considering everything",
+                                                             "example":  "On balance, Option A is better."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l13_listen",
+                                      "sentences":  [
+                                                        "It\u0027s been a while, hasn\u0027t it? â€” Almost a year, isn\u0027t it?",
+                                                        "I love filter coffee. â€” So do I! It\u0027s the best way to start the day.",
+                                                        "Could you tell me whether the conference room is free this afternoon?",
+                                                        "I\u0027m afraid there\u0027s a problem with my bill â€” I seem to have been overcharged.",
+                                                        "The issue is that the system crashes every time I try to export a file."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "SCENARIO 1 RECALL: What was the question tag Priya used when she first saw Kavya?",
+                                      "options":  [
+                                                      "\u0027It\u0027s lovely to see you, isn\u0027t it?\u0027",
+                                                      "\u0027It\u0027s been so long, hasn\u0027t it?\u0027",
+                                                      "\u0027You look great, don\u0027t you?\u0027",
+                                                      "\u0027We should meet more, shouldn\u0027t we?\u0027"
+                                                  ],
+                                      "correct":  "\u0027It\u0027s been so long, hasn\u0027t it?\u0027",
+                                      "explanation":  "Priya opened with \u0027it\u0027s been so long, hasn\u0027t it?\u0027 â€” a classic question tag to check shared understanding and invite agreement."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "SCENARIO 2 RECALL: What did Ravi and Arjun agree they BOTH hadn\u0027t done?",
+                                      "options":  [
+                                                      "Finished the project",
+                                                      "Tried the new canteen menu",
+                                                      "Taken their annual leave",
+                                                      "Used the new software"
+                                                  ],
+                                      "correct":  "Taken their annual leave",
+                                      "explanation":  "Both Ravi and Arjun hadn\u0027t taken their annual leave â€” Sonal also hadn\u0027t. \u0027Neither have I\u0027 was used for this."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "SCENARIO 3 RECALL: Why was Priya\u0027s card blocked?",
+                                      "options":  [
+                                                      "She reported it lost.",
+                                                      "She entered the wrong PIN three times.",
+                                                      "The card expired.",
+                                                      "There was suspicious online activity."
+                                                  ],
+                                      "correct":  "She entered the wrong PIN three times.",
+                                      "explanation":  "In Scenario 3 (bank call), Priya\u0027s card was blocked after 3 incorrect PIN attempts at a petrol station."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "SCENARIO 4 RECALL: How many problems did Kavya report at the hotel?",
+                                      "options":  [
+                                                      "One",
+                                                      "Two",
+                                                      "Three",
+                                                      "Four"
+                                                  ],
+                                      "correct":  "Three",
+                                      "explanation":  "Kavya reported: (1) AC not cooling, (2) room smelled of smoke despite requesting non-smoking, (3) incorrect charge for airport pickup."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Mixed Unit 11 grammar review â€” fill in correctly.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "She hasn\u0027t replied yet, ___ ___? (question tag)",
+                                                            "answer":  "has she"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I\u0027m exhausted after that trip.\u0027 â†’ \u0027___ ___ ___! (So/am/I)\u0027 (agreement)",
+                                                            "answer":  "So am I"
+                                                        },
+                                                        {
+                                                            "text":  "Could you tell me ___ the nearest pharmacy ___? (indirect: where/is)",
+                                                            "answer":  "where / is"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I\u0027d like to raise a ___.\u0027 (polite way to start a complaint)",
+                                                            "answer":  "concern / complaint"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027___ I\u0027d suggest is using the backup file.\u0027 (problem-solution)",
+                                                            "answer":  "What"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "SCENARIO 5 RECALL: Complete this section from the workplace team chat.",
+                                      "text":  "Priya: Hi team â€” ___ (1) a heads up: the client presentation is moved to Thursday at 3 PM.\nArjun: ___ (2) it â€” updated. Should I prepare any new slides?\nPriya: Yes â€” could you add a slide on Q3 results? Sonal â€” could you ___ (3) Meera in on this thread?\nSonal: ___ (4) do â€” I\u0027ll add her now.\nMeera: Good ___ (5), Priya â€” has the client seen our latest proposal?\nPriya: Good ___ (6), Meera â€” I\u0027ll check and get back to you by EOD.\nArjun: I\u0027ve ___ (7) the Q3 data in the shared folder â€” file name \u0027Q3_Results_Oct_final\u0027.",
+                                      "answers":  [
+                                                      "just",
+                                                      "Got",
+                                                      "loop",
+                                                      "Will",
+                                                      "morning / afternoon",
+                                                      "flag / point / question",
+                                                      "dropped"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a complete sentence with a question tag.",
+                                      "words":  [
+                                                    "been",
+                                                    "you",
+                                                    "Bangalore",
+                                                    "to",
+                                                    "haven\u0027t",
+                                                    "you",
+                                                    "haven\u0027t"
+                                                ],
+                                      "answer":  "You haven\u0027t been to Bangalore, have you?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a polite complaint sentence.",
+                                      "words":  [
+                                                    "there\u0027s",
+                                                    "I\u0027m",
+                                                    "with",
+                                                    "a",
+                                                    "afraid",
+                                                    "bill",
+                                                    "problem",
+                                                    "my"
+                                                ],
+                                      "answer":  "I\u0027m afraid there\u0027s a problem with my bill."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match each sentence to its Unit 11 language category.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "\u0027The food is amazing, isn\u0027t it?\u0027",
+                                                        "right":  "Question tag"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027Neither do I â€” I find it too noisy.\u0027",
+                                                        "right":  "So/Neither agreement"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027Could you tell me if the lift is working?\u0027",
+                                                        "right":  "Indirect question"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027Would you mind lowering your voice?\u0027",
+                                                        "right":  "Polite request"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027The downside of that option is the extra cost.\u0027",
+                                                        "right":  "Evaluating a solution"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "â˜… ALL 5 SCENARIOS â€” Final review dialogue: A day in Priya\u0027s life",
+                                      "scenario_id":  "all_scenarios_review",
+                                      "setting":  "Follow Priya through one full day â€” a morning catch-up, a work challenge, a complaint, a phone call, and an evening chat. All 5 scenario types appear in this single connected dialogue.",
+                                      "learning_note":  "This is your FINAL REVIEW DIALOGUE. It brings all 5 scenarios together. After reading, you will answer questions, identify language features, and role-play sections in the speaking tasks.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Narrator",
+                                                           "text":  "MORNING â€” Coffee shop. Priya runs into her old college friend Kavya."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Kavya! What a coincidence â€” you\u0027re back in Chennai already, aren\u0027t you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Just for two days! You look great â€” you haven\u0027t changed at all, have you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Ha! Flattery. How\u0027s the new job in Bangalore going?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Really well â€” I love it. I\u0027m a bit tired though. So am I, honestly â€” I\u0027ve barely slept this week."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Neither have I! Project deadlines. Anyway â€” I have to run. Let\u0027s catch up properly soon, shall we?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Absolutely â€” let\u0027s plan something!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Narrator",
+                                                           "text":  "AT THE OFFICE. Priya receives a message from her team lead Arjun."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun (team chat)",
+                                                           "text":  "Hi Priya â€” just a heads up: the client demo has moved to 3 PM today, not 4."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya (team chat)",
+                                                           "text":  "Got it â€” I\u0027ll loop in Sonal and update the slides. Will action this by 2."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun (team chat)",
+                                                           "text":  "Perfect â€” flag me if anything needs sign-off."
+                                                       },
+                                                       {
+                                                           "speaker":  "Narrator",
+                                                           "text":  "AT LUNCH. Priya calls a courier company about a package that was delivered to the wrong address."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Speedy Couriers â€” how can I help?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Good afternoon â€” this is Priya Rajan calling. I\u0027m afraid there\u0027s a problem with a delivery. The issue is that my package was sent to the wrong address â€” it happened yesterday and I still haven\u0027t received it."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "I sincerely apologise â€” could you hold the line while I look into this?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Of course â€” not at all."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Thank you for holding. I can see the package was delivered to 14B instead of 14A. I\u0027ll arrange a re-delivery for tomorrow morning."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I\u0027d appreciate that. Could you confirm my address is correct on the system? I\u0027d hate for this to happen again."
+                                                       },
+                                                       {
+                                                           "speaker":  "Agent",
+                                                           "text":  "Absolutely â€” I\u0027ll verify and correct it right now."
+                                                       },
+                                                       {
+                                                           "speaker":  "Narrator",
+                                                           "text":  "EVENING. Priya is on a call with her friend Sonal about a weekend plan."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027ve been thinking about visiting Pondicherry this weekend â€” have you been?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I have â€” it\u0027s absolutely lovely, isn\u0027t it? You\u0027ll love the French Quarter."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027m so excited! Btw â€” should I book a hotel or just use Airbnb?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "In my opinion, Airbnb is better for Pondicherry â€” you get a more authentic experience. The boutique hotels near the beachfront are beautiful though."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I see your point â€” I\u0027ll look at both options. What I\u0027d suggest is booking early â€” it fills up fast at weekends."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Exactly â€” on balance, booking tonight is the right call. You\u0027ll have a wonderful time â€” I\u0027m slightly jealous!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "In the morning, what do both Priya and Kavya have in common?",
+                                                                          "options":  [
+                                                                                          "They\u0027ve both been to Bangalore.",
+                                                                                          "Neither of them has slept well this week.",
+                                                                                          "They both work at the same company.",
+                                                                                          "They\u0027ve both been to Pondicherry."
+                                                                                      ],
+                                                                          "correct":  "Neither of them has slept well this week."
+                                                                      },
+                                                                      {
+                                                                          "question":  "In the office section, what does Priya say she will do about Sonal?",
+                                                                          "options":  [
+                                                                                          "Call Sonal directly",
+                                                                                          "Loop Sonal in and update the slides",
+                                                                                          "Send Sonal an email",
+                                                                                          "Ask Sonal to join the demo"
+                                                                                      ],
+                                                                          "correct":  "Loop Sonal in and update the slides"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What was the problem with Priya\u0027s package delivery?",
+                                                                          "options":  [
+                                                                                          "It was lost completely.",
+                                                                                          "It was delivered to the wrong address â€” 14B instead of 14A.",
+                                                                                          "It arrived damaged.",
+                                                                                          "It was delayed by three days."
+                                                                                      ],
+                                                                          "correct":  "It was delivered to the wrong address â€” 14B instead of 14A."
+                                                                      }
+                                                                  ],
+                                      "language_identification_task":  {
+                                                                           "instruction":  "Find one example of each language feature in the dialogue:",
+                                                                           "features":  [
+                                                                                            "A question tag",
+                                                                                            "A So/Neither agreement",
+                                                                                            "A professional chat phrase (heads up / loop in / action)",
+                                                                                            "A polite complaint opener",
+                                                                                            "An opinion phrase",
+                                                                                            "A solution suggestion"
+                                                                                        ]
+                                                                       }
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Mixed Unit 11 error correction â€” 3 mistakes from across the unit.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "She doesn\u0027t work here, doesn\u0027t she?",
+                                                            "correct":  "She doesn\u0027t work here, does she?",
+                                                            "explanation":  "Negative statement â†’ POSITIVE tag. \u0027Doesn\u0027t\u0027 â†’ \u0027does she\u0027 (not another \u0027doesn\u0027t\u0027)."
+                                                        },
+                                                        {
+                                                            "wrong":  "Could you tell me where is the manager\u0027s office?",
+                                                            "correct":  "Could you tell me where the manager\u0027s office is?",
+                                                            "explanation":  "Indirect questions use statement word order â€” no inversion after the opener."
+                                                        },
+                                                        {
+                                                            "wrong":  "\u0027I love this restaurant.\u0027 â†’ \u0027So I do!\u0027",
+                                                            "correct":  "\u0027I love this restaurant.\u0027 â†’ \u0027So do I!\u0027",
+                                                            "explanation":  "Word order: SO + auxiliary + subject. \u0027So do I\u0027 â€” not \u0027So I do\u0027."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You\u0027re at a professional networking event. Someone says: \u0027I find it really hard to start conversations with strangers at events like this.\u0027 You feel exactly the same. What do you say â€” and how do you keep the conversation going?",
+                                      "options":  [
+                                                      "Me too. Bye.",
+                                                      "So do I â€” it\u0027s always a bit nerve-wracking, isn\u0027t it? I\u0027m Priya by the way â€” what brings you to this event?",
+                                                      "Neither do I enjoy this.",
+                                                      "So I do find it hard."
+                                                  ],
+                                      "correct":  "So do I â€” it\u0027s always a bit nerve-wracking, isn\u0027t it? I\u0027m Priya by the way â€” what brings you to this event?",
+                                      "explanation":  "Perfect: correct agreement (So do I) + question tag to invite further comment + introduction + follow-up question = natural, warm conversation starter."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "â˜… FINAL SPEAKING TASK 1 â€” SCENARIO ROLE-PLAY: Choose ONE of the 5 featured scenarios and role-play BOTH sides of the conversation (or the main character\u0027s side if both sides are not possible alone). Speak for at least 90 seconds.",
+                                      "prompt":  "Choose: Scenario 1 (cafÃ© catch-up), 2 (office agreement debate), 3 (bank call), 4 (hotel complaint), or 5 (team chat). Role-play it naturally using the language from those lessons.",
+                                      "example_response":  "I\u0027ll role-play Scenario 4 â€” the hotel complaint â€” as Kavya.\n\n\u0027Excuse me â€” I checked in about an hour ago, Room 412. I\u0027m afraid there are a couple of issues I need to raise. First â€” the air conditioning isn\u0027t cooling at all. It\u0027s really quite warm in the room and I\u0027ve tried adjusting it without any improvement. Second â€” and this is more important â€” I specifically requested a non-smoking room when I booked. The confirmation email I have shows that clearly. But the room smells strongly of cigarettes. That\u0027s not at all acceptable when I have a respiratory condition. Could you possibly move me to a genuinely non-smoking room? If there\u0027s a room on a higher floor, that would be ideal.\n\n\u0027Also â€” I noticed my bill includes a charge for an airport pickup service. I didn\u0027t use that â€” I arrived by my own transport. Could you look into that and remove it if it\u0027s an error?\n\n\u0027I should say â€” your reception staff have been very friendly and I don\u0027t want to make a fuss, but these are things that really need to be sorted. If a room change isn\u0027t possible tonight, could you at least send maintenance to check the AC? I\u0027d appreciate a quick resolution â€” I have an early morning meeting and I need a good night\u0027s sleep.\u0027",
+                                      "key_phrases":  [
+                                                          "I\u0027m afraid there are a couple of issues",
+                                                          "I specifically requested",
+                                                          "Could you possibly",
+                                                          "I\u0027d appreciate a quick resolution",
+                                                          "I don\u0027t want to make a fuss, but"
+                                                      ],
+                                      "min_words":  160
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "â˜… FINAL SPEAKING TASK 2 â€” UNIT EXIT SPEAKING TEST: Talk for 2 minutes on this topic, using as many Unit 11 language features as possible: \u0027What makes someone a great communicator?\u0027",
+                                      "prompt":  "Give a 2-minute structured talk on what makes someone a great communicator. Use: opinion language, question tags, agreement structures, indirect questions, and any other Unit 11 features naturally.",
+                                      "example_response":  "In my opinion, communication is one of the most important skills a person can develop â€” and yet it\u0027s often the one most taken for granted. So what makes someone a truly great communicator?\n\nFirstly, I strongly believe that great communicators LISTEN as much as they speak â€” probably more. Have you ever spoken to someone who makes you feel completely heard? It\u0027s a remarkable feeling, isn\u0027t it? They react naturally â€” \u0027Oh really? Tell me more!\u0027 â€” and ask the right follow-up questions. That\u0027s a skill.\n\nSecondly, I think great communicators adapt their style to the situation. They know when to be formal â€” like in a job interview or a complaint email â€” and when to be relaxed and warm, like in small talk at a coffee shop. They match their register to their audience. I couldn\u0027t agree more with people who say that reading the room is half the battle.\n\nThirdly â€” and this is where I see people struggle most â€” great communicators know how to disagree without damaging relationships. I see your point, but I think differently â€” said calmly, with evidence â€” is far more powerful than \u0027You\u0027re wrong!\u0027 wouldn\u0027t you say?\n\nAnd finally, I think they\u0027re not afraid to be direct when needed. They can raise a complaint, say \u0027I\u0027m afraid there\u0027s a problem with this\u0027, or suggest \u0027What I\u0027d recommend is...\u0027 without being aggressive. On balance, great communication is about clarity, empathy, and adaptability â€” and I believe everyone can improve with practice.",
+                                      "key_phrases":  [
+                                                          "In my opinion",
+                                                          "I strongly believe",
+                                                          "isn\u0027t it?",
+                                                          "I couldn\u0027t agree more",
+                                                          "I see your point, but",
+                                                          "On balance",
+                                                          "What I\u0027d recommend is"
+                                                      ],
+                                      "min_words":  200
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Final comprehensive Unit 11 review â€” complete the dialogue using any appropriate language from the unit.",
+                                      "text":  "Arjun: Morning Priya! Coffee\u0027s on â€” you look tired, ___ (1)?\n\nPriya: Is it that obvious? ___ (2) am I â€” I barely slept. The hotel was noisy.\n\nArjun: Oh no â€” which hotel?\n\nPriya: The one by the airport. I ___ (3) to raise quite a few complaints actually. The room was dirty and the AC didn\u0027t work.\n\nArjun: You\u0027re ___ (4)! Did you complain at reception?\n\nPriya: I did. I said \u0027I\u0027m ___ (5) there are a couple of issues\u0027 â€” very politely. And they were helpful actually.\n\nArjun: Good. ___ (6) do I find complaining uncomfortable â€” I always worry it seems rude.\n\nPriya: I ___ (7) your point. But honestly â€” they can\u0027t fix what they don\u0027t know about, ___ (8)?\n\nArjun: That\u0027s very true. Could you tell me ___ (9) they offered any compensation?\n\nPriya: A room upgrade! So it worked out in the end. ___ (10) balance, it was fine â€” I just need the coffee!",
+                                      "answers":  [
+                                                      "aren\u0027t you",
+                                                      "So",
+                                                      "had",
+                                                      "joking / kidding",
+                                                      "afraid",
+                                                      "Neither",
+                                                      "take / see",
+                                                      "can they",
+                                                      "if / whether",
+                                                      "On"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1113_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "UNIT 11 COMPLETE â€” Everyday English in Real Life",
+                                      "key_points":  [
+                                                         "Question tags: positive â†’ negative / negative â†’ positive. Match tense.",
+                                                         "So/Neither + auxiliary = agreement. \u0027So do I\u0027 / \u0027Neither am I\u0027",
+                                                         "Indirect questions = statement word order. \u0027Could you tell me where it IS\u0027",
+                                                         "Polite requests: Would you mind + -ing / Could you possibly / I was wondering if",
+                                                         "Phone: \u0027This is [name] calling\u0027 / \u0027I\u0027ll put you through\u0027 / \u0027Can I take a message?\u0027",
+                                                         "Register: formal = full words + professional phrases / informal = casual + abbreviations OK",
+                                                         "Small talk: safe topics + reactions + follow-up questions â€” never one-word answers",
+                                                         "Opinions: \u0027In my opinion / I strongly believe / I see your point but...\u0027",
+                                                         "Complaints: \u0027I\u0027m afraid there\u0027s a problem\u0027 + reason + solution request",
+                                                         "Problems: \u0027The issue is / This has been going on / What I\u0027d suggest / On balance\u0027"
+                                                     ],
+                                      "xp_earned":  250,
+                                      "unit_complete":  true,
+                                      "next_unit":  "Unit 12 â€” Experiences and quantity"
+                                  }
+                  }
+              ]
+}

@@ -29,8 +29,31 @@ def get_progress(year: int = None, db: Session = Depends(get_db), current_user: 
     user_id = current_user.id
     now_utc = datetime.now(timezone.utc)
 
+    # ── Walk CEFR_ORDER to find the user's current content level ──────
+    CEFR_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
+    content_level = "A1"
+    for cefr in CEFR_ORDER:
+        cefr_units = db.query(Unit).filter(Unit.level == cefr).all()
+        if not cefr_units:
+            break  # No curriculum beyond this point
+        total_l = sum(
+            db.query(Lesson).filter(Lesson.unit_id == u.id).count()
+            for u in cefr_units
+        )
+        done_l = sum(
+            db.query(UserLessonCompletion).join(Lesson).filter(
+                Lesson.unit_id == u.id, UserLessonCompletion.user_id == user_id
+            ).count()
+            for u in cefr_units
+        )
+        content_level = cefr
+        if done_l < total_l:
+            break  # Still incomplete at this level — stay here
+
     # ── Lesson completion ────────────────────────────────────────────────────
-    all_units = db.query(Unit).filter(Unit.level == "A1").order_by(Unit.order).all()
+    levels_to_fetch = CEFR_ORDER[:CEFR_ORDER.index(content_level) + 1]
+    all_units = db.query(Unit).filter(Unit.level.in_(levels_to_fetch)).order_by(Unit.level, Unit.order).all()
+
     
     # Get all completed lesson IDs for this user
     completed_ids = {
@@ -128,8 +151,9 @@ def get_progress(year: int = None, db: Session = Depends(get_db), current_user: 
     skill_scores: dict = {"speaking": [], "vocabulary": [], "grammar": [], "listening": []}
 
     completed_lessons = db.query(Lesson).join(UserLessonCompletion).join(Unit).filter(
-        Unit.level == "A1", UserLessonCompletion.user_id == user_id
+        Unit.level == content_level, UserLessonCompletion.user_id == user_id
     ).all()
+
 
     for l in completed_lessons:
         skill = skill_map.get(l.content_type, "vocabulary")
@@ -152,7 +176,8 @@ def get_progress(year: int = None, db: Session = Depends(get_db), current_user: 
     }
 
     # ── Words known estimate ──────────────────────────────────────────────────
-    words_known = total_completed * 15
+    base_words = {"A1": 0, "A2": 500, "B1": 1500, "B2": 3000, "C1": 5000, "C2": 10000}.get(content_level, 0)
+    words_known = base_words + (total_completed * 15)
 
     # ── Due cards ─────────────────────────────────────────────────────────────
     due_count = db.query(FlashCard).filter(
@@ -164,13 +189,14 @@ def get_progress(year: int = None, db: Session = Depends(get_db), current_user: 
 
     return {
         "user_name": current_user.name,
-        "level": "A1",
+        "level": content_level,
         "streak": streak,
         "accuracy": accuracy,
         "words_known": words_known,
         "overall_pct": overall_pct,
         "total_lessons": total_lessons,
         "total_completed": total_completed,
+
         "due_cards": due_count,
         "units": units_data,
         "skills": skills,
@@ -409,6 +435,26 @@ def get_dashboard_data(db: Session = Depends(get_db), current_user: User = Depen
                 ))
         db.commit()
 
+    # ── Step 1b: Ensure A2 curriculum exists ──────────────────────────────────
+    a2_units_exist = db.query(Unit).filter(Unit.level == "A2").count() > 0
+    if not a2_units_exist:
+        a2_data = generate_personalized_units("A2")
+        for u_data in a2_data:
+            new_unit = Unit(
+                title=u_data["title"], description=u_data["description"],
+                level="A2", order=u_data["order"], icon=u_data["icon"]
+            )
+            db.add(new_unit)
+            db.flush()
+            for l_data in u_data["lessons"]:
+                db.add(Lesson(
+                    unit_id=new_unit.id, title=l_data["title"],
+                    content_type=l_data["content_type"],
+                    content_data=json.dumps(l_data["content_data"]),
+                    order=l_data["order"]
+                ))
+        db.commit()
+
     # ── Step 2: Walk CEFR_ORDER to find the user's current content level ──────
     # A level is "done" only when ALL its lessons are completed.
     # Only properly-labeled levels (seeded correctly) are considered.
@@ -431,8 +477,9 @@ def get_dashboard_data(db: Session = Depends(get_db), current_user: User = Depen
         if done_l < total_l:
             break  # Still incomplete at this level — stay here
 
-    # ── Step 3: Fetch display units for current content level ─────────────────
-    units = db.query(Unit).filter(Unit.level == content_level).order_by(Unit.order).all()
+    # ── Step 3: Fetch display units for all levels up to current content level ──
+    levels_to_fetch = CEFR_ORDER[:CEFR_ORDER.index(content_level) + 1]
+    units = db.query(Unit).filter(Unit.level.in_(levels_to_fetch)).order_by(Unit.level, Unit.order).all()
 
     # ── 3. Compute stats ──────────────────────────────────────────────────────
     accuracy_avg = db.query(func.avg(TestResult.score)).filter(TestResult.user_id == user_id).scalar() or 0.0
@@ -501,15 +548,47 @@ def get_dashboard_data(db: Session = Depends(get_db), current_user: User = Depen
 # LESSON DETAIL + COMPLETE  (wildcard — must be LAST)
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _resolve_lesson(lesson_id: str, db: Session) -> Lesson:
+    """Try resolving as int ID first, then as slug like a1_unit4_lesson02 or a2_unit7_lesson01."""
+    # 1. Try integer ID
+    try:
+        lid = int(lesson_id)
+        return db.query(Lesson).filter(Lesson.id == lid).first()
+    except ValueError:
+        pass
+
+    # 2. Try slug format: {level}_unit{X}_lesson{YY}
+    for prefix, level in [("a1_unit", "A1"), ("a2_unit", "A2")]:
+        if lesson_id.startswith(prefix):
+            try:
+                parts = lesson_id.split("_")
+                # parts[0]=a1/a2, parts[1]=unitX, parts[2]=lessonYY
+                unit_num = int(parts[1].replace("unit", ""))
+                order = int(parts[2].replace("lesson", ""))
+
+                # A2 units: unit7->order1, unit8->order2, unit9->order3, unit10->order4, unit11->order5
+                if level == "A2":
+                    unit_order = unit_num - 6  # unit7->1, unit8->2, unit9->3, unit10->4, unit11->5
+                else:
+                    unit_order = unit_num
+
+                unit = db.query(Unit).filter(Unit.level == level, Unit.order == unit_order).first()
+                if unit:
+                    return db.query(Lesson).filter(Lesson.unit_id == unit.id, Lesson.order == order).first()
+            except (ValueError, IndexError):
+                pass
+
+    return None
+
 @router.get("/{lesson_id}", response_model=LessonResponse)
-def get_lesson_details(lesson_id: int, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
-    lesson = db.query(Lesson).filter(Lesson.id == lesson_id).first()
+def get_lesson_details(lesson_id: str, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
+    lesson = _resolve_lesson(lesson_id, db)
     if not lesson:
         raise HTTPException(status_code=404, detail="Lesson not found")
     
     is_completed = db.query(UserLessonCompletion).filter(
         UserLessonCompletion.user_id == current_user.id,
-        UserLessonCompletion.lesson_id == lesson_id
+        UserLessonCompletion.lesson_id == lesson.id
     ).count() > 0
 
     return LessonResponse(id=lesson.id, unit_id=lesson.unit_id, title=lesson.title,
@@ -517,26 +596,9 @@ def get_lesson_details(lesson_id: int, db: Session = Depends(get_db), current_us
                           content_data=json.loads(lesson.content_data),
                           order=lesson.order, is_completed=is_completed)
 
-
 @router.post("/{lesson_id}/complete")
 def complete_lesson(lesson_id: str, payload: CompleteLessonRequest, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
-    lesson = None
-    if lesson_id.startswith("a1_unit1_lesson"):
-        try:
-            order = int(lesson_id[-2:])
-            unit = db.query(Unit).filter(Unit.level == "A1", Unit.order == 1).first()
-            if unit:
-                lesson = db.query(Lesson).filter(Lesson.unit_id == unit.id, Lesson.order == order).first()
-        except ValueError:
-            pass
-    
-    if not lesson:
-        try:
-            lid = int(lesson_id)
-            lesson = db.query(Lesson).filter(Lesson.id == lid).first()
-        except ValueError:
-            pass
-
+    lesson = _resolve_lesson(lesson_id, db)
     if not lesson:
         raise HTTPException(status_code=404, detail="Lesson not found")
         
@@ -559,18 +621,29 @@ def complete_lesson(lesson_id: str, payload: CompleteLessonRequest, db: Session 
     db.add(tr)
 
     # Update Streak
+    # Use IST offset (UTC+5:30) for date comparison so midnight in India is correct
+    IST_OFFSET = timedelta(hours=5, minutes=30)
     now_utc = datetime.now(timezone.utc)
-    now_date = now_utc.date()
-    # Check last active date
+    now_local_date = (now_utc + IST_OFFSET).date()
+
     if current_user.last_active_date:
-        last_date = current_user.last_active_date.date()
-        if (now_date - last_date).days == 1:
-            current_user.current_streak += 1
-        elif (now_date - last_date).days > 1:
+        # Normalise stored last_active_date to IST local date
+        last_utc = current_user.last_active_date
+        if last_utc.tzinfo is None:
+            last_utc = last_utc.replace(tzinfo=timezone.utc)
+        last_local_date = (last_utc + IST_OFFSET).date()
+        diff_days = (now_local_date - last_local_date).days
+        if diff_days == 1:
+            # Consecutive day — extend streak
+            current_user.current_streak = (current_user.current_streak or 0) + 1
+        elif diff_days > 1:
+            # Missed days — reset to 1
             current_user.current_streak = 1
+        # diff_days == 0 → same local day, keep streak as-is
     else:
+        # First ever activity
         current_user.current_streak = 1
-    
+
     current_user.last_active_date = now_utc
     
     # ── XP CALCULATION ────────────────────────────────────────────────────────
@@ -615,25 +688,69 @@ def _seed_cards_for_lesson(db: Session, user_id: int, lesson: Lesson) -> int:
     except Exception:
         return 0
 
-    # Old format
-    flashcards = data.get("flashcards", [])
-    
-    # New interactive format
+    flashcards: list = []
+
+    # ── Old format: top-level flashcards list ─────────────────────────────────
+    flashcards.extend(data.get("flashcards", []))
+
+    # ── New interactive format: scan all tasks ────────────────────────────────
     tasks = data.get("tasks", [])
     for task in tasks:
-        if task.get("type") == "FLASHCARD":
+        ttype = task.get("type", "")
+
+        # Legacy FLASHCARD task
+        if ttype == "FLASHCARD":
             td = task.get("data", {})
             front = td.get("primary_text", "")
             back = td.get("secondary_text", "")
             if front and back:
                 flashcards.append({"front": front, "back": back})
 
+        # New format: learn_card — extract vocabulary from items, groups, and table rows
+        elif ttype in ("learn_card", "vocabulary"):
+            content = task.get("content", {})
+            # items list: [{phrase, note}]
+            for item in content.get("items", []):
+                phrase = item.get("phrase", item.get("word", "")).strip()
+                note = item.get("note", item.get("definition", item.get("translation", ""))).strip()
+                if phrase and note:
+                    flashcards.append({"front": phrase, "back": note})
+            # groups list — items can be plain strings or [{word/phrase, definition/note}]
+            for group in content.get("groups", []):
+                group_name = group.get("group", "")
+                for item in group.get("items", []):
+                    if isinstance(item, str):
+                        # Plain string item e.g. emotion words — use group name as context
+                        if item.strip() and group_name:
+                            flashcards.append({"front": item.strip(), "back": f"{group_name} emotion / feeling"})
+                    elif isinstance(item, dict):
+                        word = item.get("word", item.get("phrase", "")).strip()
+                        defn = item.get("definition", item.get("note", item.get("translation", ""))).strip()
+                        if word and defn:
+                            flashcards.append({"front": word, "back": defn})
+
+        # New format: MCQ — make flashcard from question+correct answer
+        elif ttype in ("mcq", "scenario_mcq"):
+            c = task.get("content", {})
+            question = c.get("question", "").strip()
+            options = c.get("options", [])
+            correct_idx = c.get("correct_index", 0)
+            explanation = c.get("explanation", "").strip()
+            if question and options and correct_idx is not None:
+                correct_answer = options[correct_idx] if correct_idx < len(options) else ""
+                if correct_answer:
+                    back = correct_answer
+                    if explanation:
+                        back = f"{correct_answer} — {explanation}"
+                    flashcards.append({"front": question[:120], "back": back[:200]})
+
     count = 0
     for fc in flashcards:
-        front = fc.get("front", "").strip()
-        back  = fc.get("back", "").strip()
+        front = str(fc.get("front", "")).strip()
+        back  = str(fc.get("back", "")).strip()
         if not front or not back:
             continue
+        # Skip duplicates for this user
         existing = db.query(FlashCard).filter(
             FlashCard.user_id == user_id,
             FlashCard.front == front

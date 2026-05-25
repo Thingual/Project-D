@@ -1,0 +1,132 @@
+{
+  "lesson_id": "a1_unit6_lesson04",
+  "unit": 6,
+  "lesson_number": 4,
+  "level": "A1",
+  "title": "Health & lifestyle",
+  "description": "Talk about healthy habits and give basic advice for illnesses.",
+  "estimated_minutes": 30,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0604_01",
+      "type": "learn_card",
+      "prompt": "Health vocabulary set",
+      "content": {
+        "grammar_focus": "Health and habits",
+        "example_sentences": [
+          "I have a headache.",
+          "I exercise three times a week.",
+          "You should get some rest."
+        ],
+        "context": "Talking about health and routines."
+      }
+    },
+    {
+      "task_id": "t0604_02",
+      "type": "listen_repeat",
+      "prompt": "Pronounce key sounds",
+      "audio_key": "a1_u6_l4_repeat_01",
+      "content": {
+        "target_phrases": [
+          "You should drink more water.",
+          "I usually sleep eight hours.",
+          "I feel stressed today."
+        ]
+      }
+    },
+    {
+      "task_id": "t0604_03",
+      "type": "mcq",
+      "prompt": "Often/sometimes/never",
+      "question": "If you do something zero times, you ___ do it.",
+      "options": ["never", "often", "usually", "sometimes"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0604_04",
+      "type": "fill_blank",
+      "prompt": "Present simple for routines",
+      "content": {
+        "sentence": "She ___ yoga every morning.",
+        "options": ["do", "does", "doing", "done"],
+        "correct": "does"
+      }
+    },
+    {
+      "task_id": "t0604_05",
+      "type": "sort_words",
+      "prompt": "Build the advice sentence",
+      "scramble": ["should", "rest", "get", "You", "some"],
+      "answer": "You should get some rest"
+    },
+    {
+      "task_id": "t0604_06",
+      "type": "match_pairs",
+      "prompt": "Symptoms to questions",
+      "pairs": [
+        {"left": "I have a headache.", "right": "You should take a painkiller."},
+        {"left": "I am very tired.", "right": "You should sleep early."},
+        {"left": "I am thirsty.", "right": "You should drink some water."}
+      ]
+    },
+    {
+      "task_id": "t0604_07",
+      "type": "error_correction",
+      "prompt": "Fix should sentences",
+      "instruction": "Correct the sentence.",
+      "wrong_sentence": "You should to rest.",
+      "correct_sentence": "You should rest."
+    },
+    {
+      "task_id": "t0604_08",
+      "type": "scenario_mcq",
+      "prompt": "Best advice choice",
+      "question": "Your friend says: 'I feel stressed from work.' You say:",
+      "options": [
+        "You should take a break.",
+        "You should work more.",
+        "I like coffee.",
+        "Where is your office?"
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0604_09",
+      "type": "speaking",
+      "prompt": "Speak: my lifestyle routine",
+      "content": {
+        "min_words": 15,
+        "example_response": "I usually wake up early and go for a walk. I eat healthy food and sleep for eight hours."
+      }
+    },
+    {
+      "task_id": "t0604_10",
+      "type": "dialogue",
+      "prompt": "Roleplay: ask for advice",
+      "dialogue": {
+        "setting": "Two friends talking",
+        "turns": [
+          {"speaker": "A", "text": "I have a bad headache today."},
+          {"speaker": "B", "text": "Oh no. You should drink water and rest."},
+          {"speaker": "A", "text": "Thanks, I will do that."}
+        ]
+      },
+      "comprehension_questions": [
+        {"question": "What is A's problem?", "expected_answer": "They have a headache."}
+      ]
+    },
+    {
+      "task_id": "t0604_11",
+      "type": "lesson_summary",
+      "prompt": "Lesson summary: Health & lifestyle",
+      "content": {
+        "checklist": [
+          "I can talk about my healthy habits.",
+          "I can describe simple symptoms.",
+          "I can give advice using 'should'."
+        ]
+      }
+    }
+  ]
+}

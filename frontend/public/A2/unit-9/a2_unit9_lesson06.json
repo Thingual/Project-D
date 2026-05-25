@@ -1,0 +1,24 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Practice speaking about past experiences using the present perfect naturally.",
+    "xp_reward":  150,
+    "lesson_number":  6,
+    "tasks":  [
+                  {
+                      "title":  "Talk About Your Life",
+                      "content":  {
+                                      "instruction":  "Describe three interesting experiences from your life using the present perfect.",
+                                      "example_response":  "I have travelled to five countries. I have learned to cook Italian food. I have never tried skydiving, but I want to!",
+                                      "key_phrases":  [
+                                                          "I have",
+                                                          "I\u0027ve never",
+                                                          "Have you",
+                                                          "the best I\u0027ve ever"
+                                                      ]
+                                  },
+                      "type":  "speaking"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson06",
+    "title":  "Life Experiences Speaking"
+}

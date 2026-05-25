@@ -1,0 +1,485 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson05",
+    "unit":  10,
+    "lesson_number":  5,
+    "level":  "A2",
+    "title":  "May \u0026 might â€” possibility",
+    "description":  "Use may and might to talk about things that are possible but not certain in the future.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1005_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "May and might â€” expressing possibility",
+                                      "body":  "We use MAY and MIGHT to talk about things that are POSSIBLE â€” not certain.\n\nMAY = slightly more certain (about 50% chance)\nMIGHT = slightly less certain (about 30-40% chance)\nIn everyday speech, they are often interchangeable.\n\nExamples:\nâ€¢ I may go to the party â€” I haven\u0027t decided yet.\nâ€¢ It might rain this evening â€” carry an umbrella.\nâ€¢ She might get the job â€” she interviewed well.\nâ€¢ We may not make it on time â€” the traffic is bad.\n\nNegative:\nâ€¢ I may not come tomorrow.\nâ€¢ He might not know the answer.",
+                                      "grammar_note":  "may/might + BASE VERB (no \u0027to\u0027, no -ing)\nNegative: may not / might not (mayn\u0027t is rare; mightn\u0027t is informal)\nNo \u0027s\u0027 for he/she/it â€” may/might never change form"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "May/might vs will vs going to",
+                                      "body":  "Compare these levels of certainty:\n\n100% certain:\n\u0027I will be there at 6.\u0027 (definite)\n\nHigh certainty (decided plan):\n\u0027I\u0027m going to be there at 6.\u0027 (already decided)\n\nPossible (not certain):\n\u0027I may/might be there at 6.\u0027 (not sure yet)\n\nKey tip: When you are NOT SURE if something will happen, use MAY or MIGHT â€” not WILL.\n\nWrong: \u0027I will maybe go.\u0027 âœ—\nRight: \u0027I might go.\u0027 âœ“\nRight: \u0027I may go.\u0027 âœ“",
+                                      "grammar_note":  "will = certain prediction / decided\ngoing to = decided plan / evidence\nmay/might = possible, not certain"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Possibility and uncertainty",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "uncertain",
+                                                             "meaning":  "not sure about something",
+                                                             "example":  "I\u0027m uncertain about my weekend plans."
+                                                         },
+                                                         {
+                                                             "word":  "possibility",
+                                                             "meaning":  "a chance that something might happen",
+                                                             "example":  "There\u0027s a possibility of rain tonight."
+                                                         },
+                                                         {
+                                                             "word":  "hesitate",
+                                                             "meaning":  "to pause before deciding",
+                                                             "example":  "She hesitated before accepting the offer."
+                                                         },
+                                                         {
+                                                             "word":  "consider",
+                                                             "meaning":  "to think about something before deciding",
+                                                             "example":  "I\u0027m considering whether to apply or not."
+                                                         },
+                                                         {
+                                                             "word":  "depend on",
+                                                             "meaning":  "to be decided by something else",
+                                                             "example":  "It depends on the weather."
+                                                         },
+                                                         {
+                                                             "word":  "unlikely",
+                                                             "meaning":  "not probable",
+                                                             "example":  "It\u0027s unlikely to snow in Chennai!"
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l5_listen",
+                                      "sentences":  [
+                                                        "I might visit my parents this weekend â€” I haven\u0027t decided yet.",
+                                                        "She may not come to the meeting â€” she\u0027s unwell.",
+                                                        "It might get cold tonight â€” take a jacket.",
+                                                        "We may have to reschedule â€” the venue isn\u0027t confirmed.",
+                                                        "He might be the right person for the job."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Priya isn\u0027t sure if she can attend the event on Saturday. What does she say?",
+                                      "options":  [
+                                                      "I will attend on Saturday.",
+                                                      "I\u0027m attending on Saturday.",
+                                                      "I might attend on Saturday â€” it depends on my family plans.",
+                                                      "I attending on Saturday maybe."
+                                                  ],
+                                      "correct":  "I might attend on Saturday â€” it depends on my family plans.",
+                                      "explanation":  "MIGHT expresses possibility/uncertainty â€” she hasn\u0027t decided and it\u0027s not certain."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Which sentence correctly uses MAY for possibility?",
+                                      "options":  [
+                                                      "It may raining tonight.",
+                                                      "It may to rain tonight.",
+                                                      "It may rain tonight.",
+                                                      "It mays rain tonight."
+                                                  ],
+                                      "correct":  "It may rain tonight.",
+                                      "explanation":  "MAY + BASE VERB (no -ing, no \u0027to\u0027, no \u0027s\u0027). \u0027May rain\u0027 is correct."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Arjun says: \u0027I\u0027m not 100% sure, but there\u0027s a good chance I\u0027ll get the promotion.\u0027 Which best expresses this?",
+                                      "options":  [
+                                                      "I will definitely get the promotion.",
+                                                      "I may get the promotion.",
+                                                      "I\u0027m getting the promotion next week.",
+                                                      "I got the promotion."
+                                                  ],
+                                      "correct":  "I may get the promotion.",
+                                      "explanation":  "MAY = possible but not certain â€” exactly what \u0027not 100% sure but good chance\u0027 means."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What is the difference between \u0027I might come\u0027 and \u0027I\u0027m coming\u0027?",
+                                      "options":  [
+                                                      "No difference â€” both mean the same thing.",
+                                                      "\u0027I might come\u0027 = possible, not sure. \u0027I\u0027m coming\u0027 = fixed, arranged plan.",
+                                                      "\u0027I might come\u0027 = very certain. \u0027I\u0027m coming\u0027 = uncertain.",
+                                                      "\u0027I might come\u0027 is past tense. \u0027I\u0027m coming\u0027 is present tense."
+                                                  ],
+                                      "correct":  "\u0027I might come\u0027 = possible, not sure. \u0027I\u0027m coming\u0027 = fixed, arranged plan.",
+                                      "explanation":  "This is a key distinction: might = uncertain possibility; present continuous for future = confirmed arrangement."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in with MAY, MIGHT, MAY NOT, or MIGHT NOT.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I ___ go to Ooty next month â€” it depends on whether I get leave approved.",
+                                                            "answer":  "may / might"
+                                                        },
+                                                        {
+                                                            "text":  "She ___ be in the office today â€” she was feeling sick yesterday.",
+                                                            "answer":  "may not / might not"
+                                                        },
+                                                        {
+                                                            "text":  "The results ___ be announced tomorrow or it ___ take until next week.",
+                                                            "answer":  "may / might"
+                                                        },
+                                                        {
+                                                            "text":  "Don\u0027t wait for me for dinner â€” I ___ be late. The traffic is terrible.",
+                                                            "answer":  "may / might"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Rewrite using MAY or MIGHT to make the sentence less certain.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "It will rain this afternoon. â†’ It ___ this afternoon.",
+                                                            "answer":  "may/might rain"
+                                                        },
+                                                        {
+                                                            "text":  "She will get the promotion. â†’ She ___ the promotion.",
+                                                            "answer":  "may/might get"
+                                                        },
+                                                        {
+                                                            "text":  "They won\u0027t finish on time. â†’ They ___ not finish on time.",
+                                                            "answer":  "may/might"
+                                                        },
+                                                        {
+                                                            "text":  "He will move to Singapore. â†’ He ___ to Singapore.",
+                                                            "answer":  "may/might move"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a possibility sentence.",
+                                      "words":  [
+                                                    "might",
+                                                    "I",
+                                                    "job",
+                                                    "apply",
+                                                    "for",
+                                                    "that",
+                                                    "â€”",
+                                                    "not",
+                                                    "sure",
+                                                    "yet"
+                                                ],
+                                      "answer":  "I might apply for that job â€” not sure yet."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a negative possibility sentence.",
+                                      "words":  [
+                                                    "make",
+                                                    "may",
+                                                    "not",
+                                                    "the",
+                                                    "it",
+                                                    "We",
+                                                    "to",
+                                                    "in",
+                                                    "time",
+                                                    "flight"
+                                                ],
+                                      "answer":  "We may not make it to the flight in time."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the uncertain situation to the best MAY/MIGHT sentence.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "50% chance of rain forecast",
+                                                        "right":  "It might rain this evening."
+                                                    },
+                                                    {
+                                                        "left":  "Boss might give promotion â€” not decided",
+                                                        "right":  "She may get a promotion this quarter."
+                                                    },
+                                                    {
+                                                        "left":  "Not sure if friend will join dinner",
+                                                        "right":  "Meera might not come â€” she seemed busy."
+                                                    },
+                                                    {
+                                                        "left":  "Not certain the train will be on time",
+                                                        "right":  "The train may be delayed."
+                                                    },
+                                                    {
+                                                        "left":  "Considering a holiday but not booked",
+                                                        "right":  "I might go to Kerala in December."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Planning a trip with uncertainty â€” Pune",
+                                      "setting":  "Kavya and her friend Ravi are trying to plan a trip to Himachal Pradesh but are unsure about many things.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Ravi, I\u0027ve been thinking about that Himachal trip we discussed. Do you think it\u0027ll actually happen this year?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "It might! I may be able to take leave in October, but it depends on the project deadline."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "October sounds good â€” the weather might be perfect there. But what if it snows already?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "It may snow in higher areas like Spiti, but Manali and Kasol might still be okay in October."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Should we book early? Or might prices come down closer to the date?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "Flights might get cheaper, but hotels may fill up fast in October â€” it\u0027s peak season. I\u0027d book hotels early."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "True. What about Sonal â€” might she join us?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "She may come. She said she might take a long break in October, but she may not be able to afford it right now."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I see. And transport â€” should we rent a car?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "We might rent a car or we may just take cabs from Manali. Depends on the group size."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Okay, so nothing is confirmed yet?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "Not yet! But it might all come together by next month. Let\u0027s decide by August."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Alright. It might be the best trip we\u0027ve ever taken â€” I can feel it!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Why might Ravi not be able to go in October?",
+                                                                          "options":  [
+                                                                                          "He might not have money.",
+                                                                                          "It depends on his project deadline.",
+                                                                                          "He may be travelling elsewhere.",
+                                                                                          "He doesn\u0027t like the cold."
+                                                                                      ],
+                                                                          "correct":  "It depends on his project deadline."
+                                                                      },
+                                                                      {
+                                                                          "question":  "Why does Ravi say to book hotels early?",
+                                                                          "options":  [
+                                                                                          "Hotels are cheap in October.",
+                                                                                          "Hotels may fill up fast â€” it\u0027s peak season.",
+                                                                                          "Hotels might close in winter.",
+                                                                                          "Hotels only accept early bookings."
+                                                                                      ],
+                                                                          "correct":  "Hotels may fill up fast â€” it\u0027s peak season."
+                                                                      },
+                                                                      {
+                                                                          "question":  "Why might Sonal not join the trip?",
+                                                                          "options":  [
+                                                                                          "She might be working.",
+                                                                                          "She may not be able to afford it right now.",
+                                                                                          "She doesn\u0027t like mountains.",
+                                                                                          "She may be getting married."
+                                                                                      ],
+                                                                          "correct":  "She may not be able to afford it right now."
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "She might to come to the party.",
+                                                            "correct":  "She might come to the party.",
+                                                            "explanation":  "MIGHT + BASE VERB â€” no \u0027to\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "It mights rain tomorrow.",
+                                                            "correct":  "It might rain tomorrow.",
+                                                            "explanation":  "MIGHT never changes â€” no \u0027s\u0027 for any person."
+                                                        },
+                                                        {
+                                                            "wrong":  "I will maybe go to the market later.",
+                                                            "correct":  "I might go to the market later. / I may go to the market later.",
+                                                            "explanation":  "\u0027Will maybe\u0027 is not standard. Use MAY or MIGHT for uncertainty."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "Your colleague asks if you\u0027ll attend the optional team outing on Friday. You\u0027d like to go but you have a family commitment that might finish in time. What do you say?",
+                                      "options":  [
+                                                      "I will come to the outing.",
+                                                      "I\u0027m not coming to the outing.",
+                                                      "I might come â€” it depends on whether I finish my family commitment in time.",
+                                                      "I will maybe come if I want."
+                                                  ],
+                                      "correct":  "I might come â€” it depends on whether I finish my family commitment in time.",
+                                      "explanation":  "MIGHT is correct for genuine uncertainty. \u0027Will maybe\u0027 is not natural English."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Talk about 5 things in your life that are POSSIBLE but not certain in the next few months. Use may, might, may not, and might not.",
+                                      "prompt":  "Share things that might happen for you soon â€” plans, changes, possibilities you\u0027re considering.",
+                                      "example_response":  "There are several things in my life right now that are possible but not confirmed. First, I might get a transfer to our Hyderabad office â€” my manager mentioned it but nothing is decided. I may apply for a part-time online course in data science â€” I\u0027ve been thinking about it for months but I\u0027m not sure about the time commitment. My family might move to a bigger flat â€” we\u0027ve been looking but haven\u0027t found the right place yet. My friend and I may go on a road trip to Coorg in September, but it depends on whether we both get leave approved at the same time. And I might finally start that YouTube channel I\u0027ve been planning â€” I may not though, because I\u0027m still a bit nervous about putting myself out there.",
+                                      "key_phrases":  [
+                                                          "I might",
+                                                          "I may",
+                                                          "I might not",
+                                                          "it depends on",
+                                                          "I\u0027m considering",
+                                                          "it\u0027s possible that"
+                                                      ],
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "A friend asks you 5 questions about next week. Answer each one using may or might â€” because you\u0027re genuinely not certain about any of them.",
+                                      "prompt":  "Answer these 5 questions with uncertain responses: 1. Are you free next Saturday? 2. Will you come to the team lunch? 3. Will it be a busy week for you? 4. Are you going to the gym next week? 5. Will you be in the office on Friday?",
+                                      "example_response":  "Great questions! Let me answer honestly. Am I free next Saturday? I might be free â€” it depends on whether my cousin\u0027s visit from Coimbatore happens or not. She may come this weekend or she may postpone. Will I come to the team lunch? I may come if I finish my morning deliverables on time. I might be in back-to-back calls until 2 PM though, so it depends. Will it be a busy week? It might be very busy actually â€” we have a client review on Wednesday which might run long. Am I going to the gym? I may go on Tuesday and Thursday, but I might skip if work gets too hectic. And will I be in the office on Friday? I might work from home on Friday â€” my manager may allow it. So the honest answer to all five is: it depends!",
+                                      "key_phrases":  [
+                                                          "I might",
+                                                          "I may",
+                                                          "it depends on",
+                                                          "might not",
+                                                          "may not"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete the weather forecast using MAY and MIGHT.",
+                                      "text":  "Tomorrow\u0027s weather forecast for South India:\n\nChennai: Skies ___ (1) remain cloudy through the morning. There ___ (2) be light showers in the afternoon, especially in coastal areas. Temperatures ___ (3) drop slightly â€” carry a light jacket if you\u0027re going out in the evening.\n\nBangalore: The morning ___ (4) be pleasant with some sunshine. However, by evening, there ___ (5) be heavy rain â€” thunderstorms are possible. Outdoor plans ___ (6) need to be reconsidered.\n\nCoimbatore: It ___ (7) be a dry day, but there\u0027s a small chance of drizzle near the Nilgiris. Visibility ___ (8) be low in the ghat sections after 4 PM â€” drive carefully.",
+                                      "answers":  [
+                                                      "may/might",
+                                                      "may/might",
+                                                      "may/might",
+                                                      "may/might",
+                                                      "may/might",
+                                                      "may/might",
+                                                      "may/might",
+                                                      "may/might"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1005_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 5 complete â€” May \u0026 might",
+                                      "key_points":  [
+                                                         "MAY = possible (about 50% chance)",
+                                                         "MIGHT = possible (slightly less certain â€” 30-40%)",
+                                                         "Both: MAY/MIGHT + BASE VERB (no \u0027to\u0027, no -ing, no \u0027s\u0027)",
+                                                         "Negative: MAY NOT / MIGHT NOT",
+                                                         "Use when NOT SURE â€” not \u0027I will maybe\u0027",
+                                                         "May and might are often interchangeable in everyday English"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Possibility in conversation â€” hedging and expressing doubt"
+                                  }
+                  }
+              ]
+}

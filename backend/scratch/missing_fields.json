@@ -1,0 +1,316 @@
+{
+  "quick_test": "Can you say 1 ___, 2 ___? If YES \u2192 How many. If NO \u2192 How much.",
+  "word_order": "colour + noun: a red shirt, blue jeans, a black jacket",
+  "pairs": [
+    {
+      "adj": "big / large",
+      "opposite": "small / little"
+    },
+    {
+      "adj": "tall",
+      "opposite": "short"
+    },
+    {
+      "adj": "long",
+      "opposite": "short"
+    },
+    {
+      "adj": "fast / quick",
+      "opposite": "slow"
+    },
+    {
+      "adj": "hot",
+      "opposite": "cold"
+    },
+    {
+      "adj": "old",
+      "opposite": "new / young"
+    },
+    {
+      "adj": "expensive",
+      "opposite": "cheap"
+    },
+    {
+      "adj": "easy",
+      "opposite": "difficult / hard"
+    },
+    {
+      "adj": "clean",
+      "opposite": "dirty"
+    },
+    {
+      "adj": "noisy / loud",
+      "opposite": "quiet"
+    },
+    {
+      "adj": "heavy",
+      "opposite": "light"
+    },
+    {
+      "adj": "full",
+      "opposite": "empty"
+    },
+    {
+      "adj": "strong",
+      "opposite": "weak"
+    },
+    {
+      "adj": "interesting",
+      "opposite": "boring"
+    }
+  ],
+  "scale": [
+    {
+      "word": "a bit / a little",
+      "strength": "small amount",
+      "example": "It's a bit cold today."
+    },
+    {
+      "word": "quite",
+      "strength": "moderate",
+      "example": "This book is quite interesting."
+    },
+    {
+      "word": "very",
+      "strength": "strong",
+      "example": "This bag is very heavy."
+    },
+    {
+      "word": "really",
+      "strength": "strong (spoken)",
+      "example": "The film is really boring!"
+    },
+    {
+      "word": "absolutely / extremely",
+      "strength": "maximum",
+      "example": "This is absolutely delicious!"
+    }
+  ],
+  "positions": [
+    {
+      "position": "Before noun (attributive)",
+      "rule": "article + adjective + noun",
+      "examples": [
+        "a tall building",
+        "an expensive restaurant",
+        "the cold water"
+      ]
+    },
+    {
+      "position": "After 'to be' (predicative)",
+      "rule": "subject + is/are + adjective",
+      "examples": [
+        "The building is tall.",
+        "The restaurant is expensive.",
+        "The water is cold."
+      ]
+    }
+  ],
+  "interesting_facts": [
+    "Dolphins can communicate with each other.",
+    "Owls can see in the dark.",
+    "Peacocks can open their feathers like a fan.",
+    "Tigers can't purr but lions can roar very loudly."
+  ],
+  "connectors": [
+    {
+      "word": "First / Firstly",
+      "use": "The first event",
+      "example": "First, we took the train to Ooty."
+    },
+    {
+      "word": "Then / After that",
+      "use": "The next event",
+      "example": "Then we checked into our hotel."
+    },
+    {
+      "word": "Next",
+      "use": "The following event",
+      "example": "Next, we visited the tea gardens."
+    },
+    {
+      "word": "Later",
+      "use": "Some time after",
+      "example": "Later in the afternoon, we went shopping."
+    },
+    {
+      "word": "Finally / In the end",
+      "use": "The last event",
+      "example": "Finally, we took a long train ride home."
+    },
+    {
+      "word": "Suddenly",
+      "use": "Unexpected event",
+      "example": "Suddenly, it started to rain!"
+    },
+    {
+      "word": "Unfortunately",
+      "use": "Something bad happened",
+      "example": "Unfortunately, I lost my bag."
+    },
+    {
+      "word": "Luckily",
+      "use": "Something good happened",
+      "example": "Luckily, someone found it."
+    }
+  ],
+  "usage": [
+    {
+      "form": "was/were",
+      "use": "State, description, feeling at that time",
+      "examples": [
+        "It was sunny.",
+        "We were very excited.",
+        "The hotel was beautiful."
+      ]
+    },
+    {
+      "form": "Regular -ed",
+      "use": "Action that happened",
+      "examples": [
+        "We walked along the beach.",
+        "I cooked breakfast.",
+        "She called home."
+      ]
+    },
+    {
+      "form": "Irregular past",
+      "use": "Action that happened (irregular verb)",
+      "examples": [
+        "We went to the market.",
+        "I ate amazing food.",
+        "She bought souvenirs."
+      ]
+    }
+  ],
+  "example_story_sentence": "The day was sunny (was), so we went to the beach (irregular), ate fresh fish (irregular), and walked for hours (regular). It was the best day of the trip (was)!",
+  "vs_simple_past": "Simple past: happened once. Used to: happened regularly/continuously in the past.",
+  "important": "The past form is the SAME for all subjects \u2014 I worked, She worked, They worked.",
+  "common_error": {
+    "wrong": "She didn't worked.",
+    "right": "She didn't work. (base verb after didn't)"
+  },
+  "contrast_pattern": {
+    "explanation": "Very useful: say what you DID and what you DIDN'T do in the same sentence.",
+    "examples": [
+      "I went to work but I didn't finish my report.",
+      "She cooked dinner but she didn't wash the dishes.",
+      "We went to the market but we didn't buy anything."
+    ]
+  },
+  "short_answers": {
+    "positive": "Yes, I/she/they did.",
+    "negative": "No, I/she/they didn't."
+  },
+  "questions": [
+    {
+      "word": "What",
+      "example": "What did you eat for lunch?",
+      "answer_type": "thing"
+    },
+    {
+      "word": "Where",
+      "example": "Where did she go yesterday?",
+      "answer_type": "place"
+    },
+    {
+      "word": "When",
+      "example": "When did they arrive?",
+      "answer_type": "time"
+    },
+    {
+      "word": "Who",
+      "example": "Who did you meet?",
+      "answer_type": "person"
+    },
+    {
+      "word": "Why",
+      "example": "Why did he leave early?",
+      "answer_type": "reason"
+    },
+    {
+      "word": "How",
+      "example": "How did you travel there?",
+      "answer_type": "manner"
+    },
+    {
+      "word": "How long",
+      "example": "How long did the journey take?",
+      "answer_type": "duration"
+    },
+    {
+      "word": "How much",
+      "example": "How much did it cost?",
+      "answer_type": "price"
+    }
+  ],
+  "title": "Must \u2014 strong obligation",
+  "body": "We use MUST + base verb to say something is necessary or very important.\n\nExamples:\n\u2022 You must wear a helmet on a bike.\n\u2022 Students must carry their ID cards.\n\u2022 I must call my mother today.\n\nMUST shows a strong personal or official rule. It often comes from the speaker or from authority.",
+  "vocabulary": [
+    {
+      "word": "regulation",
+      "meaning": "an official rule",
+      "example": "This is a company regulation."
+    },
+    {
+      "word": "prohibited",
+      "meaning": "not allowed",
+      "example": "Smoking is prohibited here."
+    },
+    {
+      "word": "compulsory",
+      "meaning": "required by rules",
+      "example": "Attendance is compulsory."
+    },
+    {
+      "word": "fine",
+      "meaning": "money you pay for breaking a rule",
+      "example": "You will get a fine for speeding."
+    },
+    {
+      "word": "permission",
+      "meaning": "being allowed to do something",
+      "example": "You need permission to enter."
+    },
+    {
+      "word": "violation",
+      "meaning": "breaking a rule",
+      "example": "Parking there is a traffic violation."
+    }
+  ],
+  "signs": [
+    {
+      "sign": "DO NOT ENTER",
+      "meaning": "You mustn't go in. Entry is prohibited."
+    },
+    {
+      "sign": "WEAR HARD HAT AREA",
+      "meaning": "You must wear a hard hat here."
+    },
+    {
+      "sign": "NO SMOKING",
+      "meaning": "Smoking is prohibited here."
+    },
+    {
+      "sign": "EMERGENCY EXIT",
+      "meaning": "Use only in emergency. You mustn't block this exit."
+    },
+    {
+      "sign": "CAUTION: WET FLOOR",
+      "meaning": "Be careful \u2014 the floor is slippery. Walk slowly."
+    },
+    {
+      "sign": "KEEP CLEAR",
+      "meaning": "Do not block this area."
+    },
+    {
+      "sign": "HIGH VOLTAGE",
+      "meaning": "Very dangerous electricity \u2014 do not touch."
+    },
+    {
+      "sign": "FIRE ASSEMBLY POINT",
+      "meaning": "Come here in case of fire or emergency."
+    }
+  ],
+  "content": "Here are typical problem areas where advice is given or asked for:\n\n\ud83c\udfe5 HEALTH: headache, stress, lack of sleep, weight, diet\n\ud83d\udcb0 MONEY: overspending, saving, salary, loans\n\u2708\ufe0f TRAVEL: visa, packing, delays, being lost\n\ud83d\udcda STUDY: exams, procrastination, concentration, motivation\n\ud83d\udcbc WORK: conflicts with colleagues, workload, career choices\n\ud83c\udfe0 HOME: managing responsibilities, living alone for the first time\n\nKnowing the vocabulary for each area helps you give relevant, helpful advice."
+}

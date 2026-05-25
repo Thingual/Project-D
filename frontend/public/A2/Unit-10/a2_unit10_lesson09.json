@@ -1,0 +1,479 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson09",
+    "unit":  10,
+    "lesson_number":  9,
+    "level":  "A2",
+    "title":  "Making appointments",
+    "description":  "Learn how to suggest, accept, decline, and confirm appointments â€” by phone, email, and in conversation.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1009_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Suggesting a time â€” language for making appointments",
+                                      "body":  "When making an appointment, you suggest a time and check if the other person is free.\n\nSuggesting:\nâ€¢ Are you free on Tuesday at 3 PM?\nâ€¢ Would Wednesday morning work for you?\nâ€¢ How does Thursday afternoon suit you?\nâ€¢ Shall we say 2 o\u0027clock on Friday?\nâ€¢ Could we meet sometime next week?\n\nAccepting:\nâ€¢ Yes, that works for me.\nâ€¢ Tuesday at 3 is perfect.\nâ€¢ That suits me well.\nâ€¢ I\u0027ll put it in my calendar.\n\nDeclining politely:\nâ€¢ I\u0027m afraid I\u0027m not free then.\nâ€¢ That doesn\u0027t work for me â€” could we try another time?\nâ€¢ I\u0027m busy that morning â€” would afternoon be possible?",
+                                      "grammar_note":  "Use WOULD/COULD for polite suggestions\n\u0027Shall we say...\u0027 = very natural for appointments\n\u0027I\u0027m afraid...\u0027 = polite way to decline"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Confirming and checking appointment details",
+                                      "body":  "After agreeing a time, always confirm the details clearly.\n\nConfirming:\nâ€¢ So, we\u0027re meeting on Tuesday at 3 PM â€” is that correct?\nâ€¢ Just to confirm â€” the appointment is on Friday at 10 AM.\nâ€¢ I\u0027ll send you a calendar invite to confirm.\nâ€¢ Can I just double-check the venue?\n\nChecking details:\nâ€¢ Where exactly are we meeting?\nâ€¢ Is it at your office or mine?\nâ€¢ Should I call you or will you call me?\nâ€¢ What\u0027s the address?\n\nReminding:\nâ€¢ Just a reminder about our meeting tomorrow at 2 PM.\nâ€¢ Don\u0027t forget â€” we\u0027re meeting on Thursday!",
+                                      "grammar_note":  "\u0027Just to confirm...\u0027 = polite way to double check\n\u0027Just a reminder...\u0027 = gentle notification"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Appointments and scheduling",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "slot",
+                                                             "meaning":  "a fixed time period for an appointment",
+                                                             "example":  "There\u0027s a slot available at 4 PM."
+                                                         },
+                                                         {
+                                                             "word":  "availability",
+                                                             "meaning":  "the times when you are free",
+                                                             "example":  "What\u0027s your availability next week?"
+                                                         },
+                                                         {
+                                                             "word":  "confirm",
+                                                             "meaning":  "to make something officially definite",
+                                                             "example":  "Please confirm the appointment by email."
+                                                         },
+                                                         {
+                                                             "word":  "double-check",
+                                                             "meaning":  "to check something again to be sure",
+                                                             "example":  "Let me double-check the time."
+                                                         },
+                                                         {
+                                                             "word":  "mutual",
+                                                             "meaning":  "agreed or shared by both people",
+                                                             "example":  "We need to find a mutually convenient time."
+                                                         },
+                                                         {
+                                                             "word":  "in advance",
+                                                             "meaning":  "before the time of the appointment",
+                                                             "example":  "Please book at least 24 hours in advance."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l9_listen",
+                                      "sentences":  [
+                                                        "Are you free for a meeting on Wednesday at 11 AM?",
+                                                        "That works perfectly for me â€” I\u0027ll put it in my calendar.",
+                                                        "I\u0027m afraid I\u0027m busy that morning â€” would afternoon be possible?",
+                                                        "Just to confirm â€” we\u0027re meeting on Friday at 2 PM at your office.",
+                                                        "Could we reschedule? Something urgent has come up."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Priya wants to suggest a meeting time to a client. Which is the most professional way?",
+                                      "options":  [
+                                                      "Can you come at 3?",
+                                                      "Meet me on Tuesday.",
+                                                      "Would Tuesday at 3 PM suit you?",
+                                                      "I need you at 3 PM Tuesday."
+                                                  ],
+                                      "correct":  "Would Tuesday at 3 PM suit you?",
+                                      "explanation":  "\u0027Would...suit you?\u0027 is polite and professional â€” it puts the other person\u0027s convenience first."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "The suggested time doesn\u0027t work for Arjun. How does he politely decline?",
+                                      "options":  [
+                                                      "No. That\u0027s bad for me.",
+                                                      "I\u0027m afraid that time doesn\u0027t work for me â€” would Thursday be possible instead?",
+                                                      "I can\u0027t. Try again.",
+                                                      "That\u0027s wrong for me."
+                                                  ],
+                                      "correct":  "I\u0027m afraid that time doesn\u0027t work for me â€” would Thursday be possible instead?",
+                                      "explanation":  "\u0027I\u0027m afraid...\u0027 softens the refusal. Suggesting an alternative shows you still want to meet."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "After agreeing on a time, Meera wants to confirm. Which is correct?",
+                                      "options":  [
+                                                      "So we are meeting, yes?",
+                                                      "Just to confirm â€” we\u0027re meeting at your office on Monday at 10 AM.",
+                                                      "Meeting confirmed, bye.",
+                                                      "Monday 10 AM, my office, okay?"
+                                                  ],
+                                      "correct":  "Just to confirm â€” we\u0027re meeting at your office on Monday at 10 AM.",
+                                      "explanation":  "\u0027Just to confirm...\u0027 is the standard professional way to check all details before ending the conversation."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Which phrase is most appropriate to send the day before an appointment?",
+                                      "options":  [
+                                                      "Don\u0027t forget our meeting tomorrow.",
+                                                      "Just a gentle reminder about our meeting tomorrow at 2 PM. See you then!",
+                                                      "You have to come tomorrow at 2.",
+                                                      "Meeting is tomorrow. Be there."
+                                                  ],
+                                      "correct":  "Just a gentle reminder about our meeting tomorrow at 2 PM. See you then!",
+                                      "explanation":  "\u0027Just a gentle reminder\u0027 is polite and friendly â€” perfect for professional reminders."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill the gaps to complete the appointment conversation.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "A: ___ you free on Thursday afternoon? B: Yes, that ___ perfectly.",
+                                                            "answer":  "Are / works"
+                                                        },
+                                                        {
+                                                            "text":  "A: Shall we ___ 3 PM? B: 3 PM works â€” I\u0027ll ___ it in my diary.",
+                                                            "answer":  "say / put"
+                                                        },
+                                                        {
+                                                            "text":  "A: Just ___ confirm â€” your office on Thursday at 3? B: That\u0027s correct â€” see you then.",
+                                                            "answer":  "to"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete the appointment email with correct phrases.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I am writing to ___ a meeting to discuss the project timeline.",
+                                                            "answer":  "request / suggest / arrange"
+                                                        },
+                                                        {
+                                                            "text":  "Would ___ afternoon suit you, or would you prefer morning?",
+                                                            "answer":  "Thursday / Wednesday / Tuesday [any day]"
+                                                        },
+                                                        {
+                                                            "text":  "Please ___ me know your availability and I will send a calendar invite.",
+                                                            "answer":  "let"
+                                                        },
+                                                        {
+                                                            "text":  "I look forward to ___ from you.",
+                                                            "answer":  "hearing"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a polite appointment suggestion.",
+                                      "words":  [
+                                                    "suit",
+                                                    "Would",
+                                                    "3",
+                                                    "PM",
+                                                    "you",
+                                                    "Friday",
+                                                    "at"
+                                                ],
+                                      "answer":  "Would Friday at 3 PM suit you?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into an appointment confirmation sentence.",
+                                      "words":  [
+                                                    "confirm",
+                                                    "meeting",
+                                                    "Monday",
+                                                    "10",
+                                                    "AM",
+                                                    "we\u0027re",
+                                                    "at",
+                                                    "Just",
+                                                    "to"
+                                                ],
+                                      "answer":  "Just to confirm â€” we\u0027re meeting on Monday at 10 AM."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the situation to the correct appointment phrase.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Suggesting a time",
+                                                        "right":  "Would Tuesday at 2 PM suit you?"
+                                                    },
+                                                    {
+                                                        "left":  "Accepting an appointment",
+                                                        "right":  "That works perfectly â€” I\u0027ll add it to my calendar."
+                                                    },
+                                                    {
+                                                        "left":  "Politely declining",
+                                                        "right":  "I\u0027m afraid that time doesn\u0027t work â€” could we try Wednesday?"
+                                                    },
+                                                    {
+                                                        "left":  "Confirming details",
+                                                        "right":  "Just to confirm â€” your office, Monday at 10?"
+                                                    },
+                                                    {
+                                                        "left":  "Sending a reminder",
+                                                        "right":  "Just a reminder about our meeting tomorrow at 3 PM."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Booking a client meeting â€” advertising agency, Mumbai",
+                                      "setting":  "Sonal from an advertising agency is calling a potential client, Mr Nair, to arrange a meeting.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Good morning, Mr Nair. This is Sonal Mehta from Creative Spark Agency. I hope I\u0027m not disturbing you."
+                                                       },
+                                                       {
+                                                           "speaker":  "Mr Nair",
+                                                           "text":  "Not at all, Sonal. Good morning. What can I do for you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I was hoping we could arrange a meeting to present our campaign proposal. Would you have some time this week?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Mr Nair",
+                                                           "text":  "This week is quite tight. Would next week be possible?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Of course. Would Tuesday afternoon suit you? Say, around 3 PM?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Mr Nair",
+                                                           "text":  "Tuesday at 3 â€” let me just check. I\u0027m afraid I have a board meeting until 4 on Tuesday. Would Wednesday work instead?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Wednesday is perfect. What time suits you best?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Mr Nair",
+                                                           "text":  "How about 11 AM? I\u0027m usually free in the mornings."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Wednesday at 11 AM works very well. Should we meet at your office or would you prefer our office?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Mr Nair",
+                                                           "text":  "Let\u0027s do your office â€” I\u0027d like to see your setup."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Wonderful! We\u0027re at Creative Spark, 4th floor, Bandra Kurla Complex. I\u0027ll send you the exact address and a calendar invite."
+                                                       },
+                                                       {
+                                                           "speaker":  "Mr Nair",
+                                                           "text":  "Perfect. Just to confirm â€” Wednesday the 12th, 11 AM, your office?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "That\u0027s exactly right. I\u0027ll send a confirmation email shortly. We look forward to seeing you, Mr Nair!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Why can\u0027t Mr Nair meet on Tuesday at 3 PM?",
+                                                                          "options":  [
+                                                                                          "He is travelling.",
+                                                                                          "He has a board meeting until 4 PM.",
+                                                                                          "He is on holiday.",
+                                                                                          "He doesn\u0027t work on Tuesdays."
+                                                                                      ],
+                                                                          "correct":  "He has a board meeting until 4 PM."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What time and day did they agree on?",
+                                                                          "options":  [
+                                                                                          "Tuesday at 3 PM",
+                                                                                          "Wednesday at 11 AM",
+                                                                                          "Thursday at 10 AM",
+                                                                                          "Friday at 2 PM"
+                                                                                      ],
+                                                                          "correct":  "Wednesday at 11 AM"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where will the meeting take place?",
+                                                                          "options":  [
+                                                                                          "Mr Nair\u0027s office",
+                                                                                          "Sonal\u0027s office at Bandra Kurla Complex",
+                                                                                          "A coffee shop",
+                                                                                          "Online via video call"
+                                                                                      ],
+                                                                          "correct":  "Sonal\u0027s office at Bandra Kurla Complex"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Would Friday at 3 PM suits you?",
+                                                            "correct":  "Would Friday at 3 PM suit you?",
+                                                            "explanation":  "After WOULD: base verb without \u0027s\u0027. \u0027Suit\u0027, not \u0027suits\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "I afraid I\u0027m not free on Tuesday.",
+                                                            "correct":  "I\u0027m afraid I\u0027m not free on Tuesday.",
+                                                            "explanation":  "\u0027I\u0027m afraid\u0027 â€” needs the contraction or full form: \u0027I am afraid\u0027. \u0027I afraid\u0027 is incorrect."
+                                                        },
+                                                        {
+                                                            "wrong":  "Just for confirm â€” we meet at 10 AM?",
+                                                            "correct":  "Just to confirm â€” we\u0027re meeting at 10 AM?",
+                                                            "explanation":  "\u0027Just to confirm\u0027 â€” use \u0027to\u0027, not \u0027for\u0027. Also \u0027we\u0027re meeting\u0027 (present continuous for arranged plan)."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You have a phone call with a doctor\u0027s clinic to book an appointment. The receptionist says Tuesday at 9 AM or Thursday at 4 PM are available. You prefer Thursday but want to confirm. What do you say?",
+                                      "options":  [
+                                                      "Thursday is fine. Bye.",
+                                                      "Thursday 4 PM works for me. Could you confirm the address and what I need to bring?",
+                                                      "I want 4 PM Thursday.",
+                                                      "Give me Thursday."
+                                                  ],
+                                      "correct":  "Thursday 4 PM works for me. Could you confirm the address and what I need to bring?",
+                                      "explanation":  "Accept politely + ask for relevant details. This is natural, professional appointment language."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Role-play making an appointment. You are calling a dentist\u0027s clinic to book an appointment for next week. Suggest a time, check availability, and confirm the details.",
+                                      "prompt":  "Speak through a full appointment-booking phone call with a dentist\u0027s receptionist. Cover: greeting, purpose, time suggestion, confirmation.",
+                                      "example_response":  "Good morning! I\u0027d like to book an appointment with Dr Kavitha for next week if possible. I have a toothache that\u0027s been bothering me for a couple of days. Which days are available? Great â€” would Wednesday afternoon suit? Say around 3 or 4 PM? Oh, 3 PM is taken but 4:30 is free â€” 4:30 PM Wednesday works perfectly for me. Can I just confirm a few things? The clinic is still at the same address on Anna Salai, correct? And is there anything I need to bring â€” like my previous X-rays? Perfect. And is there a parking space nearby? Great, thank you. So just to confirm â€” Dr Kavitha, Wednesday the 14th at 4:30 PM. I\u0027ll be there. Should I call if anything changes? Wonderful. Thank you so much for your help!",
+                                      "key_phrases":  [
+                                                          "I\u0027d like to book",
+                                                          "Would [day] suit?",
+                                                          "That works for me",
+                                                          "Just to confirm",
+                                                          "Is there anything I need to bring?"
+                                                      ],
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "You need to arrange a meeting with a colleague to work on a shared project. Both of you are very busy. Describe negotiating a time â€” offer 3 time options, respond to rejections, and finally confirm a time.",
+                                      "prompt":  "Role-play scheduling a meeting with a busy colleague. Show negotiation of time, polite decline, suggestion, and confirmation.",
+                                      "example_response":  "Hi Meera, I wanted to check if we could find a time to work on the Q4 presentation together. I know we\u0027re both quite busy but this needs to get done. Would Monday morning work for you â€” maybe 10 or 11 AM? Oh, you have a client call then â€” okay, no problem. What about Tuesday afternoon? Around 2 or 3 PM? You\u0027re travelling on Tuesday â€” right. How about Thursday? I\u0027m mostly free on Thursday. Morning or afternoon â€” whatever suits you. Thursday at 2 PM works for you? Perfect! So Thursday the 17th at 2 PM â€” shall we meet in the large meeting room? The one by the pantry? Yes, that\u0027s free as far as I know. Let me book it now. So just to confirm â€” Thursday 17th, 2 PM, Meeting Room 2. I\u0027ll send a calendar invite with the agenda. See you then!",
+                                      "key_phrases":  [
+                                                          "Would [time] work?",
+                                                          "I\u0027m afraid I\u0027m busy then",
+                                                          "What about...",
+                                                          "That works perfectly",
+                                                          "Just to confirm",
+                                                          "I\u0027ll send a calendar invite"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this appointment-scheduling email.",
+                                      "text":  "Subject: Meeting Request â€” Project Alpha Review\n\nDear Priya,\n\nI am ___ (1) to request a meeting to review the progress on Project Alpha.\n\n___ (2) Wednesday the 19th at 2 PM ___ (3) you? Alternatively, I am also ___ (4) on Thursday morning between 10 AM and 12 PM.\n\nThe meeting should take ___ (5) 45 minutes. We could meet at the ___ (6) floor meeting room or online â€” whichever is more ___ (7) for you.\n\nCould you please let me know your ___ (8) at your earliest convenience? I will then send a calendar ___ (9) to confirm.\n\nKind ___ (10),\nArjun",
+                                      "answers":  [
+                                                      "writing",
+                                                      "Would",
+                                                      "suit",
+                                                      "available",
+                                                      "approximately / roughly",
+                                                      "second [or any floor]",
+                                                      "convenient",
+                                                      "availability",
+                                                      "invite / invitation",
+                                                      "regards"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1009_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 9 complete â€” Making appointments",
+                                      "key_points":  [
+                                                         "Suggest: \u0027Would [day/time] suit you?\u0027 / \u0027Are you free on...?\u0027",
+                                                         "Accept: \u0027That works perfectly.\u0027 / \u0027I\u0027ll put it in my calendar.\u0027",
+                                                         "Decline politely: \u0027I\u0027m afraid I\u0027m busy then â€” could we try...?\u0027",
+                                                         "Confirm: \u0027Just to confirm â€” [day, time, place]\u0027",
+                                                         "Remind: \u0027Just a gentle reminder about our meeting tomorrow.\u0027",
+                                                         "After WOULD: base verb â€” \u0027Would it suit you?\u0027 not \u0027suits\u0027"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Changing and cancelling plans"
+                                  }
+                  }
+              ]
+}

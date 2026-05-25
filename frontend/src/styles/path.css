@@ -404,38 +404,70 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-  border: 4px solid white;
-  border-radius: 24px;
-  padding: 24px 32px;
-  margin: 24px auto 0;
-  max-width: 380px;
-  font-size: 22px;
+  gap: 4px;
+  background: linear-gradient(135deg, #4338CA 0%, #06B6D4 100%);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 20px 28px;
+  margin: 20px auto 0;
+  max-width: 340px;
+  font-size: 20px;
   font-weight: 900;
   color: white;
-  box-shadow: 0 12px 32px rgba(34, 197, 94, 0.35);
+  box-shadow: 0 16px 32px rgba(67, 56, 202, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.2);
   position: relative;
   z-index: 2;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
 }
 
+.unit-complete-badge::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transform: skewX(-20deg);
+  animation: shine-unit-badge 3.5s infinite;
+}
+
+@keyframes shine-unit-badge {
+  0% { left: -100%; }
+  20% { left: 200%; }
+  100% { left: 200%; }
+}
+
+.unit-complete-badge:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 24px 48px rgba(67, 56, 202, 0.4), inset 0 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+
 .unit-complete-badge .badge-icon {
-  font-size: 48px;
+  font-size: 40px;
   margin-bottom: 4px;
   line-height: 1;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.2));
+  animation: float-trophy 3s ease-in-out infinite;
+}
+
+@keyframes float-trophy {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-6px) scale(1.05); }
 }
 
 .unit-complete-badge .badge-subtitle {
-  font-size: 13px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
   text-transform: none;
-  letter-spacing: 0;
-  margin-top: 4px;
+  letter-spacing: 0.01em;
+  margin-top: 2px;
 }
 
 /* ── AI Personalization Tag ────────────────────────────────── */

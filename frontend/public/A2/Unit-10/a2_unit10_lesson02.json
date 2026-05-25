@@ -1,0 +1,470 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson02",
+    "unit":  10,
+    "lesson_number":  2,
+    "level":  "A2",
+    "title":  "Going to â€” review and deepen",
+    "description":  "Master \u0027going to\u0027 for decided plans and predictions based on present evidence. Build on A1 knowledge with more complex uses.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1002_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Going to â€” two main uses",
+                                      "body":  "GOING TO has two important uses:\n\n1. DECIDED PLANS (you already decided before speaking)\nâ€¢ I\u0027m going to apply for a new job this year.\nâ€¢ We\u0027re going to repaint the living room next month.\nâ€¢ She\u0027s going to study medicine.\n\n2. PREDICTIONS based on evidence (you can see something now)\nâ€¢ Look at those clouds â€” it\u0027s going to rain!\nâ€¢ He\u0027s not wearing a helmet â€” he\u0027s going to fall!\nâ€¢ The traffic is terrible â€” we\u0027re going to be late.",
+                                      "grammar_note":  "am/is/are + going to + base verb\nEvidence predictions: you can SEE the reason right now"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Going to negative and questions",
+                                      "body":  "Negative: am/is/are NOT going to + base verb\nâ€¢ I\u0027m not going to waste my time on this.\nâ€¢ She isn\u0027t going to join that company.\nâ€¢ They aren\u0027t going to make it on time.\n\nQuestions: Am/Is/Are + subject + going to + base verb?\nâ€¢ Are you going to attend the training?\nâ€¢ What are you going to do after college?\nâ€¢ Is she going to accept the offer?\n\nShort answers:\nâ€¢ Yes, I am. / No, I\u0027m not.\nâ€¢ Yes, she is. / No, she isn\u0027t.",
+                                      "grammar_note":  "Negative: NOT going to + base verb\nQuestion: Are you going to + base verb?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Decisions and intentions",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "intend",
+                                                             "meaning":  "to plan to do something",
+                                                             "example":  "I intend to finish this course by December."
+                                                         },
+                                                         {
+                                                             "word":  "aim",
+                                                             "meaning":  "to try to achieve something",
+                                                             "example":  "We\u0027re aiming to launch the app next quarter."
+                                                         },
+                                                         {
+                                                             "word":  "apply for",
+                                                             "meaning":  "to formally request a job/course",
+                                                             "example":  "She\u0027s going to apply for the MBA programme."
+                                                         },
+                                                         {
+                                                             "word":  "resign",
+                                                             "meaning":  "to formally leave a job",
+                                                             "example":  "He\u0027s going to resign from his current position."
+                                                         },
+                                                         {
+                                                             "word":  "postpone",
+                                                             "meaning":  "to move something to a later time",
+                                                             "example":  "They\u0027re going to postpone the event."
+                                                         },
+                                                         {
+                                                             "word":  "definitely",
+                                                             "meaning":  "certainly, without doubt",
+                                                             "example":  "I\u0027m definitely going to save more this year."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l2_listen",
+                                      "sentences":  [
+                                                        "I\u0027m going to start learning Python next month.",
+                                                        "Look at those clouds â€” it\u0027s going to pour!",
+                                                        "Are you going to apply for the promotion?",
+                                                        "She isn\u0027t going to renew her contract.",
+                                                        "They\u0027re going to build a new metro line in this area."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Arjun has decided to quit his job and start his own business. Which sentence is correct?",
+                                      "options":  [
+                                                      "Arjun will quit his job tomorrow.",
+                                                      "Arjun is going to start his own business.",
+                                                      "Arjun starts his own business.",
+                                                      "Arjun is starting his own business tomorrow."
+                                                  ],
+                                      "correct":  "Arjun is going to start his own business.",
+                                      "explanation":  "A decision already made before speaking = GOING TO. (Note: present continuous would also be possible if a date was arranged, but GOING TO is more natural for a decision without a fixed date.)"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "You see your friend walking fast toward a wet floor without noticing the warning sign. What do you shout?",
+                                      "options":  [
+                                                      "He will slip!",
+                                                      "He slips!",
+                                                      "He\u0027s going to slip!",
+                                                      "He is slipping now!"
+                                                  ],
+                                      "correct":  "He\u0027s going to slip!",
+                                      "explanation":  "You can see the evidence right now â€” wet floor + he\u0027s not stopping = prediction based on evidence â†’ GOING TO."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which sentence shows a DECIDED PLAN using \u0027going to\u0027?",
+                                      "options":  [
+                                                      "I think it might rain later.",
+                                                      "I\u0027m going to visit my grandparents during Diwali â€” I already bought the ticket.",
+                                                      "Look â€” she\u0027s going to drop that tray!",
+                                                      "I will help you if you need me."
+                                                  ],
+                                      "correct":  "I\u0027m going to visit my grandparents during Diwali â€” I already bought the ticket.",
+                                      "explanation":  "A pre-decided plan = GOING TO. The other options are prediction (might), evidence prediction, or will-offer."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Kavya says: \u0027The baby looks really tired â€” she ___ fall asleep soon.\u0027 Which fits?",
+                                      "options":  [
+                                                      "is going to",
+                                                      "goes to",
+                                                      "went to",
+                                                      "is going"
+                                                  ],
+                                      "correct":  "is going to",
+                                      "explanation":  "Visible evidence (baby looks tired) â†’ prediction with GOING TO."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in with the correct \u0027going to\u0027 form.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "My brother ___ (go) to the USA next year for his Masters degree â€” he\u0027s already applied.",
+                                                            "answer":  "is going to go"
+                                                        },
+                                                        {
+                                                            "text":  "I ___ (not/join) that gym â€” it\u0027s too expensive.",
+                                                            "answer":  "am not going to join"
+                                                        },
+                                                        {
+                                                            "text":  "Look at that car â€” it ___ (crash)! It\u0027s going too fast.",
+                                                            "answer":  "is going to crash"
+                                                        },
+                                                        {
+                                                            "text":  "___ you ___ (tell) her the news today? (Are/going to)",
+                                                            "answer":  "Are / going to tell"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Is it a PLAN or EVIDENCE PREDICTION? Fill in \u0027going to\u0027 and label each.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "She already handed in her resignation â€” she ___ leave the company. [type?]",
+                                                            "answer":  "is going to â€” PLAN"
+                                                        },
+                                                        {
+                                                            "text":  "The traffic on OMR is terrible â€” we ___ be very late. [type?]",
+                                                            "answer":  "are going to â€” EVIDENCE PREDICTION"
+                                                        },
+                                                        {
+                                                            "text":  "He\u0027s decided to propose to her this weekend â€” he ___ buy a ring today. [type?]",
+                                                            "answer":  "is going to â€” PLAN"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange the words into a correct sentence.",
+                                      "words":  [
+                                                    "next",
+                                                    "going",
+                                                    "We\u0027re",
+                                                    "to",
+                                                    "year",
+                                                    "house",
+                                                    "our",
+                                                    "renovate"
+                                                ],
+                                      "answer":  "We\u0027re going to renovate our house next year."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into an evidence prediction sentence.",
+                                      "words":  [
+                                                    "going",
+                                                    "he\u0027s",
+                                                    "that",
+                                                    "fall",
+                                                    "step",
+                                                    "to",
+                                                    "Watch",
+                                                    "â€”"
+                                                ],
+                                      "answer":  "Watch â€” he\u0027s going to fall on that step!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the situation to the correct GOING TO sentence.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "She booked a flight to London last month.",
+                                                        "right":  "She\u0027s going to fly to London."
+                                                    },
+                                                    {
+                                                        "left":  "The ice cream is melting fast in the sun.",
+                                                        "right":  "It\u0027s going to melt completely."
+                                                    },
+                                                    {
+                                                        "left":  "He signed up for a gym membership yesterday.",
+                                                        "right":  "He\u0027s going to start working out."
+                                                    },
+                                                    {
+                                                        "left":  "The queue is enormous â€” 200 people!",
+                                                        "right":  "We\u0027re going to wait a very long time."
+                                                    },
+                                                    {
+                                                        "left":  "They decided not to continue the project.",
+                                                        "right":  "They aren\u0027t going to continue the project."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "New Year resolutions â€” Chennai",
+                                      "setting":  "Priya and her friend Arjun are talking about their plans and resolutions for the coming year.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Priya, it\u0027s almost the new year! Do you have any big plans or resolutions?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes, quite a few! I\u0027m going to start a savings plan â€” I\u0027m going to put aside 20% of my salary every month."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "That\u0027s very disciplined! I\u0027ve been meaning to do that too. Any other plans?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I\u0027m going to apply for a certification course in data analytics. It starts in February."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Wow, you\u0027re serious! What about fitness? Are you going to join a gym or something?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I\u0027m not going to join a gym â€” it didn\u0027t work for me last time. But I\u0027m going to start running in the mornings at Besant Nagar beach."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "That\u0027s a great idea! What about travel? Are you going to go anywhere?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes! My cousin and I are going to go to Coorg in March. We already found a lovely homestay. What about you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I\u0027m going to focus on my career this year. I\u0027m going to look for better opportunities â€” maybe in Hyderabad or Pune."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Oh, are you going to leave Chennai?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Maybe. Look at my current situation â€” the company isn\u0027t growing, my salary hasn\u0027t increased in two years. Something is going to have to change."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I understand. I hope you find something great, Arjun. This year is going to be better for both of us â€” I can feel it!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What percentage of her salary is Priya going to save?",
+                                                                          "options":  [
+                                                                                          "10%",
+                                                                                          "15%",
+                                                                                          "20%",
+                                                                                          "25%"
+                                                                                      ],
+                                                                          "correct":  "20%"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Why is Priya NOT going to join a gym?",
+                                                                          "options":  [
+                                                                                          "It is too expensive.",
+                                                                                          "It didn\u0027t work for her last time.",
+                                                                                          "There is no gym near her.",
+                                                                                          "She prefers swimming."
+                                                                                      ],
+                                                                          "correct":  "It didn\u0027t work for her last time."
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where is Arjun thinking of moving for work?",
+                                                                          "options":  [
+                                                                                          "Mumbai or Delhi",
+                                                                                          "Hyderabad or Pune",
+                                                                                          "Bangalore or Kochi",
+                                                                                          "Coorg or Mysore"
+                                                                                      ],
+                                                                          "correct":  "Hyderabad or Pune"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "I\u0027m going to studying for the exam this weekend.",
+                                                            "correct":  "I\u0027m going to study for the exam this weekend.",
+                                                            "explanation":  "GOING TO + BASE VERB (no -ing). \u0027Study\u0027, not \u0027studying\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Look â€” the glass is going to fell!",
+                                                            "correct":  "Look â€” the glass is going to fall!",
+                                                            "explanation":  "Base verb after GOING TO: \u0027fall\u0027, not \u0027fell\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Are they going to comes to the event?",
+                                                            "correct":  "Are they going to come to the event?",
+                                                            "explanation":  "GOING TO + BASE VERB: \u0027come\u0027, not \u0027comes\u0027."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You see your younger brother about to pour a full glass of water with a broken glass. What do you say?",
+                                      "options":  [
+                                                      "You will break it.",
+                                                      "You\u0027re going to break it â€” that glass is cracked!",
+                                                      "You\u0027re breaking it right now.",
+                                                      "You broke it already."
+                                                  ],
+                                      "correct":  "You\u0027re going to break it â€” that glass is cracked!",
+                                      "explanation":  "You can see the evidence (cracked glass + pouring water) â†’ GOING TO for evidence prediction."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "What are your personal goals and plans for the next six months? Talk about decided plans using GOING TO.",
+                                      "prompt":  "Share 5 or more things you ARE GOING TO do in the next 6 months. Be specific.",
+                                      "example_response":  "In the next six months, I have several plans I\u0027ve already decided on. First, I\u0027m going to complete an online English communication course â€” I\u0027ve already enrolled. I\u0027m also going to save money to buy a new laptop by June. I\u0027ve already started putting money aside each month. I\u0027m going to cut down on eating out â€” I spend way too much on food delivery. I\u0027m not going to order food online more than twice a week. I\u0027m going to read at least one book every month â€” I\u0027ve already bought three books to start with. And finally, I\u0027m going to repair my relationship with my cousin Ravi â€” we haven\u0027t spoken for six months and that\u0027s silly. I\u0027m going to call him this weekend.",
+                                      "key_phrases":  [
+                                                          "I\u0027m going to",
+                                                          "I\u0027m not going to",
+                                                          "We\u0027re going to",
+                                                          "already decided"
+                                                      ],
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Look around you or imagine a scene. Make 4 predictions about what is GOING TO happen based on what you can see.",
+                                      "prompt":  "Describe 4 evidence-based predictions using \u0027going to\u0027. Use phrases like: \u0027look at...\u0027, \u0027I can see that...\u0027, \u0027the sky is...\u0027",
+                                      "example_response":  "Let me look around and make some predictions! I can see that the sky outside is getting very dark and cloudy â€” it\u0027s going to rain heavily in the next hour. My phone battery is at 3% and I haven\u0027t found a charger â€” it\u0027s going to die very soon. My neighbour has been playing loud music for 3 hours and I can hear other neighbours knocking on the wall â€” I think there\u0027s going to be an argument. And I can see my younger sister hasn\u0027t studied at all for her exam tomorrow â€” she\u0027s going to have a very tough time! These are all things that seem very likely based on what I can observe right now.",
+                                      "key_phrases":  [
+                                                          "is going to",
+                                                          "are going to",
+                                                          "look at",
+                                                          "I can see that",
+                                                          "it seems like"
+                                                      ],
+                                      "min_words":  80
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this New Year message using GOING TO.",
+                                      "text":  "Happy New Year, everyone!\n\nThis year, our team ___ (1/focus) on three main goals. First, we ___ (2/launch) the upgraded version of our app by March â€” the development team has already started. Second, we ___ (3/expand) to two new cities â€” Hyderabad and Pune. We have already shortlisted office spaces. Third, we ___ (4/not/repeat) the mistakes of last year â€” we ___ (5/improve) our customer support system significantly. I ___ (6/personally/meet) each team every month to ensure we stay on track. Together, we ___ (7/make) this our best year yet!",
+                                      "answers":  [
+                                                      "is going to focus",
+                                                      "are going to launch",
+                                                      "are going to expand",
+                                                      "are not going to repeat",
+                                                      "are going to improve",
+                                                      "am going to personally meet",
+                                                      "are going to make"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1002_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 2 complete â€” Going to",
+                                      "key_points":  [
+                                                         "GOING TO use 1: Decided plans made before speaking",
+                                                         "GOING TO use 2: Predictions based on evidence you can see NOW",
+                                                         "Form: am/is/are + going to + BASE VERB",
+                                                         "Negative: am/is/are NOT going to + base verb",
+                                                         "Question: Are you going to + base verb?",
+                                                         "Key difference: Present continuous = arranged date/time; Going to = decision or visible evidence"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Will â€” predictions and spontaneous decisions"
+                                  }
+                  }
+              ]
+}

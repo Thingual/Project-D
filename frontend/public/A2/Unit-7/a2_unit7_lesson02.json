@@ -1,0 +1,355 @@
+{
+  "lesson_id": "a2_unit7_lesson02",
+  "unit": 7,
+  "lesson_number": 2,
+  "level": "A2",
+  "title": "Have To & Don't Have To — Obligations",
+  "description": "Learn to use 'have to' and 'don't have to' to talk about external obligations and lack of necessity in work, school, and daily life.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0702_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Have To — External Obligation",
+      "content": {
+        "explanation": "We use HAVE TO when something is required because of an external rule, law, or situation (not just your personal feeling).\n\n✅ Positive forms:\n• I / You / We / They + have to + base verb\n  → I have to wear a uniform at work.\n• He / She / It + has to + base verb\n  → She has to submit the report by Friday.\n\n✅ Question forms:\n• Do I/you/we/they have to...?\n• Does he/she/it have to...?\n  → Does she have to attend the meeting?\n\n✅ Negative forms:\n• I don't have to / He doesn't have to\n  → I don't have to work on Sundays.\n\n⚠️ HAVE TO uses DO/DOES for questions and negatives — unlike MUST.",
+        "examples": [
+          "I have to wake up at 6 am for work.",
+          "She has to take the bus because her car is broken.",
+          "Do we have to finish this today?",
+          "He doesn't have to wear a tie — the office is casual."
+        ],
+        "tip": "HAVE TO = external obligation (rules, laws, situations). MUST = personal feeling of necessity or strong rules."
+      }
+    },
+    {
+      "task_id": "t0702_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Have To in the Past — Had To",
+      "content": {
+        "explanation": "The past form of HAVE TO is HAD TO. We use it for past obligations.\n\n• MUST has NO past form — so we use HAD TO instead!\n\n✅ Past obligation:\n• I had to wait for two hours. (I was required to wait.)\n• She had to retake the exam. (She was required to.)\n\n✅ Past negative — didn't have to:\n• We didn't have to pay. (It wasn't required.)\n• He didn't have to come. (It wasn't necessary.)\n\n✅ Past question — Did... have to:\n• Did you have to wear a uniform at your old job?\n• Did she have to travel far?",
+        "examples": [
+          "I had to show my passport at the border.",
+          "We had to wait outside because the office was closed.",
+          "Did you have to pay for the parking?",
+          "They didn't have to come to the meeting — it was optional."
+        ],
+        "tip": "Remember: HAD TO is the only past form for both MUST and HAVE TO when talking about past obligation."
+      }
+    },
+    {
+      "task_id": "t0702_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Obligation Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "obligatory", "meaning": "required; must be done", "example": "Attendance at the seminar is obligatory." },
+          { "word": "optional", "meaning": "not required; your choice", "example": "The extra class is optional — you don't have to attend." },
+          { "word": "deadline", "meaning": "the final time or date by which something must be done", "example": "The deadline for the project is next Monday." },
+          { "word": "requirement", "meaning": "something that is needed or demanded", "example": "A degree is a requirement for this job." },
+          { "word": "shift", "meaning": "a period of work time", "example": "Kavya works the night shift at the hospital." },
+          { "word": "overtime", "meaning": "extra hours of work beyond the regular time", "example": "I had to do overtime to finish the report." },
+          { "word": "submit", "meaning": "to hand in or present formally", "example": "You have to submit the form by 5 pm." },
+          { "word": "renew", "meaning": "to extend the validity of something", "example": "I have to renew my driving licence this year." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0702_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Have To Sentences",
+      "content": {
+        "instruction": "Listen and repeat. Notice the difference in stress between 'have to', 'has to', and 'had to'.",
+        "items": [
+          { "audio_key": "a2_u7_l2_lr1", "text": "I have to finish this before noon." },
+          { "audio_key": "a2_u7_l2_lr2", "text": "She has to take the train to work." },
+          { "audio_key": "a2_u7_l2_lr3", "text": "Do you have to work this weekend?" },
+          { "audio_key": "a2_u7_l2_lr4", "text": "We had to wait for three hours at the airport." },
+          { "audio_key": "a2_u7_l2_lr5", "text": "They don't have to wear formal clothes on Fridays." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0702_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Sonal works in a hospital. She works different shifts. Which sentence is correct?",
+      "options": [
+        "She have to work night shifts sometimes.",
+        "She has to work night shifts sometimes.",
+        "She haves to work night shifts sometimes.",
+        "She to has work night shifts sometimes."
+      ],
+      "correct_answer": "She has to work night shifts sometimes.",
+      "explanation": "With he/she/it, we use HAS TO (not 'have to' or 'haves to')."
+    },
+    {
+      "task_id": "t0702_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Arjun's company cancelled the meeting. He _____ go to the office today.",
+      "options": [
+        "has to",
+        "must",
+        "doesn't have to",
+        "mustn't"
+      ],
+      "correct_answer": "doesn't have to",
+      "explanation": "Since the meeting is cancelled, it is no longer necessary for him to go. 'Doesn't have to' = not required."
+    },
+    {
+      "task_id": "t0702_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which question is grammatically correct?",
+      "options": [
+        "Does she has to submit the form?",
+        "Does she have to submit the form?",
+        "Has she have to submit the form?",
+        "Do she have to submit the form?"
+      ],
+      "correct_answer": "Does she have to submit the form?",
+      "explanation": "Questions with have to use: Do/Does + subject + HAVE TO + base verb. (NOT 'has to' in questions with Does.)"
+    },
+    {
+      "task_id": "t0702_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Ravi lost his Aadhaar card. Which sentence is correct about his past situation?",
+      "options": [
+        "He must apply for a new one last week.",
+        "He had to apply for a new one last week.",
+        "He has to apply for a new one last week.",
+        "He musted apply for a new one last week."
+      ],
+      "correct_answer": "He had to apply for a new one last week.",
+      "explanation": "For past obligations, we use HAD TO. MUST has no past form — we use HAD TO instead."
+    },
+    {
+      "task_id": "t0702_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete the sentences with have to, has to, don't have to, or doesn't have to.",
+      "items": [
+        {
+          "sentence": "My sister _____ wear a uniform at her school. All students do.",
+          "answer": "has to",
+          "hint": "Subject is 'my sister' — singular third person."
+        },
+        {
+          "sentence": "We _____ arrive at the airport three hours before an international flight.",
+          "answer": "have to",
+          "hint": "Subject is 'we' — plural."
+        },
+        {
+          "sentence": "The entrance is free on Sundays. You _____ pay.",
+          "answer": "don't have to",
+          "hint": "It is free — payment is not required."
+        }
+      ]
+    },
+    {
+      "task_id": "t0702_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Fill in the blank using had to or didn't have to.",
+      "items": [
+        {
+          "sentence": "The office provided lunch for everyone. We _____ bring our own food.",
+          "answer": "didn't have to",
+          "hint": "Food was provided — it wasn't necessary."
+        },
+        {
+          "sentence": "My driving licence expired, so I _____ go to the RTO office and renew it.",
+          "answer": "had to",
+          "hint": "The licence expired — this was a required action."
+        },
+        {
+          "sentence": "The exam was postponed. The students _____ study all night after all.",
+          "answer": "didn't have to",
+          "hint": "The postponement meant it was no longer necessary."
+        }
+      ]
+    },
+    {
+      "task_id": "t0702_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["She", "has", "to", "finish", "the", "report", "by", "Friday"],
+          "answer": "She has to finish the report by Friday."
+        },
+        {
+          "words": ["Do", "you", "have", "to", "work", "this", "Saturday?"],
+          "answer": "Do you have to work this Saturday?"
+        }
+      ]
+    },
+    {
+      "task_id": "t0702_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["I", "had", "to", "wait", "two", "hours", "at", "the", "clinic"],
+          "answer": "I had to wait two hours at the clinic."
+        },
+        {
+          "words": ["They", "don't", "have", "to", "come", "in", "on", "Sundays"],
+          "answer": "They don't have to come in on Sundays."
+        }
+      ]
+    },
+    {
+      "task_id": "t0702_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the situation with the correct sentence.",
+      "pairs": [
+        { "left": "The door requires a key card.", "right": "You have to use a key card to enter." },
+        { "left": "The event is free for students.", "right": "Students don't have to pay." },
+        { "left": "Her visa expired last year.", "right": "She had to renew her visa." },
+        { "left": "The dress code is smart casual.", "right": "He has to dress appropriately." },
+        { "left": "The bus was free that day.", "right": "We didn't have to buy a ticket." }
+      ]
+    },
+    {
+      "task_id": "t0702_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "A New Job in Chennai",
+      "dialogue": {
+        "context": "Kavya is starting a new job as a nurse at a private hospital in Chennai. Her manager, Dr. Anand, is explaining her duties and schedule.",
+        "turns": [
+          { "speaker": "Dr. Anand", "text": "Good morning, Kavya. Welcome to the team. Let me explain your duties and schedule." },
+          { "speaker": "Kavya", "text": "Thank you, Doctor. I'm excited to start. What are my working hours?" },
+          { "speaker": "Dr. Anand", "text": "You have to work three different shifts — morning, afternoon, and night. The schedule changes every week." },
+          { "speaker": "Kavya", "text": "That's fine. Do I have to work on weekends?" },
+          { "speaker": "Dr. Anand", "text": "Yes, nurses in this department have to work some weekends. You get compensatory leave later." },
+          { "speaker": "Kavya", "text": "Understood. Do I have to wear a specific uniform?" },
+          { "speaker": "Dr. Anand", "text": "Yes, you have to wear the hospital uniform with your ID badge at all times. It's a strict rule." },
+          { "speaker": "Kavya", "text": "Of course. What about reporting? Do I have to fill in any forms?" },
+          { "speaker": "Dr. Anand", "text": "Yes, you have to complete a patient handover report at the end of every shift. It takes about 15 minutes." },
+          { "speaker": "Kavya", "text": "No problem. What don't I have to worry about?" },
+          { "speaker": "Dr. Anand", "text": "You don't have to bring your own meals — the hospital has a free canteen for all nursing staff." },
+          { "speaker": "Kavya", "text": "That's great! Did the previous nurse have to do the same things?" },
+          { "speaker": "Dr. Anand", "text": "Yes, she had to do the same duties. But she didn't have to do overtime very often — it's only in emergencies." },
+          { "speaker": "Kavya", "text": "Perfect. I understand everything. I'm ready to start!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What type of shifts does Kavya have to work?",
+            "options": ["Only morning shifts", "Only night shifts", "Three types: morning, afternoon, and night", "She doesn't have to work shifts"],
+            "correct_answer": "Three types: morning, afternoon, and night"
+          },
+          {
+            "question": "What does Kavya have to complete at the end of every shift?",
+            "options": ["A salary form", "A patient handover report", "A schedule form", "A uniform request"],
+            "correct_answer": "A patient handover report"
+          },
+          {
+            "question": "What does Kavya NOT have to worry about bringing to work?",
+            "options": ["Her uniform", "Her ID badge", "Her meals", "Her report forms"],
+            "correct_answer": "Her meals"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0702_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each sentence.",
+      "items": [
+        {
+          "sentence": "She have to submit the form by tomorrow.",
+          "error": "have to",
+          "correction": "has to",
+          "explanation": "With she/he/it, we use HAS TO."
+        },
+        {
+          "sentence": "We must apply for a visa last month.",
+          "error": "must apply",
+          "correction": "had to apply",
+          "explanation": "For past obligation, use HAD TO — MUST has no past form."
+        },
+        {
+          "sentence": "Does he has to wear a tie?",
+          "error": "has to",
+          "correction": "have to",
+          "explanation": "In questions with DOES, we use HAVE TO (not 'has to')."
+        }
+      ]
+    },
+    {
+      "task_id": "t0702_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "Your friend Priya is applying for a passport in Mumbai. She doesn't know what documents to bring. What do you tell her?",
+      "question": "Which advice uses HAVE TO correctly?",
+      "options": [
+        "You have bring your birth certificate and Aadhaar card.",
+        "You has to bring your birth certificate and Aadhaar card.",
+        "You have to bring your birth certificate and Aadhaar card.",
+        "You must to bring your birth certificate and Aadhaar card."
+      ],
+      "correct_answer": "You have to bring your birth certificate and Aadhaar card.",
+      "explanation": "HAVE TO + base verb (no 'to' after must, correct form with 'you'). This is an external requirement for passport applications."
+    },
+    {
+      "task_id": "t0702_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Tell me about your daily routine. What do you HAVE TO do every day for your work, study, or home life? What do you NOT HAVE TO do? Speak for at least 60 seconds.",
+      "prompt": "Describe your daily obligations and things that are not required using 'have to' and 'don't have to'.",
+      "example_response": "Every day, I have to wake up by 6:30 in the morning because my college starts at 8:30 and I have to travel for about an hour. I have to make my own breakfast because my mother leaves for work early. At college, I have to attend all my lectures and I have to complete assignments on time. In the evening, I have to help with cooking at home — it's a family responsibility. However, I don't have to do the grocery shopping every day — my father does that on weekends. And on Sundays, I don't have to wake up early, which I really enjoy!",
+      "key_phrases": ["I have to", "I don't have to", "every day I", "on weekdays", "I'm required to"],
+      "min_words": 80
+    },
+    {
+      "task_id": "t0702_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Think about a past job, school year, or important event where you HAD TO do many things. Tell me about what you had to do and what you didn't have to do.",
+      "prompt": "Describe past obligations using 'had to' and 'didn't have to'.",
+      "example_response": "Last year, I was preparing for my board exams and I had to study every day for at least four hours. I had to wake up at 5 in the morning to practise maths before school. I had to attend extra coaching classes on weekends too. I didn't have to do many household chores during that time because my parents understood I was busy. They were very supportive. I had to give many practice tests, and sometimes I had to stay up late to finish revision. After the exams were over, I didn't have to worry about studying for a whole month. It was a great feeling!",
+      "key_phrases": ["I had to", "I didn't have to", "last year", "at that time", "it was necessary to"],
+      "min_words": 80
+    },
+    {
+      "task_id": "t0702_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete the paragraph with the correct form: have to, has to, had to, don't have to, or doesn't have to.",
+      "paragraph": "My cousin Ananya works as a software engineer in Hyderabad. She (1)_____ go to the office three days a week, but she (2)_____ work from home on the other days. Every morning, she (3)_____ attend a team meeting online at 10 am. She (4)_____ submit a progress report every Friday. Her manager (5)_____ travel a lot for client meetings. Last month, the whole team (6)_____ work extra hours to meet a project deadline. Luckily, they (7)_____ work on the weekend after that because they had finished everything.",
+      "answers": ["has to", "doesn't have to", "has to", "has to", "has to", "had to", "didn't have to"],
+      "hint": "Think about whether the subject is singular or plural, and whether the time is present or past."
+    },
+    {
+      "task_id": "t0702_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 2 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "HAVE TO (present) = external obligation: I have to work / She has to go",
+          "DON'T/DOESN'T HAVE TO = not necessary: You don't have to pay / He doesn't have to come",
+          "HAD TO (past) = past obligation: I had to wait / We had to apply",
+          "DIDN'T HAVE TO (past) = was not necessary in the past",
+          "Questions: Do you have to...? / Does she have to...? / Did they have to...?",
+          "Key vocab: obligatory, optional, deadline, requirement, shift, overtime, submit, renew"
+        ],
+        "grammar_summary": "HAVE TO uses do/does for questions and negatives. HAS TO is used with he/she/it. The past form is HAD TO for all subjects.",
+        "encouragement": "Great job! You now know how to talk about obligations at work, school, and daily life. This grammar is used every day in real conversations — keep practising! 🌟"
+      }
+    }
+  ]
+}

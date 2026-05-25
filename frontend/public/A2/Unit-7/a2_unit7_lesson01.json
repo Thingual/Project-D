@@ -1,0 +1,352 @@
+{
+  "lesson_id": "a2_unit7_lesson01",
+  "unit": 7,
+  "lesson_number": 1,
+  "level": "A2",
+  "title": "Must & Mustn't — Rules and Prohibitions",
+  "description": "Learn to use 'must' and 'mustn't' to talk about strong rules, obligations, and prohibitions in everyday situations.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0701_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Introducing Must & Mustn't",
+      "content": {
+        "explanation": "We use MUST to say something is necessary or obligatory. We use MUSTN'T to say something is prohibited (not allowed).\n\n✅ MUST + base verb:\n• You must wear a helmet on a bicycle.\n• Students must carry their ID card.\n• You must be quiet in the library.\n\n❌ MUSTN'T + base verb:\n• You mustn't smoke here.\n• You mustn't park on this road.\n• You mustn't use your phone during the exam.\n\n⚠️ KEY POINT: 'Must' is strong — it means it is essential or very important.",
+        "examples": [
+          "You must arrive on time for the interview.",
+          "Passengers mustn't stand near the train doors.",
+          "You must show your ticket to the guard."
+        ],
+        "tip": "MUSTN'T means it is forbidden — you are NOT allowed to do it."
+      }
+    },
+    {
+      "task_id": "t0701_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Must vs Don't Have To",
+      "content": {
+        "explanation": "MUST and DON'T HAVE TO are opposites — not the same!\n\n• MUST = it is necessary / obligatory\n  → You must wear a uniform. (It is required.)\n\n• DON'T HAVE TO = it is not necessary (but it's OK if you do)\n  → You don't have to come early. (It's your choice.)\n\n❗ Common mistake: Students often think 'mustn't' and 'don't have to' mean the same thing. They do NOT!\n\n• You mustn't eat in the classroom. (It is FORBIDDEN.)\n• You don't have to eat before class. (It is not required, but you can.)",
+        "examples": [
+          "You must pay for the ticket. (Required!)",
+          "You don't have to pay — it's free. (Not required.)",
+          "You mustn't touch the exhibits. (Forbidden!)"
+        ],
+        "tip": "MUSTN'T = forbidden. DON'T HAVE TO = not required but allowed."
+      }
+    },
+    {
+      "task_id": "t0701_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Rules Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "prohibited", "meaning": "not allowed; forbidden", "example": "Smoking is prohibited in this building." },
+          { "word": "compulsory", "meaning": "required; must be done", "example": "A helmet is compulsory for bike riders." },
+          { "word": "permitted", "meaning": "allowed", "example": "Photography is not permitted inside the museum." },
+          { "word": "regulation", "meaning": "an official rule", "example": "Please follow the safety regulations." },
+          { "word": "fine", "meaning": "money you pay as a punishment for breaking a rule", "example": "There is a ₹500 fine for littering." },
+          { "word": "penalty", "meaning": "a punishment for not following rules", "example": "The penalty for speeding is very high." },
+          { "word": "compulsory", "meaning": "something that must be done", "example": "Wearing a seatbelt is compulsory." },
+          { "word": "notice", "meaning": "a written sign giving information or instructions", "example": "The notice on the wall says 'No Entry'." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0701_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Must and Mustn't",
+      "content": {
+        "instruction": "Listen carefully and repeat each sentence. Pay attention to the stress on MUST and MUSTN'T.",
+        "items": [
+          { "audio_key": "a2_u7_l1_lr1", "text": "You must wear your seatbelt." },
+          { "audio_key": "a2_u7_l1_lr2", "text": "You mustn't use your phone while driving." },
+          { "audio_key": "a2_u7_l1_lr3", "text": "Students must submit their assignments on time." },
+          { "audio_key": "a2_u7_l1_lr4", "text": "You mustn't enter without permission." },
+          { "audio_key": "a2_u7_l1_lr5", "text": "Visitors must sign in at the reception." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0701_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence uses MUST correctly?",
+      "options": [
+        "You must to bring your ID card.",
+        "You must bringing your ID card.",
+        "You must bring your ID card.",
+        "You musts bring your ID card."
+      ],
+      "correct_answer": "You must bring your ID card.",
+      "explanation": "MUST is followed by the BASE form of the verb (no 'to', no '-ing', no 's')."
+    },
+    {
+      "task_id": "t0701_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Arjun sees a sign that says 'No Photography'. What does this mean?",
+      "options": [
+        "You must take photos here.",
+        "You don't have to take photos.",
+        "You mustn't take photos here.",
+        "You should take photos here."
+      ],
+      "correct_answer": "You mustn't take photos here.",
+      "explanation": "'No Photography' means photography is forbidden — you mustn't do it."
+    },
+    {
+      "task_id": "t0701_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which sentence means 'It is NOT necessary to bring lunch'?",
+      "options": [
+        "You mustn't bring lunch.",
+        "You must bring lunch.",
+        "You don't have to bring lunch.",
+        "You can't bring lunch."
+      ],
+      "correct_answer": "You don't have to bring lunch.",
+      "explanation": "'Don't have to' means it is not necessary. 'Mustn't' means it is forbidden."
+    },
+    {
+      "task_id": "t0701_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Priya's school has a dress code. Students _____ wear the school uniform every day.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "must"
+      ],
+      "correct_answer": "must",
+      "explanation": "A dress code means it is obligatory — students MUST wear the uniform."
+    },
+    {
+      "task_id": "t0701_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Fill in the blank with MUST or MUSTN'T.",
+      "items": [
+        {
+          "sentence": "You _____ walk on the grass. There is a sign: 'Keep off the grass!'",
+          "answer": "mustn't",
+          "hint": "The sign is prohibiting this action."
+        },
+        {
+          "sentence": "All employees _____ wear a safety helmet in the factory.",
+          "answer": "must",
+          "hint": "This is a safety rule — it is obligatory."
+        },
+        {
+          "sentence": "You _____ forget to lock the door before you leave.",
+          "answer": "mustn't",
+          "hint": "This is something important that you should not forget to do."
+        }
+      ]
+    },
+    {
+      "task_id": "t0701_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete the sentence with the correct word: must, mustn't, or don't have to.",
+      "items": [
+        {
+          "sentence": "The entry is free. You _____ pay anything.",
+          "answer": "don't have to",
+          "hint": "The entry is free — payment is not required."
+        },
+        {
+          "sentence": "This is a hospital zone. You _____ make loud noises.",
+          "answer": "mustn't",
+          "hint": "Loud noises are forbidden in a hospital zone."
+        },
+        {
+          "sentence": "If you want to visit the Taj Mahal, you _____ buy a ticket.",
+          "answer": "must",
+          "hint": "You cannot enter without a ticket — it is required."
+        }
+      ]
+    },
+    {
+      "task_id": "t0701_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["You", "mustn't", "in", "the", "library", "eat"],
+          "answer": "You mustn't eat in the library."
+        },
+        {
+          "words": ["All", "passengers", "must", "wear", "seatbelts"],
+          "answer": "All passengers must wear seatbelts."
+        }
+      ]
+    },
+    {
+      "task_id": "t0701_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["Students", "must", "ID", "their", "show", "card"],
+          "answer": "Students must show their ID card."
+        },
+        {
+          "words": ["You", "mustn't", "use", "during", "phone", "your", "the", "exam"],
+          "answer": "You mustn't use your phone during the exam."
+        }
+      ]
+    },
+    {
+      "task_id": "t0701_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the sign or rule with its meaning using must or mustn't.",
+      "pairs": [
+        { "left": "No entry", "right": "You mustn't enter." },
+        { "left": "Helmet required", "right": "You must wear a helmet." },
+        { "left": "Silence please", "right": "You mustn't make noise." },
+        { "left": "Show your ticket", "right": "You must show your ticket." },
+        { "left": "No food or drink", "right": "You mustn't eat or drink here." }
+      ]
+    },
+    {
+      "task_id": "t0701_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "First Day at a New Office — Bangalore",
+      "dialogue": {
+        "context": "Meera has just joined a new company in Bangalore. Her colleague Ravi is explaining the office rules.",
+        "turns": [
+          { "speaker": "Ravi", "text": "Welcome to the team, Meera! Let me show you around and tell you about our office rules." },
+          { "speaker": "Meera", "text": "Thank you, Ravi. I want to make a good impression!" },
+          { "speaker": "Ravi", "text": "First, you must always wear your ID badge inside the building. Security checks everyone." },
+          { "speaker": "Meera", "text": "Of course! I have it here. What about working hours?" },
+          { "speaker": "Ravi", "text": "We must be at our desks by 9:30. If you're late, you must inform your manager." },
+          { "speaker": "Meera", "text": "Understood. Can I have lunch at my desk?" },
+          { "speaker": "Ravi", "text": "You mustn't eat at your desk — food is not allowed near the computers. We have a canteen on the second floor." },
+          { "speaker": "Meera", "text": "Got it. What about personal phone calls?" },
+          { "speaker": "Ravi", "text": "You mustn't make personal calls in the office area. You can go to the phone room or step outside." },
+          { "speaker": "Meera", "text": "That makes sense. Is there a dress code?" },
+          { "speaker": "Ravi", "text": "Yes, we must follow a business casual dress code from Monday to Thursday. On Fridays, you don't have to dress formally — it's casual Friday!" },
+          { "speaker": "Meera", "text": "Oh, I love casual Fridays! Anything else I should know?" },
+          { "speaker": "Ravi", "text": "Just one more thing — you mustn't share your login password with anyone. It's a strict security rule." },
+          { "speaker": "Meera", "text": "Absolutely. Thank you so much, Ravi. This is really helpful!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What must Meera wear inside the building?",
+            "options": ["A helmet", "A uniform", "Her ID badge", "A visitor pass"],
+            "correct_answer": "Her ID badge"
+          },
+          {
+            "question": "Why mustn't employees eat at their desks?",
+            "options": ["It is expensive", "Food is not allowed near the computers", "The canteen is compulsory", "Ravi doesn't like it"],
+            "correct_answer": "Food is not allowed near the computers"
+          },
+          {
+            "question": "What is different about Fridays in this office?",
+            "options": ["Employees must wear formal clothes", "Employees don't have to dress formally", "The office is closed", "Lunch is provided"],
+            "correct_answer": "Employees don't have to dress formally"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0701_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find the mistake in each sentence and write the correct version.",
+      "items": [
+        {
+          "sentence": "You must to show your passport at the airport.",
+          "error": "must to show",
+          "correction": "must show",
+          "explanation": "MUST is followed by the base verb without 'to'."
+        },
+        {
+          "sentence": "Students mustn't to use their phones in the exam.",
+          "error": "mustn't to use",
+          "correction": "mustn't use",
+          "explanation": "MUSTN'T is followed by the base verb without 'to'."
+        },
+        {
+          "sentence": "You don't must forget your ticket.",
+          "error": "don't must forget",
+          "correction": "mustn't forget",
+          "explanation": "We say 'mustn't forget' (not 'don't must'). 'Must' doesn't use do/does for negatives."
+        }
+      ]
+    },
+    {
+      "task_id": "t0701_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are at a cinema in Chennai. The movie is about to start. Your friend's phone rings loudly. What should you tell your friend?",
+      "question": "Which is the best thing to say?",
+      "options": [
+        "You should probably think about turning your phone off.",
+        "You mustn't use your phone in the cinema — please turn it off now!",
+        "It's okay, you don't have to turn it off.",
+        "You must call them back later."
+      ],
+      "correct_answer": "You mustn't use your phone in the cinema — please turn it off now!",
+      "explanation": "Using a phone during a movie is prohibited. MUSTN'T is the correct and most appropriate word here."
+    },
+    {
+      "task_id": "t0701_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Think about the rules in your home. What rules do people in your family MUST follow? What things MUSTN'T you do at home? Speak for at least 60 seconds.",
+      "prompt": "Tell me about 4-5 rules in your home using 'must' and 'mustn't'.",
+      "example_response": "In my home, we have several important rules. First, we must take our shoes off before entering the house — it is a rule in most Indian homes to keep the floors clean. We must also eat dinner together as a family at least five days a week. My parents say it is important for family time. We mustn't watch TV during meal times — we must talk to each other instead. Also, we mustn't leave the kitchen dirty after cooking. Everyone must clean up after themselves. And of course, we mustn't play loud music after 10 pm because our neighbours live very close and we must be respectful to them.",
+      "key_phrases": ["we must", "we mustn't", "it is important to", "it is not allowed to", "everyone must"],
+      "min_words": 80
+    },
+    {
+      "task_id": "t0701_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Imagine you are showing a new student around your school or college. Tell them the important rules they must follow and things they mustn't do.",
+      "prompt": "Explain the rules of your school or college to a new student.",
+      "example_response": "Welcome to our college! Let me tell you about the important rules. First, you must carry your college ID card at all times. The security guard at the gate checks every student. You must attend at least 75% of your classes — if you don't, you cannot sit for the exams. You mustn't use your mobile phone in the classroom during lectures. The professor will ask you to leave if you do. Also, you mustn't cheat in exams — it is a very serious rule and you can be expelled. You must submit your assignments before the deadline. Finally, you must treat all staff and students with respect. If you follow these rules, you will have a great time here!",
+      "key_phrases": ["you must", "you mustn't", "it is important that", "you are not allowed to", "you must make sure"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0701_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this paragraph about rules in a train station. Use must, mustn't, or don't have to.",
+      "paragraph": "At a busy train station in Mumbai, there are many important rules. All passengers (1)_____ buy a valid ticket before boarding. You (2)_____ travel without a ticket — there is a heavy fine. You (3)_____ stand on the yellow line at the edge of the platform — it is very dangerous. When the train arrives, passengers (4)_____ wait for others to get off first before boarding. You (5)_____ carry a lot of luggage, but if you do, you (6)_____ block the doorway.",
+      "answers": ["must", "mustn't", "mustn't", "must", "don't have to", "mustn't"],
+      "hint": "Think about what is obligatory, what is forbidden, and what is just not required."
+    },
+    {
+      "task_id": "t0701_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 1 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "MUST + base verb → obligation / necessity (You must wear a helmet.)",
+          "MUSTN'T + base verb → prohibition / forbidden (You mustn't smoke here.)",
+          "DON'T HAVE TO → not necessary, but allowed (You don't have to come early.)",
+          "MUST and MUSTN'T never use 'to' before the verb",
+          "Key vocabulary: prohibited, compulsory, permitted, regulation, fine, penalty"
+        ],
+        "grammar_summary": "MUST and MUSTN'T are followed by the BASE VERB (no 'to', no '-ing'). MUSTN'T ≠ DON'T HAVE TO — they have very different meanings!",
+        "encouragement": "Excellent work! You now know how to talk about important rules and prohibitions. This is very useful in real life — at work, school, and in public places. Keep going! 💪"
+      }
+    }
+  ]
+}

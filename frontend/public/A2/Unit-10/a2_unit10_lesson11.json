@@ -1,0 +1,496 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson11",
+    "unit":  10,
+    "lesson_number":  11,
+    "level":  "A2",
+    "title":  "Giving directions in writing",
+    "description":  "Write clear directions in emails and messages using imperative verbs, prepositions of movement, and landmark language.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1011_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Imperatives for directions",
+                                      "body":  "When giving written directions, use IMPERATIVE verbs â€” the base form of the verb.\n\nBasic direction verbs:\nâ€¢ Turn left / Turn right\nâ€¢ Go straight ahead / Continue straight\nâ€¢ Take the first / second / third turning\nâ€¢ Cross the road / cross at the signal\nâ€¢ Go past the temple / go past the petrol station\nâ€¢ Walk along the main road\nâ€¢ Go through the gate / through the underpass\nâ€¢ Head towards the flyover\nâ€¢ Keep going until you reach...\nâ€¢ You will see... / You can\u0027t miss it!\n\nDistance and time:\nâ€¢ It\u0027s about 200 metres / about 5 minutes on foot.",
+                                      "grammar_note":  "Imperatives use base verb â€” no subject needed\n\u0027Turn left\u0027 NOT \u0027You should turn left\u0027 (though both are possible)\nWritten directions use numbers: \u0027Take the 2nd right\u0027"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Prepositions of movement",
+                                      "body":  "These prepositions describe how you move through space:\n\nâ€¢ ALONG â€” move in the same direction as a road\n  \u0027Walk along MG Road for 200 metres.\u0027\n\nâ€¢ PAST â€” go further than a landmark without stopping\n  \u0027Go past the Apollo hospital.\u0027\n\nâ€¢ THROUGH â€” move from one side to the other\n  \u0027Go through the main gate.\u0027\n\nâ€¢ ACROSS â€” cross from one side to the other\n  \u0027Walk across the bridge.\u0027\n\nâ€¢ TOWARDS â€” in the direction of something\n  \u0027Head towards the railway station.\u0027\n\nâ€¢ INTO â€” enter a place\n  \u0027Turn into the lane on your left.\u0027",
+                                      "grammar_note":  "along = direction\npast = movement beyond a point\nthrough = from side to side\nacross = from one side to the other"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Landmarks and location words",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "landmark",
+                                                             "meaning":  "a well-known place used as a reference point",
+                                                             "example":  "The temple is a useful landmark."
+                                                         },
+                                                         {
+                                                             "word":  "junction",
+                                                             "meaning":  "where two or more roads meet",
+                                                             "example":  "Turn left at the junction."
+                                                         },
+                                                         {
+                                                             "word":  "flyover",
+                                                             "meaning":  "a bridge that goes over a road",
+                                                             "example":  "Go under the flyover and take a right."
+                                                         },
+                                                         {
+                                                             "word":  "roundabout",
+                                                             "meaning":  "a circular junction",
+                                                             "example":  "At the roundabout, take the third exit."
+                                                         },
+                                                         {
+                                                             "word":  "opposite",
+                                                             "meaning":  "directly across from something",
+                                                             "example":  "We\u0027re opposite the post office."
+                                                         },
+                                                         {
+                                                             "word":  "adjacent",
+                                                             "meaning":  "next to, beside",
+                                                             "example":  "The parking is adjacent to the building."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l11_listen",
+                                      "sentences":  [
+                                                        "Walk along the main road for about 300 metres.",
+                                                        "Turn left at the traffic signal near the petrol station.",
+                                                        "Go past the bus stand and take the second right.",
+                                                        "Go through the gate â€” the office is on the ground floor.",
+                                                        "You can\u0027t miss it â€” it\u0027s a large blue building on the corner."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Which preposition correctly completes: \u0027Walk ___ the bridge and turn right.\u0027?",
+                                      "options":  [
+                                                      "along",
+                                                      "past",
+                                                      "across",
+                                                      "into"
+                                                  ],
+                                      "correct":  "across",
+                                      "explanation":  "ACROSS = move from one side to the other. A bridge goes across water â€” you walk \u0027across\u0027 it."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Which sentence gives the clearest written direction?",
+                                      "options":  [
+                                                      "It\u0027s somewhere near a temple, I think.",
+                                                      "Take the second left after the petrol station â€” the building is on your right, opposite the post office.",
+                                                      "You\u0027ll find it if you look.",
+                                                      "Near the temple, go somewhere and then right."
+                                                  ],
+                                      "correct":  "Take the second left after the petrol station â€” the building is on your right, opposite the post office.",
+                                      "explanation":  "Good written directions: specific landmarks + numbered turns + final location."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Complete: \u0027Go ___ the main road until you reach the railway station.\u0027",
+                                      "options":  [
+                                                      "past",
+                                                      "through",
+                                                      "along",
+                                                      "across"
+                                                  ],
+                                      "correct":  "along",
+                                      "explanation":  "ALONG = travel in the same direction as a road. You go \u0027along\u0027 a road."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What does \u0027You can\u0027t miss it!\u0027 mean in directions?",
+                                      "options":  [
+                                                      "The place is very far away.",
+                                                      "The place is hidden and hard to find.",
+                                                      "The place is very obvious and easy to spot.",
+                                                      "You must not go there."
+                                                  ],
+                                      "correct":  "The place is very obvious and easy to spot.",
+                                      "explanation":  "\u0027You can\u0027t miss it!\u0027 = it\u0027s very visible and easy to find â€” a common reassurance in directions."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the correct preposition of movement.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Walk ___ the bridge to get to the other side of the river.",
+                                                            "answer":  "across"
+                                                        },
+                                                        {
+                                                            "text":  "Go ___ the school â€” don\u0027t stop â€” keep walking till the next signal.",
+                                                            "answer":  "past"
+                                                        },
+                                                        {
+                                                            "text":  "Head ___ the hospital and then turn right.",
+                                                            "answer":  "towards"
+                                                        },
+                                                        {
+                                                            "text":  "Walk ___ Anna Salai for about 500 metres.",
+                                                            "answer":  "along"
+                                                        },
+                                                        {
+                                                            "text":  "Go ___ the main gate and the reception is straight ahead.",
+                                                            "answer":  "through"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete these written directions to a restaurant.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "From the metro station, ___ (exit/walk) through the north exit.",
+                                                            "answer":  "walk"
+                                                        },
+                                                        {
+                                                            "text":  "Turn ___ at the first signal.",
+                                                            "answer":  "left / right"
+                                                        },
+                                                        {
+                                                            "text":  "Go ___ the petrol station â€” don\u0027t turn there.",
+                                                            "answer":  "past"
+                                                        },
+                                                        {
+                                                            "text":  "___ along that road for about 200 metres.",
+                                                            "answer":  "Walk / Continue"
+                                                        },
+                                                        {
+                                                            "text":  "The restaurant is on the ___ side, opposite a green park.",
+                                                            "answer":  "left / right"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a written direction.",
+                                      "words":  [
+                                                    "the",
+                                                    "Take",
+                                                    "turning",
+                                                    "at",
+                                                    "signal",
+                                                    "second",
+                                                    "right",
+                                                    "the"
+                                                ],
+                                      "answer":  "Take the second right at the signal."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a landmark-based direction.",
+                                      "words":  [
+                                                    "the",
+                                                    "Go",
+                                                    "hospital",
+                                                    "past",
+                                                    "left",
+                                                    "take",
+                                                    "and",
+                                                    "then"
+                                                ],
+                                      "answer":  "Go past the hospital and then take a left."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the direction instruction to the preposition of movement.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Move in the same direction as the road",
+                                                        "right":  "Walk along"
+                                                    },
+                                                    {
+                                                        "left":  "Go further than the temple without stopping",
+                                                        "right":  "Go past the temple"
+                                                    },
+                                                    {
+                                                        "left":  "Enter from one side and exit the other",
+                                                        "right":  "Go through"
+                                                    },
+                                                    {
+                                                        "left":  "Move from one side to the other (bridge/road)",
+                                                        "right":  "Walk across"
+                                                    },
+                                                    {
+                                                        "left":  "Face in the direction of something",
+                                                        "right":  "Head towards"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Sending directions in a message â€” Chennai",
+                                      "setting":  "Priya is hosting a housewarming party. Her friend Ankit from out of town asks for directions from Chennai Central station to her flat.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Priya! So excited about the housewarming. Can you send me directions from Chennai Central? I\u0027ll be coming by auto."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Of course! So from Chennai Central, tell the auto driver to go towards Anna Salai â€” that\u0027s the main road."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Okay, Anna Salai. Then?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Go along Anna Salai past the LIC building â€” it\u0027s a big tall building, you can\u0027t miss it. Keep going for about a kilometre."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Got it. After LIC building?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "After that, you\u0027ll see a big signal at the junction with a petrol station on the left. Turn left there."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Turn left at the petrol station signal. Okay!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Then go straight along that road â€” go past a small temple on the right, then cross the small bridge over the canal."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Temple on the right, then across the bridge."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "After the bridge, take the first right â€” it\u0027s a narrow lane. Go through the gate at the end â€” our building is called \u0027Sai Krupa Apartments\u0027."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Sai Krupa Apartments â€” got it. What floor?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Third floor, flat 3B. The lift is right opposite the entrance. Total distance from the station is about 4 kilometres â€” maybe 15 minutes by auto."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Perfect! Should I save your number in case I get lost?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes! And I\u0027ll send you the Google Maps pin too â€” just in case. See you Saturday!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What road does Priya tell Ankit to go towards first?",
+                                                                          "options":  [
+                                                                                          "Mount Road",
+                                                                                          "Anna Salai",
+                                                                                          "Cathedral Road",
+                                                                                          "Nungambakkam"
+                                                                                      ],
+                                                                          "correct":  "Anna Salai"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where does Ankit turn left?",
+                                                                          "options":  [
+                                                                                          "At the temple",
+                                                                                          "At the canal bridge",
+                                                                                          "At the signal near the petrol station",
+                                                                                          "At the LIC building"
+                                                                                      ],
+                                                                          "correct":  "At the signal near the petrol station"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What is the name of Priya\u0027s building?",
+                                                                          "options":  [
+                                                                                          "Sai Apartments",
+                                                                                          "Sai Krupa Apartments",
+                                                                                          "Krupa Flats",
+                                                                                          "Central Apartments"
+                                                                                      ],
+                                                                          "correct":  "Sai Krupa Apartments"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake in the directions.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Walk across the main road for 500 metres.",
+                                                            "correct":  "Walk along the main road for 500 metres.",
+                                                            "explanation":  "ALONG = travel in the same direction as a road. ACROSS = from one side to the other."
+                                                        },
+                                                        {
+                                                            "wrong":  "Go past through the gate â€” the office is inside.",
+                                                            "correct":  "Go through the gate â€” the office is inside.",
+                                                            "explanation":  "PAST and THROUGH are not used together here. \u0027Go through the gate\u0027 means enter it."
+                                                        },
+                                                        {
+                                                            "wrong":  "Towards head the station and turn left.",
+                                                            "correct":  "Head towards the station and turn left.",
+                                                            "explanation":  "Correct word order: verb + preposition + object. \u0027Head towards\u0027 (not \u0027towards head\u0027)."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "A foreign colleague emails you asking how to reach your Bangalore office from MG Road metro station. Which written direction is clearest?",
+                                      "options":  [
+                                                      "Just come towards our area, it\u0027s near a temple.",
+                                                      "Exit MG Road metro at Gate 3. Walk along Brigade Road for about 400 metres, go past the CafÃ© Coffee Day on the left, and turn right at the junction. The building is the third on the left â€” a glass-fronted building called \u0027Tech Hub\u0027. It\u0027s about a 7-minute walk.",
+                                                      "It\u0027s not far from MG Road.",
+                                                      "Take a left somewhere and keep going."
+                                                  ],
+                                      "correct":  "Exit MG Road metro at Gate 3. Walk along Brigade Road for about 400 metres, go past the CafÃ© Coffee Day on the left, and turn right at the junction. The building is the third on the left â€” a glass-fronted building called \u0027Tech Hub\u0027. It\u0027s about a 7-minute walk.",
+                                      "explanation":  "Good written directions: specific exit, road name, landmark, turn, building description, and estimated time."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Give written-style directions from a well-known location to your home, college, or office. Use landmarks, imperative verbs, and prepositions of movement.",
+                                      "prompt":  "Give directions from a local landmark to a place you know well. Use at least 6 direction steps.",
+                                      "example_response":  "Here are directions from Besant Nagar beach to my flat in Chennai. Exit the beach from the main entrance and head towards the Elliot\u0027s Beach road. Walk along the beach road going north for about 300 metres. Go past the popular Ratna CafÃ© on your right â€” don\u0027t turn there. Continue straight until you reach a signal with a petrol station on the left corner. Turn left at that signal. Walk along that road for about 150 metres and go past a small park. After the park, take the first right â€” it\u0027s a quiet lane. Go through the white metal gate at the end of the lane. My building, Sunrise Apartments, is straight ahead â€” it\u0027s a four-storey pink building, you can\u0027t miss it. I\u0027m on the second floor, Flat 2A. The whole walk takes about 10 minutes from the beach.",
+                                      "key_phrases":  [
+                                                          "Walk along",
+                                                          "Go past",
+                                                          "Turn left/right at",
+                                                          "Head towards",
+                                                          "Go through",
+                                                          "Take the first/second"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "A friend is visiting your city for the first time. They are at the main railway station. Give them step-by-step written directions to a famous local restaurant or attraction you like.",
+                                      "prompt":  "Give detailed directions from the main railway station to a local restaurant or attraction. Speak as if writing a message.",
+                                      "example_response":  "Hey! So glad you\u0027re finally in Chennai! Here are the directions from Chennai Central to Saravana Bhavan on Usman Road â€” it\u0027s one of the best places for South Indian food! From Chennai Central station, take the main exit and head towards the Anna Salai road â€” that\u0027s the wide main road facing you. Walk along Anna Salai going south for about 600 metres. You\u0027ll pass a big LIC building on your right â€” keep going. At the big roundabout, take the second exit â€” that puts you on the road towards T. Nagar. Go along that road past the Panagal Park bus stop and continue until you see a big intersection. Turn right at that intersection â€” you\u0027re now on Usman Road. Walk along Usman Road for about 200 metres. Saravana Bhavan is on the left side â€” it\u0027s a large restaurant with green and white signage, you absolutely can\u0027t miss it. Total walking time from the station: about 20 minutes. Or just take an auto and show the driver \u0027Saravana Bhavan, Usman Road, T. Nagar\u0027 â€” everyone knows it!",
+                                      "key_phrases":  [
+                                                          "Walk along",
+                                                          "Go past",
+                                                          "Head towards",
+                                                          "At the roundabout",
+                                                          "Turn right/left at",
+                                                          "You can\u0027t miss it"
+                                                      ],
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this WhatsApp-style direction message using prepositions and direction verbs.",
+                                      "text":  "Hey Ravi! Here\u0027s how to get to our office from Silk Board junction:\n\n1. ___ (1) towards the flyover â€” don\u0027t go under it, take the service road on the left.\n2. Walk ___ (2) the service road for about 400 metres.\n3. ___ (3) the petrol station â€” keep going.\n4. At the next signal, ___ (4) right.\n5. ___ (5) along that road past a school on your left.\n6. ___ (6) through the blue iron gate â€” the guard will let you in.\n7. Our building is ___ (7) the car park â€” \u0027Brightworks Tower\u0027, 5th floor.\n\nTotal time: ___ (8) 12 minutes on foot. You can\u0027t ___ (9) it â€” it\u0027s a tall glass building. Let me know when you\u0027re close and I\u0027ll come down!",
+                                      "answers":  [
+                                                      "Head",
+                                                      "along",
+                                                      "Go past / Pass",
+                                                      "turn",
+                                                      "Walk / Continue",
+                                                      "Go",
+                                                      "adjacent to / next to / opposite",
+                                                      "approximately / roughly / about",
+                                                      "miss"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1011_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 11 complete â€” Giving directions in writing",
+                                      "key_points":  [
+                                                         "Use IMPERATIVE verbs for directions: Turn, Go, Walk, Take, Head",
+                                                         "ALONG = travel the length of a road",
+                                                         "PAST = move further than a landmark",
+                                                         "THROUGH = from one side to the other (gates, tunnels)",
+                                                         "ACROSS = from one side to the other (bridges, roads)",
+                                                         "TOWARDS = in the direction of something",
+                                                         "Use landmarks + numbered turns + distance/time estimates for clear directions"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Plans, scheduling and calendars"
+                                  }
+                  }
+              ]
+}

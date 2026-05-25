@@ -1,0 +1,249 @@
+{
+  "lesson_id": "a1_unit6_lesson07",
+  "unit": 6,
+  "lesson_number": 7,
+  "level": "A1",
+  "title": "Weather & seasons (extended)",
+  "description": "Extend weather language with present continuous for activities, plus will/going to for weather predictions and plans.",
+  "estimated_minutes": 35,
+  "xp_reward": 175,
+  "tasks": [
+    {
+      "task_id": "t0607_01",
+      "type": "learn_card",
+      "prompt": "Learn weather + present continuous activities",
+      "content": {
+        "grammar_focus": "Present continuous review (It’s raining. I’m staying home.)",
+        "example_sentences": [
+          "It’s raining now.",
+          "I’m staying at home today.",
+          "They are using an umbrella."
+        ],
+        "context": "A rainy evening in Mumbai."
+      }
+    },
+    {
+      "task_id": "t0607_02",
+      "type": "learn_card",
+      "prompt": "Learn will for predictions",
+      "content": {
+        "grammar_focus": "Will + base verb (Predictions)",
+        "example_sentences": [
+          "It will be sunny tomorrow.",
+          "It will rain in the afternoon.",
+          "The weather will be cold at night."
+        ],
+        "context": "Talking about tomorrow’s weather in Chennai."
+      }
+    },
+    {
+      "task_id": "t0607_03",
+      "type": "learn_card",
+      "prompt": "Learn going to for weather plans",
+      "content": {
+        "grammar_focus": "Going to + base verb (Plans based on weather)",
+        "example_sentences": [
+          "I’m going to carry an umbrella.",
+          "We’re going to stay inside if it rains.",
+          "She’s going to wear a jacket."
+        ],
+        "context": "Preparing for weather changes in Bangalore."
+      }
+    },
+    {
+      "task_id": "t0607_04",
+      "type": "listen_repeat",
+      "prompt": "Repeat: It will... / I’m going to...",
+      "audio_key": "a1_u6_l7_repeat_weather_01",
+      "content": {
+        "target_phrases": [
+          "It will rain in the afternoon.",
+          "I’m going to carry an umbrella.",
+          "We’re going to stay inside."
+        ]
+      }
+    },
+    {
+      "task_id": "t0607_05",
+      "type": "mcq",
+      "prompt": "Choose the best prediction sentence.",
+      "question": "Tomorrow, it’s cloudy now. You want to say: It ___ sunny tomorrow.",
+      "options": ["will be", "is being", "will is", "is"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0607_06",
+      "type": "mcq",
+      "prompt": "Choose the correct present continuous sentence.",
+      "question": "Right now, it’s raining. Choose:",
+      "options": [
+        "It is raining now.",
+        "It rains now.",
+        "It rained now.",
+        "It is rain now."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0607_07",
+      "type": "mcq",
+      "prompt": "Choose a going-to plan for weather.",
+      "question": "If it is cold, you want to say: I’m going to ___ a jacket.",
+      "options": ["wear", "wore", "wears", "wearing"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0607_08",
+      "type": "mcq",
+      "prompt": "Choose the best sentence: prediction vs plan",
+      "question": "It looks very dark. The rain is possible soon. Choose:",
+      "options": [
+        "It will rain soon.",
+        "It’s going to rain soon? (ungrammatical here)",
+        "It is going to rain now.",
+        "It rains soon already."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0607_09",
+      "type": "fill_blank",
+      "prompt": "Complete the prediction.",
+      "content": {
+        "sentence": "It ___ be hot this weekend.",
+        "options": ["will", "is", "was", "would"],
+        "correct": "will"
+      }
+    },
+    {
+      "task_id": "t0607_10",
+      "type": "fill_blank",
+      "prompt": "Complete the plan sentence.",
+      "content": {
+        "sentence": "I'm going to ___ an umbrella.",
+        "options": ["carry", "buy", "take", "bring"],
+        "correct": "carry"
+      }
+    },
+    {
+      "task_id": "t0607_11",
+      "type": "sort_words",
+      "prompt": "Reorder to make a correct sentence (prediction).",
+      "scramble": ["tomorrow", "will", "be", "warm", "It"],
+      "answer": "It will be warm tomorrow"
+    },
+    {
+      "task_id": "t0607_12",
+      "type": "sort_words",
+      "prompt": "Reorder to make a correct sentence (plan).",
+      "scramble": ["going", "to", "wear", "She’s", "a", "jacket"],
+      "answer": "She’s going to wear a jacket"
+    },
+    {
+      "task_id": "t0607_13",
+      "type": "match_pairs",
+      "prompt": "Match seasons to typical weather.",
+      "pairs": [
+        { "left": "monsoon", "right": "rainy season" },
+        { "left": "summer", "right": "hot weather" },
+        { "left": "winter", "right": "cold weather" },
+        { "left": "spring", "right": "mild weather" }
+      ]
+    },
+    {
+      "task_id": "t0607_14",
+      "type": "dialogue",
+      "prompt": "Read the dialogue and answer the questions.",
+      "dialogue": {
+        "setting": "Chennai, outside a local shop after work",
+        "turns": [
+          { "speaker": "Meera", "text": "Arjun, why are you holding an umbrella?" },
+          { "speaker": "Arjun", "text": "Because the weather is changing. It’s cloudy now." },
+          { "speaker": "Meera", "text": "So, will it rain today?" },
+          { "speaker": "Arjun", "text": "Yes, I think it will rain this evening." },
+          { "speaker": "Meera", "text": "What are you going to do?" },
+          { "speaker": "Arjun", "text": "I’m going to stay near home after work." },
+          { "speaker": "Meera", "text": "We have plans to meet at 7." },
+          { "speaker": "Arjun", "text": "If it rains, we’re going to meet in a café." },
+          { "speaker": "Meera", "text": "That’s smart. Are you cold?" },
+          { "speaker": "Arjun", "text": "Not really, but I’m wearing a light jacket." },
+          { "speaker": "Meera", "text": "Okay. Let’s message each other at 6:30." }
+        ]
+      },
+      "comprehension_questions": [
+        { "question": "Why is Arjun holding an umbrella?", "expected_answer": "Because the weather is changing and it may rain." },
+        { "question": "What does Arjun think will happen this evening?", "expected_answer": "He thinks it will rain." },
+        { "question": "Where are they going to meet if it rains?", "expected_answer": "In a café." }
+      ]
+    },
+    {
+      "task_id": "t0607_15",
+      "type": "error_correction",
+      "prompt": "Find and fix the mistake.",
+      "instruction": "Correct the sentence.",
+      "wrong_sentence": "It will rain now, so I’m staying inside.",
+      "correct_sentence": "It is raining now, so I’m staying inside."
+    },
+    {
+      "task_id": "t0607_16",
+      "type": "scenario_mcq",
+      "prompt": "Real-world choice: You see dark clouds. What should you say?",
+      "question": "Choose the best option:",
+      "options": [
+        "It will rain soon.",
+        "It is raining soon.",
+        "It rains soon every day.",
+        "It is going to rain soon (as a general fact)."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0607_17",
+      "type": "speaking",
+      "title": "Today's weather & tomorrow's plan",
+      "prompt": "Describe today's weather and your plan for tomorrow.",
+      "content": {
+        "instruction": "Include: one present continuous sentence, one 'will' prediction, one 'going to' plan. Speak for 60-75 seconds.",
+        "min_words": 90,
+        "example_response": "Today it's raining a little, and I'm staying at home in the evening. Tomorrow it will be sunny, so I'm going to go for a walk in the morning. I'm also going to wear comfortable clothes. If the weather changes again, I will stay inside for some time. I think the weekend will be nice for the park."
+      }
+    },
+    {
+      "task_id": "t0607_18",
+      "type": "speaking",
+      "title": "Weather conversation",
+      "prompt": "Ask a friend about what they will do if it rains. Speak for 60 seconds.",
+      "content": {
+        "instruction": "Make a short weather conversation.",
+        "min_words": 75,
+        "example_response": "Meera: It's cloudy. Will it rain? Arjun: Yes, I think it will rain soon. Meera: What will you do? Arjun: I'm going to carry an umbrella and I'm going to meet you at a café if it rains. Meera: Okay, let's message at 6:30."
+      }
+    },
+    {
+      "task_id": "t0607_19",
+      "type": "fill_blank",
+      "prompt": "Comprehensive weather practice (fill all blanks).",
+      "content": {
+        "sentence": "It's ___ now. I'm ___ home. Tomorrow, it will be sunny. I'm going to ___ a walk in the evening, but if it ___, I'm going to stay inside.",
+        "blanks": [
+          {"correct": "raining", "options": ["raining", "rains", "rained", "sunny"]},
+          {"correct": "staying", "options": ["staying", "going", "staying", "leaving"]},
+          {"correct": "take", "options": ["take", "have", "do", "make"]},
+          {"correct": "rains", "options": ["rains", "rain", "rained", "is raining"]}
+        ]
+      }
+    },
+    {
+      "task_id": "t0607_20",
+      "type": "lesson_summary",
+      "prompt": "Lesson summary: Weather & seasons (extended)",
+      "content": {
+        "checklist": [
+          "I can use present continuous for weather right now.",
+          "I can predict: It will…",
+          "I can plan: I’m going to… (based on weather)."
+        ]
+      }
+    }
+  ]
+}

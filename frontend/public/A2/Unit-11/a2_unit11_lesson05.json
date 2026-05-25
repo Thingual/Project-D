@@ -1,0 +1,506 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson05",
+    "unit":  11,
+    "lesson_number":  5,
+    "level":  "A2",
+    "title":  "Phone English â€” calling, holding, transferring",
+    "description":  "Handle phone calls confidently â€” introducing yourself, asking to hold, transferring, leaving and taking messages.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1105_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Starting and ending a phone call",
+                                      "body":  "STARTING a call â€” caller:\nâ€¢ \u0027Good morning, this is [name] calling from [company].\u0027\nâ€¢ \u0027Hello, could I speak to [name], please?\u0027\nâ€¢ \u0027Hi, I\u0027m calling about [reason].\u0027\nâ€¢ \u0027I\u0027m calling to enquire about...\u0027\n\nSTARTING â€” receiver:\nâ€¢ \u0027Good morning, [company name]. How may I help you?\u0027\nâ€¢ \u0027[Name] speaking â€” how can I help?\u0027\nâ€¢ \u0027Hello, who am I speaking to?\u0027\n\nENDING a call:\nâ€¢ \u0027Thank you for calling. Have a good day!\u0027\nâ€¢ \u0027I\u0027ll look into that and get back to you.\u0027\nâ€¢ \u0027Thanks â€” speak soon!\u0027\nâ€¢ \u0027Goodbye!\u0027",
+                                      "grammar_note":  "\u0027This is [name]\u0027 â€” NOT \u0027I am [name]\u0027 on phone calls\n\u0027Could I speak to...\u0027 â€” more polite than \u0027Give me\u0027\nReceiver: \u0027[Name] speaking\u0027 = professional"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Holding, transferring and taking messages",
+                                      "body":  "ASKING TO HOLD:\nâ€¢ \u0027Could you hold the line, please?\u0027\nâ€¢ \u0027Could you hold on a moment?\u0027\nâ€¢ \u0027Please bear with me a moment.\u0027\nâ€¢ \u0027Just a moment, please.\u0027\n\nTRANSFERRING:\nâ€¢ \u0027I\u0027ll transfer you to the right department.\u0027\nâ€¢ \u0027Let me put you through to Ms Priya.\u0027\nâ€¢ \u0027I\u0027ll connect you to the sales team.\u0027\n\nTAKING A MESSAGE:\nâ€¢ \u0027She\u0027s not available â€” can I take a message?\u0027\nâ€¢ \u0027Could I take your name and number?\u0027\nâ€¢ \u0027I\u0027ll make sure she gets this message.\u0027\n\nLEAVING A MESSAGE:\nâ€¢ \u0027Yes â€” could you tell her that [name] called?\u0027\nâ€¢ \u0027Could you ask her to call me back?\u0027\nâ€¢ \u0027My number is...\u0027",
+                                      "grammar_note":  "\u0027Put you through\u0027 = transfer the call\n\u0027Bear with me\u0027 = please wait patiently\n\u0027I\u0027ll get back to you\u0027 = I\u0027ll call/email you later"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Phone call problems",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "cut off",
+                                                             "meaning":  "when the call disconnects suddenly",
+                                                             "example":  "Sorry â€” I think we got cut off!"
+                                                         },
+                                                         {
+                                                             "word":  "break up",
+                                                             "meaning":  "when the signal is bad and voice is unclear",
+                                                             "example":  "You\u0027re breaking up â€” can you hear me?"
+                                                         },
+                                                         {
+                                                             "word":  "call back",
+                                                             "meaning":  "to return a call",
+                                                             "example":  "I\u0027ll call you back in five minutes."
+                                                         },
+                                                         {
+                                                             "word":  "put through",
+                                                             "meaning":  "to connect to another person/extension",
+                                                             "example":  "I\u0027ll put you through to the manager."
+                                                         },
+                                                         {
+                                                             "word":  "extension",
+                                                             "meaning":  "an internal phone number",
+                                                             "example":  "Please call extension 204 for accounts."
+                                                         },
+                                                         {
+                                                             "word":  "voicemail",
+                                                             "meaning":  "a recorded message when someone doesn\u0027t answer",
+                                                             "example":  "I left a voicemail â€” please call back."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l5_listen",
+                                      "sentences":  [
+                                                        "Good morning â€” this is Arjun calling from TechBridge Solutions.",
+                                                        "Could you hold the line for just a moment?",
+                                                        "I\u0027ll put you through to the relevant department right away.",
+                                                        "I\u0027m afraid she\u0027s in a meeting â€” can I take a message?",
+                                                        "Could you ask him to call me back at his earliest convenience?"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "You call a company. The receptionist answers. What do you say first?",
+                                      "options":  [
+                                                      "I am Priya. Give me the manager.",
+                                                      "Good morning â€” this is Priya Iyer calling. Could I speak to the HR manager, please?",
+                                                      "Hello. Manager please.",
+                                                      "Hi, it\u0027s me â€” is the manager there?"
+                                                  ],
+                                      "correct":  "Good morning â€” this is Priya Iyer calling. Could I speak to the HR manager, please?",
+                                      "explanation":  "\u0027This is [name] calling\u0027 + polite request = correct professional phone call opening."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "The person you\u0027re calling is not available. The receptionist offers to take a message. What do you say?",
+                                      "options":  [
+                                                      "Tell her I called.",
+                                                      "Yes please â€” could you let her know that Ravi Kumar called and ask her to call me back on 98765 43210?",
+                                                      "I\u0027ll call again.",
+                                                      "When will she be back? I\u0027ll call later."
+                                                  ],
+                                      "correct":  "Yes please â€” could you let her know that Ravi Kumar called and ask her to call me back on 98765 43210?",
+                                      "explanation":  "A complete message: name + request to call back + number. Clear, polite, and professional."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "During a call, the signal becomes very unclear. What do you say?",
+                                      "options":  [
+                                                      "SPEAK LOUDER.",
+                                                      "I\u0027m sorry â€” you\u0027re breaking up a little. Could you repeat that?",
+                                                      "Bad signal.",
+                                                      "Your phone is bad."
+                                                  ],
+                                      "correct":  "I\u0027m sorry â€” you\u0027re breaking up a little. Could you repeat that?",
+                                      "explanation":  "\u0027Breaking up\u0027 = technical term for poor signal. Polite apology + polite request to repeat."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "The caller asks for the accounts team. You need to transfer them. What do you say?",
+                                      "options":  [
+                                                      "Accounts is not me. Hold on.",
+                                                      "Let me put you through to the accounts team â€” please hold the line.",
+                                                      "Call accounts directly.",
+                                                      "I\u0027ll transfer. Bye."
+                                                  ],
+                                      "correct":  "Let me put you through to the accounts team â€” please hold the line.",
+                                      "explanation":  "\u0027Let me put you through\u0027 + \u0027please hold the line\u0027 = professional transfer language."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the correct phone English phrase.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027I\u0027ll ___ you ___ to the right department.\u0027 (transfer)",
+                                                            "answer":  "put / through"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Could you ___ the line for a moment?\u0027 (hold)",
+                                                            "answer":  "hold"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I\u0027m afraid she\u0027s not available. Can I ___ a message?\u0027 (record)",
+                                                            "answer":  "take"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Could you ___ me ___ at your earliest convenience?\u0027 (return my call)",
+                                                            "answer":  "call / back"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I\u0027m sorry â€” we seem to have ___ ___.\u0027 (call disconnected)",
+                                                            "answer":  "been cut off / got cut off"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete the message-taking dialogue.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Caller: Is Mr Kapoor available? Agent: I\u0027m afraid he\u0027s ___ a meeting right now.",
+                                                            "answer":  "in"
+                                                        },
+                                                        {
+                                                            "text":  "Agent: Can I ___ a message? Caller: Yes please.",
+                                                            "answer":  "take"
+                                                        },
+                                                        {
+                                                            "text":  "Caller: Could you ask him to ___ me ___ when he\u0027s free?",
+                                                            "answer":  "call / back"
+                                                        },
+                                                        {
+                                                            "text":  "Agent: Of course â€” could I take your ___? Caller: Priya Sharma.",
+                                                            "answer":  "name"
+                                                        },
+                                                        {
+                                                            "text":  "Agent: And your ___ number? Caller: 98765 43210.",
+                                                            "answer":  "contact / phone"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct phone call opening.",
+                                      "words":  [
+                                                    "TechCare",
+                                                    "from",
+                                                    "calling",
+                                                    "morning",
+                                                    "Good",
+                                                    "Priya",
+                                                    "this",
+                                                    "is"
+                                                ],
+                                      "answer":  "Good morning â€” this is Priya calling from TechCare."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a hold request.",
+                                      "words":  [
+                                                    "just",
+                                                    "the",
+                                                    "hold",
+                                                    "Could",
+                                                    "a",
+                                                    "moment",
+                                                    "line",
+                                                    "you",
+                                                    "for"
+                                                ],
+                                      "answer":  "Could you hold the line for just a moment?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the phone situation to the correct phrase.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "The caller needs a different department",
+                                                        "right":  "Let me put you through to the right team."
+                                                    },
+                                                    {
+                                                        "left":  "You can\u0027t hear the caller clearly",
+                                                        "right":  "I\u0027m sorry â€” you\u0027re breaking up. Could you repeat that?"
+                                                    },
+                                                    {
+                                                        "left":  "The person they need is busy",
+                                                        "right":  "I\u0027m afraid she\u0027s in a meeting â€” can I take a message?"
+                                                    },
+                                                    {
+                                                        "left":  "You need a moment to check something",
+                                                        "right":  "Bear with me a moment â€” let me look that up."
+                                                    },
+                                                    {
+                                                        "left":  "Ending the call professionally",
+                                                        "right":  "Thank you for calling. Have a great day!"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Extended phone call â€” job enquiry, Bangalore",
+                                      "setting":  "Arjun calls a company HR department to enquire about a job vacancy he saw online. This dialogue covers many phone call skills from this lesson.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Good afternoon â€” BrightTech Solutions, how may I help you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Good afternoon â€” this is Arjun Mehta calling. I\u0027m calling to enquire about the Software Engineer vacancy advertised on your website."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Of course! Let me put you through to our HR department. Could you hold the line for a moment?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Not at all, please go ahead."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "HR department â€” Sonal speaking. How can I help?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Good afternoon, Sonal. This is Arjun Mehta. I\u0027m calling regarding the Software Engineer position posted on your website."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "Oh yes â€” that\u0027s a current opening. Are you currently employed?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Yes, I\u0027m working with TechBridge â€” 4 years of experience in backend development."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "Excellent. Bear with me a moment â€” let me pull up the job description to answer your questions better."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Of course â€” take your time."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "Right! So the role is based in Bangalore, with some travel. Do you have any specific questions?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Could you tell me whether the role allows remote work on some days?"
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "Yes â€” we have a hybrid model: 3 days in office, 2 remote. Anything else?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "And could you give me an idea of the application deadline?"
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "Applications close on the 30th. I\u0027d suggest emailing your CV to hr@brighttech.in â€” I\u0027m afraid I can\u0027t accept it directly over the phone."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Understood â€” I\u0027ll email it today. Thank you so much for your time, Sonal."
+                                                       },
+                                                       {
+                                                           "speaker":  "HR Agent",
+                                                           "text":  "Our pleasure! Best of luck with your application. Goodbye!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Why is Arjun calling?",
+                                                                          "options":  [
+                                                                                          "To resign from his current job",
+                                                                                          "To enquire about a Software Engineer vacancy",
+                                                                                          "To request a salary increase",
+                                                                                          "To report a technical problem"
+                                                                                      ],
+                                                                          "correct":  "To enquire about a Software Engineer vacancy"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What is the hybrid policy at BrightTech?",
+                                                                          "options":  [
+                                                                                          "5 days remote",
+                                                                                          "Full time in office",
+                                                                                          "3 days in office, 2 days remote",
+                                                                                          "2 days in office, 3 days remote"
+                                                                                      ],
+                                                                          "correct":  "3 days in office, 2 days remote"
+                                                                      },
+                                                                      {
+                                                                          "question":  "How does Arjun submit his application?",
+                                                                          "options":  [
+                                                                                          "By post",
+                                                                                          "By phone",
+                                                                                          "By emailing his CV",
+                                                                                          "By visiting the office"
+                                                                                      ],
+                                                                          "correct":  "By emailing his CV"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find the phone call language mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Hello, I am Priya. Is the manager?",
+                                                            "correct":  "Good morning â€” this is Priya calling. Could I speak to the manager, please?",
+                                                            "explanation":  "On a phone call: \u0027This is [name]\u0027 not \u0027I am\u0027. Always add a polite request with \u0027could I speak to\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Please hold, I\u0027m transferring to you the accounts team.",
+                                                            "correct":  "Please hold â€” I\u0027ll put you through to the accounts team.",
+                                                            "explanation":  "\u0027Put you through to\u0027 is the correct phrase. \u0027Transferring to you\u0027 is incorrect word order."
+                                                        },
+                                                        {
+                                                            "wrong":  "She is not here. Leave message.",
+                                                            "correct":  "I\u0027m afraid she\u0027s not available right now. Can I take a message?",
+                                                            "explanation":  "Professional phone language needs full sentences and polite phrasing."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You call a restaurant to book a table. The line is very noisy and you can barely hear the person. What do you say?",
+                                      "options":  [
+                                                      "SPEAK LOUDER!",
+                                                      "I\u0027m sorry â€” I\u0027m having a little difficulty hearing you. Could you speak up slightly?",
+                                                      "Bad line. Bye.",
+                                                      "You are too quiet."
+                                                  ],
+                                      "correct":  "I\u0027m sorry â€” I\u0027m having a little difficulty hearing you. Could you speak up slightly?",
+                                      "explanation":  "Polite apology + polite request. Never shout instructions â€” always frame it as your difficulty."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Role-play a full phone call. You are calling a hotel to book a room for 3 nights. Use the phone language from this lesson throughout.",
+                                      "prompt":  "Make a hotel booking call covering: introduction, request, dates, room type, price, and confirmation.",
+                                      "example_response":  "Good evening â€” I\u0027m calling to make a booking. This is Kavya Nair calling. I\u0027d like to enquire about availability for the 15th to the 17th of October â€” that\u0027s three nights. Could you tell me what room types are available? Oh, a standard room and a deluxe â€” could you tell me the difference in price? The standard is â‚¹3,500 per night and the deluxe is â‚¹5,200? Could I book the standard room please? And could I confirm â€” does the price include breakfast? Wonderful â€” so that\u0027s breakfast included. Could you hold on a moment while I check one thing? Yes, I\u0027m back â€” I\u0027d like to proceed with the booking. Could you take my name â€” it\u0027s Kavya Nair, K-A-V-Y-A. My number is 98765 43210. And could you send a confirmation to kavya.nair@email.com? Perfect â€” thank you so much! Goodbye!",
+                                      "key_phrases":  [
+                                                          "This is [name] calling",
+                                                          "Could I bookâ€¦?",
+                                                          "Could you tell meâ€¦?",
+                                                          "Could you hold on?",
+                                                          "Could you send a confirmation?"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "You are the receptionist at a company. A caller wants to speak to someone who is unavailable. Handle the call: take a message, ask for their name and number, and promise to pass it on.",
+                                      "prompt":  "Play the role of a professional receptionist handling an incoming call where the required person is busy.",
+                                      "example_response":  "Good morning â€” Sunrise Consulting, Arjun speaking. How may I help you? Good morning! I\u0027m afraid Ms Sonal Mehta is in a meeting right now and unavailable to take calls. I expect she\u0027ll be free in about 30 minutes. Can I take a message for her? Of course â€” could I have your name please? Ms Priya Rajan â€” thank you. And your contact number? 98765 43210 â€” I\u0027ll note that. And could you tell me briefly what it\u0027s regarding so I can let her know? It\u0027s about the Q4 proposal â€” I\u0027ll make sure to mention that. Would you like her to call you back as soon as she\u0027s free, or is there a specific time that works better for you? Any time after 2 PM works? Perfect â€” I\u0027ll pass on the message. Thank you for calling, Ms Rajan â€” have a great day!",
+                                      "key_phrases":  [
+                                                          "I\u0027m afraid [name] is in a meeting",
+                                                          "Can I take a message?",
+                                                          "Could I have your name?",
+                                                          "I\u0027ll make sure she gets this",
+                                                          "Have a great day"
+                                                      ],
+                                      "min_words":  110
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this phone message note form based on the call details.",
+                                      "text":  "PHONE MESSAGE SLIP\n\nDate: Monday 14th October\nTime: 2:35 PM\n\nMessage ___ (1): Sonal Mehta\nCalled ___ (2): Priya Rajan\nCompany: Rajan Consultants\nPhone: ___ (3): 98765 43210\nReason ___ (4) call: Regarding the Q4 marketing proposal\n\nAction ___ (5): Please ___ (6) Ms Priya Rajan ___ (7) your earliest convenience.\n\nMessage ___ (8) by: Arjun (Reception)",
+                                      "answers":  [
+                                                      "for",
+                                                      "by",
+                                                      "number",
+                                                      "for",
+                                                      "required",
+                                                      "call / contact",
+                                                      "at",
+                                                      "taken"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1105_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 5 complete â€” Phone English",
+                                      "key_points":  [
+                                                         "Caller opening: \u0027This is [name] calling from [company].\u0027 (not \u0027I am\u0027)",
+                                                         "Receiver opening: \u0027[Name] speaking â€” how can I help?\u0027",
+                                                         "Hold: \u0027Could you hold the line?\u0027 / \u0027Bear with me a moment.\u0027",
+                                                         "Transfer: \u0027I\u0027ll put you through to...\u0027",
+                                                         "Message: \u0027Can I take a message?\u0027 + name + number + reason",
+                                                         "Problems: \u0027You\u0027re breaking up\u0027 / \u0027We got cut off\u0027",
+                                                         "Ending: \u0027Thank you for calling. Have a great day!\u0027"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Social media and texting language"
+                                  }
+                  }
+              ]
+}

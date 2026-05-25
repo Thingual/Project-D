@@ -1,0 +1,485 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson01",
+    "unit":  11,
+    "lesson_number":  1,
+    "level":  "A2",
+    "title":  "Question tags â€” â€¦isn\u0027t it? â€¦aren\u0027t you?",
+    "description":  "Learn to use question tags to check information, invite agreement, and sound natural in conversation.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1101_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "What are question tags?",
+                                      "body":  "A QUESTION TAG is a short question added to the end of a statement. We use them to:\nâ€¢ Check information we think is true\nâ€¢ Invite the other person to agree\nâ€¢ Start or keep a conversation going\n\nThe rule:\nPOSITIVE statement â†’ NEGATIVE tag\n\u0027It\u0027s a beautiful day, isn\u0027t it?\u0027\n\nNEGATIVE statement â†’ POSITIVE tag\n\u0027You\u0027re not from here, are you?\u0027\n\nMore examples:\nâ€¢ \u0027She works in IT, doesn\u0027t she?\u0027\nâ€¢ \u0027They didn\u0027t come, did they?\u0027\nâ€¢ \u0027You\u0027ve been to Goa, haven\u0027t you?\u0027\nâ€¢ \u0027He\u0027s very talented, isn\u0027t he?\u0027",
+                                      "grammar_note":  "Tag = auxiliary verb + pronoun\nPositive â†’ negative tag: is â†’ isn\u0027t, do â†’ don\u0027t, have â†’ haven\u0027t\nNegative â†’ positive tag: isn\u0027t â†’ is, don\u0027t â†’ do"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Question tags â€” tense matching",
+                                      "body":  "The tag verb must MATCH the main verb tense:\n\nPresent simple:\nâ€¢ \u0027She works here, doesn\u0027t she?\u0027\nâ€¢ \u0027They live in Mumbai, don\u0027t they?\u0027\n\nPresent continuous:\nâ€¢ \u0027You\u0027re studying for the exam, aren\u0027t you?\u0027\n\nPast simple:\nâ€¢ \u0027He called you, didn\u0027t he?\u0027\nâ€¢ \u0027They didn\u0027t come, did they?\u0027\n\nPresent perfect:\nâ€¢ \u0027You\u0027ve met her before, haven\u0027t you?\u0027\n\nModal verbs:\nâ€¢ \u0027She can swim, can\u0027t she?\u0027\nâ€¢ \u0027You\u0027ll be there, won\u0027t you?\u0027\nâ€¢ \u0027They should know, shouldn\u0027t they?\u0027\n\nSpecial case â€” \u0027I am\u0027:\nâ€¢ \u0027I\u0027m next, aren\u0027t I?\u0027 (NOT \u0027amn\u0027t I\u0027)",
+                                      "grammar_note":  "Match the tense of the main clause\nUse the SAME auxiliary in the tag\nI am â†’ aren\u0027t I (special case)"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Conversation starters",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "confirm",
+                                                             "meaning":  "to check that something is correct",
+                                                             "example":  "You\u0027re Priya\u0027s friend, aren\u0027t you?"
+                                                         },
+                                                         {
+                                                             "word":  "invite agreement",
+                                                             "meaning":  "to ask someone to say they agree",
+                                                             "example":  "Great weather today, isn\u0027t it?"
+                                                         },
+                                                         {
+                                                             "word":  "check",
+                                                             "meaning":  "to make sure something is true",
+                                                             "example":  "The train leaves at 6, doesn\u0027t it?"
+                                                         },
+                                                         {
+                                                             "word":  "tag",
+                                                             "meaning":  "a short question added to a statement",
+                                                             "example":  "\u0027It\u0027s lovely here, isn\u0027t it?\u0027 â€” \u0027isn\u0027t it\u0027 is the tag."
+                                                         },
+                                                         {
+                                                             "word":  "intonation",
+                                                             "meaning":  "the rise and fall of your voice",
+                                                             "example":  "Rising intonation = genuine question. Falling = seeking agreement."
+                                                         },
+                                                         {
+                                                             "word":  "genuine question",
+                                                             "meaning":  "asking because you truly don\u0027t know",
+                                                             "example":  "You haven\u0027t met him, have you? (I\u0027m not sure)"
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l1_listen",
+                                      "sentences":  [
+                                                        "It\u0027s a beautiful evening, isn\u0027t it?",
+                                                        "You work at TCS, don\u0027t you?",
+                                                        "She hasn\u0027t called back yet, has she?",
+                                                        "They were at the concert, weren\u0027t they?",
+                                                        "You can drive, can\u0027t you?"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Choose the correct question tag: \u0027Ravi is your brother, ___?\u0027",
+                                      "options":  [
+                                                      "is he",
+                                                      "isn\u0027t he",
+                                                      "doesn\u0027t he",
+                                                      "wasn\u0027t he"
+                                                  ],
+                                      "correct":  "isn\u0027t he",
+                                      "explanation":  "Positive statement (is) â†’ negative tag (isn\u0027t). Subject = he (Ravi)."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Choose the correct tag: \u0027She didn\u0027t attend the meeting, ___?\u0027",
+                                      "options":  [
+                                                      "didn\u0027t she",
+                                                      "did she",
+                                                      "doesn\u0027t she",
+                                                      "isn\u0027t she"
+                                                  ],
+                                      "correct":  "did she",
+                                      "explanation":  "Negative statement (didn\u0027t) â†’ positive tag (did). Subject = she."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Choose the correct tag: \u0027You\u0027ve been to Kerala, ___?\u0027",
+                                      "options":  [
+                                                      "have you",
+                                                      "haven\u0027t you",
+                                                      "didn\u0027t you",
+                                                      "weren\u0027t you"
+                                                  ],
+                                      "correct":  "haven\u0027t you",
+                                      "explanation":  "Present perfect positive (have been) â†’ negative tag (haven\u0027t). Subject = you."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Which sentence has the CORRECT question tag?",
+                                      "options":  [
+                                                      "They don\u0027t know the answer, do they?",
+                                                      "She is coming tomorrow, is she?",
+                                                      "He can\u0027t swim, can\u0027t he?",
+                                                      "We went there, didn\u0027t we not?"
+                                                  ],
+                                      "correct":  "They don\u0027t know the answer, do they?",
+                                      "explanation":  "Negative (don\u0027t) â†’ positive tag (do). \u0027They\u0027 â†’ \u0027they\u0027. Correct!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Add the correct question tag.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "The food here is really good, ___ ___?",
+                                                            "answer":  "isn\u0027t it"
+                                                        },
+                                                        {
+                                                            "text":  "You didn\u0027t finish your chai, ___ ___?",
+                                                            "answer":  "did you"
+                                                        },
+                                                        {
+                                                            "text":  "Meera works in marketing, ___ ___?",
+                                                            "answer":  "doesn\u0027t she"
+                                                        },
+                                                        {
+                                                            "text":  "They\u0027ve already left, ___ ___?",
+                                                            "answer":  "haven\u0027t they"
+                                                        },
+                                                        {
+                                                            "text":  "You\u0027ll be at the party tonight, ___ ___?",
+                                                            "answer":  "won\u0027t you"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete the question tag â€” match the tense.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "She was at the conference last week, ___ ___?",
+                                                            "answer":  "wasn\u0027t she"
+                                                        },
+                                                        {
+                                                            "text":  "You can speak Tamil, ___ ___?",
+                                                            "answer":  "can\u0027t you"
+                                                        },
+                                                        {
+                                                            "text":  "He shouldn\u0027t do that, ___ ___?",
+                                                            "answer":  "should he"
+                                                        },
+                                                        {
+                                                            "text":  "I\u0027m the last one, ___ ___?",
+                                                            "answer":  "aren\u0027t I"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a complete sentence with a question tag.",
+                                      "words":  [
+                                                    "great",
+                                                    "isn\u0027t",
+                                                    "movie",
+                                                    "It\u0027s",
+                                                    "a",
+                                                    "it"
+                                                ],
+                                      "answer":  "It\u0027s a great movie, isn\u0027t it?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a sentence with a negative statement + positive tag.",
+                                      "words":  [
+                                                    "you",
+                                                    "haven\u0027t",
+                                                    "Ravi",
+                                                    "met",
+                                                    "before",
+                                                    "have",
+                                                    "you"
+                                                ],
+                                      "answer":  "You haven\u0027t met Ravi before, have you?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match each statement to the correct question tag.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "She lives in Pune,",
+                                                        "right":  "doesn\u0027t she?"
+                                                    },
+                                                    {
+                                                        "left":  "They didn\u0027t win,",
+                                                        "right":  "did they?"
+                                                    },
+                                                    {
+                                                        "left":  "You\u0027ve eaten dosa before,",
+                                                        "right":  "haven\u0027t you?"
+                                                    },
+                                                    {
+                                                        "left":  "He won\u0027t come,",
+                                                        "right":  "will he?"
+                                                    },
+                                                    {
+                                                        "left":  "I\u0027m next in the queue,",
+                                                        "right":  "aren\u0027t I?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "â˜… FEATURED DIALOGUE â€” Scenario 1: Friends catching up at a cafÃ© â€” Chennai",
+                                      "scenario_id":  "scenario_1",
+                                      "setting":  "Priya and Kavya are old college friends who haven\u0027t met in a year. They meet at a cafÃ© in Chennai. This dialogue is full of question tags used naturally in conversation.",
+                                      "learning_note":  "Listen for how question tags are used to CHECK information, INVITE AGREEMENT, and KEEP THE CONVERSATION GOING. You will practise this dialogue again in Lesson 13.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Kavya! Oh my goodness â€” it\u0027s been so long, hasn\u0027t it?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I know! Almost a year, isn\u0027t it? You look wonderful, by the way."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Thank you! You haven\u0027t changed at all, have you? Still the same Kavya!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Ha! Well, a lot has changed actually. You know I moved to Bangalore, don\u0027t you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes! You\u0027re working at that tech company, aren\u0027t you? TechNova or something?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "TechBridge â€” close enough! It\u0027s going really well. It\u0027s a bit hectic though, isn\u0027t it always?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Ha, yes. You were always a hard worker, weren\u0027t you? Even in college."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "You weren\u0027t so bad yourself! You\u0027re still teaching, aren\u0027t you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes, still at the same school. Different class this year though. You haven\u0027t tried this cafÃ© before, have you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "No â€” first time! The filter coffee here is amazing, isn\u0027t it?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "The best in Adyar, I think. Your family is still in Coimbatore, aren\u0027t they?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Yes, my parents are. But my sister got married and moved to Dubai â€” you remember her, don\u0027t you?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Of course! She was in the year below us, wasn\u0027t she? How lovely! We should catch up properly â€” lunch next time, shouldn\u0027t we?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Absolutely. It\u0027s long overdue, isn\u0027t it? I\u0027ll be back in Chennai next month â€” we\u0027ll plan something then!"
+                                                       }
+                                                   ],
+                                      "repeat_speaking_note":  "In Lesson 13, you will: (1) listen and repeat this dialogue, (2) answer comprehension questions, (3) identify all question tags used, and (4) role-play it with a partner.",
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "How long has it been since Priya and Kavya met?",
+                                                                          "options":  [
+                                                                                          "Six months",
+                                                                                          "Almost a year",
+                                                                                          "Two years",
+                                                                                          "A few weeks"
+                                                                                      ],
+                                                                          "correct":  "Almost a year"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where does Kavya work?",
+                                                                          "options":  [
+                                                                                          "TechNova",
+                                                                                          "TechBridge",
+                                                                                          "TechCore",
+                                                                                          "TechSpark"
+                                                                                      ],
+                                                                          "correct":  "TechBridge"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where did Kavya\u0027s sister move after getting married?",
+                                                                          "options":  [
+                                                                                          "Bangalore",
+                                                                                          "Mumbai",
+                                                                                          "Dubai",
+                                                                                          "Singapore"
+                                                                                      ],
+                                                                          "correct":  "Dubai"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "Find all the question tags in the dialogue. How many are there?",
+                                                                   "Which tags are used to CHECK information vs INVITE AGREEMENT?",
+                                                                   "Which response do you find most natural? Why?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the question tag mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "She works in the hospital, isn\u0027t she?",
+                                                            "correct":  "She works in the hospital, doesn\u0027t she?",
+                                                            "explanation":  "Simple present \u0027works\u0027 â†’ tag uses DO/DOES: \u0027doesn\u0027t she\u0027. \u0027Isn\u0027t\u0027 is for the verb TO BE."
+                                                        },
+                                                        {
+                                                            "wrong":  "You\u0027ve been to Mysore, have you?",
+                                                            "correct":  "You\u0027ve been to Mysore, haven\u0027t you?",
+                                                            "explanation":  "Positive statement (have been) â†’ NEGATIVE tag (haven\u0027t you)."
+                                                        },
+                                                        {
+                                                            "wrong":  "They didn\u0027t call, didn\u0027t they?",
+                                                            "correct":  "They didn\u0027t call, did they?",
+                                                            "explanation":  "Negative statement (didn\u0027t) â†’ POSITIVE tag (did they)."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You meet someone at a friend\u0027s wedding. You think you\u0027ve seen them at the gym but aren\u0027t 100% sure. What do you say to start a conversation?",
+                                      "options":  [
+                                                      "Do you go to the gym?",
+                                                      "You go to the gym, don\u0027t you? I think I\u0027ve seen you there.",
+                                                      "Are you from the gym?",
+                                                      "I saw you at the gym, didn\u0027t I not?"
+                                                  ],
+                                      "correct":  "You go to the gym, don\u0027t you? I think I\u0027ve seen you there.",
+                                      "explanation":  "A question tag is perfect here â€” you\u0027re not 100% sure, so you\u0027re checking while starting a conversation naturally."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Use question tags to have a short conversation. Imagine you\u0027ve just met someone at a friend\u0027s gathering. Use question tags to check things you think are true about them.",
+                                      "prompt":  "Create 6 sentences using question tags in a natural conversation starter. Use different tenses.",
+                                      "example_response":  "Nice to meet you! You\u0027re Meera\u0027s colleague, aren\u0027t you? I thought I recognised you from her photos. You work in the design team, don\u0027t you? I remember her mentioning someone from Hyderabad. You\u0027re originally from Hyderabad, aren\u0027t you? It must be a big change coming to Chennai â€” the weather\u0027s different, isn\u0027t it? Much more humid! You\u0027ve been here a few months, haven\u0027t you? You\u0027ll get used to the summers eventually â€” everyone does, don\u0027t they? Ha! Anyway, it\u0027s lovely to meet you â€” Meera\u0027s mentioned you a lot, hasn\u0027t she? Only good things, I promise!",
+                                      "key_phrases":  [
+                                                          "isn\u0027t it?",
+                                                          "don\u0027t you?",
+                                                          "aren\u0027t you?",
+                                                          "haven\u0027t you?",
+                                                          "won\u0027t you?",
+                                                          "didn\u0027t she?"
+                                                      ],
+                                      "min_words":  80
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Read the Scenario 1 dialogue again and answer these questions in your own words.",
+                                      "prompt":  "Answer these questions based on the CafÃ© Scenario dialogue:\n1. Why are Priya and Kavya meeting?\n2. What has changed in Kavya\u0027s life since they last met?\n3. What question tags do you notice in the conversation? Give 3 examples.\n4. How do they plan to meet next time?",
+                                      "example_response":  "Priya and Kavya are meeting because they haven\u0027t seen each other for almost a year â€” they\u0027re old college friends who have stayed in touch but haven\u0027t had a chance to sit down and catch up properly. A lot has changed in Kavya\u0027s life since they last met. She has moved to Bangalore and started working at a company called TechBridge. Her sister also got married and moved to Dubai. As for question tags â€” there are many! For example: \u0027it\u0027s been so long, hasn\u0027t it?\u0027 â€” checking if they agree it\u0027s been a long time. \u0027You\u0027re working at TechNova, aren\u0027t you?\u0027 â€” Priya is checking what she thinks she knows but isn\u0027t sure about. \u0027You haven\u0027t tried this cafÃ© before, have you?\u0027 â€” a genuine check because Kavya just arrived. They plan to meet for lunch next time Kavya is in Chennai, which will be next month.",
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this short conversation using correct question tags.",
+                                      "text":  "Arjun: You went to the conference in Delhi last week, ___ (1)?\nMeera: Yes I did! It was great. You\u0027ve been there before, ___ (2)?\nArjun: A couple of times, yes. The venue is always impressive, ___ (3)?\nMeera: Absolutely. The keynote speaker was brilliant â€” you watched the recording, ___ (4)?\nArjun: Not yet â€” I should, ___ (5)? You\u0027ll send me the link, ___ (6)?",
+                                      "answers":  [
+                                                      "didn\u0027t you",
+                                                      "haven\u0027t you",
+                                                      "isn\u0027t it",
+                                                      "didn\u0027t you",
+                                                      "shouldn\u0027t I",
+                                                      "won\u0027t you"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1101_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 1 complete â€” Question tags",
+                                      "key_points":  [
+                                                         "Positive statement â†’ NEGATIVE tag",
+                                                         "Negative statement â†’ POSITIVE tag",
+                                                         "Tag = auxiliary + pronoun â€” must match the main verb tense",
+                                                         "I am â†’ aren\u0027t I (special case)",
+                                                         "Rising intonation = genuine question; Falling intonation = seeking agreement",
+                                                         "Use tags to check info, invite agreement, and keep conversation going"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "So do I / Neither do I â€” agreeing and disagreeing"
+                                  }
+                  }
+              ]
+}

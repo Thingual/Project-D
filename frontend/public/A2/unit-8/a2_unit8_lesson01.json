@@ -1,0 +1,364 @@
+{
+  "lesson_id": "a2_unit8_lesson01",
+  "unit": 8,
+  "lesson_number": 1,
+  "level": "A2",
+  "title": "Much Better, Far Cheaper — Intensified Comparatives",
+  "description": "Learn to make comparatives stronger and more expressive using intensifiers like much, far, a lot, a bit, and slightly.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0801_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Comparatives Review",
+      "content": {
+        "explanation": "You already know how to make comparatives. Let's review quickly:\n\n📌 SHORT adjectives → add -er + than:\n• cheap → cheaper than\n• fast → faster than\n• big → bigger than\n• hot → hotter than (double final consonant)\n\n📌 LONG adjectives → more + adjective + than:\n• expensive → more expensive than\n• comfortable → more comfortable than\n• interesting → more interesting than\n\n📌 IRREGULAR comparatives:\n• good → better than\n• bad → worse than\n• far → farther / further than\n\n✅ Examples:\n• The bus is cheaper than the taxi.\n• This hotel is more comfortable than that one.\n• The new phone is better than the old one.",
+        "examples": [
+          "The metro is faster than the bus.",
+          "Cooking at home is cheaper than eating out.",
+          "This road is more dangerous than the highway."
+        ],
+        "tip": "Remember: use -er for short adjectives and 'more' for adjectives with 3+ syllables."
+      }
+    },
+    {
+      "task_id": "t0801_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Intensifying Comparatives",
+      "content": {
+        "explanation": "We can make comparatives STRONGER or WEAKER by adding an intensifier before them:\n\n🔴 MUCH STRONGER (big difference):\n• much + comparative → much better, much cheaper\n• far + comparative → far more expensive, far easier\n• a lot + comparative → a lot faster, a lot busier\n• significantly + comparative → significantly healthier\n\n🟡 A LITTLE STRONGER (small difference):\n• a bit + comparative → a bit warmer, a bit longer\n• slightly + comparative → slightly better, slightly heavier\n• a little + comparative → a little more difficult\n\n✅ Examples:\n• The new phone is MUCH better than the old one. (big difference)\n• Chennai is FAR hotter than Mumbai in summer. (very big difference)\n• This bag is A BIT heavier than yours. (small difference)\n• The restaurant is SLIGHTLY more expensive than before. (tiny difference)\n\n⚠️ NOTE: We don't use 'very' before comparatives.\n❌ very better / very faster (WRONG)\n✅ much better / far faster (CORRECT)",
+        "examples": [
+          "The new laptop is much faster than the old one.",
+          "Taking the expressway is far quicker than the old road.",
+          "Today's weather is a bit cooler than yesterday.",
+          "This course is slightly more difficult than the last one."
+        ],
+        "tip": "MUCH / FAR / A LOT = big difference. A BIT / SLIGHTLY / A LITTLE = small difference. NEVER use 'very' before a comparative."
+      }
+    },
+    {
+      "task_id": "t0801_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Comparison Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "reliable", "meaning": "dependable; can be trusted to work well", "example": "The train is more reliable than the bus during monsoon." },
+          { "word": "convenient", "meaning": "easy to use or access; saves time", "example": "Online shopping is far more convenient than going to a market." },
+          { "word": "affordable", "meaning": "not too expensive; within budget", "example": "Street food is much more affordable than restaurant food." },
+          { "word": "efficient", "meaning": "doing things well without wasting time or energy", "example": "The new system is far more efficient than the old one." },
+          { "word": "spacious", "meaning": "having a lot of space", "example": "Their new flat is much more spacious than the old one." },
+          { "word": "crowded", "meaning": "having too many people or things in one place", "example": "The market is a lot more crowded on weekends." },
+          { "word": "noisy", "meaning": "making a lot of unwanted sound", "example": "The main road is much noisier than the side streets." },
+          { "word": "nutritious", "meaning": "good for health; full of nutrients", "example": "Home-cooked food is far more nutritious than fast food." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0801_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Intensified Comparatives",
+      "content": {
+        "instruction": "Listen and repeat. Notice how the intensifier adds emphasis to the comparison.",
+        "items": [
+          { "audio_key": "a2_u8_l1_lr1", "text": "This phone is much better than my old one." },
+          { "audio_key": "a2_u8_l1_lr2", "text": "Taking the metro is far quicker than driving." },
+          { "audio_key": "a2_u8_l1_lr3", "text": "Today is a bit cooler than yesterday." },
+          { "audio_key": "a2_u8_l1_lr4", "text": "The new office is a lot more spacious than the old one." },
+          { "audio_key": "a2_u8_l1_lr5", "text": "Home-cooked food is slightly healthier than takeaway." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0801_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence is CORRECT?",
+      "options": [
+        "The new road is very faster than the old one.",
+        "The new road is much faster than the old one.",
+        "The new road is very more fast than the old one.",
+        "The new road is a lot more fast than the old one."
+      ],
+      "correct_answer": "The new road is much faster than the old one.",
+      "explanation": "MUCH is the correct intensifier for comparatives. 'Very' CANNOT be used before comparatives. 'More fast' is also wrong — the correct comparative is 'faster'."
+    },
+    {
+      "task_id": "t0801_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Priya says the difference in price between two hotels is very small. Which sentence best expresses this?",
+      "options": [
+        "Hotel A is much more expensive than Hotel B.",
+        "Hotel A is far more expensive than Hotel B.",
+        "Hotel A is slightly more expensive than Hotel B.",
+        "Hotel A is a lot more expensive than Hotel B."
+      ],
+      "correct_answer": "Hotel A is slightly more expensive than Hotel B.",
+      "explanation": "When the difference is SMALL, use 'slightly', 'a bit', or 'a little'. MUCH, FAR, and A LOT suggest a big difference."
+    },
+    {
+      "task_id": "t0801_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Ravi is comparing a rickety old bicycle with a brand-new motorbike. Which intensifier is MOST appropriate?",
+      "options": [
+        "The motorbike is slightly faster than the bicycle.",
+        "The motorbike is a bit faster than the bicycle.",
+        "The motorbike is a little faster than the bicycle.",
+        "The motorbike is far faster than the bicycle."
+      ],
+      "correct_answer": "The motorbike is far faster than the bicycle.",
+      "explanation": "A motorbike is dramatically faster than a bicycle — so FAR (or much/a lot) is the correct intensifier to show a BIG difference."
+    },
+    {
+      "task_id": "t0801_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which sentence uses an intensified comparative INCORRECTLY?",
+      "options": [
+        "The new shopping mall is much bigger than the old market.",
+        "Online classes are a lot more flexible than classroom lessons.",
+        "This restaurant is very more expensive than that one.",
+        "Walking is slightly slower than cycling."
+      ],
+      "correct_answer": "This restaurant is very more expensive than that one.",
+      "explanation": "'Very more expensive' is wrong. You can't use 'very' with comparatives. Use 'much more expensive' or 'far more expensive' instead."
+    },
+    {
+      "task_id": "t0801_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Add an appropriate intensifier (much / far / a lot / a bit / slightly) to make a natural sentence.",
+      "items": [
+        {
+          "sentence": "Bangalore's weather is _____ more pleasant than Chennai's in summer.",
+          "answer": "much / far",
+          "hint": "Bangalore is known for being significantly cooler — big difference."
+        },
+        {
+          "sentence": "The new version of the app is _____ easier to use than the old one.",
+          "answer": "a bit / slightly",
+          "hint": "The improvement is small — use a weak intensifier."
+        },
+        {
+          "sentence": "Flying to Delhi is _____ faster than taking the train.",
+          "answer": "much / far / a lot",
+          "hint": "A flight is dramatically faster — big difference."
+        }
+      ]
+    },
+    {
+      "task_id": "t0801_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete the comparative sentence with the correct form of the adjective and an appropriate intensifier.",
+      "items": [
+        {
+          "sentence": "My new phone has a _____ (good) camera than my old one — I can see the difference clearly.",
+          "answer": "much better",
+          "hint": "Big difference + irregular comparative of 'good'."
+        },
+        {
+          "sentence": "The traffic today is _____ (bad) than yesterday — there must be an accident.",
+          "answer": "a lot worse / much worse / far worse",
+          "hint": "Big difference + irregular comparative of 'bad'."
+        },
+        {
+          "sentence": "This exam paper was _____ (difficult) than the last one — just a few more tricky questions.",
+          "answer": "a bit more difficult / slightly more difficult",
+          "hint": "Small difference + long adjective."
+        }
+      ]
+    },
+    {
+      "task_id": "t0801_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct intensified comparative sentence.",
+      "items": [
+        {
+          "words": ["Home-cooked", "food", "is", "much", "healthier", "than", "fast", "food"],
+          "answer": "Home-cooked food is much healthier than fast food."
+        },
+        {
+          "words": ["The", "new", "office", "is", "far", "more", "spacious", "than", "the", "old", "one"],
+          "answer": "The new office is far more spacious than the old one."
+        }
+      ]
+    },
+    {
+      "task_id": "t0801_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct intensified comparative sentence.",
+      "items": [
+        {
+          "words": ["Taking", "the", "metro", "is", "a", "lot", "cheaper", "than", "taking", "a", "cab"],
+          "answer": "Taking the metro is a lot cheaper than taking a cab."
+        },
+        {
+          "words": ["Today's", "test", "was", "slightly", "more", "difficult", "than", "last", "week's"],
+          "answer": "Today's test was slightly more difficult than last week's."
+        }
+      ]
+    },
+    {
+      "task_id": "t0801_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the situation with the most appropriate intensified comparative sentence.",
+      "pairs": [
+        { "left": "A five-star hotel vs a budget hostel", "right": "The five-star hotel is far more comfortable than the hostel." },
+        { "left": "Two shirts — one ₹500, one ₹520", "right": "The second shirt is slightly more expensive than the first." },
+        { "left": "Walking vs flying from Mumbai to Delhi", "right": "Flying is much faster than walking." },
+        { "left": "A tiny flat vs a large house", "right": "The house is a lot more spacious than the flat." },
+        { "left": "Today 28°C vs yesterday 30°C", "right": "Today is a bit cooler than yesterday." }
+      ]
+    },
+    {
+      "task_id": "t0801_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Comparing Two Cities — Meera and Arjun Discuss Moving",
+      "dialogue": {
+        "context": "Meera has been offered a job in Pune. She is currently living in Chennai and talking to her friend Arjun about whether to move.",
+        "turns": [
+          { "speaker": "Meera", "text": "Arjun, I've been offered a job in Pune. I'm thinking about whether to move. What do you think?" },
+          { "speaker": "Arjun", "text": "Oh wow! That's a big decision. Is the salary better?" },
+          { "speaker": "Meera", "text": "Yes, it's much better — almost 40% more than what I earn now." },
+          { "speaker": "Arjun", "text": "That's a huge difference! What about the cost of living? Is Pune more expensive than Chennai?" },
+          { "speaker": "Meera", "text": "Rents are slightly higher in Pune, but groceries and transport are a bit cheaper." },
+          { "speaker": "Arjun", "text": "And the weather? Chennai is incredibly hot. Is Pune better?" },
+          { "speaker": "Meera", "text": "Oh, far better! Pune's climate is much more pleasant — it's cooler and drier." },
+          { "speaker": "Arjun", "text": "That sounds great. What about traffic? Chennai traffic is terrible." },
+          { "speaker": "Meera", "text": "Pune also has traffic, but it's a lot more manageable than Chennai, especially in the evenings." },
+          { "speaker": "Arjun", "text": "What about the food? You love Chennai's food culture." },
+          { "speaker": "Meera", "text": "That's my biggest concern. I think Chennai's street food scene is far more vibrant than Pune's." },
+          { "speaker": "Arjun", "text": "True. But you can always learn to cook your favourites! What about your family?" },
+          { "speaker": "Meera", "text": "They're a bit farther away in Pune, but flights are frequent. I think the career opportunity is much more important right now." },
+          { "speaker": "Arjun", "text": "I agree! Take the job, Meera. The financial benefit is far too good to pass up." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How much better is Meera's new salary?",
+            "options": ["10% more", "20% more", "Almost 40% more", "Exactly the same"],
+            "correct_answer": "Almost 40% more"
+          },
+          {
+            "question": "What does Meera say about Pune's weather compared to Chennai?",
+            "options": ["It is slightly cooler", "It is far better — cooler and drier", "It is much hotter", "It is the same"],
+            "correct_answer": "It is far better — cooler and drier"
+          },
+          {
+            "question": "What is Meera's biggest concern about moving to Pune?",
+            "options": ["The traffic", "The salary", "Missing Chennai's street food scene", "The flights"],
+            "correct_answer": "Missing Chennai's street food scene"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0801_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each sentence.",
+      "items": [
+        {
+          "sentence": "The new train is very faster than the old one.",
+          "error": "very faster",
+          "correction": "much faster",
+          "explanation": "'Very' cannot be used before comparatives. Use 'much', 'far', or 'a lot' for big differences."
+        },
+        {
+          "sentence": "This laptop is a lot more better than my old computer.",
+          "error": "more better",
+          "correction": "much better",
+          "explanation": "'Better' is already the comparative of 'good' — never say 'more better'. Use 'much better'."
+        },
+        {
+          "sentence": "Mumbai is slightly more expensive that Ahmedabad.",
+          "error": "more expensive that",
+          "correction": "more expensive than",
+          "explanation": "Comparatives always use 'than', not 'that'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0801_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are helping your friend choose between two mobile phones. Phone A costs ₹12,000 and has average reviews. Phone B costs ₹12,500 and has excellent reviews, a much better camera, and longer battery life. Your friend asks which one to buy.",
+      "question": "Which response uses intensified comparatives most effectively?",
+      "options": [
+        "Phone B is good.",
+        "Phone B is more expensive but it's better.",
+        "Phone B is slightly more expensive but it has a much better camera, far better reviews, and a significantly longer battery life — it's worth the extra money.",
+        "Both phones are the same more or less."
+      ],
+      "correct_answer": "Phone B is slightly more expensive but it has a much better camera, far better reviews, and a significantly longer battery life — it's worth the extra money.",
+      "explanation": "This uses 'slightly' correctly (small price difference) and 'much' and 'far' for the bigger quality differences — exactly how intensified comparatives work in real conversation."
+    },
+    {
+      "task_id": "t0801_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Compare two cities you know or have heard about. Use intensified comparatives (much, far, a lot, a bit, slightly) to describe differences in weather, food, cost of living, transport, and lifestyle. Speak for at least 60 seconds.",
+      "prompt": "Compare two Indian cities using intensified comparatives.",
+      "example_response": "I want to compare Chennai and Bangalore because I have lived in both. Chennai is far hotter and more humid than Bangalore — especially in April and May, it can feel unbearable. Bangalore's weather is much more pleasant throughout the year. In terms of cost of living, Bangalore is slightly more expensive than Chennai for renting flats. However, transport in Chennai is a lot more affordable — the bus and suburban train network is much cheaper than Bangalore's metro and cab services. Chennai's food scene is far more connected to traditional South Indian cuisine, while Bangalore has a much more diverse range of restaurants. I personally find Bangalore's lifestyle a bit more cosmopolitan and international. But Chennai people are slightly more friendly and community-oriented in my opinion. Both are great cities, just quite different!",
+      "key_phrases": ["is much more... than", "is far... than", "is a lot... than", "is slightly more... than", "is a bit... than"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0801_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Compare your life now with your life 2-3 years ago. Use intensified comparatives to describe what has changed — in your habits, responsibilities, skills, or daily routine. Speak for at least 60 seconds.",
+      "prompt": "Compare your current life with your life 2-3 years ago using intensified comparatives.",
+      "example_response": "My life now is quite different from two or three years ago. I think I am much more confident now than I was before — especially when speaking to new people. My English is far better than it was when I first started learning. My daily routine is also a lot more structured now — I wake up earlier and I manage my time much more efficiently. Financially, things are slightly better because I have started saving money each month. I am also a bit more health-conscious now — I eat more nutritious food and exercise more regularly. In terms of responsibilities, life is significantly more demanding now, but I find it much more rewarding too. I think I am a lot more patient than I used to be, and my decision-making is slightly more mature. Overall, I feel that my life now is far better than it was a few years ago.",
+      "key_phrases": ["I am much more... than I was", "my ... is far better than", "I am a lot more... now", "slightly more... than before"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0801_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this product comparison review with the correct intensifiers and comparative forms.",
+      "paragraph": "I recently switched from the OldBrand X1 to the NewBrand Pro and the difference is remarkable. The screen on the NewBrand is (1)_____ (much / clear) and (2)_____ (far / bright) than the X1 — watching videos is a completely different experience. The battery life is (3)_____ (significantly / long) — I used to charge my phone twice a day, but now once is enough. The camera is (4)_____ (a lot / good) — photos in low light are (5)_____ (far / sharp) than before. The phone is (6)_____ (slightly / heavy) than the X1, but you barely notice it. The price is (7)_____ (a bit / expensive), but considering how (8)_____ (much / reliable) it is, it is absolutely worth the investment.",
+      "answers": [
+        "much clearer",
+        "far brighter",
+        "significantly longer",
+        "a lot better",
+        "far sharper",
+        "slightly heavier",
+        "a bit more expensive",
+        "much more reliable"
+      ],
+      "hint": "Think about whether each difference is big (much/far/a lot) or small (slightly/a bit). Use the correct comparative form of each adjective."
+    },
+    {
+      "task_id": "t0801_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 1 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Comparatives review: -er than (short) / more ___ than (long) / better/worse (irregular)",
+          "Big difference intensifiers: much, far, a lot, significantly",
+          "Small difference intensifiers: a bit, slightly, a little",
+          "NEVER use 'very' before a comparative",
+          "NEVER say 'more better' — 'better' is already comparative",
+          "Always use 'than' after a comparative (not 'that')",
+          "Key vocab: reliable, convenient, affordable, efficient, spacious, crowded, noisy, nutritious"
+        ],
+        "grammar_summary": "Intensifiers go BEFORE the comparative: much better / far more expensive / a bit warmer. Use strong intensifiers (much/far/a lot) for big differences. Use weak intensifiers (slightly/a bit) for small differences.",
+        "encouragement": "Excellent start to Unit 8! You can now make your comparisons much more expressive and natural. This is exactly how fluent speakers talk. Keep it up! 💪"
+      }
+    }
+  ]
+}

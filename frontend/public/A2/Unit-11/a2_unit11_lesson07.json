@@ -1,0 +1,481 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson07",
+    "unit":  11,
+    "lesson_number":  7,
+    "level":  "A2",
+    "title":  "Online communication â€” professional chat and email",
+    "description":  "Write and respond to professional messages, team chats, and work emails with the right tone and structure.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1107_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Semi-formal professional chat language",
+                                      "body":  "Most modern workplaces use chat tools (Slack, Teams, WhatsApp Work). This is SEMI-FORMAL â€” friendly but professional.\n\nGood semi-formal chat:\nâ€¢ \u0027Hi Priya â€” could you send me the report when you get a chance?\u0027\nâ€¢ \u0027Hey team â€” quick update: the call is at 3, not 2.\u0027\nâ€¢ \u0027Thanks for the heads up!\u0027\nâ€¢ \u0027I\u0027ll look into this and get back to you shortly.\u0027\nâ€¢ \u0027Happy to help â€” just send it over.\u0027\nâ€¢ \u0027Noted â€” I\u0027ll take care of it.\u0027\n\nAvoid in work chats:\nâ€¢ \u0027omg thx lol\u0027\nâ€¢ \u0027K\u0027 (too curt â€” sounds rude)\nâ€¢ All caps\nâ€¢ Ignoring messages",
+                                      "grammar_note":  "Semi-formal = friendly + professional\n\u0027Heads up\u0027 = advance notice (informal but acceptable in chats)\n\u0027Noted\u0027 = I understand and will act on it"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Useful professional chat phrases",
+                                      "body":  "GIVING UPDATES:\nâ€¢ \u0027Just to let you know...\u0027\nâ€¢ \u0027Quick update â€” the meeting is confirmed for 3 PM.\u0027\nâ€¢ \u0027FYI â€” the client has pushed back the deadline.\u0027\n\nACKNOWLEDGING:\nâ€¢ \u0027Got it â€” thanks!\u0027\nâ€¢ \u0027Noted â€” I\u0027ll action this today.\u0027\nâ€¢ \u0027Understood â€” I\u0027ll update the team.\u0027\n\nASKING FOR HELP:\nâ€¢ \u0027Could you take a look at this when you\u0027re free?\u0027\nâ€¢ \u0027Happy for any feedback on this.\u0027\nâ€¢ \u0027Would you be able to cover this while I\u0027m away?\u0027\n\nSHARING DOCUMENTS:\nâ€¢ \u0027Sharing the updated file here.\u0027\nâ€¢ \u0027See the attached â€” let me know if anything needs changing.\u0027\nâ€¢ \u0027I\u0027ve dropped the doc in the shared folder.\u0027",
+                                      "grammar_note":  "\u0027Action this\u0027 = to take action on something (professional verb)\n\u0027Happy for feedback\u0027 = I welcome feedback\n\u0027Drop a doc\u0027 = informal way of sharing a file"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Workplace communication",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "loop in",
+                                                             "meaning":  "to include someone in a conversation or email chain",
+                                                             "example":  "Can you loop in Sonal on this thread?"
+                                                         },
+                                                         {
+                                                             "word":  "flag",
+                                                             "meaning":  "to draw attention to something",
+                                                             "example":  "I wanted to flag that the deadline is approaching."
+                                                         },
+                                                         {
+                                                             "word":  "action",
+                                                             "meaning":  "to take action on something (professional use)",
+                                                             "example":  "I\u0027ll action this by end of day."
+                                                         },
+                                                         {
+                                                             "word":  "circulate",
+                                                             "meaning":  "to share/distribute to everyone",
+                                                             "example":  "I\u0027ll circulate the minutes after the meeting."
+                                                         },
+                                                         {
+                                                             "word":  "heads up",
+                                                             "meaning":  "advance warning or notice",
+                                                             "example":  "Just a heads up â€” the client is visiting tomorrow."
+                                                         },
+                                                         {
+                                                             "word":  "sign off",
+                                                             "meaning":  "to give final approval",
+                                                             "example":  "The manager needs to sign off on this proposal."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l7_listen",
+                                      "sentences":  [
+                                                        "Just a heads up â€” the client call has been moved to 4 PM.",
+                                                        "Could you loop in Priya on this thread? She should be aware.",
+                                                        "Noted â€” I\u0027ll action this before end of day.",
+                                                        "I\u0027ve dropped the report in the shared folder â€” please review.",
+                                                        "Happy to help â€” just let me know what you need."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "A colleague says: \u0027Loop me in on the client email.\u0027 What does this mean?",
+                                      "options":  [
+                                                      "Send the email in a circle.",
+                                                      "Include me in the email conversation â€” add me to the thread.",
+                                                      "Write the email very quickly.",
+                                                      "Delete the email chain."
+                                                  ],
+                                      "correct":  "Include me in the email conversation â€” add me to the thread.",
+                                      "explanation":  "\u0027Loop someone in\u0027 = add them to an email/conversation so they\u0027re informed."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Which work chat message is most professional?",
+                                      "options":  [
+                                                      "k done",
+                                                      "ok noted thanks bye",
+                                                      "Got it â€” I\u0027ll complete this before end of day and share the update with you then.",
+                                                      "OKAY I WILL DO IT"
+                                                  ],
+                                      "correct":  "Got it â€” I\u0027ll complete this before end of day and share the update with you then.",
+                                      "explanation":  "Clear acknowledgment + specific commitment + update promise = professional work chat response."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Your manager asks you in a chat to prepare a presentation for tomorrow. What is the best reply?",
+                                      "options":  [
+                                                      "K",
+                                                      "Sure lol I\u0027ll do it",
+                                                      "Understood â€” I\u0027ll prepare the presentation and share a draft by this evening for your review.",
+                                                      "YES OKAY WILL DO IT TONIGHT"
+                                                  ],
+                                      "correct":  "Understood â€” I\u0027ll prepare the presentation and share a draft by this evening for your review.",
+                                      "explanation":  "Professional reply: confirms understanding + gives a specific timeline + offers to share for review."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What does it mean to \u0027sign off\u0027 on something at work?",
+                                      "options":  [
+                                                      "To leave the office",
+                                                      "To write your name at the end of an email",
+                                                      "To give final approval or permission",
+                                                      "To delete a file"
+                                                  ],
+                                      "correct":  "To give final approval or permission",
+                                      "explanation":  "\u0027Sign off\u0027 in professional contexts = officially approve something."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the correct professional chat phrase.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027I wanted to ___ that the deadline is moved to Friday.\u0027 (draw attention to)",
+                                                            "answer":  "flag"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Can you ___ Arjun ___ on this email? He needs to know.\u0027 (include)",
+                                                            "answer":  "loop / in"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027___ â€” I\u0027ll ___ this by 5 PM.\u0027 (acknowledge + take action)",
+                                                            "answer":  "Noted / action"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Just a ___ â€” the client is coming in tomorrow morning.\u0027 (advance notice)",
+                                                            "answer":  "heads up"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I\u0027ll ___ the meeting notes to everyone after.\u0027 (share with all)",
+                                                            "answer":  "circulate"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Rewrite these curt or unclear messages in a more professional way.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027k done\u0027 â†’ \u0027___\u0027",
+                                                            "answer":  "Done â€” let me know if you need anything else."
+                                                        },
+                                                        {
+                                                            "text":  "\u0027where is report\u0027 â†’ \u0027___\u0027",
+                                                            "answer":  "Hi â€” could you tell me where the report has been saved? I can\u0027t find it in the shared folder."
+                                                        },
+                                                        {
+                                                            "text":  "\u0027call me\u0027 â†’ \u0027___\u0027",
+                                                            "answer":  "Hi â€” would you be free for a quick call sometime today? I have a few questions to discuss."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a professional heads-up message.",
+                                      "words":  [
+                                                    "up",
+                                                    "heads",
+                                                    "a",
+                                                    "Just",
+                                                    "â€”",
+                                                    "the",
+                                                    "3",
+                                                    "moved",
+                                                    "to",
+                                                    "has",
+                                                    "PM",
+                                                    "meeting",
+                                                    "been"
+                                                ],
+                                      "answer":  "Just a heads up â€” the meeting has been moved to 3 PM."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a professional acknowledgement.",
+                                      "words":  [
+                                                    "I\u0027ll",
+                                                    "â€”",
+                                                    "Noted",
+                                                    "this",
+                                                    "action",
+                                                    "today"
+                                                ],
+                                      "answer":  "Noted â€” I\u0027ll action this today."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the professional chat phrase to its meaning.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Just a heads up",
+                                                        "right":  "Advance notice about something"
+                                                    },
+                                                    {
+                                                        "left":  "Loop me in",
+                                                        "right":  "Add me to the email/conversation"
+                                                    },
+                                                    {
+                                                        "left":  "I\u0027ll action this",
+                                                        "right":  "I\u0027ll take action on this task"
+                                                    },
+                                                    {
+                                                        "left":  "Can you flag that?",
+                                                        "right":  "Can you draw attention to that issue?"
+                                                    },
+                                                    {
+                                                        "left":  "Needs to be signed off",
+                                                        "right":  "Requires official approval"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "â˜… FEATURED DIALOGUE â€” Scenario 5: Workplace team chat â€” marketing startup, Mumbai",
+                                      "scenario_id":  "scenario_5",
+                                      "setting":  "A startup\u0027s marketing team uses a shared chat (like Slack or WhatsApp Work) to coordinate. This dialogue shows how professional but friendly workplace chat looks in practice.",
+                                      "learning_note":  "Notice how the team is friendly and efficient. No unnecessary abbreviations, clear messages, quick acknowledgements. This scenario is revisited in Lesson 13.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Priya (Team Lead)",
+                                                           "text":  "Hi team ðŸ‘‹ Just a heads up â€” the client presentation is moved to Thursday at 3 PM instead of Friday. Please update your calendars."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Got it â€” updated. Should I prepare any new slides for Thursday?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Yes â€” could you add a slide on Q3 results? I\u0027ll send you the data in a bit."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Sure â€” happy to. Sharing a draft by Wednesday evening work?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Perfect. Sonal â€” could you also loop in Meera on the preparation thread? She should be aware."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Will do â€” I\u0027ll add her now."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Thanks Sonal! Quick question â€” has the client seen our latest proposal? I want to make sure Thursday is a review, not a first look."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Good flag, Meera â€” I\u0027ll check with the account manager and get back to you by today EOD."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Thanks â€” noted! Just wanted to make sure we\u0027re aligned."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I\u0027ve dropped the updated Q3 data in the shared folder btw â€” file name is \u0027Q3_Results_Oct_final\u0027. Let me know if the numbers look right."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Great â€” I\u0027ll take a look shortly. Thanks everyone for moving so quickly on this ðŸ™Œ"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Teamwork! ðŸ’ª Let\u0027s nail Thursday."
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What change did Priya announce at the start?",
+                                                                          "options":  [
+                                                                                          "The presentation was cancelled.",
+                                                                                          "The presentation moved from Friday to Thursday at 3 PM.",
+                                                                                          "The client was visiting on Wednesday.",
+                                                                                          "The team meeting was postponed."
+                                                                                      ],
+                                                                          "correct":  "The presentation moved from Friday to Thursday at 3 PM."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Meera want to confirm before Thursday?",
+                                                                          "options":  [
+                                                                                          "Whether the client has seen the latest proposal",
+                                                                                          "Whether Arjun has finished the slides",
+                                                                                          "Whether the meeting room is booked",
+                                                                                          "Whether Sonal will attend"
+                                                                                      ],
+                                                                          "correct":  "Whether the client has seen the latest proposal"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where did Arjun share the Q3 data?",
+                                                                          "options":  [
+                                                                                          "By email",
+                                                                                          "In the chat directly",
+                                                                                          "In the shared folder",
+                                                                                          "In the presentation file"
+                                                                                      ],
+                                                                          "correct":  "In the shared folder"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "What makes this workplace chat professional yet friendly? List 3 features.",
+                                                                   "Find examples of: (a) a heads up, (b) a flag, (c) acknowledgement, (d) an offer to help.",
+                                                                   "How does the team keep the conversation efficient without being rude?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find the professional communication mistake and correct it.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Work chat: \u0027done report. folder.\u0027 (sent to manager)",
+                                                            "correct":  "Hi â€” I\u0027ve completed the report and uploaded it to the shared folder. Please let me know if you need any changes.",
+                                                            "explanation":  "Professional chat needs complete, clear sentences. \u0027done report. folder.\u0027 is too curt and unclear."
+                                                        },
+                                                        {
+                                                            "wrong":  "Team update: \u0027FYI meeting tmrw at 3 not 2 ok????\u0027",
+                                                            "correct":  "Hi team â€” quick update: tomorrow\u0027s meeting is at 3 PM, not 2 PM. Please adjust your schedules accordingly.",
+                                                            "explanation":  "Too many question marks and casual abbreviations. Professional update needs calm, clear language."
+                                                        },
+                                                        {
+                                                            "wrong":  "Email reply: \u0027K\u0027",
+                                                            "correct":  "Understood â€” I\u0027ll take care of this. Thank you.",
+                                                            "explanation":  "\u0027K\u0027 alone is extremely curt and can seem rude in professional contexts. Always acknowledge properly."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "Your manager sends a work chat message: \u0027Priya â€” the client moved the deadline to Monday. Can you make sure the team knows and update the project timeline?\u0027 What is your best reply?",
+                                      "options":  [
+                                                      "K",
+                                                      "OMG Monday?? That\u0027s so soon!! lol okay fine",
+                                                      "Understood â€” I\u0027ll inform the team immediately and update the project timeline. I\u0027ll share the revised schedule by this afternoon.",
+                                                      "OKAY WILL DO"
+                                                  ],
+                                      "correct":  "Understood â€” I\u0027ll inform the team immediately and update the project timeline. I\u0027ll share the revised schedule by this afternoon.",
+                                      "explanation":  "Professional reply: confirms understanding + states specific actions + gives a timeline."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Your team lead has asked you to coordinate a team lunch for Friday. Write and say a professional but friendly team chat message covering: the invitation, time, venue options, and asking people to confirm.",
+                                      "prompt":  "Write a semi-formal team chat message organising a Friday team lunch. Cover all the details.",
+                                      "example_response":  "Hi team! ðŸ› Quick message to let you know that we\u0027re planning a team lunch this Friday to celebrate completing the project. We\u0027re thinking 1 PM â€” would that work for everyone? I\u0027ve shortlisted two options for the venue: Coastal Kitchen on Brigade Road (great for South Indian and seafood) or Indigo Deli if people prefer something different. Both are within 10 minutes of the office. Could everyone let me know by tomorrow: (1) whether you can make it on Friday at 1, and (2) which restaurant you\u0027d prefer? I\u0027ll make the booking based on majority preference. If Friday doesn\u0027t work for anyone, do let me know and we can explore Saturday as a backup. Looking forward to celebrating together â€” well done everyone on a brilliant project! ðŸŽ‰",
+                                      "key_phrases":  [
+                                                          "Just a quick message",
+                                                          "Would that work?",
+                                                          "Could everyone let me know?",
+                                                          "Looking forward to",
+                                                          "Happy to adjust if needed"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Revisit Scenario 5 â€” the team chat dialogue. Answer these questions in detail:\n1. How does the team handle the sudden schedule change?\n2. What does Meera\u0027s message add to the conversation?\n3. What professional chat habits does this team show?",
+                                      "prompt":  "Analyse the team chat dialogue and describe what makes it effective professional communication.",
+                                      "example_response":  "The team in Scenario 5 handles the sudden schedule change very efficiently. Priya, the team lead, immediately sends a clear heads-up message â€” she states what changed, when, and what everyone needs to do â€” update their calendars. There\u0027s no panic, no confusion. Arjun responds immediately and proactively asks whether he needs to do anything additional â€” that shows initiative and professionalism. Meera\u0027s question adds real value to the conversation. She raises an important point that nobody else had thought of â€” whether the client had already seen the proposal. This is what Priya calls a \u0027good flag\u0027. It shows that Meera is thinking beyond just attending the meeting. In terms of professional chat habits, the team shows several excellent practices. They acknowledge messages quickly â€” \u0027Got it\u0027, \u0027Noted\u0027, \u0027Will do\u0027. They give specific timelines â€” \u0027draft by Wednesday evening\u0027, \u0027by today EOD\u0027. They stay solution-focused rather than complaining about the change. And they\u0027re friendly â€” a friendly emoji or two is perfectly fine in a team chat. The result is a chat that is efficient, clear, and pleasant to be part of.",
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this professional team chat exchange.",
+                                      "text":  "Arjun: Hi Sonal â€” ___ (1) a heads up: the product demo is now on Wednesday, not Thursday.\n\nSonal: ___ (2) â€” I\u0027ll update my calendar. Should I ___ (3) Meera in on this?\n\nArjun: Yes please â€” she needs to know. Also, could you ___ (4) the updated brief to everyone? I dropped it in the shared ___ (5) this morning.\n\nSonal: ___ (6) â€” I\u0027ll circulate it right now. ___ (7) the demo need sign-off from the manager before Wednesday?\n\nArjun: Good ___ (8) â€” let me check and ___ (9) back to you within the hour.\n\nSonal: Perfect. Just ___ (10) me know what he says.",
+                                      "answers":  [
+                                                      "just",
+                                                      "Got it / Noted",
+                                                      "loop",
+                                                      "circulate / send",
+                                                      "folder",
+                                                      "Sure / Will do",
+                                                      "Does",
+                                                      "flag / question / point",
+                                                      "get",
+                                                      "let"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1107_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 7 complete â€” Professional online communication",
+                                      "key_points":  [
+                                                         "Semi-formal = friendly + professional â€” right tone for most workplace chats",
+                                                         "Key phrases: \u0027Just a heads up\u0027, \u0027Noted\u0027, \u0027Got it\u0027, \u0027I\u0027ll action this\u0027, \u0027Loop in\u0027, \u0027Flag\u0027",
+                                                         "Always acknowledge messages â€” even \u0027Got it â€” thanks\u0027 is better than no reply",
+                                                         "Give specific timelines when committing to a task",
+                                                         "Avoid: single letters (\u0027K\u0027), all caps, too many question marks, ignoring messages",
+                                                         "\u0027Loop in\u0027 = add to conversation; \u0027Flag\u0027 = draw attention; \u0027Sign off\u0027 = approve"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Small talk â€” topics and reactions"
+                                  }
+                  }
+              ]
+}

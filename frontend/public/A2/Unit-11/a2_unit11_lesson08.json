@@ -1,0 +1,475 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson08",
+    "unit":  11,
+    "lesson_number":  8,
+    "level":  "A2",
+    "title":  "Small talk â€” topics and reactions",
+    "description":  "Start and sustain small talk conversations about common topics â€” weather, sport, food, weekend plans, and current events.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1108_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "What is small talk and why does it matter?",
+                                      "body":  "SMALL TALK is light, casual conversation about everyday topics. It\u0027s important because:\nâ€¢ It builds relationships\nâ€¢ It breaks the ice with new people\nâ€¢ It fills comfortable silences\nâ€¢ It\u0027s the first step to deeper conversations\n\nCOMMON SMALL TALK TOPICS:\nâœ“ Weather: \u0027Can you believe this heat?\u0027\nâœ“ Weekend plans: \u0027Any plans this weekend?\u0027\nâœ“ Food: \u0027Have you tried the new place on the corner?\u0027\nâœ“ Work (general): \u0027How\u0027s work going?\u0027\nâœ“ Sport: \u0027Did you watch the match last night?\u0027\nâœ“ Travel: \u0027Have you been anywhere nice recently?\u0027\nâœ“ Current events (positive/neutral): \u0027Did you see the festival in the city?\u0027\n\nAVOID for first small talk:\nâœ— Money, salary, politics (controversial)\nâœ— Personal family problems\nâœ— Negative complaints about people",
+                                      "grammar_note":  "Small talk uses present simple, present perfect (Have you...?), and past simple\nQuestions are open-ended to encourage the other person to talk"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Reaction phrases and keeping conversation going",
+                                      "body":  "Show you\u0027re listening and engaged:\n\nREACTIONS:\nâ€¢ Really? / Oh wow!\nâ€¢ That sounds lovely / That sounds tough!\nâ€¢ How interesting!\nâ€¢ You\u0027re kidding!\nâ€¢ Tell me more!\nâ€¢ I can imagine.\nâ€¢ Oh no! / That\u0027s great!\n\nFOLLOW-UP QUESTIONS to keep talking:\nâ€¢ \u0027What was it like?\u0027\nâ€¢ \u0027How long were you there?\u0027\nâ€¢ \u0027Did you enjoy it?\u0027\nâ€¢ \u0027Would you recommend it?\u0027\nâ€¢ \u0027What do you think of it?\u0027\nâ€¢ \u0027Was it your first time?\u0027",
+                                      "grammar_note":  "Reactions show you\u0027re actively listening\nFollow-up questions are WH- or YES/NO questions\nAvoid one-word answers in small talk"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Small talk topics in Indian context",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "humid",
+                                                             "meaning":  "hot and damp weather",
+                                                             "example":  "It\u0027s incredibly humid in Chennai right now!"
+                                                         },
+                                                         {
+                                                             "word":  "commute",
+                                                             "meaning":  "travel to and from work",
+                                                             "example":  "How\u0027s your commute? The traffic on that road is terrible."
+                                                         },
+                                                         {
+                                                             "word":  "Pongal/Dussehra/Diwali",
+                                                             "meaning":  "Indian festivals â€” good neutral small talk topics",
+                                                             "example":  "Any plans for Diwali this year?"
+                                                         },
+                                                         {
+                                                             "word":  "IPL",
+                                                             "meaning":  "Indian Premier League â€” cricket tournament",
+                                                             "example":  "Did you watch the IPL final last night?"
+                                                         },
+                                                         {
+                                                             "word":  "staycation",
+                                                             "meaning":  "a holiday spent at or near home",
+                                                             "example":  "We had a staycation this weekend â€” explored our own city."
+                                                         },
+                                                         {
+                                                             "word":  "foodie",
+                                                             "meaning":  "someone who loves exploring food",
+                                                             "example":  "I\u0027m a total foodie â€” I try a new restaurant every weekend."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l8_listen",
+                                      "sentences":  [
+                                                        "Can you believe this rain? It\u0027s been non-stop since Monday!",
+                                                        "Did you watch the IPL final last night? What a match!",
+                                                        "Any plans for the long weekend? Going anywhere?",
+                                                        "Have you tried that new restaurant on Anna Salai? I heard it\u0027s amazing.",
+                                                        "Oh wow â€” that sounds wonderful! How long were you there?"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "You\u0027re in a lift with a colleague you don\u0027t know well. What\u0027s the best small talk opener?",
+                                      "options":  [
+                                                      "How much do you earn?",
+                                                      "Can you believe how hot it\u0027s been this week?",
+                                                      "Why did your team not do well last quarter?",
+                                                      "Do you like your job?"
+                                                  ],
+                                      "correct":  "Can you believe how hot it\u0027s been this week?",
+                                      "explanation":  "Weather is the classic safe small talk topic â€” neutral, relatable, and non-controversial."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Your colleague says: \u0027I went to Coorg last weekend!\u0027 What\u0027s the best response?",
+                                      "options":  [
+                                                      "Okay.",
+                                                      "Oh nice.",
+                                                      "Oh wow â€” Coorg is beautiful! How long were you there? Was the weather good?",
+                                                      "I\u0027ve been there already."
+                                                  ],
+                                      "correct":  "Oh wow â€” Coorg is beautiful! How long were you there? Was the weather good?",
+                                      "explanation":  "Show genuine interest with a reaction + follow-up question. This keeps the conversation alive."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which topic is MOST suitable for small talk with a new colleague?",
+                                      "options":  [
+                                                      "Their political views",
+                                                      "Their salary package",
+                                                      "Whether they have any plans for the upcoming long weekend",
+                                                      "Why they left their last company"
+                                                  ],
+                                      "correct":  "Whether they have any plans for the upcoming long weekend",
+                                      "explanation":  "Weekend plans = safe, positive, and invites a friendly conversation without personal or controversial topics."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Your friend mentions they tried a new restaurant. What follow-up question keeps the conversation going?",
+                                      "options":  [
+                                                      "That\u0027s nice.",
+                                                      "How was it? What did you order? Would you recommend it?",
+                                                      "I don\u0027t eat out.",
+                                                      "Was it expensive?"
+                                                  ],
+                                      "correct":  "How was it? What did you order? Would you recommend it?",
+                                      "explanation":  "Multiple relevant follow-up questions show genuine interest and keep the conversation flowing."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Complete the small talk conversation with a natural reaction and follow-up.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027I went to Pondicherry last weekend!\u0027 â†’ \u0027___ ___ â€” was it your first time there?\u0027",
+                                                            "answer":  "Oh wow / How lovely"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I\u0027ve been learning to play the guitar.\u0027 â†’ \u0027___ interesting! How long have you been learning?\u0027",
+                                                            "answer":  "How"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027The traffic was terrible today â€” two hours to get here!\u0027 â†’ \u0027___ no â€” that must have been exhausting!\u0027",
+                                                            "answer":  "Oh"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I tried making biryani for the first time this weekend.\u0027 â†’ \u0027___ you? How did it turn out?\u0027",
+                                                            "answer":  "Did"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Choose the best small talk topic opener for each situation.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Meeting a colleague on a Monday morning: \u0027___ did you get up to this weekend?\u0027 (What)",
+                                                            "answer":  "What"
+                                                        },
+                                                        {
+                                                            "text":  "Waiting for a delayed train with a stranger: \u0027Can you ___ how delayed this train is?\u0027 (believe)",
+                                                            "answer":  "believe"
+                                                        },
+                                                        {
+                                                            "text":  "After a cricket match everyone was watching: \u0027___ you watch the match last night?\u0027 (Did)",
+                                                            "answer":  "Did"
+                                                        },
+                                                        {
+                                                            "text":  "During the festival season: \u0027___ plans for Diwali?\u0027 (Any)",
+                                                            "answer":  "Any"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a small talk opener.",
+                                      "words":  [
+                                                    "you",
+                                                    "believe",
+                                                    "heat",
+                                                    "this",
+                                                    "Can",
+                                                    "week",
+                                                    "the",
+                                                    "this"
+                                                ],
+                                      "answer":  "Can you believe the heat this week?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a follow-up question.",
+                                      "words":  [
+                                                    "first",
+                                                    "your",
+                                                    "Was",
+                                                    "time",
+                                                    "it",
+                                                    "there"
+                                                ],
+                                      "answer":  "Was it your first time there?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the small talk statement to the best reaction + follow-up.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "\u0027I got promoted last week!\u0027",
+                                                        "right":  "Oh wow â€” congratulations! What\u0027s the new role?"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027The commute was awful today.\u0027",
+                                                        "right":  "Oh no! How long were you stuck in traffic?"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I tried skydiving in Mysore!\u0027",
+                                                        "right":  "You\u0027re kidding! Was it terrifying? Would you do it again?"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I\u0027ve started cooking South Indian food at home.\u0027",
+                                                        "right":  "Oh how lovely! What have you made so far?"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I\u0027m going to Ladakh next month.\u0027",
+                                                        "right":  "Oh amazing â€” is this your first time? How long are you going for?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Small talk at a wedding â€” Hyderabad",
+                                      "setting":  "Priya and Sonal meet at a mutual friend\u0027s wedding in Hyderabad. They don\u0027t know each other well â€” small talk brings them together.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "It\u0027s a beautiful wedding, isn\u0027t it? The decorations are stunning!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Absolutely gorgeous! They\u0027ve done such a wonderful job. Are you a friend of the bride or the groom?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "College friend of the bride! We\u0027ve known each other for almost ten years. You?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027m the groom\u0027s cousin â€” I\u0027ve come all the way from Bangalore for this. Have you been to Hyderabad before?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "A couple of times but never long enough to really explore. Anything you\u0027d recommend?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Oh you must try the biryani here â€” it\u0027s on a completely different level! Not to take anything away from other cities, but Hyderabadi biryani is something else."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Ha! I completely agree â€” we had some last night and it was incredible. Are you a foodie?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Total foodie! Wherever I travel, trying local food is number one on the list. What about you â€” do you like to travel?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Love it! Though I haven\u0027t gone anywhere in a while. I went to Coorg about three months ago â€” that was beautiful."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Oh, I\u0027ve been wanting to go there! How was it? Was it very crowded?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Not at all â€” we went on a weekday which helped. The coffee estates are just breathtaking. You should definitely go!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I will! This has been so lovely â€” it\u0027s refreshing to actually have a proper conversation at these events. Most people are just on their phones!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "How does Priya know the couple getting married?",
+                                                                          "options":  [
+                                                                                          "She is the groom\u0027s colleague.",
+                                                                                          "She is a college friend of the bride.",
+                                                                                          "She is the bride\u0027s cousin.",
+                                                                                          "She is Sonal\u0027s friend."
+                                                                                      ],
+                                                                          "correct":  "She is a college friend of the bride."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Sonal say is the most important thing when she travels?",
+                                                                          "options":  [
+                                                                                          "Shopping",
+                                                                                          "Visiting temples",
+                                                                                          "Trying local food",
+                                                                                          "Staying in luxury hotels"
+                                                                                      ],
+                                                                          "correct":  "Trying local food"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where did Priya go three months ago?",
+                                                                          "options":  [
+                                                                                          "Hyderabad",
+                                                                                          "Bangalore",
+                                                                                          "Ladakh",
+                                                                                          "Coorg"
+                                                                                      ],
+                                                                          "correct":  "Coorg"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find the small talk mistake â€” these responses kill the conversation.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Friend: \u0027I went to Shimla last weekend!\u0027 You: \u0027Nice.\u0027",
+                                                            "correct":  "Friend: \u0027I went to Shimla last weekend!\u0027 You: \u0027Oh, how amazing! Was it cold? What was the best part of the trip?\u0027",
+                                                            "explanation":  "One-word responses end conversations. Show genuine interest with a reaction + follow-up questions."
+                                                        },
+                                                        {
+                                                            "wrong":  "Colleague: \u0027Any plans for the weekend?\u0027 You: \u0027No.\u0027 ",
+                                                            "correct":  "Colleague: \u0027Any plans for the weekend?\u0027 You: \u0027Not much planned honestly â€” maybe a quiet weekend at home. What about you?\u0027",
+                                                            "explanation":  "Even if you have no plans, give a brief answer and return the question. \u0027No\u0027 alone is too curt."
+                                                        },
+                                                        {
+                                                            "wrong":  "Starting small talk: \u0027So â€” what\u0027s your salary at this company?\u0027",
+                                                            "correct":  "Starting small talk: \u0027Have you been here long? How are you finding the company so far?\u0027",
+                                                            "explanation":  "Salary is too personal for small talk with new people. Start with safe, general topics."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You\u0027re at a colleague\u0027s farewell party. You don\u0027t know most people there. Someone stands next to you at the food table. What do you say to start a small talk conversation?",
+                                      "options":  [
+                                                      "Why are you here?",
+                                                      "Do you know how much this event cost?",
+                                                      "Great spread, isn\u0027t it? Have you tried the paneer?",
+                                                      "I don\u0027t really know anyone here."
+                                                  ],
+                                      "correct":  "Great spread, isn\u0027t it? Have you tried the paneer?",
+                                      "explanation":  "Food at an event = perfect small talk opener. Light, positive, relatable, and opens the door for a reply."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Practise starting small talk in 3 different situations. For each one, give an opening sentence AND a follow-up question after the person responds.",
+                                      "prompt":  "Start small talk in: (1) a company lift on a Monday, (2) while waiting for a delayed train, (3) at a friend\u0027s birthday party with new people.",
+                                      "example_response":  "Situation 1 â€” Lift on a Monday morning: \u0027Morning! Can you believe the traffic today? I was stuck near the signal for almost 40 minutes! Is your commute usually this bad?\u0027 If they say yes: \u0027Oh no â€” which route do you take? I should probably try the metro more often honestly!\u0027\n\nSituation 2 â€” Delayed train: \u0027This delay is something else, isn\u0027t it? I\u0027ve been here 30 minutes already. Are you travelling far? At least the platform isn\u0027t too crowded!\u0027 If they say they\u0027re going to Coimbatore: \u0027Oh lovely â€” is it a holiday trip or visiting family?\u0027\n\nSituation 3 â€” Birthday party: \u0027Great party, isn\u0027t it? The food is amazing â€” have you tried that mango dessert? I think I\u0027ve had three already! Are you a friend of Meera\u0027s from work or college?\u0027 If they say college: \u0027Oh nice! Which college? I was in Bangalore for three years myself â€” whereabouts?\u0027",
+                                      "key_phrases":  [
+                                                          "Isn\u0027t it?",
+                                                          "Can you believeâ€¦?",
+                                                          "Have you triedâ€¦?",
+                                                          "Are youâ€¦?",
+                                                          "How longâ€¦?",
+                                                          "What\u0027s it like?"
+                                                      ],
+                                      "min_words":  110
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Think about the best small talk conversation you\u0027ve ever had â€” or imagine one. What was the topic? How did it start? Where did it go? What made it so enjoyable?",
+                                      "prompt":  "Describe a memorable small talk conversation â€” real or imagined â€” that flowed really well.",
+                                      "example_response":  "One of the best small talk conversations I\u0027ve ever had was completely unexpected. I was waiting at a bus stop in Chennai during a sudden downpour â€” absolutely soaked and a bit annoyed. An elderly gentleman next to me said, \u0027Well, this rain has no manners, does it?\u0027 â€” which made me laugh immediately. We started talking about the monsoon and how unpredictable the Chennai rains are. He told me he\u0027d lived in the city for over 60 years and could predict rain by looking at the sea. I was fascinated. It led to a conversation about how the city had changed â€” the old Madras versus new Chennai. He knew so many beautiful stories about the old neighbourhood markets, the old cinema halls, the filter coffee culture. By the time the bus came, almost 20 minutes had passed and I was genuinely sad to end the conversation. What made it special was that it started with something simple â€” the weather â€” and turned into this rich, unexpected exchange. The best small talk always does that.",
+                                      "key_phrases":  [
+                                                          "started with",
+                                                          "led to",
+                                                          "the conversation flowed",
+                                                          "I was fascinated",
+                                                          "what made it special was"
+                                                      ],
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this small talk conversation at an office networking event.",
+                                      "text":  "Ravi: Hi! First time at one of these events?\n\nPriya: Yes actually! A bit ___ (1) but everyone seems friendly. You?\n\nRavi: I\u0027ve been ___ (2) a couple of times. Gets easier â€” the food alone makes it worth it! ___ (3) you tried the kebabs?\n\nPriya: Not yet â€” are they good? I\u0027ll have to ___ (4) them! Have you worked in Bangalore long?\n\nRavi: About three years now. Moved here from Hyderabad. It\u0027s a great city â€” do you ___ (5) it here?\n\nPriya: I love it! The weather is what did it for me â€” after Chennai summers, Bangalore feels ___ (6) paradise! Where in Hyderabad are you from?\n\nRavi: Banjara Hills area. Beautiful but ___ (7) Mumbai levels of traffic. Anyway â€” shall we grab some of those kebabs before they disappear?\n\nPriya: Absolutely â€” ___ (8) now while we can!",
+                                      "answers":  [
+                                                      "nervous",
+                                                      "a few / come",
+                                                      "Have",
+                                                      "try",
+                                                      "like",
+                                                      "like",
+                                                      "almost",
+                                                      "let\u0027s grab some"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1108_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 8 complete â€” Small talk",
+                                      "key_points":  [
+                                                         "Safe topics: weather, food, weekend, travel, sport, festivals â€” NOT salary, politics, or personal problems",
+                                                         "Open with relatable openers: \u0027Can you believeâ€¦?\u0027, \u0027Have you triedâ€¦?\u0027, \u0027Any plans forâ€¦?\u0027",
+                                                         "React with interest: \u0027Oh wow!\u0027, \u0027Really?\u0027, \u0027That sounds amazing!\u0027, \u0027You\u0027re kidding!\u0027",
+                                                         "Follow-up questions keep the conversation alive: \u0027How was it?\u0027, \u0027Would you recommend it?\u0027",
+                                                         "Return the question: after answering, ask back â€” \u0027What about you?\u0027",
+                                                         "Never give one-word answers in small talk â€” always add something"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Reactions and follow-up questions"
+                                  }
+                  }
+              ]
+}

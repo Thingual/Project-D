@@ -1,0 +1,497 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson09",
+    "unit":  11,
+    "lesson_number":  9,
+    "level":  "A2",
+    "title":  "Reactions and follow-up questions",
+    "description":  "Respond naturally to what people say â€” express surprise, sympathy, happiness â€” and ask the right questions to keep conversation going.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1109_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Reacting naturally to news",
+                                      "body":  "Different types of news need different reactions:\n\nGOOD NEWS:\nâ€¢ \u0027That\u0027s wonderful news!\u0027\nâ€¢ \u0027Congratulations!\u0027\nâ€¢ \u0027I\u0027m so happy for you!\u0027\nâ€¢ \u0027You must be thrilled!\u0027\nâ€¢ \u0027Oh wow â€” that\u0027s brilliant!\u0027\n\nBAD NEWS:\nâ€¢ \u0027Oh no â€” I\u0027m so sorry to hear that.\u0027\nâ€¢ \u0027That\u0027s terrible â€” are you okay?\u0027\nâ€¢ \u0027I can imagine how hard that must be.\u0027\nâ€¢ \u0027Please let me know if there\u0027s anything I can do.\u0027\n\nSURPRISING NEWS:\nâ€¢ \u0027Really? I had no idea!\u0027\nâ€¢ \u0027Seriously? I can\u0027t believe it!\u0027\nâ€¢ \u0027You\u0027re joking! / No way!\u0027\nâ€¢ \u0027That\u0027s incredible!\u0027\n\nINTERESTING NEWS:\nâ€¢ \u0027How fascinating!\u0027\nâ€¢ \u0027That\u0027s really interesting â€” tell me more!\u0027\nâ€¢ \u0027I didn\u0027t know that!\u0027",
+                                      "grammar_note":  "Reactions use exclamations and short phrases\n\u0027Must be\u0027 is used to empathise: \u0027You must be so excited!\u0027\n\u0027I can imagine\u0027 shows you understand their feelings"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Echoing and showing active listening",
+                                      "body":  "ECHOING = repeating part of what someone said to show you\u0027re listening:\n\nâ€¢ \u0027I got the promotion!\u0027 â†’ \u0027The promotion! That\u0027s wonderful!\u0027\nâ€¢ \u0027We moved to a new flat.\u0027 â†’ \u0027A new flat â€” how exciting!\u0027\nâ€¢ \u0027I failed the exam.\u0027 â†’ \u0027Failed? Oh no â€” I\u0027m so sorry!\u0027\n\nOther active listening techniques:\nâ€¢ Mm-hmm / Right / I see (shows you\u0027re following)\nâ€¢ \u0027Oh really?\u0027 (surprise + invitation to continue)\nâ€¢ \u0027And then what happened?\u0027 (asking for more detail)\nâ€¢ \u0027How did that make you feel?\u0027 (empathy)\nâ€¢ \u0027I bet!\u0027 (I imagine that!)\nâ€¢ \u0027That said a lot.\u0027 / \u0027That must have taken courage.\u0027",
+                                      "grammar_note":  "Echoing = repeat a KEY WORD with an exclamation\nActive listening = show you\u0027re engaged, not just waiting to speak\n\u0027I bet!\u0027 = I can well imagine!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Emotions and reactions",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "thrilled",
+                                                             "meaning":  "extremely excited and happy",
+                                                             "example":  "You must be absolutely thrilled!"
+                                                         },
+                                                         {
+                                                             "word":  "gutted",
+                                                             "meaning":  "very disappointed (informal)",
+                                                             "example":  "Oh, you must be gutted â€” I\u0027m so sorry."
+                                                         },
+                                                         {
+                                                             "word":  "relieved",
+                                                             "meaning":  "feeling glad that something bad didn\u0027t happen",
+                                                             "example":  "I bet you\u0027re relieved it\u0027s over!"
+                                                         },
+                                                         {
+                                                             "word":  "overwhelmed",
+                                                             "meaning":  "having very strong feelings",
+                                                             "example":  "I was just completely overwhelmed by the news."
+                                                         },
+                                                         {
+                                                             "word":  "sympathise",
+                                                             "meaning":  "to understand and share someone\u0027s feelings",
+                                                             "example":  "I really sympathise â€” that situation sounds so tough."
+                                                         },
+                                                         {
+                                                             "word":  "empathise",
+                                                             "meaning":  "to truly understand how someone feels",
+                                                             "example":  "I can empathise â€” I went through something similar."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l9_listen",
+                                      "sentences":  [
+                                                        "Really? I had absolutely no idea â€” congratulations!",
+                                                        "Oh no â€” that\u0027s terrible news. Are you doing okay?",
+                                                        "You\u0027re joking! How did that happen?",
+                                                        "I can imagine how hard that must have been for you.",
+                                                        "That\u0027s brilliant â€” you must be absolutely thrilled!"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Your colleague tells you she\u0027s just been offered a job at her dream company. What\u0027s the best reaction?",
+                                      "options":  [
+                                                      "Good.",
+                                                      "That\u0027s wonderful news â€” you must be over the moon! When do you start?",
+                                                      "Oh â€” so you\u0027re leaving?",
+                                                      "Make sure you negotiate the salary."
+                                                  ],
+                                      "correct":  "That\u0027s wonderful news â€” you must be over the moon! When do you start?",
+                                      "explanation":  "Warm, genuine reaction (\u0027wonderful news\u0027, \u0027over the moon\u0027) + natural follow-up question."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Your friend tells you her cat passed away. What\u0027s the most empathetic response?",
+                                      "options":  [
+                                                      "Oh well, you can get another one.",
+                                                      "Cats don\u0027t live that long anyway.",
+                                                      "Oh no â€” I\u0027m so sorry. She was such a lovely cat. How are you holding up?",
+                                                      "That\u0027s sad. Did you cry?"
+                                                  ],
+                                      "correct":  "Oh no â€” I\u0027m so sorry. She was such a lovely cat. How are you holding up?",
+                                      "explanation":  "Empathetic response: acknowledge the loss, show you care, and gently check on them."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Arjun tells you he climbed a mountain last weekend. What reaction keeps the conversation going best?",
+                                      "options":  [
+                                                      "Oh.",
+                                                      "That sounds dangerous.",
+                                                      "No way! Which mountain? How long did it take? Was the view worth it?",
+                                                      "I don\u0027t like climbing."
+                                                  ],
+                                      "correct":  "No way! Which mountain? How long did it take? Was the view worth it?",
+                                      "explanation":  "Energetic reaction + multiple follow-up questions = shows genuine interest and keeps the conversation going."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What does \u0027You must be thrilled!\u0027 mean?",
+                                      "options":  [
+                                                      "You must be in pain.",
+                                                      "You have to be excited â€” I assume you\u0027re very happy.",
+                                                      "You should be more excited.",
+                                                      "You might be happy."
+                                                  ],
+                                      "correct":  "You have to be excited â€” I assume you\u0027re very happy.",
+                                      "explanation":  "\u0027Must be\u0027 = I assume this is how you feel based on the situation. \u0027Thrilled\u0027 = very excited and happy."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Write the best reaction + one follow-up question for each situation.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Friend: \u0027I\u0027m getting married next March!\u0027 You: \u0027___ ___ â€” ___?\u0027",
+                                                            "answer":  "Congratulations! / That\u0027s wonderful â€” who\u0027s the lucky person?"
+                                                        },
+                                                        {
+                                                            "text":  "Colleague: \u0027I failed my driving test again.\u0027 You: \u0027___ ___ â€” ___?\u0027",
+                                                            "answer":  "Oh no, I\u0027m so sorry â€” was it the parallel parking again?"
+                                                        },
+                                                        {
+                                                            "text":  "Friend: \u0027I ran my first 5K this morning!\u0027 You: \u0027___ ___ â€” ___?\u0027",
+                                                            "answer":  "Oh wow, that\u0027s brilliant! â€” How long did it take you?"
+                                                        },
+                                                        {
+                                                            "text":  "Colleague: \u0027My flight was cancelled and I had to sleep in the airport.\u0027 You: \u0027___ ___ â€” ___?\u0027",
+                                                            "answer":  "Oh no, how awful! â€” How long were you stuck there?"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete the reactions using the correct emotional word.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Friend passes a tough exam: \u0027You must be absolutely ___ !\u0027",
+                                                            "answer":  "thrilled / relieved / happy"
+                                                        },
+                                                        {
+                                                            "text":  "Friend\u0027s holiday was cancelled: \u0027Oh, you must be so ___ â€” I\u0027m really sorry.\u0027",
+                                                            "answer":  "gutted / disappointed / upset"
+                                                        },
+                                                        {
+                                                            "text":  "Surprising news: \u0027You\u0027re ___ ! I had no idea that was happening!\u0027",
+                                                            "answer":  "joking / kidding"
+                                                        },
+                                                        {
+                                                            "text":  "Empathising: \u0027I can ___ â€” that situation sounds incredibly difficult.\u0027",
+                                                            "answer":  "imagine / empathise"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a warm reaction sentence.",
+                                      "words":  [
+                                                    "be",
+                                                    "You",
+                                                    "thrilled",
+                                                    "absolutely",
+                                                    "must"
+                                                ],
+                                      "answer":  "You must be absolutely thrilled!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into an empathetic bad news response.",
+                                      "words":  [
+                                                    "hard",
+                                                    "that",
+                                                    "imagine",
+                                                    "must",
+                                                    "how",
+                                                    "been",
+                                                    "have",
+                                                    "I",
+                                                    "can"
+                                                ],
+                                      "answer":  "I can imagine how hard that must have been."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the news to the most natural reaction.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "\u0027I got the promotion!\u0027",
+                                                        "right":  "That\u0027s fantastic â€” you absolutely deserved it!"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027My phone was stolen.\u0027",
+                                                        "right":  "Oh no â€” that\u0027s awful! Did you manage to lock it remotely?"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I\u0027m moving to Canada next month.\u0027",
+                                                        "right":  "Really? That\u0027s such a big step! Are you excited or nervous?"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I finished reading a 600-page novel in two days.\u0027",
+                                                        "right":  "You\u0027re joking! Two days? That\u0027s incredible!"
+                                                    },
+                                                    {
+                                                        "left":  "\u0027I missed my flight to London.\u0027",
+                                                        "right":  "Oh no â€” what a nightmare! What are you going to do now?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Catching up after a while â€” college friends, Bangalore coffee shop",
+                                      "setting":  "Priya (from Chennai) is visiting Bangalore and meets her old friend Kavya. They haven\u0027t spoken in months. The conversation is full of natural reactions and follow-up questions.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Priya! Oh my goodness â€” you look amazing. Sit, sit! How have you been?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I\u0027ve been good! A bit all over the place honestly. So much has happened since we last talked!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Tell me everything! What\u0027s been going on?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Okay â€” so the big news: I resigned from my job three months ago."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "What?! You resigned? I had no idea â€” are you okay? What happened?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I\u0027m actually great! It was tough at first but the job was making me miserable for a long time."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I can imagine â€” you seemed quite stressed whenever we spoke last year. So what are you doing now?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I\u0027m freelancing! I\u0027ve been working with a few design clients online and it\u0027s going really well."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Oh wow â€” freelancing! How long did that take to set up? I always thought you\u0027d be brilliant at it."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "It took about a month to get the first client, then it kind of snowballed. But the big thing is â€” I\u0027m actually happy at work for the first time in years!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "That\u0027s such wonderful news, Priya â€” you must be so relieved! I\u0027m genuinely happy for you."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I am! And what about you? You look well â€” anything new on your end?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Well... I got engaged last month!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "No way! Kavya! Congratulations â€” I\u0027m so happy for you! Who is he? Tell me everything!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Ha! His name is Arjun â€” he works in Bangalore, we\u0027ve been together for two years. It happened quite suddenly but it felt right."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "You must be absolutely over the moon! I want to see a photo right now!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What big change happened in Priya\u0027s work life?",
+                                                                          "options":  [
+                                                                                          "She got a promotion.",
+                                                                                          "She resigned and started freelancing.",
+                                                                                          "She moved to Bangalore.",
+                                                                                          "She started a company."
+                                                                                      ],
+                                                                          "correct":  "She resigned and started freelancing."
+                                                                      },
+                                                                      {
+                                                                          "question":  "How does Priya feel about her work now?",
+                                                                          "options":  [
+                                                                                          "She is worried about money.",
+                                                                                          "She is happy for the first time in years.",
+                                                                                          "She misses her old job.",
+                                                                                          "She wants to go back to employment."
+                                                                                      ],
+                                                                          "correct":  "She is happy for the first time in years."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What is Kavya\u0027s big news?",
+                                                                          "options":  [
+                                                                                          "She got promoted.",
+                                                                                          "She moved to a new city.",
+                                                                                          "She got engaged.",
+                                                                                          "She started a new business."
+                                                                                      ],
+                                                                          "correct":  "She got engaged."
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "Find 4 reaction phrases in the dialogue. What type of reaction is each one (surprise, happiness, sympathy)?",
+                                                                   "Find 3 follow-up questions. What purpose does each one serve?",
+                                                                   "What makes this conversation feel natural and warm? List 3 features."
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "These reactions are inappropriate or unnatural. Correct them.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Friend: \u0027I got promoted!\u0027 You: \u0027I knew I was better than you for that role.\u0027",
+                                                            "correct":  "Friend: \u0027I got promoted!\u0027 You: \u0027That\u0027s amazing news â€” you really deserved it! Congratulations!\u0027",
+                                                            "explanation":  "Never make someone\u0027s good news about you or compare. Celebrate genuinely."
+                                                        },
+                                                        {
+                                                            "wrong":  "Friend: \u0027My grandmother passed away.\u0027 You: \u0027Oh well, she was very old, wasn\u0027t she?\u0027",
+                                                            "correct":  "Friend: \u0027My grandmother passed away.\u0027 You: \u0027I\u0027m so sorry to hear that â€” she sounded like such a wonderful person. Are you doing okay?\u0027",
+                                                            "explanation":  "Never minimise someone\u0027s grief. Show empathy and ask how they\u0027re coping."
+                                                        },
+                                                        {
+                                                            "wrong":  "Friend: \u0027I\u0027m moving abroad!\u0027 You: \u0027Don\u0027t you think that\u0027s a bit risky?\u0027",
+                                                            "correct":  "Friend: \u0027I\u0027m moving abroad!\u0027 You: \u0027Wow â€” that\u0027s such an exciting step! Where are you going? You must be so excited!\u0027",
+                                                            "explanation":  "Don\u0027t question their decision with negativity â€” react positively and show interest."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "Your colleague comes to work looking very upset. When you ask, she says she didn\u0027t get the project she applied for. She was really hoping for it. What do you say?",
+                                      "options":  [
+                                                      "Better luck next time.",
+                                                      "That\u0027s okay, there will be other projects.",
+                                                      "Oh, I\u0027m really sorry â€” you must be so disappointed. You worked so hard for that. Is there anything I can do?",
+                                                      "Why didn\u0027t you get it?"
+                                                  ],
+                                      "correct":  "Oh, I\u0027m really sorry â€” you must be so disappointed. You worked so hard for that. Is there anything I can do?",
+                                      "explanation":  "Acknowledge the feeling (\u0027must be disappointed\u0027), validate the effort (\u0027worked so hard\u0027), and offer support."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Respond to these 5 pieces of news with a natural reaction + follow-up question. Speak for at least 2 sentences per response.",
+                                      "prompt":  "React to each piece of news:\n1. \u0027I\u0027m going to become a vegetarian!\u0027\n2. \u0027My flight was diverted to the wrong city.\u0027\n3. \u0027I finished learning Japanese in one year.\u0027\n4. \u0027My company offered me a transfer to London.\u0027\n5. \u0027I\u0027ve decided to run a half marathon next month.\u0027",
+                                      "example_response":  "1. \u0027I\u0027m going to become a vegetarian!\u0027 â€” Oh wow, that\u0027s a big change! What inspired the decision? Are you going full vegetarian or starting gradually? I think that\u0027s great â€” I\u0027ve thought about it too sometimes.\n\n2. \u0027My flight was diverted to the wrong city.\u0027 â€” Oh no, you\u0027re joking! That sounds like an absolute nightmare! Where did you end up? How long did it take to sort out? You must have been exhausted!\n\n3. \u0027I finished learning Japanese in one year.\u0027 â€” Are you serious?! That\u0027s incredible â€” Japanese is supposed to be one of the hardest languages in the world! How did you do it? Were you taking formal classes?\n\n4. \u0027My company offered me a transfer to London.\u0027 â€” Oh wow â€” that\u0027s huge! Are you excited or nervous? Have you decided whether you\u0027re going to accept? London is amazing but it\u0027s a big move!\n\n5. \u0027I\u0027ve decided to run a half marathon next month.\u0027 â€” Really?! That\u0027s so impressive â€” have you been training for a while? A half marathon is no joke â€” 21 kilometres! I bet you\u0027ll do brilliantly!",
+                                      "key_phrases":  [
+                                                          "Oh wow",
+                                                          "That\u0027s incredible",
+                                                          "You must be",
+                                                          "Are you serious?",
+                                                          "How long?",
+                                                          "What inspired you?"
+                                                      ],
+                                      "min_words":  110
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Share a piece of news from your own life â€” real or imagined â€” and describe how people reacted to it. Were their reactions good? What made a reaction feel warm or cold?",
+                                      "prompt":  "Tell a story about sharing some news with someone and how they reacted. What did they say? How did it make you feel?",
+                                      "example_response":  "I\u0027d like to talk about when I told my family I\u0027d decided to leave my stable engineering job to try freelancing. I was very nervous because I knew it was an unconventional choice. When I told my mother, her first reaction was quiet â€” then she said: \u0027Are you sure? What if it doesn\u0027t work out? You have a good job.\u0027 And honestly, even though she meant well, that reaction made me feel deflated. I\u0027d expected more support. Then I told my best friend and she said: \u0027Oh my god â€” that\u0027s so brave! You\u0027ve been wanting to do this for years. I\u0027m so proud of you. What are your plans? How can I help?\u0027 And that reaction changed everything. I felt validated and excited. The same news got two completely different reactions â€” one focused on the risk, one on the possibility. I learned that when someone shares big news, the most important thing is to lead with warmth and interest, not with fear. Ask questions, show excitement, and save the practical concerns for later.",
+                                      "key_phrases":  [
+                                                          "their reaction was",
+                                                          "made me feel",
+                                                          "I expected",
+                                                          "the most important thing is",
+                                                          "lead with warmth"
+                                                      ],
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this catching-up conversation with natural reactions.",
+                                      "text":  "Kavya: I have some big news â€” I\u0027m pregnant!\n\nPriya: Oh ___ (1) â€” congratulations! You must be ___ (2)! When is the baby due?\n\nKavya: March! We\u0027re both over the moon.\n\nPriya: ___ (3) â€” March is beautiful for a baby. How are you feeling?\n\nKavya: A bit tired but really happy. Oh â€” and my sister failed her board exams.\n\nPriya: Oh ___ (4) â€” ___ (5) be so disappointed. Is she doing okay?\n\nKavya: She\u0027s upset but she\u0027s planning to retake them in six months.\n\nPriya: That\u0027s the spirit â€” she\u0027ll do brilliantly next time! And your job â€” still loving it?\n\nKavya: Actually, I got a pay rise last month!\n\nPriya: ___ (6)?! That\u0027s ___ (7) news â€” you completely ___ (8) it!",
+                                      "answers":  [
+                                                      "wow / my goodness",
+                                                      "thrilled / over the moon",
+                                                      "Lovely",
+                                                      "no",
+                                                      "she must",
+                                                      "Really / Seriously",
+                                                      "brilliant / wonderful / fantastic",
+                                                      "deserved"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1109_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 9 complete â€” Reactions and follow-up questions",
+                                      "key_points":  [
+                                                         "Good news: \u0027That\u0027s wonderful!\u0027, \u0027Congratulations!\u0027, \u0027You must be thrilled!\u0027",
+                                                         "Bad news: \u0027I\u0027m so sorry\u0027, \u0027That sounds so tough\u0027, \u0027I can imagine\u0027",
+                                                         "Surprise: \u0027Really?!\u0027, \u0027You\u0027re joking!\u0027, \u0027No way!\u0027",
+                                                         "Echoing = repeat a key word: \u0027A promotion? That\u0027s amazing!\u0027",
+                                                         "Active listening: Mm-hmm, Right, I see, I bet!",
+                                                         "Follow-up questions: \u0027How longâ€¦?\u0027, \u0027Was it your first time?\u0027, \u0027How did that feel?\u0027",
+                                                         "Never minimise someone\u0027s news â€” always lead with warmth"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Expressing opinions and agreeing/disagreeing"
+                                  }
+                  }
+              ]
+}

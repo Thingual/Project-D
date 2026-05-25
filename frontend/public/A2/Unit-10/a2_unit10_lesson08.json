@@ -1,0 +1,460 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson08",
+    "unit":  10,
+    "lesson_number":  8,
+    "level":  "A2",
+    "title":  "Formal vs informal email language",
+    "description":  "Understand and practise the difference between formal and informal register in written English.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1008_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Register â€” formal vs informal",
+                                      "body":  "REGISTER means the level of formality in your language. You choose based on WHO you are writing to.\n\nFORMAL (to a boss, client, professor, stranger, company):\nâ€¢ Full sentences, full forms\nâ€¢ No slang, no emoji\nâ€¢ Polite and distant\nâ€¢ \u0027I am writing to request...\u0027\n\nINFORMAL (to a friend, close colleague, family):\nâ€¢ Contractions, casual phrases\nâ€¢ Can use emoji, exclamation marks\nâ€¢ Friendly and warm\nâ€¢ \u0027Hey! Just wanted to check...\u0027\n\nSEMI-FORMAL (to a known colleague you\u0027re friendly with):\nâ€¢ Mix of both â€” friendly but professional",
+                                      "grammar_note":  "Register mistakes = mismatches\nWriting to your boss like a friend = too casual\nWriting to your friend like a formal letter = awkward"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Formal vs informal phrase comparison",
+                                      "body":  "INFORMAL â†’ FORMAL\n\nâ€¢ Hey! â†’ Dear [Name],\nâ€¢ Just wanted to say â†’ I am writing to inform you\nâ€¢ Can you...? â†’ Could you please...? / I would be grateful if you could...\nâ€¢ Sorry for the late reply â†’ I apologise for the delay in responding\nâ€¢ Thanks! â†’ Thank you for your time\nâ€¢ No problem â†’ It is not an inconvenience\nâ€¢ I\u0027ll do it â†’ I will ensure it is completed\nâ€¢ ASAP â†’ at your earliest convenience\nâ€¢ FYI â†’ For your information / Please note that\nâ€¢ Let me know â†’ Please do not hesitate to contact me\nâ€¢ Bye! / Cheers â†’ Yours sincerely / Kind regards",
+                                      "grammar_note":  "Abbreviations like FYI, ASAP, BTW are informal only\nNever use them in formal emails"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Email and communication words",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "correspondence",
+                                                             "meaning":  "letters or emails exchanged",
+                                                             "example":  "All correspondence should be kept on file."
+                                                         },
+                                                         {
+                                                             "word":  "acknowledge",
+                                                             "meaning":  "to confirm you received something",
+                                                             "example":  "Please acknowledge receipt of this email."
+                                                         },
+                                                         {
+                                                             "word":  "inconvenience",
+                                                             "meaning":  "trouble or difficulty caused",
+                                                             "example":  "I apologise for any inconvenience."
+                                                         },
+                                                         {
+                                                             "word":  "forward",
+                                                             "meaning":  "to send a received email to someone else",
+                                                             "example":  "I will forward the email to the relevant team."
+                                                         },
+                                                         {
+                                                             "word":  "cc",
+                                                             "meaning":  "carbon copy â€” to send a copy to another person",
+                                                             "example":  "Please cc the manager on all client emails."
+                                                         },
+                                                         {
+                                                             "word":  "urgent",
+                                                             "meaning":  "needs immediate attention",
+                                                             "example":  "This is urgent â€” please reply today."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l8_listen",
+                                      "sentences":  [
+                                                        "I apologise for the delay in responding to your email.",
+                                                        "Could you please confirm your availability for a meeting?",
+                                                        "Please note that the deadline has been extended to Friday.",
+                                                        "I will ensure the report is completed by end of day.",
+                                                        "Thank you for bringing this matter to my attention."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Priya is writing to a potential employer. Which greeting is correct?",
+                                      "options":  [
+                                                      "Hey Rajesh!",
+                                                      "Hiya,",
+                                                      "Dear Mr Rajesh Kumar,",
+                                                      "Hello mate,"
+                                                  ],
+                                      "correct":  "Dear Mr Rajesh Kumar,",
+                                      "explanation":  "A potential employer = formal. \u0027Dear Mr [Name]\u0027 is the correct formal greeting."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Which sentence is appropriate in a formal email?",
+                                      "options":  [
+                                                      "Sorry for the late reply â€” things got crazy!",
+                                                      "I apologise for the delay in my response.",
+                                                      "Oops, forgot to reply â€” my bad!",
+                                                      "Been super busy, sry!"
+                                                  ],
+                                      "correct":  "I apologise for the delay in my response.",
+                                      "explanation":  "Formal English: full sentences, full words, polite phrasing."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Kavya is messaging her close friend about weekend plans. Which is appropriate?",
+                                      "options":  [
+                                                      "Dear Meera, I am writing to enquire about your availability this weekend.",
+                                                      "Hey Meera! Are you free Saturday? ðŸ˜Š",
+                                                      "To Whom It May Concern, I wish to discuss weekend plans.",
+                                                      "I would be grateful if you could confirm your weekend availability."
+                                                  ],
+                                      "correct":  "Hey Meera! Are you free Saturday? ðŸ˜Š",
+                                      "explanation":  "Writing to a close friend = informal. Casual greetings, contractions, and emoji are all fine here."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Which sign-off is appropriate for a formal email to a client?",
+                                      "options":  [
+                                                      "Cheers ðŸŽ‰",
+                                                      "TTYL",
+                                                      "Best regards, Arjun Mehta",
+                                                      "Bye bye, Arjun"
+                                                  ],
+                                      "correct":  "Best regards, Arjun Mehta",
+                                      "explanation":  "\u0027Best regards\u0027 + full name = professional and appropriate for a client email."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Rewrite the informal phrase as a formal one.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Can you send it ASAP? â†’ Could you please send it ___ ___?",
+                                                            "answer":  "at your earliest convenience"
+                                                        },
+                                                        {
+                                                            "text":  "Sorry, forgot to reply â†’ I ___ for the delay in responding.",
+                                                            "answer":  "apologise"
+                                                        },
+                                                        {
+                                                            "text":  "FYI the meeting is moved. â†’ ___ ___ ___ the meeting has been rescheduled.",
+                                                            "answer":  "Please note that"
+                                                        },
+                                                        {
+                                                            "text":  "Let me know if you need anything. â†’ Please do not ___ to contact me.",
+                                                            "answer":  "hesitate"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Is each email sentence FORMAL (F) or INFORMAL (I)? Write F or I.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I am writing to inform you of a change in schedule.",
+                                                            "answer":  "F"
+                                                        },
+                                                        {
+                                                            "text":  "Hey! Just checking â€” still on for tomorrow?",
+                                                            "answer":  "I"
+                                                        },
+                                                        {
+                                                            "text":  "I would be grateful if you could review the attached document.",
+                                                            "answer":  "F"
+                                                        },
+                                                        {
+                                                            "text":  "Can\u0027t make it today â€” something came up ðŸ˜…",
+                                                            "answer":  "I"
+                                                        },
+                                                        {
+                                                            "text":  "I look forward to hearing from you at your earliest convenience.",
+                                                            "answer":  "F"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a formal apology sentence.",
+                                      "words":  [
+                                                    "for",
+                                                    "I",
+                                                    "apologise",
+                                                    "delay",
+                                                    "the",
+                                                    "responding",
+                                                    "in"
+                                                ],
+                                      "answer":  "I apologise for the delay in responding."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a formal request.",
+                                      "words":  [
+                                                    "grateful",
+                                                    "could",
+                                                    "if",
+                                                    "I",
+                                                    "confirm",
+                                                    "be",
+                                                    "you",
+                                                    "would",
+                                                    "your",
+                                                    "attendance"
+                                                ],
+                                      "answer":  "I would be grateful if you could confirm your attendance."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the informal phrase to its formal equivalent.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "ASAP",
+                                                        "right":  "at your earliest convenience"
+                                                    },
+                                                    {
+                                                        "left":  "FYI",
+                                                        "right":  "Please note that"
+                                                    },
+                                                    {
+                                                        "left":  "Sorry for the late reply",
+                                                        "right":  "I apologise for the delay in responding"
+                                                    },
+                                                    {
+                                                        "left":  "Can you check this?",
+                                                        "right":  "Could you please review this?"
+                                                    },
+                                                    {
+                                                        "left":  "Talk soon!",
+                                                        "right":  "I look forward to hearing from you."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Two emails â€” same message, different registers",
+                                      "setting":  "Ravi needs to tell his team about a meeting change. He writes two versions â€” one to his best friend on the team, and one to his director.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Ravi (to friend Ankit â€” informal)",
+                                                           "text":  "Hey Ankit! Quick heads up â€” the team meeting tomorrow has moved to 3 PM instead of 11. Something came up on the director\u0027s side. Let me know if that works for you. See you then! ðŸ˜Š"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "No worries! 3 PM works fine. Thanks for letting me know ðŸ‘"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi (to Director Sharma â€” formal)",
+                                                           "text":  "Dear Mr Sharma, I am writing to inform you that the team meeting scheduled for tomorrow at 11 AM has been rescheduled to 3 PM. I apologise for any inconvenience this may cause. Please let me know if this time is convenient for you. I look forward to your confirmation. Kind regards, Ravi Krishnan"
+                                                       },
+                                                       {
+                                                           "speaker":  "Director Sharma",
+                                                           "text":  "Dear Ravi, thank you for the update. 3 PM works for me. Please send a revised calendar invite."
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi",
+                                                           "text":  "Dear Mr Sharma, thank you for confirming. I will send the updated calendar invite shortly. Kind regards, Ravi"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ravi (to Ankit â€” informal again)",
+                                                           "text":  "Director confirmed! 3 PM it is. I\u0027ll update the calendar. This meeting better be short though ðŸ˜‚"
+                                                       },
+                                                       {
+                                                           "speaker":  "Ankit",
+                                                           "text":  "Haha agreed! See you tomorrow ðŸ™Œ"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What changed about the meeting?",
+                                                                          "options":  [
+                                                                                          "It was cancelled.",
+                                                                                          "It moved from 11 AM to 3 PM.",
+                                                                                          "It moved to a different day.",
+                                                                                          "The location changed."
+                                                                                      ],
+                                                                          "correct":  "It moved from 11 AM to 3 PM."
+                                                                      },
+                                                                      {
+                                                                          "question":  "Which phrase does Ravi use in the formal email to apologise?",
+                                                                          "options":  [
+                                                                                          "Sorry about that!",
+                                                                                          "I apologise for any inconvenience this may cause.",
+                                                                                          "Oops!",
+                                                                                          "My bad!"
+                                                                                      ],
+                                                                          "correct":  "I apologise for any inconvenience this may cause."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does the Director ask Ravi to do?",
+                                                                          "options":  [
+                                                                                          "Cancel the meeting",
+                                                                                          "Send a revised calendar invite",
+                                                                                          "Postpone to next week",
+                                                                                          "Hold the meeting online"
+                                                                                      ],
+                                                                          "correct":  "Send a revised calendar invite"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "These formal email extracts have register mistakes. Correct them.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Hey! I\u0027m writing about the invoice I sent last week.",
+                                                            "correct":  "Dear [Name], I am writing regarding the invoice I submitted last week.",
+                                                            "explanation":  "\u0027Hey\u0027 is informal. Use \u0027Dear\u0027. Also use full form \u0027I am\u0027 and formal verb \u0027submitted\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Can you get back to me ASAP?",
+                                                            "correct":  "I would appreciate a response at your earliest convenience.",
+                                                            "explanation":  "\u0027ASAP\u0027 is informal/abbreviation. \u0027Can you\u0027 is too casual for formal emails."
+                                                        },
+                                                        {
+                                                            "wrong":  "Cheers, Priya ðŸ˜Š",
+                                                            "correct":  "Kind regards, Priya Rajan",
+                                                            "explanation":  "\u0027Cheers\u0027 and emoji are informal. Use \u0027Kind regards\u0027 or \u0027Yours sincerely\u0027 + full name."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You need to email your university\u0027s admissions office to ask about scholarship options. Which opening is most appropriate?",
+                                      "options":  [
+                                                      "Hey! I wanted to ask about scholarships.",
+                                                      "Dear Admissions Office, I am writing to enquire about scholarship opportunities available for the 2025-26 academic year.",
+                                                      "To whoever\u0027s reading this â€” I need scholarship info.",
+                                                      "Hi, can you tell me about scholarships?"
+                                                  ],
+                                      "correct":  "Dear Admissions Office, I am writing to enquire about scholarship opportunities available for the 2025-26 academic year.",
+                                      "explanation":  "An official university department = formal register. Clear, specific, and polite."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Compare these two situations and explain what register you would use and why. Then give 3 example phrases for each.",
+                                      "prompt":  "Situation A: Emailing a new client about a project proposal. Situation B: Messaging your close colleague to say you\u0027ll be 10 minutes late. What register? What phrases?",
+                                      "example_response":  "For Situation A â€” emailing a new client â€” I would use formal register because I don\u0027t know them personally and this is a professional business context. I would use phrases like: \u0027Dear Mr/Ms [Name],\u0027 to open, \u0027I am writing to present our proposal for the upcoming project\u0027 for the opening line, and \u0027I look forward to your feedback at your earliest convenience\u0027 to close. I would not use contractions or abbreviations.\n\nFor Situation B â€” messaging my close colleague â€” I would use informal register. We know each other well, this is a quick update, and it\u0027s through messaging, not email. I\u0027d write something like: \u0027Hey! Running 10 mins late â€” sorry!\u0027 or \u0027On my way â€” traffic is bad, be there by 9:15\u0027 or just \u0027Late by 10 â€” sorry!\u0027 with maybe a quick emoji. The context matters a lot â€” the same information is communicated very differently depending on who you\u0027re talking to.",
+                                      "key_phrases":  [
+                                                          "formal register",
+                                                          "informal register",
+                                                          "Dear...",
+                                                          "I am writing to...",
+                                                          "Hey!",
+                                                          "formal phrases vs casual phrases"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Write and say aloud TWO short emails: one formal, one informal â€” both saying the same thing. The message: you need to cancel a plan for this Friday.",
+                                      "prompt":  "Say aloud: (1) A formal email to a business contact cancelling a Friday meeting. (2) An informal message to a friend cancelling Friday plans.",
+                                      "example_response":  "Here are both versions:\n\nFormal email: \u0027Subject: Cancellation of Friday Meeting â€” 18th October. Dear Ms Kapoor, I am writing to inform you that I am unfortunately unable to attend our meeting scheduled for Friday, 18th October, due to an urgent personal commitment. I sincerely apologise for any inconvenience this may cause. I would be grateful if we could reschedule at a mutually convenient time. Please let me know your availability for next week. Kind regards, Arjun Mehta.\u0027\n\nInformal message to a friend: \u0027Hey Meera! Really sorry but I have to cancel our Friday plans â€” something urgent came up with my family. Can we reschedule to next weekend? I\u0027ll make it up to you, promise! ðŸ™ Let me know what works for you.\u0027",
+                                      "key_phrases":  [
+                                                          "I am writing to inform you",
+                                                          "I sincerely apologise",
+                                                          "could we reschedule",
+                                                          "Hey! / Really sorry",
+                                                          "Can we reschedule?"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Read each context and choose FORMAL or INFORMAL phrasing for each gap.",
+                                      "text":  "Context: Ravi is writing to his college professor (FORMAL).\n\nDear ___ (1) Patel,\n\nI ___ (2) writing to request your guidance on the final year project topic. I have been ___ (3) two possible areas â€” Machine Learning and Data Visualisation â€” and I would value your expert opinion.\n\n___ (4) you please advise me on which area would be more suitable given the department\u0027s current research focus?\n\nI ___ (5) forward to your response. Please ___ (6) hesitate to let me know if you would like me to prepare any additional material beforehand.\n\n___ (7) sincerely,\nRavi Sharma",
+                                      "answers":  [
+                                                      "Professor",
+                                                      "am",
+                                                      "considering",
+                                                      "Could",
+                                                      "look",
+                                                      "do not / don\u0027t",
+                                                      "Yours"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1008_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 8 complete â€” Formal vs informal email",
+                                      "key_points":  [
+                                                         "Register = the level of formality â€” choose based on your relationship with the reader",
+                                                         "Formal: full forms, no slang, polite phrases, professional sign-offs",
+                                                         "Informal: contractions, casual phrases, emoji allowed",
+                                                         "Common switches: ASAP â†’ \u0027at your earliest convenience\u0027, FYI â†’ \u0027Please note that\u0027, Can you â†’ \u0027Could you please\u0027",
+                                                         "Mixing registers sounds unnatural â€” be consistent throughout the email"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Making appointments â€” suggesting, accepting, and confirming times"
+                                  }
+                  }
+              ]
+}

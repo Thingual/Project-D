@@ -1,0 +1,327 @@
+{
+  "lesson_id": "a2_unit12_lesson14",
+  "unit": 12,
+  "lesson_number": 14,
+  "level": "A2",
+  "title": "Reading and describing things — reviews, bucket lists, profiles",
+  "description": "Use all Unit 12 language in real-world writing tasks — restaurant reviews, travel bucket lists, and personal profiles.",
+  "estimated_minutes": 30,
+  "xp_reward": 175,
+  "tasks": [
+    {
+      "task_id": "t1214_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Writing a review — structure and language",
+        "body": "A good review has four parts:\n\n1. OPENING: What is it and when did you go/try/visit?\n   'I visited this restaurant last Saturday for the first time.'\n\n2. POSITIVE POINTS: What did you enjoy?\n   'The food was excellent — I've never had such fresh seafood.'\n   'There was plenty of space and the service was attentive.'\n\n3. NEGATIVE POINTS (if any): What could improve?\n   'The wait was a bit too long — almost 30 minutes.'\n   'There weren't enough vegetarian options on the menu.'\n\n4. RECOMMENDATION: Would you go back?\n   'I would highly recommend this place — I've already been back twice!'\n   'A great experience overall — I'll definitely return.'",
+        "grammar_note": "Reviews use PAST SIMPLE for specific visit details\nPresent perfect for general/ongoing impressions\nQuantity language adds specific, useful detail"
+      }
+    },
+    {
+      "task_id": "t1214_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Bucket lists and personal profiles — language patterns",
+        "body": "BUCKET LIST language:\n• 'I have always wanted to...'\n• 'I haven't done ... yet but I plan to.'\n• 'Something I've never tried is...'\n• 'One day I hope to have...'\n• 'I've already done... but I still want to...'\n\nPERSONAL PROFILE language:\n• 'I have lived in ... for ... years.'\n• 'I have been working as a ... since ...'\n• 'I have always been passionate about...'\n• 'I have travelled to ... states/countries.'\n• 'I am someone who has ... and hopes to ...'",
+        "grammar_note": "Bucket lists mix present perfect (what you've done) with future (what you hope to do)\nProfiles use present perfect for ongoing situations\nBoth are personal and reflective in tone"
+      }
+    },
+    {
+      "task_id": "t1214_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — review and description language",
+        "vocabulary": [
+          {"word": "ambience", "meaning": "the character and atmosphere of a place", "example": "The ambience was warm and inviting."},
+          {"word": "portions", "meaning": "the amount of food served", "example": "The portions were generous — more than enough for two."},
+          {"word": "overpriced", "meaning": "costing too much for the quality", "example": "The drinks were a bit overpriced compared to the food."},
+          {"word": "attentive", "meaning": "paying close attention to needs", "example": "The staff were attentive and friendly throughout."},
+          {"word": "authentic", "meaning": "real and original, not imitation", "example": "The biryani tasted completely authentic."},
+          {"word": "well worth", "meaning": "worth the cost or effort", "example": "The entry fee is well worth it for the experience."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l14_listen",
+        "sentences": [
+          "I visited this café last Sunday and it was one of the best I've been to in Bangalore.",
+          "The portions were generous — there was more than enough food for both of us.",
+          "I have always wanted to see the Northern Lights — it's number one on my bucket list.",
+          "I've never been to a concert but I've always wanted to experience one live.",
+          "I have lived in Hyderabad for four years and I've grown to love the city."
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Which sentence is the best OPENING LINE for a restaurant review?",
+        "options": [
+          "This restaurant is good.",
+          "I went to this restaurant once.",
+          "I visited Spice Garden in Indiranagar last Friday for dinner and it was a wonderful experience.",
+          "This is my review."
+        ],
+        "correct": "I visited Spice Garden in Indiranagar last Friday for dinner and it was a wonderful experience.",
+        "explanation": "A good review opening: specific name + location + when + first impression. Sets the scene immediately."
+      }
+    },
+    {
+      "task_id": "t1214_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Which sentence gives the BEST specific complaint in a review?",
+        "options": [
+          "The food was bad.",
+          "Not good.",
+          "The dessert was too sweet for our taste and the portions were a bit too small for the price.",
+          "We didn't like some things."
+        ],
+        "correct": "The dessert was too sweet for our taste and the portions were a bit too small for the price.",
+        "explanation": "Specific + uses quantity language (too sweet, too small) + fair comparison (for the price). Much more useful than vague comments."
+      }
+    },
+    {
+      "task_id": "t1214_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which is the best bucket list sentence?",
+        "options": [
+          "I want to see Northern Lights.",
+          "I am seeing Northern Lights one day.",
+          "I have always wanted to see the Northern Lights — it's been on my list for years.",
+          "I will see Northern Lights."
+        ],
+        "correct": "I have always wanted to see the Northern Lights — it's been on my list for years.",
+        "explanation": "'Have always wanted' = present perfect showing a long-standing wish. This sounds natural and heartfelt."
+      }
+    },
+    {
+      "task_id": "t1214_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "Which is the best ending for a positive review?",
+        "options": [
+          "It was okay.",
+          "I went there.",
+          "I would highly recommend this place — I've already been back twice and I plan to return again!",
+          "The place is fine I suppose."
+        ],
+        "correct": "I would highly recommend this place — I've already been back twice and I plan to return again!",
+        "explanation": "Strong recommendation + present perfect (been back twice) + future intent = convincing and enthusiastic ending."
+      }
+    },
+    {
+      "task_id": "t1214_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Complete this restaurant review with the correct language.",
+        "sentences": [
+          {"text": "I ___ this restaurant last Thursday for the first time — I ___ about it for months. (visited / heard)", "answer": "visited / had heard"},
+          {"text": "The fish curry was the best I ___ ever ___. (have / tasted)", "answer": "have / tasted"},
+          {"text": "There ___ a lot of vegetarian options, which was great for our group. (were)", "answer": "were"},
+          {"text": "The only issue was that there ___ enough parking nearby — we had to walk quite a bit. (wasn't)", "answer": "wasn't"},
+          {"text": "I ___ already recommended this place to three friends — it is absolutely worth it! (have)", "answer": "have"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete this bucket list with the correct present perfect or future language.",
+        "sentences": [
+          {"text": "I ___ never ___ (see) the Taj Mahal at sunrise — this is first on my list.", "answer": "have / seen"},
+          {"text": "I ___ always ___ (want) to learn to surf — I'm planning to try it this year.", "answer": "have / wanted"},
+          {"text": "I ___ already ___ (visit) eight Indian states — I want to complete all 28.", "answer": "have / visited"},
+          {"text": "I ___ yet to try cooking a proper multi-course meal from scratch.", "answer": "have"},
+          {"text": "One thing I ___ (do) that I'm most proud of is run a half marathon last year.", "answer": "have done"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a strong review recommendation.",
+        "words": ["place", "this", "highly", "recommend", "I", "would", "back", "already", "I've", "twice", "been"],
+        "answer": "I would highly recommend this place — I've already been back twice."
+      }
+    },
+    {
+      "task_id": "t1214_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a bucket list sentence.",
+        "words": ["wanted", "always", "alone", "I've", "travel", "to"],
+        "answer": "I've always wanted to travel alone."
+      }
+    },
+    {
+      "task_id": "t1214_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the review element to the correct example sentence.",
+        "pairs": [
+          {"left": "Opening — when and where", "right": "I visited Café Coorg in Indiranagar last Saturday evening."},
+          {"left": "Positive — food quality", "right": "The filter coffee was the best I've had outside of a traditional darshini."},
+          {"left": "Negative — quantity issue", "right": "There weren't enough vegan options — only one item on the menu."},
+          {"left": "Negative — price issue", "right": "The drinks were a bit overpriced for the size of the portions."},
+          {"left": "Closing recommendation", "right": "I'd definitely recommend it — I've already taken two friends there!"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Discussing a new restaurant — colleagues over lunch, Pune",
+        "setting": "Kavya and Sonal are colleagues discussing a restaurant Kavya visited over the weekend. Sonal is thinking of going.",
+        "dialogue": [
+          {"speaker": "Sonal", "text": "Kavya — I heard you went to that new place on FC Road this weekend. How was it?"},
+          {"speaker": "Kavya", "text": "Oh, Meghna Kitchen? It was really wonderful! I went on Saturday evening with my sister."},
+          {"speaker": "Sonal", "text": "I've been wanting to try it for ages — I've heard so much about it. What did you order?"},
+          {"speaker": "Kavya", "text": "We had the thali — it was incredible. There were so many dishes included. The dal makhani was the best I've ever had outside of Delhi."},
+          {"speaker": "Sonal", "text": "That sounds amazing. Was there enough variety for vegetarians?"},
+          {"speaker": "Kavya", "text": "Plenty! The entire thali is vegetarian and there were at least ten different dishes. I've never seen such generous portions for the price."},
+          {"speaker": "Sonal", "text": "How much did it cost per person?"},
+          {"speaker": "Kavya", "text": "About 450 rupees for the thali — which sounds reasonable but honestly there was so much food we couldn't finish it all. Too much food almost!"},
+          {"speaker": "Sonal", "text": "Ha! That's never really a problem though. Was the ambience nice?"},
+          {"speaker": "Kavya", "text": "Really warm and inviting — lots of plants, soft lighting. Not too crowded on Saturday either, which I appreciated. We didn't have to wait too long for a table — maybe ten minutes."},
+          {"speaker": "Sonal", "text": "Any negatives?"},
+          {"speaker": "Kavya", "text": "The dessert was a bit too sweet for my taste — and there wasn't enough variety in the dessert section, just two options. But that's a minor complaint."},
+          {"speaker": "Sonal", "text": "Overall would you recommend it?"},
+          {"speaker": "Kavya", "text": "Absolutely — I've already told my parents about it and I'm planning to take them next month. If you haven't been yet, just go!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What did Kavya order?",
+            "options": ["Biryani", "The vegetarian thali", "A la carte dishes", "Just desserts"],
+            "correct": "The vegetarian thali"
+          },
+          {
+            "question": "What was Kavya's main complaint?",
+            "options": ["The price was too high", "The wait was too long", "The dessert was too sweet and limited", "There weren't enough vegetarian options"],
+            "correct": "The dessert was too sweet and limited"
+          },
+          {
+            "question": "Who is Kavya planning to take next month?",
+            "options": ["Sonal", "Her sister again", "Her parents", "Her whole team"],
+            "correct": "Her parents"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the mistake in these review sentences.",
+        "sentences": [
+          {
+            "wrong": "I have visited this restaurant last Friday and it was great.",
+            "correct": "I visited this restaurant last Friday and it was great.",
+            "explanation": "'Last Friday' = specific finished time → PAST SIMPLE. Present perfect cannot be used with 'last'."
+          },
+          {
+            "wrong": "The food was the best I've never eaten.",
+            "correct": "The food was the best I've ever eaten.",
+            "explanation": "In a positive superlative experience, use EVER (not never). 'The best I've EVER eaten'."
+          },
+          {
+            "wrong": "There wasn't enough vegetarian options.",
+            "correct": "There weren't enough vegetarian options.",
+            "explanation": "Options = countable plural → WERE (not was). 'There weren't enough options.'"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1214_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "A friend asks you to recommend a book you've read recently. You loved it. How do you respond naturally?",
+        "options": [
+          "I read a book. It was good.",
+          "You should read it.",
+          "I've just finished The God of Small Things — it's one of the most beautiful books I've ever read. I finished it in three days and I've already recommended it to four people!",
+          "I read books sometimes. This one was okay."
+        ],
+        "correct": "I've just finished The God of Small Things — it's one of the most beautiful books I've ever read. I finished it in three days and I've already recommended it to four people!",
+        "explanation": "Just finished (present perfect) + superlative + ever + past simple detail + already recommended = enthusiastic, natural, specific recommendation."
+      }
+    },
+    {
+      "task_id": "t1214_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Write and say aloud a full review of a place you have visited — a restaurant, a hotel, a tourist spot, or a shop. Include: opening, positives, negatives, recommendation.",
+        "prompt": "Give a full spoken review of a real or imagined place using all Unit 12 language.",
+        "example_response": "I want to review a small homestay I visited in Coorg about six months ago. I've been to Coorg twice before but I've never stayed in a place quite like this. I visited last October with my sister for three nights. The homestay was run by a local family and it was one of the most authentic experiences I've ever had. There was so much greenery — the property was right in the middle of a coffee estate. We woke up every morning to the smell of fresh coffee and birds. The family cooked all our meals and the food was incredible — I've rarely eaten home-cooked food that good outside my own home. The portions were more than enough — too much almost, every meal! There weren't many activities specifically organised but there was plenty to do — walking trails, a nearby waterfall, a spice plantation tour. The only thing I'd say wasn't quite right was that the Wi-Fi was not reliable at all, which was occasionally frustrating for work emails. But honestly, looking back, that was probably a good thing! I've already recommended this place to three friends and two of them have since booked their own trips there. If you haven't been to a Coorg homestay yet, I'd highly recommend this kind of experience — it's well worth it.",
+        "key_phrases": ["I've been to... before but never...", "the most ... I've ever had", "There was so much / not enough", "I've already recommended", "If you haven't been yet"],
+        "min_words": 160
+      }
+    },
+    {
+      "task_id": "t1214_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Share your personal bucket list — 5 things you haven't done yet and 5 things you've already done that you're proud of. Speak for at least 90 seconds.",
+        "prompt": "Describe your bucket list — mix of 'already done' (present perfect) and 'haven't done yet' (future plans).",
+        "example_response": "Let me share my bucket list — both sides of it! Starting with what I've already ticked off. I've run a 10K race — I trained for four months and completed it last year. It's something I'm genuinely proud of because I'd never been a runner before. I've also learned to cook a full South Indian meal from scratch — sambar, rasam, kootu, everything. It took me many tries but I've got it down now! I've visited Rajasthan — I went in winter 2022 and it was one of the most colourful and vibrant experiences of my life. I've also read a hundred books — I hit that milestone this year. And I've started meditating regularly — I've been doing it for six months and I've never felt calmer. Now for what I haven't done yet. I haven't been to the North-East of India — Meghalaya and Arunachal Pradesh are calling me. I haven't learned a new language yet — I've started Spanish twice and stopped. I haven't been abroad yet which I hope to change next year. I haven't tried pottery, which I've wanted to do for a long time. And I haven't gone on a proper solo trip yet — I've always travelled with family or friends. That one I'm definitely doing this year!",
+        "key_phrases": ["I've already done / completed / visited", "I've never been / tried / done", "I haven't yet", "I'm proud of", "I hope to", "I plan to"],
+        "min_words": 170
+      }
+    },
+    {
+      "task_id": "t1214_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this travel blog post using the correct tense and vocabulary from the lesson.",
+        "text": "★★★★★ — Alleppey Houseboat Experience — Kerala\n\nI ___ (1/visit) Kerala many times but I ___ (2/never/try) a houseboat stay until last month. I ___ (3/book) a private houseboat for two nights on the backwaters with my partner and it ___ (4/be) one of the most peaceful experiences we ___ (5/have).\n\nThere ___ (6/be) plenty of space on the boat — a bedroom, a sitting area, and a small deck where we spent most of our time. The chef ___ (7/cook) all our meals on board and the food ___ (8/be) incredibly fresh — the best fish curry I ___ (9/ever/eat).\n\nWe didn't see ___ (10/much/many) other boats during our journey, which was a relief — it felt very private and quiet. There wasn't ___ (11) noise at all — just water, birds, and the occasional passing canoe.\n\nThe only thing I'd say: there ___ (12/not/be) enough charging points for our devices, which was a minor inconvenience. But we ___ (13/already/decide) we're going back next year — and we ___ (14/already/recommend) it to ___ (15) who will listen!",
+        "answers": ["have visited", "had never tried", "booked", "was", "have ever had", "was", "cooked", "was", "have ever eaten", "many", "enough", "weren't", "have already decided", "have already recommended", "anyone / everyone"]
+      }
+    },
+    {
+      "task_id": "t1214_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 14 complete — Reviews, bucket lists and profiles",
+        "key_points": [
+          "Reviews: open with past simple (when/where) + present perfect for impressions",
+          "Use quantity language in reviews: not enough, too much/many, plenty of, generous",
+          "Bucket lists: 'I've always wanted to', 'I haven't done ... yet', 'I've already'",
+          "Profiles: 'I have lived in... for/since', 'I have been working as... since'",
+          "Strong recommendations: 'I'd highly recommend', 'I've already been back twice', 'If you haven't tried yet'",
+          "Best I've ever: superlative + present perfect + ever = powerful description"
+        ],
+        "xp_earned": 175,
+        "next_lesson": "Unit 12 Review and A2 exit practice"
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "lesson_id": "a2_unit8_lesson06",
+  "unit": 8,
+  "lesson_number": 6,
+  "level": "A2",
+  "title": "Describing People — Appearance and Personality",
+  "description": "Learn to describe people's physical appearance and personality traits using detailed, accurate, and respectful language with correct adjective order.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0806_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Describing Physical Appearance",
+      "content": {
+        "explanation": "When describing someone's appearance, we use specific phrases in a natural order:\n\n📏 HEIGHT:\n• tall / of medium height / short / petite\n\n⚖️ BUILD:\n• slim / slender / lean / athletic / well-built / stocky / average build\n\n👩 FACE & FEATURES:\n• oval / round / square face\n• high cheekbones / a sharp nose / full lips\n• beard / moustache / stubble\n\n💇 HAIR — use ADJECTIVE ORDER (length → colour → type):\n• long dark curly hair ✅ (NOT curly black long hair ❌)\n• short silver straight hair ✅\n• shoulder-length wavy brown hair ✅\n\n👁️ EYES:\n• large / almond-shaped / deep-set / bright\n• dark brown / hazel / expressive\n\n🎂 AGE PHRASES:\n• She is in her late twenties. / He is in his mid-thirties.\n• She appears to be in her early forties.\n\n✅ NATURAL STRUCTURE:\n'He/She is [height] and [build] with [hair description] and [eye/face feature].'\n→ She is tall and slim with long dark wavy hair and large expressive eyes.\n→ He is of medium height with short silver hair and a warm smile.",
+        "examples": [
+          "She is a tall, slim woman with long dark wavy hair and large almond-shaped eyes.",
+          "He is of medium height and athletic build, with short curly hair and a distinctive beard.",
+          "She appears to be in her mid-forties with shoulder-length silver hair and bright, intelligent eyes."
+        ],
+        "tip": "Hair description order: LENGTH → COLOUR → TYPE. 'Long dark curly hair' — never 'curly black long hair'."
+      }
+    },
+    {
+      "task_id": "t0806_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Describing Personality",
+      "content": {
+        "explanation": "Describing personality requires careful vocabulary and diplomatic structures:\n\n😊 POSITIVE TRAITS:\n• kind / generous / warm / caring / compassionate\n• confident / ambitious / determined / hardworking\n• creative / imaginative / patient / reliable\n• outgoing / sociable / friendly / approachable\n• funny / witty / charismatic / eloquent\n• meticulous / organised / analytical\n\n😐 NEUTRAL TRAITS:\n• reserved / quiet / introverted / independent\n• perfectionist / detail-oriented / methodical\n\n📌 USEFUL PERSONALITY STRUCTURES:\n• She is a very [adjective] person.\n• He tends to be quite [adjective].\n  → He tends to be quite reserved in large groups.\n• She can be a bit [adjective] sometimes.\n  → She can be a bit impatient sometimes.\n• He is known for being [adjective].\n  → She is known for being one of the most reliable people on the team.\n• One of her best qualities is that she is very [adjective].\n\n📌 COMBINING APPEARANCE + PERSONALITY:\n'In terms of appearance, she is... In terms of personality, she is...'\n'What makes him special is...'",
+        "examples": [
+          "She tends to be quite reserved with people she doesn't know, but very warm with close friends.",
+          "He is known for being incredibly patient — he never loses his temper.",
+          "One of her best qualities is that she is deeply empathetic and always puts others first."
+        ],
+        "tip": "Use 'tends to be' and 'can be a bit' to soften descriptions. Always balance a negative trait with a positive one."
+      }
+    },
+    {
+      "task_id": "t0806_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Appearance and Personality Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "distinctive", "meaning": "easily recognisable; standing out from others", "example": "He has a very distinctive deep voice that you recognise immediately." },
+          { "word": "striking", "meaning": "very attractive or noticeable in appearance", "example": "She has striking green eyes that everyone notices." },
+          { "word": "charismatic", "meaning": "having a strong, attractive personality that influences others", "example": "She is a charismatic leader who inspires everyone around her." },
+          { "word": "empathetic", "meaning": "able to understand and share the feelings of others", "example": "He is very empathetic — he always senses when something is wrong." },
+          { "word": "assertive", "meaning": "confident and direct in expressing opinions and needs", "example": "She is politely assertive — she speaks her mind clearly but respectfully." },
+          { "word": "laid-back", "meaning": "relaxed and easy-going; not easily stressed", "example": "He has a very laid-back personality — nothing seems to worry him." },
+          { "word": "meticulous", "meaning": "very careful and precise about details", "example": "She is a meticulous worker who checks everything twice before submitting." },
+          { "word": "eloquent", "meaning": "speaking in a clear, effective, and impressive way", "example": "He is an eloquent speaker — his presentations always engage the audience." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0806_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Describing People Naturally",
+      "content": {
+        "instruction": "Listen and repeat these natural person descriptions. Notice the flow and rhythm.",
+        "items": [
+          { "audio_key": "a2_u8_l6_lr1", "text": "She is a tall, slim woman with long dark hair and a warm smile." },
+          { "audio_key": "a2_u8_l6_lr2", "text": "He tends to be quite reserved at first, but he's very funny once you know him." },
+          { "audio_key": "a2_u8_l6_lr3", "text": "She is one of the most empathetic people I have ever met." },
+          { "audio_key": "a2_u8_l6_lr4", "text": "He is of medium height with short curly hair and a very distinctive beard." },
+          { "audio_key": "a2_u8_l6_lr5", "text": "One of her best qualities is that she is incredibly patient with everyone." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0806_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence describes someone's hair in the CORRECT adjective order?",
+      "options": [
+        "She has curly long dark hair.",
+        "She has dark long curly hair.",
+        "She has long dark curly hair.",
+        "She has dark curly long hair."
+      ],
+      "correct_answer": "She has long dark curly hair.",
+      "explanation": "Adjective order for hair: LENGTH (long) → COLOUR (dark) → TYPE (curly). 'Long dark curly hair' is the natural, correct order."
+    },
+    {
+      "task_id": "t0806_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Which sentence BEST describes someone's age?",
+      "options": [
+        "She has about forty years.",
+        "She is approximately forty year old.",
+        "She appears to be in her late thirties.",
+        "She looks old."
+      ],
+      "correct_answer": "She appears to be in her late thirties.",
+      "explanation": "'In her late thirties' (37-39), 'mid-thirties' (33-36), 'early thirties' (30-32) — these are the natural, polite ways to describe someone's approximate age."
+    },
+    {
+      "task_id": "t0806_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "How would you MOST diplomatically describe a colleague who is sometimes hard to work with?",
+      "options": [
+        "He is a terrible and rude person.",
+        "He can be a bit demanding at times, but he is extremely good at his job and very dedicated.",
+        "He is not a good personality.",
+        "He is bad."
+      ],
+      "correct_answer": "He can be a bit demanding at times, but he is extremely good at his job and very dedicated.",
+      "explanation": "'Can be a bit' softens the negative trait, and adding a genuine positive ('extremely good at his job') makes this balanced and professional."
+    },
+    {
+      "task_id": "t0806_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which sentence uses personality description language CORRECTLY?",
+      "options": [
+        "She is known for be very patient.",
+        "She is known for being very patient.",
+        "She is known to being very patient.",
+        "She is known for very patient."
+      ],
+      "correct_answer": "She is known for being very patient.",
+      "explanation": "'Known for' is followed by the -ing form: 'known for being'. Never use 'to be' or omit the verb after 'known for'."
+    },
+    {
+      "task_id": "t0806_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete the description using appropriate appearance or personality words.",
+      "items": [
+        {
+          "sentence": "My professor is a man in his _____ fifties — probably around 56 or 57. He has short, _____ hair with a neat beard.",
+          "answer": "mid / silver (or grey)",
+          "hint": "Mid-fifties = around 53-57. Hair colour for someone in their mid-fifties."
+        },
+        {
+          "sentence": "She _____ to be quite serious in the classroom, but outside she is incredibly funny and warm.",
+          "answer": "tends",
+          "hint": "Use 'tends to be' to describe a habitual characteristic."
+        },
+        {
+          "sentence": "One of his best _____ is that he is deeply empathetic — he always knows when a team member is struggling.",
+          "answer": "qualities",
+          "hint": "Phrase: 'One of his best qualities is that he is...'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0806_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Correct the adjective order or structure in each description.",
+      "items": [
+        {
+          "sentence": "She has curly brown shoulder-length hair. → Correct order: She has _____ hair.",
+          "answer": "shoulder-length brown curly",
+          "hint": "Order: LENGTH → COLOUR → TYPE."
+        },
+        {
+          "sentence": "He is known for be the most reliable person on the team. → Correct: He is known for _____ the most reliable person on the team.",
+          "answer": "being",
+          "hint": "'Known for' + -ing form."
+        },
+        {
+          "sentence": "She is an ambitious very and dedicated professional. → Correct: She is a _____ and dedicated professional.",
+          "answer": "very ambitious",
+          "hint": "'Very' goes BEFORE the adjective."
+        }
+      ]
+    },
+    {
+      "task_id": "t0806_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct person description.",
+      "items": [
+        {
+          "words": ["She", "is", "a", "tall", "slim", "woman", "with", "long", "dark", "wavy", "hair"],
+          "answer": "She is a tall slim woman with long dark wavy hair."
+        },
+        {
+          "words": ["He", "tends", "to", "be", "quite", "reserved", "but", "he", "is", "extremely", "kind"],
+          "answer": "He tends to be quite reserved, but he is extremely kind."
+        }
+      ]
+    },
+    {
+      "task_id": "t0806_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct sentence.",
+      "items": [
+        {
+          "words": ["She", "is", "one", "of", "the", "most", "charismatic", "people", "I've", "ever", "met"],
+          "answer": "She is one of the most charismatic people I've ever met."
+        },
+        {
+          "words": ["One", "of", "his", "best", "qualities", "is", "that", "he", "is", "very", "patient"],
+          "answer": "One of his best qualities is that he is very patient."
+        }
+      ]
+    },
+    {
+      "task_id": "t0806_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the personality description with the correct adjective.",
+      "pairs": [
+        { "left": "She always understands how others feel and shares their emotions.", "right": "empathetic" },
+        { "left": "He never rushes and is completely relaxed about everything.", "right": "laid-back" },
+        { "left": "She checks every detail twice and never misses anything.", "right": "meticulous" },
+        { "left": "He speaks clearly and impressively — audiences love him.", "right": "eloquent" },
+        { "left": "She is naturally magnetic — people want to follow her.", "right": "charismatic" }
+      ]
+    },
+    {
+      "task_id": "t0806_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Describing the New Manager — IT Company, Pune",
+      "dialogue": {
+        "context": "Neeraj and Divya are colleagues at a tech company in Pune. Neeraj attended the welcome meeting for their new manager, Sneha, and is telling Divya about her.",
+        "turns": [
+          { "speaker": "Divya", "text": "Neeraj, I missed the welcome meeting! What's our new manager Sneha like? I'm a bit nervous about meeting her." },
+          { "speaker": "Neeraj", "text": "Don't be nervous at all — she seemed wonderful. Let me describe her." },
+          { "speaker": "Divya", "text": "Tell me what she looks like first." },
+          { "speaker": "Neeraj", "text": "She's in her mid-thirties, of medium height, quite slim. She has long dark wavy hair and very expressive brown eyes." },
+          { "speaker": "Divya", "text": "She sounds lovely! Is she strict?" },
+          { "speaker": "Neeraj", "text": "She's firm but fair. She knows exactly what she wants and communicates it very clearly. Quite assertive — but not at all intimidating." },
+          { "speaker": "Divya", "text": "That sounds good. I prefer managers who are direct." },
+          { "speaker": "Neeraj", "text": "She's also incredibly warm. She remembered everyone's name by the end of the first meeting. Very attentive and empathetic." },
+          { "speaker": "Divya", "text": "Wow, that's impressive! What about her work style?" },
+          { "speaker": "Neeraj", "text": "She's one of the most organised people I've ever worked with. Her meeting agenda was meticulous — everything planned to the minute." },
+          { "speaker": "Divya", "text": "Is she approachable if we have problems?" },
+          { "speaker": "Neeraj", "text": "Absolutely. She said openly that she has an open-door policy. I think she's genuinely empathetic and wants the team to thrive." },
+          { "speaker": "Divya", "text": "She sounds like exactly the manager we needed!" },
+          { "speaker": "Neeraj", "text": "She even has a wonderful sense of humour — she made everyone laugh twice during a 30-minute meeting. You'll like her immediately." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How does Neeraj describe Sneha's physical appearance?",
+            "options": [
+              "Tall with short straight hair",
+              "Mid-thirties, medium height, long dark wavy hair, expressive brown eyes",
+              "Short with blonde hair and blue eyes",
+              "Young and very tall with curly hair"
+            ],
+            "correct_answer": "Mid-thirties, medium height, long dark wavy hair, expressive brown eyes"
+          },
+          {
+            "question": "What does Neeraj say about Sneha's communication style?",
+            "options": [
+              "She is vague and unclear",
+              "She rarely speaks in meetings",
+              "She knows exactly what she wants and communicates it very clearly",
+              "She only communicates by email"
+            ],
+            "correct_answer": "She knows exactly what she wants and communicates it very clearly"
+          },
+          {
+            "question": "What did Sneha announce about her management style?",
+            "options": [
+              "She prefers not to be disturbed",
+              "She has an open-door policy and wants the team to thrive",
+              "She only meets staff on Fridays",
+              "She works remotely most of the time"
+            ],
+            "correct_answer": "She has an open-door policy and wants the team to thrive"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0806_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each description sentence.",
+      "items": [
+        {
+          "sentence": "She has curly black long hair and beautiful dark eyes.",
+          "error": "curly black long hair",
+          "correction": "long black curly hair",
+          "explanation": "Hair adjective order: LENGTH → COLOUR → TYPE. 'Long black curly' is the correct sequence."
+        },
+        {
+          "sentence": "He is known for be very patient with his students.",
+          "error": "known for be",
+          "correction": "known for being",
+          "explanation": "'Known for' must be followed by the -ing form. 'Being' is the gerund here."
+        },
+        {
+          "sentence": "She is an intelligent very woman with a lot of experience.",
+          "error": "an intelligent very woman",
+          "correction": "a very intelligent woman",
+          "explanation": "'Very' must come BEFORE the adjective: 'a very intelligent woman'. The article also changes from 'an' to 'a' before 'very'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0806_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are writing a formal reference letter for your colleague Kavitha, who is applying for a senior position. She is hardworking, highly organised, excellent with clients, and always meets her deadlines. Which sentence is MOST effective for the letter?",
+      "question": "Which description is best for a professional reference letter?",
+      "options": [
+        "Kavitha is good at her job and nice to work with.",
+        "Kavitha always works hard and clients like her.",
+        "Kavitha is one of the most dedicated and client-focused professionals I have had the pleasure of working with. She is meticulous in her approach, highly organised, and consistently delivers results ahead of schedule.",
+        "Kavitha is a good worker. She is kind and reliable."
+      ],
+      "correct_answer": "Kavitha is one of the most dedicated and client-focused professionals I have had the pleasure of working with. She is meticulous in her approach, highly organised, and consistently delivers results ahead of schedule.",
+      "explanation": "This uses 'one of the most' + superlative, strong professional vocabulary (meticulous, client-focused), and specific evidence — exactly the standard expected in a professional reference letter."
+    },
+    {
+      "task_id": "t0806_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Describe someone important in your life — a family member, close friend, teacher, or mentor. Describe both their appearance and personality clearly. Use adjective order correctly for hair description, and use personality structures like 'tends to be', 'is known for being', 'one of the most'. Speak for at least 70 seconds.",
+      "prompt": "Describe someone important to you — appearance and personality.",
+      "example_response": "I want to describe my mother because she is undoubtedly the most important person in my life. In terms of appearance, she is a woman in her early fifties with a graceful, medium build. She has long, dark, straight hair which she usually wears in a traditional bun, and she has large, warm, expressive brown eyes that immediately make you feel at ease. She always looks elegant, even in simple everyday clothes. In terms of personality, she is one of the most patient and empathetic people I have ever met in my life. She tends to be quite calm and composed even in stressful situations — she never loses her temper. She is known for being generous with both her time and her resources — she is always the first person to help anyone in need. One of her best qualities is that she always puts others before herself. She is also incredibly hardworking and meticulous — everything she does is done with care and precision. She is my greatest role model and inspiration.",
+      "key_phrases": [
+        "in terms of appearance", "in terms of personality",
+        "she is in her... / he is in his...",
+        "she has long / short / dark / curly...",
+        "she tends to be", "is known for being",
+        "one of the most... I've ever met"
+      ],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0806_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Describe a famous Indian person you admire — a cricketer, filmmaker, musician, scientist, or entrepreneur. Talk about their appearance, their personality, and what makes them special. Use superlatives with 'ever' and personality vocabulary from this lesson. Speak for at least 70 seconds.",
+      "prompt": "Describe a famous Indian person you admire — appearance, personality, and achievements.",
+      "example_response": "I would like to describe Sachin Tendulkar, who is considered by many to be the greatest cricketer India has ever produced — and in my opinion, the greatest the world has ever seen. In terms of appearance, he is a man now in his early fifties with a medium, slightly stocky build. He has short, dark hair, though now with some silver, and a very warm, humble smile that you recognise immediately. He is not very tall, but his presence is enormous. In terms of personality, he is one of the most humble and grounded people in Indian public life, despite his extraordinary achievements. He tends to be quite reserved and softly spoken in interviews — which surprises many people given his legendary status. He is known for being deeply dedicated to his craft — he practised more meticulously than almost any cricketer of his generation. What makes him truly special is not just his technical brilliance, but the way he has remained loyal to Indian cricket and always placed the team above himself. He is the most inspirational sportsperson I have ever followed, and his story teaches us that talent combined with discipline and humility leads to greatness.",
+      "key_phrases": [
+        "in terms of appearance", "in terms of personality",
+        "is considered to be the greatest",
+        "one of the most... in India",
+        "tends to be", "is known for being",
+        "what makes him/her special is"
+      ],
+      "min_words": 110
+    },
+    {
+      "task_id": "t0806_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this character description from a short story using appropriate description language.",
+      "paragraph": "The headmistress of Greenfield Academy, Mrs Rajalakshmi, was a woman (1)_____ her late fifties. She was (2)_____ medium height with a (3)_____ but dignified build. She had (4)_____ dark hair, now turning silver at the temples, which she wore in a neat braid. Her eyes were (5)_____ and remarkably intelligent behind her round gold-rimmed glasses. Her face was (6)_____ expressive — every emotion showed clearly. She was (7)_____ for being the strictest headmistress the school had seen in decades, yet students who graduated always spoke of her with deep affection. She (8)_____ to be stern in class, but she was profoundly (9)_____ to any student who was struggling. One of her (10)_____ qualities was her absolute refusal to give up on any child, regardless of their academic performance. She was, without question, the most (11)_____ educator any of them had ever encountered — and the one they remembered most (12)_____.",
+      "answers": [
+        "in",
+        "of",
+        "medium / slim",
+        "long",
+        "sharp / bright / dark",
+        "very / deeply",
+        "known",
+        "tended",
+        "empathetic / understanding / compassionate",
+        "best",
+        "inspiring / dedicated / remarkable",
+        "fondly / vividly / clearly"
+      ],
+      "hint": "Use the phrases: 'in her...' / 'of medium height' / 'known for being' / 'tended to be' / 'one of her best qualities'."
+    },
+    {
+      "task_id": "t0806_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 6 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Physical appearance: HEIGHT (tall/medium/short) → BUILD (slim/athletic/stocky) → HAIR → EYES → AGE",
+          "Hair adjective order: LENGTH → COLOUR → TYPE (long dark curly hair)",
+          "Age phrases: in her early/mid/late twenties/thirties/forties/fifties",
+          "Personality structures: tends to be / can be a bit / is known for being / one of the most... I've ever met",
+          "Positive traits: warm, generous, empathetic, assertive, meticulous, eloquent, charismatic, laid-back",
+          "Diplomatic language: 'can be a bit [negative] but [positive]'",
+          "Combining: 'In terms of appearance... / In terms of personality...'",
+          "Key vocab: distinctive, striking, charismatic, empathetic, assertive, laid-back, meticulous, eloquent"
+        ],
+        "grammar_summary": "Describe appearance with: 'She is [height] and [build] with [length][colour][type] hair and [eye description].' Describe personality with: 'She tends to be [adj]' / 'known for being [adj]' / 'one of the most [adj] I've ever met.' Hair adjective order: LENGTH → COLOUR → TYPE.",
+        "encouragement": "Brilliant work! Describing people with accuracy and sensitivity is a vital communication skill for every context — from professional references to everyday conversation. You are developing real fluency! 🌟"
+      }
+    }
+  ]
+}

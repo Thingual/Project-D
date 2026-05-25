@@ -1,0 +1,368 @@
+﻿{
+    "title":  "Present Perfect \u0026 Past Simple",
+    "lessons":  [
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Introduce the present perfect tense to talk about experiences and recent events.",
+                        "xp_reward":  150,
+                        "lesson_number":  1,
+                        "tasks":  [
+                                      {
+                                          "title":  "Present Perfect — Introduction",
+                                          "content":  {
+                                                          "examples":  [
+                                                                           {
+                                                                               "sentence":  "I have visited Paris twice.",
+                                                                               "note":  "Experience"
+                                                                           },
+                                                                           {
+                                                                               "sentence":  "She has just arrived.",
+                                                                               "note":  "Recent event"
+                                                                           },
+                                                                           {
+                                                                               "sentence":  "Have you ever tried sushi?",
+                                                                               "note":  "Question form"
+                                                                           }
+                                                                       ],
+                                                          "structure":  {
+                                                                            "negative":  "She hasn\u0027t eaten yet.",
+                                                                            "positive":  "I have lived here for 3 years.",
+                                                                            "question":  "Have you ever been to Japan?"
+                                                                        },
+                                                          "explanation":  "We use the present perfect to talk about past experiences that connect to the present. Form: have/has + past participle."
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "content":  {
+                                                          "correct_index":  1,
+                                                          "question":  "Choose the correct present perfect form:",
+                                                          "explanation":  "Use \u0027has\u0027 for third person singular (he/she/it).",
+                                                          "options":  [
+                                                                          "She have eaten.",
+                                                                          "She has eaten.",
+                                                                          "She eating."
+                                                                      ]
+                                                      },
+                                          "type":  "mcq"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson01",
+                        "title":  "Present Perfect — Introduction"
+                    },
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Ask and answer questions about life experiences using the present perfect.",
+                        "xp_reward":  150,
+                        "lesson_number":  2,
+                        "tasks":  [
+                                      {
+                                          "title":  "Have You Ever…?",
+                                          "content":  {
+                                                          "patterns":  [
+                                                                           {
+                                                                               "pattern":  "Have you ever + past participle?",
+                                                                               "examples":  [
+                                                                                                "Have you ever eaten Thai food?",
+                                                                                                "Have you ever met a famous person?"
+                                                                                            ]
+                                                                           }
+                                                                       ],
+                                                          "items":  [
+                                                                        {
+                                                                            "phrase":  "I have.",
+                                                                            "note":  "Short positive answer"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "No, never.",
+                                                                            "note":  "Short negative answer"
+                                                                        }
+                                                                    ],
+                                                          "explanation":  "Use \u0027Have you ever…?\u0027 to ask about experiences at any time in someone\u0027s life."
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "title":  "Talk about your experiences",
+                                          "content":  {
+                                                          "instruction":  "Tell me three things you have done in your life.",
+                                                          "example_response":  "I have visited three countries. I have tried many different foods. I have learned two languages.",
+                                                          "key_phrases":  [
+                                                                              "I have",
+                                                                              "I\u0027ve never",
+                                                                              "Have you ever"
+                                                                          ]
+                                                      },
+                                          "type":  "speaking"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson02",
+                        "title":  "Have You Ever…?"
+                    },
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Use for and since to describe how long something has been happening.",
+                        "xp_reward":  150,
+                        "lesson_number":  3,
+                        "tasks":  [
+                                      {
+                                          "title":  "For \u0026 Since",
+                                          "content":  {
+                                                          "examples":  [
+                                                                           {
+                                                                               "sentence":  "I have lived here for five years."
+                                                                           },
+                                                                           {
+                                                                               "sentence":  "She has worked there since January."
+                                                                           }
+                                                                       ],
+                                                          "items":  [
+                                                                        {
+                                                                            "phrase":  "for three years",
+                                                                            "note":  "Duration"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "since 2020",
+                                                                            "note":  "Starting point"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "for a long time",
+                                                                            "note":  "Duration"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "since Monday",
+                                                                            "note":  "Starting point"
+                                                                        }
+                                                                    ],
+                                                          "explanation":  "Use FOR with a period of time. Use SINCE with a starting point in time."
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "content":  {
+                                                          "correct_index":  1,
+                                                          "question":  "Which is correct?",
+                                                          "explanation":  "Use \u0027for\u0027 with a period of time like \u00273 years\u0027.",
+                                                          "options":  [
+                                                                          "I\u0027ve known her since 3 years.",
+                                                                          "I\u0027ve known her for 3 years.",
+                                                                          "I know her for 3 years."
+                                                                      ]
+                                                      },
+                                          "type":  "mcq"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson03",
+                        "title":  "For \u0026 Since"
+                    },
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Add detail to present perfect sentences using just, already and yet.",
+                        "xp_reward":  150,
+                        "lesson_number":  4,
+                        "tasks":  [
+                                      {
+                                          "title":  "Just, Already \u0026 Yet",
+                                          "content":  {
+                                                          "items":  [
+                                                                        {
+                                                                            "phrase":  "I\u0027ve just arrived.",
+                                                                            "note":  "JUST — very recently"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "She\u0027s already finished.",
+                                                                            "note":  "ALREADY — sooner than expected"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "Have you eaten yet?",
+                                                                            "note":  "YET — in questions"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "I haven\u0027t started yet.",
+                                                                            "note":  "YET — in negatives"
+                                                                        }
+                                                                    ],
+                                                          "explanation":  "JUST = a very short time ago. ALREADY = sooner than expected. YET = up to now (negatives \u0026 questions)."
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "content":  {
+                                                          "correct_index":  2,
+                                                          "question":  "I haven\u0027t done my homework ___",
+                                                          "explanation":  "\u0027Yet\u0027 is used in negative sentences and questions.",
+                                                          "options":  [
+                                                                          "just.",
+                                                                          "already.",
+                                                                          "yet."
+                                                                      ]
+                                                      },
+                                          "type":  "mcq"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson04",
+                        "title":  "Just, Already \u0026 Yet"
+                    },
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Understand the key difference between present perfect and past simple.",
+                        "xp_reward":  150,
+                        "lesson_number":  5,
+                        "tasks":  [
+                                      {
+                                          "title":  "Present Perfect vs Past Simple",
+                                          "content":  {
+                                                          "common_errors":  [
+                                                                                "I have seen him yesterday. ❌ → I saw him yesterday. ✓"
+                                                                            ],
+                                                          "explanation":  "Use PAST SIMPLE for finished actions at a specific time. Use PRESENT PERFECT when the time is not specified or still relevant.",
+                                                          "comparison":  [
+                                                                             {
+                                                                                 "tense":  "Past Simple",
+                                                                                 "examples":  [
+                                                                                                  "I visited Paris last year.",
+                                                                                                  "She called me yesterday."
+                                                                                              ],
+                                                                                 "use":  "Specific finished time"
+                                                                             },
+                                                                             {
+                                                                                 "tense":  "Present Perfect",
+                                                                                 "examples":  [
+                                                                                                  "I have visited Paris.",
+                                                                                                  "She has called me."
+                                                                                              ],
+                                                                                 "use":  "Unspecified time / still relevant"
+                                                                             }
+                                                                         ]
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "content":  {
+                                                          "correct_index":  1,
+                                                          "question":  "I ___ to London last summer.",
+                                                          "explanation":  "\u0027Last summer\u0027 is a specific past time, so use past simple.",
+                                                          "options":  [
+                                                                          "have been",
+                                                                          "went",
+                                                                          "have went"
+                                                                      ]
+                                                      },
+                                          "type":  "mcq"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson05",
+                        "title":  "Present Perfect vs Past Simple"
+                    },
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Practice speaking about past experiences using the present perfect naturally.",
+                        "xp_reward":  150,
+                        "lesson_number":  6,
+                        "tasks":  [
+                                      {
+                                          "title":  "Talk About Your Life",
+                                          "content":  {
+                                                          "instruction":  "Describe three interesting experiences from your life using the present perfect.",
+                                                          "example_response":  "I have travelled to five countries. I have learned to cook Italian food. I have never tried skydiving, but I want to!",
+                                                          "key_phrases":  [
+                                                                              "I have",
+                                                                              "I\u0027ve never",
+                                                                              "Have you",
+                                                                              "the best I\u0027ve ever"
+                                                                          ]
+                                                      },
+                                          "type":  "speaking"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson06",
+                        "title":  "Life Experiences Speaking"
+                    },
+                    {
+                        "estimated_minutes":  25,
+                        "description":  "Review all past simple forms alongside the present perfect.",
+                        "xp_reward":  150,
+                        "lesson_number":  7,
+                        "tasks":  [
+                                      {
+                                          "title":  "Past Simple Review",
+                                          "content":  {
+                                                          "items":  [
+                                                                        {
+                                                                            "phrase":  "worked / worked",
+                                                                            "note":  "Regular verb"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "go / went",
+                                                                            "note":  "Irregular verb"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "She didn\u0027t come.",
+                                                                            "note":  "Negative"
+                                                                        },
+                                                                        {
+                                                                            "phrase":  "Did you see him?",
+                                                                            "note":  "Question"
+                                                                        }
+                                                                    ],
+                                                          "explanation":  "Regular verbs: add -ed. Irregular verbs: must be memorized. Negatives: didn\u0027t + base form. Questions: Did + subject + base form?"
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "content":  {
+                                                          "correct_index":  1,
+                                                          "question":  "She ___ to work by bus yesterday.",
+                                                          "explanation":  "\u0027Yesterday\u0027 shows a specific past time, so use past simple \u0027went\u0027.",
+                                                          "options":  [
+                                                                          "has gone",
+                                                                          "went",
+                                                                          "goes"
+                                                                      ]
+                                                      },
+                                          "type":  "mcq"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson07",
+                        "title":  "Past Simple Review"
+                    },
+                    {
+                        "estimated_minutes":  30,
+                        "description":  "Review and consolidate all Unit 9 skills: present perfect, for/since, just/already/yet, and past simple contrast.",
+                        "xp_reward":  200,
+                        "lesson_number":  8,
+                        "tasks":  [
+                                      {
+                                          "title":  "Unit 9 Review",
+                                          "content":  {
+                                                          "what_you_learned":  [
+                                                                                   "Present perfect formation (have/has + past participle)",
+                                                                                   "For and since with time expressions",
+                                                                                   "Just, already, and yet",
+                                                                                   "Difference between present perfect and past simple"
+                                                                               ],
+                                                          "congratulations":  "Great work completing Unit 9! You\u0027ve mastered the present perfect and past simple."
+                                                      },
+                                          "type":  "learn_card"
+                                      },
+                                      {
+                                          "content":  {
+                                                          "correct_index":  1,
+                                                          "question":  "Which sentence uses present perfect correctly?",
+                                                          "explanation":  "Use past participle \u0027seen\u0027 with \u0027have\u0027.",
+                                                          "options":  [
+                                                                          "I have saw him yesterday.",
+                                                                          "I have seen that film twice.",
+                                                                          "I have go to school."
+                                                                      ]
+                                                      },
+                                          "type":  "mcq"
+                                      }
+                                  ],
+                        "lesson_id":  "a2_unit9_lesson08",
+                        "title":  "Unit 9 Review"
+                    }
+                ],
+    "level":  "A2",
+    "unit":  9
+}

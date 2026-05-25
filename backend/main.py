@@ -46,13 +46,32 @@ app.add_middleware(
 def startup_event():
     # Retry database connection (Neon cold start fix)
     retries = 5
+    current_engine = engine
+    is_sqlite_fallback = False
+
     while retries > 0:
         try:
             logger.info(f"Connecting to database... ({6 - retries}/5)")
-            Base.metadata.create_all(bind=engine)
+            Base.metadata.create_all(bind=current_engine)
             logger.info("Database connected and tables verified.")
             break
         except Exception as e:
+            error_str = str(e)
+            is_dns_error = (
+                "could not translate host name" in error_str 
+                or "Name or service not known" in error_str
+                or "temporary failure in name resolution" in error_str.lower()
+            )
+            
+            if is_dns_error and not is_sqlite_fallback:
+                logger.warning("Remote database is unreachable (DNS/Network error). Falling back to local SQLite database (thingual.db)...")
+                from sqlalchemy import create_engine
+                fallback_url = "sqlite:///./thingual.db"
+                current_engine = create_engine(fallback_url, connect_args={"check_same_thread": False})
+                SessionLocal.configure(bind=current_engine)
+                is_sqlite_fallback = True
+                continue
+
             retries -= 1
             if retries == 0:
                 logger.error("Could not connect to database after 5 attempts.")

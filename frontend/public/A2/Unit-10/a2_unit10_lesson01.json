@@ -1,0 +1,468 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson01",
+    "unit":  10,
+    "lesson_number":  1,
+    "level":  "A2",
+    "title":  "Present continuous for future plans",
+    "description":  "Use the present continuous tense to talk about fixed, arranged future plans.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1001_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Present continuous for the future",
+                                      "body":  "We can use the present continuous (am/is/are + -ing) to talk about FIXED future plans â€” things that are already arranged and confirmed.\n\nExamples:\nâ€¢ I\u0027m meeting Priya at 6 PM tonight. (already arranged)\nâ€¢ We\u0027re flying to Delhi on Saturday. (tickets booked)\nâ€¢ She\u0027s starting her new job on Monday. (confirmed plan)\n\nKey signals: future time words â†’ tonight, tomorrow, next week, on Friday, in the morning",
+                                      "grammar_note":  "am/is/are + verb-ing + future time expression\nThis tense = fixed plan, not a prediction"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Negative and question forms",
+                                      "body":  "Negative: am/is/are NOT + -ing\nâ€¢ I\u0027m not coming to the party â€” I have an exam.\nâ€¢ She isn\u0027t attending the meeting tomorrow.\n\nQuestions: Am/Is/Are + subject + -ing?\nâ€¢ Are you coming to Meera\u0027s wedding?\nâ€¢ What are you doing this weekend?\nâ€¢ Is he travelling to Bangalore next week?\n\nShort answers:\nâ€¢ Yes, I am. / No, I\u0027m not.\nâ€¢ Yes, she is. / No, she isn\u0027t.",
+                                      "grammar_note":  "Question: Are you + verb-ing?\nNegative: I\u0027m not + verb-ing"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Plans and arrangements",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "arrange",
+                                                             "meaning":  "to plan and organise something in advance",
+                                                             "example":  "We\u0027ve arranged a team lunch for Friday."
+                                                         },
+                                                         {
+                                                             "word":  "confirm",
+                                                             "meaning":  "to make a plan definite and official",
+                                                             "example":  "Can you confirm if you\u0027re attending?"
+                                                         },
+                                                         {
+                                                             "word":  "schedule",
+                                                             "meaning":  "a plan of when things will happen",
+                                                             "example":  "Check the schedule for tomorrow\u0027s meetings."
+                                                         },
+                                                         {
+                                                             "word":  "appointment",
+                                                             "meaning":  "a fixed time to meet someone",
+                                                             "example":  "I have a dentist appointment on Thursday."
+                                                         },
+                                                         {
+                                                             "word":  "venue",
+                                                             "meaning":  "the place where an event happens",
+                                                             "example":  "The venue for the party is Hotel Raj."
+                                                         },
+                                                         {
+                                                             "word":  "available",
+                                                             "meaning":  "free and able to do something",
+                                                             "example":  "Are you available on Saturday evening?"
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l1_listen",
+                                      "sentences":  [
+                                                        "I\u0027m meeting my cousin at the airport tomorrow morning.",
+                                                        "We\u0027re having a team dinner on Friday evening.",
+                                                        "She isn\u0027t coming to college next week â€” she\u0027s travelling.",
+                                                        "Are you doing anything special this weekend?",
+                                                        "They\u0027re moving to their new flat on the 15th."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Ravi has booked train tickets to Mysore for Saturday. Which sentence is correct?",
+                                      "options":  [
+                                                      "Ravi travels to Mysore on Saturday.",
+                                                      "Ravi is travelling to Mysore on Saturday.",
+                                                      "Ravi will travels to Mysore on Saturday.",
+                                                      "Ravi travel to Mysore on Saturday."
+                                                  ],
+                                      "correct":  "Ravi is travelling to Mysore on Saturday.",
+                                      "explanation":  "A confirmed, booked plan uses present continuous: IS + travelling."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Priya wants to ask her friend about Saturday plans. Which question is correct?",
+                                      "options":  [
+                                                      "Do you come to the wedding on Saturday?",
+                                                      "Are you coming to the wedding on Saturday?",
+                                                      "Will you coming to the wedding on Saturday?",
+                                                      "You are coming to the wedding on Saturday?"
+                                                  ],
+                                      "correct":  "Are you coming to the wedding on Saturday?",
+                                      "explanation":  "Future arrangement question: Are + you + verb-ing?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Arjun\u0027s calendar shows \u0027Doctor - 4 PM Tuesday\u0027. Which is correct?",
+                                      "options":  [
+                                                      "Arjun sees the doctor on Tuesday.",
+                                                      "Arjun is seeing the doctor at 4 PM on Tuesday.",
+                                                      "Arjun will saw the doctor on Tuesday.",
+                                                      "Arjun seeing the doctor at 4 PM Tuesday."
+                                                  ],
+                                      "correct":  "Arjun is seeing the doctor at 4 PM on Tuesday.",
+                                      "explanation":  "A booked appointment = fixed future plan â†’ present continuous."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Which sentence uses present continuous for the FUTURE correctly?",
+                                      "options":  [
+                                                      "I am eating breakfast right now.",
+                                                      "She is presenting at the conference next month.",
+                                                      "They are watching a movie at the moment.",
+                                                      "He is cooking dinner currently."
+                                                  ],
+                                      "correct":  "She is presenting at the conference next month.",
+                                      "explanation":  "\u0027Next month\u0027 is a future time signal â€” this is a fixed plan. The others describe actions happening now."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Complete with the present continuous form for future plans.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "We ___ (have) a family reunion next Sunday. All relatives are coming.",
+                                                            "answer":  "are having"
+                                                        },
+                                                        {
+                                                            "text":  "I ___ (not/work) on Monday â€” it\u0027s a public holiday.",
+                                                            "answer":  "am not working"
+                                                        },
+                                                        {
+                                                            "text":  "Meera ___ (join) the new Bangalore office next month.",
+                                                            "answer":  "is joining"
+                                                        },
+                                                        {
+                                                            "text":  "___ you ___ (attend) the product launch event tomorrow? (Are/attend)",
+                                                            "answer":  "Are / attending"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Fill the gap â€” present continuous for future.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Kavya and Sonal ___ (meet) for lunch at 1 PM tomorrow.",
+                                                            "answer":  "are meeting"
+                                                        },
+                                                        {
+                                                            "text":  "The company ___ (launch) its new app next Thursday.",
+                                                            "answer":  "is launching"
+                                                        },
+                                                        {
+                                                            "text":  "I ___ (not/travel) to Mumbai this weekend â€” plans changed.",
+                                                            "answer":  "am not travelling"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange the words to make a correct future plan sentence.",
+                                      "words":  [
+                                                    "dinner",
+                                                    "friends",
+                                                    "having",
+                                                    "I\u0027m",
+                                                    "my",
+                                                    "with",
+                                                    "tonight"
+                                                ],
+                                      "answer":  "I\u0027m having dinner with my friends tonight."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct question.",
+                                      "words":  [
+                                                    "weekend",
+                                                    "Are",
+                                                    "doing",
+                                                    "this",
+                                                    "anything",
+                                                    "you",
+                                                    "special"
+                                                ],
+                                      "answer":  "Are you doing anything special this weekend?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match each situation to the correct present continuous future sentence.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Tickets booked to Goa â€” next Friday",
+                                                        "right":  "I\u0027m flying to Goa next Friday."
+                                                    },
+                                                    {
+                                                        "left":  "Doctor booked â€” Wednesday 3 PM",
+                                                        "right":  "She\u0027s seeing the doctor at 3 on Wednesday."
+                                                    },
+                                                    {
+                                                        "left":  "Team call â€” 10 AM tomorrow, in calendar",
+                                                        "right":  "We\u0027re having a team call at 10 tomorrow."
+                                                    },
+                                                    {
+                                                        "left":  "No office â€” public holiday Monday",
+                                                        "right":  "I\u0027m not going to the office on Monday."
+                                                    },
+                                                    {
+                                                        "left":  "Interview confirmed â€” Thursday morning",
+                                                        "right":  "He\u0027s attending an interview on Thursday morning."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Weekend plans â€” friends in Bangalore",
+                                      "setting":  "Kavya and Sonal are colleagues in Bangalore catching up about their weekend.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Sonal, do you have any plans this weekend?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Yes! I\u0027m attending my cousin\u0027s engagement on Saturday. The function is in Koramangala."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Oh wow, how exciting! Are you going alone?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "No, my whole family is coming. My parents are arriving from Pune on Friday night."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "That\u0027s lovely. What are you doing on Sunday?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027m resting at home in the morning, and then I\u0027m meeting a friend from college for coffee in the evening."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Sounds like a great weekend! I\u0027m visiting the new exhibition at Cubbon Park on Sunday."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "Oh nice! Are you going with anyone?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Yes, I\u0027m going with my neighbour Meera. We\u0027ve been planning it for two weeks â€” we already have the tickets."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "What time are you going?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "We\u0027re meeting there at 11 AM. Are you working late tonight? We could have chai before leaving."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal",
+                                                           "text":  "I\u0027m finishing at 6 today. Yes, let\u0027s do that!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What is Sonal attending on Saturday?",
+                                                                          "options":  [
+                                                                                          "A wedding",
+                                                                                          "Her cousin\u0027s engagement",
+                                                                                          "A birthday party",
+                                                                                          "A college reunion"
+                                                                                      ],
+                                                                          "correct":  "Her cousin\u0027s engagement"
+                                                                      },
+                                                                      {
+                                                                          "question":  "When are Sonal\u0027s parents arriving?",
+                                                                          "options":  [
+                                                                                          "Saturday morning",
+                                                                                          "Friday night",
+                                                                                          "Sunday afternoon",
+                                                                                          "Saturday evening"
+                                                                                      ],
+                                                                          "correct":  "Friday night"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What time are Kavya and Meera meeting at the exhibition?",
+                                                                          "options":  [
+                                                                                          "10 AM",
+                                                                                          "11 AM",
+                                                                                          "12 PM",
+                                                                                          "2 PM"
+                                                                                      ],
+                                                                          "correct":  "11 AM"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "I am meet my manager at 3 PM tomorrow.",
+                                                            "correct":  "I am meeting my manager at 3 PM tomorrow.",
+                                                            "explanation":  "Present continuous = am/is/are + verb-ING. \u0027Meet\u0027 must become \u0027meeting\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Are you come to the party on Friday?",
+                                                            "correct":  "Are you coming to the party on Friday?",
+                                                            "explanation":  "Question form: Are + you + verb-ING."
+                                                        },
+                                                        {
+                                                            "wrong":  "She is not attend the training next week.",
+                                                            "correct":  "She is not attending the training next week.",
+                                                            "explanation":  "Negative: is not + verb-ING (attending)."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "Your manager asks if you can join a meeting on Tuesday at 2 PM. You already have a confirmed dentist appointment at that exact time. What do you say?",
+                                      "options":  [
+                                                      "I will go to the dentist maybe on Tuesday.",
+                                                      "I\u0027m seeing my dentist at 2 PM on Tuesday â€” I already have that appointment. Can we do a different time?",
+                                                      "I don\u0027t come on Tuesday.",
+                                                      "I see the dentist on Tuesday."
+                                                  ],
+                                      "correct":  "I\u0027m seeing my dentist at 2 PM on Tuesday â€” I already have that appointment. Can we do a different time?",
+                                      "explanation":  "A booked appointment = present continuous for future. The response is polite and suggests an alternative."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Talk about your real or imagined plans for this coming weekend. Use the present continuous for future and future time expressions.",
+                                      "prompt":  "What are you doing this weekend? Describe at least 4 arranged plans using present continuous.",
+                                      "example_response":  "This weekend is quite busy for me! On Saturday morning, I\u0027m going to the gym with my friend Ravi â€” we\u0027ve been planning it since last week. In the afternoon, I\u0027m helping my mother shop for the upcoming festival. She wants to buy new clothes and some decoration items, so we\u0027re going to T. Nagar. On Saturday evening, I\u0027m watching a movie with my cousins â€” we\u0027ve already bought the tickets online for the 7 PM show. On Sunday, I\u0027m not doing anything very special in the morning, just relaxing at home. But in the afternoon, I\u0027m meeting my college friend Ananya for lunch at a restaurant near my place. We\u0027re catching up after almost three months.",
+                                      "key_phrases":  [
+                                                          "I\u0027m going",
+                                                          "we\u0027re meeting",
+                                                          "she\u0027s arriving",
+                                                          "I\u0027m not working",
+                                                          "are you coming"
+                                                      ],
+                                      "min_words":  80
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Imagine you are a very busy person next week. Describe your week using present continuous for future plans â€” at least one plan per day.",
+                                      "prompt":  "Describe a busy week ahead using present continuous. Include: who you are meeting, where you are going, and what you are doing each day.",
+                                      "example_response":  "Next week is going to be very hectic! On Monday, I\u0027m presenting the monthly report to my manager at 10 AM. I\u0027ve already prepared the slides. On Tuesday, I\u0027m having lunch with a client from Mumbai who is visiting our Bangalore office. On Wednesday, I\u0027m attending a digital marketing workshop all day â€” my company has enrolled me. Thursday is slightly free â€” I\u0027m only having a team check-in at 4 PM. But on Friday, I\u0027m flying to Chennai for a family event. My cousin is getting married on Saturday. My flight is at 6 AM, so I\u0027m waking up at 4! On Saturday afternoon, I\u0027m attending the wedding ceremony, and on Sunday, I\u0027m coming back to Bangalore in the evening.",
+                                      "key_phrases":  [
+                                                          "I\u0027m presenting",
+                                                          "I\u0027m having lunch",
+                                                          "I\u0027m attending",
+                                                          "I\u0027m flying",
+                                                          "I\u0027m coming back"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete Priya\u0027s message to her friend using present continuous for future.",
+                                      "text":  "Hi Meera!\n\nJust wanted to update you on my plans. I ___ (1/not work) this Friday â€” I took a leave. On Friday morning, I ___ (2/go) to the art gallery with my sister. We already bought the tickets! In the evening, I ___ (3/join) the family for dinner at Grandma\u0027s house. On Saturday, my friend Riya ___ (4/visit) from Hyderabad â€” she ___ (5/stay) with us for two days. We ___ (6/take) her to some good restaurants in Chennai since it\u0027s her first visit. Are you free on Sunday? What ___ you ___ (7/do)?",
+                                      "answers":  [
+                                                      "am not working",
+                                                      "am going",
+                                                      "am joining",
+                                                      "is visiting",
+                                                      "is staying",
+                                                      "are taking",
+                                                      "are / doing"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1001_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 1 complete â€” Present continuous for future",
+                                      "key_points":  [
+                                                         "Use am/is/are + -ing for FIXED, ARRANGED future plans",
+                                                         "Always use a future time expression: tonight, tomorrow, next week, on Friday",
+                                                         "Question: Are you + verb-ing + time?",
+                                                         "Negative: I\u0027m not / She isn\u0027t + verb-ing",
+                                                         "This tense shows the plan is confirmed â€” not just a thought or prediction"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Going to â€” review and deepen"
+                                  }
+                  }
+              ]
+}

@@ -8,6 +8,7 @@ import '@/styles/lesson.css';
 
 const speak = (text: string) => {
   if (typeof window !== 'undefined' && window.speechSynthesis) {
+    window.speechSynthesis.cancel(); // Fix Chrome bug: clear queue before speaking
     const u = new SpeechSynthesisUtterance(text);
     u.lang = 'en-US';
     u.rate = 0.85;
@@ -20,6 +21,7 @@ const speak = (text: string) => {
 // ─────────────────────────────────────────────────────────────────────────────
 function buildSteps(lesson: any): any[] {
   const steps: any[] = [];
+  const fallbackExplanation = lesson.content_data?.content_manifest?.grammar_point || lesson.title || '';
 
   // New JSON format (A1-unit 1 files) — tasks array at root
   const tasks: any[] = lesson.tasks ?? lesson.content_data?.tasks ?? [];
@@ -30,64 +32,138 @@ function buildSteps(lesson: any): any[] {
 
       switch (task.type) {
         // ── Teaching cards ──────────────────────────────────────────────────
-        case 'learn_card':
+        case 'learn_card': {
+          // Old format: grammar_focus / example_sentences / vocab_focus at content level
+          const oldExamples = c.example_sentences?.map((s: string) => ({ sentence: s }));
+          const oldItems = c.vocab_focus?.map((v: string) => ({ phrase: v }));
           steps.push({
             type: 'LEARN_CARD',
             data: {
-              title: task.title,
-              explanation: c.explanation,
-              items: c.items,               // [{phrase, note}]
+              title: task.title ?? task.prompt,
+              explanation: c.explanation ?? c.grammar_focus,
+              items: c.items ?? oldItems,   // [{phrase, note}] — or old vocab_focus
               groups: c.groups,             // [{group, items}]
               table: c.table,               // [{subject, verb, example}]
+              forms: c.forms,               // [{form, examples[]}] — neg/question forms
+              contractions: c.contractions, // {full: short} map
               short_forms: c.short_forms,
-              examples: c.examples,         // [{statement, question, yes_reply, no_reply}]
+              examples: c.examples ?? oldExamples, // [{sentence,note}] or strings
               rule: c.rule,                 // grammar rule string
               rules: c.rules,               // [{rule, examples}]
-              patterns: c.patterns,         // [{pattern, examples}]
+              patterns: c.patterns,         // [{pattern, examples}] or [{phrase, note, examples}]
               summary: c.summary,           // [{lesson, topic}] — for review cards
               congratulations: c.congratulations,
               all_grammar_covered: c.all_grammar_covered,
               all_vocabulary_covered: c.all_vocabulary_covered,
-              what_you_learned: c.what_you_learned,
-              tip: c.tip,
+              what_you_learned: c.what_you_learned || [],
+              // Grammar fields
+              structure: c.structure,       // {positive, negative, question} or string
+              uses: c.uses,                 // [{use, examples[]}]
+              common_errors: c.common_errors || (c.common_error ? [c.common_error] : []),
+              verbs: c.verbs,
+              grammar_note: c.grammar_note,               // string
+              comparison: c.comparison,     // [{less_formal, more_polite}] or [{tense, use, examples}]
+              // Doctor / restaurant lesson fields
+              advice_phrases: c.advice_phrases,           // [{phrase, note}]
+              doctor_questions: c.doctor_questions,       // [{question, meaning}]
+              replies_from_waiter: c.replies_from_waiter, // [string]
+              // Feelings lesson
+              giving_reason: c.giving_reason,             // {pattern, examples[]}
+              asking: c.asking,                           // [string] — questions to ask
+              // Other misc fields
               time_patterns: c.time_patterns,
               ordinals: c.ordinals,
               saying_dates: c.saying_dates,
               formation: c.formation,
-              structure: c.structure,
               negative: c.negative,
               question: c.question,
-              comparison: c.comparison,
               key_signal_words: c.key_signal_words,
+              // Lesson 3 / invitation lesson fields
+              phrases: c.phrases,            // [{phrase, note}] — alt key for items
+              accepting: c.accepting,         // [{phrase, note}]
+              refusing_politely: c.refusing_politely, // [{phrase, note}]
+              contraction: c.contraction,     // string — singular form (Lesson 2)
+              // Lesson 6 comparative fields
+              irregular: c.irregular,        // [{adjective, comparative, superlative}]
+              superlatives: c.superlatives,  // {explanation, rules: [{type, form, examples[]}]}
+              // Social English / small talk fields
+              topics: c.topics,             // [{topic, starter}] — safe conversation topics
+              reactions: c.reactions,       // [{situation, reactions[]}] — how to react
+              // Modal verbs comparison
+              could_vs_can: c.could_vs_can, // [{aspect, can, could}] comparison table
+              // A2 Unit 1+ fields
+              card_title: c.title,           // renamed to avoid clash with task.title
+              body: c.body,
+              vocabulary: c.vocabulary,      // [{word, meaning, example}]
+              signs: c.signs,                // [{sign, meaning}]
+              generic_content: c.content,    // renamed to avoid clash
+              // Round 2 - more A1 fields
+              pairs: c.pairs,                // [{adj, opposite}]
+              scale: c.scale,                // [{word, strength, example}]
+              positions: c.positions,        // [{position, rule, examples[]}]
+              connectors: c.connectors,      // [{word, use, example}]
+              usage: c.usage,                // [{form, use, examples[]}]
+              example_story_sentence: c.example_story_sentence, // string
+              // Round 3 - final A1/A2 fields
+              vs_simple_past: c.vs_simple_past,
+              important: c.important,
+              quick_test: c.quick_test,
+              word_order: c.word_order,
+              interesting_facts: c.interesting_facts,
+              contrast_pattern: c.contrast_pattern,
+              short_answers: c.short_answers,
+              questions: c.questions,
+              tip: c.tip ?? c.context,       // string tip or context
             },
           });
           break;
+        }
 
-        case 'listen_repeat':
-          // Show as a LEARN_CARD with pronunciation instructions + speak buttons
+        case 'listen_repeat': {
+          let listenPhrases = c.phrases ?? c.items;
+          if (!listenPhrases && c.sentences && Array.isArray(c.sentences)) {
+            listenPhrases = c.sentences.map((s: string) => ({ text: s, audio_key: c.audio_key }));
+          }
+          if (!listenPhrases && c.target_phrases) {
+            listenPhrases = c.target_phrases.map((t: string) => ({ text: t, audio_key: c.audio_key }));
+          }
           steps.push({
             type: 'LISTEN_REPEAT',
             data: {
-              title: task.title,
-              instruction: c.instruction,
-              phrases: c.phrases, // [{text, audio_key}]
+              title: task.title ?? task.prompt ?? 'Listen & Repeat',
+              instruction: c.instruction ?? task.instruction,
+              phrases: listenPhrases,
+              pronunciation_groups: c.pronunciation_groups,
             },
           });
           break;
+        }
 
-        // ── Multiple choice ─────────────────────────────────────────────────
         case 'mcq':
         case 'scenario_mcq': {
-          const correctIdx = c.correct_index ?? 0;
+          const mcqQuestion = (c.scenario ?? task.scenario)
+            ? `📍 ${c.scenario ?? task.scenario}\n\n${c.question ?? task.question ?? task.prompt ?? ''}`
+            : (c.question ?? task.question ?? task.prompt ?? '');
+          const mcqOptions = c.options ?? task.options ?? [];
+          
+          let correctIdx = c.correct_index ?? task.correct_index ?? task.correct_option_index;
+          const correctAnsStr = c.correct ?? c.correct_answer ?? c.answer ?? task.correct ?? task.correct_answer ?? task.answer;
+          
+          if (correctIdx === undefined && correctAnsStr !== undefined) {
+            correctIdx = mcqOptions.indexOf(correctAnsStr);
+          }
+          if (correctIdx === undefined || correctIdx === -1) {
+            correctIdx = 0;
+          }
+
           steps.push({
             type: 'MULTIPLE_CHOICE',
             data: {
-              question: c.scenario
-                ? `📍 ${c.scenario}\n\n${c.question}`
-                : c.question,
-              options: c.options,
+              question: mcqQuestion,
+              options: mcqOptions,
               correct_index: correctIdx,
-              explanation: c.explanation,
+              correct_answer: correctAnsStr,
+              explanation: c.explanation ?? task.explanation ?? fallbackExplanation,
             },
           });
           break;
@@ -95,30 +171,74 @@ function buildSteps(lesson: any): any[] {
 
         // ── Fill in the blank ────────────────────────────────────────────────
         case 'fill_blank': {
+          const items = task.items ?? c.items ?? c.sentences;
+          const paragraphText = task.paragraph ?? c.paragraph ?? c.text;
+          const paragraphAnswers = task.answers ?? c.answers;
+
           if (c.blanks && Array.isArray(c.blanks)) {
-            // Multi-blank → ONE combined step so user fills all blanks before checking
+            // Multi-blank new format
             steps.push({
               type: 'FILL_BLANK_MULTI',
               data: {
-                sentence: c.sentence,   // original with _+ placeholders
-                blanks: c.blanks,       // [{ position, options, correct }]
-                explanation: c.explanation,
+                sentence: c.sentence,
+                blanks: c.blanks,
+                explanation: c.explanation ?? task.explanation ?? fallbackExplanation,
+              },
+            });
+          } else if (items && Array.isArray(items)) {
+            // Loop through each item/sentence and push FILL_BLANK steps
+            const allAnswers = Array.from(new Set(items.map(item => item.answer ?? item.correct ?? item.answers?.[0] ?? '').filter(Boolean)));
+            
+            for (const item of items) {
+              const rawSentence = item.sentence ?? item.text ?? '';
+              const sentence = rawSentence.replace(/_+/, '[___]');
+              const correct = item.answer ?? item.correct ?? (item.answers ? item.answers[0] : '');
+              const fillOptions = item.options ?? (allAnswers.length > 1 ? allAnswers : [correct]);
+              
+              steps.push({
+                type: 'FILL_BLANK',
+                data: {
+                  sentence,
+                  options: fillOptions,
+                  correct,
+                  explanation: item.explanation ?? item.hint ?? item.context ?? fallbackExplanation,
+                  full_sentence: rawSentence,
+                },
+              });
+            }
+          } else if (paragraphText && paragraphAnswers && Array.isArray(paragraphAnswers)) {
+            let sentence = paragraphText;
+            sentence = sentence.replace(/_+/g, '_____');
+            sentence = sentence.replace(/\((\d+)\//g, '('); // converts (1/not work) to (not work)
+
+            const options = Array.from(new Set(paragraphAnswers));
+            const blanks = paragraphAnswers.map(ans => ({
+              options: options,
+              correct: ans
+            }));
+
+            steps.push({
+              type: 'FILL_BLANK_MULTI',
+              data: {
+                sentence,
+                blanks,
+                explanation: c.explanation ?? task.explanation ?? fallbackExplanation,
               },
             });
           } else {
-            // Single blank
-            let sentence = c.sentence;
-            if (/_+/.test(sentence)) {
-              sentence = sentence.replace(/_+/, '[___]');
-            }
+            // Single blank — handle old format (task.question / task.answer)
+            const rawSentence = c.sentence ?? task.question ?? '';
+            const sentence = rawSentence.replace(/_+/, '[___]');
+            const correct = c.correct ?? c.answer ?? task.answer ?? (task.answers ? task.answers[0] : '');
+            const fillOptions = c.options ?? task.options ?? (correct ? [correct] : []);
             steps.push({
               type: 'FILL_BLANK',
               data: {
                 sentence,
-                options: c.options,
-                correct: c.correct,
-                explanation: c.explanation,
-                full_sentence: c.sentence,
+                options: fillOptions,
+                correct,
+                explanation: c.explanation ?? task.explanation ?? fallbackExplanation,
+                full_sentence: rawSentence,
               },
             });
           }
@@ -127,27 +247,50 @@ function buildSteps(lesson: any): any[] {
 
         // ── Sort / scramble words ────────────────────────────────────────────
         case 'sort_words': {
-          const shuffled = [...(c.words ?? [])].sort(() => Math.random() - 0.5);
-          steps.push({
-            type: 'SCRAMBLE',
-            data: {
-              instruction: c.instruction,
-              shuffled_words: shuffled,
-              correct_sequence: c.correct_sentence,
-              alternative_correct: c.alternative_correct,
-              explanation: c.explanation,
-            },
-          });
+          const items = task.items ?? c.items;
+          if (items && Array.isArray(items)) {
+            for (const item of items) {
+              const wordList = item.words ?? item.scramble ?? [];
+              const shuffled = [...wordList].sort(() => Math.random() - 0.5);
+              steps.push({
+                type: 'SCRAMBLE',
+                data: {
+                  instruction: item.instruction ?? c.instruction ?? task.prompt ?? task.instruction ?? 'Rearrange the words to make a correct sentence.',
+                  shuffled_words: shuffled,
+                  correct_sequence: item.answer ?? item.correct_sentence ?? '',
+                  correct_answer: item.answer ?? item.correct_sentence ?? '',
+                  alternative_correct: item.alternative_correct,
+                  explanation: item.explanation ?? fallbackExplanation,
+                },
+              });
+            }
+          } else {
+            const wordList = c.words ?? task.scramble ?? [];
+            const shuffled = [...wordList].sort(() => Math.random() - 0.5);
+            steps.push({
+              type: 'SCRAMBLE',
+              data: {
+                instruction: c.instruction ?? task.prompt ?? 'Rearrange the words to make a correct sentence.',
+                shuffled_words: shuffled,
+                correct_sequence: c.correct_sentence ?? c.answer ?? task.answer ?? '',
+                correct_answer: c.correct_sentence ?? c.answer ?? task.answer ?? '',
+                alternative_correct: c.alternative_correct,
+                explanation: c.explanation ?? task.explanation ?? fallbackExplanation,
+              },
+            });
+          }
           break;
         }
 
         // ── Matching pairs ──────────────────────────────────────────────────
-        case 'match_pairs': {
-          const pairs = (c.pairs ?? []).map((p: any) => ({
-            left: p.prompt,
-            right: p.answer,
+        case 'match_pairs':
+        case 'MATCHING': {
+          const rawPairs = c.pairs ?? task.data?.pairs ?? task.pairs ?? [];
+          if (!rawPairs || rawPairs.length === 0) break;
+          const pairs = rawPairs.map((p: any) => ({
+            left: p.prompt ?? p.left,
+            right: p.answer ?? p.right,
           }));
-          // Shuffle the right column
           const rights = pairs.map((p: any) => p.right).sort(() => Math.random() - 0.5);
           const shuffledPairs = pairs.map((p: any, i: number) => ({
             left: p.left,
@@ -156,61 +299,141 @@ function buildSteps(lesson: any): any[] {
           steps.push({
             type: 'MATCHING',
             data: {
-              instruction: c.instruction,
+              instruction: c.instruction ?? task.instruction ?? task.data?.instruction ?? task.prompt ?? 'Match the pairs',
               pairs: shuffledPairs,
-              // correct pairs keyed by left text
               correct_map: Object.fromEntries(pairs.map((p: any) => [p.left, p.right])),
             },
           });
           break;
         }
 
-        case 'dialogue':
+        case 'dialogue': {
+          let dialogueLines = c.dialogue ?? task.dialogue;
+          let dialogueContext = c.context ?? c.setting ?? task.context ?? task.setting;
+          let compQuestions = c.comprehension_questions ?? task.comprehension_questions;
+
+          if (dialogueLines) {
+            if (typeof dialogueLines === 'object' && !Array.isArray(dialogueLines)) {
+              if (Array.isArray(dialogueLines.turns)) {
+                dialogueContext = dialogueContext ?? dialogueLines.context ?? dialogueLines.setting;
+                compQuestions = compQuestions ?? dialogueLines.comprehension_questions;
+                dialogueLines = dialogueLines.turns.map((t: any) => ({ speaker: t.speaker, line: t.text ?? t.line }));
+              }
+            } else if (Array.isArray(dialogueLines)) {
+              dialogueLines = dialogueLines.map((t: any) => ({ speaker: t.speaker, line: t.text ?? t.line }));
+            }
+          }
+
           steps.push({
             type: 'DIALOGUE',
             data: {
-              title: task.title,
-              context: c.context,
-              dialogue: c.dialogue,
-              questions: c.comprehension_questions,
+              title: task.title ?? task.prompt ?? 'Dialogue Practice',
+              context: dialogueContext,
+              dialogue: dialogueLines,
             },
           });
+
+          if (compQuestions && Array.isArray(compQuestions)) {
+            compQuestions.forEach((q: any) => {
+              if (q.options) {
+                let correctIdx = q.correct_index ?? q.correct_option_index;
+                const correctAnsStr = q.correct ?? q.correct_answer;
+                if (correctIdx === undefined && correctAnsStr !== undefined) {
+                  correctIdx = q.options.indexOf(correctAnsStr);
+                }
+                if (correctIdx === undefined || correctIdx === -1) {
+                  correctIdx = 0;
+                }
+                steps.push({
+                  type: 'MULTIPLE_CHOICE',
+                  category: task.category || 'dialogue_reading',
+                  data: {
+                    question: `Dialogue Question:\n\n${q.question}`,
+                    options: q.options,
+                    correct_index: correctIdx,
+                    correct_answer: correctAnsStr,
+                    explanation: q.explanation || 'Based on the dialogue you just read.',
+                  },
+                });
+              }
+            });
+          }
           break;
+        }
 
         // ── Speaking ────────────────────────────────────────────────────────
-        case 'speaking':
+        case 'speaking': {
+          const speakTitle = task.title ?? 'Speaking Practice';
+          const speakInstruction = c.instruction ?? task.instruction ?? null;
+          const speakPrompt = task.prompt ?? c.prompt ?? null;
+          const script = c.example_response ?? task.example_response ?? null;
+          const keyPhrases = c.key_phrases ?? task.key_phrases ?? [];
+          const minWords = c.min_words ?? task.min_words ?? null;
           steps.push({
             type: 'SPEAKING',
             data: {
-              title: task.title,
-              instruction: c.instruction,
-              script: c.example_response || c.prompt,
-              prompt: c.prompt,
-              key_phrases: c.key_phrases,
-              min_words: c.min_words,
-            },
-          });
-          break;
-
-        // ── Error correction ────────────────────────────────────────────────
-        case 'error_correction': {
-          const correctIdx = c.correct_index ?? 0;
-          steps.push({
-            type: 'ERROR_CORRECTION',
-            data: {
-              sentence: c.wrong_sentence ?? c.wrong_text ?? '',
-              question: c.instruction ?? 'Choose the correct version:',
-              options: c.options,
-              correct_index: correctIdx,
-              explanation: c.explanation,
+              title: speakTitle,
+              instruction: speakInstruction,
+              script,
+              prompt: speakPrompt,
+              key_phrases: keyPhrases,
+              min_words: minWords,
+              explanation: c.explanation ?? task.explanation ?? fallbackExplanation,
             },
           });
           break;
         }
 
-        // ── Lesson summary ───────────────────────────────────────────────────
+        // ── Error correction ────────────────────────────────────────────────
+        case 'error_correction': {
+          const items = task.items ?? c.items ?? c.sentences;
+          if (items && Array.isArray(items)) {
+            for (const item of items) {
+              const wrongSentence = item.wrong ?? item.sentence ?? '';
+              let corrSentence = item.correct ?? item.correction ?? '';
+              if (item.error && item.correction && wrongSentence.includes(item.error)) {
+                corrSentence = wrongSentence.replace(item.error, item.correction);
+              }
+              const errInstruction = item.instruction ?? c.instruction ?? task.prompt ?? task.instruction ?? 'Choose the correct version:';
+              const errOptions = item.options ?? [wrongSentence, corrSentence];
+              const errCorrectIdx = item.correct_index ?? 1;
+              steps.push({
+                type: 'ERROR_CORRECTION',
+                data: {
+                  sentence: wrongSentence,
+                  question: errInstruction,
+                  options: errOptions,
+                  correct_index: errCorrectIdx,
+                  explanation: item.explanation || (corrSentence ? `Correct: ${corrSentence}` : '') || fallbackExplanation,
+                },
+              });
+            }
+          } else {
+            const wrongSentence = c.wrong_sentence ?? c.wrong_text ?? task.wrong_sentence ?? '';
+            const corrSentence = task.correct_sentence ?? '';
+            const errInstruction = c.instruction ?? task.instruction ?? 'Choose the correct version:';
+            const errOptions = c.options ?? (corrSentence ? [wrongSentence, corrSentence] : []);
+            const errCorrectIdx = c.correct_index ?? (corrSentence ? 1 : 0);
+            steps.push({
+              type: 'ERROR_CORRECTION',
+              data: {
+                sentence: wrongSentence,
+                question: errInstruction,
+                options: errOptions,
+                correct_index: errCorrectIdx,
+                explanation: c.explanation || task.explanation || (corrSentence ? `Correct: ${corrSentence}` : '') || fallbackExplanation,
+              },
+            });
+          }
+          break;
+        }
+
         case 'lesson_summary':
-          // We handle this as the SUMMARY step — skip, we add one at the end
+          lesson._summary_data = {
+            title: task.title ?? task.prompt,
+            what_you_learned: c.what_you_learned ?? c.key_points ?? c.grammar_summary ?? c.checklist ?? [],
+            next_lesson_title: c.next_lesson_title ?? c.next_lesson ?? c.next_unit ?? '',
+          };
           break;
 
         // ── Family tree ──────────────────────────────────────────────────────
@@ -243,7 +466,20 @@ function buildSteps(lesson: any): any[] {
       }
     }
 
-    steps.push({ type: 'SUMMARY', data: { lesson } });
+    const finalWhatLearned = lesson._summary_data?.what_you_learned && lesson._summary_data.what_you_learned.length > 0
+      ? lesson._summary_data.what_you_learned
+      : ['You completed another lesson toward your goal!'];
+
+    steps.push({ 
+      type: 'SUMMARY', 
+      data: { 
+        title: 'Lesson Complete!',
+        next_lesson_title: 'Ready for the next one?',
+        ...(lesson._summary_data || {}),
+        what_you_learned: finalWhatLearned,
+        lesson
+      } 
+    });
     return steps;
   }
 
@@ -293,7 +529,7 @@ export default function LessonPage() {
 
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [inputText, setInputText] = useState('');
-  const [scrambleAnswer, setScrambleAnswer] = useState<string[]>([]);
+  const [scrambleAnswer, setScrambleAnswer] = useState<any[]>([]);
 
   // Matching state
   const [matchingSelections, setMatchingSelections] = useState<number[]>([]);
@@ -319,8 +555,23 @@ export default function LessonPage() {
   // Listen-repeat: which phrases have been played
   const [playedPhrases, setPlayedPhrases] = useState<number[]>([]);
   const [useTypingFallback, setUseTypingFallback] = useState(false);
+  const [authorized, setAuthorized] = useState(false);
 
   useEffect(() => {
+    const token = localStorage.getItem('token') || localStorage.getItem('thingual_token');
+    const user = localStorage.getItem('thingual_user');
+    if (!token || !user) {
+      localStorage.removeItem('token');
+      localStorage.removeItem('thingual_token');
+      localStorage.removeItem('thingual_user');
+      window.location.href = '/';
+    } else {
+      setAuthorized(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!authorized) return;
     // ── Reset step position for every new lesson ──
     setCurrentStep(0);
     setLesson(null);
@@ -355,28 +606,39 @@ export default function LessonPage() {
         recognitionRef.current.onend = () => setIsRecording(false);
       }
     }
-  }, [id]);
+  }, [id, authorized]);
+
+  const lastStepRef = useRef(currentStep);
 
   useEffect(() => {
-    setStepStartTime(Date.now());
-    setCanContinue(false);
-    setSelectedOption(null);
-    setFillSelected(null);
-    setMultiBlankAnswers([]);
-    setActiveBlankIdx(0);
-    setInputText('');
-    setScrambleAnswer([]);
-    setMatchingSelections([]);
-    setMatchingWrongPairs([]);
-    setMatchingMistakes(0);
-    setQuizChecked(false);
-    setFeedback({ show: false, status: 'correct', title: '', msg: '' });
-    setPlayedPhrases([]);
-    setUseTypingFallback(false);
+    if (!authorized) return;
 
-    if (steps[currentStep]?.type !== 'MATCHING') {
-      setMatchingMatched([]);
+    // Only reset state if the step index actually changed!
+    const stepChanged = lastStepRef.current !== currentStep;
+    lastStepRef.current = currentStep;
+
+    if (stepChanged) {
+      setCanContinue(false);
+      setSelectedOption(null);
+      setFillSelected(null);
+      setMultiBlankAnswers([]);
+      setActiveBlankIdx(0);
+      setInputText('');
+      setScrambleAnswer([]);
+      setMatchingSelections([]);
+      setMatchingWrongPairs([]);
+      setMatchingMistakes(0);
+      setQuizChecked(false);
+      setFeedback({ show: false, status: 'correct', title: '', msg: '' });
+      setPlayedPhrases([]);
+      setUseTypingFallback(false);
+
+      if (steps[currentStep]?.type !== 'MATCHING') {
+        setMatchingMatched([]);
+      }
     }
+
+    setStepStartTime(Date.now());
 
     const step = steps[currentStep];
     if (!step) return;
@@ -390,10 +652,10 @@ export default function LessonPage() {
     }
 
     // Non-quiz steps: allow immediate continue
-    if (['LEARNING_TIP', 'FLASHCARD', 'LEARN_CARD', 'LISTEN_REPEAT', 'FAMILY_TREE', 'SUMMARY', 'OLD_VOCAB', 'OLD_EXAMPLE'].includes(step.type)) {
+    if (['LEARNING_TIP', 'FLASHCARD', 'LEARN_CARD', 'LISTEN_REPEAT', 'FAMILY_TREE', 'SUMMARY', 'OLD_VOCAB', 'OLD_EXAMPLE', 'DIALOGUE'].includes(step.type)) {
       setCanContinue(true);
     }
-  }, [currentStep, steps]);
+  }, [currentStep, steps, authorized]);
 
   const step = steps[currentStep];
   const progress = steps.length > 1 ? ((currentStep) / (steps.length - 1)) * 100 : 0;
@@ -419,27 +681,28 @@ export default function LessonPage() {
 
   const checkAnswer = async () => {
     let isCorrect = false;
-    let correctMsg = 'Correct!';
+    let correctAnswerText = '';
+    let explanationText = step.data.explanation || '';
 
     if (step.type === 'MULTIPLE_CHOICE' || step.type === 'REVIEW') {
       isCorrect = selectedOption === step.data.correct_index;
-      correctMsg = step.data.explanation || step.data.options?.[step.data.correct_index];
+      correctAnswerText = step.data.options?.[step.data.correct_index] ?? '';
     } else if (step.type === 'FILL_BLANK') {
       const correctOpt = step.data.options?.[fillSelected as number];
       isCorrect = correctOpt?.toLowerCase() === step.data.correct?.toLowerCase();
-      correctMsg = step.data.explanation || `Correct answer: ${step.data.correct}`;
+      correctAnswerText = step.data.correct ?? '';
     } else if (step.type === 'TRANSLATE' || step.type === 'LISTENING') {
       const ans = step.type === 'TRANSLATE' ? step.data.correct_variants : [step.data.correct_answer];
       isCorrect = ans.some((a: string) => a.toLowerCase().trim() === inputText.toLowerCase().trim());
-      correctMsg = ans[0];
+      correctAnswerText = ans[0] ?? '';
     } else if (step.type === 'SCRAMBLE') {
       // Normalize both sides: lowercase + strip leading/trailing punctuation
-      const normalize = (s: string) => s.toLowerCase().replace(/[.,!?;:'"]+$/g, '').trim();
-      const userStr = normalize(scrambleAnswer.join(' '));
-      const targetStr = normalize(step.data.correct_sequence ?? '');
+      const normalize = (s: string) => s.toLowerCase().replace(/[.,!?;:'"]+/g, '').trim();
+      const userStr = normalize(scrambleAnswer.map(idx => step.data.shuffled_words[idx]).join(' '));
+      const targetStr = normalize(step.data.correct_sequence || step.data.correct_answer || '');
       const altStr = normalize(step.data.alternative_correct ?? '');
       isCorrect = userStr === targetStr || (altStr.length > 0 && userStr === altStr);
-      correctMsg = step.data.correct_sequence + (step.data.explanation ? ` (${step.data.explanation})` : '');
+      correctAnswerText = step.data.correct_sequence || step.data.correct_answer || '';
     } else if (step.type === 'FILL_BLANK_MULTI') {
       const blanks: any[] = step.data.blanks ?? [];
       isCorrect = blanks.every((blank: any, i: number) => {
@@ -447,14 +710,14 @@ export default function LessonPage() {
         if (selIdx == null) return false;
         return (blank.options?.[selIdx] ?? '').toLowerCase() === (blank.correct ?? '').toLowerCase();
       });
-      correctMsg = step.data.explanation || 'Check your answers!';
+      correctAnswerText = blanks.map((b: any) => b.correct).join(', ');
     } else if (step.type === 'SPEAKING') {
       const target = (step.data.script || '').toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
       const actual = inputText.toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
       const keyPhrases: string[] = step.data.key_phrases ?? [];
       const phraseHits = keyPhrases.filter(kp => actual.includes(kp.toLowerCase().replace(/[.,]/g, '')));
       isCorrect = actual.length > 5 && (phraseHits.length >= Math.ceil(keyPhrases.length * 0.4) || actual.includes(target) || target.includes(actual));
-      correctMsg = step.data.script;
+      correctAnswerText = step.data.script ?? '';
 
       if (useTypingFallback && !step._isRetry) {
         setSteps(prev => {
@@ -468,11 +731,11 @@ export default function LessonPage() {
       }
     } else if (step.type === 'ERROR_CORRECTION') {
       isCorrect = selectedOption === step.data.correct_index;
-      correctMsg = step.data.explanation || '';
+      correctAnswerText = step.data.options?.[step.data.correct_index] ?? '';
     } else if (step.type === 'SENTENCE_BUILDER') {
-      const normalize2 = (s: string) => s.toLowerCase().replace(/[.,!?;:'"]+$/g, '').trim();
-      isCorrect = normalize2(scrambleAnswer.join(' ')) === normalize2(step.data.correct_answer ?? '');
-      correctMsg = step.data.correct_answer;
+      const normalize2 = (s: string) => s.toLowerCase().replace(/[.,!?;:'"]+/g, '').trim();
+      isCorrect = normalize2(scrambleAnswer.map(idx => step.data.options[idx]).join(' ')) === normalize2(step.data.correct_answer ?? '');
+      correctAnswerText = step.data.correct_answer ?? '';
     }
 
     setQuizChecked(true);
@@ -485,23 +748,60 @@ export default function LessonPage() {
       }
       const comps = ['Awesome!', 'Good!', 'Quite well!', 'Perfect!', 'Excellent!', 'Great job!', 'Spot on!'];
       const randomTitle = comps[Math.floor(Math.random() * comps.length)];
-      setFeedback({ show: true, status: 'correct', title: randomTitle, msg: step.data.explanation ? `Explanation: ${step.data.explanation}` : '' });
+      setFeedback({ 
+        show: true, 
+        status: 'correct', 
+        title: randomTitle, 
+        msg: explanationText ? `Explanation: ${explanationText}` : '' 
+      });
     } else {
-      setFeedback({ show: true, status: 'wrong', title: 'Correct answer:', msg: correctMsg });
+      let msgText = correctAnswerText;
+      if (explanationText) {
+        msgText += `\n\nExplanation: ${explanationText}`;
+      }
+      setFeedback({ 
+        show: true, 
+        status: 'wrong', 
+        title: 'Correct answer:', 
+        msg: msgText 
+      });
+
+      const isRetryable = !['MATCHING', 'DIALOGUE', 'SPEAKING', 'SUMMARY'].includes(step.type);
+      if (isRetryable) {
+        setSteps(prev => {
+          const clone = { ...step };
+          const newArr = [...prev];
+          const summaryIdx = newArr.findIndex(s => s.type === 'SUMMARY');
+          if (summaryIdx >= 0) {
+            newArr.splice(summaryIdx, 0, clone);
+          } else {
+            newArr.push(clone);
+          }
+          return newArr;
+        });
+      }
     }
     setCanContinue(true);
     logStats(isCorrect);
   };
 
   const goNext = () => {
+    setFeedback({ show: false, status: 'correct', title: '', msg: '' });
+    setQuizChecked(false);
     if (currentStep < steps.length - 1) setCurrentStep(prev => prev + 1);
   };
 
   const completeLesson = async () => {
     const accuracy = totalQuiz > 0 ? (correctCount / totalQuiz) : 1.0;
-    try { await lessonService.completeLesson(id, { accuracy }); } catch (e) {}
-    router.push('/dashboard');
+    try {
+      await lessonService.completeLesson(id, { accuracy });
+    } catch (e) {
+      console.error('completeLesson API error:', e);
+    }
+    // Use full page reload so dashboard always fetches fresh streak + progress from server
+    window.location.href = '/dashboard';
   };
+
 
   // ── MATCHING logic — uses correct_map for validation ──────────────────────
   const handleMatchingClick = (idx: number, isLeft: boolean) => {
@@ -564,6 +864,14 @@ export default function LessonPage() {
     }
   };
 
+  if (!authorized) {
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#f8fafc', fontFamily: "'Inter', sans-serif" }}>
+        <div style={{ fontSize: '16px', fontWeight: 700, color: '#2563EB' }}>Verifying session…</div>
+      </div>
+    );
+  }
+
   if (loading) return <div className="lesson-loading">Loading the fun...</div>;
   if (!lesson || !step) return <div className="lesson-loading">Lesson not found.</div>;
 
@@ -611,6 +919,218 @@ export default function LessonPage() {
                   {d.congratulations && (
                     <div style={{ background: 'linear-gradient(135deg,#4f46e5,#7c3aed)', borderRadius: '16px', padding: '20px 24px', marginBottom: '20px', color: 'white' }}>
                       <p style={{ fontSize: '15px', lineHeight: 1.7, margin: 0 }}>{d.congratulations}</p>
+                    </div>
+                  )}
+
+                  {/* A2 Card Title (if different from step title) */}
+                  {d.card_title && d.card_title !== d.title && (
+                    <h3 style={{ fontSize: '17px', fontWeight: 700, color: '#1e293b', marginBottom: '12px' }}>{d.card_title}</h3>
+                  )}
+
+                  {/* Body Text */}
+                  {d.body && (
+                    <p style={{ fontSize: '14px', color: '#475569', lineHeight: 1.6, marginBottom: '16px', whiteSpace: 'pre-wrap' }}>{d.body}</p>
+                  )}
+
+                  {/* Generic Content */}
+                  {d.generic_content && typeof d.generic_content === 'string' && (
+                    <p style={{ fontSize: '14px', color: '#475569', lineHeight: 1.6, marginBottom: '16px', whiteSpace: 'pre-wrap' }}>{d.generic_content}</p>
+                  )}
+
+                  {/* Vocabulary — [{word, meaning, example}] */}
+                  {d.vocabulary && d.vocabulary.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '16px' }}>
+                      {d.vocabulary.map((v: any, i: number) => (
+                        <div key={i} style={{ background: 'white', border: '1.5px solid #e2e8f0', borderRadius: '16px', padding: '14px 16px' }}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                            <span onClick={() => speak(v.word)} style={{ fontWeight: 800, fontSize: '16px', color: '#4f46e5', cursor: 'pointer' }}>{v.word} 🔊</span>
+                          </div>
+                          <p style={{ margin: '0 0 8px 0', fontSize: '13px', color: '#475569', fontWeight: 600 }}>{v.meaning}</p>
+                          {v.example && (
+                            <div onClick={() => speak(v.example)} style={{ background: '#f8fafc', padding: '10px', borderRadius: '10px', borderLeft: '3px solid #cbd5e1', cursor: 'pointer' }}>
+                              <p style={{ margin: 0, fontSize: '13px', color: '#64748b', fontStyle: 'italic' }}>&quot;{v.example}&quot;</p>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Time Patterns */}
+                  {d.time_patterns && (
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px', marginBottom: '16px' }}>
+                      {d.time_patterns.map((tp: any, i: number) => (
+                        <div key={i} style={{ background: '#f5f3ff', border: '1.5px solid #ddd6fe', borderRadius: '14px', padding: '14px' }}>
+                          <p style={{ margin: '0 0 6px 0', fontSize: '11px', fontWeight: 900, color: '#7c3aed', textTransform: 'uppercase' }}>{tp.pattern}</p>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                            {(tp.examples || []).map((ex: string, j: number) => (
+                              <span key={j} onClick={() => speak(ex)} style={{ background: 'white', borderRadius: '8px', padding: '4px 10px', fontSize: '13px', fontWeight: 700, color: '#334155', border: '1px solid #ddd6fe', cursor: 'pointer' }}>{ex}</span>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Adjective Pairs (Opposites) [{adj, opposite}] */}
+                  {d.pairs && d.pairs.length > 0 && d.pairs[0]?.opposite !== undefined && (
+                    <div style={{ marginBottom: '16px', background: 'white', border: '1.5px solid #e2e8f0', borderRadius: '16px', overflow: 'hidden' }}>
+                      <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                        <thead>
+                          <tr style={{ background: '#f8fafc', borderBottom: '1.5px solid #e2e8f0' }}>
+                            <th style={{ padding: '10px 16px', textAlign: 'left', fontSize: '11px', fontWeight: 900, color: '#64748b', textTransform: 'uppercase' }}>Adjective</th>
+                            <th style={{ padding: '10px 16px', textAlign: 'left', fontSize: '11px', fontWeight: 900, color: '#64748b', textTransform: 'uppercase' }}>Opposite</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {d.pairs.map((p: any, i: number) => (
+                            <tr key={i} style={{ borderBottom: i === d.pairs.length - 1 ? 'none' : '1px solid #f1f5f9' }}>
+                              <td onClick={() => speak(p.adj)} style={{ padding: '10px 16px', fontSize: '14px', fontWeight: 700, color: '#1e293b', cursor: 'pointer' }}>{p.adj}</td>
+                              <td onClick={() => speak(p.opposite)} style={{ padding: '10px 16px', fontSize: '14px', fontWeight: 700, color: '#4f46e5', cursor: 'pointer' }}>{p.opposite}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+
+                  {/* Scale (Intensifiers) [{word, strength, example}] */}
+                  {d.scale && d.scale.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      {d.scale.map((s: any, i: number) => (
+                        <div key={i} style={{ background: 'linear-gradient(to right, white, #f8fafc)', border: '1.5px solid #e2e8f0', borderRadius: '14px', padding: '12px 16px' }}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                            <span onClick={() => speak(s.word)} style={{ fontWeight: 800, fontSize: '15px', color: '#4f46e5', cursor: 'pointer' }}>{s.word} 🔊</span>
+                            <span style={{ fontSize: '10px', fontWeight: 800, color: '#94a3b8', textTransform: 'uppercase', background: '#f1f5f9', padding: '2px 6px', borderRadius: '4px' }}>{s.strength}</span>
+                          </div>
+                          {s.example && <p onClick={() => speak(s.example)} style={{ margin: 0, fontSize: '13px', color: '#64748b', fontStyle: 'italic', cursor: 'pointer' }}>&quot;{s.example}&quot;</p>}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Positions & Usage [{position/form, rule/use, examples[]}] */}
+                  {(d.positions || d.usage) && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '16px' }}>
+                      {(d.positions || d.usage).map((item: any, i: number) => (
+                        <div key={i} style={{ background: '#f0f9ff', border: '1.5px solid #bae6fd', borderRadius: '16px', padding: '14px 16px' }}>
+                          <p style={{ fontSize: '11px', fontWeight: 900, color: '#0369a1', textTransform: 'uppercase', marginBottom: '4px' }}>{item.position ?? item.form}</p>
+                          <p style={{ fontSize: '13px', fontWeight: 700, color: '#0c4a6e', marginBottom: '10px' }}>{item.rule ?? item.use}</p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                            {(item.examples || []).map((ex: string, j: number) => (
+                              <div key={j} onClick={() => speak(ex)} style={{ background: 'white', border: '1px solid #bae6fd', borderRadius: '8px', padding: '6px 12px', fontSize: '13px', fontWeight: 600, color: '#1e293b', cursor: 'pointer' }}>
+                                💬 {ex}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Connectors [{word, use, example}] */}
+                  {d.connectors && d.connectors.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      {d.connectors.map((c: any, i: number) => (
+                        <div key={i} style={{ background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '14px', padding: '12px 16px' }}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
+                            <span onClick={() => speak(c.word)} style={{ fontWeight: 800, fontSize: '15px', color: '#166534', cursor: 'pointer' }}>{c.word} 🔊</span>
+                            <span style={{ fontSize: '10px', fontWeight: 800, color: '#15803d', opacity: 0.7 }}>{c.use}</span>
+                          </div>
+                          {c.example && <p onClick={() => speak(c.example)} style={{ margin: 0, fontSize: '13px', color: '#166534', fontStyle: 'italic', cursor: 'pointer' }}>&quot;{c.example}&quot;</p>}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Example Story Sentence */}
+                  {d.example_story_sentence && (
+                    <div style={{ background: 'linear-gradient(135deg, #f0f9ff, #fdf2f8)', border: '1.5px solid #bae6fd', borderRadius: '16px', padding: '16px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#0369a1', textTransform: 'uppercase', marginBottom: '8px' }}>Example Story:</p>
+                      <p onClick={() => speak(d.example_story_sentence)} style={{ margin: 0, fontSize: '15px', fontWeight: 700, color: '#1e293b', lineHeight: 1.6, cursor: 'pointer' }}>{d.example_story_sentence}</p>
+                    </div>
+                  )}
+
+                  {/* Important / Quick Test / VS Simple Past / Contrast Pattern */}
+                  {(d.important || d.quick_test || d.vs_simple_past || d.contrast_pattern) && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      {d.important && (
+                        <div style={{ background: '#fef2f2', border: '1.5px solid #fecaca', borderRadius: '14px', padding: '12px 16px' }}>
+                          <p style={{ margin: 0, fontSize: '13px', color: '#991b1b', fontWeight: 700 }}>⚠️ <strong>Important:</strong> {d.important}</p>
+                        </div>
+                      )}
+                      {d.quick_test && (
+                        <div style={{ background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '14px', padding: '12px 16px' }}>
+                          <p style={{ margin: 0, fontSize: '13px', color: '#166534', fontWeight: 700 }}>💡 <strong>Quick Test:</strong> {d.quick_test}</p>
+                        </div>
+                      )}
+                      {d.vs_simple_past && (
+                        <div style={{ background: '#fffbeb', border: '1.5px solid #fde68a', borderRadius: '14px', padding: '12px 16px' }}>
+                          <p style={{ margin: 0, fontSize: '13px', color: '#92400e', fontWeight: 700 }}>🔄 <strong>vs. Simple Past:</strong> {d.vs_simple_past}</p>
+                        </div>
+                      )}
+                      {d.contrast_pattern && (
+                        <div style={{ background: '#f5f3ff', border: '1.5px solid #ddd6fe', borderRadius: '14px', padding: '12px 16px' }}>
+                          <p style={{ margin: 0, fontSize: '13px', color: '#5b21b6', fontWeight: 700 }}>🆚 <strong>Contrast:</strong> {d.contrast_pattern}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Word Order */}
+                  {d.word_order && (
+                    <div style={{ background: '#f8fafc', border: '1.5px solid #e2e8f0', borderRadius: '14px', padding: '14px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#64748b', textTransform: 'uppercase', marginBottom: '10px' }}>Word Order:</p>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+                        {d.word_order.split(' ').map((w: string, i: number, arr: any) => (
+                          <React.Fragment key={i}>
+                            <span style={{ background: 'white', border: '1.5px solid #e2e8f0', borderRadius: '8px', padding: '6px 12px', fontSize: '14px', fontWeight: 700, color: '#1e293b' }}>{w}</span>
+                            {i < arr.length - 1 && <span style={{ color: '#94a3b8' }}>→</span>}
+                          </React.Fragment>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Interesting Facts */}
+                  {d.interesting_facts && d.interesting_facts.length > 0 && (
+                    <div style={{ background: '#fdf2f8', border: '1.5px solid #fbcfe8', borderRadius: '16px', padding: '16px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#be185d', textTransform: 'uppercase', marginBottom: '10px' }}>Did you know? 🦒</p>
+                      <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {d.interesting_facts.map((fact: string, i: number) => (
+                          <li key={i} style={{ fontSize: '13px', color: '#be185d', fontWeight: 600, display: 'flex', gap: '8px' }}>
+                            <span>✨</span> {fact}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Questions / Short Answers [{question/form, example, note}] */}
+                  {(d.questions || d.short_answers) && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#4f46e5', textTransform: 'uppercase', letterSpacing: '0.07em' }}>
+                        {d.questions ? 'Questions' : 'Short Answers'}
+                      </p>
+                      {(d.questions || d.short_answers).map((item: any, i: number) => (
+                        <div key={i} onClick={() => speak(item.example)} style={{ background: 'white', border: '1.5px solid #e0e7ff', borderRadius: '14px', padding: '12px 16px', cursor: 'pointer' }}>
+                          <p style={{ margin: '0 0 2px 0', fontSize: '14px', fontWeight: 700, color: '#1e293b' }}>{item.question ?? item.form}</p>
+                          <p style={{ margin: 0, fontSize: '13px', fontWeight: 600, color: '#4f46e5' }}>{item.example}</p>
+                          {item.note && <p style={{ margin: '4px 0 0 0', fontSize: '11px', color: '#94a3b8' }}>{item.note}</p>}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Signs — [{sign, meaning}] */}
+                  {d.signs && d.signs.length > 0 && (
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '12px', marginBottom: '16px' }}>
+                      {d.signs.map((s: any, i: number) => (
+                        <div key={i} style={{ background: '#fef2f2', border: '2.5px solid #dc2626', borderRadius: '12px', padding: '12px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '8px' }}>
+                          <div style={{ background: '#dc2626', color: 'white', fontWeight: 900, fontSize: '14px', padding: '4px 8px', borderRadius: '4px', width: '100%' }}>{s.sign}</div>
+                          <p style={{ margin: 0, fontSize: '12px', color: '#991b1b', fontWeight: 700 }}>{s.meaning}</p>
+                        </div>
+                      ))}
                     </div>
                   )}
 
@@ -749,18 +1269,176 @@ export default function LessonPage() {
                     </div>
                   )}
 
-                  {/* Comparison */}
+                  {/* Comparison — supports {tense,use,examples[]} and {less_formal,more_polite} formats */}
                   {d.comparison && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '16px' }}>
-                      {d.comparison.map((c: any, i: number) => (
-                        <div key={i} style={{ background: i === 0 ? '#eff6ff' : '#f0fdf4', border: `1.5px solid ${i === 0 ? '#bfdbfe' : '#bbf7d0'}`, borderRadius: '16px', padding: '16px' }}>
-                          <p style={{ fontSize: '14px', fontWeight: 800, color: i === 0 ? '#1e40af' : '#166534', marginBottom: '4px' }}>{c.tense}</p>
-                          <p style={{ fontSize: '12px', color: '#64748b', fontWeight: 600, marginBottom: '10px' }}>{c.use}</p>
-                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                            {(c.examples ?? []).map((ex: string, j: number) => (
-                              <span key={j} onClick={() => speak(ex)} style={{ background: 'white', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '4px 10px', fontSize: '13px', fontWeight: 700, color: '#334155', cursor: 'pointer' }}>{ex}</span>
-                            ))}
+                      {/* Check format: if first item has less_formal key → polite comparison table */}
+                      {Array.isArray(d.comparison) && d.comparison[0]?.less_formal !== undefined ? (
+                        <>
+                          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                            <div style={{ background: '#fef9c3', border: '1.5px solid #fde68a', borderRadius: '12px', padding: '8px 12px', textAlign: 'center' }}>
+                              <p style={{ fontSize: '10px', fontWeight: 900, color: '#b45309', textTransform: 'uppercase', margin: '0 0 4px 0' }}>Less Formal</p>
+                            </div>
+                            <div style={{ background: '#dcfce7', border: '1.5px solid #86efac', borderRadius: '12px', padding: '8px 12px', textAlign: 'center' }}>
+                              <p style={{ fontSize: '10px', fontWeight: 900, color: '#166534', textTransform: 'uppercase', margin: '0 0 4px 0' }}>More Polite</p>
+                            </div>
                           </div>
+                          {d.comparison.map((c: any, i: number) => (
+                            <div key={i} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                              <div onClick={() => speak(c.less_formal)} style={{ background: '#fef9c3', border: '1.5px solid #fde68a', borderRadius: '12px', padding: '10px 14px', cursor: 'pointer' }}>
+                                <p style={{ margin: 0, fontSize: '13px', fontWeight: 600, color: '#92400e' }}>{c.less_formal}</p>
+                              </div>
+                              <div onClick={() => speak(c.more_polite)} style={{ background: '#dcfce7', border: '1.5px solid #86efac', borderRadius: '12px', padding: '10px 14px', cursor: 'pointer' }}>
+                                <p style={{ margin: 0, fontSize: '13px', fontWeight: 700, color: '#15803d' }}>{c.more_polite}</p>
+                              </div>
+                            </div>
+                          ))}
+                        </>
+                      ) : (
+                        d.comparison.map((c: any, i: number) => (
+                          <div key={i} style={{ background: i === 0 ? '#eff6ff' : '#f0fdf4', border: `1.5px solid ${i === 0 ? '#bfdbfe' : '#bbf7d0'}`, borderRadius: '16px', padding: '16px' }}>
+                            {/* Handle {tense} or {situation} label */}
+                            {(c.tense || c.situation) && (
+                              <p style={{ fontSize: '14px', fontWeight: 800, color: i === 0 ? '#1e40af' : '#166534', marginBottom: '4px' }}>{c.tense ?? c.situation}</p>
+                            )}
+                            {c.use && <p style={{ fontSize: '12px', color: '#64748b', fontWeight: 600, marginBottom: '10px' }}>{c.use}</p>}
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                              {/* Handle both c.examples (array) and c.example (string) */}
+                              {Array.isArray(c.examples) ? (
+                                c.examples.map((ex: string, j: number) => (
+                                  <span key={j} onClick={() => speak(ex)} style={{ background: 'white', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '4px 10px', fontSize: '13px', fontWeight: 700, color: '#334155', cursor: 'pointer' }}>{ex}</span>
+                                ))
+                              ) : c.example ? (
+                                <span onClick={() => speak(c.example)} style={{ background: 'white', border: '1px solid #cbd5e1', borderRadius: '8px', padding: '4px 10px', fontSize: '13px', fontWeight: 700, color: '#334155', cursor: 'pointer' }}>{c.example}</span>
+                              ) : null}
+                            </div>
+                          </div>
+                        ))
+                      )}
+                    </div>
+                  )}
+
+                  {/* Uses [{use, examples[]}] — e.g. can for ability / request / permission */}
+                  {d.uses && d.uses.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      {d.uses.map((u: any, i: number) => {
+                        const bg = ['#eef2ff','#f0fdf4','#fff7ed'][i % 3];
+                        const bd = ['#c7d2fe','#bbf7d0','#fed7aa'][i % 3];
+                        const tc = ['#4338ca','#166534','#c2410c'][i % 3];
+                        return (
+                          <div key={i} style={{ background: bg, border: `1.5px solid ${bd}`, borderRadius: '14px', padding: '12px 14px' }}>
+                            <p style={{ fontSize: '11px', fontWeight: 900, color: tc, textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>{u.use}</p>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                              {(u.examples ?? []).map((ex: string, j: number) => (
+                                <span key={j} onClick={() => speak(ex)} style={{ background: 'white', border: `1px solid ${bd}`, borderRadius: '8px', padding: '4px 10px', fontSize: '13px', fontWeight: 600, color: '#1e293b', cursor: 'pointer' }}>{ex}</span>
+                              ))}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+
+                  {/* Common errors [{wrong, right}] */}
+                  {(d.common_errors && d.common_errors.length > 0) && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#dc2626', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '2px' }}>Common Errors</p>
+                      {d.common_errors.map((err: any, i: number) => (
+                        <div key={i} style={{ background: '#fff1f2', border: '1.5px solid #fecdd3', borderRadius: '12px', padding: '10px 14px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                          <p style={{ margin: 0, fontSize: '13px', color: '#dc2626', fontWeight: 600, textDecoration: 'line-through', opacity: 0.8 }}>✗ {err.wrong}</p>
+                          <p style={{ margin: 0, fontSize: '13px', color: '#16a34a', fontWeight: 700 }}>✓ {err.right}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Verbs list (Unit 4 vocabulary) */}
+                  {d.verbs && d.verbs.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      {d.verbs.map((v: any, i: number) => (
+                        <div key={i} onClick={() => speak(v.past || v.base)} style={{
+                          background: 'white', borderRadius: '16px', padding: '12px 16px',
+                          border: '1.5px solid #e0e7ff', boxShadow: '0 2px 6px rgba(79,70,229,0.06)',
+                          cursor: 'pointer', display: 'flex', flexDirection: 'column', gap: '4px'
+                        }}>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <span style={{ fontSize: '14px', fontWeight: 600, color: '#64748b' }}>{v.base}</span>
+                            <span style={{ fontSize: '16px', fontWeight: 800, color: '#4f46e5' }}>{v.past}</span>
+                          </div>
+                          {(v.example || v.note) && (
+                            <p style={{ margin: 0, fontSize: '12px', color: '#94a3b8', fontStyle: 'italic' }}>
+                              {v.example || v.note}
+                            </p>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Advice phrases [{phrase, note}] */}
+                  {d.advice_phrases && d.advice_phrases.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '16px' }}>
+                      {d.advice_phrases.map((a: any, i: number) => (
+                        <div key={i} onClick={() => speak(a.phrase)} style={{
+                          display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
+                          background: 'white', borderRadius: '12px', padding: '12px 16px',
+                          border: '1.5px solid #e0e7ff', boxShadow: '0 2px 6px rgba(79,70,229,0.06)',
+                          cursor: 'pointer', gap: '12px',
+                        }}>
+                          <span style={{ fontWeight: 700, fontSize: '14px', color: '#1e293b' }}>{a.phrase}</span>
+                          {a.note && <span style={{ fontSize: '11px', color: '#94a3b8', fontWeight: 500, textAlign: 'right', flexShrink: 0, maxWidth: '45%' }}>{a.note}</span>}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Grammar note (string) */}
+                  {d.grammar_note && (
+                    <div style={{ background: '#fffbeb', borderLeft: '4px solid #fbbf24', padding: '10px 16px', borderRadius: '0 10px 10px 0', marginBottom: '16px' }}>
+                      <p style={{ margin: 0, fontSize: '13px', color: '#92400e', fontWeight: 600 }}>📌 {d.grammar_note}</p>
+                    </div>
+                  )}
+
+                  {/* Doctor questions [{question, meaning}] */}
+                  {d.doctor_questions && d.doctor_questions.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#0284c7', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '2px' }}>Doctor&apos;s Questions</p>
+                      {d.doctor_questions.map((q: any, i: number) => (
+                        <div key={i} onClick={() => speak(q.question)} style={{ background: '#f0f9ff', border: '1.5px solid #bae6fd', borderRadius: '12px', padding: '10px 14px', cursor: 'pointer' }}>
+                          <p style={{ margin: '0 0 2px 0', fontSize: '14px', fontWeight: 700, color: '#0369a1' }}>"{q.question}"</p>
+                          <p style={{ margin: 0, fontSize: '12px', fontWeight: 500, color: '#64748b' }}>{q.meaning}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Replies from waiter [string] */}
+                  {d.replies_from_waiter && d.replies_from_waiter.length > 0 && (
+                    <div style={{ marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#059669', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>Waiter&apos;s Replies</p>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                        {d.replies_from_waiter.map((r: string, i: number) => (
+                          <span key={i} onClick={() => speak(r)} style={{ background: '#ecfdf5', border: '1.5px solid #a7f3d0', borderRadius: '10px', padding: '6px 14px', fontSize: '13px', fontWeight: 600, color: '#065f46', cursor: 'pointer' }}>{r}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Patterns — alt format: [{phrase, note, examples[]}] vs [{pattern, examples[]}] */}
+                  {d.patterns && d.patterns.length > 0 && d.patterns[0]?.phrase !== undefined && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#6366f1', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '2px' }}>Patterns</p>
+                      {d.patterns.map((p: any, i: number) => (
+                        <div key={i} style={{ background: '#f8fafc', border: '1.5px solid #e2e8f0', borderRadius: '14px', padding: '12px 14px' }}>
+                          <p style={{ fontSize: '13px', fontWeight: 800, color: '#4f46e5', marginBottom: '2px' }}>{p.phrase}</p>
+                          {p.note && <p style={{ fontSize: '12px', color: '#64748b', fontWeight: 500, marginBottom: '8px' }}>{p.note}</p>}
+                          {p.examples && (
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                              {p.examples.map((ex: string, j: number) => (
+                                <span key={j} onClick={() => speak(ex)} style={{ background: 'white', border: '1px solid #e0e7ff', borderRadius: '8px', padding: '3px 10px', fontSize: '12px', fontWeight: 600, color: '#1e293b', cursor: 'pointer' }}>{ex}</span>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       ))}
                     </div>
@@ -804,6 +1482,63 @@ export default function LessonPage() {
                     </div>
                   )}
 
+                  {/* Phrases list — learn_card using 'phrases' key (same structure as items) */}
+                  {d.phrases && d.phrases.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      {d.phrases.map((item: any, i: number) => (
+                        <div key={i} style={{
+                          display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
+                          background: 'white', borderRadius: '12px', padding: '13px 16px',
+                          border: '1.5px solid #e0e7ff', boxShadow: '0 2px 6px rgba(79,70,229,0.06)',
+                          cursor: 'pointer', gap: '12px',
+                        }}
+                          onClick={() => speak(item.phrase)}
+                        >
+                          <span style={{ fontWeight: 700, fontSize: '15px', color: '#1e293b' }}>{item.phrase}</span>
+                          {item.note && <span style={{ fontSize: '12px', color: '#94a3b8', fontWeight: 500, textAlign: 'right', flexShrink: 0, maxWidth: '45%' }}>{item.note}</span>}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Accepting phrases [{phrase, note}] — Lesson 3 invitations */}
+                  {d.accepting && d.accepting.length > 0 && (
+                    <div style={{ marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#16a34a', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>✓ Accepting</p>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {d.accepting.map((a: any, i: number) => (
+                          <div key={i} onClick={() => speak(a.phrase)} style={{
+                            display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
+                            background: '#f0fdf4', border: '1.5px solid #86efac',
+                            borderRadius: '12px', padding: '12px 16px', cursor: 'pointer', gap: '12px',
+                          }}>
+                            <span style={{ fontWeight: 700, fontSize: '14px', color: '#1e293b' }}>{a.phrase}</span>
+                            {a.note && <span style={{ fontSize: '11px', color: '#16a34a', fontWeight: 500, textAlign: 'right', flexShrink: 0, maxWidth: '45%' }}>{a.note}</span>}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Refusing politely [{phrase, note}] — Lesson 3 invitations */}
+                  {d.refusing_politely && d.refusing_politely.length > 0 && (
+                    <div style={{ marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#dc2626', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>✗ Refusing Politely</p>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {d.refusing_politely.map((r: any, i: number) => (
+                          <div key={i} onClick={() => speak(r.phrase)} style={{
+                            display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
+                            background: '#fff1f2', border: '1.5px solid #fca5a5',
+                            borderRadius: '12px', padding: '12px 16px', cursor: 'pointer', gap: '12px',
+                          }}>
+                            <span style={{ fontWeight: 700, fontSize: '14px', color: '#1e293b' }}>{r.phrase}</span>
+                            {r.note && <span style={{ fontSize: '11px', color: '#dc2626', fontWeight: 500, textAlign: 'right', flexShrink: 0, maxWidth: '45%' }}>{r.note}</span>}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                   {/* Vocabulary groups */}
                   {d.groups && d.groups.length > 0 && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -844,11 +1579,68 @@ export default function LessonPage() {
                     </div>
                   )}
 
-                  {/* Grammar Examples — supports both {sentence,structure} and {statement,question,...} formats */}
+                  {/* Grammar Forms (positive / negative / question / short answer) */}
+                  {d.forms && d.forms.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '16px' }}>
+                      {d.forms.map((f: any, i: number) => (
+                        <div key={i} style={{
+                          background: i % 2 === 0 ? '#eef2ff' : '#f8fafc',
+                          border: `1.5px solid ${i % 2 === 0 ? '#c7d2fe' : '#e2e8f0'}`,
+                          borderRadius: '14px', padding: '14px 16px',
+                        }}>
+                          <p style={{ fontSize: '11px', fontWeight: 900, color: i % 2 === 0 ? '#4338ca' : '#475569', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '8px' }}>
+                            {f.form}
+                          </p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                            {/* Handle both f.examples (array) and f.example (singular string) */}
+                            {(f.examples ?? (f.example ? [f.example] : [])).map((ex: string, j: number) => (
+                              <div key={j} style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }} onClick={() => speak(ex)}>
+                                <span style={{ color: '#6366f1', fontSize: '12px', flexShrink: 0 }}>▸</span>
+                                <span style={{ fontSize: '14px', fontWeight: 600, color: '#1e293b' }}>{ex}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Contractions — handles object {full: short} OR array of strings */}
+                  {d.contractions && (Array.isArray(d.contractions) ? d.contractions.length > 0 : Object.keys(d.contractions).length > 0) && (
+                    <div style={{ background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '14px', padding: '12px 16px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#166534', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '8px' }}>Contractions</p>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                        {Array.isArray(d.contractions) ? (
+                          d.contractions.map((c: string, i: number) => (
+                            <div key={i} onClick={() => speak(c)} style={{ background: 'white', border: '1px solid #bbf7d0', borderRadius: '8px', padding: '4px 12px', fontSize: '13px', fontWeight: 700, color: '#15803d', cursor: 'pointer' }}>
+                              {c}
+                            </div>
+                          ))
+                        ) : (
+                          Object.entries(d.contractions).map(([full, short]: [string, any], i) => (
+                            <div key={i} style={{ background: 'white', border: '1px solid #bbf7d0', borderRadius: '8px', padding: '4px 12px', fontSize: '13px', fontWeight: 700, color: '#15803d' }}>
+                              {full} → <strong>{short}</strong>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Contraction as single string (e.g., "will = 'll ...") */}
+                  {d.contraction && typeof d.contraction === 'string' && (
+                    <div style={{ background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '14px', padding: '12px 16px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#166534', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '4px' }}>Contractions</p>
+                      <p style={{ margin: 0, fontSize: '14px', fontWeight: 700, color: '#15803d' }}>{d.contraction}</p>
+                    </div>
+                  )}
+
+                  {/* Grammar Examples — supports string[], {sentence,structure}, {type,sentences[]}, {statement,question,...} formats */}
                   {d.examples && d.examples.length > 0 && (() => {
                     const firstEx = d.examples[0];
                     const isSentenceFormat = firstEx?.sentence !== undefined;
-                    
+                    const isTypeSentencesFormat = firstEx?.type !== undefined && Array.isArray(firstEx?.sentences);
+
                     return (
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
                         {d.examples.map((ex: any, i: number) => {
@@ -859,7 +1651,45 @@ export default function LessonPage() {
                               </div>
                             );
                           }
-                          
+
+                          // {type, sentences: []} format
+                          if (isTypeSentencesFormat) {
+                            const colors = ['#eef2ff', '#f0fdf4', '#fff7ed'];
+                            const borderColors = ['#c7d2fe', '#bbf7d0', '#fed7aa'];
+                            const labelColors = ['#4338ca', '#166534', '#c2410c'];
+                            return (
+                              <div key={i} style={{ background: colors[i % 3], border: `1.5px solid ${borderColors[i % 3]}`, borderRadius: '14px', padding: '14px 16px' }}>
+                                <p style={{ fontSize: '11px', fontWeight: 900, color: labelColors[i % 3], textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '8px' }}>
+                                  {ex.type}
+                                </p>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                                  {(ex.sentences ?? []).map((s: string, j: number) => (
+                                    <div key={j} style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }} onClick={() => speak(s)}>
+                                      <span style={{ color: labelColors[i % 3], fontSize: '12px', flexShrink: 0 }}>▸</span>
+                                      <span style={{ fontSize: '14px', fontWeight: 600, color: '#1e293b' }}>{s}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            );
+                          }
+
+                          // {they_say, follow_up} format
+                          if (ex.they_say && ex.follow_up) {
+                            return (
+                              <div key={i} style={{ background: 'white', border: '1.5px solid #e0e7ff', borderRadius: '16px', padding: '14px 16px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                <div style={{ display: 'flex', gap: '10px', alignItems: 'flex-start' }}>
+                                  <div style={{ background: '#f1f5f9', color: '#64748b', fontSize: '10px', fontWeight: 800, padding: '2px 6px', borderRadius: '4px', marginTop: '2px' }}>THEY SAY</div>
+                                  <p style={{ margin: 0, fontSize: '14px', color: '#475569', fontWeight: 500 }}>{ex.they_say}</p>
+                                </div>
+                                <div onClick={() => speak(ex.follow_up)} style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', cursor: 'pointer', background: '#f0f9ff', border: '1px solid #bae6fd', padding: '10px', borderRadius: '12px' }}>
+                                  <div style={{ background: '#0369a1', color: 'white', fontSize: '10px', fontWeight: 800, padding: '2px 6px', borderRadius: '4px', marginTop: '2px' }}>FOLLOW UP</div>
+                                  <p style={{ margin: 0, fontSize: '14px', color: '#0369a1', fontWeight: 700 }}>{ex.follow_up}</p>
+                                </div>
+                              </div>
+                            );
+                          }
+
                           return isSentenceFormat ? (
                             <div key={i} style={{
                               background: 'white', borderRadius: '12px', padding: '13px 16px',
@@ -870,19 +1700,23 @@ export default function LessonPage() {
                               {ex.structure && <span style={{ fontSize: '11px', color: '#94a3b8', fontWeight: 500, fontStyle: 'italic' }}>{ex.structure}</span>}
                             </div>
                           ) : (
-                            <div key={i} style={{ background: '#f8fafc', borderRadius: '12px', padding: '14px', border: '1px solid #e2e8f0', cursor: 'pointer' }} onClick={() => speak(ex.question || ex.statement || '')}>
+                            <div key={i} style={{ background: '#f8fafc', borderRadius: '12px', padding: '14px', border: '1px solid #e2e8f0', cursor: 'pointer' }} onClick={() => speak(ex.positive || ex.negative || ex.question || ex.statement || '')}>
+                              {ex.positive && <p style={{ margin: '0 0 8px 0', fontSize: '13px', color: '#16a34a', fontWeight: 600 }}>Positive: <strong style={{ color: '#1e293b' }}>{ex.positive}</strong></p>}
+                              {ex.negative && <p style={{ margin: '0 0 8px 0', fontSize: '13px', color: '#dc2626', fontWeight: 600 }}>Negative: <strong style={{ color: '#1e293b' }}>{ex.negative}</strong></p>}
                               {ex.statement && <p style={{ margin: '0 0 8px 0', fontSize: '13px', color: '#64748b' }}>Statement: <strong style={{ color: '#1e293b' }}>{ex.statement}</strong></p>}
                               {ex.question && <p style={{ margin: '0 0 8px 0', fontSize: '14px', color: '#4f46e5', fontWeight: 'bold' }}>Question: {ex.question}</p>}
                               <div style={{ display: 'flex', gap: '12px', fontSize: '13px' }}>
                                 {(ex.yes_reply || ex.yes) && <span style={{ color: '#16a34a', fontWeight: 'bold' }}>Yes: {ex.yes_reply || ex.yes}</span>}
                                 {(ex.no_reply || ex.no) && <span style={{ color: '#ef4444', fontWeight: 'bold' }}>No: {ex.no_reply || ex.no}</span>}
                               </div>
+                              {ex.wrong && <p style={{ margin: '8px 0 0 0', fontSize: '12px', color: '#ef4444', fontStyle: 'italic', opacity: 0.9 }}>Wrong: {ex.wrong}</p>}
                             </div>
                           );
                         })}
                       </div>
                     );
                   })()}
+
 
                   {/* Grammar Pattern(s) */}
                   {d.patterns && d.patterns.length > 0 && (
@@ -922,6 +1756,132 @@ export default function LessonPage() {
                   {d.rule && (
                     <div style={{ background: '#fffbeb', borderLeft: '4px solid #fbbf24', padding: '12px 16px', borderRadius: '0 8px 8px 0', marginBottom: '16px' }}>
                       <p style={{ margin: 0, fontSize: '14px', color: '#92400e', fontWeight: 600 }}>💡 {d.rule}</p>
+                    </div>
+                  )}
+
+                  {/* Irregular comparatives [{adjective, comparative, superlative}] — Lesson 6 */}
+                  {d.irregular && d.irregular.length > 0 && (
+                    <div style={{ marginBottom: '16px', overflowX: 'auto' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#7c3aed', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>Irregular Forms</p>
+                      <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px' }}>
+                        <thead>
+                          <tr style={{ background: '#f5f3ff' }}>
+                            {['Adjective','Comparative','Superlative'].map(h => (
+                              <th key={h} style={{ padding: '8px 12px', fontWeight: 800, color: '#6d28d9', textAlign: 'left', borderBottom: '2px solid #ddd6fe' }}>{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {d.irregular.map((row: any, i: number) => (
+                            <tr key={i} style={{ background: i % 2 === 0 ? 'white' : '#faf5ff', borderBottom: '1px solid #ede9fe' }}>
+                              <td style={{ padding: '8px 12px', fontWeight: 700, color: '#1e293b' }}>{row.adjective}</td>
+                              <td style={{ padding: '8px 12px', fontWeight: 700, color: '#4f46e5', cursor: 'pointer' }} onClick={() => speak(row.comparative)}>{row.comparative}</td>
+                              <td style={{ padding: '8px 12px', fontWeight: 700, color: '#7c3aed', cursor: 'pointer' }} onClick={() => speak(row.superlative)}>{row.superlative}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+
+                  {/* Superlatives {explanation, rules:[{type, form, examples[]}]} — Lesson 6 */}
+                  {d.superlatives && (
+                    <div style={{ marginBottom: '16px' }}>
+                      {d.superlatives.explanation && (
+                        <p style={{ fontSize: '13px', color: '#64748b', marginBottom: '10px', lineHeight: 1.5 }}>{d.superlatives.explanation}</p>
+                      )}
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        {(d.superlatives.rules ?? []).map((r: any, i: number) => (
+                          <div key={i} style={{ background: i === 0 ? '#eff6ff' : '#f5f3ff', border: `1.5px solid ${i === 0 ? '#bfdbfe' : '#ddd6fe'}`, borderRadius: '14px', padding: '12px 14px' }}>
+                            <p style={{ fontSize: '11px', fontWeight: 900, color: i === 0 ? '#1d4ed8' : '#7c3aed', textTransform: 'uppercase', marginBottom: '4px' }}>{r.type}</p>
+                            <p style={{ fontSize: '14px', fontWeight: 800, color: '#1e293b', marginBottom: '8px' }}>{r.form}</p>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                              {(r.examples ?? []).map((ex: string, j: number) => (
+                                <span key={j} onClick={() => speak(ex)} style={{ background: 'white', border: `1px solid ${i === 0 ? '#bfdbfe' : '#ddd6fe'}`, borderRadius: '8px', padding: '4px 10px', fontSize: '13px', fontWeight: 700, color: '#334155', cursor: 'pointer' }}>{ex}</span>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                   {/* Conversation Topics — [{topic, starter}] */}
+                  {d.topics && d.topics.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#0284c7', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '4px' }}>Safe Conversation Topics</p>
+                      {d.topics.map((t: any, i: number) => {
+                        const colors = ['#eef2ff','#f0fdf4','#fff7ed','#fdf2f8','#f0f9ff','#fffbeb','#f5f3ff'];
+                        const borders = ['#c7d2fe','#bbf7d0','#fed7aa','#fbcfe8','#bae6fd','#fde68a','#ddd6fe'];
+                        const tcs    = ['#4338ca','#166534','#c2410c','#be185d','#0369a1','#b45309','#6d28d9'];
+                        return (
+                          <div key={i} style={{ background: colors[i % colors.length], border: `1.5px solid ${borders[i % borders.length]}`, borderRadius: '14px', padding: '12px 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
+                            <span style={{ fontWeight: 800, fontSize: '14px', color: tcs[i % tcs.length] }}>{t.topic}</span>
+                            <span
+                              onClick={() => speak(t.starter)}
+                              style={{ fontSize: '13px', fontWeight: 600, color: '#1e293b', background: 'white', border: `1px solid ${borders[i % borders.length]}`, borderRadius: '10px', padding: '5px 12px', cursor: 'pointer', flexShrink: 0 }}
+                            >
+                              💬 {t.starter}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+
+                  {/* Reactions — supports [{situation, reactions[]}] or [{phrase, use}] */}
+                  {d.reactions && d.reactions.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#7c3aed', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '2px' }}>How to React</p>
+                      {d.reactions.map((r: any, i: number) => {
+                        const isPhraseFormat = r.phrase !== undefined;
+                        if (isPhraseFormat) {
+                          return (
+                            <div key={i} onClick={() => speak(r.phrase)} style={{ background: 'white', border: '1.5px solid #ddd6fe', borderRadius: '14px', padding: '12px 16px', cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                              <div>
+                                <p style={{ margin: 0, fontSize: '15px', fontWeight: 700, color: '#1e293b' }}>{r.phrase}</p>
+                                {r.use && <p style={{ margin: '2px 0 0 0', fontSize: '12px', color: '#7c3aed', fontWeight: 500 }}>{r.use}</p>}
+                              </div>
+                              <span style={{ fontSize: '18px' }}>🔊</span>
+                            </div>
+                          );
+                        }
+                        return (
+                          <div key={i} style={{ background: '#faf5ff', border: '1.5px solid #ddd6fe', borderRadius: '14px', padding: '12px 16px' }}>
+                            <p style={{ fontSize: '12px', fontWeight: 800, color: '#7c3aed', marginBottom: '8px' }}>{r.situation}</p>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                              {(r.reactions ?? r.phrases ?? []).map((rx: string, j: number) => (
+                                <span key={j} onClick={() => speak(rx)} style={{ background: 'white', border: '1.5px solid #ddd6fe', borderRadius: '10px', padding: '5px 12px', fontSize: '13px', fontWeight: 700, color: '#5b21b6', cursor: 'pointer' }}>{rx}</span>
+                              ))}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+
+                  {/* Could vs Can comparison [{aspect, can, could}] */}
+                  {d.could_vs_can && d.could_vs_can.length > 0 && (
+                    <div style={{ marginBottom: '16px', overflowX: 'auto' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#0369a1', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>Can vs Could</p>
+                      <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px' }}>
+                        <thead>
+                          <tr style={{ background: '#eff6ff' }}>
+                            {['Aspect', 'can', 'could'].map(h => (
+                              <th key={h} style={{ padding: '8px 12px', fontWeight: 800, color: '#1d4ed8', textAlign: 'left', borderBottom: '2px solid #bfdbfe', textTransform: 'capitalize' }}>{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {d.could_vs_can.map((row: any, i: number) => (
+                            <tr key={i} style={{ background: i % 2 === 0 ? 'white' : '#eff6ff', borderBottom: '1px solid #dbeafe' }}>
+                              <td style={{ padding: '8px 12px', fontWeight: 700, color: '#1e293b' }}>{row.aspect}</td>
+                              <td onClick={() => speak(row.can)} style={{ padding: '8px 12px', color: '#1d4ed8', fontWeight: 600, cursor: 'pointer' }}>{row.can}</td>
+                              <td onClick={() => speak(row.could)} style={{ padding: '8px 12px', color: '#7c3aed', fontWeight: 600, cursor: 'pointer' }}>{row.could}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
                     </div>
                   )}
 
@@ -991,7 +1951,36 @@ export default function LessonPage() {
                       </ul>
                     </div>
                   )}
-                  <p style={{ fontSize: '12px', color: '#c4c4c4', marginTop: '20px', textAlign: 'center' }}>🔊 Tap any phrase to hear it</p>
+                  {/* Giving reason — {pattern, examples[]} */}
+                  {d.giving_reason && (
+                    <div style={{ background: '#f0f9ff', border: '1.5px solid #bae6fd', borderRadius: '14px', padding: '12px 16px', marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#0284c7', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '6px' }}>Pattern</p>
+                      <p style={{ fontSize: '14px', fontWeight: 800, color: '#0369a1', marginBottom: '10px' }}>{d.giving_reason.pattern}</p>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                        {(d.giving_reason.examples ?? []).map((ex: string, i: number) => (
+                          <span key={i} onClick={() => speak(ex)} style={{ background: 'white', border: '1px solid #bae6fd', borderRadius: '8px', padding: '6px 12px', fontSize: '13px', fontWeight: 600, color: '#1e293b', cursor: 'pointer', display: 'block' }}>{ex}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Asking phrases [string] */}
+                  {d.asking && d.asking.length > 0 && (
+                    <div style={{ marginBottom: '16px' }}>
+                      <p style={{ fontSize: '11px', fontWeight: 900, color: '#7c3aed', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '8px' }}>How to Ask</p>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                        {d.asking.map((q: string, i: number) => (
+                          <span key={i} onClick={() => speak(q)} style={{ background: '#f5f3ff', border: '1.5px solid #ddd6fe', borderRadius: '10px', padding: '6px 14px', fontSize: '13px', fontWeight: 600, color: '#5b21b6', cursor: 'pointer' }}>{q}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Only show tap-hint if there are actually tappable phrase items */}
+                  {(d.items?.length || d.phrases?.length || d.accepting?.length || d.refusing_politely?.length || d.groups?.length || d.examples?.length || d.verbs?.length || d.forms?.length || d.patterns?.length || d.advice_phrases?.length || d.doctor_questions?.length || d.saying_dates?.length || d.comparison?.length || d.giving_reason || d.asking?.length || d.topics?.length || d.reactions?.length || d.could_vs_can?.length) && (
+                    <p style={{ fontSize: '12px', color: '#c4c4c4', marginTop: '20px', textAlign: 'center' }}>🔊 Tap any phrase to hear it</p>
+                  )}
+
                 </div>
               );
             })()}
@@ -1005,6 +1994,27 @@ export default function LessonPage() {
                   {d.instruction && <p style={{ fontSize: '14px', color: '#64748b', marginBottom: '20px', lineHeight: 1.6 }}>{d.instruction}</p>}
                   
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {/* Pronunciation Groups (A1 Unit 4 style) */}
+                    {d.pronunciation_groups && d.pronunciation_groups.length > 0 && (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '20px' }}>
+                        {d.pronunciation_groups.map((g: any, i: number) => (
+                          <div key={i} style={{ background: '#f8fafc', border: '1.5px solid #e2e8f0', borderRadius: '16px', padding: '16px' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+                              <span style={{ fontSize: '16px', fontWeight: 900, color: '#4f46e5' }}>{g.sound}</span>
+                              {g.note && <span style={{ fontSize: '11px', fontWeight: 600, color: '#94a3b8', fontStyle: 'italic' }}>{g.note}</span>}
+                            </div>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                              {(g.verbs ?? []).map((v: string, j: number) => (
+                                <button key={j} onClick={(e) => { e.stopPropagation(); speak(v); }} style={{ background: 'white', border: '1.2px solid #e0e7ff', borderRadius: '8px', padding: '4px 12px', fontSize: '13px', fontWeight: 700, color: '#1e293b', cursor: 'pointer' }}>
+                                  {v}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
                     {(d.phrases ?? []).map((p: any, i: number) => {
                       const isPlayed = playedPhrases.includes(i);
                       return (
@@ -1096,68 +2106,8 @@ export default function LessonPage() {
               );
             })()}
 
-            {/* ── LESSON SUMMARY ────────────────────────────────────────── */}
-            {step.type === 'lesson_summary' && (() => {
-              const sd = step.data;
-              return (
-                <div style={{ width: '100%', textAlign: 'center' }}>
-                  <div style={{ width: '80px', height: '80px', background: '#fef3c7', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
-                    <span style={{ fontSize: '40px' }}>🏆</span>
-                  </div>
-                  <h2 style={{ fontSize: '24px', fontWeight: 900, color: '#1e293b', marginBottom: '8px' }}>{sd.title || 'Lesson Complete!'}</h2>
-                  <p style={{ fontSize: '16px', color: '#64748b', marginBottom: '24px' }}>Excellent work! You've mastered these concepts.</p>
-                  
-                  {sd.what_you_learned && (
-                    <div style={{ textAlign: 'left', background: '#f8fafc', borderRadius: '20px', padding: '24px', border: '1.5px solid #e2e8f0', marginBottom: '24px' }}>
-                      <p style={{ fontSize: '12px', fontWeight: 900, color: '#4f46e5', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '16px' }}>What you learned:</p>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                        {sd.what_you_learned.map((item: string, i: number) => (
-                          <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
-                            <div style={{ width: '20px', height: '20px', background: '#e0e7ff', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px' }}>
-                              <div style={{ width: '8px', height: '8px', background: '#4f46e5', borderRadius: '50%' }} />
-                            </div>
-                            <p style={{ margin: 0, fontSize: '14px', color: '#334155', fontWeight: 600, lineHeight: 1.5 }}>{item}</p>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
 
-                  {sd.next_lesson_title && (
-                    <p style={{ fontSize: '14px', color: '#94a3b8', fontWeight: 600 }}>Next: <span style={{ color: '#6366f1' }}>{sd.next_lesson_title}</span></p>
-                  )}
-                </div>
-              );
-            })()}
 
-            {/* ── LISTEN & REPEAT ────────────────────────────────────────── */}
-            {step.type === 'LISTEN_REPEAT' && (
-              <div style={{ width: '100%' }}>
-                <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#1cb0f6', margin: '0 0 6px 0' }}>{step.data.title}</h2>
-                <p style={{ fontSize: '14px', color: '#64748b', marginBottom: '20px', lineHeight: 1.6 }}>{step.data.instruction}</p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                  {(step.data.phrases ?? []).map((ph: any, i: number) => (
-                    <div key={i} style={{
-                      display: 'flex', alignItems: 'center', gap: '14px',
-                      background: playedPhrases.includes(i) ? '#f0fdf4' : 'white',
-                      border: `1.5px solid ${playedPhrases.includes(i) ? '#86efac' : '#e0e7ff'}`,
-                      borderRadius: '14px', padding: '14px 18px',
-                      boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
-                      cursor: 'pointer', transition: 'all 0.2s',
-                    }}
-                      onClick={() => {
-                        speak(ph.text);
-                        setPlayedPhrases(prev => prev.includes(i) ? prev : [...prev, i]);
-                      }}
-                    >
-                      <span style={{ fontSize: '20px' }}>{playedPhrases.includes(i) ? '✅' : '🔊'}</span>
-                      <span style={{ fontWeight: 700, fontSize: '15px', color: '#1e293b', flex: 1 }}>{ph.text}</span>
-                    </div>
-                  ))}
-                </div>
-                <p style={{ fontSize: '12px', color: '#c4c4c4', marginTop: '16px', textAlign: 'center' }}>Tap each phrase to listen. Repeat it aloud!</p>
-              </div>
-            )}
 
             {/* ── LEGACY LEARNING_TIP ────────────────────────────────────── */}
             {step.type === 'LEARNING_TIP' && (() => {
@@ -1516,22 +2466,23 @@ export default function LessonPage() {
                 )}
                 <h2 className="quiz-question">Arrange the words into the correct order</h2>
                 <div style={{ minHeight: '60px', borderBottom: '2px solid #e5e5e5', marginBottom: '32px', display: 'flex', gap: '8px', flexWrap: 'wrap', paddingBottom: '12px' }}>
-                  {scrambleAnswer.map((w, i) => {
+                  {scrambleAnswer.map((idx: any, i: number) => {
+                    const w = step.data.shuffled_words[idx];
                     let cls = 'quiz-option';
                     if (quizChecked) cls += feedback.status === 'correct' ? ' correct' : ' wrong';
                     return (
                       <button key={`ans-${i}`} className={cls} style={{ padding: '12px 20px', width: 'auto' }} onClick={() => {
-                        if (!quizChecked) setScrambleAnswer(prev => prev.filter((_, idx) => idx !== i));
+                        if (!quizChecked) setScrambleAnswer(prev => prev.filter((_, index) => index !== i));
                       }}>{w}</button>
                     );
                   })}
                 </div>
                 <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
                   {step.data.shuffled_words.map((w: string, i: number) => {
-                    const isUsed = scrambleAnswer.includes(w);
+                    const isUsed = scrambleAnswer.includes(i);
                     return (
                       <button key={`bank-${i}`} className="quiz-option" style={{ padding: '12px 20px', width: 'auto', background: isUsed ? '#e5e5e5' : '', borderColor: isUsed ? '#e5e5e5' : '', color: isUsed ? 'transparent' : '', pointerEvents: isUsed ? 'none' : 'auto' }} onClick={() => {
-                        if (!quizChecked && !isUsed) setScrambleAnswer(prev => [...prev, w]);
+                        if (!quizChecked && !isUsed) setScrambleAnswer(prev => [...prev, i]);
                       }}>{w}</button>
                     );
                   })}
@@ -1634,7 +2585,7 @@ export default function LessonPage() {
                 </div>
                 <h2 className="quiz-question" style={{ marginBottom: '20px' }}>{step.data.question}</h2>
                 <div className="quiz-options">
-                  {step.data.options.map((opt: string, i: number) => {
+                  {(step.data.options ?? []).map((opt: string, i: number) => {
                     let cls = 'quiz-option';
                     if (quizChecked) {
                       if (i === step.data.correct_index) cls += ' correct';
@@ -1658,19 +2609,20 @@ export default function LessonPage() {
                 </div>
                 <h2 className="quiz-question">Build the sentence</h2>
                 <div style={{ minHeight: '60px', borderBottom: '2px solid #e5e5e5', marginBottom: '24px', display: 'flex', gap: '8px', flexWrap: 'wrap', paddingBottom: '12px' }}>
-                  {scrambleAnswer.map((w, i) => {
+                  {scrambleAnswer.map((idx: any, i: number) => {
+                    const w = step.data.options[idx];
                     let cls = 'quiz-option';
                     if (quizChecked) cls += feedback.status === 'correct' ? ' correct' : ' wrong';
                     return (
-                      <button key={`sb-ans-${i}`} className={cls} style={{ padding: '12px 20px', width: 'auto' }} onClick={() => { if (!quizChecked) setScrambleAnswer(prev => prev.filter((_, idx) => idx !== i)); }}>{w}</button>
+                      <button key={`sb-ans-${i}`} className={cls} style={{ padding: '12px 20px', width: 'auto' }} onClick={() => { if (!quizChecked) setScrambleAnswer(prev => prev.filter((_, index) => index !== i)); }}>{w}</button>
                     );
                   })}
                 </div>
                 <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
-                  {step.data.options.map((w: string, i: number) => {
-                    const isUsed = scrambleAnswer.includes(w);
+                  {(step.data.options ?? []).map((w: string, i: number) => {
+                    const isUsed = scrambleAnswer.includes(i);
                     return (
-                      <button key={`sb-bank-${i}`} className="quiz-option" style={{ padding: '12px 20px', width: 'auto', background: isUsed ? '#e5e5e5' : '', borderColor: isUsed ? '#e5e5e5' : '', color: isUsed ? 'transparent' : '', pointerEvents: isUsed ? 'none' : 'auto' }} onClick={() => { if (!quizChecked && !isUsed) setScrambleAnswer(prev => [...prev, w]); }}>{w}</button>
+                      <button key={`sb-bank-${i}`} className="quiz-option" style={{ padding: '12px 20px', width: 'auto', background: isUsed ? '#e5e5e5' : '', borderColor: isUsed ? '#e5e5e5' : '', color: isUsed ? 'transparent' : '', pointerEvents: isUsed ? 'none' : 'auto' }} onClick={() => { if (!quizChecked && !isUsed) setScrambleAnswer(prev => [...prev, i]); }}>{w}</button>
                     );
                   })}
                 </div>
@@ -1682,30 +2634,70 @@ export default function LessonPage() {
               <>
                 {step.data.instruction && <p style={{ fontSize: '14px', color: '#64748b', marginBottom: '12px', textAlign: 'center', fontWeight: 600 }}>{step.data.instruction}</p>}
                 <h2 className="quiz-question">Match the pairs</h2>
-                <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', width: '50%' }}>
-                    {step.data.pairs.map((p: any, i: number) => {
-                      const isSel = matchingSelections.includes(i);
-                      const isWrong = matchingWrongPairs.includes(i);
-                      const selCls = isWrong ? 'wrong' : (isSel ? 'selected' : '');
-                      const matCls = matchingMatched.includes(i) ? 'correct' : '';
-                      return (
-                        <button key={`L-${i}`} className={`quiz-option ${selCls} ${matCls}`} style={{ justifyContent: 'center' }} onClick={() => handleMatchingClick(i, true)} disabled={matCls !== '' || matchingWrongPairs.length > 0}>{p.left}</button>
-                      );
-                    })}
-                  </div>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', width: '50%' }}>
-                    {step.data.pairs.map((p: any, i: number) => {
-                      const globalIdx = i + step.data.pairs.length;
-                      const isSel = matchingSelections.includes(globalIdx);
-                      const isWrong = matchingWrongPairs.includes(globalIdx);
-                      const selCls = isWrong ? 'wrong' : (isSel ? 'selected' : '');
-                      const matCls = matchingMatched.includes(globalIdx) ? 'correct' : '';
-                      return (
-                        <button key={`R-${i}`} className={`quiz-option ${selCls} ${matCls}`} style={{ justifyContent: 'center' }} onClick={() => handleMatchingClick(i, false)} disabled={matCls !== '' || matchingWrongPairs.length > 0}>{p.right}</button>
-                      );
-                    })}
-                  </div>
+                <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: '1fr 1fr',
+                  gap: '12px 20px',
+                  width: '100%',
+                  alignItems: 'stretch'
+                }}>
+                  {step.data.pairs.map((p: any, i: number) => {
+                    const isSelL = matchingSelections.includes(i);
+                    const isWrongL = matchingWrongPairs.includes(i);
+                    const selClsL = isWrongL ? 'wrong' : (isSelL ? 'selected' : '');
+                    const matClsL = matchingMatched.includes(i) ? 'correct' : '';
+
+                    const globalIdx = i + step.data.pairs.length;
+                    const isSelR = matchingSelections.includes(globalIdx);
+                    const isWrongR = matchingWrongPairs.includes(globalIdx);
+                    const selClsR = isWrongR ? 'wrong' : (isSelR ? 'selected' : '');
+                    const matClsR = matchingMatched.includes(globalIdx) ? 'correct' : '';
+
+                    return (
+                      <React.Fragment key={i}>
+                        <button 
+                          key={`L-${i}`} 
+                          className={`quiz-option ${selClsL} ${matClsL}`} 
+                          style={{ 
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            textAlign: 'center',
+                            minHeight: '80px',
+                            width: '100%',
+                            padding: '12px 16px',
+                            fontSize: '18px',
+                            height: '100%',
+                            marginBottom: 0
+                          }} 
+                          onClick={() => handleMatchingClick(i, true)} 
+                          disabled={matClsL !== '' || matchingWrongPairs.length > 0}
+                        >
+                          {p.left}
+                        </button>
+                        <button 
+                          key={`R-${i}`} 
+                          className={`quiz-option ${selClsR} ${matClsR}`} 
+                          style={{ 
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            textAlign: 'center',
+                            minHeight: '80px',
+                            width: '100%',
+                            padding: '12px 16px',
+                            fontSize: '18px',
+                            height: '100%',
+                            marginBottom: 0
+                          }} 
+                          onClick={() => handleMatchingClick(i, false)} 
+                          disabled={matClsR !== '' || matchingWrongPairs.length > 0}
+                        >
+                          {p.right}
+                        </button>
+                      </React.Fragment>
+                    );
+                  })}
                 </div>
               </>
             )}
@@ -1718,12 +2710,29 @@ export default function LessonPage() {
                 </motion.div>
                 
                 <motion.h2 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="lesson-done-title" style={{ fontSize: '32px' }}>
-                  {accuracy_percent === 100 ? 'Perfect Lesson!' : accuracy_percent >= 80 ? 'Amazing Job!' : 'Lesson Complete!'}
+                  {step.data.title || (accuracy_percent === 100 ? 'Perfect Lesson!' : accuracy_percent >= 80 ? 'Amazing Job!' : 'Lesson Complete!')}
                 </motion.h2>
 
                 <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }} style={{ fontSize: '16px', color: '#64748b', fontWeight: 700, marginBottom: '24px' }}>
-                  You just finished <span style={{ color: '#4f46e5' }}>{lesson?.title || 'this lesson'}</span>
+                  {step.data.what_you_learned ? "Excellent work! You've mastered these concepts." : `You just finished ${lesson?.title || 'this lesson'}`}
                 </motion.p>
+
+                {step.data.what_you_learned && step.data.what_you_learned.length > 0 && (
+                  <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
+                    style={{ textAlign: 'left', background: 'white', borderRadius: '24px', padding: '24px', border: '2px solid #eef2ff', marginBottom: '24px', width: '100%', boxShadow: '0 4px 15px rgba(0,0,0,0.02)' }}>
+                    <p style={{ fontSize: '12px', fontWeight: 900, color: '#4f46e5', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '16px' }}>What you learned:</p>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                      {step.data.what_you_learned.map((item: string, i: number) => (
+                        <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                          <div style={{ width: '20px', height: '20px', background: '#e0e7ff', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px' }}>
+                            <div style={{ width: '8px', height: '8px', background: '#4f46e5', borderRadius: '50%' }} />
+                          </div>
+                          <p style={{ margin: 0, fontSize: '14px', color: '#334155', fontWeight: 600, lineHeight: 1.5 }}>{item}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
 
                 <div className="lesson-done-stats" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', width: '100%', marginBottom: '24px' }}>
                   <div className="lesson-done-stat" style={{ padding: '16px 12px' }}>
@@ -1784,7 +2793,7 @@ export default function LessonPage() {
               </div>
               <div className={`feedback-text ${feedback.status}`}>
                 <h2>{feedback.title}</h2>
-                {feedback.msg && <p>{feedback.msg}</p>}
+                {feedback.msg && <p style={{ whiteSpace: 'pre-wrap' }}>{feedback.msg}</p>}
               </div>
               <button 
                 autoFocus 

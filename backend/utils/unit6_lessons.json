@@ -7,115 +7,158 @@
         "unit": 6,
         "lesson_number": 1,
         "level": "A1",
-        "title": "Daily Routine Part 1",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Phone calls & messages",
+        "description": "Learn to make phone calls and leave messages politely.",
+        "estimated_minutes": 30,
+        "xp_reward": 150,
         "tasks": [
           {
             "task_id": "t0601_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 1",
+            "prompt": "Core call verbs",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Phone call vocabulary",
+              "example_sentences": [
+                "Can you call me back?",
+                "I will leave a message.",
+                "Let's schedule a meeting."
+              ],
+              "context": "Making a phone call."
             }
           },
           {
             "task_id": "t0601_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "listen_repeat",
+            "prompt": "Say it clearly: key phrases",
+            "audio_key": "a1_u6_l1_repeat_01",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
-              ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "target_phrases": [
+                "Could you please call me back?",
+                "I'm not available right now.",
+                "Can I leave a message?"
+              ]
             }
           },
           {
             "task_id": "t0601_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
-            "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
-              ],
-              "explanation": "Present simple for routines: I wake, I eat."
-            }
+            "type": "mcq",
+            "prompt": "Which message was sent?",
+            "question": "If you want someone to call you again, you ask them to:",
+            "options": [
+              "call back",
+              "hang up",
+              "text back",
+              "delete"
+            ],
+            "correct_option_index": 0
           },
           {
             "task_id": "t0601_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
-            "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
-            }
+            "type": "fill_blank",
+            "prompt": "Complete the callback request",
+            "question": "Can you ___ me back later?",
+            "answer": "call"
           },
           {
             "task_id": "t0601_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "sort_words",
+            "prompt": "Put message steps in order",
+            "scramble": [
+              "you",
+              "call",
+              "me",
+              "back",
+              "Can"
+            ],
+            "answer": "Can you call me back"
+          },
+          {
+            "task_id": "t0601_06",
+            "type": "match_pairs",
+            "prompt": "Match greeting + response",
+            "pairs": [
+              {
+                "left": "Hello, is this Arjun?",
+                "right": "Yes, speaking."
+              },
+              {
+                "left": "Can I leave a message?",
+                "right": "Sure, I'll pass it on."
+              },
+              {
+                "left": "I'm busy right now.",
+                "right": "Okay, I'll call back later."
+              }
+            ]
+          },
+          {
+            "task_id": "t0601_07",
+            "type": "error_correction",
+            "prompt": "Correct the mistakes",
+            "instruction": "Fix the sentence.",
+            "wrong_sentence": "Can you calls me back?",
+            "correct_sentence": "Can you call me back?"
+          },
+          {
+            "task_id": "t0601_08",
+            "type": "scenario_mcq",
+            "prompt": "Choose what to say",
+            "question": "You missed a call from your boss. What do you text?",
+            "options": [
+              "Sorry I missed your call. I will call you back soon.",
+              "Why did you call?",
+              "Don't call me.",
+              "I am not answering."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0601_09",
+            "type": "speaking",
+            "prompt": "Speak: leaving a short voicemail",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson02",
-              "next_lesson_title": "Daily Routine Part 2"
+              "min_words": 15,
+              "example_response": "Hi, this is Priya. I am calling about the meeting. Please call me back when you are free."
+            }
+          },
+          {
+            "task_id": "t0601_10",
+            "type": "dialogue",
+            "prompt": "Conversation turn-taking",
+            "dialogue": {
+              "setting": "A phone call",
+              "turns": [
+                {
+                  "speaker": "A",
+                  "text": "Hello, is Sonal there?"
+                },
+                {
+                  "speaker": "B",
+                  "text": "She is not available right now. Can I take a message?"
+                },
+                {
+                  "speaker": "A",
+                  "text": "Yes, please ask her to call me back."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "Is Sonal available?",
+                "expected_answer": "No, she is not."
+              }
+            ]
+          },
+          {
+            "task_id": "t0601_11",
+            "type": "lesson_summary",
+            "prompt": "L1 mastery quiz",
+            "content": {
+              "checklist": [
+                "I can ask someone to call me back.",
+                "I can leave a voicemail.",
+                "I know phone call vocabulary."
+              ]
             }
           }
         ]
@@ -125,115 +168,158 @@
         "unit": 6,
         "lesson_number": 2,
         "level": "A1",
-        "title": "Daily Routine Part 2",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Shopping clothes & returns",
+        "description": "Learn to talk about sizes, fits, and how to return or exchange items.",
+        "estimated_minutes": 30,
+        "xp_reward": 150,
         "tasks": [
           {
             "task_id": "t0602_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 2",
+            "prompt": "Clothing store vocabulary",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Shopping vocabulary",
+              "example_sentences": [
+                "Do you have this in a bigger size?",
+                "I'd like to return this.",
+                "Can I exchange this for a different color?"
+              ],
+              "context": "At a clothing store."
             }
           },
           {
             "task_id": "t0602_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "listen_repeat",
+            "prompt": "Say it clearly",
+            "audio_key": "a1_u6_l2_repeat_01",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
-              ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "target_phrases": [
+                "I want to return this shirt.",
+                "Do you have the receipt?",
+                "It doesn't fit well."
+              ]
             }
           },
           {
             "task_id": "t0602_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
-            "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
-              ],
-              "explanation": "Present simple for routines: I wake, I eat."
-            }
+            "type": "mcq",
+            "prompt": "What is the customer asking?",
+            "question": "If you want to give a shirt back and get your money, you ask for a:",
+            "options": [
+              "refund",
+              "receipt",
+              "size",
+              "color"
+            ],
+            "correct_option_index": 0
           },
           {
             "task_id": "t0602_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
-            "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
-            }
+            "type": "fill_blank",
+            "prompt": "Fill the size/fit questions",
+            "question": "Do you have this in a smaller ___?",
+            "answer": "size"
           },
           {
             "task_id": "t0602_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "sort_words",
+            "prompt": "Build the return request",
+            "scramble": [
+              "like",
+              "to",
+              "return",
+              "this",
+              "I'd"
+            ],
+            "answer": "I'd like to return this"
+          },
+          {
+            "task_id": "t0602_06",
+            "type": "match_pairs",
+            "prompt": "Match shopping phrases",
+            "pairs": [
+              {
+                "left": "It's too big.",
+                "right": "Do you have a smaller size?"
+              },
+              {
+                "left": "I don't like the color.",
+                "right": "Can I exchange it?"
+              },
+              {
+                "left": "I'd like a refund.",
+                "right": "Do you have the receipt?"
+              }
+            ]
+          },
+          {
+            "task_id": "t0602_07",
+            "type": "error_correction",
+            "prompt": "Fix incorrect return phrases",
+            "instruction": "Correct the sentence.",
+            "wrong_sentence": "I want returning this.",
+            "correct_sentence": "I want to return this."
+          },
+          {
+            "task_id": "t0602_08",
+            "type": "scenario_mcq",
+            "prompt": "Choose the best response",
+            "question": "Staff says: 'Do you have the receipt?' You reply:",
+            "options": [
+              "Yes, here it is.",
+              "No, it is too big.",
+              "I like blue.",
+              "Thank you."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0602_09",
+            "type": "speaking",
+            "prompt": "Speak: try-on feedback",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson03",
-              "next_lesson_title": "Daily Routine Part 3"
+              "min_words": 15,
+              "example_response": "This shirt is too small. Do you have a medium size? I'd like to exchange it."
+            }
+          },
+          {
+            "task_id": "t0602_10",
+            "type": "dialogue",
+            "prompt": "Roleplay: exchange for a different color",
+            "dialogue": {
+              "setting": "A clothing store",
+              "turns": [
+                {
+                  "speaker": "Customer",
+                  "text": "I'd like to exchange this dress."
+                },
+                {
+                  "speaker": "Staff",
+                  "text": "Is there something wrong with it?"
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "No, but I want it in blue, not red."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "Why does the customer want to exchange the dress?",
+                "expected_answer": "Because they want a different color."
+              }
+            ]
+          },
+          {
+            "task_id": "t0602_11",
+            "type": "lesson_summary",
+            "prompt": "L2 mastery quiz",
+            "content": {
+              "checklist": [
+                "I can ask for a different size or color.",
+                "I can return or exchange an item.",
+                "I can answer questions about receipts."
+              ]
             }
           }
         ]
@@ -243,115 +329,159 @@
         "unit": 6,
         "lesson_number": 3,
         "level": "A1",
-        "title": "Daily Routine Part 3",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Eating out complaints & dietary needs",
+        "description": "Learn to state dietary needs and make polite complaints at a restaurant.",
+        "estimated_minutes": 30,
+        "xp_reward": 150,
         "tasks": [
           {
             "task_id": "t0603_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 3",
+            "prompt": "Dietary needs vocabulary",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Expressing allergies and restrictions",
+              "example_sentences": [
+                "I am allergic to peanuts.",
+                "I can't eat spicy food.",
+                "Can I have this without onions?"
+              ],
+              "context": "Ordering food at a restaurant."
             }
           },
           {
             "task_id": "t0603_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "listen_repeat",
+            "prompt": "Polite complaint openers",
+            "audio_key": "a1_u6_l3_repeat_01",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
-              ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "target_phrases": [
+                "Excuse me, my soup is cold.",
+                "Sorry, but this is not what I ordered.",
+                "Could you please heat this up?"
+              ]
             }
           },
           {
             "task_id": "t0603_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
-            "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
-              ],
-              "explanation": "Present simple for routines: I wake, I eat."
-            }
+            "type": "mcq",
+            "prompt": "Identify the problem",
+            "question": "You ordered chicken, but the waiter brought you fish. The problem is:",
+            "options": [
+              "wrong order",
+              "cold food",
+              "spicy food",
+              "missing item"
+            ],
+            "correct_option_index": 0
           },
           {
             "task_id": "t0603_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
-            "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
-            }
+            "type": "fill_blank",
+            "prompt": "I can\u2019t / I\u2019m allergic to",
+            "question": "I am ___ to dairy.",
+            "answer": "allergic"
           },
           {
             "task_id": "t0603_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "sort_words",
+            "prompt": "Build the complaint",
+            "scramble": [
+              "me",
+              "Excuse",
+              "cold",
+              "is",
+              "soup",
+              "this"
+            ],
+            "answer": "Excuse me this soup is cold"
+          },
+          {
+            "task_id": "t0603_06",
+            "type": "match_pairs",
+            "prompt": "Match complaints to solutions",
+            "pairs": [
+              {
+                "left": "My food is cold.",
+                "right": "I will heat it up for you."
+              },
+              {
+                "left": "I didn't order this.",
+                "right": "I'll bring the correct dish."
+              },
+              {
+                "left": "We are missing a fork.",
+                "right": "Here is another one."
+              }
+            ]
+          },
+          {
+            "task_id": "t0603_07",
+            "type": "error_correction",
+            "prompt": "Correct the dietary statement",
+            "instruction": "Fix the sentence.",
+            "wrong_sentence": "I has allergic to nuts.",
+            "correct_sentence": "I am allergic to nuts."
+          },
+          {
+            "task_id": "t0603_08",
+            "type": "scenario_mcq",
+            "prompt": "Staff question responses",
+            "question": "Staff asks: 'Is there anything you can\u2019t eat?' You reply:",
+            "options": [
+              "Yes, I am a vegetarian.",
+              "Yes, I eat everything.",
+              "I like chicken.",
+              "This is cold."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0603_09",
+            "type": "speaking",
+            "prompt": "Speak: polite complaint",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson04",
-              "next_lesson_title": "Daily Routine Part 4"
+              "min_words": 15,
+              "example_response": "Excuse me. I ordered the pasta, but this is a salad. Could you please check my order?"
+            }
+          },
+          {
+            "task_id": "t0603_10",
+            "type": "dialogue",
+            "prompt": "Roleplay: allergy-safe order",
+            "dialogue": {
+              "setting": "A restaurant",
+              "turns": [
+                {
+                  "speaker": "Customer",
+                  "text": "I'd like the curry, but I'm allergic to peanuts."
+                },
+                {
+                  "speaker": "Staff",
+                  "text": "I can ask the chef to make it without peanuts."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Thank you, that would be great."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "What is the customer allergic to?",
+                "expected_answer": "Peanuts."
+              }
+            ]
+          },
+          {
+            "task_id": "t0603_11",
+            "type": "lesson_summary",
+            "prompt": "L3 mastery quiz",
+            "content": {
+              "checklist": [
+                "I can state my food allergies.",
+                "I can ask for food modifications.",
+                "I can politely complain about food."
+              ]
             }
           }
         ]
@@ -361,115 +491,158 @@
         "unit": 6,
         "lesson_number": 4,
         "level": "A1",
-        "title": "Daily Routine Part 4",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Health & lifestyle",
+        "description": "Talk about healthy habits and give basic advice for illnesses.",
+        "estimated_minutes": 30,
+        "xp_reward": 150,
         "tasks": [
           {
             "task_id": "t0604_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 4",
+            "prompt": "Health vocabulary set",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Health and habits",
+              "example_sentences": [
+                "I have a headache.",
+                "I exercise three times a week.",
+                "You should get some rest."
+              ],
+              "context": "Talking about health and routines."
             }
           },
           {
             "task_id": "t0604_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "listen_repeat",
+            "prompt": "Pronounce key sounds",
+            "audio_key": "a1_u6_l4_repeat_01",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
-              ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "target_phrases": [
+                "You should drink more water.",
+                "I usually sleep eight hours.",
+                "I feel stressed today."
+              ]
             }
           },
           {
             "task_id": "t0604_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
-            "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
-              ],
-              "explanation": "Present simple for routines: I wake, I eat."
-            }
+            "type": "mcq",
+            "prompt": "Often/sometimes/never",
+            "question": "If you do something zero times, you ___ do it.",
+            "options": [
+              "never",
+              "often",
+              "usually",
+              "sometimes"
+            ],
+            "correct_option_index": 0
           },
           {
             "task_id": "t0604_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
-            "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
-            }
+            "type": "fill_blank",
+            "prompt": "Present simple for routines",
+            "question": "She ___ yoga every morning.",
+            "answer": "does"
           },
           {
             "task_id": "t0604_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "sort_words",
+            "prompt": "Build the advice sentence",
+            "scramble": [
+              "should",
+              "rest",
+              "get",
+              "You",
+              "some"
+            ],
+            "answer": "You should get some rest"
+          },
+          {
+            "task_id": "t0604_06",
+            "type": "match_pairs",
+            "prompt": "Symptoms to questions",
+            "pairs": [
+              {
+                "left": "I have a headache.",
+                "right": "You should take a painkiller."
+              },
+              {
+                "left": "I am very tired.",
+                "right": "You should sleep early."
+              },
+              {
+                "left": "I am thirsty.",
+                "right": "You should drink some water."
+              }
+            ]
+          },
+          {
+            "task_id": "t0604_07",
+            "type": "error_correction",
+            "prompt": "Fix should sentences",
+            "instruction": "Correct the sentence.",
+            "wrong_sentence": "You should to rest.",
+            "correct_sentence": "You should rest."
+          },
+          {
+            "task_id": "t0604_08",
+            "type": "scenario_mcq",
+            "prompt": "Best advice choice",
+            "question": "Your friend says: 'I feel stressed from work.' You say:",
+            "options": [
+              "You should take a break.",
+              "You should work more.",
+              "I like coffee.",
+              "Where is your office?"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0604_09",
+            "type": "speaking",
+            "prompt": "Speak: my lifestyle routine",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson05",
-              "next_lesson_title": "Daily Routine Part 5"
+              "min_words": 15,
+              "example_response": "I usually wake up early and go for a walk. I eat healthy food and sleep for eight hours."
+            }
+          },
+          {
+            "task_id": "t0604_10",
+            "type": "dialogue",
+            "prompt": "Roleplay: ask for advice",
+            "dialogue": {
+              "setting": "Two friends talking",
+              "turns": [
+                {
+                  "speaker": "A",
+                  "text": "I have a bad headache today."
+                },
+                {
+                  "speaker": "B",
+                  "text": "Oh no. You should drink water and rest."
+                },
+                {
+                  "speaker": "A",
+                  "text": "Thanks, I will do that."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "What is A's problem?",
+                "expected_answer": "They have a headache."
+              }
+            ]
+          },
+          {
+            "task_id": "t0604_11",
+            "type": "lesson_summary",
+            "prompt": "L4 mastery quiz",
+            "content": {
+              "checklist": [
+                "I can talk about my healthy habits.",
+                "I can describe simple symptoms.",
+                "I can give advice using 'should'."
+              ]
             }
           }
         ]
@@ -479,115 +652,326 @@
         "unit": 6,
         "lesson_number": 5,
         "level": "A1",
-        "title": "Daily Routine Part 5",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Directions",
+        "description": "Ask for and give step-by-step directions using imperatives and common location/movement prepositions.",
+        "estimated_minutes": 30,
+        "xp_reward": 160,
         "tasks": [
           {
             "task_id": "t0605_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 5",
+            "prompt": "Learn directions imperatives",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Imperatives (Turn left / Go straight / Take the second right)",
+              "example_sentences": [
+                "Turn left at the corner.",
+                "Go straight for two minutes.",
+                "Take the second right."
+              ],
+              "context": "You are helping a friend in Chennai to find a pharmacy."
             }
           },
           {
             "task_id": "t0605_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "learn_card",
+            "prompt": "Learn movement prepositions",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
+              "vocab_focus": [
+                "along",
+                "past",
+                "through",
+                "across"
               ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "example_sentences": [
+                "Go along the road.",
+                "Walk past the bank.",
+                "Go through the park.",
+                "Go across the street."
+              ],
+              "context": "Finding places near a road and a park."
             }
           },
           {
             "task_id": "t0605_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
+            "type": "learn_card",
+            "prompt": "Learn distance/time questions",
             "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
+              "grammar_focus": "How far / How long to get there",
+              "example_sentences": [
+                "How far is the bus stop?",
+                "How long does it take to walk there?",
+                "It\u2019s about ten minutes."
               ],
-              "explanation": "Present simple for routines: I wake, I eat."
+              "context": "Your friend asks how long the walk is."
             }
           },
           {
             "task_id": "t0605_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
+            "type": "listen_repeat",
+            "prompt": "Repeat: Turn left / Go straight / Take the second right",
+            "audio_key": "a1_u6_l5_repeat_directions_01",
             "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
+              "target_phrases": [
+                "Turn left at the corner.",
+                "Go straight for two minutes.",
+                "Take the second right."
+              ]
             }
           },
           {
             "task_id": "t0605_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "mcq",
+            "prompt": "You want someone to turn. Choose the best instruction.",
+            "question": "Choose: ___ at the corner.",
+            "options": [
+              "Turn left",
+              "Turn loves",
+              "Turn lefts",
+              "Turning left"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0605_06",
+            "type": "mcq",
+            "prompt": "Which option matches 'Walk past the bank'?",
+            "question": "The word 'past' means\u2026",
+            "options": [
+              "near",
+              "behind/after",
+              "under",
+              "before"
+            ],
+            "correct_option_index": 1
+          },
+          {
+            "task_id": "t0605_07",
+            "type": "mcq",
+            "prompt": "How do you ask about distance?",
+            "question": "Choose the correct question:",
+            "options": [
+              "How far is the hospital?",
+              "How hot is the hospital?",
+              "How many is the hospital?",
+              "How is the hospital?"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0605_08",
+            "type": "mcq",
+            "prompt": "Pick the best instruction for reaching a place.",
+            "question": "You want to say: 'Go straight for two minutes.' Choose the best option.",
+            "options": [
+              "Go straight for two minutes.",
+              "Goes straight for two minutes.",
+              "Going straight for two minutes.",
+              "Go straight two minutes ago."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0605_09",
+            "type": "fill_blank",
+            "prompt": "Complete the direction sentence.",
+            "question": "Go ___ the park.",
+            "answer": "through"
+          },
+          {
+            "task_id": "t0605_10",
+            "type": "fill_blank",
+            "prompt": "Complete the direction sentence.",
+            "question": "Walk ___ the bank and turn right.",
+            "answer": "past"
+          },
+          {
+            "task_id": "t0605_11",
+            "type": "sort_words",
+            "prompt": "Reorder the words to make a correct instruction.",
+            "scramble": [
+              "second",
+              "right",
+              "Take",
+              "the"
+            ],
+            "answer": "Take the second right"
+          },
+          {
+            "task_id": "t0605_12",
+            "type": "sort_words",
+            "prompt": "Reorder the words to make a correct instruction.",
+            "scramble": [
+              "straight",
+              "Go",
+              "for",
+              "two",
+              "minutes"
+            ],
+            "answer": "Go straight for two minutes"
+          },
+          {
+            "task_id": "t0605_13",
+            "type": "match_pairs",
+            "prompt": "Match the preposition to the meaning in your directions.",
+            "pairs": [
+              {
+                "left": "along",
+                "right": "next to a road/path"
+              },
+              {
+                "left": "past",
+                "right": "after/near it and continue"
+              },
+              {
+                "left": "through",
+                "right": "enter and go inside"
+              },
+              {
+                "left": "across",
+                "right": "to the other side"
+              }
+            ]
+          },
+          {
+            "task_id": "t0605_14",
+            "type": "dialogue",
+            "prompt": "Read the dialogue and answer the questions.",
+            "dialogue": {
+              "setting": "Chennai, near a bus stop and a small park",
+              "turns": [
+                {
+                  "speaker": "Priya",
+                  "text": "Hi Arjun! Excuse me, where is the pharmacy near here?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Sure. Go straight for two minutes."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Okay. After that?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Take the second right, and walk past the bank."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Past the bank... got it. Is it close?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "It\u2019s about ten minutes on foot."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Do I go through the park?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Yes, go through the park, then go across the street."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Great! Thank you so much."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "No problem. You\u2019ll see the pharmacy on the left."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "Where does Priya want to go?",
+                "expected_answer": "The pharmacy."
+              },
+              {
+                "question": "How long does Arjun say it takes to walk there?",
+                "expected_answer": "About ten minutes."
+              },
+              {
+                "question": "What does Arjun say Priya should do after walking past the bank?",
+                "expected_answer": "Go through the park and go across the street."
+              }
+            ]
+          },
+          {
+            "task_id": "t0605_15",
+            "type": "error_correction",
+            "prompt": "Find and fix the mistake.",
+            "instruction": "Correct the sentence.",
+            "wrong_sentence": "Go through the street and across the park.",
+            "correct_sentence": "Go across the street and through the park."
+          },
+          {
+            "task_id": "t0605_16",
+            "type": "scenario_mcq",
+            "prompt": "Real-world choice: Your friend is lost. What should you say first?",
+            "question": "You should say:",
+            "options": [
+              "Turn left at the corner. (start directions)",
+              "You are lost. (not helpful)",
+              "The weather is good. (unrelated)",
+              "I like tea. (unrelated)"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0605_17",
+            "type": "speaking",
+            "prompt": "Instruction: Give directions clearly using imperatives. Prompt: Say directions from a bus stop to a nearby temple. Example_response included. Key phrases included. Speak for 60-75 seconds.",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson06",
-              "next_lesson_title": "Daily Routine Part 6"
+              "min_words": 85,
+              "example_response": "Hi! To go to the temple, go straight from the bus stop. After two minutes, take the second right. Then walk past the bakery and go through the small lane. After that, cross the street and you will see the temple on the left. It is about ten or twelve minutes.",
+              "key_phrases": [
+                "Go straight for two minutes.",
+                "Take the second right.",
+                "Walk past the bank/bakery.",
+                "Go through the park/lane.",
+                "Go across the street.",
+                "It\u2019s about ten minutes."
+              ]
+            }
+          },
+          {
+            "task_id": "t0605_18",
+            "type": "speaking",
+            "prompt": "Instruction: Ask for confirmation. Prompt: Your friend follows your directions but is not sure. Ask two follow-up questions using 'How far'/'How long' and one yes/no question.",
+            "content": {
+              "min_words": 75,
+              "example_response": "Hi! Are you near the park now? How long does it take from here? How far is the temple from your side? Tell me if you can see the signboard.",
+              "key_phrases": [
+                "Are you near...?",
+                "How far is...?",
+                "How long does it take...?",
+                "Tell me if..."
+              ]
+            }
+          },
+          {
+            "task_id": "t0605_19",
+            "type": "fill_blank",
+            "prompt": "Comprehensive directions (fill all blanks).",
+            "question": "Complete the directions: Go ___ for two minutes. Then ___ the second right. Walk ___ the bank. Finally, go ___ the park and ___ the street.",
+            "answers": [
+              "straight",
+              "take",
+              "past",
+              "through",
+              "across"
+            ]
+          },
+          {
+            "task_id": "t0605_20",
+            "type": "lesson_summary",
+            "prompt": "Lesson summary: Directions",
+            "content": {
+              "checklist": [
+                "I can use imperatives: Turn / Go / Take.",
+                "I can use movement prepositions: along / past / through / across.",
+                "I can ask: How far / How long?"
+              ]
             }
           }
         ]
@@ -597,115 +981,324 @@
         "unit": 6,
         "lesson_number": 6,
         "level": "A1",
-        "title": "Daily Routine Part 6",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Jobs & the workplace",
+        "description": "Talk about job descriptions and what people are doing now at work using present continuous for current projects.",
+        "estimated_minutes": 35,
+        "xp_reward": 170,
         "tasks": [
           {
             "task_id": "t0606_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 6",
+            "prompt": "Learn job description basics",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Simple present (He/She works / I work)",
+              "example_sentences": [
+                "She works in a hospital.",
+                "I work in an office.",
+                "He teaches children."
+              ],
+              "context": "Talking about where people work in Mumbai."
             }
           },
           {
             "task_id": "t0606_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "learn_card",
+            "prompt": "Learn present continuous for current projects",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
+              "grammar_focus": "Present continuous (I\u2019m currently working on\u2026 / She is preparing\u2026) ",
+              "example_sentences": [
+                "I\u2019m currently working on a new report.",
+                "She is preparing lunch for customers.",
+                "He is fixing a computer today."
               ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "context": "Describing what someone is doing this week at work."
             }
           },
           {
             "task_id": "t0606_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
+            "type": "learn_card",
+            "prompt": "Learn workplace vocabulary",
             "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
+              "vocab_focus": [
+                "office",
+                "store",
+                "hospital",
+                "customer",
+                "colleague",
+                "team"
               ],
-              "explanation": "Present simple for routines: I wake, I eat."
+              "example_sentences": [
+                "My colleague helps me.",
+                "The team works together.",
+                "I talk to customers in the store."
+              ],
+              "context": "A workplace conversation in Bangalore."
             }
           },
           {
             "task_id": "t0606_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
+            "type": "listen_repeat",
+            "prompt": "Repeat present continuous job tasks",
+            "audio_key": "a1_u6_l6_repeat_work_01",
             "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
+              "target_phrases": [
+                "I\u2019m currently working on a new report.",
+                "She is preparing customer orders.",
+                "He is fixing a computer today."
+              ]
             }
           },
           {
             "task_id": "t0606_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "mcq",
+            "prompt": "Choose the correct sentence: 'I work in a store.'",
+            "question": "Which is correct?",
+            "options": [
+              "I work in a store.",
+              "I working in a store.",
+              "I works in a store.",
+              "I worked in a store."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0606_06",
+            "type": "mcq",
+            "prompt": "Choose the correct present continuous form.",
+            "question": "She ___ currently preparing orders.",
+            "options": [
+              "is",
+              "are",
+              "am",
+              "be"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0606_07",
+            "type": "mcq",
+            "prompt": "Where does the doctor work?",
+            "question": "A doctor works in a\u2026",
+            "options": [
+              "hospital",
+              "school yard",
+              "train",
+              "kitchen shop"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0606_08",
+            "type": "mcq",
+            "prompt": "Pick the best question to ask about someone\u2019s job.",
+            "question": "You want to ask: where do you work?",
+            "options": [
+              "Where do you work?",
+              "Where are you yesterday?",
+              "Why are you working tomorrow?",
+              "How are you old?"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0606_09",
+            "type": "fill_blank",
+            "prompt": "Complete the present continuous sentence.",
+            "question": "I\u2019m currently ___ on a new plan.",
+            "answer": "working"
+          },
+          {
+            "task_id": "t0606_10",
+            "type": "fill_blank",
+            "prompt": "Complete the job description sentence.",
+            "question": "Meera ___ in a pharmacy.",
+            "answer": "works"
+          },
+          {
+            "task_id": "t0606_11",
+            "type": "sort_words",
+            "prompt": "Reorder the words to form a correct sentence.",
+            "scramble": [
+              "currently",
+              "working",
+              "on",
+              "a",
+              "report",
+              "I\u2019m"
+            ],
+            "answer": "I\u2019m currently working on a report"
+          },
+          {
+            "task_id": "t0606_12",
+            "type": "sort_words",
+            "prompt": "Reorder the words to form a correct sentence.",
+            "scramble": [
+              "is",
+              "fixing",
+              "the",
+              "computer",
+              "today",
+              "Ravi"
+            ],
+            "answer": "Ravi is fixing the computer today"
+          },
+          {
+            "task_id": "t0606_13",
+            "type": "match_pairs",
+            "prompt": "Match job roles to workplace actions.",
+            "pairs": [
+              {
+                "left": "waiter",
+                "right": "take orders"
+              },
+              {
+                "left": "teacher",
+                "right": "teach students"
+              },
+              {
+                "left": "engineer",
+                "right": "fix/prepare machines"
+              },
+              {
+                "left": "doctor",
+                "right": "treat patients"
+              }
+            ]
+          },
+          {
+            "task_id": "t0606_14",
+            "type": "dialogue",
+            "prompt": "Read the dialogue and answer the questions.",
+            "dialogue": {
+              "setting": "Bangalore, inside an IT office and a meeting room",
+              "turns": [
+                {
+                  "speaker": "Arjun",
+                  "text": "Hi Kavya! What do you do here?"
+                },
+                {
+                  "speaker": "Kavya",
+                  "text": "Hi Arjun. I\u2019m a software tester."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Nice! Are you busy today?"
+                },
+                {
+                  "speaker": "Kavya",
+                  "text": "Yes. I\u2019m currently working on a new test case."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Great. Who helps you?"
+                },
+                {
+                  "speaker": "Kavya",
+                  "text": "My colleague Ravi. He is checking the bugs right now."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "What about your team?"
+                },
+                {
+                  "speaker": "Kavya",
+                  "text": "Our team works together. We discuss problems in the meeting room."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "So you are preparing reports too?"
+                },
+                {
+                  "speaker": "Kavya",
+                  "text": "Yes, I\u2019m writing a summary for the manager."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Cool! Thanks for explaining."
+                },
+                {
+                  "speaker": "Kavya",
+                  "text": "No problem! See you later."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "What is Kavya\u2019s job?",
+                "expected_answer": "She is a software tester."
+              },
+              {
+                "question": "What is Kavya doing today?",
+                "expected_answer": "She is currently working on a new test case and writing a summary."
+              },
+              {
+                "question": "Who is helping Kavya right now?",
+                "expected_answer": "Her colleague Ravi."
+              }
+            ]
+          },
+          {
+            "task_id": "t0606_15",
+            "type": "error_correction",
+            "prompt": "Find and fix the mistake.",
+            "instruction": "Correct the sentence.",
+            "wrong_sentence": "Ravi are fixing the computer today.",
+            "correct_sentence": "Ravi is fixing the computer today."
+          },
+          {
+            "task_id": "t0606_16",
+            "type": "scenario_mcq",
+            "prompt": "Real-world choice: You want to describe what your coworker is doing now.",
+            "question": "Choose the best sentence:",
+            "options": [
+              "She is currently preparing customer orders.",
+              "She currently prepares customer orders every day.",
+              "She prepared customer orders yesterday.",
+              "She is prepare customer orders now."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0606_17",
+            "type": "speaking",
+            "prompt": "Instruction: Describe your job today and what you are working on right now. Prompt: 'In an Indian context, tell about your workplace role.' Speak for 60-75 seconds.",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson07",
-              "next_lesson_title": "Daily Routine Part 7"
+              "min_words": 90,
+              "example_response": "Hi! I work in an office near my home. I\u2019m currently working on a simple project for my manager. Today I\u2019m checking files and writing notes for my team. My colleagues help me when I have questions. We work together and we share updates in the meeting room. This week I\u2019m focusing on finishing the report, and then we will review it."
+            }
+          },
+          {
+            "task_id": "t0606_18",
+            "type": "speaking",
+            "prompt": "Instruction: Ask and answer about work. Prompt: Create a short mini-dialogue. Speak for 60 seconds.",
+            "content": {
+              "min_words": 80,
+              "example_response": "A: Where do you work? B: I work in a pharmacy. A: What do you do there? B: I help customers and I check medicines. A: Are you busy now? B: Yes, I\u2019m currently preparing orders. A: Who helps you? B: My colleague helps me and the team works together."
+            }
+          },
+          {
+            "task_id": "t0606_19",
+            "type": "fill_blank",
+            "prompt": "Comprehensive workplace practice (fill all blanks).",
+            "question": "Complete: I ___ in a store. Today I\u2019m ___ orders for customers. My ___ is Ravi, and he is ___ bugs right now. Our ___ works together in the team room.",
+            "answers": [
+              "work",
+              "preparing",
+              "colleague",
+              "checking",
+              "team"
+            ]
+          },
+          {
+            "task_id": "t0606_20",
+            "type": "lesson_summary",
+            "prompt": "Lesson summary: Jobs & the workplace",
+            "content": {
+              "checklist": [
+                "I can talk about jobs with simple present (I work / She works).",
+                "I can talk about current work with present continuous (I\u2019m working / He is fixing).",
+                "I know key workplace words like colleague, team, customer, office."
+              ]
             }
           }
         ]
@@ -715,115 +1308,311 @@
         "unit": 6,
         "lesson_number": 7,
         "level": "A1",
-        "title": "Daily Routine Part 7",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Weather & seasons (extended)",
+        "description": "Extend weather language with present continuous for activities, plus will/going to for weather predictions and plans.",
+        "estimated_minutes": 35,
+        "xp_reward": 175,
         "tasks": [
           {
             "task_id": "t0607_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 7",
+            "prompt": "Learn weather + present continuous activities",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Present continuous review (It\u2019s raining. I\u2019m staying home.)",
+              "example_sentences": [
+                "It\u2019s raining now.",
+                "I\u2019m staying at home today.",
+                "They are using an umbrella."
+              ],
+              "context": "A rainy evening in Mumbai."
             }
           },
           {
             "task_id": "t0607_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "learn_card",
+            "prompt": "Learn will for predictions",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
+              "grammar_focus": "Will + base verb (Predictions)",
+              "example_sentences": [
+                "It will be sunny tomorrow.",
+                "It will rain in the afternoon.",
+                "The weather will be cold at night."
               ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "context": "Talking about tomorrow\u2019s weather in Chennai."
             }
           },
           {
             "task_id": "t0607_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
+            "type": "learn_card",
+            "prompt": "Learn going to for weather plans",
             "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
+              "grammar_focus": "Going to + base verb (Plans based on weather)",
+              "example_sentences": [
+                "I\u2019m going to carry an umbrella.",
+                "We\u2019re going to stay inside if it rains.",
+                "She\u2019s going to wear a jacket."
               ],
-              "explanation": "Present simple for routines: I wake, I eat."
+              "context": "Preparing for weather changes in Bangalore."
             }
           },
           {
             "task_id": "t0607_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
+            "type": "listen_repeat",
+            "prompt": "Repeat: It will... / I\u2019m going to...",
+            "audio_key": "a1_u6_l7_repeat_weather_01",
             "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
+              "target_phrases": [
+                "It will rain in the afternoon.",
+                "I\u2019m going to carry an umbrella.",
+                "We\u2019re going to stay inside."
+              ]
             }
           },
           {
             "task_id": "t0607_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "type": "mcq",
+            "prompt": "Choose the best prediction sentence.",
+            "question": "Tomorrow, it\u2019s cloudy now. You want to say: It ___ sunny tomorrow.",
+            "options": [
+              "will be",
+              "is being",
+              "will is",
+              "is"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0607_06",
+            "type": "mcq",
+            "prompt": "Choose the correct present continuous sentence.",
+            "question": "Right now, it\u2019s raining. Choose:",
+            "options": [
+              "It is raining now.",
+              "It rains now.",
+              "It rained now.",
+              "It is rain now."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0607_07",
+            "type": "mcq",
+            "prompt": "Choose a going-to plan for weather.",
+            "question": "If it is cold, you want to say: I\u2019m going to ___ a jacket.",
+            "options": [
+              "wear",
+              "wore",
+              "wears",
+              "wearing"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0607_08",
+            "type": "mcq",
+            "prompt": "Choose the best sentence: prediction vs plan",
+            "question": "It looks very dark. The rain is possible soon. Choose:",
+            "options": [
+              "It will rain soon.",
+              "It\u2019s going to rain soon? (ungrammatical here)",
+              "It is going to rain now.",
+              "It rains soon already."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0607_09",
+            "type": "fill_blank",
+            "prompt": "Complete the prediction.",
+            "question": "It ___ be hot this weekend.",
+            "answer": "will"
+          },
+          {
+            "task_id": "t0607_10",
+            "type": "fill_blank",
+            "prompt": "Complete the plan sentence.",
+            "question": "I\u2019m going to ___ an umbrella.",
+            "answer": "carry"
+          },
+          {
+            "task_id": "t0607_11",
+            "type": "sort_words",
+            "prompt": "Reorder to make a correct sentence (prediction).",
+            "scramble": [
+              "tomorrow",
+              "will",
+              "be",
+              "warm",
+              "It"
+            ],
+            "answer": "It will be warm tomorrow"
+          },
+          {
+            "task_id": "t0607_12",
+            "type": "sort_words",
+            "prompt": "Reorder to make a correct sentence (plan).",
+            "scramble": [
+              "going",
+              "to",
+              "wear",
+              "She\u2019s",
+              "a",
+              "jacket"
+            ],
+            "answer": "She\u2019s going to wear a jacket"
+          },
+          {
+            "task_id": "t0607_13",
+            "type": "match_pairs",
+            "prompt": "Match seasons to typical weather.",
+            "pairs": [
+              {
+                "left": "monsoon",
+                "right": "rainy season"
+              },
+              {
+                "left": "summer",
+                "right": "hot weather"
+              },
+              {
+                "left": "winter",
+                "right": "cold weather"
+              },
+              {
+                "left": "spring",
+                "right": "mild weather"
+              }
+            ]
+          },
+          {
+            "task_id": "t0607_14",
+            "type": "dialogue",
+            "prompt": "Read the dialogue and answer the questions.",
+            "dialogue": {
+              "setting": "Chennai, outside a local shop after work",
+              "turns": [
+                {
+                  "speaker": "Meera",
+                  "text": "Arjun, why are you holding an umbrella?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Because the weather is changing. It\u2019s cloudy now."
+                },
+                {
+                  "speaker": "Meera",
+                  "text": "So, will it rain today?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Yes, I think it will rain this evening."
+                },
+                {
+                  "speaker": "Meera",
+                  "text": "What are you going to do?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "I\u2019m going to stay near home after work."
+                },
+                {
+                  "speaker": "Meera",
+                  "text": "We have plans to meet at 7."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "If it rains, we\u2019re going to meet in a caf\u00e9."
+                },
+                {
+                  "speaker": "Meera",
+                  "text": "That\u2019s smart. Are you cold?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Not really, but I\u2019m wearing a light jacket."
+                },
+                {
+                  "speaker": "Meera",
+                  "text": "Okay. Let\u2019s message each other at 6:30."
+                }
+              ]
+            },
+            "comprehension_questions": [
+              {
+                "question": "Why is Arjun holding an umbrella?",
+                "expected_answer": "Because the weather is changing and it may rain."
+              },
+              {
+                "question": "What does Arjun think will happen this evening?",
+                "expected_answer": "He thinks it will rain."
+              },
+              {
+                "question": "Where are they going to meet if it rains?",
+                "expected_answer": "In a caf\u00e9."
+              }
+            ]
+          },
+          {
+            "task_id": "t0607_15",
+            "type": "error_correction",
+            "prompt": "Find and fix the mistake.",
+            "instruction": "Correct the sentence.",
+            "wrong_sentence": "It will rain now, so I\u2019m staying inside.",
+            "correct_sentence": "It is raining now, so I\u2019m staying inside."
+          },
+          {
+            "task_id": "t0607_16",
+            "type": "scenario_mcq",
+            "prompt": "Real-world choice: You see dark clouds. What should you say?",
+            "question": "Choose the best option:",
+            "options": [
+              "It will rain soon.",
+              "It is raining soon.",
+              "It rains soon every day.",
+              "It is going to rain soon (as a general fact)."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0607_17",
+            "type": "speaking",
+            "prompt": "Instruction: Describe today\u2019s weather and your plan for tomorrow. Include: one present continuous sentence, one 'will' prediction, one 'going to' plan. Speak 60-75 seconds.",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson08",
-              "next_lesson_title": "Daily Routine Part 8"
+              "min_words": 90,
+              "example_response": "Today it\u2019s raining a little, and I\u2019m staying at home in the evening. Tomorrow it will be sunny, so I\u2019m going to go for a walk in the morning. I\u2019m also going to wear comfortable clothes. If the weather changes again, I will stay inside for some time. I think the weekend will be nice for the park."
+            }
+          },
+          {
+            "task_id": "t0607_18",
+            "type": "speaking",
+            "prompt": "Instruction: Make a short weather conversation. Prompt: Ask a friend about what they will do if it rains. Speak 60 seconds.",
+            "content": {
+              "min_words": 75,
+              "example_response": "Meera: It\u2019s cloudy. Will it rain? Arjun: Yes, I think it will rain soon. Meera: What will you do? Arjun: I\u2019m going to carry an umbrella and I\u2019m going to meet you at a caf\u00e9 if it rains. Meera: Okay, let\u2019s message at 6:30."
+            }
+          },
+          {
+            "task_id": "t0607_19",
+            "type": "fill_blank",
+            "prompt": "Comprehensive weather practice (fill all blanks).",
+            "question": "It\u2019s ___ now. I\u2019m ___ home. Tomorrow, it will be sunny. I\u2019m going to ___ a walk in the evening, but if it ___, I\u2019m going to stay inside.",
+            "answers": [
+              "raining",
+              "staying",
+              "take",
+              "rains"
+            ]
+          },
+          {
+            "task_id": "t0607_20",
+            "type": "lesson_summary",
+            "prompt": "Lesson summary: Weather & seasons (extended)",
+            "content": {
+              "checklist": [
+                "I can use present continuous for weather right now.",
+                "I can predict: It will\u2026",
+                "I can plan: I\u2019m going to\u2026 (based on weather)."
+              ]
             }
           }
         ]
@@ -833,351 +1622,318 @@
         "unit": 6,
         "lesson_number": 8,
         "level": "A1",
-        "title": "Daily Routine Part 8",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
+        "title": "Unit 6 Final Review + A1 Exit Test",
+        "description": "Mixed review of Unit 6 skills: phone/messages, shopping & returns, restaurant complaints & dietary needs, health & lifestyle, directions, jobs, and weather. Includes a final speaking test.",
+        "estimated_minutes": 40,
+        "xp_reward": 220,
         "tasks": [
           {
             "task_id": "t0608_01",
-            "order": 1,
             "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 8",
+            "prompt": "Quick review: Polite phone/message requests",
             "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
-              ]
+              "grammar_focus": "Polite request forms (Can you\u2026 / Would you\u2026?)",
+              "example_sentences": [
+                "Could you call me back?",
+                "Can you send the address, please?",
+                "Would you like to confirm the time?"
+              ],
+              "context": "Sending a message in Hyderabad."
             }
           },
           {
             "task_id": "t0608_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "type": "learn_card",
+            "prompt": "Quick review: Directions imperatives",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
+              "grammar_focus": "Imperatives (Turn/Go/Take) + movement prepositions",
+              "example_sentences": [
+                "Go straight for two minutes.",
+                "Take the second right.",
+                "Walk past the bank."
               ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "context": "Finding a pharmacy in Chennai."
             }
           },
           {
             "task_id": "t0608_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
+            "type": "learn_card",
+            "prompt": "Quick review: Present continuous (now at work / weather)",
             "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
+              "grammar_focus": "Present continuous for current actions",
+              "example_sentences": [
+                "I\u2019m currently working on a report.",
+                "She is preparing orders now.",
+                "It\u2019s raining now."
               ],
-              "explanation": "Present simple for routines: I wake, I eat."
+              "context": "A busy afternoon in Bangalore."
             }
           },
           {
             "task_id": "t0608_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
+            "type": "listen_repeat",
+            "prompt": "Repeat a mixed set",
+            "audio_key": "a1_u6_l8_repeat_mixed_01",
             "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
+              "target_phrases": [
+                "Could you call me back?",
+                "Go straight for two minutes.",
+                "I\u2019m currently working on a report.",
+                "It will rain soon."
+              ]
             }
           },
           {
             "task_id": "t0608_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
-            "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson09",
-              "next_lesson_title": "Daily Routine Part 9"
-            }
-          }
-        ]
-      },
-      {
-        "lesson_id": "a1_unit6_lesson09",
-        "unit": 6,
-        "lesson_number": 9,
-        "level": "A1",
-        "title": "Daily Routine Part 9",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
-        "tasks": [
+            "type": "mcq",
+            "prompt": "Shopping/returns: Which is best for an exchange request?",
+            "question": "I want to exchange this shirt because it doesn\u2019t fit. I need\u2026",
+            "options": [
+              "an exchange",
+              "a complaint about weather",
+              "a second umbrella",
+              "a new phone call"
+            ],
+            "correct_option_index": 0
+          },
           {
-            "task_id": "t0609_01",
-            "order": 1,
-            "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 9",
-            "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
+            "task_id": "t0608_06",
+            "type": "mcq",
+            "prompt": "Restaurant dietary needs: Pick the correct sentence.",
+            "question": "Choose the correct way to say a restriction.",
+            "options": [
+              "I\u2019m allergic to peanuts.",
+              "I like peanuts very much.",
+              "I can eat peanuts later.",
+              "Peanuts are very sunny."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0608_07",
+            "type": "mcq",
+            "prompt": "Health & lifestyle: Choose the best advice phrase.",
+            "question": "If someone is tired, you say:",
+            "options": [
+              "You should sleep early.",
+              "You should buy a shirt.",
+              "You should go left always.",
+              "You should speak to the weather."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0608_08",
+            "type": "mcq",
+            "prompt": "Weather: prediction vs statement",
+            "question": "Choose the prediction: Tomorrow it ___ windy.",
+            "options": [
+              "will be",
+              "is be",
+              "is",
+              "was"
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0608_09",
+            "type": "fill_blank",
+            "prompt": "Directions: Complete the sentence.",
+            "question": "Walk ___ the bank and turn right.",
+            "answer": "past"
+          },
+          {
+            "task_id": "t0608_10",
+            "type": "fill_blank",
+            "prompt": "Jobs: Complete the sentence.",
+            "question": "Ravi is currently ___ a new schedule.",
+            "answer": "making"
+          },
+          {
+            "task_id": "t0608_11",
+            "type": "sort_words",
+            "prompt": "Reorder: polite message sentence",
+            "scramble": [
+              "please",
+              "send",
+              "me",
+              "the",
+              "address",
+              "Could",
+              "you"
+            ],
+            "answer": "Could you please send me the address?"
+          },
+          {
+            "task_id": "t0608_12",
+            "type": "sort_words",
+            "prompt": "Reorder: directions sentence",
+            "scramble": [
+              "across",
+              "street",
+              "go",
+              "the",
+              "and",
+              "cross"
+            ],
+            "answer": "Go across the street"
+          },
+          {
+            "task_id": "t0608_13",
+            "type": "match_pairs",
+            "prompt": "Match situations to the best response style.",
+            "pairs": [
+              {
+                "left": "Lost and asking directions",
+                "right": "Use Turn/Go/Take + landmarks"
+              },
+              {
+                "left": "Diet restriction at a restaurant",
+                "right": "Use I\u2019m allergic to\u2026 / I can\u2019t eat\u2026"
+              },
+              {
+                "left": "Need help on the phone",
+                "right": "Use Could you\u2026 / Can you\u2026?"
+              },
+              {
+                "left": "Now at work",
+                "right": "Use I\u2019m currently\u2026 / She is\u2026"
+              }
+            ]
+          },
+          {
+            "task_id": "t0608_14",
+            "type": "dialogue",
+            "prompt": "Final mixed dialogue (Unit 6). Read and answer.",
+            "dialogue": {
+              "setting": "Mumbai, outside a metro station and nearby caf\u00e9",
+              "turns": [
                 {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
+                  "speaker": "Sonal",
+                  "text": "Hi Arjun! I have a message problem. Can you help me?"
                 },
                 {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
+                  "speaker": "Arjun",
+                  "text": "Sure. What happened?"
+                },
+                {
+                  "speaker": "Sonal",
+                  "text": "My phone is not working. Could you call me back when you can?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Okay. Also, you look hungry. Are you going to the caf\u00e9?"
+                },
+                {
+                  "speaker": "Sonal",
+                  "text": "Yes, but I\u2019m allergic to peanuts. I can\u2019t eat any peanuts."
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "No problem. What about the route? The caf\u00e9 is near the station."
+                },
+                {
+                  "speaker": "Sonal",
+                  "text": "How do I get there from here?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "Go straight for two minutes. Take the second right, and walk past the pharmacy."
+                },
+                {
+                  "speaker": "Sonal",
+                  "text": "It\u2019s raining now. Will it get worse?"
+                },
+                {
+                  "speaker": "Arjun",
+                  "text": "I think it will stop soon. I\u2019m going to wait here, and then we can go together."
+                },
+                {
+                  "speaker": "Sonal",
+                  "text": "Great! Let\u2019s meet inside after 10 minutes."
                 }
               ]
-            }
+            },
+            "comprehension_questions": [
+              {
+                "question": "What does Sonal ask Arjun to do?",
+                "expected_answer": "Call her back."
+              },
+              {
+                "question": "Why can\u2019t Sonal eat peanuts?",
+                "expected_answer": "She is allergic to peanuts."
+              },
+              {
+                "question": "What does Arjun say about the weather?",
+                "expected_answer": "He thinks it will stop soon."
+              }
+            ]
           },
           {
-            "task_id": "t0609_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
+            "task_id": "t0608_15",
+            "type": "error_correction",
+            "prompt": "Find and fix the mistake.",
+            "instruction": "Correct the sentence.",
+            "wrong_sentence": "I\u2019m currently work on a new report.",
+            "correct_sentence": "I\u2019m currently working on a new report."
+          },
+          {
+            "task_id": "t0608_16",
+            "type": "scenario_mcq",
+            "prompt": "Exit test: You want an exchange at a store. Choose best first line.",
+            "question": "What should you say?",
+            "options": [
+              "Hello, I want to make an exchange. It doesn\u2019t fit.",
+              "Hello, where is the weather?",
+              "Hello, turn left at the receipt.",
+              "Hello, I\u2019m currently sleeping now."
+            ],
+            "correct_option_index": 0
+          },
+          {
+            "task_id": "t0608_17",
+            "type": "speaking",
+            "prompt": "A1 Final Speaking Test (Part 1): Directions + confirmation. Instruction: Speak for 60-80 seconds. Include: 1 request for directions, 2 steps using imperatives, and 1 confirmation question.",
             "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
-              ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
+              "min_words": 95,
+              "example_response": "Excuse me, can you help me? I want to find a pharmacy near here. Go straight for two minutes. Then take the second right and walk past the bank. After that, go through the park. How far is it from here? Is it on the left?"
             }
           },
           {
-            "task_id": "t0609_03",
-            "order": 3,
+            "task_id": "t0608_18",
+            "type": "speaking",
+            "prompt": "A1 Final Speaking Test (Part 2): Workplace + weather + dietary needs (choose one each if needed). Speak for 60-80 seconds.",
+            "content": {
+              "min_words": 100,
+              "example_response": "Hi! I work at a small office. Today I\u2019m currently working on a report for my manager. Right now it\u2019s raining outside, so I\u2019m staying inside. Also, I have a diet need: I\u2019m allergic to peanuts, so I can\u2019t eat food with peanuts. If we go out later, we will choose a place with safe food."
+            }
+          },
+          {
+            "task_id": "t0608_19",
             "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
-            "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
-              ],
-              "explanation": "Present simple for routines: I wake, I eat."
-            }
+            "prompt": "Comprehensive multi-skill fill (fast check).",
+            "question": "Complete: Could you ___ me back? I\u2019m allergic ___ peanuts. Go straight ___ two minutes. It ___ rain tomorrow. I\u2019m currently working ___ a new test case.",
+            "answers": [
+              "call",
+              "to",
+              "for",
+              "will",
+              "on"
+            ]
           },
           {
-            "task_id": "t0609_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
-            "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
-            }
-          },
-          {
-            "task_id": "t0609_05",
-            "order": 5,
+            "task_id": "t0608_20",
             "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
+            "prompt": "Unit 6 summary + exit",
             "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "a1_unit6_lesson10",
-              "next_lesson_title": "Daily Routine Part 10"
-            }
-          }
-        ]
-      },
-      {
-        "lesson_id": "a1_unit6_lesson10",
-        "unit": 6,
-        "lesson_number": 10,
-        "level": "A1",
-        "title": "Daily Routine Part 10",
-        "description": "Learn to talk about your daily habits.",
-        "estimated_minutes": 15,
-        "xp_reward": 100,
-        "tasks": [
-          {
-            "task_id": "t0610_01",
-            "order": 1,
-            "type": "learn_card",
-            "category": "vocabulary",
-            "title": "Wake up & Morning 10",
-            "content": {
-              "explanation": "Let's learn some morning routine verbs.",
-              "structure": "I wake up at 7 AM.",
-              "examples": [
-                {
-                  "sentence": "I brush my teeth.",
-                  "note": "Every morning"
-                },
-                {
-                  "sentence": "She eats breakfast.",
-                  "note": "At 8 AM"
-                }
+              "checklist": [
+                "I can handle basic phone/message requests.",
+                "I can shop and ask for size/returns changes.",
+                "I can express dietary needs and polite restaurant issues.",
+                "I can give and ask for directions.",
+                "I can talk about my job and what I\u2019m doing now.",
+                "I can talk about weather with predictions and plans."
               ]
-            }
-          },
-          {
-            "task_id": "t0610_02",
-            "order": 2,
-            "type": "mcq",
-            "category": "vocabulary",
-            "title": "Select the correct verb",
-            "content": {
-              "question": "I ___ my face in the morning.",
-              "options": [
-                "wash",
-                "watch",
-                "walk",
-                "wake"
-              ],
-              "correct_index": 0,
-              "explanation": "Wash is the action for cleaning your face."
-            }
-          },
-          {
-            "task_id": "t0610_03",
-            "order": 3,
-            "type": "fill_blank",
-            "category": "grammar",
-            "title": "Fill the blanks",
-            "content": {
-              "sentence": "I ___ up at 6 AM. Then I ___ breakfast.",
-              "blanks": [
-                {
-                  "position": 1,
-                  "options": [
-                    "wake",
-                    "woke",
-                    "wakes"
-                  ],
-                  "correct": "wake"
-                },
-                {
-                  "position": 2,
-                  "options": [
-                    "eat",
-                    "eats",
-                    "ate"
-                  ],
-                  "correct": "eat"
-                }
-              ],
-              "explanation": "Present simple for routines: I wake, I eat."
-            }
-          },
-          {
-            "task_id": "t0610_04",
-            "order": 4,
-            "type": "sort_words",
-            "category": "grammar",
-            "title": "Build the sentence",
-            "content": {
-              "instruction": "Rearrange to make a routine sentence.",
-              "words": [
-                "I",
-                "always",
-                "drink",
-                "coffee",
-                "morning",
-                "in",
-                "the"
-              ],
-              "correct_sentence": "I always drink coffee in the morning.",
-              "explanation": "Subject + adverb + verb + object + time."
-            }
-          },
-          {
-            "task_id": "t0610_05",
-            "order": 5,
-            "type": "lesson_summary",
-            "category": "review",
-            "title": "Lesson complete!",
-            "content": {
-              "what_you_learned": [
-                "Morning routine verbs",
-                "Present simple for habits"
-              ],
-              "next_lesson": "unit_complete",
-              "next_lesson_title": "Unit Complete"
             }
           }
         ]

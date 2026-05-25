@@ -1,0 +1,483 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson06",
+    "unit":  11,
+    "lesson_number":  6,
+    "level":  "A2",
+    "title":  "Social media \u0026 texting language",
+    "description":  "Understand common digital communication styles â€” abbreviations, emoji use, and the difference between formal and informal digital writing.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1106_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Texting and social media language",
+                                      "body":  "In digital communication, people often use SHORTENED LANGUAGE â€” especially in casual messages:\n\nCOMMON ABBREVIATIONS:\nâ€¢ btw = by the way\nâ€¢ lol = laughing out loud\nâ€¢ omg = oh my goodness\nâ€¢ tbh = to be honest\nâ€¢ imo = in my opinion\nâ€¢ fyi = for your information\nâ€¢ asap = as soon as possible\nâ€¢ brb = be right back\nâ€¢ ngl = not gonna lie\nâ€¢ icymi = in case you missed it\n\nIMPORTANT: These are ONLY for casual, informal messages to friends. Never use them in formal emails, professional messages, or with seniors/strangers.",
+                                      "grammar_note":  "Abbreviations = informal only\nCapitalisation often dropped in texts\nEmoji use = casual contexts only"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Online etiquette â€” dos and don\u0027ts",
+                                      "body":  "GOOD digital communication:\nâœ“ Reply promptly when possible\nâœ“ Use full words in professional messages\nâœ“ Double-check before sending\nâœ“ Match the tone of the person you\u0027re writing to\nâœ“ Use emoji sparingly and appropriately\nâœ“ Be clear â€” avoid confusion\n\nAVOID:\nâœ— All caps (sounds like shouting)\nâœ— Sending too many follow-up messages\nâœ— Using abbreviations in professional contexts\nâœ— Sharing personal/private information publicly\nâœ— Responding emotionally when angry â€” wait before replying\nâœ— Reading messages and not replying for days\n\nA good rule: Would I say this to their face? If not, reconsider.",
+                                      "grammar_note":  "ALL CAPS = shouting in digital communication\nProfessional messages: full words, no abbreviations\nRead, pause, then reply if emotional"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Digital communication",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "thread",
+                                                             "meaning":  "a series of connected messages",
+                                                             "example":  "Check the email thread for the full conversation."
+                                                         },
+                                                         {
+                                                             "word":  "tag",
+                                                             "meaning":  "to mention someone in a post",
+                                                             "example":  "She tagged me in her Instagram post."
+                                                         },
+                                                         {
+                                                             "word":  "dm / direct message",
+                                                             "meaning":  "a private message on social media",
+                                                             "example":  "Send me a DM with the details."
+                                                         },
+                                                         {
+                                                             "word":  "ghosting",
+                                                             "meaning":  "suddenly stopping all contact without explanation",
+                                                             "example":  "He just stopped replying â€” total ghosting."
+                                                         },
+                                                         {
+                                                             "word":  "caption",
+                                                             "meaning":  "text written under a photo",
+                                                             "example":  "What caption did she put under that photo?"
+                                                         },
+                                                         {
+                                                             "word":  "viral",
+                                                             "meaning":  "spreading rapidly and widely online",
+                                                             "example":  "That video went viral overnight."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l6_listen",
+                                      "sentences":  [
+                                                        "Btw, are you coming to the meeting tonight?",
+                                                        "I\u0027ll send you the details in a DM.",
+                                                        "That video of the dog completely went viral!",
+                                                        "Check the email thread â€” the answer is in there.",
+                                                        "Omg â€” have you seen what she posted? That\u0027s hilarious!"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Which message is appropriate to send to a NEW COLLEAGUE you\u0027ve just met at work?",
+                                      "options":  [
+                                                      "Omg ur so funny lol ðŸ˜‚ðŸ˜‚ðŸ˜‚",
+                                                      "Hi Priya â€” great to meet you today! Looking forward to working together.",
+                                                      "btw when r u free tmrw?",
+                                                      "HEY PRIYA!! WHEN ARE YOU FREE????"
+                                                  ],
+                                      "correct":  "Hi Priya â€” great to meet you today! Looking forward to working together.",
+                                      "explanation":  "New colleague = semi-formal. Full words, friendly but professional tone, no abbreviations or all caps."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "What does \u0027tbh\u0027 mean?",
+                                      "options":  [
+                                                      "to be here",
+                                                      "to be honest",
+                                                      "talking by heart",
+                                                      "to be helpful"
+                                                  ],
+                                      "correct":  "to be honest",
+                                      "explanation":  "TBH = to be honest. Often used before sharing a genuine or slightly uncomfortable opinion."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "You want to send an update to your entire team about a meeting. Which message is most appropriate?",
+                                      "options":  [
+                                                      "FYI meeting moved to 3 btw!! lol",
+                                                      "TEAM MEETING IS NOW AT 3 PM!!!",
+                                                      "Hi team â€” just a quick update: tomorrow\u0027s meeting has been moved to 3 PM. Please update your calendars.",
+                                                      "Hey all â€” 3pm not 2pm tmrw k?"
+                                                  ],
+                                      "correct":  "Hi team â€” just a quick update: tomorrow\u0027s meeting has been moved to 3 PM. Please update your calendars.",
+                                      "explanation":  "Team communication = professional. Full words, clear information, no unnecessary abbreviations or all caps."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What is \u0027ghosting\u0027 in digital communication?",
+                                      "options":  [
+                                                      "Posting scary Halloween content online",
+                                                      "Suddenly stopping all contact without any explanation",
+                                                      "Using a fake profile name",
+                                                      "Replying very slowly"
+                                                  ],
+                                      "correct":  "Suddenly stopping all contact without any explanation",
+                                      "explanation":  "\u0027Ghosting\u0027 = disappearing from a conversation or relationship without explanation â€” considered very rude."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Expand these abbreviations into full words.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "btw â†’ ___ ___ ___",
+                                                            "answer":  "by the way"
+                                                        },
+                                                        {
+                                                            "text":  "imo â†’ ___ ___ ___",
+                                                            "answer":  "in my opinion"
+                                                        },
+                                                        {
+                                                            "text":  "fyi â†’ ___ ___ ___",
+                                                            "answer":  "for your information"
+                                                        },
+                                                        {
+                                                            "text":  "asap â†’ ___ ___ ___ ___",
+                                                            "answer":  "as soon as possible"
+                                                        },
+                                                        {
+                                                            "text":  "ngl â†’ ___ ___ ___",
+                                                            "answer":  "not gonna lie"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Rewrite this casual text message as a professional team message.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027omg meeting tmrw is cancelled btw!! lol so happy\u0027 â†’ \u0027Hi team â€” ___\u0027",
+                                                            "answer":  "Hi team â€” just to let you know, tomorrow\u0027s meeting has been cancelled. Hope everyone has a good day!"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027pls send report ASAP!!\u0027 â†’ \u0027Could you ___\u0027",
+                                                            "answer":  "Could you please send the report as soon as possible? Thank you."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a professional team message.",
+                                      "words":  [
+                                                    "update",
+                                                    "quick",
+                                                    "a",
+                                                    "the",
+                                                    "has",
+                                                    "4",
+                                                    "to",
+                                                    "moved",
+                                                    "Hi",
+                                                    "team",
+                                                    "â€”",
+                                                    "meeting",
+                                                    "been",
+                                                    "PM"
+                                                ],
+                                      "answer":  "Hi team â€” a quick update: the meeting has been moved to 4 PM."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a casual text to a friend.",
+                                      "words":  [
+                                                    "coming",
+                                                    "tonight",
+                                                    "btw",
+                                                    "are",
+                                                    "you",
+                                                    "the",
+                                                    "to",
+                                                    "dinner"
+                                                ],
+                                      "answer":  "Btw, are you coming to the dinner tonight?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the digital communication issue to the correct advice.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Someone sends you an angry message",
+                                                        "right":  "Wait before replying â€” don\u0027t respond emotionally."
+                                                    },
+                                                    {
+                                                        "left":  "You\u0027re texting your senior manager",
+                                                        "right":  "Use full words and professional tone â€” no abbreviations."
+                                                    },
+                                                    {
+                                                        "left":  "You see a controversial post on social media",
+                                                        "right":  "Think carefully before commenting â€” your digital footprint matters."
+                                                    },
+                                                    {
+                                                        "left":  "A friend hasn\u0027t replied for 3 days",
+                                                        "right":  "They may be busy â€” don\u0027t send too many follow-ups."
+                                                    },
+                                                    {
+                                                        "left":  "You\u0027re in a group chat and want to share a sensitive update",
+                                                        "right":  "Consider a private DM instead of the public group."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Group chat vs formal update â€” colleagues, Pune",
+                                      "setting":  "Sonal is part of two chats â€” a casual group with friends and a professional team group. Watch how her language changes completely.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Sonal (friends chat)",
+                                                           "text":  "Omg you guys â€” the project is DONE! We can finally breathe! ðŸŽ‰ðŸŽ‰ðŸŽ‰"
+                                                       },
+                                                       {
+                                                           "speaker":  "Riya (friend)",
+                                                           "text":  "Yesssss!! Lol finally!! Are you coming out to celebrate tonight btw?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal (friends chat)",
+                                                           "text":  "Obviously!! Ngl I\u0027ve been dreaming about this moment for weeks ðŸ˜‚"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya (friend)",
+                                                           "text":  "Same omg. Btw where are we going? Imo that new rooftop place looks amazing!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal (friends chat)",
+                                                           "text":  "Yaas! I\u0027ll dm you all the address asap. Brb â€” need to send a proper update to my work team ðŸ˜…"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal (WORK team chat)",
+                                                           "text":  "Hi team â€” I\u0027m pleased to share that we\u0027ve successfully completed the Horizon Project as of today. Thank you all for your dedication over the past three months."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal (WORK team chat)",
+                                                           "text":  "A detailed summary report will be shared by end of day. Please review and share any final comments by Friday. Well done, everyone!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Manager Arjun (work chat)",
+                                                           "text":  "Excellent work, Sonal. Thank you for leading this so professionally. The report looks great."
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal (back to friends chat)",
+                                                           "text":  "Okay I\u0027m back! Let\u0027s gooooo ðŸŽ‰ Dinner at 8? "
+                                                       },
+                                                       {
+                                                           "speaker":  "Riya (friend)",
+                                                           "text":  "8 is perfect!! Btw so proud of you Sonal â€” you worked so hard for this! ðŸ’ª"
+                                                       },
+                                                       {
+                                                           "speaker":  "Sonal (friends chat)",
+                                                           "text":  "Tbh I couldn\u0027t have done it without you guys cheering me on lol. See you at 8! ðŸ˜"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "How does Sonal\u0027s language CHANGE between the friends chat and work chat?",
+                                                                          "options":  [
+                                                                                          "It doesn\u0027t change at all.",
+                                                                                          "She uses abbreviations only in the work chat.",
+                                                                                          "She uses casual abbreviations and emoji with friends, but formal full sentences with her work team.",
+                                                                                          "She is ruder to her friends than her colleagues."
+                                                                                      ],
+                                                                          "correct":  "She uses casual abbreviations and emoji with friends, but formal full sentences with her work team."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Sonal share in the work team message?",
+                                                                          "options":  [
+                                                                                          "Dinner plans",
+                                                                                          "That the project is complete and a report will follow",
+                                                                                          "Her personal celebration plans",
+                                                                                          "A complaint about the workload"
+                                                                                      ],
+                                                                          "correct":  "That the project is complete and a report will follow"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does \u0027ngl\u0027 mean in the friends chat?",
+                                                                          "options":  [
+                                                                                          "next good lunch",
+                                                                                          "not gonna lie",
+                                                                                          "no good life",
+                                                                                          "never give up laughing"
+                                                                                      ],
+                                                                          "correct":  "not gonna lie"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "List 5 abbreviations or informal elements from the friends chat.",
+                                                                   "What makes the work message professional? List 3 features.",
+                                                                   "Why is it important to match your language to the audience?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "These messages have register mistakes. Rewrite correctly.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Email to HR: \u0027omg can u send the form asap?? thx!!\u0027",
+                                                            "correct":  "Dear HR, Could you please send me the required form at your earliest convenience? Thank you.",
+                                                            "explanation":  "Email to HR = formal. No abbreviations, full sentences, polite request."
+                                                        },
+                                                        {
+                                                            "wrong":  "Work announcement: \u0027THE MEETING IS AT 3 NOT 2 FYI!!\u0027",
+                                                            "correct":  "Hi team â€” just to confirm: today\u0027s meeting is at 3 PM, not 2 PM. Please update your calendars.",
+                                                            "explanation":  "All caps = shouting. Professional messages need full words and a calm tone."
+                                                        },
+                                                        {
+                                                            "wrong":  "WhatsApp to a close friend: \u0027I am writing to enquire whether you are available for dinner this Saturday evening.\u0027",
+                                                            "correct":  "Hey! Are you free for dinner this Saturday? ðŸ˜Š",
+                                                            "explanation":  "This is too formal for a close friend on WhatsApp â€” be natural and casual."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You see an online post that makes you very angry. You want to respond. What should you do?",
+                                      "options":  [
+                                                      "Reply immediately with a very strong, emotional response.",
+                                                      "Type your response in capital letters so they understand you\u0027re serious.",
+                                                      "Wait until you feel calm. Think about whether replying will help the situation. If you respond, keep it respectful and factual.",
+                                                      "Share it everywhere immediately."
+                                                  ],
+                                      "correct":  "Wait until you feel calm. Think about whether replying will help the situation. If you respond, keep it respectful and factual.",
+                                      "explanation":  "Good online etiquette: never react when emotional. Pause, think, and respond with facts â€” not feelings."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Compare two types of messages â€” informal (to a friend) and formal (to a manager) â€” for the same situation: you need to take a day off tomorrow.",
+                                      "prompt":  "Write and say two messages â€” one casual to a friend, one professional to your manager â€” about taking a day off tomorrow.",
+                                      "example_response":  "Here are both versions!\n\nCasual WhatsApp to my friend Meera: \u0027Hey! Ngl I\u0027m totally exhausted ðŸ˜… I\u0027m taking tomorrow off! Btw can we do our walk on Saturday instead? Omg I cannot wait to just sleep in lol ðŸ˜‚\u0027\n\nProfessional message to my manager: \u0027Hi [Manager\u0027s name] â€” I wanted to let you know that I\u0027m not feeling well and would like to take a sick day tomorrow if that\u0027s okay. I\u0027ll make sure all urgent tasks are completed or handed over before I log off today. I\u0027ll share a brief update on pending work by 5 PM. Please let me know if this causes any issues. Thank you for understanding.\u0027\n\nYou can see the difference clearly â€” with my friend I use abbreviations, emoji, and very casual phrasing. With my manager, I explain the situation clearly, offer to manage my work responsibly, and ask for permission politely. Same situation, completely different language â€” and that\u0027s exactly how it should be.",
+                                      "key_phrases":  [
+                                                          "casual: btw, omg, ngl, lol",
+                                                          "formal: I wanted to let you know, I\u0027ll ensure, Thank you for understanding"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Think about how social media and digital communication have changed the way people communicate in India. What are the positive changes? What are the problems? Share your opinion.",
+                                      "prompt":  "Discuss the impact of social media and digital communication on everyday life in India â€” pros and cons.",
+                                      "example_response":  "Social media and digital communication have completely transformed how people communicate in India â€” and there are both good and not-so-good sides to this. On the positive side, staying connected with family members who live far away has become so easy. My cousins are spread across Chennai, Bangalore, Hyderabad, and even the UK â€” and we all talk on a family WhatsApp group every day. Without that, we\u0027d barely know what was happening in each other\u0027s lives. Digital communication has also made business much faster â€” everything from job applications to client meetings can happen online now. I think that\u0027s genuinely wonderful. However, there are problems too. A lot of people â€” especially young people â€” spend far too much time on social media and it affects their mental health. They compare their lives to others and feel inadequate. There\u0027s also the problem of misinformation spreading very quickly through WhatsApp forwards. And tbh, sometimes I think people have forgotten how to have a proper face-to-face conversation â€” everyone\u0027s on their phone even when they\u0027re together. It\u0027s a bit sad. So overall â€” a brilliant tool, but we need to use it wisely.",
+                                      "key_phrases":  [
+                                                          "social media",
+                                                          "digital communication",
+                                                          "stay connected",
+                                                          "misinformation",
+                                                          "mental health",
+                                                          "in my opinion"
+                                                      ],
+                                      "min_words":  120
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Label each message as FORMAL (F) or INFORMAL (I) and correct any register mistakes.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027Hi team! Wanted to flag that the deadline is tmrw â€” pls submit ASAP!!\u0027 [F or I? Correct if needed]",
+                                                            "answer":  "Informal register in a professional context. Correct: \u0027Hi team â€” a reminder that the deadline is tomorrow. Please submit your work as soon as possible. Thank you.\u0027"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Omg I literally cannot come tonight â€” so sorry!!\u0027 [F or I?]",
+                                                            "answer":  "Informal â€” appropriate for texting a friend. No correction needed."
+                                                        },
+                                                        {
+                                                            "text":  "\u0027I am writing to enquire if you received my application.\u0027 [F or I?]",
+                                                            "answer":  "Formal â€” appropriate for an email to a company. No correction needed."
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Hey â€” meeting at 3 btw ðŸ˜Š\u0027 (to your manager) [F or I? Correct?]",
+                                                            "answer":  "Too informal for a manager. Correct: \u0027Hi [name] â€” just a quick note that the meeting is at 3 PM today.\u0027"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1106_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 6 complete â€” Social media and texting language",
+                                      "key_points":  [
+                                                         "Abbreviations (btw, omg, lol, fyi) = informal ONLY â€” never in professional messages",
+                                                         "ALL CAPS = shouting in digital communication â€” avoid in professional contexts",
+                                                         "Match your register to your audience â€” casual for friends, professional for colleagues",
+                                                         "Good online etiquette: wait before replying when emotional, don\u0027t over-message, use emoji appropriately",
+                                                         "Same message, different register = completely different language"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Online communication â€” professional chat and email"
+                                  }
+                  }
+              ]
+}

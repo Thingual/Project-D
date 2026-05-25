@@ -1,0 +1,489 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson10",
+    "unit":  11,
+    "lesson_number":  10,
+    "level":  "A2",
+    "title":  "Expressing opinions and agreeing/disagreeing",
+    "description":  "Share your views confidently, agree and disagree politely, and discuss everyday topics using natural opinion language.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1110_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Expressing opinions â€” a full toolkit",
+                                      "body":  "There are many ways to share your opinion in English. Use stronger or softer language depending on how certain you are:\n\nSTRONG opinion:\nâ€¢ \u0027I strongly believe that...\u0027\nâ€¢ \u0027I\u0027m absolutely convinced that...\u0027\nâ€¢ \u0027There\u0027s no doubt in my mind that...\u0027\n\nMILD opinion:\nâ€¢ \u0027I think...\u0027\nâ€¢ \u0027I feel that...\u0027\nâ€¢ \u0027In my opinion,...\u0027\nâ€¢ \u0027Personally, I...\u0027\nâ€¢ \u0027As far as I\u0027m concerned,...\u0027\nâ€¢ \u0027From my perspective,...\u0027\n\nSOFT / HEDGED opinion:\nâ€¢ \u0027I suppose...\u0027\nâ€¢ \u0027I tend to think...\u0027\nâ€¢ \u0027I\u0027m inclined to think...\u0027\nâ€¢ \u0027It seems to me that...\u0027",
+                                      "grammar_note":  "Opinion phrases come BEFORE the main statement\n\u0027I think + clause\u0027 â€” no \u0027to\u0027 between\n\u0027In my opinion\u0027 = formal; \u0027If you ask me\u0027 = informal"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Agreeing and disagreeing politely",
+                                      "body":  "AGREEING:\nâ€¢ \u0027Absolutely!\u0027\nâ€¢ \u0027Exactly â€” that\u0027s what I think too.\u0027\nâ€¢ \u0027I completely agree.\u0027\nâ€¢ \u0027You\u0027re absolutely right.\u0027\nâ€¢ \u0027That\u0027s a very good point.\u0027\nâ€¢ \u0027I couldn\u0027t agree more.\u0027\nâ€¢ \u0027That\u0027s exactly how I feel.\u0027\n\nPARTIAL AGREEMENT:\nâ€¢ \u0027You have a point, but...\u0027\nâ€¢ \u0027I agree up to a point, however...\u0027\nâ€¢ \u0027That\u0027s true to some extent, but...\u0027\nâ€¢ \u0027I see where you\u0027re coming from, although...\u0027\n\nDISAGREEING POLITELY:\nâ€¢ \u0027I\u0027m not sure I agree with that.\u0027\nâ€¢ \u0027I see it slightly differently.\u0027\nâ€¢ \u0027I take your point, but...\u0027\nâ€¢ \u0027With respect, I think...\u0027\nâ€¢ \u0027I\u0027m afraid I disagree â€” in my view...\u0027",
+                                      "grammar_note":  "Partial agreement = acknowledge + BUT\nAlways soften disagreement â€” never just say \u0027Wrong!\u0027\n\u0027With respect\u0027 = polite way to introduce disagreement"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Discussion and debate language",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "perspective",
+                                                             "meaning":  "a particular way of looking at something",
+                                                             "example":  "From my perspective, remote work has more benefits."
+                                                         },
+                                                         {
+                                                             "word":  "valid",
+                                                             "meaning":  "having a good, solid basis",
+                                                             "example":  "That\u0027s a valid point â€” I hadn\u0027t thought of it that way."
+                                                         },
+                                                         {
+                                                             "word":  "controversial",
+                                                             "meaning":  "causing strong disagreement",
+                                                             "example":  "This is a controversial topic with many different views."
+                                                         },
+                                                         {
+                                                             "word":  "argument",
+                                                             "meaning":  "a reason given to support an opinion",
+                                                             "example":  "Her main argument was that quality matters more than quantity."
+                                                         },
+                                                         {
+                                                             "word":  "counterpoint",
+                                                             "meaning":  "an opposing argument",
+                                                             "example":  "I understand your view, but here\u0027s the counterpoint."
+                                                         },
+                                                         {
+                                                             "word":  "nuanced",
+                                                             "meaning":  "taking into account different sides and shades of meaning",
+                                                             "example":  "It\u0027s a nuanced issue â€” neither side is completely right."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l10_listen",
+                                      "sentences":  [
+                                                        "In my opinion, working from home is more productive for most people.",
+                                                        "I completely agree â€” the flexibility really helps focus.",
+                                                        "I see your point, but I think office collaboration is also very important.",
+                                                        "That\u0027s a valid point â€” I suppose it depends on the type of work.",
+                                                        "I\u0027m inclined to think that a hybrid model works best for everyone."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Which phrase best introduces a STRONG personal opinion?",
+                                      "options":  [
+                                                      "Maybe...",
+                                                      "I suppose it could be...",
+                                                      "I strongly believe that quality education should be free for everyone.",
+                                                      "Some people think..."
+                                                  ],
+                                      "correct":  "I strongly believe that quality education should be free for everyone.",
+                                      "explanation":  "\u0027I strongly believe\u0027 = clear, confident, personal opinion. The others are hedged or distanced."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Someone shares an opinion you partly agree with but have a counterpoint to. Which response is best?",
+                                      "options":  [
+                                                      "You\u0027re completely wrong.",
+                                                      "I agree totally.",
+                                                      "I see where you\u0027re coming from, although I think there\u0027s another side to consider.",
+                                                      "That is not a good point."
+                                                  ],
+                                      "correct":  "I see where you\u0027re coming from, although I think there\u0027s another side to consider.",
+                                      "explanation":  "Partial agreement: acknowledge their view (\u0027I see where you\u0027re coming from\u0027) + add your counterpoint (\u0027although...\u0027)."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which phrase is the most polite way to DISAGREE?",
+                                      "options":  [
+                                                      "That\u0027s wrong.",
+                                                      "No.",
+                                                      "I\u0027m afraid I see it slightly differently â€” in my view...",
+                                                      "You don\u0027t understand."
+                                                  ],
+                                      "correct":  "I\u0027m afraid I see it slightly differently â€” in my view...",
+                                      "explanation":  "\u0027I\u0027m afraid\u0027 softens; \u0027see it differently\u0027 disagrees without attacking. Then state your own view calmly."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What does \u0027I couldn\u0027t agree more\u0027 mean?",
+                                      "options":  [
+                                                      "I slightly disagree.",
+                                                      "I am unable to agree.",
+                                                      "I completely and strongly agree.",
+                                                      "I agree with some parts only."
+                                                  ],
+                                      "correct":  "I completely and strongly agree.",
+                                      "explanation":  "\u0027I couldn\u0027t agree more\u0027 = maximum agreement. The double negative (\u0027couldn\u0027t\u0027 + \u0027more\u0027) creates emphasis."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in the correct opinion or agreement phrase.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "___ my opinion, social media does more harm than good to teenagers.",
+                                                            "answer":  "In"
+                                                        },
+                                                        {
+                                                            "text":  "You have a ___, but I think the solution is more complicated than that.",
+                                                            "answer":  "point"
+                                                        },
+                                                        {
+                                                            "text":  "I ___ agree more â€” public transport is absolutely essential in big cities.",
+                                                            "answer":  "couldn\u0027t"
+                                                        },
+                                                        {
+                                                            "text":  "I ___ where you\u0027re coming from, although I feel the evidence tells a different story.",
+                                                            "answer":  "see"
+                                                        },
+                                                        {
+                                                            "text":  "From my ___, the benefits outweigh the risks significantly.",
+                                                            "answer":  "perspective"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete the discussion with the correct response.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Arjun: \u0027I think people should work fewer hours.\u0027 Priya: \u0027___ agree â€” employee wellbeing matters more than output.\u0027",
+                                                            "answer":  "I completely / Absolutely"
+                                                        },
+                                                        {
+                                                            "text":  "Meera: \u0027Social media is making people less sociable.\u0027 Sonal: \u0027I ___ your point, but I think it also connects people who couldn\u0027t meet otherwise.\u0027",
+                                                            "answer":  "take / see"
+                                                        },
+                                                        {
+                                                            "text":  "Ravi: \u0027Online education will replace traditional schools.\u0027 Kavya: \u0027I\u0027m not sure I ___ â€” I think face-to-face teaching has unique value.\u0027",
+                                                            "answer":  "agree"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a strong opinion sentence.",
+                                      "words":  [
+                                                    "believe",
+                                                    "I",
+                                                    "that",
+                                                    "essential",
+                                                    "strongly",
+                                                    "is",
+                                                    "exercise",
+                                                    "daily"
+                                                ],
+                                      "answer":  "I strongly believe that daily exercise is essential."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a polite partial disagreement.",
+                                      "words":  [
+                                                    "that",
+                                                    "point",
+                                                    "think",
+                                                    "see",
+                                                    "the",
+                                                    "I",
+                                                    "but",
+                                                    "your",
+                                                    "I",
+                                                    "differently"
+                                                ],
+                                      "answer":  "I see your point, but I think differently."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the opinion phrase to its level of certainty.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "I strongly believe that...",
+                                                        "right":  "Very strong, confident opinion"
+                                                    },
+                                                    {
+                                                        "left":  "I suppose...",
+                                                        "right":  "Soft, hesitant opinion"
+                                                    },
+                                                    {
+                                                        "left":  "I couldn\u0027t agree more.",
+                                                        "right":  "Maximum agreement"
+                                                    },
+                                                    {
+                                                        "left":  "I see your point, but...",
+                                                        "right":  "Partial agreement with counterpoint"
+                                                    },
+                                                    {
+                                                        "left":  "I\u0027m afraid I see it differently.",
+                                                        "right":  "Polite disagreement"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Opinion debate â€” work from home vs office â€” Mumbai startup",
+                                      "setting":  "Three colleagues â€” Priya, Arjun, and Meera â€” are having a friendly debate during lunch about remote working. They all have different views.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I strongly believe that working from home is the future. The productivity stats speak for themselves."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I completely agree about productivity for individual tasks. But I think collaboration suffers when everyone is remote."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I see your point, but tools like Slack and Teams have made collaboration much easier. Physical presence isn\u0027t always necessary."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "I\u0027m inclined to think a hybrid model is the answer. In my opinion, neither extreme is ideal."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "That\u0027s a valid point, Meera. I agree up to a point â€” but I think junior employees especially need to be in the office to learn and grow."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "I take your point on that. There\u0027s definitely a difference between senior staff and people just starting out."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Exactly! From my perspective, the best arrangement depends on the role, the team, and the individual."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I couldn\u0027t agree more with that last point. It\u0027s not one-size-fits-all."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Personally, what I find most valuable about remote work is the time saved on commuting. Two hours a day back in my life is enormous."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "Oh, I absolutely agree there â€” the commute factor alone is life-changing for many people in Mumbai."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Fair enough â€” I\u0027m coming around to the idea. I suppose what I really want is choice. The freedom to decide for myself."
+                                                       },
+                                                       {
+                                                           "speaker":  "Priya",
+                                                           "text":  "Now that\u0027s something I think all three of us can agree on!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What does Arjun think suffers with remote work?",
+                                                                          "options":  [
+                                                                                          "Productivity",
+                                                                                          "Individual output",
+                                                                                          "Collaboration",
+                                                                                          "Technology use"
+                                                                                      ],
+                                                                          "correct":  "Collaboration"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Meera say is the best working arrangement?",
+                                                                          "options":  [
+                                                                                          "Full remote",
+                                                                                          "Full office",
+                                                                                          "A hybrid model",
+                                                                                          "Four-day week"
+                                                                                      ],
+                                                                          "correct":  "A hybrid model"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Priya say is the most valuable thing about working from home?",
+                                                                          "options":  [
+                                                                                          "No dress code",
+                                                                                          "Better pay",
+                                                                                          "Time saved on commuting",
+                                                                                          "More meetings"
+                                                                                      ],
+                                                                          "correct":  "Time saved on commuting"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "Find 3 examples of PARTIAL AGREEMENT in the dialogue. What structure is used each time?",
+                                                                   "Find 2 examples of STRONG AGREEMENT. Which phrases are used?",
+                                                                   "By the end, do all three colleagues agree on anything? What is it?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the opinion language mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "In my opinion I think that technology is good.",
+                                                            "correct":  "In my opinion, technology has been largely beneficial. / I think technology is generally good.",
+                                                            "explanation":  "\u0027In my opinion\u0027 and \u0027I think\u0027 mean the same â€” don\u0027t use both together. Choose one."
+                                                        },
+                                                        {
+                                                            "wrong":  "I see your point but you are wrong.",
+                                                            "correct":  "I see your point, but I think there\u0027s another perspective worth considering.",
+                                                            "explanation":  "After acknowledging their point, disagree constructively â€” not bluntly. Explain your view instead."
+                                                        },
+                                                        {
+                                                            "wrong":  "I couldn\u0027t agree less with you completely.",
+                                                            "correct":  "I couldn\u0027t agree more. / I completely agree.",
+                                                            "explanation":  "\u0027I couldn\u0027t agree more\u0027 = maximum agreement. \u0027I couldn\u0027t agree less\u0027 = maximum disagreement. These mean opposite things â€” don\u0027t mix them."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "In a team meeting, a senior colleague presents an idea you think has a flaw. How do you politely raise your concern?",
+                                      "options":  [
+                                                      "That idea won\u0027t work.",
+                                                      "I disagree completely.",
+                                                      "That\u0027s a really interesting approach. I wonder if we\u0027ve also considered what might happen if the budget runs over â€” could that be a challenge?",
+                                                      "This is wrong."
+                                                  ],
+                                      "correct":  "That\u0027s a really interesting approach. I wonder if we\u0027ve also considered what might happen if the budget runs over â€” could that be a challenge?",
+                                      "explanation":  "Acknowledge the idea positively + raise concern as a question = professional and constructive disagreement."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Give your opinion on this topic for 90 seconds: \u0027Social media does more harm than good.\u0027 Express your view clearly, acknowledge the other side, and explain your reasoning.",
+                                      "prompt":  "Express your opinion on social media being harmful or beneficial. Use strong opinion language AND partial agreement/counterpoints.",
+                                      "example_response":  "In my opinion, social media does more harm than good â€” but I\u0027ll acknowledge that it\u0027s a nuanced issue. Let me start with the problems. From my perspective, social media has contributed significantly to mental health issues, especially among young people. The constant comparison to other people\u0027s highlight reels creates unrealistic expectations and a deep sense of inadequacy. I strongly believe this is one of the biggest challenges of our generation. The spread of misinformation is another serious concern â€” false news travels much faster than facts, and I think that\u0027s genuinely dangerous for society. That said, I do see the counterarguments. Social media has made it possible for communities to organise, for small businesses to reach customers they never could before, and for people separated by distance to stay connected. I take that point â€” those are real benefits. But on balance, as far as I\u0027m concerned, the mental health impact and the misinformation crisis outweigh the positives â€” at least the way social media currently works. I\u0027m inclined to think that with better regulation and education, it could be reformed into something much healthier.",
+                                      "key_phrases":  [
+                                                          "In my opinion",
+                                                          "From my perspective",
+                                                          "I strongly believe",
+                                                          "That said",
+                                                          "I take that point",
+                                                          "On balance",
+                                                          "As far as I\u0027m concerned"
+                                                      ],
+                                      "min_words":  130
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Read the debate dialogue again. Then discuss: which speaker â€” Priya, Arjun, or Meera â€” do YOU agree with most, and why?",
+                                      "prompt":  "Evaluate the three positions in the work-from-home debate and explain which you find most convincing.",
+                                      "example_response":  "Having read all three positions in the debate, I find myself agreeing most with Meera\u0027s view â€” that a hybrid model is the best solution. And I\u0027ll explain why. Priya makes some strong points about productivity and the value of saved commuting time â€” I absolutely see where she\u0027s coming from and I think she\u0027s right about individual focused work being better at home. However, I take Arjun\u0027s point too â€” I think collaboration and mentoring do suffer with full remote work. Junior employees especially need that in-person learning environment. Meera\u0027s position, to my mind, is the most thoughtful because it acknowledges both sides rather than taking an extreme stance. She says the right arrangement depends on the role, the team, and the individual â€” and I strongly believe that\u0027s true. A data analyst may work perfectly well remotely, while a new junior designer might need office time to absorb the culture and get quick feedback. As far as I\u0027m concerned, the best companies will be those that trust their employees to know what works for them â€” with some structure around team time. So yes â€” I\u0027m very much in Meera\u0027s camp on this one!",
+                                      "key_phrases":  [
+                                                          "I find myself agreeing with",
+                                                          "I absolutely see where they\u0027re coming from",
+                                                          "I take their point",
+                                                          "to my mind",
+                                                          "I strongly believe",
+                                                          "As far as I\u0027m concerned"
+                                                      ],
+                                      "min_words":  140
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this opinion paragraph using the phrases in brackets.",
+                                      "text":  "___ (1) my opinion, the Indian education system needs significant reform. ___ (2), the focus on rote memorisation over critical thinking is a serious limitation. ___ (3) I understand why standardised exams exist â€” they provide a common measure â€” ___ (4) believe they do not adequately assess creativity or problem-solving skills.\n\nThat ___ (5), I do think some aspects of the system are strong. The emphasis on mathematics and science, ___ (6) example, has produced some of the world\u0027s best engineers and doctors. ___ (7) point, Ravi â€” and it\u0027s a fair one.\n\n___ (8) the whole, however, I am ___ (9) to think that a more skills-based, project-driven approach would serve students better in today\u0027s world. ___ (10) me that the countries producing the most innovative graduates are those with the most flexible education systems.",
+                                      "answers":  [
+                                                      "In",
+                                                      "Personally",
+                                                      "While",
+                                                      "I strongly",
+                                                      "said",
+                                                      "for",
+                                                      "Good",
+                                                      "On",
+                                                      "inclined",
+                                                      "It seems to"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1110_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 10 complete â€” Expressing opinions and agreeing/disagreeing",
+                                      "key_points":  [
+                                                         "Strong: \u0027I strongly believe / I\u0027m absolutely convinced\u0027",
+                                                         "Mild: \u0027I think / I feel / In my opinion / Personally\u0027",
+                                                         "Soft: \u0027I suppose / I tend to think / It seems to me\u0027",
+                                                         "Full agreement: \u0027I couldn\u0027t agree more / Absolutely / Exactly\u0027",
+                                                         "Partial agreement: \u0027You have a point, but... / I agree up to a point, however...\u0027",
+                                                         "Polite disagreement: \u0027I see it differently / I\u0027m afraid I disagree / With respect, I think...\u0027",
+                                                         "Don\u0027t use \u0027In my opinion\u0027 AND \u0027I think\u0027 together â€” they mean the same"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Complaints and requests in person"
+                                  }
+                  }
+              ]
+}

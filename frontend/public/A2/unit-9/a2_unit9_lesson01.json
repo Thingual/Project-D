@@ -1,0 +1,49 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Introduce the present perfect tense to talk about experiences and recent events.",
+    "xp_reward":  150,
+    "lesson_number":  1,
+    "tasks":  [
+                  {
+                      "title":  "Present Perfect — Introduction",
+                      "content":  {
+                                      "examples":  [
+                                                       {
+                                                           "sentence":  "I have visited Paris twice.",
+                                                           "note":  "Experience"
+                                                       },
+                                                       {
+                                                           "sentence":  "She has just arrived.",
+                                                           "note":  "Recent event"
+                                                       },
+                                                       {
+                                                           "sentence":  "Have you ever tried sushi?",
+                                                           "note":  "Question form"
+                                                       }
+                                                   ],
+                                      "structure":  {
+                                                        "negative":  "She hasn\u0027t eaten yet.",
+                                                        "positive":  "I have lived here for 3 years.",
+                                                        "question":  "Have you ever been to Japan?"
+                                                    },
+                                      "explanation":  "We use the present perfect to talk about past experiences that connect to the present. Form: have/has + past participle."
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "content":  {
+                                      "correct_index":  1,
+                                      "question":  "Choose the correct present perfect form:",
+                                      "explanation":  "Use \u0027has\u0027 for third person singular (he/she/it).",
+                                      "options":  [
+                                                      "She have eaten.",
+                                                      "She has eaten.",
+                                                      "She eating."
+                                                  ]
+                                  },
+                      "type":  "mcq"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson01",
+    "title":  "Present Perfect — Introduction"
+}

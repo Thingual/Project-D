@@ -1,0 +1,482 @@
+﻿{
+    "lesson_id":  "a2_unit11_lesson03",
+    "unit":  11,
+    "lesson_number":  3,
+    "level":  "A2",
+    "title":  "Indirect questions â€” Could you tell me whereâ€¦?",
+    "description":  "Ask questions more politely and formally using indirect question structures.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1103_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "What is an indirect question?",
+                                      "body":  "Direct questions are short and clear. Indirect questions are more POLITE â€” we use them with strangers, in formal situations, or when we want to sound less abrupt.\n\nDIRECT â†’ INDIRECT:\nâ€¢ \u0027Where is the station?\u0027 â†’ \u0027Could you tell me where the station is?\u0027\nâ€¢ \u0027What time does it close?\u0027 â†’ \u0027Do you know what time it closes?\u0027\nâ€¢ \u0027Is there a pharmacy nearby?\u0027 â†’ \u0027Could you tell me if there\u0027s a pharmacy nearby?\u0027\nâ€¢ \u0027When does the bus leave?\u0027 â†’ \u0027Do you have any idea when the bus leaves?\u0027\n\nKey change: The INDIRECT question uses STATEMENT word order â€” NOT question word order.\nDirect: \u0027Where IS the station?\u0027 (inverted)\nIndirect: \u0027...where the station IS.\u0027 (normal)",
+                                      "grammar_note":  "Indirect questions = statement word order inside\nNO inversion after the indirect opener\nNO auxiliary DO/DID in indirect wh- questions"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Indirect question openers + if/whether",
+                                      "body":  "Common indirect question OPENERS:\nâ€¢ Could you tell meâ€¦?\nâ€¢ Do you knowâ€¦?\nâ€¢ Do you have any ideaâ€¦?\nâ€¢ Would you mind telling meâ€¦?\nâ€¢ I was wondering ifâ€¦\nâ€¢ Can you tell meâ€¦?\n\nFor YES/NO questions â€” use IF or WHETHER:\nDirect: \u0027Is the meeting on Friday?\u0027\nIndirect: \u0027Could you tell me IF/WHETHER the meeting is on Friday?\u0027\n\nDirect: \u0027Does she speak English?\u0027\nIndirect: \u0027Do you know IF she speaks English?\u0027\n\nWH- questions â€” use the same wh- word:\nDirect: \u0027Where is the manager?\u0027\nIndirect: \u0027Could you tell me WHERE the manager is?\u0027",
+                                      "grammar_note":  "YES/NO â†’ indirect opener + IF/WHETHER\nWH- â†’ indirect opener + wh- word\nStatement word order always follows the opener"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Polite requests and service language",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "enquire",
+                                                             "meaning":  "to ask for information formally",
+                                                             "example":  "I\u0027m calling to enquire about the job vacancy."
+                                                         },
+                                                         {
+                                                             "word":  "hesitate",
+                                                             "meaning":  "to pause before asking",
+                                                             "example":  "Please don\u0027t hesitate to ask if you need help."
+                                                         },
+                                                         {
+                                                             "word":  "clarify",
+                                                             "meaning":  "to make something clearer",
+                                                             "example":  "Could you clarify what the process involves?"
+                                                         },
+                                                         {
+                                                             "word":  "assistance",
+                                                             "meaning":  "help",
+                                                             "example":  "I need some assistance with this form."
+                                                         },
+                                                         {
+                                                             "word":  "direct",
+                                                             "meaning":  "straightforward, without being polite/indirect",
+                                                             "example":  "The direct question was too blunt for the situation."
+                                                         },
+                                                         {
+                                                             "word":  "polite",
+                                                             "meaning":  "showing respect and good manners",
+                                                             "example":  "An indirect question sounds more polite."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u11l3_listen",
+                                      "sentences":  [
+                                                        "Could you tell me where the nearest ATM is?",
+                                                        "Do you know if the office is open on Sundays?",
+                                                        "I was wondering whether you could help me with this form.",
+                                                        "Would you mind telling me what time the last train leaves?",
+                                                        "Do you have any idea how long the wait will be?"
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Convert to indirect: \u0027Where is the post office?\u0027 Choose the correct version.",
+                                      "options":  [
+                                                      "Could you tell me where is the post office?",
+                                                      "Could you tell me where the post office is?",
+                                                      "Could you tell me where does the post office is?",
+                                                      "Do you know where is post office?"
+                                                  ],
+                                      "correct":  "Could you tell me where the post office is?",
+                                      "explanation":  "Indirect questions use statement word order: \u0027where the post office IS\u0027 (not \u0027where IS the post office\u0027)."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Convert: \u0027Is there parking near the office?\u0027 â†’ Choose the best indirect version.",
+                                      "options":  [
+                                                      "Could you tell me there is parking near the office?",
+                                                      "Could you tell me if there is parking near the office?",
+                                                      "Do you know is there parking near the office?",
+                                                      "I was wondering does there parking near the office?"
+                                                  ],
+                                      "correct":  "Could you tell me if there is parking near the office?",
+                                      "explanation":  "YES/NO question â†’ use IF after the indirect opener. Word order stays normal."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Which situation is MOST appropriate for an indirect question?",
+                                      "options":  [
+                                                      "Asking a close friend where they bought their shoes.",
+                                                      "Asking a senior manager in a formal meeting when the results will be shared.",
+                                                      "Shouting across the room to a colleague.",
+                                                      "Texting a friend about weekend plans."
+                                                  ],
+                                      "correct":  "Asking a senior manager in a formal meeting when the results will be shared.",
+                                      "explanation":  "Indirect questions are for formal or polite situations â€” with strangers, managers, or in professional contexts."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Which indirect question is CORRECT?",
+                                      "options":  [
+                                                      "I was wondering where does the bus stop.",
+                                                      "Do you know when will the results arrive?",
+                                                      "Could you tell me how much the ticket costs?",
+                                                      "Would you mind to tell me the way?"
+                                                  ],
+                                      "correct":  "Could you tell me how much the ticket costs?",
+                                      "explanation":  "\u0027How much the ticket costs\u0027 = statement order (no inversion, no extra \u0027does\u0027). Correct!"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Convert the direct question to an indirect question.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "\u0027What time does the bank open?\u0027 â†’ \u0027Could you tell me what time ___?\u0027",
+                                                            "answer":  "the bank opens"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Is the manager available?\u0027 â†’ \u0027Do you know ___ the manager is available?\u0027",
+                                                            "answer":  "if / whether"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027How do I get to Platform 4?\u0027 â†’ \u0027Could you tell me ___ I get to Platform 4?\u0027",
+                                                            "answer":  "how"
+                                                        },
+                                                        {
+                                                            "text":  "\u0027Did she receive the email?\u0027 â†’ \u0027Do you know ___ she received the email?\u0027",
+                                                            "answer":  "if / whether"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete the indirect question with the correct word order.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "Could you tell me where ___ the nearest hospital? (is)",
+                                                            "answer":  "the nearest hospital is"
+                                                        },
+                                                        {
+                                                            "text":  "Do you know if ___ on weekends? (the office/open)",
+                                                            "answer":  "the office is open"
+                                                        },
+                                                        {
+                                                            "text":  "I was wondering whether ___ any student discounts. (there are)",
+                                                            "answer":  "there are any student discounts"
+                                                        },
+                                                        {
+                                                            "text":  "Would you mind telling me how long ___ from here? (it takes)",
+                                                            "answer":  "it takes from here"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct indirect question.",
+                                      "words":  [
+                                                    "tell",
+                                                    "the",
+                                                    "me",
+                                                    "closes",
+                                                    "what",
+                                                    "Could",
+                                                    "mall",
+                                                    "time",
+                                                    "you"
+                                                ],
+                                      "answer":  "Could you tell me what time the mall closes?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a correct indirect YES/NO question.",
+                                      "words":  [
+                                                    "if",
+                                                    "know",
+                                                    "available",
+                                                    "room",
+                                                    "Do",
+                                                    "the",
+                                                    "is",
+                                                    "you",
+                                                    "conference"
+                                                ],
+                                      "answer":  "Do you know if the conference room is available?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match each direct question to its correct indirect version.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "Where is the lift?",
+                                                        "right":  "Could you tell me where the lift is?"
+                                                    },
+                                                    {
+                                                        "left":  "Is there a vegetarian menu?",
+                                                        "right":  "Do you know if there\u0027s a vegetarian menu?"
+                                                    },
+                                                    {
+                                                        "left":  "How long does the tour take?",
+                                                        "right":  "Do you have any idea how long the tour takes?"
+                                                    },
+                                                    {
+                                                        "left":  "What is the Wi-Fi password?",
+                                                        "right":  "I was wondering what the Wi-Fi password is."
+                                                    },
+                                                    {
+                                                        "left":  "Does the price include breakfast?",
+                                                        "right":  "Could you tell me whether the price includes breakfast?"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Indirect questions in a professional setting â€” hospital reception, Hyderabad",
+                                      "setting":  "Kavya is visiting a hospital for the first time to take her elderly neighbour. She uses indirect questions throughout to be polite.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Excuse me â€” could you tell me where the general outpatient department is?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Of course! It\u0027s on the second floor â€” take the lift on your left."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Thank you. Do you know if we need to take a token number first?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Yes, you do. The token counter is right here at reception. Do you have an appointment?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Not exactly â€” it\u0027s a walk-in. Could you tell me how long the waiting time usually is?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "It depends on the day â€” today is about 40 to 50 minutes."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "I see. Do you have any idea whether there\u0027s a place to sit near the token counter?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Yes â€” there\u0027s a waiting area just around the corner with seating for about 30 people."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "That\u0027s helpful. I was also wondering if there\u0027s a pharmacy inside the hospital."
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Yes, on the ground floor near the exit. It\u0027s open until 9 PM."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Perfect. Could you also tell me if they accept health insurance cards here?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Receptionist",
+                                                           "text":  "Yes â€” most major insurance providers are accepted. The billing desk on the first floor can help you with that."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Thank you so much â€” you\u0027ve been very helpful!"
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "Where is the general outpatient department?",
+                                                                          "options":  [
+                                                                                          "Ground floor",
+                                                                                          "First floor",
+                                                                                          "Second floor",
+                                                                                          "Third floor"
+                                                                                      ],
+                                                                          "correct":  "Second floor"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Approximately how long is the wait today?",
+                                                                          "options":  [
+                                                                                          "10-20 minutes",
+                                                                                          "20-30 minutes",
+                                                                                          "40-50 minutes",
+                                                                                          "Over an hour"
+                                                                                      ],
+                                                                          "correct":  "40-50 minutes"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Where is the pharmacy located?",
+                                                                          "options":  [
+                                                                                          "Second floor",
+                                                                                          "Near the token counter",
+                                                                                          "Ground floor near the exit",
+                                                                                          "First floor billing area"
+                                                                                      ],
+                                                                          "correct":  "Ground floor near the exit"
+                                                                      }
+                                                                  ],
+                                      "discussion_questions":  [
+                                                                   "Count the indirect questions Kavya uses. How many are wh- questions? How many are if/whether?",
+                                                                   "How would this conversation sound if Kavya used direct questions instead? Would it feel rude?",
+                                                                   "Why is the indirect form more appropriate in a hospital setting?"
+                                                               ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the indirect question mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "Could you tell me where is the manager?",
+                                                            "correct":  "Could you tell me where the manager is?",
+                                                            "explanation":  "Indirect questions use statement word order â€” no inversion. \u0027where the manager is\u0027 not \u0027where is the manager\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "Do you know when does the meeting start?",
+                                                            "correct":  "Do you know when the meeting starts?",
+                                                            "explanation":  "No auxiliary DO/DOES in indirect wh- questions. \u0027when the meeting starts\u0027 not \u0027when does it start\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "I was wondering if is there a vegetarian option?",
+                                                            "correct":  "I was wondering if there is a vegetarian option.",
+                                                            "explanation":  "After IF in an indirect question, use statement order: \u0027if there is\u0027 not \u0027if is there\u0027."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "You are at a railway station in a new city. You need to find out which platform the Shatabdi Express leaves from. A station officer is standing nearby. What do you say?",
+                                      "options":  [
+                                                      "Which platform is Shatabdi?",
+                                                      "Shatabdi platform!",
+                                                      "Could you tell me which platform the Shatabdi Express departs from?",
+                                                      "Where Shatabdi goes?"
+                                                  ],
+                                      "correct":  "Could you tell me which platform the Shatabdi Express departs from?",
+                                      "explanation":  "Polite, formal situation â†’ indirect question. Correct word order: \u0027which platform the Shatabdi Express departs from\u0027."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "You are a tourist in a new city in India. You need to find out 5 things. Ask each question as an INDIRECT question to a local person.",
+                                      "prompt":  "Ask 5 indirect questions about: (1) the nearest metro station, (2) whether the museum is open today, (3) how long it takes to reach the beach, (4) where you can find good local food, (5) whether taxis are available nearby.",
+                                      "example_response":  "Excuse me â€” I hope you don\u0027t mind me asking! First â€” could you tell me where the nearest metro station is? I\u0027ve been walking for a while and I can\u0027t seem to find it. Second â€” do you know if the city museum is open today? I read it might be closed on Mondays. Third â€” I was wondering how long it takes to reach the beach from here on foot or by auto. Fourth â€” could you tell me where I could find some good local food? I want to try authentic food from this area, not just the big restaurants. And finally â€” do you know if taxis or autos are easily available at this time of day, or should I book one online? Thank you so much â€” I really appreciate your help!",
+                                      "key_phrases":  [
+                                                          "Could you tell me...?",
+                                                          "Do you know if...?",
+                                                          "I was wondering...",
+                                                          "Do you have any idea...?"
+                                                      ],
+                                      "min_words":  90
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Think about a time you needed help in an unfamiliar place â€” a new city, hospital, government office, airport. How did you ask for help? Recount the experience using indirect questions.",
+                                      "prompt":  "Describe a real or imagined experience where you used or should have used indirect questions to ask for information politely.",
+                                      "example_response":  "When I first moved to Bangalore from my hometown, everything was new and a little overwhelming. I had to visit the Regional Passport Office for the first time and I was very nervous. I didn\u0027t know the process at all. When I arrived, I approached the security officer and I said: \u0027Excuse me, could you tell me where the token counter is?\u0027 He directed me inside. Then I asked the person at the counter: \u0027I was wondering whether I need to submit all original documents today or whether photocopies are sufficient?\u0027 She said originals were needed for verification only. I then asked her: \u0027Do you know approximately how long the process takes for a first-time applicant?\u0027 She said around two to three hours. Later I had to ask: \u0027Could you tell me if there\u0027s a place to have lunch nearby?\u0027 because I hadn\u0027t eaten. Using indirect questions made me feel more confident â€” people responded very warmly when I asked politely.",
+                                      "key_phrases":  [
+                                                          "Could you tell me...?",
+                                                          "I was wondering whether...",
+                                                          "Do you know if...?",
+                                                          "Do you have any idea how long...?"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete the indirect questions in this customer enquiry call.",
+                                      "text":  "Customer: Good morning. I\u0027m calling to enquire about a product. Could you tell me ___ (1) the BX500 model is still available?\n\nStaff: Yes, it is! We have it in stock.\n\nCustomer: Wonderful. Do you know ___ (2) it costs?\n\nStaff: The BX500 is priced at â‚¹14,999.\n\nCustomer: I see. Could you also tell me ___ (3) it comes with a warranty?\n\nStaff: Yes â€” a two-year manufacturer\u0027s warranty is included.\n\nCustomer: Great. I was wondering ___ (4) you offer EMI options.\n\nStaff: We do! We have 6-month and 12-month no-cost EMI available.\n\nCustomer: Perfect. And do you have any idea ___ (5) delivery would take if I order today?\n\nStaff: It would arrive within 3 to 5 business days.",
+                                      "answers":  [
+                                                      "if / whether",
+                                                      "how much",
+                                                      "whether / if",
+                                                      "whether / if",
+                                                      "how long"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1103_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 3 complete â€” Indirect questions",
+                                      "key_points":  [
+                                                         "Indirect questions are MORE POLITE â€” use with strangers, in formal situations",
+                                                         "Common openers: Could you tell meâ€¦? / Do you knowâ€¦? / I was wonderingâ€¦?",
+                                                         "WH- questions â†’ use same wh- word + statement word order",
+                                                         "YES/NO questions â†’ use IF or WHETHER after the opener",
+                                                         "NO inversion, NO extra do/does/did in indirect questions",
+                                                         "Statement word order: \u0027where the station IS\u0027 (not \u0027where IS the station\u0027)"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Polite requests â€” would you mind / could you possibly"
+                                  }
+                  }
+              ]
+}

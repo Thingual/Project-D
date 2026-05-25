@@ -1,0 +1,492 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson12",
+    "unit":  10,
+    "lesson_number":  12,
+    "level":  "A2",
+    "title":  "Plans, scheduling and calendars",
+    "description":  "Talk about schedules, priorities, and time management using a range of future and planning expressions.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1012_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Talking about schedules",
+                                      "body":  "Useful language for discussing schedules and calendars:\n\nDescribing what\u0027s planned:\nâ€¢ I have a meeting first thing in the morning.\nâ€¢ The presentation is scheduled for 2 PM.\nâ€¢ I\u0027ve got a packed day tomorrow.\nâ€¢ My afternoon is free / blocked / taken.\n\nAsking about schedule:\nâ€¢ Are you free at any point this week?\nâ€¢ Do you have a window on Thursday?\nâ€¢ When are you next available?\nâ€¢ Is your morning free or do you have something?\n\nPriority language:\nâ€¢ My top priority this week is...\nâ€¢ The most urgent thing is...\nâ€¢ After that, I\u0027ll focus on...\nâ€¢ I need to fit this in before Friday.",
+                                      "grammar_note":  "\u0027Have a window\u0027 = have a free time slot\n\u0027Packed day\u0027 = very busy day with no free time\n\u0027First thing\u0027 = very early in the morning"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Time management expressions",
+                                      "body":  "Useful time and planning expressions:\n\nâ€¢ I\u0027m tied up until 3 PM. (busy)\nâ€¢ I\u0027m snowed under this week. (overwhelmed with work)\nâ€¢ I need to block some time for this. (reserve time)\nâ€¢ Let me check my calendar and get back to you.\nâ€¢ I\u0027ll pencil you in for Tuesday. (tentative booking)\nâ€¢ Can we move this to the next slot?\nâ€¢ I\u0027ve overbooked myself this week!\nâ€¢ I like to plan ahead / I tend to leave things to the last minute.\nâ€¢ Deadline pressure really motivates me.",
+                                      "grammar_note":  "\u0027Tied up\u0027 = busy, unavailable\n\u0027Snowed under\u0027 = overwhelmed\n\u0027Block time\u0027 = reserve a specific time for a task\n\u0027Pencil in\u0027 = put in schedule but not final"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Time and scheduling",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "deadline",
+                                                             "meaning":  "the last time by which something must be done",
+                                                             "example":  "The report deadline is Friday at 5 PM."
+                                                         },
+                                                         {
+                                                             "word":  "priority",
+                                                             "meaning":  "the most important thing to do first",
+                                                             "example":  "My top priority is finishing the presentation."
+                                                         },
+                                                         {
+                                                             "word":  "schedule",
+                                                             "meaning":  "a plan for when things will happen",
+                                                             "example":  "Check the schedule and find a free slot."
+                                                         },
+                                                         {
+                                                             "word":  "workload",
+                                                             "meaning":  "the total amount of work to be done",
+                                                             "example":  "My workload is very heavy this month."
+                                                         },
+                                                         {
+                                                             "word":  "overdue",
+                                                             "meaning":  "not done by the expected time",
+                                                             "example":  "This report is already overdue."
+                                                         },
+                                                         {
+                                                             "word":  "allocate",
+                                                             "meaning":  "to decide how much time or resources to give to something",
+                                                             "example":  "I need to allocate more time to this project."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l12_listen",
+                                      "sentences":  [
+                                                        "I\u0027ve got a packed day tomorrow â€” back-to-back meetings until 5.",
+                                                        "Do you have a window on Friday afternoon?",
+                                                        "My top priority this week is the client proposal.",
+                                                        "I\u0027m tied up until 3 but free after that.",
+                                                        "Let me check my calendar and get back to you."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Priya says: \u0027I\u0027m completely snowed under this week.\u0027 What does she mean?",
+                                      "options":  [
+                                                      "She is on a winter holiday.",
+                                                      "She has nothing to do this week.",
+                                                      "She is overwhelmed with work and very busy.",
+                                                      "She doesn\u0027t like the cold."
+                                                  ],
+                                      "correct":  "She is overwhelmed with work and very busy.",
+                                      "explanation":  "\u0027Snowed under\u0027 = informal expression for being overwhelmed with work."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "Arjun says: \u0027I\u0027ll pencil you in for Thursday.\u0027 What does this mean?",
+                                      "options":  [
+                                                      "He will write the plan in pencil only.",
+                                                      "He will put you in his schedule tentatively â€” it\u0027s not completely confirmed yet.",
+                                                      "He will cancel all Thursday plans.",
+                                                      "He will call you on Thursday."
+                                                  ],
+                                      "correct":  "He will put you in his schedule tentatively â€” it\u0027s not completely confirmed yet.",
+                                      "explanation":  "\u0027Pencil in\u0027 = a tentative plan â€” like writing in pencil because it can be erased (changed)."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "How do you ask someone if they have a free time slot this week?",
+                                      "options":  [
+                                                      "Are you bored this week?",
+                                                      "Do you have a window anywhere this week?",
+                                                      "Is your calendar empty?",
+                                                      "Have you got nothing to do?"
+                                                  ],
+                                      "correct":  "Do you have a window anywhere this week?",
+                                      "explanation":  "\u0027Do you have a window?\u0027 = professional way to ask if someone has a free slot."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "Which sentence correctly uses \u0027tied up\u0027?",
+                                      "options":  [
+                                                      "I\u0027m tied up on Wednesday morning â€” I have three meetings back to back.",
+                                                      "I tied up my calendar yesterday.",
+                                                      "Wednesday is tied up free.",
+                                                      "My schedule is tied up empty."
+                                                  ],
+                                      "correct":  "I\u0027m tied up on Wednesday morning â€” I have three meetings back to back.",
+                                      "explanation":  "\u0027Tied up\u0027 = unavailable/busy. \u0027I\u0027m tied up on [day/time]\u0027 is the natural structure."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Fill in with the correct scheduling expression from the lesson.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I\u0027ll ___ some time for the research this afternoon â€” maybe 2 hours.",
+                                                            "answer":  "block / allocate"
+                                                        },
+                                                        {
+                                                            "text":  "My ___ priority this week is completing the budget report.",
+                                                            "answer":  "top"
+                                                        },
+                                                        {
+                                                            "text":  "I\u0027m ___ until 4 PM today â€” can we talk after?",
+                                                            "answer":  "tied up"
+                                                        },
+                                                        {
+                                                            "text":  "Let me check my ___ and get back to you this afternoon.",
+                                                            "answer":  "calendar / schedule"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Complete this scheduling email.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "I\u0027m ___ under this week but I could make time on Friday.",
+                                                            "answer":  "snowed"
+                                                        },
+                                                        {
+                                                            "text":  "Do you have a ___ on Thursday afternoon, say around 3?",
+                                                            "answer":  "window"
+                                                        },
+                                                        {
+                                                            "text":  "I\u0027ll ___ you in for Friday at 2 PM â€” please confirm by Thursday.",
+                                                            "answer":  "pencil"
+                                                        },
+                                                        {
+                                                            "text":  "This project is already ___ â€” we need to move quickly.",
+                                                            "answer":  "overdue"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a scheduling question.",
+                                      "words":  [
+                                                    "a",
+                                                    "window",
+                                                    "you",
+                                                    "on",
+                                                    "have",
+                                                    "Do",
+                                                    "morning",
+                                                    "Thursday"
+                                                ],
+                                      "answer":  "Do you have a window on Thursday morning?"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a priority statement.",
+                                      "words":  [
+                                                    "priority",
+                                                    "week",
+                                                    "My",
+                                                    "the",
+                                                    "this",
+                                                    "finishing",
+                                                    "top",
+                                                    "is",
+                                                    "report"
+                                                ],
+                                      "answer":  "My top priority this week is finishing the report."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the scheduling expression to its meaning.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "I\u0027m snowed under.",
+                                                        "right":  "I\u0027m overwhelmed with work."
+                                                    },
+                                                    {
+                                                        "left":  "Do you have a window?",
+                                                        "right":  "Do you have a free time slot?"
+                                                    },
+                                                    {
+                                                        "left":  "I\u0027ll pencil you in.",
+                                                        "right":  "I\u0027ll add you tentatively to my schedule."
+                                                    },
+                                                    {
+                                                        "left":  "I\u0027m tied up until 3.",
+                                                        "right":  "I\u0027m busy/unavailable until 3."
+                                                    },
+                                                    {
+                                                        "left":  "Let me block some time.",
+                                                        "right":  "Let me reserve specific time for this task."
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Weekly planning conversation â€” startup office, Bengaluru",
+                                      "setting":  "Kavya (team lead) is planning the week with her colleague Arjun on Monday morning.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Morning Arjun! Crazy week ahead â€” let\u0027s do a quick schedule check."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Yes, I already feel snowed under and it\u0027s only Monday!"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Ha! So, my top priority this week is the investor deck â€” that\u0027s due Friday. What\u0027s yours?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Finishing the API integration â€” it\u0027s already a day overdue. I need to block at least 6 hours for that."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Absolutely. Do you have a window for a sync with the design team? They need 30 minutes with you."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I\u0027m tied up Tuesday morning â€” back-to-back calls. But I have a window on Wednesday from 11 to 12."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Perfect. I\u0027ll pencil you in for Wednesday at 11 with the design team."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "And the client call this Thursday â€” is that still on?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Yes, 3 PM Thursday is confirmed. I\u0027d suggest preparing your technical summary by Wednesday evening at the latest."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I\u0027ll allocate Thursday morning to the prep. I work better first thing anyway."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Good plan. Also, team lunch on Friday â€” that\u0027s scheduled for 1 PM at the usual place. It won\u0027t take more than an hour."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "I\u0027ve got it in my calendar. Looks like a packed week but manageable."
+                                                       },
+                                                       {
+                                                           "speaker":  "Kavya",
+                                                           "text":  "Exactly. Let\u0027s check in again on Wednesday to see where we are. Does that work?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Wednesday morning â€” 9:30 AM? That suits me perfectly."
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What is Kavya\u0027s top priority for the week?",
+                                                                          "options":  [
+                                                                                          "The API integration",
+                                                                                          "The investor deck",
+                                                                                          "The client call",
+                                                                                          "The team lunch"
+                                                                                      ],
+                                                                          "correct":  "The investor deck"
+                                                                      },
+                                                                      {
+                                                                          "question":  "Why is Arjun tied up on Tuesday morning?",
+                                                                          "options":  [
+                                                                                          "He is travelling.",
+                                                                                          "He has back-to-back calls.",
+                                                                                          "He is working on the API.",
+                                                                                          "He has a doctor\u0027s appointment."
+                                                                                      ],
+                                                                          "correct":  "He has back-to-back calls."
+                                                                      },
+                                                                      {
+                                                                          "question":  "When does Arjun plan to prepare his technical summary?",
+                                                                          "options":  [
+                                                                                          "Tuesday evening",
+                                                                                          "Wednesday morning",
+                                                                                          "Thursday morning",
+                                                                                          "Friday morning"
+                                                                                      ],
+                                                                          "correct":  "Thursday morning"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "I\u0027m very snowed in with work this week.",
+                                                            "correct":  "I\u0027m very snowed under with work this week.",
+                                                            "explanation":  "The correct idiom is \u0027snowed UNDER\u0027 (overwhelmed), not \u0027snowed in\u0027 (which means trapped inside due to snow)."
+                                                        },
+                                                        {
+                                                            "wrong":  "Do you have a window on Thursday morning free?",
+                                                            "correct":  "Do you have a window on Thursday morning?",
+                                                            "explanation":  "\u0027Do you have a window\u0027 already implies a free slot â€” \u0027free\u0027 is redundant."
+                                                        },
+                                                        {
+                                                            "wrong":  "I\u0027ll pen you in for Friday.",
+                                                            "correct":  "I\u0027ll pencil you in for Friday.",
+                                                            "explanation":  "The correct expression is \u0027PENCIL in\u0027 â€” not \u0027pen in\u0027. Pencil implies it can be changed."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "Your manager asks if you can attend an optional training session on Thursday. Your Thursday is already packed with two client calls and a deadline. What do you say?",
+                                      "options":  [
+                                                      "I\u0027m free all day Thursday!",
+                                                      "I\u0027m afraid Thursday is completely packed â€” I have two client calls and a project deadline. Is the training available on another day?",
+                                                      "I don\u0027t want to attend.",
+                                                      "Thursday may be okay I suppose."
+                                                  ],
+                                      "correct":  "I\u0027m afraid Thursday is completely packed â€” I have two client calls and a project deadline. Is the training available on another day?",
+                                      "explanation":  "Honest, professional response using \u0027I\u0027m afraid\u0027 + clear reason + constructive alternative question."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Describe your ideal productive week. What would your schedule look like? What would be your top priorities? Use the scheduling language from this lesson.",
+                                      "prompt":  "Describe your ideal work or study week â€” what is scheduled, what your priorities are, and how you plan your time.",
+                                      "example_response":  "If I could design my ideal productive week, here\u0027s how it would look. My top priority on Monday would be to tackle the most difficult task of the week first thing in the morning â€” when my energy is highest. I\u0027d block two to three hours for deep, focused work before any meetings start. I\u0027d schedule all team meetings on Tuesday and Thursday afternoons â€” that way Monday, Wednesday, and Friday mornings stay free for actual work. I don\u0027t like having a packed day with no breathing room, so I\u0027d always leave at least a 30-minute window between tasks. Wednesday would be my creative day â€” I\u0027d allocate time for brainstorming and planning future projects. I\u0027d make sure my Friday afternoon is relatively free so I can wrap up any overdue tasks and plan for the following week. And I absolutely would not leave anything overdue â€” I find that deadline pressure stresses me out, so I prefer to work ahead.",
+                                      "key_phrases":  [
+                                                          "my top priority",
+                                                          "I\u0027d block time for",
+                                                          "packed day",
+                                                          "a window between",
+                                                          "allocate time",
+                                                          "overdue"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Describe a time when you were completely snowed under with work or study. What was the situation? How did you manage? What would you do differently?",
+                                      "prompt":  "Tell a story about a very hectic, overloaded week using scheduling and time management vocabulary.",
+                                      "example_response":  "Last December, just before our company\u0027s year-end deadline, I was completely snowed under. My workload was absolutely unmanageable â€” I had three major reports that were all overdue, a product demo scheduled for a key client, and my manager had added two more tasks to my list without removing anything else. I was tied up from 8 AM to 9 PM every day. I didn\u0027t have a single window in my day and I was surviving on coffee. What I should have done differently: I should have blocked time earlier in the month for those reports instead of leaving them to the last minute. I should also have been honest with my manager about my workload â€” I was trying to do everything but doing nothing properly. The lesson I learned was to always allocate time proactively, be transparent about capacity, and never agree to take on more when you\u0027re already at maximum. Now I always keep at least one buffer hour in my day â€” I never fully pack my schedule.",
+                                      "key_phrases":  [
+                                                          "snowed under",
+                                                          "tied up",
+                                                          "overdue",
+                                                          "blocked",
+                                                          "allocate time",
+                                                          "workload",
+                                                          "window",
+                                                          "packed"
+                                                      ],
+                                      "min_words":  110
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete Kavya\u0027s weekly planning email to her team.",
+                                      "text":  "Hi team,\n\nHere\u0027s a quick overview of our ___ (1) for this week:\n\nMONDAY: Team standup at 9 AM. My ___ (2) priority today is reviewing the client brief â€” it\u0027s already ___ (3) by two days.\n\nTUESDAY: I\u0027m completely ___ (4) up in the morning with back-to-back calls. However, I have a ___ (5) between 2 and 3 PM for any quick discussions.\n\nWEDNESDAY: I\u0027ve ___ (6) out 10 AMâ€“12 PM for the campaign planning session â€” please don\u0027t schedule anything in that time.\n\nTHURSDAY: Client presentation at 3 PM â€” everyone involved, please ___ (7) this as your top task for the day.\n\nFRIDAY: Team lunch at 1 PM â€” looking forward to it! I\u0027ll ___ (8) you all in once I confirm the venue.\n\nPlease check your own ___ (9) and let me know if there are any conflicts. It looks like a ___ (10) week â€” let\u0027s stay focused!",
+                                      "answers":  [
+                                                      "schedule",
+                                                      "top",
+                                                      "overdue",
+                                                      "tied",
+                                                      "window",
+                                                      "blocked",
+                                                      "prioritise",
+                                                      "pencil",
+                                                      "calendars",
+                                                      "packed"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1012_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 12 complete â€” Plans, scheduling and calendars",
+                                      "key_points":  [
+                                                         "\u0027Snowed under\u0027 = overwhelmed with work",
+                                                         "\u0027Tied up\u0027 = busy, unavailable",
+                                                         "\u0027Do you have a window?\u0027 = do you have a free slot?",
+                                                         "\u0027Pencil in\u0027 = tentative booking",
+                                                         "\u0027Block time\u0027 = reserve time for a specific task",
+                                                         "\u0027Top priority\u0027 = most important task",
+                                                         "\u0027Packed day\u0027 = very busy day with no free time"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Unit 10 Review and A2 Exit Practice"
+                                  }
+                  }
+              ]
+}

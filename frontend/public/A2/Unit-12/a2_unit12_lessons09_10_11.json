@@ -1,0 +1,944 @@
+[
+{
+  "lesson_id": "a2_unit12_lesson09",
+  "unit": 12,
+  "lesson_number": 9,
+  "level": "A2",
+  "title": "For and since — duration with the present perfect",
+  "description": "Use 'for' and 'since' correctly with the present perfect to talk about how long something has been happening.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1209_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "For — a period of time",
+        "body": "FOR tells us the LENGTH or DURATION of time something has been happening.\n\nFOR + period of time:\n• for two years\n• for six months\n• for a long time\n• for three weeks\n• for ages\n• for my whole life\n\nExamples:\n• 'I have lived in Chennai for ten years.'\n• 'She has worked here for six months.'\n• 'We have been friends for a long time.'\n• 'He has had this phone for two years.'\n\nTest: Can you replace it with 'a period of ___'? → Use FOR",
+        "grammar_note": "FOR = duration (how long)\nFOR + period: for two days, for years, for ages\nUsed with present perfect for ongoing situations"
+      }
+    },
+    {
+      "task_id": "t1209_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Since — a starting point",
+        "body": "SINCE tells us the STARTING POINT — when something began.\n\nSINCE + point in time:\n• since Monday\n• since 2018\n• since January\n• since I was a child\n• since this morning\n• since we last met\n\nExamples:\n• 'I have lived here since 2015.'\n• 'She has worked here since March.'\n• 'He hasn't called since last Thursday.'\n• 'We have been friends since school.'\n\nTest: Can you replace it with 'starting from ___'? → Use SINCE",
+        "grammar_note": "SINCE = start point (when it began)\nSINCE + point in time: since Monday, since 2020\nSince is always used with present perfect (not past simple)"
+      }
+    },
+    {
+      "task_id": "t1209_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "For vs Since — comparison",
+        "vocabulary": [
+          {"word": "for two years", "meaning": "duration of two years", "example": "I have studied English for two years."},
+          {"word": "since 2022", "meaning": "starting from the year 2022", "example": "I have studied English since 2022."},
+          {"word": "for ages", "meaning": "for a very long time (informal)", "example": "I haven't seen her for ages!"},
+          {"word": "since childhood", "meaning": "from when I was a child", "example": "I have loved music since childhood."},
+          {"word": "for a while", "meaning": "for some time (not specified)", "example": "I have been waiting for a while."},
+          {"word": "since then", "meaning": "from that time until now", "example": "We met in 2019 and have been friends since then."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l9_listen",
+        "sentences": [
+          "I have lived in Bangalore for three years.",
+          "She has worked at this company since 2020.",
+          "We have been friends since school — that's almost fifteen years!",
+          "He hasn't called me for two weeks.",
+          "I have loved cricket since I was seven years old."
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "'She has worked here ___ six months.' Which word fits?",
+        "options": ["since", "for", "from", "ago"],
+        "correct": "for",
+        "explanation": "'Six months' is a period of time (duration) → FOR. 'Since' needs a specific starting point like 'January'."
+      }
+    },
+    {
+      "task_id": "t1209_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "'I have known her ___ we were in school together.' Which word fits?",
+        "options": ["for", "ago", "since", "from"],
+        "correct": "since",
+        "explanation": "'We were in school' is a starting point in time → SINCE. It's not a duration, it's when it began."
+      }
+    },
+    {
+      "task_id": "t1209_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence is CORRECT?",
+        "options": [
+          "I have lived here since three years.",
+          "I have lived here for 2020.",
+          "I have lived here for three years.",
+          "I have lived here since three years ago."
+        ],
+        "correct": "I have lived here for three years.",
+        "explanation": "THREE YEARS = duration → FOR. Since needs a specific date or point: 'since 2020' OR 'for three years'."
+      }
+    },
+    {
+      "task_id": "t1209_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "How do you ask about duration? 'How long ___ you ___ here?'",
+        "options": [
+          "did / live",
+          "have / lived",
+          "do / live",
+          "were / living"
+        ],
+        "correct": "have / lived",
+        "explanation": "How long = asking about duration of an ongoing situation → PRESENT PERFECT: How long HAVE you LIVED here?"
+      }
+    },
+    {
+      "task_id": "t1209_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with FOR or SINCE.",
+        "sentences": [
+          {"text": "I have studied English ___ three years.", "answer": "for"},
+          {"text": "She has been a doctor ___ 2015.", "answer": "since"},
+          {"text": "We haven't seen each other ___ ages.", "answer": "for"},
+          {"text": "He has lived in this flat ___ he graduated.", "answer": "since"},
+          {"text": "I haven't eaten anything ___ this morning.", "answer": "since"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete the sentences using have/has + for or since.",
+        "sentences": [
+          {"text": "Priya ___ worked at TCS ___ five years now.", "answer": "has worked / for"},
+          {"text": "I ___ known Ravi ___ we were in college together.", "answer": "have known / since"},
+          {"text": "They ___ not spoken ___ their argument last month.", "answer": "have not spoken / since"},
+          {"text": "She ___ had that car ___ almost ten years — it's still going strong!", "answer": "has had / for"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct FOR sentence.",
+        "words": ["Chennai", "lived", "have", "in", "I", "for", "years", "ten"],
+        "answer": "I have lived in Chennai for ten years."
+      }
+    },
+    {
+      "task_id": "t1209_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct SINCE question.",
+        "words": ["known", "have", "How", "long", "her", "you"],
+        "answer": "How long have you known her?"
+      }
+    },
+    {
+      "task_id": "t1209_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the time expression to FOR or SINCE.",
+        "pairs": [
+          {"left": "two years", "right": "for"},
+          {"left": "last Monday", "right": "since"},
+          {"left": "a long time", "right": "for"},
+          {"left": "I was a child", "right": "since"},
+          {"left": "six months", "right": "for"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Old friends catch up — Hyderabad coffee shop",
+        "setting": "Meera and Sonal meet after a long gap. They talk about how long things have been going on in their lives.",
+        "dialogue": [
+          {"speaker": "Meera", "text": "Sonal! I haven't seen you for so long! How have you been?"},
+          {"speaker": "Sonal", "text": "I've been good — really busy though. I've been at my new job since February. It's been intense!"},
+          {"speaker": "Meera", "text": "Oh! How long have you been there?"},
+          {"speaker": "Sonal", "text": "About eight months now. And how long have you been in Hyderabad? Last I heard you were in Pune."},
+          {"speaker": "Meera", "text": "I moved here two years ago! I've been here since 2022. I love the city — the food especially."},
+          {"speaker": "Sonal", "text": "The biryani here is legendary. Have you been going to good restaurants?"},
+          {"speaker": "Meera", "text": "I've been a regular at this one place since my first week here! How are your parents? I haven't heard about them for ages."},
+          {"speaker": "Sonal", "text": "They're well — my father has been retired for three years now and he's really enjoying it. My mother has been learning yoga since last year."},
+          {"speaker": "Meera", "text": "How lovely! And what about Arjun — you've been together for a while now, haven't you?"},
+          {"speaker": "Sonal", "text": "Yes — four years in December! We've been together since our first job. Time flies!"},
+          {"speaker": "Meera", "text": "Doesn't it! I've known you since college — that's almost twelve years."},
+          {"speaker": "Sonal", "text": "Twelve years! And you've been one of my best friends for every single one of them."}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How long has Sonal been at her new job?",
+            "options": ["Three months", "About eight months", "One year", "Two years"],
+            "correct": "About eight months"
+          },
+          {
+            "question": "Since when has Meera been in Hyderabad?",
+            "options": ["Since 2020", "Since 2021", "Since 2022", "Since 2023"],
+            "correct": "Since 2022"
+          },
+          {
+            "question": "How long have Sonal and Arjun been together?",
+            "options": ["Two years", "Three years", "Four years", "Five years"],
+            "correct": "Four years"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the FOR/SINCE mistake.",
+        "sentences": [
+          {
+            "wrong": "I have lived here since five years.",
+            "correct": "I have lived here for five years.",
+            "explanation": "FIVE YEARS is a duration → FOR. Since needs a specific starting point."
+          },
+          {
+            "wrong": "She has worked here for January.",
+            "correct": "She has worked here since January.",
+            "explanation": "JANUARY is a starting point in time → SINCE. For needs a duration like 'for three months'."
+          },
+          {
+            "wrong": "How long have you know her?",
+            "correct": "How long have you known her?",
+            "explanation": "Present perfect needs the PAST PARTICIPLE: known (not the base verb 'know')."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1209_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "Someone asks: 'How long have you been learning English?' You started in 2021. What do you say?",
+        "options": [
+          "I have learned English for 2021.",
+          "I have been learning English since 2021.",
+          "I learn English from 2021.",
+          "I have been learning English since three years."
+        ],
+        "correct": "I have been learning English since 2021.",
+        "explanation": "2021 is a starting point → SINCE. Present perfect continuous (have been learning) is natural for ongoing activities."
+      }
+    },
+    {
+      "task_id": "t1209_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Talk about 5 things in your life that have been ongoing — how long they have lasted. Use FOR and SINCE correctly.",
+        "prompt": "Share 5 ongoing situations using for and since.",
+        "example_response": "Let me share five things that have been ongoing in my life. First — I have lived in my current flat for about two years now. We moved in just after the pandemic and I have really settled in well. Second — I have had my current phone for almost three years — it's still working perfectly so I haven't felt the need to change it. Third — I have been a member of the local library since 2020. I joined during the lockdown when I started reading more seriously. Fourth — I have worked at my current company since January of this year. It has been a steep learning curve but very rewarding. And fifth — I have been learning to play the ukulele for about six months. My flatmate plays guitar and inspired me to try a string instrument. I haven't become very good yet but I am enjoying the process!",
+        "key_phrases": ["I have lived here for", "I have had for", "I have been a member since", "I have worked since", "I have been learning for"],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1209_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Interview someone about their life using 'How long have you...?' questions. Ask 5 questions and give imagined or real answers.",
+        "prompt": "Ask and answer 5 'How long have you...?' questions covering work, home, hobbies, and relationships.",
+        "example_response": "Let me do a self-interview! First question — how long have I lived in Chennai? I have lived here my whole life — over twenty-five years now. It's home. Second — how long have I worked in my current field? I have worked in marketing for about four years, since I graduated from college. Third — how long have I played cricket? I have played since I was about eight years old. My father taught me and I have loved the sport ever since. Fourth — how long have I been interested in cooking? I have been interested in cooking since I was a teenager. My mother is an excellent cook and I used to watch her all the time. Fifth — how long have I known my best friend? I have known him for over fifteen years — we met in school and have been close ever since. These are the things that have shaped who I am.",
+        "key_phrases": ["How long have you...?", "I have lived here for", "I have worked since", "I have played since", "I have been interested for"],
+        "min_words": 120
+      }
+    },
+    {
+      "task_id": "t1209_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this profile using for or since.",
+        "text": "Name: Ravi Sharma\nProfession: Software Engineer\n\nRavi has worked at his current company ___ (1) three years. He joined ___ (2) 2021 after completing his master's degree. He has been interested in coding ___ (3) he was fourteen years old. Ravi has lived in Bangalore ___ (4) his graduation — before that, he lived in Jaipur ___ (5) most of his life. He has been playing tennis ___ (6) about two years. He started playing ___ (7) he moved to a flat with a sports complex nearby. He has been with his girlfriend ___ (8) five years — they met at university and have been together ___ (9) then. Ravi has not been back to his hometown ___ (10) almost a year — he misses his family.",
+        "answers": ["for", "since", "since", "since", "for", "for", "since", "for", "since", "for"]
+      }
+    },
+    {
+      "task_id": "t1209_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 9 complete — For and since",
+        "key_points": [
+          "FOR = duration (how long): for three years, for ages, for a long time",
+          "SINCE = starting point (when it began): since Monday, since 2020, since childhood",
+          "Both are used with PRESENT PERFECT for ongoing situations",
+          "Test: duration? → FOR | specific start point? → SINCE",
+          "Common mistake: 'since three years' is wrong — use 'for three years'",
+          "How long question: How long have you + past participle?"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "How much and how many — quantity language"
+      }
+    }
+  ]
+},
+
+{
+  "lesson_id": "a2_unit12_lesson10",
+  "unit": 12,
+  "lesson_number": 10,
+  "level": "A2",
+  "title": "How much and how many — quantity review",
+  "description": "Review countable and uncountable nouns and use how much, how many, a lot of, much, and many correctly.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1210_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Countable vs uncountable — quick review",
+        "body": "COUNTABLE nouns can be counted — they have a singular and plural:\n• one book / two books\n• a cup / three cups\n• an apple / five apples\n• a friend / many friends\n\nUNCOUNTABLE nouns cannot be counted — no plural form:\n• water (not waters)\n• money (not moneys)\n• information (not informations)\n• advice (not advices)\n• traffic (not traffics)\n• rice (not rices)\n• weather (not weathers)\n• time (not times — in this sense)\n\nKEY RULE: Uncountable nouns are always SINGULAR → use is, has, was",
+        "grammar_note": "Uncountable: water, money, time, rice, information, advice, news, traffic, weather, music\nCountable: book, car, person, idea, friend, problem\nUncountable = singular verb: The water IS cold."
+      }
+    },
+    {
+      "task_id": "t1210_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "How much / How many / A lot of",
+        "body": "HOW MUCH → uncountable nouns (and prices)\n• 'How much water do you drink per day?'\n• 'How much does this cost?'\n• 'How much time do we have?'\n\nHOW MANY → countable nouns (plural)\n• 'How many books have you read this year?'\n• 'How many people are coming?'\n• 'How many cups of chai have you had today?'\n\nA LOT OF → both countable AND uncountable (positive)\n• 'I drink a lot of water.'\n• 'I have a lot of friends here.'\n\nMUCH → uncountable (negative + questions mainly)\n• 'I don't have much time.'\n\nMANY → countable (negative + questions mainly)\n• 'Not many people came.'",
+        "grammar_note": "HOW MUCH + uncountable\nHOW MANY + countable plural\nA LOT OF = both (positive sentences)\nMUCH/MANY = mainly negative and questions"
+      }
+    },
+    {
+      "task_id": "t1210_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — common countable and uncountable nouns",
+        "vocabulary": [
+          {"word": "traffic (U)", "meaning": "vehicles on a road — uncountable", "example": "There is so much traffic on OMR today."},
+          {"word": "luggage (U)", "meaning": "bags and suitcases — uncountable", "example": "How much luggage are you bringing?"},
+          {"word": "furniture (U)", "meaning": "chairs, tables, etc — uncountable", "example": "We haven't bought much furniture yet."},
+          {"word": "knowledge (U)", "meaning": "information and understanding — uncountable", "example": "She has a lot of knowledge in this area."},
+          {"word": "complaint (C)", "meaning": "countable — an expression of dissatisfaction", "example": "How many complaints have we received this week?"},
+          {"word": "suggestion (C)", "meaning": "countable — an idea put forward", "example": "How many suggestions did the team make?"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l10_listen",
+        "sentences": [
+          "How much water do you drink every day?",
+          "How many people are joining the team next month?",
+          "I drink a lot of coffee — probably too much!",
+          "Not many students passed the test this time.",
+          "There isn't much time left — we need to hurry."
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "'___ money do you have with you?' Which word fits?",
+        "options": ["How many", "How much", "How few", "A lot of"],
+        "correct": "How much",
+        "explanation": "Money is UNCOUNTABLE → HOW MUCH. You can't say 'how many money'."
+      }
+    },
+    {
+      "task_id": "t1210_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "'___ books have you read this year?' Which fits?",
+        "options": ["How much", "How many", "A lot", "Much"],
+        "correct": "How many",
+        "explanation": "Books = COUNTABLE → HOW MANY. You can count books: one book, two books."
+      }
+    },
+    {
+      "task_id": "t1210_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence is CORRECT?",
+        "options": [
+          "I have many informations about this.",
+          "I have a lot of information about this.",
+          "I have much informations about this.",
+          "I have a lot informations about this."
+        ],
+        "correct": "I have a lot of information about this.",
+        "explanation": "Information = UNCOUNTABLE → never plural, never 'many'. Use 'a lot of information'."
+      }
+    },
+    {
+      "task_id": "t1210_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "Which sentence correctly uses MUCH in a negative?",
+        "options": [
+          "I don't have much books.",
+          "I don't have much time before my meeting.",
+          "I don't have much advices.",
+          "I don't have much cars."
+        ],
+        "correct": "I don't have much time before my meeting.",
+        "explanation": "Time = uncountable → don't have much time. MUCH is used with uncountable nouns."
+      }
+    },
+    {
+      "task_id": "t1210_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with HOW MUCH or HOW MANY.",
+        "sentences": [
+          {"text": "___ sugar do you take in your coffee?", "answer": "How much"},
+          {"text": "___ people live in your building?", "answer": "How many"},
+          {"text": "___ luggage can I bring on the flight?", "answer": "How much"},
+          {"text": "___ meetings do you have today?", "answer": "How many"},
+          {"text": "___ traffic was there on the highway?", "answer": "How much"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Fill in with A LOT OF, MUCH, or MANY.",
+        "sentences": [
+          {"text": "I don't have ___ time — can we make this quick?", "answer": "much"},
+          {"text": "She has ___ experience in this field — she's been doing it for years.", "answer": "a lot of"},
+          {"text": "Not ___ students attended the optional workshop.", "answer": "many"},
+          {"text": "There is ___ traffic on Anna Salai every morning.", "answer": "a lot of"},
+          {"text": "I don't know ___ people in this city — I've only just moved here.", "answer": "many"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct quantity question.",
+        "words": ["have", "read", "you", "How", "books", "many", "this", "year"],
+        "answer": "How many books have you read this year?"
+      }
+    },
+    {
+      "task_id": "t1210_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct negative quantity sentence.",
+        "words": ["time", "don't", "much", "I", "have"],
+        "answer": "I don't have much time."
+      }
+    },
+    {
+      "task_id": "t1210_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the noun to the correct question word.",
+        "pairs": [
+          {"left": "water", "right": "How much water?"},
+          {"left": "friends", "right": "How many friends?"},
+          {"left": "money", "right": "How much money?"},
+          {"left": "suggestions", "right": "How many suggestions?"},
+          {"left": "information", "right": "How much information?"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Planning a road trip — Chennai",
+        "setting": "Priya and Arjun are planning a road trip. Their conversation is full of quantity questions using how much, how many, and related language.",
+        "dialogue": [
+          {"speaker": "Priya", "text": "So Arjun — how many people are joining the road trip?"},
+          {"speaker": "Arjun", "text": "Six people including us. How much luggage is everyone bringing?"},
+          {"speaker": "Priya", "text": "I've told everyone — one bag each! How much space does your car have?"},
+          {"speaker": "Arjun", "text": "Plenty for six people and six bags. How many nights are we staying?"},
+          {"speaker": "Priya", "text": "Three nights. How much is the accommodation per night?"},
+          {"speaker": "Arjun", "text": "About two thousand each — so six thousand total per person. How much money should we each bring?"},
+          {"speaker": "Priya", "text": "I'd say at least ten thousand — for food, fuel, and activities. How many activities have you planned?"},
+          {"speaker": "Arjun", "text": "Not many — just two or three. I want to leave a lot of time to explore freely."},
+          {"speaker": "Priya", "text": "Good idea. How much petrol does the drive take?"},
+          {"speaker": "Arjun", "text": "About two full tanks each way. Not too much. How many snacks are we packing?"},
+          {"speaker": "Priya", "text": "A lot! I've already bought a lot of snacks. How much water should we bring?"},
+          {"speaker": "Arjun", "text": "Get at least six litres — it's going to be warm. Not much else to sort — I think we're ready!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "How many people are going on the road trip?",
+            "options": ["Four", "Five", "Six", "Seven"],
+            "correct": "Six"
+          },
+          {
+            "question": "How much does accommodation cost per person per night?",
+            "options": ["₹1,000", "₹1,500", "₹2,000", "₹2,500"],
+            "correct": "₹2,000"
+          },
+          {
+            "question": "How many activities has Arjun planned?",
+            "options": ["Many", "Just two or three", "None", "Ten"],
+            "correct": "Just two or three"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the quantity mistake.",
+        "sentences": [
+          {
+            "wrong": "How many money do you have?",
+            "correct": "How much money do you have?",
+            "explanation": "Money is UNCOUNTABLE → HOW MUCH (not how many)."
+          },
+          {
+            "wrong": "I have many informations about this topic.",
+            "correct": "I have a lot of information about this topic.",
+            "explanation": "Information is UNCOUNTABLE → no plural, use 'a lot of information' not 'many informations'."
+          },
+          {
+            "wrong": "She doesn't have many luggage.",
+            "correct": "She doesn't have much luggage.",
+            "explanation": "Luggage is UNCOUNTABLE → MUCH (not many) in negatives."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1210_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "Your colleague asks about the feedback from last week's presentation. You received a lot of positive comments. What do you say?",
+        "options": [
+          "We received many feedbacks.",
+          "We received a lot of positive feedback.",
+          "We received much positive feedbacks.",
+          "We received many positive feedbacks."
+        ],
+        "correct": "We received a lot of positive feedback.",
+        "explanation": "Feedback is UNCOUNTABLE → no plural. Use 'a lot of feedback' in positive sentences."
+      }
+    },
+    {
+      "task_id": "t1210_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Talk about your lifestyle using how much and how many questions — then answer them about yourself.",
+        "prompt": "Ask yourself 6 questions using how much and how many, then answer each one honestly.",
+        "example_response": "Let me ask and answer some lifestyle questions! How much water do I drink per day? Honestly, not as much as I should — probably only four to five glasses, when I know eight is recommended. How many hours of sleep do I get? About seven on weekdays, more on weekends. How much exercise do I do? Not much at all during the week — I've been meaning to fix this. Maybe twenty minutes of walking at best. How many meals do I eat per day? Usually three — breakfast, lunch, and dinner — plus quite a lot of snacks! How much social media time do I spend? Too much, honestly. At least two hours a day which feels excessive. And how many books have I read this year? Seven so far — which I'm actually proud of. I read a lot of non-fiction this year. Some habits are good and some I'm working on!",
+        "key_phrases": ["How much...?", "How many...?", "Not much", "A lot of", "Not many", "too much"],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1210_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "You are helping to plan a company celebration for 50 employees. Discuss what you need using how much and how many language.",
+        "prompt": "Plan a company event — use how much and how many to discuss quantities of food, space, budget, etc.",
+        "example_response": "Planning a celebration for fifty people is quite an undertaking! Let me think through the key questions. First — how many tables will we need? With fifty people and groups of eight, that's about six to seven tables. How many chairs of course matches the number of people. How much food will we need? A lot — for a sit-down dinner, typically about 200 to 250 grams of food per person. How much will the catering cost? If we budget around 500 rupees per head, that's 25,000 rupees for food alone. How many vegetarian and non-vegetarian options do we need? I'd say we need at least three vegetarian options as a lot of people may prefer it. How much decoration budget should we keep? Maybe 5,000 rupees — not much but enough for some balloons, flowers, and a backdrop. How many staff will we need for the event? Probably four to five people serving. And how much time do we need to set everything up — at least three hours before the event. I think with good planning, this can be done really well!",
+        "key_phrases": ["How many tables?", "How much food?", "How many options?", "A lot of people", "not much budget but enough"],
+        "min_words": 130
+      }
+    },
+    {
+      "task_id": "t1210_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this nutrition advice article using HOW MUCH, HOW MANY, A LOT OF, MUCH, or MANY.",
+        "text": "Eating well doesn't have to be complicated. First — ___ (1) water should you drink? Experts recommend at least eight glasses a day. Not ___ (2) people manage this, but it makes a huge difference. How ___ (3) vegetables should you eat? At least five portions a day. A lot of people don't eat ___ (4) vegetables — they eat too ___ (5) processed food instead. How ___ (6) protein do you need? About 50 to 60 grams for most adults. There is ___ (7) confusion about this topic, but the basics are simple. How ___ (8) meals should you eat? Three balanced meals with not too ___ (9) snacking in between. And how ___ (10) sugar do you consume? Most of us eat far too much — try cutting down gradually.",
+        "answers": ["How much", "many", "many", "many", "much", "much", "a lot of", "many", "much", "much"]
+      }
+    },
+    {
+      "task_id": "t1210_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 10 complete — How much and how many",
+        "key_points": [
+          "HOW MUCH + uncountable (water, money, time, traffic, information)",
+          "HOW MANY + countable plural (books, people, suggestions, complaints)",
+          "A LOT OF = works with both countable and uncountable (positive sentences)",
+          "MUCH = mainly negatives and questions with uncountable",
+          "MANY = mainly negatives and questions with countable",
+          "Uncountable nouns: no plural form, always singular verb"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Too much, too many and enough"
+      }
+    }
+  ]
+},
+
+{
+  "lesson_id": "a2_unit12_lesson11",
+  "unit": 12,
+  "lesson_number": 11,
+  "level": "A2",
+  "title": "Too much, too many and enough",
+  "description": "Use too much, too many, and enough to describe problems and sufficiency in everyday situations.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1211_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Too much and too many — more than needed",
+        "body": "TOO MUCH and TOO MANY both mean 'more than is needed or acceptable'. The difference is the noun type:\n\nTOO MUCH + uncountable noun:\n• 'There's too much sugar in this chai.'\n• 'I have too much work this week.'\n• 'She spends too much money on clothes.'\n• 'There is too much traffic on this road.'\n\nTOO MANY + countable noun (plural):\n• 'There are too many people in this room.'\n• 'I have too many meetings today.'\n• 'She bought too many vegetables — they'll spoil.'\n• 'There are too many errors in this document.'\n\nTOO always shows a PROBLEM — something is excessive.",
+        "grammar_note": "TOO MUCH + uncountable\nTOO MANY + countable plural\nTOO = excessive (negative meaning — a problem)\nToo much work = more than I can handle"
+      }
+    },
+    {
+      "task_id": "t1211_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Enough — the right amount",
+        "body": "ENOUGH means 'as much/many as needed' — the right quantity.\n\nWith NOUNS: enough + noun\n• 'I have enough money to buy this.'\n• 'Is there enough food for everyone?'\n• 'We don't have enough chairs.'\n• 'There is enough time, don't rush.'\n\nWith ADJECTIVES: adjective + enough\n• 'Is the water hot enough?'\n• 'She is experienced enough for the role.'\n• 'I'm not tall enough to reach that shelf.'\n\nNOT ENOUGH = insufficient:\n• 'There isn't enough space in this room.'\n• 'He doesn't have enough experience.'",
+        "grammar_note": "ENOUGH + noun: enough time, enough space\nAdjective + ENOUGH: big enough, fast enough\nNOT ENOUGH = insufficient / less than needed"
+      }
+    },
+    {
+      "task_id": "t1211_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — problems with quantity",
+        "vocabulary": [
+          {"word": "overwhelmed", "meaning": "having too much to deal with", "example": "I'm overwhelmed — there's too much to do."},
+          {"word": "shortage", "meaning": "not enough of something", "example": "There's a shortage of parking spaces."},
+          {"word": "excess", "meaning": "too much of something", "example": "An excess of sugar is bad for your health."},
+          {"word": "sufficient", "meaning": "enough for what is needed", "example": "Is the budget sufficient for this project?"},
+          {"word": "adequate", "meaning": "satisfactory, just enough", "example": "The preparation was adequate but not excellent."},
+          {"word": "scarce", "meaning": "not enough, hard to find", "example": "Parking is scarce in this area."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l11_listen",
+        "sentences": [
+          "There are too many people here — let's find a quieter table.",
+          "I've had too much coffee today — I can't sleep.",
+          "Is there enough food for everyone?",
+          "She doesn't have enough experience for the senior role.",
+          "We didn't have enough time to finish the project properly."
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "'I have ___ meetings today — I don't have time for anything else.' Which fits?",
+        "options": ["too much", "too many", "enough", "very many"],
+        "correct": "too many",
+        "explanation": "Meetings = countable → TOO MANY. 'Too much' is for uncountable nouns."
+      }
+    },
+    {
+      "task_id": "t1211_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "'She didn't get the job — she isn't experienced ___.' Which fits?",
+        "options": ["too", "enough", "too much", "very"],
+        "correct": "enough",
+        "explanation": "Adjective + ENOUGH: 'experienced enough'. The adjective comes BEFORE enough."
+      }
+    },
+    {
+      "task_id": "t1211_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence uses ENOUGH correctly?",
+        "options": [
+          "There is time enough for a break.",
+          "There is enough time for a break.",
+          "There is enough of time for a break.",
+          "There is time for enough a break."
+        ],
+        "correct": "There is enough time for a break.",
+        "explanation": "ENOUGH + noun: enough TIME. Enough comes BEFORE the noun."
+      }
+    },
+    {
+      "task_id": "t1211_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "'There's ___ sugar in this drink — it's overpowering.' Which fits?",
+        "options": ["too many", "enough", "too much", "not enough"],
+        "correct": "too much",
+        "explanation": "Sugar = uncountable → TOO MUCH. It means excessive, more than acceptable."
+      }
+    },
+    {
+      "task_id": "t1211_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with TOO MUCH, TOO MANY, or ENOUGH.",
+        "sentences": [
+          {"text": "I can't take another project — I have ___ work already.", "answer": "too much"},
+          {"text": "We have ___ chairs — we need three more for the guests.", "answer": "not enough"},
+          {"text": "There were ___ cars in the car park — we had to park outside.", "answer": "too many"},
+          {"text": "Is there ___ rice for everyone? I think we need to cook more.", "answer": "enough"},
+          {"text": "She drinks ___ coffee — five cups a day is way too much.", "answer": "too much"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete with TOO + adjective OR adjective + ENOUGH.",
+        "sentences": [
+          {"text": "The bag is ___ heavy for me to carry alone. (too)", "answer": "too heavy"},
+          {"text": "She is ___ to go on the ride — the minimum age is 12. (old/enough)", "answer": "old enough"},
+          {"text": "The room is ___ — we can't fit another bed in it. (too/small)", "answer": "too small"},
+          {"text": "The report isn't ___ — we need more detail. (detailed/enough)", "answer": "detailed enough"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct TOO MANY sentence.",
+        "words": ["today", "many", "meetings", "too", "have", "I"],
+        "answer": "I have too many meetings today."
+      }
+    },
+    {
+      "task_id": "t1211_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct ENOUGH sentence.",
+        "words": ["don't", "for", "experience", "She", "have", "the", "role", "enough"],
+        "answer": "She doesn't have enough experience for the role."
+      }
+    },
+    {
+      "task_id": "t1211_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the problem to the correct TOO MUCH/TOO MANY/ENOUGH sentence.",
+        "pairs": [
+          {"left": "The food is excessively salty", "right": "There's too much salt in this."},
+          {"left": "There are more guests than seats", "right": "There aren't enough chairs."},
+          {"left": "The schedule has more tasks than time allows", "right": "There are too many tasks on the list."},
+          {"left": "The budget covers everything needed", "right": "We have enough budget for the project."},
+          {"left": "The candidate lacks the required skills", "right": "She isn't experienced enough for the role."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Organising a college fest — Bangalore",
+        "setting": "Student organisers Arjun and Kavya are reviewing the preparation for their college's annual cultural festival.",
+        "dialogue": [
+          {"speaker": "Arjun", "text": "Kavya — how's the preparation for the fest going?"},
+          {"speaker": "Kavya", "text": "Honestly — a bit chaotic! We have too many things to organise and not enough people to help."},
+          {"speaker": "Arjun", "text": "How many volunteers do we have?"},
+          {"speaker": "Kavya", "text": "Only fifteen — for an event of five hundred people, that's definitely not enough."},
+          {"speaker": "Arjun", "text": "We need to recruit more. What about the venue? Is it large enough?"},
+          {"speaker": "Kavya", "text": "The main hall is big enough for performances but the food stalls area is too small. There isn't enough space."},
+          {"speaker": "Arjun", "text": "Can we use the outdoor area?"},
+          {"speaker": "Kavya", "text": "We've asked — waiting to hear. The food budget is also a concern. We have too many stalls and not enough money to sponsor them all."},
+          {"speaker": "Arjun", "text": "How much have we collected so far?"},
+          {"speaker": "Kavya", "text": "About eighty thousand — which sounds like a lot but it's too much spent on the main stage setup. We need to cut somewhere."},
+          {"speaker": "Arjun", "text": "What about decorations? Have we ordered enough?"},
+          {"speaker": "Kavya", "text": "I think so — but I'm worried we've ordered too many fairy lights and not enough streamers. It's about balance!"},
+          {"speaker": "Arjun", "text": "Ha! Well — we have enough time to fix the small things. Let's focus on what matters most."},
+          {"speaker": "Kavya", "text": "Agreed. The performances are organised and the speakers are confirmed — that's enough reason to be optimistic!"}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What is the main problem with volunteers?",
+            "options": ["Too many", "Not enough", "They are not experienced enough", "They have too many tasks"],
+            "correct": "Not enough"
+          },
+          {
+            "question": "What is wrong with the food stalls area?",
+            "options": ["Too many stalls", "Not enough food", "Too small — not enough space", "Too expensive"],
+            "correct": "Too small — not enough space"
+          },
+          {
+            "question": "What does Kavya say they have too many of in decorations?",
+            "options": ["Streamers", "Banners", "Fairy lights", "Flowers"],
+            "correct": "Fairy lights"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the mistake.",
+        "sentences": [
+          {
+            "wrong": "There are too much students in this classroom.",
+            "correct": "There are too many students in this classroom.",
+            "explanation": "Students = countable → TOO MANY (not too much)."
+          },
+          {
+            "wrong": "She isn't enough experienced for this role.",
+            "correct": "She isn't experienced enough for this role.",
+            "explanation": "Adjective + ENOUGH: experienced ENOUGH. Enough comes AFTER the adjective."
+          },
+          {
+            "wrong": "I have enough of time — don't rush me.",
+            "correct": "I have enough time — don't rush me.",
+            "explanation": "ENOUGH + noun directly: 'enough time' (no 'of')."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1211_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "Your friend says she wants to quit her job because she has too much stress and too many responsibilities. How do you respond empathetically using the language from this lesson?",
+        "options": [
+          "That's too much responsibilities for anyone.",
+          "I completely understand — having too many responsibilities and too much stress is not sustainable. Have you thought about speaking to your manager?",
+          "You have enough stress — don't quit.",
+          "Too many stress is normal."
+        ],
+        "correct": "I completely understand — having too many responsibilities and too much stress is not sustainable. Have you thought about speaking to your manager?",
+        "explanation": "Correct usage: too many responsibilities (countable) + too much stress (uncountable). Plus empathy and a helpful suggestion."
+      }
+    },
+    {
+      "task_id": "t1211_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Talk about a time you felt overwhelmed because something was too much or there wasn't enough of something. What was the situation? How did you manage?",
+        "prompt": "Describe an overwhelming situation using too much, too many, and not enough.",
+        "example_response": "I remember a period at work about a year ago when I felt completely overwhelmed. There were too many projects running at the same time — I was managing four different clients simultaneously. There was too much communication to keep up with — emails, calls, messages — it was endless. And there was never enough time to do any one thing properly, which really frustrated me. I didn't have enough support either — our team was short-staffed and two colleagues had taken leave at the same time. There were too many deadlines in one week and not enough hours in the day. I managed by making a very clear priority list — I decided which tasks were most urgent and focused only on those. I also spoke to my manager and was honest that the workload was too much for one person. She redistributed some tasks and things became manageable. The lesson I learned was that it's better to speak up early when the pressure is too much, rather than suffer in silence.",
+        "key_phrases": ["too many projects", "too much communication", "not enough time", "not enough support", "too many deadlines"],
+        "min_words": 130
+      }
+    },
+    {
+      "task_id": "t1211_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Think about a problem in your city or neighbourhood using too much, too many, and not enough. Describe the problem and suggest solutions.",
+        "prompt": "Discuss a city or local problem using quantity language. Be specific.",
+        "example_response": "One of the biggest problems in Chennai is traffic — and it's a classic case of too many vehicles and not enough road infrastructure. There are simply too many cars, bikes, and autos on the roads during peak hours. The population has grown enormously but the roads haven't been widened enough. There isn't enough public transport either — the metro covers some areas but not enough of the city yet. There are too many signals and junctions that are not properly managed, which creates bottlenecks. At the same time, there aren't enough pedestrian walkways — walking is often not a safe or practical option. I think the solution involves expanding the metro system significantly, creating more dedicated bus lanes, and perhaps introducing congestion pricing in the city centre to reduce unnecessary car usage. There is enough political will now to make this happen — I've seen some progress. But we need more. If we had enough investment in public transport, a lot of people would choose not to drive. That's the real solution — not more roads, but better alternatives.",
+        "key_phrases": ["too many vehicles", "not enough road space", "not enough public transport", "too many junctions", "enough investment", "not enough walkways"],
+        "min_words": 140
+      }
+    },
+    {
+      "task_id": "t1211_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this health advice passage using too much, too many, enough, or not enough.",
+        "text": "Are you getting ___ (1) sleep? Most adults need seven to eight hours but many people don't get ___ (2). One reason is that people spend ___ (3) time on screens before bed. Another issue is that people drink ___ (4) caffeine in the evening — coffee and energy drinks keep your brain active. On the other side, some people sleep ___ (5) — more than nine hours can also cause fatigue. It's about balance. Similarly with food — eating ___ (6) processed food and ___ (7) fruit and vegetables is a common problem. There is ___ (8) scientific evidence to show that diet affects sleep quality too. If you feel there isn't ___ (9) energy in your day, start by checking your sleep habits. Small changes — like not having ___ (10) screen time after 9 PM — can make a big difference.",
+        "answers": ["enough", "enough", "too much", "too much", "too much", "too much", "not enough", "enough", "enough", "too much"]
+      }
+    },
+    {
+      "task_id": "t1211_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 11 complete — Too much, too many and enough",
+        "key_points": [
+          "TOO MUCH + uncountable noun = excessive (a problem)",
+          "TOO MANY + countable noun (plural) = excessive (a problem)",
+          "ENOUGH + noun = sufficient, the right amount",
+          "Adjective + ENOUGH = sufficiently (big enough, fast enough)",
+          "NOT ENOUGH = insufficient, less than needed",
+          "TOO always signals a problem — something excessive or negative"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Some, any, no and their compounds"
+      }
+    }
+  ]
+}
+]

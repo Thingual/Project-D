@@ -1,0 +1,594 @@
+{
+  "unit_id": "Unit-6",
+  "unit_title": "Unit 6: Real-life Communication (L1–L4)",
+  "lessons": [
+    {
+      "lesson_id": "L1",
+      "lesson_title": "Phone calls & messages",
+      "estimated_minutes_total": 90,
+      "20_tasks": [
+        {
+          "task_id": "L1-T01",
+          "type": "warmup_match",
+          "title": "Match greeting + response",
+          "instructions": "Match call/message greetings with polite replies.",
+          "target_language_points": ["polite responses"]
+        },
+        {
+          "task_id": "L1-T02",
+          "type": "listening_choose",
+          "title": "Which message was sent?",
+          "instructions": "Listen/select the correct message topic: callback / schedule / confirm.",
+          "target_language_points": ["message purpose phrases"]
+        },
+        {
+          "task_id": "L1-T03",
+          "type": "flashcards",
+          "title": "Core call verbs",
+          "instructions": "Tap to practice: call back, leave a message, confirm, available, schedule.",
+          "target_language_points": ["phone-call vocabulary"]
+        },
+        {
+          "task_id": "L1-T04",
+          "type": "reading_order",
+          "title": "Put message steps in order",
+          "instructions": "Order: greet → request → time question → thanks.",
+          "target_language_points": ["basic message structure"]
+        },
+        {
+          "task_id": "L1-T05",
+          "type": "dialogue_fill",
+          "title": "Complete the callback request",
+          "instructions": "Fill missing phrases: 'Can you call me back?' and a time question.",
+          "target_language_points": ["polite request + time"]
+        },
+        {
+          "task_id": "L1-T06",
+          "type": "pronunciation",
+          "title": "Say it clearly: key phrases",
+          "instructions": "Repeat short phrases with app guidance (record if available).",
+          "target_language_points": ["intonation for questions"]
+        },
+        {
+          "task_id": "L1-T07",
+          "type": "scenario_roleplay",
+          "title": "Roleplay: scheduling a call",
+          "instructions": "Student A requests; Student B offers 2 time options.",
+          "target_language_points": ["confirming times"]
+        },
+        {
+          "task_id": "L1-T08",
+          "type": "choice_correction",
+          "title": "Fix the polite request",
+          "instructions": "Select the more polite version of an awkward sentence.",
+          "target_language_points": ["politeness"]
+        },
+        {
+          "task_id": "L1-T09",
+          "type": "time_drill",
+          "title": "Time expressions quick drill",
+          "instructions": "Choose the correct time phrase for a given time card.",
+          "target_language_points": ["time expressions"]
+        },
+        {
+          "task_id": "L1-T10",
+          "type": "message_builder",
+          "title": "Write a 2-sentence message",
+          "instructions": "Write: request + time suggestion.",
+          "target_language_points": ["short message writing"]
+        },
+        {
+          "task_id": "L1-T11",
+          "type": "listening_sort",
+          "title": "Sort details: name/date/time",
+          "instructions": "Choose where each detail goes in a template.",
+          "target_language_points": ["information extraction"]
+        },
+        {
+          "task_id": "L1-T12",
+          "type": "gap_fill_grammar",
+          "title": "Grammar: confirm sentences",
+          "instructions": "Complete: 'Just to confirm, it’s on...' / 'Yes, that’s correct.'",
+          "target_language_points": ["confirming"]
+        },
+        {
+          "task_id": "L1-T13",
+          "type": "turn_taking",
+          "title": "Conversation turn-taking",
+          "instructions": "Select the best next line in a short call conversation.",
+          "target_language_points": ["response timing"]
+        },
+        {
+          "task_id": "L1-T14",
+          "type": "situation_cards",
+          "title": "Choose what to say",
+          "instructions": "Given a situation (missed call, wrong time), pick an appropriate response.",
+          "target_language_points": ["situational language"]
+        },
+        {
+          "task_id": "L1-T15",
+          "type": "error_correction",
+          "title": "Correct the mistakes",
+          "instructions": "Fix 5 mistakes in short message samples.",
+          "target_language_points": ["article/time/polite forms"]
+        },
+        {
+          "task_id": "L1-T16",
+          "type": "mini_dialogue",
+          "title": "Build a 4-line dialogue",
+          "instructions": "Assemble lines into: greeting, request, confirmation, thanks.",
+          "target_language_points": ["dialogue sequencing"]
+        },
+        {
+          "task_id": "L1-T17",
+          "type": "reading_comprehension",
+          "title": "Read and answer (message details)",
+          "instructions": "Answer 5 questions from a sample message.",
+          "target_language_points": ["reading for details"]
+        },
+        {
+          "task_id": "L1-T18",
+          "type": "speaking_prompt",
+          "title": "Speak: leaving a short voicemail",
+          "instructions": "Record 15–25 seconds: who you are + why you’re calling + callback time.",
+          "target_language_points": ["voicemail structure"]
+        },
+        {
+          "task_id": "L1-T19",
+          "type": "review_quiz",
+          "title": "L1 mastery quiz",
+          "instructions": "Mixed MCQ: vocabulary + choose-best-response.",
+          "target_language_points": ["overall review"]
+        },
+        {
+          "task_id": "L1-T20",
+          "type": "cumulative_session",
+          "title": "Practice session: call + confirm",
+          "instructions": "Final practice: complete 1 dialogue and generate 1 short message.",
+          "target_language_points": ["integration"]
+        }
+      ]
+    },
+    {
+      "lesson_id": "L2",
+      "lesson_title": "Shopping clothes & returns",
+      "estimated_minutes_total": 100,
+      "20_tasks": [
+        {
+          "task_id": "L2-T01",
+          "type": "warmup_match",
+          "title": "Match shopping phrases",
+          "instructions": "Match: size/fit questions with their answers.",
+          "target_language_points": ["questions + responses"]
+        },
+        {
+          "task_id": "L2-T02",
+          "type": "flashcards",
+          "title": "Clothing store vocabulary",
+          "instructions": "Practice: size, fit, try on, receipt, exchange, return.",
+          "target_language_points": ["store vocabulary"]
+        },
+        {
+          "task_id": "L2-T03",
+          "type": "listening_choose",
+          "title": "What is the customer asking?",
+          "instructions": "Listen and choose: bigger/smaller, different color, exchange, refund.",
+          "target_language_points": ["listening discrimination"]
+        },
+        {
+          "task_id": "L2-T04",
+          "type": "reading_order",
+          "title": "Order the return steps",
+          "instructions": "Sequence: greet → item issue → show receipt → request exchange/return.",
+          "target_language_points": ["transaction flow"]
+        },
+        {
+          "task_id": "L2-T05",
+          "type": "gap_fill",
+          "title": "Fill the size/fit questions",
+          "instructions": "Complete: 'Do you have this in a ___ size?' 'What size do you recommend?'",
+          "target_language_points": ["size/fit questions"]
+        },
+        {
+          "task_id": "L2-T06",
+          "type": "choice_best_response",
+          "title": "Choose the best response",
+          "instructions": "Given staff/customer lines, pick the most natural next line.",
+          "target_language_points": ["natural responses"]
+        },
+        {
+          "task_id": "L2-T07",
+          "type": "dialogue_builder",
+          "title": "Build a 5-line shop dialogue",
+          "instructions": "Construct: ask availability → try on → fit comment → exchange/return request → confirm.",
+          "target_language_points": ["dialogue building"]
+        },
+        {
+          "task_id": "L2-T08",
+          "type": "drag_drop",
+          "title": "Drag return/exchange labels",
+          "instructions": "Drag examples into categories: 'return' vs 'exchange'.",
+          "target_language_points": ["return vs exchange"]
+        },
+        {
+          "task_id": "L2-T09",
+          "type": "grammar_requests",
+          "title": "Polite requests practice",
+          "instructions": "Choose correct request forms: could/would + verb.",
+          "target_language_points": ["polite requests"]
+        },
+        {
+          "task_id": "L2-T10",
+          "type": "because_reasoning",
+          "title": "Add a reason (because/for)",
+          "instructions": "Complete: 'because it doesn’t fit' / 'for an exchange'.",
+          "target_language_points": ["because/for"]
+        },
+        {
+          "task_id": "L2-T11",
+          "type": "form_fill",
+          "title": "Fill a return form",
+          "instructions": "Enter: item, size, issue, requested action.",
+          "target_language_points": ["transaction details"]
+        },
+        {
+          "task_id": "L2-T12",
+          "type": "error_correction",
+          "title": "Fix incorrect return phrases",
+          "instructions": "Correct 6 sentences with wrong word choice (e.g., receipt missing, wrong action).",
+          "target_language_points": ["word choice"]
+        },
+        {
+          "task_id": "L2-T13",
+          "type": "roleplay",
+          "title": "Roleplay: exchange for a different color",
+          "instructions": "Customer asks; staff suggests options; customer confirms.",
+          "target_language_points": ["exchange confirmation"]
+        },
+        {
+          "task_id": "L2-T14",
+          "type": "micro_writing",
+          "title": "Write a short return reason",
+          "instructions": "Write 2–3 sentences explaining why you want to return/exchange.",
+          "target_language_points": ["simple explanations"]
+        },
+        {
+          "task_id": "L2-T15",
+          "type": "listening_response",
+          "title": "Respond to staff questions",
+          "instructions": "Listen to staff prompts: 'Do you have the receipt?' and choose replies.",
+          "target_language_points": ["answering staff questions"]
+        },
+        {
+          "task_id": "L2-T16",
+          "type": "reading_comprehension",
+          "title": "Read a store policy mini text",
+          "instructions": "Answer questions about what you can/can’t do (based on the given text).",
+          "target_language_points": ["reading for meaning"]
+        },
+        {
+          "task_id": "L2-T17",
+          "type": "speaking_prompt",
+          "title": "Speak: try-on feedback",
+          "instructions": "Record: describe fit ('too big/too small') and request next size.",
+          "target_language_points": ["fit description + request"]
+        },
+        {
+          "task_id": "L2-T18",
+          "type": "quiz_mixed",
+          "title": "L2 mastery quiz",
+          "instructions": "MCQ + short answer: vocab, grammar, best response.",
+          "target_language_points": ["overall integration"]
+        },
+        {
+          "task_id": "L2-T19",
+          "type": "cumulative_session",
+          "title": "Practice session: shop + return",
+          "instructions": "Complete 1 full scenario: ask size → decide exchange → confirm.",
+          "target_language_points": ["end-to-end task"]
+        },
+        {
+          "task_id": "L2-T20",
+          "type": "review_game",
+          "title": "Fast practice: receipt & exchange",
+          "instructions": "Timed round: choose correct phrases quickly.",
+          "target_language_points": ["speed + accuracy"]
+        }
+      ]
+    },
+    {
+      "lesson_id": "L3",
+      "lesson_title": "Eating out complaints & dietary needs",
+      "estimated_minutes_total": 110,
+      "20_tasks": [
+        {
+          "task_id": "L3-T01",
+          "type": "warmup_match",
+          "title": "Polite complaint openers",
+          "instructions": "Match: 'Excuse me...' / 'Sorry, but...' to complaint types.",
+          "target_language_points": ["polite complaint starters"]
+        },
+        {
+          "task_id": "L3-T02",
+          "type": "flashcards",
+          "title": "Dietary needs vocabulary",
+          "instructions": "Practice: allergy, ingredient, without, no/less, spicy, cooked.",
+          "target_language_points": ["diet vocabulary"]
+        },
+        {
+          "task_id": "L3-T03",
+          "type": "listening_choose",
+          "title": "Identify the problem",
+          "instructions": "Listen: overcooked, missing item, wrong order, allergy risk.",
+          "target_language_points": ["listening for issues"]
+        },
+        {
+          "task_id": "L3-T04",
+          "type": "dialogue_fill",
+          "title": "Fill the complaint + fix",
+          "instructions": "Complete a dialogue: complaint → request fix → thanks/confirm.",
+          "target_language_points": ["requesting a fix"]
+        },
+        {
+          "task_id": "L3-T05",
+          "type": "gap_fill_diet",
+          "title": "I can’t / I’m allergic to",
+          "instructions": "Complete sentences with correct form for dietary needs.",
+          "target_language_points": ["can/can’t, allergic to"]
+        },
+        {
+          "task_id": "L3-T06",
+          "type": "choice_best_response",
+          "title": "Staff question responses",
+          "instructions": "Pick the best response to: 'Is there anything you can’t eat?'",
+          "target_language_points": ["answering questions"]
+        },
+        {
+          "task_id": "L3-T07",
+          "type": "scenario_roleplay",
+          "title": "Roleplay: allergy-safe order",
+          "instructions": "Customer gives restriction; staff suggests adjustment; confirm order.",
+          "target_language_points": ["confirming modifications"]
+        },
+        {
+          "task_id": "L3-T08",
+          "type": "ingredient_filter",
+          "title": "No/without ingredient filter",
+          "instructions": "Choose which ingredient to remove based on the dietary card.",
+          "target_language_points": ["without + noun / no + noun"]
+        },
+        {
+          "task_id": "L3-T09",
+          "type": "reading_comprehension",
+          "title": "Read a restaurant message",
+          "instructions": "Read a short message and answer comprehension questions.",
+          "target_language_points": ["reading details"]
+        },
+        {
+          "task_id": "L3-T10",
+          "type": "error_correction",
+          "title": "Correct the dietary statement",
+          "instructions": "Fix incorrect allergy/diet sentences.",
+          "target_language_points": ["grammar accuracy"]
+        },
+        {
+          "task_id": "L3-T11",
+          "type": "dialogue_builder",
+          "title": "Build a 6-line resolution dialogue",
+          "instructions": "Sequence: greeting → complaint → explanation → request → staff response → thanks.",
+          "target_language_points": ["structured dialogue"]
+        },
+        {
+          "task_id": "L3-T12",
+          "type": "micro_writing",
+          "title": "Write a short dietary note",
+          "instructions": "Write 3 sentences: restriction + what you want + confirmation.",
+          "target_language_points": ["short writing"]
+        },
+        {
+          "task_id": "L3-T13",
+          "type": "speaking_prompt",
+          "title": "Speak: polite complaint",
+          "instructions": "Record: open politely, state issue, request fix.",
+          "target_language_points": ["oral fluency"]
+        },
+        {
+          "task_id": "L3-T14",
+          "type": "listening_sort",
+          "title": "Sort phrases into categories",
+          "instructions": "Sort phrases into Complaint / Dietary Need / Resolution Request.",
+          "target_language_points": ["functional language"]
+        },
+        {
+          "task_id": "L3-T15",
+          "type": "quiz_multiple_choice",
+          "title": "L3 mastery quiz",
+          "instructions": "MCQ on vocabulary + best response selection.",
+          "target_language_points": ["overall review"]
+        },
+        {
+          "task_id": "L3-T16",
+          "type": "choose_modification",
+          "title": "Choose a menu modification",
+          "instructions": "Given a dish and allergy/diet card, pick the correct modification request.",
+          "target_language_points": ["making requests"]
+        },
+        {
+          "task_id": "L3-T17",
+          "type": "time_to_speak",
+          "title": "Speed round: 20-second response",
+          "instructions": "Instant prompt; respond in 1–2 sentences.",
+          "target_language_points": ["speed and clarity"]
+        },
+        {
+          "task_id": "L3-T18",
+          "type": "roleplay_swap",
+          "title": "Swap roles (staff/customer)",
+          "instructions": "Run the same scenario with reversed roles.",
+          "target_language_points": ["both speaking sides"]
+        },
+        {
+          "task_id": "L3-T19",
+          "type": "cumulative_session",
+          "title": "Practice session: complaint + dietary need",
+          "instructions": "Complete one combined scenario end-to-end.",
+          "target_language_points": ["integration"]
+        },
+        {
+          "task_id": "L3-T20",
+          "type": "final_check",
+          "title": "Exit ticket",
+          "instructions": "Answer 3 questions + write 1 sentence: either a complaint or dietary request.",
+          "target_language_points": ["summative assessment"]
+        }
+      ]
+    },
+    {
+      "lesson_id": "L4",
+      "lesson_title": "Health & lifestyle",
+      "estimated_minutes_total": 110,
+      "20_tasks": [
+        {
+          "task_id": "L4-T01",
+          "type": "warmup_match",
+          "title": "Habits match",
+          "instructions": "Match habit phrases with pictures/situations.",
+          "target_language_points": ["habit vocabulary"]
+        },
+        {
+          "task_id": "L4-T02",
+          "type": "flashcards",
+          "title": "Health vocabulary set",
+          "instructions": "Practice: headache, stress, sleep, exercise, rest, balanced.",
+          "target_language_points": ["health terms"]
+        },
+        {
+          "task_id": "L4-T03",
+          "type": "frequency_drill",
+          "title": "Often/sometimes/never",
+          "instructions": "Choose the frequency adverb that fits a given routine statement.",
+          "target_language_points": ["frequency adverbs"]
+        },
+        {
+          "task_id": "L4-T04",
+          "type": "reading_comprehension",
+          "title": "Read: weekly routine profiles",
+          "instructions": "Answer questions about each person’s habits.",
+          "target_language_points": ["reading for detail"]
+        },
+        {
+          "task_id": "L4-T05",
+          "type": "gap_fill_present_simple",
+          "title": "Present simple for routines",
+          "instructions": "Fill verbs: I usually ___ at 10 / She ___ three times a week.",
+          "target_language_points": ["present simple"]
+        },
+        {
+          "task_id": "L4-T06",
+          "type": "symptom_match",
+          "title": "Symptoms to questions",
+          "instructions": "Match symptoms to simple questions staff/doctor might ask.",
+          "target_language_points": ["basic questions"]
+        },
+        {
+          "task_id": "L4-T07",
+          "type": "dialogue_fill_advice",
+          "title": "Fill the advice dialogue",
+          "instructions": "Complete: symptom → advice with should + verb → thanks.",
+          "target_language_points": ["should + verb"]
+        },
+        {
+          "task_id": "L4-T08",
+          "type": "choice_best_response",
+          "title": "Best advice choice",
+          "instructions": "Pick the most reasonable advice for a given symptom.",
+          "target_language_points": ["appropriate advice"]
+        },
+        {
+          "task_id": "L4-T09",
+          "type": "error_correction",
+          "title": "Fix should sentences",
+          "instructions": "Correct wrong should-verb structure in 6 items.",
+          "target_language_points": ["should grammar"]
+        },
+        {
+          "task_id": "L4-T10",
+          "type": "speaking_prompt",
+          "title": "Speak: my lifestyle routine",
+          "instructions": "Record: 4 sentences about sleep/exercise/food/stress using frequency.",
+          "target_language_points": ["oral fluency"]
+        },
+        {
+          "task_id": "L4-T11",
+          "type": "micro_writing",
+          "title": "Write 5 routine sentences",
+          "instructions": "Write about 1 week routine using often/sometimes/never.",
+          "target_language_points": ["writing with frequency"]
+        },
+        {
+          "task_id": "L4-T12",
+          "type": "map_activity",
+          "title": "Lifestyle decision map",
+          "instructions": "Choose actions: rest, drink water, exercise, sleep, reduce stress (based on prompts).",
+          "target_language_points": ["action vocabulary"]
+        },
+        {
+          "task_id": "L4-T13",
+          "type": "roleplay",
+          "title": "Roleplay: ask for advice",
+          "instructions": "Student A says symptom; Student B gives advice using should + verb.",
+          "target_language_points": ["advice requests"]
+        },
+        {
+          "task_id": "L4-T14",
+          "type": "listening_choose",
+          "title": "Which advice is correct?",
+          "instructions": "Listen to 2–3 advice options and choose the best match.",
+          "target_language_points": ["listening + meaning"]
+        },
+        {
+          "task_id": "L4-T15",
+          "type": "dialogue_builder",
+          "title": "Build a 4-line health dialogue",
+          "instructions": "Sequence: symptom → ask question → advice → closing.",
+          "target_language_points": ["dialogue sequencing"]
+        },
+        {
+          "task_id": "L4-T16",
+          "type": "quiz_mixed",
+          "title": "Lesson summary: Health & lifestyle",
+          "instructions": "Mixed MCQ: vocabulary, present simple, should/advice.",
+          "target_language_points": ["overall review"]
+        },
+        {
+          "task_id": "L4-T17",
+          "type": "cumulative_session",
+          "title": "Practice session: routine + advice",
+          "instructions": "Do both: describe routine and respond to a health prompt.",
+          "target_language_points": ["integration"]
+        },
+        {
+          "task_id": "L4-T18",
+          "type": "scenario_choice",
+          "title": "Choose the best lifestyle change",
+          "instructions": "Pick which habit change fits each situation.",
+          "target_language_points": ["reasoning with advice"]
+        },
+        {
+          "task_id": "L4-T19",
+          "type": "pronunciation_drill",
+          "title": "Pronounce key sounds in phrases",
+          "instructions": "Practice phrases like: 'You should rest' / 'I often exercise'.",
+          "target_language_points": ["clarity"]
+        },
+        {
+          "task_id": "L4-T20",
+          "type": "exit_ticket",
+          "title": "Exit ticket",
+          "instructions": "Write 3 routine sentences + 1 advice sentence.",
+          "target_language_points": ["summative check"]
+        }
+      ]
+    }
+  ]
+}

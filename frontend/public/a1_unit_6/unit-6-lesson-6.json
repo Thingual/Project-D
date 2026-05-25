@@ -1,0 +1,246 @@
+{
+  "lesson_id": "a1_unit6_lesson06",
+  "unit": 6,
+  "lesson_number": 6,
+  "level": "A1",
+  "title": "Jobs & the workplace",
+  "description": "Talk about job descriptions and what people are doing now at work using present continuous for current projects.",
+  "estimated_minutes": 35,
+  "xp_reward": 170,
+  "tasks": [
+    {
+      "task_id": "t0606_01",
+      "type": "learn_card",
+      "prompt": "Learn job description basics",
+      "content": {
+        "grammar_focus": "Simple present (He/She works / I work)",
+        "example_sentences": [
+          "She works in a hospital.",
+          "I work in an office.",
+          "He teaches children."
+        ],
+        "context": "Talking about where people work in Mumbai."
+      }
+    },
+    {
+      "task_id": "t0606_02",
+      "type": "learn_card",
+      "prompt": "Learn present continuous for current projects",
+      "content": {
+        "grammar_focus": "Present continuous (I’m currently working on… / She is preparing…) ",
+        "example_sentences": [
+          "I’m currently working on a new report.",
+          "She is preparing lunch for customers.",
+          "He is fixing a computer today."
+        ],
+        "context": "Describing what someone is doing this week at work."
+      }
+    },
+    {
+      "task_id": "t0606_03",
+      "type": "learn_card",
+      "prompt": "Learn workplace vocabulary",
+      "content": {
+        "vocab_focus": ["office", "store", "hospital", "customer", "colleague", "team"],
+        "example_sentences": [
+          "My colleague helps me.",
+          "The team works together.",
+          "I talk to customers in the store."
+        ],
+        "context": "A workplace conversation in Bangalore."
+      }
+    },
+    {
+      "task_id": "t0606_04",
+      "type": "listen_repeat",
+      "prompt": "Repeat present continuous job tasks",
+      "audio_key": "a1_u6_l6_repeat_work_01",
+      "content": {
+        "target_phrases": [
+          "I’m currently working on a new report.",
+          "She is preparing customer orders.",
+          "He is fixing a computer today."
+        ]
+      }
+    },
+    {
+      "task_id": "t0606_05",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence: 'I work in a store.'",
+      "question": "Which is correct?",
+      "options": [
+        "I work in a store.",
+        "I working in a store.",
+        "I works in a store.",
+        "I worked in a store."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0606_06",
+      "type": "mcq",
+      "prompt": "Choose the correct present continuous form.",
+      "question": "She ___ currently preparing orders.",
+      "options": ["is", "are", "am", "be"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0606_07",
+      "type": "mcq",
+      "prompt": "Where does the doctor work?",
+      "question": "A doctor works in a…",
+      "options": ["hospital", "school yard", "train", "kitchen shop"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0606_08",
+      "type": "mcq",
+      "prompt": "Pick the best question to ask about someone’s job.",
+      "question": "You want to ask: where do you work?",
+      "options": ["Where do you work?", "Where are you yesterday?", "Why are you working tomorrow?", "How are you old?"],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0606_09",
+      "type": "fill_blank",
+      "prompt": "Complete the present continuous sentence.",
+      "content": {
+        "sentence": "I'm currently ___ on a new plan.",
+        "options": ["working", "worked", "works", "work"],
+        "correct": "working"
+      }
+    },
+    {
+      "task_id": "t0606_10",
+      "type": "fill_blank",
+      "prompt": "Complete the job description sentence.",
+      "content": {
+        "sentence": "Meera ___ in a pharmacy.",
+        "options": ["works", "work", "working", "worked"],
+        "correct": "works"
+      }
+    },
+    {
+      "task_id": "t0606_11",
+      "type": "sort_words",
+      "prompt": "Reorder the words to form a correct sentence.",
+      "scramble": ["currently", "working", "on", "a", "report", "I’m"],
+      "answer": "I’m currently working on a report"
+    },
+    {
+      "task_id": "t0606_12",
+      "type": "sort_words",
+      "prompt": "Reorder the words to form a correct sentence.",
+      "scramble": ["is", "fixing", "the", "computer", "today", "Ravi"],
+      "answer": "Ravi is fixing the computer today"
+    },
+    {
+      "task_id": "t0606_13",
+      "type": "match_pairs",
+      "prompt": "Match job roles to workplace actions.",
+      "pairs": [
+        { "left": "waiter", "right": "take orders" },
+        { "left": "teacher", "right": "teach students" },
+        { "left": "engineer", "right": "fix/prepare machines" },
+        { "left": "doctor", "right": "treat patients" }
+      ]
+    },
+    {
+      "task_id": "t0606_14",
+      "type": "dialogue",
+      "prompt": "Read the dialogue and answer the questions.",
+      "dialogue": {
+        "setting": "Bangalore, inside an IT office and a meeting room",
+        "turns": [
+          { "speaker": "Arjun", "text": "Hi Kavya! What do you do here?" },
+          { "speaker": "Kavya", "text": "Hi Arjun. I’m a software tester." },
+          { "speaker": "Arjun", "text": "Nice! Are you busy today?" },
+          { "speaker": "Kavya", "text": "Yes. I’m currently working on a new test case." },
+          { "speaker": "Arjun", "text": "Great. Who helps you?" },
+          { "speaker": "Kavya", "text": "My colleague Ravi. He is checking the bugs right now." },
+          { "speaker": "Arjun", "text": "What about your team?" },
+          { "speaker": "Kavya", "text": "Our team works together. We discuss problems in the meeting room." },
+          { "speaker": "Arjun", "text": "So you are preparing reports too?" },
+          { "speaker": "Kavya", "text": "Yes, I’m writing a summary for the manager." },
+          { "speaker": "Arjun", "text": "Cool! Thanks for explaining." },
+          { "speaker": "Kavya", "text": "No problem! See you later." }
+        ]
+      },
+      "comprehension_questions": [
+        { "question": "What is Kavya’s job?", "expected_answer": "She is a software tester." },
+        { "question": "What is Kavya doing today?", "expected_answer": "She is currently working on a new test case and writing a summary." },
+        { "question": "Who is helping Kavya right now?", "expected_answer": "Her colleague Ravi." }
+      ]
+    },
+    {
+      "task_id": "t0606_15",
+      "type": "error_correction",
+      "prompt": "Find and fix the mistake.",
+      "instruction": "Correct the sentence.",
+      "wrong_sentence": "Ravi are fixing the computer today.",
+      "correct_sentence": "Ravi is fixing the computer today."
+    },
+    {
+      "task_id": "t0606_16",
+      "type": "scenario_mcq",
+      "prompt": "Real-world choice: You want to describe what your coworker is doing now.",
+      "question": "Choose the best sentence:",
+      "options": [
+        "She is currently preparing customer orders.",
+        "She currently prepares customer orders every day.",
+        "She prepared customer orders yesterday.",
+        "She is prepare customer orders now."
+      ],
+      "correct_option_index": 0
+    },
+    {
+      "task_id": "t0606_17",
+      "type": "speaking",
+      "title": "Describe your job today",
+      "prompt": "In an Indian context, tell about your workplace role. Speak for 60-75 seconds.",
+      "content": {
+        "instruction": "Describe your job today and what you are working on right now.",
+        "min_words": 90,
+        "example_response": "Hi! I work in an office near my home. I'm currently working on a simple project for my manager. Today I'm checking files and writing notes for my team. My colleagues help me when I have questions. We work together and we share updates in the meeting room. This week I'm focusing on finishing the report, and then we will review it."
+      }
+    },
+    {
+      "task_id": "t0606_18",
+      "type": "speaking",
+      "title": "Work mini-dialogue",
+      "prompt": "Create a short mini-dialogue about work. Speak for 60 seconds.",
+      "content": {
+        "instruction": "Ask and answer questions about work.",
+        "min_words": 80,
+        "example_response": "A: Where do you work? B: I work in a pharmacy. A: What do you do there? B: I help customers and I check medicines. A: Are you busy now? B: Yes, I'm currently preparing orders. A: Who helps you? B: My colleague helps me and the team works together."
+      }
+    },
+    {
+      "task_id": "t0606_19",
+      "type": "fill_blank",
+      "prompt": "Comprehensive workplace practice (fill all blanks).",
+      "content": {
+        "sentence": "Complete: I ___ in a store. Today I'm ___ orders for customers. My ___ is Ravi, and he is ___ bugs right now. Our ___ works together in the team room.",
+        "blanks": [
+          {"correct": "work", "options": ["work", "works", "working", "worked"]},
+          {"correct": "preparing", "options": ["preparing", "prepare", "prepared", "check"]},
+          {"correct": "colleague", "options": ["colleague", "manager", "customer", "team"]},
+          {"correct": "checking", "options": ["checking", "fixing", "preparing", "making"]},
+          {"correct": "team", "options": ["team", "group", "colleague", "manager"]}
+        ]
+      }
+    },
+    {
+      "task_id": "t0606_20",
+      "type": "lesson_summary",
+      "prompt": "Lesson summary: Jobs & the workplace",
+      "content": {
+        "checklist": [
+          "I can talk about jobs with simple present (I work / She works).",
+          "I can talk about current work with present continuous (I’m working / He is fixing).",
+          "I know key workplace words like colleague, team, customer, office."
+        ]
+      }
+    }
+  ]
+}

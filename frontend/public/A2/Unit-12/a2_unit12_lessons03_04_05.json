@@ -1,0 +1,978 @@
+[
+{
+  "lesson_id": "a2_unit12_lesson03",
+  "unit": 12,
+  "lesson_number": 3,
+  "level": "A2",
+  "title": "Ever and never — life experience questions",
+  "description": "Use 'ever' and 'never' with the present perfect to ask about and describe life experiences.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1203_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Ever — asking about life experiences",
+        "body": "EVER means 'at any time in your life'. We use it in QUESTIONS with the present perfect.\n\nStructure: Have/Has + subject + EVER + past participle?\n\nExamples:\n• 'Have you ever tried sushi?'\n• 'Have you ever been to Rajasthan?'\n• 'Has she ever spoken to a large audience?'\n• 'Have they ever won a competition?'\n\nAnswering positively:\n• 'Yes, I have! I tried it in Tokyo.'\n• 'Yes — actually I have been there twice.'\n\nAnswering negatively:\n• 'No, I haven't — but I'd love to.'\n• 'No, never — it looks too adventurous for me!'",
+        "grammar_note": "EVER goes between the auxiliary and the past participle\nHave you EVER + past participle?\nOnly used in questions and negatives (not 'I have ever tried')"
+      }
+    },
+    {
+      "task_id": "t1203_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Never — negative life experiences",
+        "body": "NEVER means 'at no time in my life'. We use it in NEGATIVE statements.\n\nStructure: I/She + have/has + NEVER + past participle\n\nExamples:\n• 'I have never eaten octopus.'\n• 'She has never been abroad.'\n• 'We have never lost a match.'\n• 'He has never tried cooking.'\n\nNEVER makes the sentence negative — so don't add NOT:\n✓ 'I have never been to Delhi.'\n✗ 'I have never not been to Delhi.' (wrong — double negative)\n\nUsing never in conversation:\n• 'I've never done that — what's it like?'\n• 'She's never tried it but she wants to.'",
+        "grammar_note": "NEVER goes between have/has and the past participle\nNEVER = already negative — don't add NOT\nNever is stronger than 'not... yet'"
+      }
+    },
+    {
+      "task_id": "t1203_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — activities and experiences",
+        "vocabulary": [
+          {"word": "adventure", "meaning": "an exciting or unusual experience", "example": "Skydiving is quite an adventure!"},
+          {"word": "recommend", "meaning": "to suggest something is good", "example": "Have you ever tried this place? I'd recommend it."},
+          {"word": "abroad", "meaning": "in or to a foreign country", "example": "Have you ever been abroad?"},
+          {"word": "performance", "meaning": "a show or presentation in front of an audience", "example": "I've never given a performance on stage."},
+          {"word": "achievement", "meaning": "something done successfully with effort", "example": "Running a marathon is a great achievement."},
+          {"word": "disappointed", "meaning": "feeling sad because something wasn't as expected", "example": "I've never been disappointed by that restaurant."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l3_listen",
+        "sentences": [
+          "Have you ever tried Hyderabadi biryani?",
+          "Yes I have — it's absolutely incredible!",
+          "I have never been to the north of India.",
+          "Has she ever spoken in front of a large audience?",
+          "No, never — but I think she'd be great at it."
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Which sentence correctly uses EVER?",
+        "options": [
+          "Have you ever tried surfing?",
+          "I have ever tried surfing.",
+          "She ever has tried surfing.",
+          "Have ever you tried surfing?"
+        ],
+        "correct": "Have you ever tried surfing?",
+        "explanation": "EVER goes between the auxiliary (have) and the past participle (tried). Only used in questions here."
+      }
+    },
+    {
+      "task_id": "t1203_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Which sentence correctly uses NEVER?",
+        "options": [
+          "I have never not eaten sushi.",
+          "I never have eaten sushi.",
+          "I have never eaten sushi.",
+          "I haven't never eaten sushi."
+        ],
+        "correct": "I have never eaten sushi.",
+        "explanation": "NEVER goes between have and the past participle. No extra NOT needed — NEVER is already negative."
+      }
+    },
+    {
+      "task_id": "t1203_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Arjun asks: 'Have you ever been to Ladakh?' You visited once, three years ago. What do you say?",
+        "options": [
+          "Yes, I went three years ago.",
+          "Yes, I have — I went three years ago. It was breathtaking!",
+          "No, never.",
+          "I have been last year."
+        ],
+        "correct": "Yes, I have — I went three years ago. It was breathtaking!",
+        "explanation": "Answer the present perfect question with 'Yes, I have', then naturally give more detail using past simple (when)."
+      }
+    },
+    {
+      "task_id": "t1203_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "How do you best respond to 'Have you ever tried rock climbing?' if you haven't?",
+        "options": [
+          "No, I never tried it.",
+          "No, I have never tried it — but it looks exciting!",
+          "Never I have tried it.",
+          "I didn't ever try it."
+        ],
+        "correct": "No, I have never tried it — but it looks exciting!",
+        "explanation": "HAVE NEVER + past participle is the correct negative form. Adding 'but it looks exciting' makes the conversation flow."
+      }
+    },
+    {
+      "task_id": "t1203_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with EVER or NEVER.",
+        "sentences": [
+          {"text": "Have you ___ been to Pondicherry? It's really peaceful.", "answer": "ever"},
+          {"text": "I have ___ eaten Japanese food — I'd love to try it though.", "answer": "never"},
+          {"text": "Has she ___ won an award for her writing?", "answer": "ever"},
+          {"text": "We have ___ missed a deadline — we're very proud of that.", "answer": "never"},
+          {"text": "Have they ___ travelled to South India before?", "answer": "ever"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete the conversation with EVER or NEVER + the correct past participle.",
+        "sentences": [
+          {"text": "A: Have you ___ ___ (try) scuba diving? B: No, I've ___ ___ (do) anything like that.", "answer": "ever tried / never done"},
+          {"text": "A: Has Ravi ___ ___ (visit) Delhi? B: No, he's ___ ___ (be) to North India.", "answer": "ever visited / never been"},
+          {"text": "A: Have they ___ ___ (win) first place? B: Actually yes — they ___ (win) twice!", "answer": "ever won / have won"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct EVER question.",
+        "words": ["you", "Have", "eaten", "ever", "Chettinad", "food"],
+        "answer": "Have you ever eaten Chettinad food?"
+      }
+    },
+    {
+      "task_id": "t1203_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct NEVER statement.",
+        "words": ["a", "I", "marathon", "never", "run", "have"],
+        "answer": "I have never run a marathon."
+      }
+    },
+    {
+      "task_id": "t1203_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the question to the most natural answer.",
+        "pairs": [
+          {"left": "Have you ever been to Goa?", "right": "Yes, I have — I went during the monsoon and it was magical."},
+          {"left": "Has she ever cooked for a large group?", "right": "Yes, she has — she made food for her whole family at Diwali."},
+          {"left": "Have they ever won a quiz competition?", "right": "No, never — but they came second once!"},
+          {"left": "Have you ever tried skydiving?", "right": "No, I haven't — it looks absolutely terrifying!"},
+          {"left": "Has he ever spoken at a conference?", "right": "Yes, he has — many times. He's very confident."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "The life experience quiz — friends' gathering, Hyderabad",
+        "setting": "At a house party, a group of friends play a 'Have you ever?' game. Each person shares experiences. The dialogue is full of ever/never patterns.",
+        "dialogue": [
+          {"speaker": "Kavya", "text": "Okay everyone — let's play 'Have you ever'! I'll start. Arjun — have you ever eaten something you immediately regretted?"},
+          {"speaker": "Arjun", "text": "Ha! Yes, absolutely. I have eaten the spiciest podi dosa of my life in Madurai. I cried!"},
+          {"speaker": "Ravi", "text": "Amazing! I have never had anything that spicy. Priya — have you ever done something that really scared you?"},
+          {"speaker": "Priya", "text": "I have! I have bungee jumped in Rishikesh. It was the most terrifying and wonderful thing I have ever done."},
+          {"speaker": "Kavya", "text": "I have never done anything that brave — I have never even been to Rishikesh!"},
+          {"speaker": "Priya", "text": "You must go! Sonal — what about you? Have you ever lived in another city?"},
+          {"speaker": "Sonal", "text": "Yes — I have lived in Bangalore, Pune, and now Hyderabad. I have never stayed in one city for more than three years."},
+          {"speaker": "Arjun", "text": "Interesting! I have never moved cities — I have lived in Hyderabad my whole life. Have you ever regretted moving so much, Sonal?"},
+          {"speaker": "Sonal", "text": "Never! Every city has taught me something new. Have you ever learned a new language, anyone?"},
+          {"speaker": "Ravi", "text": "I have tried learning French — I have taken lessons twice but I have never finished a course!"},
+          {"speaker": "Kavya", "text": "I have actually learned basic Spanish! I have never been to a Spanish-speaking country but I have watched lots of Spanish shows."},
+          {"speaker": "Priya", "text": "That's brilliant! I think we have all done some pretty interesting things. This game is great."}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What did Priya do in Rishikesh?",
+            "options": ["River rafting", "Yoga retreat", "Bungee jumping", "Trekking"],
+            "correct": "Bungee jumping"
+          },
+          {
+            "question": "Has Sonal ever regretted moving cities?",
+            "options": ["Yes, sometimes", "No, never", "Yes, many times", "She doesn't remember"],
+            "correct": "No, never"
+          },
+          {
+            "question": "What language has Ravi tried to learn?",
+            "options": ["Spanish", "French", "Japanese", "German"],
+            "correct": "French"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the EVER/NEVER mistake.",
+        "sentences": [
+          {
+            "wrong": "I have ever visited Jaipur — it's beautiful.",
+            "correct": "I have visited Jaipur — it's beautiful.",
+            "explanation": "EVER is only for questions. In positive statements, just use 'I have visited' without 'ever'."
+          },
+          {
+            "wrong": "She hasn't never tried sushi.",
+            "correct": "She has never tried sushi. / She hasn't tried sushi.",
+            "explanation": "NEVER is already negative — don't combine hasn't + never. Double negatives are not standard in English."
+          },
+          {
+            "wrong": "Have ever you been to Mumbai?",
+            "correct": "Have you ever been to Mumbai?",
+            "explanation": "Word order: Have + subject + EVER + past participle. 'Have ever you' is incorrect."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1203_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "You are meeting a new colleague from another city. You want to ask if they have tried South Indian food. Which is the most natural question?",
+        "options": [
+          "Did you try South Indian food?",
+          "Do you try South Indian food?",
+          "Have you ever tried South Indian food?",
+          "You tried South Indian food ever?"
+        ],
+        "correct": "Have you ever tried South Indian food?",
+        "explanation": "Life experience question = Have you ever + past participle? This is the standard natural form."
+      }
+    },
+    {
+      "task_id": "t1203_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Play the 'Have you ever?' game with yourself. Ask yourself 6 questions using 'Have you ever?' and answer each one honestly with a full sentence.",
+        "prompt": "Ask and answer 6 'Have you ever?' questions. Some answers should be YES and some NO, using NEVER.",
+        "example_response": "Let me play the game! Have I ever been to a hill station? Yes, I have — I have been to Munnar in Kerala and the tea gardens there were absolutely breathtaking. Have I ever cooked a full meal for more than ten people? Yes, I have! Last Diwali I helped cook for around fifteen family members. Have I ever won a competition? Honestly, no — I have never won a formal competition, though I have come close a few times. Have I ever read a book in one sitting? I have! I have read a short novel in one long afternoon — I couldn't put it down. Have I ever tried learning a musical instrument? No, never — I have always wanted to learn the guitar but I have never actually started. Have I ever spoken to a complete stranger and become friends? Yes, actually — I have met some lovely people on train journeys who I have stayed in touch with!",
+        "key_phrases": ["Have I ever...?", "Yes, I have — I...", "No, never — I have never..."],
+        "min_words": 100
+      }
+    },
+    {
+      "task_id": "t1203_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Think about 3 things you have NEVER done but would like to try. Explain what they are and why you haven't done them yet.",
+        "prompt": "Share 3 things you have never done + why + whether you'd like to try.",
+        "example_response": "There are three things I have never done but would genuinely love to. First — I have never been to Ladakh. It's somewhere I have always dreamed of visiting but I have never had the right timing or budget to make it happen. The photographs I have seen make it look other-worldly. Second — I have never tried pottery. I have watched many videos of people doing it and it looks incredibly meditative. I have simply never found a class nearby or made the time for it. Third — I have never performed in front of an audience — not even a small one. I have always been shy about performing and I have never pushed myself to try. But I think it would be such a great confidence-builder. These are all things I genuinely hope to do — I just haven't done them yet!",
+        "key_phrases": ["I have never been to", "I have never tried", "I have never done", "I have always wanted to but", "I haven't yet"],
+        "min_words": 100
+      }
+    },
+    {
+      "task_id": "t1203_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this 'Have you ever?' quiz using ever or never + the correct verb form.",
+        "text": "1. Have you ___ (1) ___ (eat) street food from a dhaba?\n2. I have ___ (2) ___ (feel) more relaxed than during a hill station holiday.\n3. Has your team ___ (3) ___ (win) a cricket match against another department?\n4. I have ___ (4) ___ (try) water sports — I am not a strong swimmer.\n5. Have you ___ (5) ___ (speak) in front of your whole school or college?\n6. She has ___ (6) ___ (miss) a single team meeting since she joined.",
+        "answers": ["ever / eaten", "never / felt", "ever / won", "never / tried", "ever / spoken", "never / missed"]
+      }
+    },
+    {
+      "task_id": "t1203_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 3 complete — Ever and never",
+        "key_points": [
+          "EVER = 'at any time in your life' — used in questions: Have you ever + past participle?",
+          "NEVER = 'at no time' — used in statements: I have never + past participle",
+          "EVER goes between have/has and the past participle",
+          "NEVER is already negative — never use hasn't/haven't + never together",
+          "Answering: 'Yes, I have!' / 'No, I haven't.' / 'No, never!'",
+          "EVER is NOT used in positive statements — just in questions"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Already and yet"
+      }
+    }
+  ]
+},
+
+{
+  "lesson_id": "a2_unit12_lesson04",
+  "unit": 12,
+  "lesson_number": 4,
+  "level": "A2",
+  "title": "Already and yet",
+  "description": "Use 'already' and 'yet' with the present perfect to talk about tasks completed and things not done.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1204_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Already — sooner than expected",
+        "body": "ALREADY means something has happened — and often sooner than expected or before this moment.\n\nWe use ALREADY in POSITIVE sentences and questions.\n\nPosition: between have/has and the past participle, OR at the end.\n\nExamples:\n• 'I've already had breakfast.' (= earlier than expected)\n• 'She has already submitted the report.'\n• 'We've already seen that film.'\n• 'Have you already finished?!' (surprise — sooner than expected)\n\nIn speech, ALREADY often shows surprise or emphasis:\n• 'It's only 9 AM and he's ALREADY done all his tasks!'",
+        "grammar_note": "ALREADY = positive sentences and surprise questions\nPosition: have + ALREADY + past participle\nOR: sentence + ALREADY (end position, casual)"
+      }
+    },
+    {
+      "task_id": "t1204_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Yet — expected but not done",
+        "body": "YET means something hasn't happened but is expected to happen.\n\nWe use YET in:\n1. NEGATIVE sentences: 'I haven't done it yet.'\n2. QUESTIONS: 'Have you done it yet?'\n\nYET always goes at the END of the sentence.\n\nExamples:\n• 'I haven't called her yet.' (I plan to, but haven't)\n• 'Have you eaten yet?' (Have you done it by now?)\n• 'She hasn't arrived yet.' (We expect her but she hasn't come)\n• 'Has the results been announced yet?'\n\nContrast:\n• 'I've already done it.' (Done — finished!)\n• 'I haven't done it yet.' (Not done — but will do it)",
+        "grammar_note": "YET goes at the END of the sentence always\nNegative: haven't/hasn't + PP + YET\nQuestion: Have + subject + PP + YET?"
+      }
+    },
+    {
+      "task_id": "t1204_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — tasks and to-do language",
+        "vocabulary": [
+          {"word": "submit", "meaning": "to hand in work or a form", "example": "Have you submitted the form yet?"},
+          {"word": "confirm", "meaning": "to make something definite", "example": "She has already confirmed the booking."},
+          {"word": "book", "meaning": "to reserve a place or time", "example": "I've already booked the tickets."},
+          {"word": "reply", "meaning": "to respond to a message", "example": "He hasn't replied yet — I'm waiting."},
+          {"word": "deadline", "meaning": "the last time to finish something", "example": "The deadline is Friday — have you started yet?"},
+          {"word": "due", "meaning": "expected to happen or be done", "example": "The report is due tomorrow. Have you finished yet?"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l4_listen",
+        "sentences": [
+          "I've already had lunch — I went early today.",
+          "Have you eaten yet? The food is getting cold.",
+          "She has already sent the email.",
+          "I haven't called the client yet — I'll do it after this.",
+          "Has the manager arrived yet?"
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "Choose the correct sentence with ALREADY.",
+        "options": [
+          "I have eaten already breakfast.",
+          "I have already eaten breakfast.",
+          "I already have breakfast eaten.",
+          "I have eaten breakfast yet."
+        ],
+        "correct": "I have already eaten breakfast.",
+        "explanation": "ALREADY goes between HAVE and the past participle: have + ALREADY + eaten."
+      }
+    },
+    {
+      "task_id": "t1204_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "Choose the correct sentence with YET.",
+        "options": [
+          "I haven't yet finished the report.",
+          "I haven't finished yet the report.",
+          "I haven't finished the report yet.",
+          "I yet haven't finished the report."
+        ],
+        "correct": "I haven't finished the report yet.",
+        "explanation": "YET always goes at the END of the sentence."
+      }
+    },
+    {
+      "task_id": "t1204_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Your friend is surprised you've finished your exam paper so quickly. What does she say?",
+        "options": [
+          "Have you finished yet?",
+          "Have you already finished?!",
+          "Did you finish already?",
+          "You have yet finished?"
+        ],
+        "correct": "Have you already finished?!",
+        "explanation": "ALREADY in a question shows surprise — it happened sooner than expected. This is natural and common."
+      }
+    },
+    {
+      "task_id": "t1204_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "Which sentence means 'the food has been ordered — before you asked'?",
+        "options": [
+          "I haven't ordered the food yet.",
+          "I've already ordered the food.",
+          "I ordered the food yesterday.",
+          "Have you ordered the food yet?"
+        ],
+        "correct": "I've already ordered the food.",
+        "explanation": "ALREADY = done before this moment. 'I've already ordered' = don't worry, it's been taken care of."
+      }
+    },
+    {
+      "task_id": "t1204_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with ALREADY or YET.",
+        "sentences": [
+          {"text": "Have you called the hotel ___? We need to confirm.", "answer": "yet"},
+          {"text": "Don't worry — I've ___ booked the tickets online.", "answer": "already"},
+          {"text": "She hasn't replied to my message ___.", "answer": "yet"},
+          {"text": "He has ___ finished the whole project — he started yesterday!", "answer": "already"},
+          {"text": "Have they announced the results ___?", "answer": "yet"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete using haven't/hasn't + past participle + yet OR have/has + already + past participle.",
+        "sentences": [
+          {"text": "The package arrived two hours ago. (already) → The package ___ ___.", "answer": "has already arrived"},
+          {"text": "Meera is still waiting for news. (not/hear/yet) → She ___ ___ ___.", "answer": "hasn't heard yet"},
+          {"text": "We booked dinner before you asked. (already) → We ___ ___ ___.", "answer": "have already booked"},
+          {"text": "The meeting starts in 5 minutes but no one is here. (not/arrive/yet) → They ___ ___ ___.", "answer": "haven't arrived yet"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a correct ALREADY sentence.",
+        "words": ["already", "has", "She", "the", "finished", "assignment"],
+        "answer": "She has already finished the assignment."
+      }
+    },
+    {
+      "task_id": "t1204_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a correct YET question.",
+        "words": ["you", "Have", "application", "submitted", "the", "yet"],
+        "answer": "Have you submitted the application yet?"
+      }
+    },
+    {
+      "task_id": "t1204_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the situation to the correct ALREADY or YET sentence.",
+        "pairs": [
+          {"left": "Task is done ahead of schedule", "right": "She has already submitted it."},
+          {"left": "Asking if something has happened by now", "right": "Have you called them yet?"},
+          {"left": "Something expected hasn't happened", "right": "He hasn't arrived yet."},
+          {"left": "Done before someone asked", "right": "Don't worry — I've already sorted it."},
+          {"left": "Surprised it happened so quickly", "right": "Have you already finished?!"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Preparing for a family event — Chennai home",
+        "setting": "Priya's family is preparing for a big family gathering at home. Her mother is checking tasks with her and her brother Ravi.",
+        "dialogue": [
+          {"speaker": "Amma", "text": "Priya — have you called the caterers yet?"},
+          {"speaker": "Priya", "text": "Yes Amma — I've already called them. They confirmed this morning."},
+          {"speaker": "Amma", "text": "Good. And what about flowers? Has Ravi picked them up yet?"},
+          {"speaker": "Priya", "text": "Not yet — he said he'll go at 4 PM."},
+          {"speaker": "Amma", "text": "Okay. Have you cleaned the front room yet?"},
+          {"speaker": "Priya", "text": "I've already done that — I finished it before breakfast."},
+          {"speaker": "Amma", "text": "That was quick! Have you sent the invitations yet?"},
+          {"speaker": "Ravi", "text": "I've already sent them — everyone has confirmed they're coming."},
+          {"speaker": "Amma", "text": "Wonderful. What about the sweets order? Have they delivered it yet?"},
+          {"speaker": "Priya", "text": "Not yet — they said it will come by 5 PM."},
+          {"speaker": "Amma", "text": "Alright. Has someone arranged the chairs in the hall?"},
+          {"speaker": "Ravi", "text": "Haven't done that yet — I'll do it after I get the flowers."},
+          {"speaker": "Amma", "text": "Good. Everything is going smoothly. I haven't decorated the entrance yet — shall we do that together?"},
+          {"speaker": "Priya", "text": "Yes! I've already bought the flowers for it — they're in the kitchen."}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "Has Priya already called the caterers?",
+            "options": ["No, she hasn't done it yet.", "Yes, she called them this morning.", "She forgot to call.", "Ravi called them."],
+            "correct": "Yes, she called them this morning."
+          },
+          {
+            "question": "What hasn't been delivered yet?",
+            "options": ["The flowers", "The invitations", "The sweets order", "The chairs"],
+            "correct": "The sweets order"
+          },
+          {
+            "question": "What has Ravi NOT done yet?",
+            "options": ["Sent the invitations", "Arranged the chairs", "Picked up the flowers", "Confirmed guests"],
+            "correct": "Arranged the chairs"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the ALREADY/YET mistake.",
+        "sentences": [
+          {
+            "wrong": "I haven't yet called him back.",
+            "correct": "I haven't called him back yet.",
+            "explanation": "YET goes at the END of the sentence, not between haven't and the verb."
+          },
+          {
+            "wrong": "She has eaten yet breakfast.",
+            "correct": "She has already eaten breakfast.",
+            "explanation": "YET is used in negatives and questions, not positive statements. Use ALREADY for positive: 'has already eaten'."
+          },
+          {
+            "wrong": "Have they yet arrived?",
+            "correct": "Have they arrived yet?",
+            "explanation": "YET goes at the END of the question: Have they arrived YET?"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1204_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "Your manager asks if you have sent the report to the client. You sent it an hour ago. What do you say?",
+        "options": [
+          "I haven't sent it yet.",
+          "I've already sent it — I did it about an hour ago.",
+          "I sent it yesterday.",
+          "I will send it soon."
+        ],
+        "correct": "I've already sent it — I did it about an hour ago.",
+        "explanation": "ALREADY = done before this moment. Reassuring your manager with 'I've already sent it' is the natural response."
+      }
+    },
+    {
+      "task_id": "t1204_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "Imagine you are preparing for a big exam next week. Talk about what you have ALREADY done to prepare, and what you HAVEN'T done yet.",
+        "prompt": "Use already and yet to describe exam preparation. Give at least 5 examples of each.",
+        "example_response": "I have an important exam coming up next week and my preparation is quite mixed honestly! On the positive side — I have already covered the first three chapters and I have already made detailed notes for each topic. I have already done two practice papers and I have already identified my weak areas, which is the grammar section. I have already spoken to my teacher about the tricky topics and she was very helpful. However, there is still a lot left to do. I haven't practised the vocabulary exercises yet — I keep putting them off. I haven't done a full timed mock test yet, which I really need to do. I haven't revised the last two chapters yet because they are the most difficult. I also haven't organised my notes into a proper summary sheet yet. And I haven't had a proper sleep schedule yet — I have been studying late and waking up tired! I need to fix that before exam day.",
+        "key_phrases": ["I have already", "I haven't...yet", "I still need to", "not done yet"],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1204_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Think about your goals or plans for this year. What have you already done? What haven't you done yet but still plan to?",
+        "prompt": "Share your year's progress — what you've already achieved and what's still pending.",
+        "example_response": "This year has been a mix of things achieved and things still pending! On the done side — I have already started exercising regularly, which was one of my goals. I have already read five books this year, which is more than I managed in the whole of last year. I have also already saved a decent amount each month, which feels good. On the pending side — I haven't signed up for that online course yet even though I have been thinking about it for months. I haven't taken a proper holiday yet — I have been so busy with work that I haven't booked anything. I also haven't called some old friends that I have been meaning to catch up with. And I definitely haven't started that side project I have been planning since January! Some things I have already done well but there is plenty still left to do.",
+        "key_phrases": ["I have already started", "I have already saved", "I haven't signed up yet", "I haven't taken yet"],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1204_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this WhatsApp task-check conversation between teammates.",
+        "text": "Arjun: Hey Sonal — quick check before the presentation tomorrow. Have you prepared the slides ___? (1)\n\nSonal: Yes — I've ___ done them! Sent them to you an hour ago. Did you get them? (2)\n\nArjun: Got them — they look great! Has Kavya written the intro speech ___? (3)\n\nSonal: She ___ finished it ___ — she's still working on it. (4)\n\nArjun: Okay. Have you tested the projector ___? (5)\n\nSonal: Not ___. I'll do it first thing tomorrow morning. (6)\n\nArjun: And the handouts — have you printed them ___? (7)\n\nSonal: I've ___ printed fifty copies — they're on my desk. (8)\n\nArjun: Perfect. I think we're almost ready. Let's do a quick run-through tonight — have you eaten ___? (9)\n\nSonal: Not ___ — come over and we can eat and practise! (10)",
+        "answers": ["yet", "already", "yet", "hasn't / yet", "yet", "yet", "yet", "already", "yet", "yet"]
+      }
+    },
+    {
+      "task_id": "t1204_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 4 complete — Already and yet",
+        "key_points": [
+          "ALREADY = done (before expected or before you asked) — positive sentences and surprise questions",
+          "YET = not done (but expected) — negative sentences and questions",
+          "Position: ALREADY between have/has and past participle",
+          "Position: YET always at the END of the sentence",
+          "Already: 'I've already done it!' | Yet: 'I haven't done it yet.'",
+          "Question with yet: 'Have you finished yet?' | Question with already (surprise): 'Have you already finished?!'"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Just and still"
+      }
+    }
+  ]
+},
+
+{
+  "lesson_id": "a2_unit12_lesson05",
+  "unit": 12,
+  "lesson_number": 5,
+  "level": "A2",
+  "title": "Just and still",
+  "description": "Use 'just' for very recent actions and 'still' for ongoing situations that haven't changed.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t1205_01",
+      "type": "learn_card",
+      "order": 1,
+      "content": {
+        "title": "Just — a very recent action",
+        "body": "JUST means something happened a very short time ago — moments or minutes before now.\n\nWe use JUST in POSITIVE present perfect sentences.\nPosition: between HAVE/HAS and the past participle.\n\nExamples:\n• 'I've just arrived.' (a moment ago)\n• 'She has just called.' (moments ago)\n• 'We've just eaten.' (a few minutes ago)\n• 'He has just left the office.'\n• 'I've just heard the news — incredible!'\n\nJUST in conversation:\n• 'Sorry — I've just had a call, can we speak in five?'\n• 'Good news — she's just accepted the offer!'",
+        "grammar_note": "JUST = very recently — minutes or moments ago\nPosition: have + JUST + past participle\nUsed in positive statements only"
+      }
+    },
+    {
+      "task_id": "t1205_02",
+      "type": "learn_card",
+      "order": 2,
+      "content": {
+        "title": "Still — something that hasn't changed",
+        "body": "STILL means something that was expected to change hasn't changed yet — it is ongoing.\n\nWith NEGATIVE present perfect:\nSubject + STILL + haven't/hasn't + past participle\n\nExamples:\n• 'She still hasn't called me back.' (I expected her to — but she hasn't)\n• 'I still haven't finished the book.' (Started but ongoing)\n• 'They still haven't announced the results.'\n• 'He still hasn't replied to my email.'\n\nCompare:\n• 'She hasn't called yet.' = neutral — she is expected to\n• 'She still hasn't called.' = with stronger expectation / slight frustration\n\nSTILL can also be used with simple present:\n• 'I still live in Chennai.' (it hasn't changed)",
+        "grammar_note": "STILL in negative = stronger expectation than YET\nPosition: subject + STILL + haven't/hasn't + PP\nSlightly more frustration or emphasis than YET"
+      }
+    },
+    {
+      "task_id": "t1205_03",
+      "type": "learn_card",
+      "order": 3,
+      "content": {
+        "title": "Vocabulary — updates and news language",
+        "vocabulary": [
+          {"word": "update", "meaning": "the latest news about a situation", "example": "I've just got an update — the package is on the way."},
+          {"word": "announce", "meaning": "to make something officially known", "example": "They still haven't announced the winner."},
+          {"word": "land", "meaning": "to arrive by plane", "example": "She has just landed — she'll be here in an hour."},
+          {"word": "approve", "meaning": "to officially agree to something", "example": "They still haven't approved my leave request."},
+          {"word": "notify", "meaning": "to inform someone", "example": "Has anyone notified the team yet?"},
+          {"word": "minutes ago", "meaning": "a very short time before now", "example": "He left just a few minutes ago."}
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "content": {
+        "audio_key": "a2_u12l5_listen",
+        "sentences": [
+          "I've just finished the report — let me send it now.",
+          "She has just called — she's on her way.",
+          "I still haven't heard back from the interviewer.",
+          "They still haven't fixed the issue — it's been three days.",
+          "He's just arrived at the station — can you pick him up?"
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_05",
+      "type": "mcq",
+      "order": 5,
+      "content": {
+        "question": "You received a message ten seconds ago. How do you describe this?",
+        "options": [
+          "I received a message just.",
+          "I've just received a message.",
+          "I just have received a message.",
+          "I still haven't received a message."
+        ],
+        "correct": "I've just received a message.",
+        "explanation": "JUST = very recent. Position: have + JUST + past participle. 'I've just received' is correct."
+      }
+    },
+    {
+      "task_id": "t1205_06",
+      "type": "mcq",
+      "order": 6,
+      "content": {
+        "question": "You've been waiting for a reply for two days. The reply hasn't come. Which sentence best shows mild frustration?",
+        "options": [
+          "I haven't got a reply.",
+          "I haven't got a reply yet.",
+          "I still haven't got a reply.",
+          "I just got a reply."
+        ],
+        "correct": "I still haven't got a reply.",
+        "explanation": "STILL = stronger expectation + mild frustration. Two days is a long time — STILL emphasises this."
+      }
+    },
+    {
+      "task_id": "t1205_07",
+      "type": "mcq",
+      "order": 7,
+      "content": {
+        "question": "Which sentence correctly uses JUST?",
+        "options": [
+          "She has eaten just lunch.",
+          "She just has eaten lunch.",
+          "She has just eaten lunch.",
+          "She just eaten lunch."
+        ],
+        "correct": "She has just eaten lunch.",
+        "explanation": "JUST goes between HAS and the past participle: has + JUST + eaten."
+      }
+    },
+    {
+      "task_id": "t1205_08",
+      "type": "mcq",
+      "order": 8,
+      "content": {
+        "question": "What is the difference between 'He hasn't called yet' and 'He still hasn't called'?",
+        "options": [
+          "No difference — they mean exactly the same.",
+          "'He still hasn't called' shows stronger expectation or mild frustration.",
+          "'He hasn't called yet' is more formal.",
+          "'He still hasn't called' is past tense."
+        ],
+        "correct": "'He still hasn't called' shows stronger expectation or mild frustration.",
+        "explanation": "STILL adds emphasis — it suggests you really expected it to have happened by now. More feeling than YET."
+      }
+    },
+    {
+      "task_id": "t1205_09",
+      "type": "fill_blank",
+      "order": 9,
+      "content": {
+        "instruction": "Fill in with JUST or STILL.",
+        "sentences": [
+          {"text": "I've ___ spoken to the manager — she agrees with your idea.", "answer": "just"},
+          {"text": "He ___ hasn't apologised — it's been a week!", "answer": "still"},
+          {"text": "Great news — they've ___ announced the results!", "answer": "just"},
+          {"text": "She ___ hasn't decided which job to accept.", "answer": "still"},
+          {"text": "I've ___ arrived — give me two minutes to settle in.", "answer": "just"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_10",
+      "type": "fill_blank",
+      "order": 10,
+      "content": {
+        "instruction": "Complete using just + past participle OR still + haven't/hasn't + past participle.",
+        "sentences": [
+          {"text": "The bus arrived moments ago. → The bus ___ ___.", "answer": "has just arrived"},
+          {"text": "Waiting for the visa for 4 weeks. → I ___ ___ ___ my visa.", "answer": "still haven't received"},
+          {"text": "She completed it a minute ago. → She's ___ ___.", "answer": "just finished / just completed"},
+          {"text": "The results were expected last week but nothing. → They ___ ___ ___ the results.", "answer": "still haven't announced"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_11",
+      "type": "sort_words",
+      "order": 11,
+      "content": {
+        "instruction": "Arrange into a JUST sentence.",
+        "words": ["just", "I've", "from", "office", "the", "got", "back"],
+        "answer": "I've just got back from the office."
+      }
+    },
+    {
+      "task_id": "t1205_12",
+      "type": "sort_words",
+      "order": 12,
+      "content": {
+        "instruction": "Arrange into a STILL negative sentence.",
+        "words": ["hasn't", "She", "still", "called", "back"],
+        "answer": "She still hasn't called back."
+      }
+    },
+    {
+      "task_id": "t1205_13",
+      "type": "match_pairs",
+      "order": 13,
+      "content": {
+        "instruction": "Match the situation to the best JUST or STILL sentence.",
+        "pairs": [
+          {"left": "Package arrived two minutes ago", "right": "The package has just arrived."},
+          {"left": "Waiting 5 days for approval — nothing", "right": "They still haven't approved it."},
+          {"left": "Friend landed at airport moments ago", "right": "She's just landed — she'll call soon."},
+          {"left": "Started a book a month ago, not finished", "right": "I still haven't finished that book."},
+          {"left": "News came in right now", "right": "I've just heard some exciting news!"}
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_14",
+      "type": "dialogue",
+      "order": 14,
+      "content": {
+        "title": "Updates after a busy day — office, Bangalore",
+        "setting": "Ravi and his colleague Meera are having a quick catch-up at the end of the day. They are updating each other using just and still.",
+        "dialogue": [
+          {"speaker": "Meera", "text": "Ravi — I've just come out of the longest meeting of my life. Three hours!"},
+          {"speaker": "Ravi", "text": "Oh no! What was it about?"},
+          {"speaker": "Meera", "text": "The new product roadmap. But some good news — they've just approved the budget for Q1!"},
+          {"speaker": "Ravi", "text": "That's great! We've been waiting for that. Has Sonal heard yet?"},
+          {"speaker": "Meera", "text": "I've just messaged her. She still hasn't replied — she's probably still in her meeting."},
+          {"speaker": "Ravi", "text": "She's always in meetings. By the way — have you sorted the client issue from this morning?"},
+          {"speaker": "Meera", "text": "Mostly — I've just sent them a revised proposal. But they still haven't confirmed whether they want to proceed."},
+          {"speaker": "Ravi", "text": "I see. And what about the server issue? Has IT fixed it?"},
+          {"speaker": "Meera", "text": "They've just sent an update saying it'll be resolved by 7 PM. I still haven't been able to access the shared drive all day."},
+          {"speaker": "Ravi", "text": "Me neither — it's been frustrating. At least the day is almost over!"},
+          {"speaker": "Meera", "text": "I've just remembered — did you eat? I haven't had lunch yet!"},
+          {"speaker": "Ravi", "text": "I've just ordered food for us — I guessed you'd forget. It's on the way."},
+          {"speaker": "Meera", "text": "You are a lifesaver. I still can't believe it's almost 6 PM already."}
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What has just been approved?",
+            "options": ["The server fix", "The client proposal", "The budget for Q1", "Sonal's leave"],
+            "correct": "The budget for Q1"
+          },
+          {
+            "question": "Why can't Meera access the shared drive?",
+            "options": ["She forgot her password", "There's a server issue", "Her laptop is broken", "She doesn't have permission"],
+            "correct": "There's a server issue"
+          },
+          {
+            "question": "What has Ravi just done for Meera?",
+            "options": ["Fixed the server", "Ordered food", "Replied to the client", "Sent the proposal"],
+            "correct": "Ordered food"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_15",
+      "type": "error_correction",
+      "order": 15,
+      "content": {
+        "instruction": "Find and correct the JUST or STILL mistake.",
+        "sentences": [
+          {
+            "wrong": "I just received have the parcel.",
+            "correct": "I have just received the parcel.",
+            "explanation": "Word order: subject + HAVE + JUST + past participle. 'I have just received' is correct."
+          },
+          {
+            "wrong": "He still hasn't replied — just.",
+            "correct": "He still hasn't replied.",
+            "explanation": "STILL and JUST don't go together at the end like this. Use either STILL (ongoing negative) or JUST (recent positive)."
+          },
+          {
+            "wrong": "She has eaten just her dinner — she finished two minutes ago.",
+            "correct": "She has just eaten her dinner — she finished two minutes ago.",
+            "explanation": "JUST goes between HAS and the past participle: has JUST eaten."
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t1205_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "content": {
+        "scenario": "You apply for a job two weeks ago. The company said they'd respond in five days. You still have no reply. What do you tell a friend?",
+        "options": [
+          "I haven't got a reply yet.",
+          "I've just got a reply.",
+          "I still haven't heard back from them — it's been two weeks!",
+          "I just still haven't got a reply."
+        ],
+        "correct": "I still haven't heard back from them — it's been two weeks!",
+        "explanation": "STILL + negative = strong expectation that it should have happened. Two weeks is a long time — STILL fits perfectly."
+      }
+    },
+    {
+      "task_id": "t1205_17",
+      "type": "speaking",
+      "order": 17,
+      "content": {
+        "instruction": "You've had a very eventful day. Tell someone about 5 things that have JUST happened and 3 things you STILL haven't done.",
+        "prompt": "Describe recent events (just) and ongoing gaps (still haven't) from your day.",
+        "example_response": "What a day it's been! Let me catch you up. I've just come back from a really tough meeting — the client changed all their requirements at the last minute. I've just had a coffee though so I'm feeling a bit more human! I've just also got a message from my friend Priya saying she's back in Chennai this weekend, which is exciting. And my manager has just approved my leave request — I wasn't expecting that so quickly. Oh, and the new team member has just sent her first draft for review. On the pending side though — I still haven't finished the project report that was due yesterday. I still haven't replied to three emails from this morning because the meetings kept interrupting. And I still haven't eaten anything since breakfast — I completely forgot about lunch with all the chaos! Tomorrow will hopefully be calmer.",
+        "key_phrases": ["I've just", "She has just", "I still haven't", "they still haven't"],
+        "min_words": 110
+      }
+    },
+    {
+      "task_id": "t1205_18",
+      "type": "speaking",
+      "order": 18,
+      "content": {
+        "instruction": "Give an update to a friend who has asked how a particular situation in your life is going. Use JUST and STILL to describe what has recently happened and what is ongoing.",
+        "prompt": "Give a life update — a project, a health situation, a job search, a personal goal — using just and still haven't.",
+        "example_response": "So you asked about my job search — let me give you the full update! I've just had my third interview this week — it was for a company in Bangalore and it went really well. I've just sent them a follow-up email this afternoon. But I still haven't heard back from the first company I interviewed with two weeks ago — I'm not sure if that means a no or they are just very slow. I've just finished updating my LinkedIn profile as well, which was long overdue. My resume looks much better now. I still haven't decided whether to apply for the Hyderabad role — it seems good but it means moving cities. I've just been doing a lot of thinking about that. The good news is I've just been recommended by a former colleague for a role at her company, which is very exciting. So progress is happening — slowly but surely!",
+        "key_phrases": ["I've just had", "I've just sent", "I still haven't heard", "I still haven't decided", "I've just been"],
+        "min_words": 120
+      }
+    },
+    {
+      "task_id": "t1205_19",
+      "type": "fill_blank",
+      "order": 19,
+      "content": {
+        "instruction": "Complete this message thread using just or still + haven't/hasn't.",
+        "text": "Kavya: Hey Sonal! I've ___ (1) heard some big news — Arjun ___ (2) got engaged!\n\nSonal: Oh wow! I ___ (3) seen the post yet — let me check! \n\nKavya: His fiancée ___ (4) posted anything online yet — he only told close friends.\n\nSonal: Aww how sweet! Have you spoken to him?\n\nKavya: I've ___ (5) called him — he sounded so happy. But I ___ (6) met her yet. Are you coming to the celebration?\n\nSonal: I ___ (7) got the invitation yet! Did he send them?\n\nKavya: He's ___ (8) sent them out — he only decided the date this morning!\n\nSonal: Perfect — I ___ (9) made any plans for that weekend so I'll definitely come.\n\nKavya: Wonderful! I ___ (10) let him know you're coming.",
+        "answers": ["just", "has just", "still haven't", "still hasn't", "just", "still haven't", "still haven't", "just", "still haven't", "ll just"]
+      }
+    },
+    {
+      "task_id": "t1205_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "content": {
+        "title": "Lesson 5 complete — Just and still",
+        "key_points": [
+          "JUST = very recently (moments ago) — positive present perfect sentences",
+          "STILL = ongoing, hasn't changed yet — negative present perfect (still + haven't/hasn't)",
+          "Position: JUST between have/has and past participle",
+          "Position: STILL before haven't/hasn't",
+          "STILL shows stronger expectation than YET — often slight frustration",
+          "Contrast: 'I've just done it' (done moments ago) vs 'I still haven't done it' (ongoing)"
+        ],
+        "xp_earned": 150,
+        "next_lesson": "Present perfect negatives — haven't and hasn't"
+      }
+    }
+  ]
+}
+]

@@ -1,0 +1,398 @@
+{
+  "lesson_id": "a2_unit8_lesson07",
+  "unit": 8,
+  "lesson_number": 7,
+  "level": "A2",
+  "title": "Writing and Speaking Product Reviews",
+  "description": "Learn to write and speak balanced, detailed product and experience reviews using comparatives, superlatives, adverbs, and opinion language.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0807_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Review Language — Structure and Key Phrases",
+      "content": {
+        "explanation": "A strong product review has five clear parts:\n\n1️⃣ OVERALL IMPRESSION:\n• Overall, I am really impressed with...\n• I am absolutely delighted with...\n• I have mixed feelings about...\n• Quite disappointing overall.\n\n2️⃣ POSITIVES:\n• The [feature] is absolutely outstanding.\n• I was really impressed by the [feature].\n• It works perfectly / brilliantly.\n• The quality is far better than I expected.\n• It is well worth the money / worth every rupee.\n\n3️⃣ NEGATIVES:\n• The only downside is...\n• My one concern is...\n• I was slightly disappointed by...\n• It could be improved by...\n• I wish it had / was...\n\n4️⃣ COMPARISON:\n• It is much better than my previous...\n• Far superior to similar products at this price.\n• Compared to [X], this is significantly better.\n• For the price, it is excellent / poor value.\n\n5️⃣ RECOMMENDATION:\n• I would highly / strongly recommend this to...\n• It is perfect for someone who...\n• I would definitely buy this again.\n• I would not recommend this if you...",
+        "examples": [
+          "Overall, I am extremely impressed with this pressure cooker — it's by far the best I've ever owned.",
+          "The only downside is the lid mechanism, which takes a little practice to master.",
+          "I would highly recommend this to anyone looking for a reliable, affordable kitchen appliance."
+        ],
+        "tip": "A BALANCED review (positives AND negatives) is more trusted and useful than an entirely positive or entirely negative one."
+      }
+    },
+    {
+      "task_id": "t0807_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Opinion Strength in Reviews",
+      "content": {
+        "explanation": "We use adverbs to control the STRENGTH of our opinions in reviews:\n\n🟢 VERY STRONG POSITIVE:\n• Absolutely outstanding / exceptional / superb\n• By far the best I've ever used\n• Exceeded all my expectations\n• Genuinely remarkable / impressive\n• Worth every single rupee\n\n🟡 MODERATE POSITIVE:\n• Fairly good / quite impressive / decent\n• Better than expected\n• Good value for the price\n• Does exactly what it says\n\n⚪ NEUTRAL:\n• It's okay / acceptable / average\n• Nothing special — does the job\n• Could be better, could be worse\n\n🔴 NEGATIVE:\n• Quite disappointing\n• Failed to meet my expectations\n• Not worth the money\n• I've had much better experiences elsewhere\n\n📌 USEFUL ADVERBS IN REVIEWS:\n• absolutely / genuinely / truly → strong positive\n• quite / fairly / reasonably → moderate\n• slightly / a little → small negative\n• extremely / very / remarkably → amplifiers",
+        "examples": [
+          "The camera is absolutely exceptional — far beyond what I expected at this price.",
+          "The battery life is fairly good, but not quite as long as advertised.",
+          "I was slightly disappointed by the build quality — it feels a bit flimsy."
+        ],
+        "tip": "Matching adverb strength to your actual opinion makes your review sound honest and credible."
+      }
+    },
+    {
+      "task_id": "t0807_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Product Review Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "durable", "meaning": "strong and lasting a long time without breaking", "example": "The stitching is very durable — I've used the bag daily for two years." },
+          { "word": "portable", "meaning": "easy and convenient to carry", "example": "The speaker is compact and very portable — perfect for travel." },
+          { "word": "intuitive", "meaning": "easy to understand or operate without instructions", "example": "The app interface is completely intuitive — no manual needed." },
+          { "word": "flimsy", "meaning": "not strong; likely to break easily", "example": "The charging cable feels flimsy — I worry it might break quickly." },
+          { "word": "value for money", "meaning": "worth the amount paid", "example": "At ₹1,200, this is outstanding value for money." },
+          { "word": "overpriced", "meaning": "costing more than it is truly worth", "example": "The accessories kit is overpriced compared to third-party alternatives." },
+          { "word": "seamless", "meaning": "smooth and without any problems or interruptions", "example": "The setup process was completely seamless — it took under five minutes." },
+          { "word": "warranty", "meaning": "a written guarantee of repair or replacement if the product fails", "example": "It comes with a two-year warranty, which gives great peace of mind." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0807_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Review Phrases",
+      "content": {
+        "instruction": "Listen and repeat these natural review expressions used in real conversations and online reviews.",
+        "items": [
+          { "audio_key": "a2_u8_l7_lr1", "text": "I am genuinely impressed with the build quality." },
+          { "audio_key": "a2_u8_l7_lr2", "text": "The only downside is the relatively short battery life." },
+          { "audio_key": "a2_u8_l7_lr3", "text": "It is by far the best phone I have ever owned." },
+          { "audio_key": "a2_u8_l7_lr4", "text": "I would highly recommend this to anyone on a budget." },
+          { "audio_key": "a2_u8_l7_lr5", "text": "For the price, this is absolutely outstanding value for money." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0807_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence BEST starts a strongly positive product review?",
+      "options": [
+        "This product is okay.",
+        "This is a good product I think.",
+        "This has absolutely exceeded all my expectations — it is by far the best I have ever used.",
+        "I expected it to be bad but it wasn't too bad."
+      ],
+      "correct_answer": "This has absolutely exceeded all my expectations — it is by far the best I have ever used.",
+      "explanation": "This uses: 'absolutely exceeded expectations', 'by far the best', and 'I've ever used' — all strong, credible review language that signals genuine enthusiasm."
+    },
+    {
+      "task_id": "t0807_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Priya bought earphones that sound great but have a thin cable she's worried about. Which review is MOST balanced?",
+      "options": [
+        "Great earphones! Five stars!",
+        "Bad earphones. The cable is thin.",
+        "The sound quality is absolutely outstanding — far better than expected at this price. The only concern is the cable, which feels a bit flimsy. But for the price, these are excellent value.",
+        "They are okay but not perfect."
+      ],
+      "correct_answer": "The sound quality is absolutely outstanding — far better than expected at this price. The only concern is the cable, which feels a bit flimsy. But for the price, these are excellent value.",
+      "explanation": "This gives a strong positive (outstanding, far better), a specific honest negative (the only concern, a bit flimsy), and a clear conclusion (excellent value) — the hallmarks of a trusted, balanced review."
+    },
+    {
+      "task_id": "t0807_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which sentence uses 'by far' CORRECTLY in a review?",
+      "options": [
+        "This is by far more comfortable than average.",
+        "This is by far the most comfortable chair I have ever sat in.",
+        "This is by far comfortable the most.",
+        "This is by far a comfortable chair."
+      ],
+      "correct_answer": "This is by far the most comfortable chair I have ever sat in.",
+      "explanation": "'By far' is always used with the SUPERLATIVE: 'by far the most/best/worst/least'. It means 'without any doubt, the most'."
+    },
+    {
+      "task_id": "t0807_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which recommendation sentence is most HELPFUL and SPECIFIC?",
+      "options": [
+        "I would recommend this.",
+        "Buy it.",
+        "I would highly recommend this to anyone who cooks for a large family and values durability and consistent performance over a long period.",
+        "This is good for people."
+      ],
+      "correct_answer": "I would highly recommend this to anyone who cooks for a large family and values durability and consistent performance over a long period.",
+      "explanation": "Specific recommendations are far more useful than vague ones. This identifies WHO it's for and WHY — the mark of a trustworthy, helpful review."
+    },
+    {
+      "task_id": "t0807_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete these review sentences with appropriate language.",
+      "items": [
+        {
+          "sentence": "I am genuinely _____ with the camera quality — photos in low light are far sharper than I expected.",
+          "answer": "impressed",
+          "hint": "'I am genuinely impressed with' is a standard review opener."
+        },
+        {
+          "sentence": "The _____ downside is the charging time — it takes three hours, which is slightly longer than average.",
+          "answer": "only",
+          "hint": "'The only downside is' minimises a negative while acknowledging it honestly."
+        },
+        {
+          "sentence": "For ₹2,500, this rice cooker is outstanding _____ for money — I expected something far cheaper-looking.",
+          "answer": "value",
+          "hint": "Fixed phrase: 'outstanding value for money'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0807_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete this restaurant review with appropriate opinion and comparison language.",
+      "items": [
+        {
+          "sentence": "The biryani _____ all my expectations — it was the most flavourful I have ever tasted in Chennai.",
+          "answer": "exceeded",
+          "hint": "'Exceeded my expectations' = was much better than expected."
+        },
+        {
+          "sentence": "The service was _____ slower than at other restaurants of this price range — we waited 45 minutes.",
+          "answer": "significantly / much / a lot",
+          "hint": "A big difference → use a strong intensifier before the comparative."
+        },
+        {
+          "sentence": "I would _____ recommend this place to anyone who loves authentic Hyderabadi cuisine.",
+          "answer": "highly / strongly / definitely",
+          "hint": "Adverb used with recommend to strengthen it."
+        }
+      ]
+    },
+    {
+      "task_id": "t0807_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct review sentence.",
+      "items": [
+        {
+          "words": ["It", "is", "by", "far", "the", "best", "laptop", "I", "have", "ever", "used"],
+          "answer": "It is by far the best laptop I have ever used."
+        },
+        {
+          "words": ["The", "only", "downside", "is", "the", "slightly", "thin", "charging", "cable"],
+          "answer": "The only downside is the slightly thin charging cable."
+        }
+      ]
+    },
+    {
+      "task_id": "t0807_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct review sentence.",
+      "items": [
+        {
+          "words": ["I", "would", "highly", "recommend", "this", "to", "anyone", "looking", "for", "a", "reliable", "budget", "appliance"],
+          "answer": "I would highly recommend this to anyone looking for a reliable budget appliance."
+        },
+        {
+          "words": ["For", "the", "price", "this", "is", "outstanding", "value", "for", "money"],
+          "answer": "For the price, this is outstanding value for money."
+        }
+      ]
+    },
+    {
+      "task_id": "t0807_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the star rating to the most appropriate review language.",
+      "pairs": [
+        { "left": "⭐⭐⭐⭐⭐ — 5 stars", "right": "Absolutely outstanding — exceeded every expectation." },
+        { "left": "⭐⭐⭐⭐ — 4 stars", "right": "Very good overall with only minor issues." },
+        { "left": "⭐⭐⭐ — 3 stars", "right": "Decent product — does the job but nothing exceptional." },
+        { "left": "⭐⭐ — 2 stars", "right": "Quite disappointing — failed to meet my expectations." },
+        { "left": "⭐ — 1 star", "right": "Very poor quality — I would not recommend this at all." }
+      ]
+    },
+    {
+      "task_id": "t0807_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Discussing an Online Purchase — Chennai",
+      "dialogue": {
+        "context": "Kavya and her flatmate Reshma are in their kitchen in Chennai. Kavya recently bought a blender online and is telling Reshma about it.",
+        "turns": [
+          { "speaker": "Reshma", "text": "Kavya, I noticed the new blender arrived. How is it? You were so excited about it!" },
+          { "speaker": "Kavya", "text": "I have very mixed feelings actually! Let me give you the full review." },
+          { "speaker": "Reshma", "text": "Mixed feelings? I saw it had mostly positive reviews online." },
+          { "speaker": "Kavya", "text": "Yes, well — the positives are genuinely impressive. The motor is incredibly powerful — much stronger than our old blender." },
+          { "speaker": "Reshma", "text": "That's great! What about noise? These powerful blenders can be terribly loud." },
+          { "speaker": "Kavya", "text": "It's slightly louder than the old one, but honestly not as bad as I feared. And it blends things in half the time." },
+          { "speaker": "Reshma", "text": "Perfect. So what's the mixed part?" },
+          { "speaker": "Kavya", "text": "The jar is far bigger than I expected from the photos — it barely fits under our kitchen shelf. That was a bit of a shock." },
+          { "speaker": "Reshma", "text": "Oh no! But does it work well otherwise?" },
+          { "speaker": "Kavya", "text": "Brilliantly. I made coconut chutney and it was the smoothest I've ever made. Not a single piece left!" },
+          { "speaker": "Reshma", "text": "That's the real test for a blender in an Indian kitchen! What about cleaning?" },
+          { "speaker": "Kavya", "text": "That's actually one of the best features — the cleaning cycle is seamless. You just add water and soap, press a button, and it cleans itself in 30 seconds." },
+          { "speaker": "Reshma", "text": "That sounds amazing! Would you recommend it?" },
+          { "speaker": "Kavya", "text": "Absolutely — with one warning. Measure your kitchen shelf height before you order! For the price of ₹4,500, it is outstanding value for money. Far better than blenders costing twice as much." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What does Kavya say is the blender's main positive?",
+            "options": [
+              "It is very quiet",
+              "The motor is incredibly powerful — much stronger than their old one",
+              "The jar is compact",
+              "It is very cheap"
+            ],
+            "correct_answer": "The motor is incredibly powerful — much stronger than their old one"
+          },
+          {
+            "question": "What is Kavya's main concern about the blender?",
+            "options": [
+              "The noise level",
+              "The price",
+              "The jar is far bigger than expected and barely fits on the shelf",
+              "The cleaning process is difficult"
+            ],
+            "correct_answer": "The jar is far bigger than expected and barely fits on the shelf"
+          },
+          {
+            "question": "What is Kavya's final recommendation?",
+            "options": [
+              "Don't buy it — it's too big",
+              "It's overpriced compared to other blenders",
+              "Absolutely recommend it but measure your kitchen shelf height first",
+              "Only buy it if you have a large kitchen"
+            ],
+            "correct_answer": "Absolutely recommend it but measure your kitchen shelf height first"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0807_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each review sentence.",
+      "items": [
+        {
+          "sentence": "This is by far the more reliable blender I have ever used.",
+          "error": "the more reliable",
+          "correction": "the most reliable",
+          "explanation": "'By far' is used with SUPERLATIVES (the most reliable), not comparatives (more reliable)."
+        },
+        {
+          "sentence": "I would highly recommend this product for everyone who like to cook.",
+          "error": "who like",
+          "correction": "who likes",
+          "explanation": "'Everyone who' takes a SINGULAR verb: 'who likes' (not 'who like')."
+        },
+        {
+          "sentence": "The only downside are the thin cables that come with the device.",
+          "error": "downside are",
+          "correction": "downside is",
+          "explanation": "'The only downside' is a singular noun — it takes 'is', not 'are'."
+        }
+      ]
+    },
+    {
+      "task_id": "t0807_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You bought a popular Indian-brand rice cooker for ₹2,200. The rice always comes out perfect, the build quality is excellent, and it's very easy to use. The only issue is that the lid occasionally doesn't seal perfectly. You want to write a helpful review online.",
+      "question": "Which review is most balanced, credible, and useful to other buyers?",
+      "options": [
+        "Good rice cooker. Buy it.",
+        "The lid is bad. Don't buy.",
+        "Overall, this rice cooker is an excellent purchase — the rice consistently comes out perfectly cooked and the build quality is far better than expected at this price. The interface is very intuitive. My only minor concern is that the lid occasionally doesn't seal perfectly on the first attempt. For ₹2,200, it is outstanding value for money and I would highly recommend it to anyone looking for a reliable, affordable cooker.",
+        "Five stars — absolutely perfect product with no issues at all!"
+      ],
+      "correct_answer": "Overall, this rice cooker is an excellent purchase — the rice consistently comes out perfectly cooked and the build quality is far better than expected at this price. The interface is very intuitive. My only minor concern is that the lid occasionally doesn't seal perfectly on the first attempt. For ₹2,200, it is outstanding value for money and I would highly recommend it to anyone looking for a reliable, affordable cooker.",
+      "explanation": "This review has all five parts (impression, positives, honest minor negative, price comparison, specific recommendation), uses Unit 8 language naturally, and is credible because it's balanced."
+    },
+    {
+      "task_id": "t0807_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Give a spoken review of a product you have bought recently — a phone, kitchen appliance, piece of clothing, or any other item. Use review structure: overall impression → positives → negatives → comparison → recommendation. Use comparatives, superlatives, and adverbs throughout. Speak for at least 70 seconds.",
+      "prompt": "Review a product you have bought recently using all Unit 8 review language.",
+      "example_response": "I want to review the noise-cancelling earphones I bought three months ago for ₹3,800. Overall, I am absolutely delighted with them — they are by far the best earphones I have ever owned. The sound quality is genuinely outstanding — music sounds far richer and more detailed than on my old earphones. The noise cancellation is remarkable — it blocks out almost all the noise on the Chennai Metro, which is incredibly useful during my daily commute. The battery life is exceptional — they last about 28 hours, which is significantly longer than most earphones at this price point. The build quality is impressive too — they feel very durable and solid, not flimsy at all. The only downside is that the ear cushions become a little warm after two hours of use, which is slightly uncomfortable on very hot days. However, this is a very minor issue. Compared to similar products from international brands, these are far more affordable and barely any less impressive. I would highly recommend these to anyone who travels frequently or works in a noisy environment. Absolutely worth every rupee.",
+      "key_phrases": [
+        "overall, I am [adverb] [opinion] with",
+        "by far the best I've ever",
+        "the only downside is",
+        "far more/better than",
+        "I would highly recommend this to anyone who"
+      ],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0807_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Give a spoken review of a film, TV series, book, or restaurant you have experienced recently. Use opinion language (absolutely / genuinely / quite / slightly), superlatives with 'ever', and comparatives to make your review engaging and informative. Speak for at least 70 seconds.",
+      "prompt": "Review a film, book, TV series, or restaurant using all Unit 8 language.",
+      "example_response": "I want to review the Malayalam film 'Manjummel Boys', which I watched last week. Overall, it is one of the most gripping and emotionally powerful films I have seen in recent years. The story is based on a true incident — a group of friends who go on a trip to Kodaikanal, and one of them falls into the famous Guna Cave. What follows is the most intense and realistic survival story I have ever watched in an Indian film. The performances are absolutely outstanding, particularly the lead actor — he delivers the most emotionally raw performance I have seen in a long time. The cinematography is genuinely beautiful — Kodaikanal's misty hills and dense forests are captured breathtakingly. My only small criticism is that the first 20 minutes of character introduction feel slightly slow compared to the incredible tension of the second half. However, this is a minor point. Compared to other survival films I have seen, both Indian and international, this is far more realistic and emotionally resonant. I would absolutely recommend it to anyone who enjoys real stories, strong friendships, and edge-of-your-seat drama. It is the best Indian regional film I have seen this year.",
+      "key_phrases": [
+        "one of the most... I've seen",
+        "the most... I've ever watched",
+        "absolutely outstanding / genuinely impressive",
+        "my only small criticism is",
+        "far more... than",
+        "I would absolutely recommend it to anyone who"
+      ],
+      "min_words": 110
+    },
+    {
+      "task_id": "t0807_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this online product review for a mobile phone using appropriate review language.",
+      "paragraph": "⭐⭐⭐⭐½ — Redstone Pro 5G Review (₹19,999)\n\nOverall, I am very (1)_____ with this phone and I would consider it (2)_____ the best mid-range device currently available in India. The camera is (3)_____ outstanding — photos are sharp, vivid, and far (4)_____ than anything my previous phone produced. The battery lasts (5)_____ longer than most phones in this category — I can go a full two days without charging on moderate use. The 120Hz display is bright and (6)_____ smooth — scrolling feels effortless. The setup process was completely (7)_____ and the interface is very (8)_____. The (9)_____ downside is the charging speed — it charges (10)_____ more slowly than some competitors. The rear camera bump is also (11)_____ larger than I'd prefer, which makes it rock slightly on flat surfaces. However, (12)_____ the price, this is (13)_____ value for money. I would (14)_____ recommend this to anyone looking for flagship-level features at a mid-range budget.",
+      "answers": [
+        "impressed",
+        "by far",
+        "genuinely / absolutely",
+        "better / sharper / clearer",
+        "significantly / much / a lot",
+        "incredibly / remarkably",
+        "seamless",
+        "intuitive",
+        "only",
+        "slightly / a bit",
+        "slightly / a bit",
+        "for",
+        "outstanding / exceptional",
+        "highly / strongly / definitely"
+      ],
+      "hint": "Use: 'by far the best', 'genuinely outstanding', 'the only downside', 'outstanding value for money', 'I would highly recommend'."
+    },
+    {
+      "task_id": "t0807_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 7 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "5-part review structure: Overall impression → Positives → Negatives → Comparison → Recommendation",
+          "Strong positive: absolutely outstanding / by far the best I've ever / exceeded all expectations",
+          "Honest negative: the only downside is / my one concern is / I was slightly disappointed by",
+          "Comparison: far better than / by far the best I've ever / much superior to",
+          "Recommendation: I would highly recommend this to / it is perfect for someone who",
+          "Adverbs in reviews: absolutely / genuinely / quite / slightly / significantly",
+          "Pattern: 'By far the most/best' (NOT 'by far the more')",
+          "Key vocab: durable, portable, intuitive, flimsy, value for money, overpriced, seamless, warranty"
+        ],
+        "grammar_summary": "Reviews combine opinion language + comparatives + superlatives + adverbs. Key pattern: 'By far' + SUPERLATIVE. 'The only downside IS' (singular). 'I would highly recommend this TO + noun/pronoun'.",
+        "encouragement": "Excellent! Writing and speaking reviews is one of the most practical real-world English skills — used daily on shopping apps, travel sites, and in conversations with friends. You can now do this professionally and convincingly. One lesson to go in Unit 8! 🏆"
+      }
+    }
+  ]
+}

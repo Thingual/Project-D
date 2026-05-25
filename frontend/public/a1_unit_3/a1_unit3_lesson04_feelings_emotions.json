@@ -184,19 +184,20 @@
       "order": 6,
       "type": "mcq",
       "category": "grammar",
-      "title": "I feel or I am?",
+      "title": "Which intensifier is correct?",
       "content": {
-        "question": "Both 'I feel happy' and 'I am happy' are correct \u2014 but which intensifier fits best?",
+        "question": "Choose the sentence with the CORRECT intensifier for a small feeling:",
         "options": [
-          "I feel a bit happy because it's Friday! \u2713 / I feel absolutely bored \u2713",
-          "I feel very happy / I am really excited \u2713",
-          "I feel happy I / I am happy I \u2713",
-          "I feeling happy / I being happy \u2713"
+          "I feel absolutely nervous — just a tiny bit.",
+          "I am a bit nervous before the exam.",
+          "I feel very a bit happy today.",
+          "I am really absolutely excited!"
         ],
         "correct_index": 1,
-        "explanation": "Both 'I feel very happy' and 'I am really excited' are correct \u2014 intensifier before adjective."
+        "explanation": "'A bit' is used for a small feeling. 'Absolutely' is for maximum feelings (absolutely thrilled). You never combine two intensifiers (very a bit / really absolutely)."
       }
     },
+
     {
       "task_id": "t0304_07",
       "order": 7,

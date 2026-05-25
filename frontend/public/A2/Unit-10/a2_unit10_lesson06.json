@@ -1,0 +1,485 @@
+﻿{
+    "lesson_id":  "a2_unit10_lesson06",
+    "unit":  10,
+    "lesson_number":  6,
+    "level":  "A2",
+    "title":  "Possibility in conversation",
+    "description":  "Use hedging language and natural expressions to talk about uncertainty and possibility in real conversations.",
+    "estimated_minutes":  25,
+    "xp_reward":  150,
+    "tasks":  [
+                  {
+                      "task_id":  "t1006_01",
+                      "type":  "learn_card",
+                      "order":  1,
+                      "content":  {
+                                      "title":  "Hedging language â€” sounding natural with uncertainty",
+                                      "body":  "In natural conversation, we don\u0027t always speak with 100% certainty. We use \u0027hedging\u0027 language to soften what we say.\n\nCommon hedging expressions:\nâ€¢ I think... (mild opinion)\nâ€¢ I\u0027m not sure but... (uncertainty)\nâ€¢ It\u0027s possible that... (formal possibility)\nâ€¢ There\u0027s a chance that... (possibility)\nâ€¢ I suppose... (reluctant agreement or mild thought)\nâ€¢ Probably / possibly / perhaps (adverbs of possibility)\nâ€¢ As far as I know... (based on my limited information)\nâ€¢ I imagine... (I believe but am not certain)\nâ€¢ Don\u0027t quote me on this, but... (informal â€” I\u0027m not 100% sure)",
+                                      "grammar_note":  "These phrases come BEFORE the main statement\nExample: \u0027I think it might rain.\u0027 = double hedging (both think + might)"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_02",
+                      "type":  "learn_card",
+                      "order":  2,
+                      "content":  {
+                                      "title":  "Responding to uncertain plans",
+                                      "body":  "When someone gives an uncertain answer (with may/might), you can respond naturally:\n\nAccepting uncertainty:\nâ€¢ \u0027No worries â€” let me know when you decide.\u0027\nâ€¢ \u0027That\u0027s fine â€” just keep me updated.\u0027\nâ€¢ \u0027Let\u0027s play it by ear.\u0027 (decide later based on how things go)\n\nAsking for more info:\nâ€¢ \u0027What does it depend on?\u0027\nâ€¢ \u0027Do you have a rough idea yet?\u0027\nâ€¢ \u0027When do you think you\u0027ll know for sure?\u0027\n\nKeeping options open:\nâ€¢ \u0027Either way works for me.\u0027\nâ€¢ \u0027I\u0027ll pencil you in for now.\u0027",
+                                      "grammar_note":  "\u0027Let\u0027s play it by ear\u0027 = decide as things develop\n\u0027Pencil in\u0027 = put in the schedule but not final"
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_03",
+                      "type":  "learn_card",
+                      "order":  3,
+                      "content":  {
+                                      "title":  "Vocabulary: Expressing degrees of certainty",
+                                      "vocabulary":  [
+                                                         {
+                                                             "word":  "certain",
+                                                             "meaning":  "definitely true",
+                                                             "example":  "I\u0027m certain he will come."
+                                                         },
+                                                         {
+                                                             "word":  "likely",
+                                                             "meaning":  "probably going to happen",
+                                                             "example":  "It\u0027s likely to rain this evening."
+                                                         },
+                                                         {
+                                                             "word":  "unlikely",
+                                                             "meaning":  "probably not going to happen",
+                                                             "example":  "It\u0027s unlikely they\u0027ll cancel."
+                                                         },
+                                                         {
+                                                             "word":  "doubtful",
+                                                             "meaning":  "probably not true or going to happen",
+                                                             "example":  "It\u0027s doubtful she\u0027ll accept."
+                                                         },
+                                                         {
+                                                             "word":  "roughly",
+                                                             "meaning":  "approximately",
+                                                             "example":  "It\u0027ll take roughly two hours."
+                                                         },
+                                                         {
+                                                             "word":  "approximately",
+                                                             "meaning":  "close to but not exactly",
+                                                             "example":  "Approximately 50 people may attend."
+                                                         }
+                                                     ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_04",
+                      "type":  "listen_repeat",
+                      "order":  4,
+                      "content":  {
+                                      "audio_key":  "a2_u10l6_listen",
+                                      "sentences":  [
+                                                        "I think it might be cancelled â€” but don\u0027t quote me on that.",
+                                                        "As far as I know, the meeting is still on for tomorrow.",
+                                                        "I\u0027m not sure, but there\u0027s a chance the project will be delayed.",
+                                                        "I suppose he might agree if you explain properly.",
+                                                        "It\u0027s possible that they\u0027ll announce the results next week."
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_05",
+                      "type":  "mcq",
+                      "order":  5,
+                      "content":  {
+                                      "question":  "Your colleague asks if the client confirmed the deal. You don\u0027t know for sure. Which is the most natural response?",
+                                      "options":  [
+                                                      "Yes, they confirmed it.",
+                                                      "No, they didn\u0027t confirm anything.",
+                                                      "As far as I know, they\u0027re still considering â€” I\u0027m not sure if they\u0027ve decided yet.",
+                                                      "They will confirm."
+                                                  ],
+                                      "correct":  "As far as I know, they\u0027re still considering â€” I\u0027m not sure if they\u0027ve decided yet.",
+                                      "explanation":  "\u0027As far as I know\u0027 + \u0027not sure\u0027 = honest hedging when you don\u0027t have certain information."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_06",
+                      "type":  "mcq",
+                      "order":  6,
+                      "content":  {
+                                      "question":  "You\u0027re asked to estimate when a project will finish. You think it\u0027ll be about 3 weeks but you\u0027re not completely sure. What do you say?",
+                                      "options":  [
+                                                      "It will finish in exactly 3 weeks.",
+                                                      "I think it\u0027ll take roughly three weeks, but it might go a bit longer.",
+                                                      "It finishes in three weeks.",
+                                                      "It\u0027s going to take forever."
+                                                  ],
+                                      "correct":  "I think it\u0027ll take roughly three weeks, but it might go a bit longer.",
+                                      "explanation":  "\u0027I think\u0027 + \u0027roughly\u0027 + \u0027might\u0027 = layered hedging. This sounds professional and honest."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_07",
+                      "type":  "mcq",
+                      "order":  7,
+                      "content":  {
+                                      "question":  "Your friend invites you to a party but your plans aren\u0027t set. The most polite uncertain response is:",
+                                      "options":  [
+                                                      "I\u0027m definitely coming!",
+                                                      "I won\u0027t come.",
+                                                      "I\u0027ll probably come â€” I might need to check if my parents need me that evening.",
+                                                      "I come if I want."
+                                                  ],
+                                      "correct":  "I\u0027ll probably come â€” I might need to check if my parents need me that evening.",
+                                      "explanation":  "\u0027Probably\u0027 + \u0027might need to check\u0027 = honest, polite, hedged response that keeps the option open."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_08",
+                      "type":  "mcq",
+                      "order":  8,
+                      "content":  {
+                                      "question":  "What does \u0027let\u0027s play it by ear\u0027 mean?",
+                                      "options":  [
+                                                      "Let\u0027s listen to music while we decide.",
+                                                      "Let\u0027s plan everything in detail now.",
+                                                      "Let\u0027s decide later depending on how things go.",
+                                                      "Let\u0027s not make any plans at all."
+                                                  ],
+                                      "correct":  "Let\u0027s decide later depending on how things go.",
+                                      "explanation":  "\u0027Play it by ear\u0027 is an idiom meaning: don\u0027t fix the plan now, decide as the situation develops."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_09",
+                      "type":  "fill_blank",
+                      "order":  9,
+                      "content":  {
+                                      "instruction":  "Add the correct hedging phrase from the box: [I think, probably, as far as I know, I suppose, there\u0027s a chance]",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "___ the office will be closed tomorrow â€” it\u0027s a public holiday.",
+                                                            "answer":  "As far as I know"
+                                                        },
+                                                        {
+                                                            "text":  "It\u0027ll ___ take about two hours to reach there by metro.",
+                                                            "answer":  "probably"
+                                                        },
+                                                        {
+                                                            "text":  "___ that the concert might be cancelled if it rains heavily.",
+                                                            "answer":  "There\u0027s a chance"
+                                                        },
+                                                        {
+                                                            "text":  "___ she might accept the offer â€” it\u0027s a good salary.",
+                                                            "answer":  "I think / I suppose"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_10",
+                      "type":  "fill_blank",
+                      "order":  10,
+                      "content":  {
+                                      "instruction":  "Make these certain sentences sound less certain using hedging words.",
+                                      "sentences":  [
+                                                        {
+                                                            "text":  "He knows the answer. â†’ ___ he might know the answer.",
+                                                            "answer":  "I think / I suppose"
+                                                        },
+                                                        {
+                                                            "text":  "The train will be on time. â†’ The train will ___ be on time.",
+                                                            "answer":  "probably / possibly"
+                                                        },
+                                                        {
+                                                            "text":  "They will launch the product in March. â†’ ___ they may launch in March.",
+                                                            "answer":  "It\u0027s possible that / I think"
+                                                        },
+                                                        {
+                                                            "text":  "She\u0027s the best candidate. â†’ ___ she might be the best candidate.",
+                                                            "answer":  "I think / I suppose"
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_11",
+                      "type":  "sort_words",
+                      "order":  11,
+                      "content":  {
+                                      "instruction":  "Arrange into a hedged sentence.",
+                                      "words":  [
+                                                    "think",
+                                                    "I",
+                                                    "probably",
+                                                    "be",
+                                                    "it\u0027ll",
+                                                    "tomorrow",
+                                                    "crowded"
+                                                ],
+                                      "answer":  "I think it\u0027ll probably be crowded tomorrow."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_12",
+                      "type":  "sort_words",
+                      "order":  12,
+                      "content":  {
+                                      "instruction":  "Arrange into a natural uncertain response.",
+                                      "words":  [
+                                                    "know",
+                                                    "I",
+                                                    "but",
+                                                    "as",
+                                                    "far",
+                                                    "as",
+                                                    "still",
+                                                    "is",
+                                                    "the",
+                                                    "deal",
+                                                    "on"
+                                                ],
+                                      "answer":  "As far as I know, the deal is still on."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_13",
+                      "type":  "match_pairs",
+                      "order":  13,
+                      "content":  {
+                                      "instruction":  "Match the hedging phrase to its meaning.",
+                                      "pairs":  [
+                                                    {
+                                                        "left":  "As far as I know",
+                                                        "right":  "Based on what I currently know"
+                                                    },
+                                                    {
+                                                        "left":  "Probably",
+                                                        "right":  "Very likely but not 100% sure"
+                                                    },
+                                                    {
+                                                        "left":  "I suppose",
+                                                        "right":  "I believe, but not strongly"
+                                                    },
+                                                    {
+                                                        "left":  "Don\u0027t quote me on this",
+                                                        "right":  "I\u0027m not certain â€” please verify"
+                                                    },
+                                                    {
+                                                        "left":  "Let\u0027s play it by ear",
+                                                        "right":  "We\u0027ll decide as things develop"
+                                                    }
+                                                ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_14",
+                      "type":  "dialogue",
+                      "order":  14,
+                      "content":  {
+                                      "title":  "Discussing uncertain work news â€” IT office, Chennai",
+                                      "setting":  "Meera and Arjun are colleagues talking about uncertain news about their company\u0027s upcoming restructuring.",
+                                      "dialogue":  [
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Meera, have you heard anything about the restructuring? People are saying our team might be affected."
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "I\u0027ve heard some things, but don\u0027t quote me on this â€” as far as I know, they may merge two teams."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Which teams? Do you know?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "I think it might be our team and the analytics team, but I\u0027m not certain. I suppose we\u0027ll know by Friday."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Do you think anyone will lose their job?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "It\u0027s possible. There\u0027s a chance they might reduce headcount, but it\u0027s also possible they\u0027ll just reorganise roles."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "That\u0027s worrying. What should we do?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "I\u0027d probably update your resume â€” just in case. It might not come to that, but it\u0027s better to be prepared."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Good advice. Do you think the manager will tell us anything in Monday\u0027s meeting?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "I imagine she might give us some indication. But I wouldn\u0027t expect full details yet â€” these things take time."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "Should I ask her directly?"
+                                                       },
+                                                       {
+                                                           "speaker":  "Meera",
+                                                           "text":  "You could â€” but she may not have all the answers yet either. I think we\u0027ll just have to play it by ear for now."
+                                                       },
+                                                       {
+                                                           "speaker":  "Arjun",
+                                                           "text":  "You\u0027re right. No point panicking over something that might not even happen."
+                                                       }
+                                                   ],
+                                      "comprehension_questions":  [
+                                                                      {
+                                                                          "question":  "What does Meera think might happen to the teams?",
+                                                                          "options":  [
+                                                                                          "One team may be closed.",
+                                                                                          "Two teams might be merged.",
+                                                                                          "Everyone might get a promotion.",
+                                                                                          "The teams might move to a new office."
+                                                                                      ],
+                                                                          "correct":  "Two teams might be merged."
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does Meera advise Arjun to probably do?",
+                                                                          "options":  [
+                                                                                          "Speak to HR immediately",
+                                                                                          "Update his resume",
+                                                                                          "Resign before the restructuring",
+                                                                                          "Take a vacation"
+                                                                                      ],
+                                                                          "correct":  "Update his resume"
+                                                                      },
+                                                                      {
+                                                                          "question":  "What does \u0027play it by ear\u0027 mean in this context?",
+                                                                          "options":  [
+                                                                                          "Listen carefully to music",
+                                                                                          "Plan everything now",
+                                                                                          "Wait and decide based on how things develop",
+                                                                                          "Speak to the manager every day"
+                                                                                      ],
+                                                                          "correct":  "Wait and decide based on how things develop"
+                                                                      }
+                                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_15",
+                      "type":  "error_correction",
+                      "order":  15,
+                      "content":  {
+                                      "instruction":  "Find and correct the mistake.",
+                                      "sentences":  [
+                                                        {
+                                                            "wrong":  "I think probably it might will rain.",
+                                                            "correct":  "I think it might probably rain. / I think it will probably rain.",
+                                                            "explanation":  "Don\u0027t combine \u0027might\u0027 and \u0027will\u0027 â€” use one modal. \u0027Probably\u0027 sits between the subject and verb or after the modal."
+                                                        },
+                                                        {
+                                                            "wrong":  "As far as I know, they might to postpone the meeting.",
+                                                            "correct":  "As far as I know, they might postpone the meeting.",
+                                                            "explanation":  "MIGHT + BASE VERB â€” no \u0027to\u0027."
+                                                        },
+                                                        {
+                                                            "wrong":  "There\u0027s a possibility it rains tomorrow.",
+                                                            "correct":  "There\u0027s a possibility it will rain / might rain tomorrow.",
+                                                            "explanation":  "After \u0027there\u0027s a possibility\u0027, use WILL or MIGHT + base verb."
+                                                        }
+                                                    ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_16",
+                      "type":  "scenario_mcq",
+                      "order":  16,
+                      "content":  {
+                                      "scenario":  "A new colleague asks you if the company gives annual bonuses. You received one last year but you\u0027re not sure if it\u0027s a fixed policy. What do you say?",
+                                      "options":  [
+                                                      "Yes, you\u0027ll definitely get a bonus.",
+                                                      "No, there are no bonuses.",
+                                                      "As far as I know, they do give bonuses â€” I received one last year, but I\u0027m not sure if it\u0027s guaranteed every year. You might want to check with HR.",
+                                                      "Bonuses may will happen."
+                                                  ],
+                                      "correct":  "As far as I know, they do give bonuses â€” I received one last year, but I\u0027m not sure if it\u0027s guaranteed every year. You might want to check with HR.",
+                                      "explanation":  "This response is honest and helpful â€” it uses hedging (\u0027as far as I know\u0027, \u0027not sure\u0027, \u0027might want to check\u0027)."
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_17",
+                      "type":  "speaking",
+                      "order":  17,
+                      "content":  {
+                                      "instruction":  "Someone asks you about the future of your industry or career field over the next 10 years. Give a hedged, thoughtful response using possibility language.",
+                                      "prompt":  "Talk about what might happen in your industry or career field in the next 10 years. Use hedging language throughout.",
+                                      "example_response":  "I work in the IT sector, so there are quite a few things I think might change in the next 10 years. First, I imagine AI will probably take over a lot of routine coding tasks â€” things like testing and debugging might become largely automated. I suppose that could be good or bad depending on your role. As far as I know, companies are already investing heavily in AI tools. There\u0027s a strong possibility that cloud computing will become even more central â€” most businesses may move entirely off on-premise servers. I think cybersecurity might become one of the most important and well-paid fields. It\u0027s also possible that remote work will remain common â€” maybe even more so. I don\u0027t think jobs in tech will disappear entirely though. There\u0027ll probably always be a need for creative problem-solvers. I suppose the key is to keep learning and adapting â€” whatever happens.",
+                                      "key_phrases":  [
+                                                          "I think",
+                                                          "might",
+                                                          "probably",
+                                                          "as far as I know",
+                                                          "there\u0027s a possibility",
+                                                          "I suppose",
+                                                          "I imagine"
+                                                      ],
+                                      "min_words":  100
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_18",
+                      "type":  "speaking",
+                      "order":  18,
+                      "content":  {
+                                      "instruction":  "Describe your ideal but uncertain future. Where might you be living in 5 years? What might your life look like? Use lots of hedging language.",
+                                      "prompt":  "Talk about where you might be and what your life might look like in 5 years. Be honest about what\u0027s uncertain.",
+                                      "example_response":  "In five years, I honestly don\u0027t know exactly where I\u0027ll be â€” and I think that\u0027s okay! I suppose I might still be in Chennai, or I might have moved to Bangalore or even abroad for work. As far as I know, there are good opportunities growing in Hyderabad too, so that\u0027s also possible. I imagine I\u0027ll probably have advanced in my career â€” maybe into a senior or lead role. I think I might be working in a hybrid setup, partly from home and partly in an office. There\u0027s a chance I may have started a side project or small business by then â€” I\u0027ve been thinking about it for a while. On the personal side, I might be married, I might not be â€” it depends on how things go. I\u0027d like to probably travel more â€” maybe visit Japan or Europe at some point. I suppose the honest answer is: a lot might change, and I\u0027m open to most of it!",
+                                      "key_phrases":  [
+                                                          "I might",
+                                                          "I suppose",
+                                                          "I imagine",
+                                                          "there\u0027s a chance",
+                                                          "probably",
+                                                          "as far as I know",
+                                                          "it depends on"
+                                                      ],
+                                      "min_words":  110
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_19",
+                      "type":  "fill_blank",
+                      "order":  19,
+                      "content":  {
+                                      "instruction":  "Complete this WhatsApp-style conversation using hedging language from the lesson.",
+                                      "text":  "Priya: Hey! Are you coming to Meera\u0027s birthday dinner on Saturday?\n\nKavya: ___ (1) I\u0027ll come â€” I have a family thing in the morning but it should finish by 4. I ___ (2) be a bit late though.\n\nPriya: No worries! What time do you think you\u0027ll arrive?\n\nKavya: ___ (3), around 8? But don\u0027t hold a seat â€” ___ (4) I might be delayed by traffic.\n\nPriya: That\u0027s fine! ___ (5) we might go to dessert somewhere after â€” are you okay with that?\n\nKavya: ___ (6) yes! ___ (7) there are some good places near the restaurant. Let\u0027s ___ (8) and decide on dessert when we\u0027re there.\n\nPriya: Perfect. See you Saturday â€” hopefully!",
+                                      "answers":  [
+                                                      "Probably",
+                                                      "might",
+                                                      "Roughly",
+                                                      "as far as I know / I think",
+                                                      "Also",
+                                                      "I suppose",
+                                                      "I think",
+                                                      "play it by ear"
+                                                  ]
+                                  }
+                  },
+                  {
+                      "task_id":  "t1006_20",
+                      "type":  "lesson_summary",
+                      "order":  20,
+                      "content":  {
+                                      "title":  "Lesson 6 complete â€” Possibility in conversation",
+                                      "key_points":  [
+                                                         "Hedging = softening what you say when uncertain",
+                                                         "Common hedges: I think, I suppose, I imagine, as far as I know, probably",
+                                                         "Combine hedges for more natural speech: \u0027I think it\u0027ll probably...\u0027",
+                                                         "Useful phrases: \u0027let\u0027s play it by ear\u0027, \u0027don\u0027t quote me on this\u0027, \u0027there\u0027s a chance\u0027",
+                                                         "Don\u0027t say \u0027will maybe\u0027 â€” use might/may instead"
+                                                     ],
+                                      "xp_earned":  150,
+                                      "next_lesson":  "Writing formal emails â€” structure and language"
+                                  }
+                  }
+              ]
+}

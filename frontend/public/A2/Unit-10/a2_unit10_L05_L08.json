@@ -1,0 +1,1318 @@
+{
+  "unit": 10,
+  "level": "A2",
+  "title": "Future, plans & communication",
+  "lesson_range": "5-8",
+  "lessons": [
+
+    {
+      "lesson_id": "a2_unit10_lesson05",
+      "unit": 10,
+      "lesson_number": 5,
+      "level": "A2",
+      "title": "May & might — possibility",
+      "description": "Use may and might to talk about things that are possible but not certain in the future.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1005_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "May and might — expressing possibility",
+            "body": "We use MAY and MIGHT to talk about things that are POSSIBLE — not certain.\n\nMAY = slightly more certain (about 50% chance)\nMIGHT = slightly less certain (about 30-40% chance)\nIn everyday speech, they are often interchangeable.\n\nExamples:\n• I may go to the party — I haven't decided yet.\n• It might rain this evening — carry an umbrella.\n• She might get the job — she interviewed well.\n• We may not make it on time — the traffic is bad.\n\nNegative:\n• I may not come tomorrow.\n• He might not know the answer.",
+            "grammar_note": "may/might + BASE VERB (no 'to', no -ing)\nNegative: may not / might not (mayn't is rare; mightn't is informal)\nNo 's' for he/she/it — may/might never change form"
+          }
+        },
+        {
+          "task_id": "t1005_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "May/might vs will vs going to",
+            "body": "Compare these levels of certainty:\n\n100% certain:\n'I will be there at 6.' (definite)\n\nHigh certainty (decided plan):\n'I'm going to be there at 6.' (already decided)\n\nPossible (not certain):\n'I may/might be there at 6.' (not sure yet)\n\nKey tip: When you are NOT SURE if something will happen, use MAY or MIGHT — not WILL.\n\nWrong: 'I will maybe go.' ✗\nRight: 'I might go.' ✓\nRight: 'I may go.' ✓",
+            "grammar_note": "will = certain prediction / decided\ngoing to = decided plan / evidence\nmay/might = possible, not certain"
+          }
+        },
+        {
+          "task_id": "t1005_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Possibility and uncertainty",
+            "vocabulary": [
+              {"word": "uncertain", "meaning": "not sure about something", "example": "I'm uncertain about my weekend plans."},
+              {"word": "possibility", "meaning": "a chance that something might happen", "example": "There's a possibility of rain tonight."},
+              {"word": "hesitate", "meaning": "to pause before deciding", "example": "She hesitated before accepting the offer."},
+              {"word": "consider", "meaning": "to think about something before deciding", "example": "I'm considering whether to apply or not."},
+              {"word": "depend on", "meaning": "to be decided by something else", "example": "It depends on the weather."},
+              {"word": "unlikely", "meaning": "not probable", "example": "It's unlikely to snow in Chennai!"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l5_listen",
+            "sentences": [
+              "I might visit my parents this weekend — I haven't decided yet.",
+              "She may not come to the meeting — she's unwell.",
+              "It might get cold tonight — take a jacket.",
+              "We may have to reschedule — the venue isn't confirmed.",
+              "He might be the right person for the job."
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Priya isn't sure if she can attend the event on Saturday. What does she say?",
+            "options": [
+              "I will attend on Saturday.",
+              "I'm attending on Saturday.",
+              "I might attend on Saturday — it depends on my family plans.",
+              "I attending on Saturday maybe."
+            ],
+            "correct": "I might attend on Saturday — it depends on my family plans.",
+            "explanation": "MIGHT expresses possibility/uncertainty — she hasn't decided and it's not certain."
+          }
+        },
+        {
+          "task_id": "t1005_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Which sentence correctly uses MAY for possibility?",
+            "options": [
+              "It may raining tonight.",
+              "It may to rain tonight.",
+              "It may rain tonight.",
+              "It mays rain tonight."
+            ],
+            "correct": "It may rain tonight.",
+            "explanation": "MAY + BASE VERB (no -ing, no 'to', no 's'). 'May rain' is correct."
+          }
+        },
+        {
+          "task_id": "t1005_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Arjun says: 'I'm not 100% sure, but there's a good chance I'll get the promotion.' Which best expresses this?",
+            "options": [
+              "I will definitely get the promotion.",
+              "I may get the promotion.",
+              "I'm getting the promotion next week.",
+              "I got the promotion."
+            ],
+            "correct": "I may get the promotion.",
+            "explanation": "MAY = possible but not certain — exactly what 'not 100% sure but good chance' means."
+          }
+        },
+        {
+          "task_id": "t1005_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What is the difference between 'I might come' and 'I'm coming'?",
+            "options": [
+              "No difference — both mean the same thing.",
+              "'I might come' = possible, not sure. 'I'm coming' = fixed, arranged plan.",
+              "'I might come' = very certain. 'I'm coming' = uncertain.",
+              "'I might come' is past tense. 'I'm coming' is present tense."
+            ],
+            "correct": "'I might come' = possible, not sure. 'I'm coming' = fixed, arranged plan.",
+            "explanation": "This is a key distinction: might = uncertain possibility; present continuous for future = confirmed arrangement."
+          }
+        },
+        {
+          "task_id": "t1005_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in with MAY, MIGHT, MAY NOT, or MIGHT NOT.",
+            "sentences": [
+              {"text": "I ___ go to Ooty next month — it depends on whether I get leave approved.", "answer": "may / might"},
+              {"text": "She ___ be in the office today — she was feeling sick yesterday.", "answer": "may not / might not"},
+              {"text": "The results ___ be announced tomorrow or it ___ take until next week.", "answer": "may / might"},
+              {"text": "Don't wait for me for dinner — I ___ be late. The traffic is terrible.", "answer": "may / might"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Rewrite using MAY or MIGHT to make the sentence less certain.",
+            "sentences": [
+              {"text": "It will rain this afternoon. → It ___ this afternoon.", "answer": "may/might rain"},
+              {"text": "She will get the promotion. → She ___ the promotion.", "answer": "may/might get"},
+              {"text": "They won't finish on time. → They ___ not finish on time.", "answer": "may/might"},
+              {"text": "He will move to Singapore. → He ___ to Singapore.", "answer": "may/might move"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a possibility sentence.",
+            "words": ["might", "I", "job", "apply", "for", "that", "—", "not", "sure", "yet"],
+            "answer": "I might apply for that job — not sure yet."
+          }
+        },
+        {
+          "task_id": "t1005_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a negative possibility sentence.",
+            "words": ["make", "may", "not", "the", "it", "We", "to", "in", "time", "flight"],
+            "answer": "We may not make it to the flight in time."
+          }
+        },
+        {
+          "task_id": "t1005_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the uncertain situation to the best MAY/MIGHT sentence.",
+            "pairs": [
+              {"left": "50% chance of rain forecast", "right": "It might rain this evening."},
+              {"left": "Boss might give promotion — not decided", "right": "She may get a promotion this quarter."},
+              {"left": "Not sure if friend will join dinner", "right": "Meera might not come — she seemed busy."},
+              {"left": "Not certain the train will be on time", "right": "The train may be delayed."},
+              {"left": "Considering a holiday but not booked", "right": "I might go to Kerala in December."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Planning a trip with uncertainty — Pune",
+            "setting": "Kavya and her friend Ravi are trying to plan a trip to Himachal Pradesh but are unsure about many things.",
+            "dialogue": [
+              {"speaker": "Kavya", "text": "Ravi, I've been thinking about that Himachal trip we discussed. Do you think it'll actually happen this year?"},
+              {"speaker": "Ravi", "text": "It might! I may be able to take leave in October, but it depends on the project deadline."},
+              {"speaker": "Kavya", "text": "October sounds good — the weather might be perfect there. But what if it snows already?"},
+              {"speaker": "Ravi", "text": "It may snow in higher areas like Spiti, but Manali and Kasol might still be okay in October."},
+              {"speaker": "Kavya", "text": "Should we book early? Or might prices come down closer to the date?"},
+              {"speaker": "Ravi", "text": "Flights might get cheaper, but hotels may fill up fast in October — it's peak season. I'd book hotels early."},
+              {"speaker": "Kavya", "text": "True. What about Sonal — might she join us?"},
+              {"speaker": "Ravi", "text": "She may come. She said she might take a long break in October, but she may not be able to afford it right now."},
+              {"speaker": "Kavya", "text": "I see. And transport — should we rent a car?"},
+              {"speaker": "Ravi", "text": "We might rent a car or we may just take cabs from Manali. Depends on the group size."},
+              {"speaker": "Kavya", "text": "Okay, so nothing is confirmed yet?"},
+              {"speaker": "Ravi", "text": "Not yet! But it might all come together by next month. Let's decide by August."},
+              {"speaker": "Kavya", "text": "Alright. It might be the best trip we've ever taken — I can feel it!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "Why might Ravi not be able to go in October?",
+                "options": ["He might not have money.", "It depends on his project deadline.", "He may be travelling elsewhere.", "He doesn't like the cold."],
+                "correct": "It depends on his project deadline."
+              },
+              {
+                "question": "Why does Ravi say to book hotels early?",
+                "options": ["Hotels are cheap in October.", "Hotels may fill up fast — it's peak season.", "Hotels might close in winter.", "Hotels only accept early bookings."],
+                "correct": "Hotels may fill up fast — it's peak season."
+              },
+              {
+                "question": "Why might Sonal not join the trip?",
+                "options": ["She might be working.", "She may not be able to afford it right now.", "She doesn't like mountains.", "She may be getting married."],
+                "correct": "She may not be able to afford it right now."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "She might to come to the party.",
+                "correct": "She might come to the party.",
+                "explanation": "MIGHT + BASE VERB — no 'to'."
+              },
+              {
+                "wrong": "It mights rain tomorrow.",
+                "correct": "It might rain tomorrow.",
+                "explanation": "MIGHT never changes — no 's' for any person."
+              },
+              {
+                "wrong": "I will maybe go to the market later.",
+                "correct": "I might go to the market later. / I may go to the market later.",
+                "explanation": "'Will maybe' is not standard. Use MAY or MIGHT for uncertainty."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1005_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your colleague asks if you'll attend the optional team outing on Friday. You'd like to go but you have a family commitment that might finish in time. What do you say?",
+            "options": [
+              "I will come to the outing.",
+              "I'm not coming to the outing.",
+              "I might come — it depends on whether I finish my family commitment in time.",
+              "I will maybe come if I want."
+            ],
+            "correct": "I might come — it depends on whether I finish my family commitment in time.",
+            "explanation": "MIGHT is correct for genuine uncertainty. 'Will maybe' is not natural English."
+          }
+        },
+        {
+          "task_id": "t1005_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Talk about 5 things in your life that are POSSIBLE but not certain in the next few months. Use may, might, may not, and might not.",
+            "prompt": "Share things that might happen for you soon — plans, changes, possibilities you're considering.",
+            "example_response": "There are several things in my life right now that are possible but not confirmed. First, I might get a transfer to our Hyderabad office — my manager mentioned it but nothing is decided. I may apply for a part-time online course in data science — I've been thinking about it for months but I'm not sure about the time commitment. My family might move to a bigger flat — we've been looking but haven't found the right place yet. My friend and I may go on a road trip to Coorg in September, but it depends on whether we both get leave approved at the same time. And I might finally start that YouTube channel I've been planning — I may not though, because I'm still a bit nervous about putting myself out there.",
+            "key_phrases": ["I might", "I may", "I might not", "it depends on", "I'm considering", "it's possible that"],
+            "min_words": 90
+          }
+        },
+        {
+          "task_id": "t1005_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "A friend asks you 5 questions about next week. Answer each one using may or might — because you're genuinely not certain about any of them.",
+            "prompt": "Answer these 5 questions with uncertain responses: 1. Are you free next Saturday? 2. Will you come to the team lunch? 3. Will it be a busy week for you? 4. Are you going to the gym next week? 5. Will you be in the office on Friday?",
+            "example_response": "Great questions! Let me answer honestly. Am I free next Saturday? I might be free — it depends on whether my cousin's visit from Coimbatore happens or not. She may come this weekend or she may postpone. Will I come to the team lunch? I may come if I finish my morning deliverables on time. I might be in back-to-back calls until 2 PM though, so it depends. Will it be a busy week? It might be very busy actually — we have a client review on Wednesday which might run long. Am I going to the gym? I may go on Tuesday and Thursday, but I might skip if work gets too hectic. And will I be in the office on Friday? I might work from home on Friday — my manager may allow it. So the honest answer to all five is: it depends!",
+            "key_phrases": ["I might", "I may", "it depends on", "might not", "may not"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1005_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete the weather forecast using MAY and MIGHT.",
+            "text": "Tomorrow's weather forecast for South India:\n\nChennai: Skies ___ (1) remain cloudy through the morning. There ___ (2) be light showers in the afternoon, especially in coastal areas. Temperatures ___ (3) drop slightly — carry a light jacket if you're going out in the evening.\n\nBangalore: The morning ___ (4) be pleasant with some sunshine. However, by evening, there ___ (5) be heavy rain — thunderstorms are possible. Outdoor plans ___ (6) need to be reconsidered.\n\nCoimbatore: It ___ (7) be a dry day, but there's a small chance of drizzle near the Nilgiris. Visibility ___ (8) be low in the ghat sections after 4 PM — drive carefully.",
+            "answers": ["may/might", "may/might", "may/might", "may/might", "may/might", "may/might", "may/might", "may/might"]
+          }
+        },
+        {
+          "task_id": "t1005_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 5 complete — May & might",
+            "key_points": [
+              "MAY = possible (about 50% chance)",
+              "MIGHT = possible (slightly less certain — 30-40%)",
+              "Both: MAY/MIGHT + BASE VERB (no 'to', no -ing, no 's')",
+              "Negative: MAY NOT / MIGHT NOT",
+              "Use when NOT SURE — not 'I will maybe'",
+              "May and might are often interchangeable in everyday English"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Possibility in conversation — hedging and expressing doubt"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson06",
+      "unit": 10,
+      "lesson_number": 6,
+      "level": "A2",
+      "title": "Possibility in conversation",
+      "description": "Use hedging language and natural expressions to talk about uncertainty and possibility in real conversations.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1006_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Hedging language — sounding natural with uncertainty",
+            "body": "In natural conversation, we don't always speak with 100% certainty. We use 'hedging' language to soften what we say.\n\nCommon hedging expressions:\n• I think... (mild opinion)\n• I'm not sure but... (uncertainty)\n• It's possible that... (formal possibility)\n• There's a chance that... (possibility)\n• I suppose... (reluctant agreement or mild thought)\n• Probably / possibly / perhaps (adverbs of possibility)\n• As far as I know... (based on my limited information)\n• I imagine... (I believe but am not certain)\n• Don't quote me on this, but... (informal — I'm not 100% sure)",
+            "grammar_note": "These phrases come BEFORE the main statement\nExample: 'I think it might rain.' = double hedging (both think + might)"
+          }
+        },
+        {
+          "task_id": "t1006_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Responding to uncertain plans",
+            "body": "When someone gives an uncertain answer (with may/might), you can respond naturally:\n\nAccepting uncertainty:\n• 'No worries — let me know when you decide.'\n• 'That's fine — just keep me updated.'\n• 'Let's play it by ear.' (decide later based on how things go)\n\nAsking for more info:\n• 'What does it depend on?'\n• 'Do you have a rough idea yet?'\n• 'When do you think you'll know for sure?'\n\nKeeping options open:\n• 'Either way works for me.'\n• 'I'll pencil you in for now.'",
+            "grammar_note": "'Let's play it by ear' = decide as things develop\n'Pencil in' = put in the schedule but not final"
+          }
+        },
+        {
+          "task_id": "t1006_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Expressing degrees of certainty",
+            "vocabulary": [
+              {"word": "certain", "meaning": "definitely true", "example": "I'm certain he will come."},
+              {"word": "likely", "meaning": "probably going to happen", "example": "It's likely to rain this evening."},
+              {"word": "unlikely", "meaning": "probably not going to happen", "example": "It's unlikely they'll cancel."},
+              {"word": "doubtful", "meaning": "probably not true or going to happen", "example": "It's doubtful she'll accept."},
+              {"word": "roughly", "meaning": "approximately", "example": "It'll take roughly two hours."},
+              {"word": "approximately", "meaning": "close to but not exactly", "example": "Approximately 50 people may attend."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l6_listen",
+            "sentences": [
+              "I think it might be cancelled — but don't quote me on that.",
+              "As far as I know, the meeting is still on for tomorrow.",
+              "I'm not sure, but there's a chance the project will be delayed.",
+              "I suppose he might agree if you explain properly.",
+              "It's possible that they'll announce the results next week."
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Your colleague asks if the client confirmed the deal. You don't know for sure. Which is the most natural response?",
+            "options": [
+              "Yes, they confirmed it.",
+              "No, they didn't confirm anything.",
+              "As far as I know, they're still considering — I'm not sure if they've decided yet.",
+              "They will confirm."
+            ],
+            "correct": "As far as I know, they're still considering — I'm not sure if they've decided yet.",
+            "explanation": "'As far as I know' + 'not sure' = honest hedging when you don't have certain information."
+          }
+        },
+        {
+          "task_id": "t1006_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "You're asked to estimate when a project will finish. You think it'll be about 3 weeks but you're not completely sure. What do you say?",
+            "options": [
+              "It will finish in exactly 3 weeks.",
+              "I think it'll take roughly three weeks, but it might go a bit longer.",
+              "It finishes in three weeks.",
+              "It's going to take forever."
+            ],
+            "correct": "I think it'll take roughly three weeks, but it might go a bit longer.",
+            "explanation": "'I think' + 'roughly' + 'might' = layered hedging. This sounds professional and honest."
+          }
+        },
+        {
+          "task_id": "t1006_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Your friend invites you to a party but your plans aren't set. The most polite uncertain response is:",
+            "options": [
+              "I'm definitely coming!",
+              "I won't come.",
+              "I'll probably come — I might need to check if my parents need me that evening.",
+              "I come if I want."
+            ],
+            "correct": "I'll probably come — I might need to check if my parents need me that evening.",
+            "explanation": "'Probably' + 'might need to check' = honest, polite, hedged response that keeps the option open."
+          }
+        },
+        {
+          "task_id": "t1006_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What does 'let's play it by ear' mean?",
+            "options": [
+              "Let's listen to music while we decide.",
+              "Let's plan everything in detail now.",
+              "Let's decide later depending on how things go.",
+              "Let's not make any plans at all."
+            ],
+            "correct": "Let's decide later depending on how things go.",
+            "explanation": "'Play it by ear' is an idiom meaning: don't fix the plan now, decide as the situation develops."
+          }
+        },
+        {
+          "task_id": "t1006_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Add the correct hedging phrase from the box: [I think, probably, as far as I know, I suppose, there's a chance]",
+            "sentences": [
+              {"text": "___ the office will be closed tomorrow — it's a public holiday.", "answer": "As far as I know"},
+              {"text": "It'll ___ take about two hours to reach there by metro.", "answer": "probably"},
+              {"text": "___ that the concert might be cancelled if it rains heavily.", "answer": "There's a chance"},
+              {"text": "___ she might accept the offer — it's a good salary.", "answer": "I think / I suppose"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Make these certain sentences sound less certain using hedging words.",
+            "sentences": [
+              {"text": "He knows the answer. → ___ he might know the answer.", "answer": "I think / I suppose"},
+              {"text": "The train will be on time. → The train will ___ be on time.", "answer": "probably / possibly"},
+              {"text": "They will launch the product in March. → ___ they may launch in March.", "answer": "It's possible that / I think"},
+              {"text": "She's the best candidate. → ___ she might be the best candidate.", "answer": "I think / I suppose"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a hedged sentence.",
+            "words": ["think", "I", "probably", "be", "it'll", "tomorrow", "crowded"],
+            "answer": "I think it'll probably be crowded tomorrow."
+          }
+        },
+        {
+          "task_id": "t1006_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a natural uncertain response.",
+            "words": ["know", "I", "but", "as", "far", "as", "still", "is", "the", "deal", "on"],
+            "answer": "As far as I know, the deal is still on."
+          }
+        },
+        {
+          "task_id": "t1006_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the hedging phrase to its meaning.",
+            "pairs": [
+              {"left": "As far as I know", "right": "Based on what I currently know"},
+              {"left": "Probably", "right": "Very likely but not 100% sure"},
+              {"left": "I suppose", "right": "I believe, but not strongly"},
+              {"left": "Don't quote me on this", "right": "I'm not certain — please verify"},
+              {"left": "Let's play it by ear", "right": "We'll decide as things develop"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Discussing uncertain work news — IT office, Chennai",
+            "setting": "Meera and Arjun are colleagues talking about uncertain news about their company's upcoming restructuring.",
+            "dialogue": [
+              {"speaker": "Arjun", "text": "Meera, have you heard anything about the restructuring? People are saying our team might be affected."},
+              {"speaker": "Meera", "text": "I've heard some things, but don't quote me on this — as far as I know, they may merge two teams."},
+              {"speaker": "Arjun", "text": "Which teams? Do you know?"},
+              {"speaker": "Meera", "text": "I think it might be our team and the analytics team, but I'm not certain. I suppose we'll know by Friday."},
+              {"speaker": "Arjun", "text": "Do you think anyone will lose their job?"},
+              {"speaker": "Meera", "text": "It's possible. There's a chance they might reduce headcount, but it's also possible they'll just reorganise roles."},
+              {"speaker": "Arjun", "text": "That's worrying. What should we do?"},
+              {"speaker": "Meera", "text": "I'd probably update your resume — just in case. It might not come to that, but it's better to be prepared."},
+              {"speaker": "Arjun", "text": "Good advice. Do you think the manager will tell us anything in Monday's meeting?"},
+              {"speaker": "Meera", "text": "I imagine she might give us some indication. But I wouldn't expect full details yet — these things take time."},
+              {"speaker": "Arjun", "text": "Should I ask her directly?"},
+              {"speaker": "Meera", "text": "You could — but she may not have all the answers yet either. I think we'll just have to play it by ear for now."},
+              {"speaker": "Arjun", "text": "You're right. No point panicking over something that might not even happen."}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What does Meera think might happen to the teams?",
+                "options": ["One team may be closed.", "Two teams might be merged.", "Everyone might get a promotion.", "The teams might move to a new office."],
+                "correct": "Two teams might be merged."
+              },
+              {
+                "question": "What does Meera advise Arjun to probably do?",
+                "options": ["Speak to HR immediately", "Update his resume", "Resign before the restructuring", "Take a vacation"],
+                "correct": "Update his resume"
+              },
+              {
+                "question": "What does 'play it by ear' mean in this context?",
+                "options": [
+                  "Listen carefully to music",
+                  "Plan everything now",
+                  "Wait and decide based on how things develop",
+                  "Speak to the manager every day"
+                ],
+                "correct": "Wait and decide based on how things develop"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find and correct the mistake.",
+            "sentences": [
+              {
+                "wrong": "I think probably it might will rain.",
+                "correct": "I think it might probably rain. / I think it will probably rain.",
+                "explanation": "Don't combine 'might' and 'will' — use one modal. 'Probably' sits between the subject and verb or after the modal."
+              },
+              {
+                "wrong": "As far as I know, they might to postpone the meeting.",
+                "correct": "As far as I know, they might postpone the meeting.",
+                "explanation": "MIGHT + BASE VERB — no 'to'."
+              },
+              {
+                "wrong": "There's a possibility it rains tomorrow.",
+                "correct": "There's a possibility it will rain / might rain tomorrow.",
+                "explanation": "After 'there's a possibility', use WILL or MIGHT + base verb."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1006_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "A new colleague asks you if the company gives annual bonuses. You received one last year but you're not sure if it's a fixed policy. What do you say?",
+            "options": [
+              "Yes, you'll definitely get a bonus.",
+              "No, there are no bonuses.",
+              "As far as I know, they do give bonuses — I received one last year, but I'm not sure if it's guaranteed every year. You might want to check with HR.",
+              "Bonuses may will happen."
+            ],
+            "correct": "As far as I know, they do give bonuses — I received one last year, but I'm not sure if it's guaranteed every year. You might want to check with HR.",
+            "explanation": "This response is honest and helpful — it uses hedging ('as far as I know', 'not sure', 'might want to check')."
+          }
+        },
+        {
+          "task_id": "t1006_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Someone asks you about the future of your industry or career field over the next 10 years. Give a hedged, thoughtful response using possibility language.",
+            "prompt": "Talk about what might happen in your industry or career field in the next 10 years. Use hedging language throughout.",
+            "example_response": "I work in the IT sector, so there are quite a few things I think might change in the next 10 years. First, I imagine AI will probably take over a lot of routine coding tasks — things like testing and debugging might become largely automated. I suppose that could be good or bad depending on your role. As far as I know, companies are already investing heavily in AI tools. There's a strong possibility that cloud computing will become even more central — most businesses may move entirely off on-premise servers. I think cybersecurity might become one of the most important and well-paid fields. It's also possible that remote work will remain common — maybe even more so. I don't think jobs in tech will disappear entirely though. There'll probably always be a need for creative problem-solvers. I suppose the key is to keep learning and adapting — whatever happens.",
+            "key_phrases": ["I think", "might", "probably", "as far as I know", "there's a possibility", "I suppose", "I imagine"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1006_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Describe your ideal but uncertain future. Where might you be living in 5 years? What might your life look like? Use lots of hedging language.",
+            "prompt": "Talk about where you might be and what your life might look like in 5 years. Be honest about what's uncertain.",
+            "example_response": "In five years, I honestly don't know exactly where I'll be — and I think that's okay! I suppose I might still be in Chennai, or I might have moved to Bangalore or even abroad for work. As far as I know, there are good opportunities growing in Hyderabad too, so that's also possible. I imagine I'll probably have advanced in my career — maybe into a senior or lead role. I think I might be working in a hybrid setup, partly from home and partly in an office. There's a chance I may have started a side project or small business by then — I've been thinking about it for a while. On the personal side, I might be married, I might not be — it depends on how things go. I'd like to probably travel more — maybe visit Japan or Europe at some point. I suppose the honest answer is: a lot might change, and I'm open to most of it!",
+            "key_phrases": ["I might", "I suppose", "I imagine", "there's a chance", "probably", "as far as I know", "it depends on"],
+            "min_words": 110
+          }
+        },
+        {
+          "task_id": "t1006_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this WhatsApp-style conversation using hedging language from the lesson.",
+            "text": "Priya: Hey! Are you coming to Meera's birthday dinner on Saturday?\n\nKavya: ___ (1) I'll come — I have a family thing in the morning but it should finish by 4. I ___ (2) be a bit late though.\n\nPriya: No worries! What time do you think you'll arrive?\n\nKavya: ___ (3), around 8? But don't hold a seat — ___ (4) I might be delayed by traffic.\n\nPriya: That's fine! ___ (5) we might go to dessert somewhere after — are you okay with that?\n\nKavya: ___ (6) yes! ___ (7) there are some good places near the restaurant. Let's ___ (8) and decide on dessert when we're there.\n\nPriya: Perfect. See you Saturday — hopefully!",
+            "answers": ["Probably", "might", "Roughly", "as far as I know / I think", "Also", "I suppose", "I think", "play it by ear"]
+          }
+        },
+        {
+          "task_id": "t1006_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 6 complete — Possibility in conversation",
+            "key_points": [
+              "Hedging = softening what you say when uncertain",
+              "Common hedges: I think, I suppose, I imagine, as far as I know, probably",
+              "Combine hedges for more natural speech: 'I think it'll probably...'",
+              "Useful phrases: 'let's play it by ear', 'don't quote me on this', 'there's a chance'",
+              "Don't say 'will maybe' — use might/may instead"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Writing formal emails — structure and language"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson07",
+      "unit": 10,
+      "lesson_number": 7,
+      "level": "A2",
+      "title": "Writing formal emails — structure and language",
+      "description": "Learn how to write clear, polite formal emails in English — greeting, purpose, body, and sign-off.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1007_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "The structure of a formal email",
+            "body": "A formal email has five parts:\n\n1. SUBJECT LINE — short and clear\n   'Request for Leave — 12-14 March'\n\n2. GREETING\n   'Dear Mr Sharma,' / 'Dear Ms Priya,' / 'Dear Sir/Madam,'\n\n3. OPENING LINE — state your reason\n   'I am writing to request...' / 'I am writing regarding...'\n\n4. BODY — your main message (1-3 short paragraphs)\n\n5. CLOSING + SIGN-OFF\n   'I look forward to hearing from you.'\n   'Yours sincerely,' / 'Kind regards,' / 'Best regards,'\n   [Your name]",
+            "grammar_note": "Formal emails use full forms: I am (not I'm), I do not (not I don't)\nAvoid casual phrases: 'Hey!', 'Thanks a ton', 'Cheers'"
+          }
+        },
+        {
+          "task_id": "t1007_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Key formal email phrases",
+            "body": "OPENING LINES:\n• I am writing to inform you that...\n• I am writing with regard to...\n• Further to our conversation, I would like to...\n• I am contacting you regarding...\n\nMAKING REQUESTS:\n• I would be grateful if you could...\n• Could you please...?\n• I would appreciate it if...\n• Please find attached...\n\nCLOSING LINES:\n• I look forward to hearing from you.\n• Please do not hesitate to contact me if you have any questions.\n• Thank you for your time and consideration.\n• I await your response.",
+            "grammar_note": "Use 'would' for polite requests — more formal than 'can'\n'I would be grateful' > 'I want'"
+          }
+        },
+        {
+          "task_id": "t1007_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Formal email words",
+            "vocabulary": [
+              {"word": "regarding", "meaning": "about, concerning", "example": "I am writing regarding your recent application."},
+              {"word": "attached", "meaning": "included with the email", "example": "Please find the report attached."},
+              {"word": "grateful", "meaning": "thankful", "example": "I would be grateful for your prompt response."},
+              {"word": "hesitate", "meaning": "to pause/be unsure before doing something", "example": "Please do not hesitate to contact me."},
+              {"word": "at your earliest convenience", "meaning": "as soon as you can", "example": "Please reply at your earliest convenience."},
+              {"word": "sincerely", "meaning": "genuinely, used in formal sign-offs", "example": "Yours sincerely, Priya Rajan"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l7_listen",
+            "sentences": [
+              "I am writing to request a meeting at your earliest convenience.",
+              "Please find the completed form attached to this email.",
+              "I would be grateful if you could confirm receipt of this message.",
+              "Please do not hesitate to contact me if you have any questions.",
+              "I look forward to hearing from you."
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Which is the correct formal email greeting when you know the person's name?",
+            "options": [
+              "Hey Priya,",
+              "Hi there!",
+              "Dear Ms Priya,",
+              "Hello friend,"
+            ],
+            "correct": "Dear Ms Priya,",
+            "explanation": "'Dear + title + name' is the standard formal greeting. 'Hey' and 'Hi there' are too casual."
+          }
+        },
+        {
+          "task_id": "t1007_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Which is the best opening line for a formal email requesting a meeting?",
+            "options": [
+              "I want to meet you.",
+              "Can we meet?",
+              "I am writing to request a brief meeting at your convenience.",
+              "Just wanted to check if we can chat."
+            ],
+            "correct": "I am writing to request a brief meeting at your convenience.",
+            "explanation": "'I am writing to...' is the standard formal opening. The others are too casual or vague."
+          }
+        },
+        {
+          "task_id": "t1007_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which closing line is most appropriate for a formal email?",
+            "options": [
+              "Talk soon!",
+              "Bye for now,",
+              "I look forward to hearing from you. Kind regards,",
+              "Cheers and thanks a lot!"
+            ],
+            "correct": "I look forward to hearing from you. Kind regards,",
+            "explanation": "'I look forward to hearing from you' + 'Kind regards' = professional and standard formal closing."
+          }
+        },
+        {
+          "task_id": "t1007_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Ravi wants to ask his professor if she received his assignment. Which is the most appropriate formal sentence?",
+            "options": [
+              "Did you get my assignment?",
+              "I wanted to check — did you see my work?",
+              "I am writing to confirm whether you received my assignment submission.",
+              "Just checking if my assignment reached you!"
+            ],
+            "correct": "I am writing to confirm whether you received my assignment submission.",
+            "explanation": "Formal structure + polite language = 'I am writing to confirm whether...' This is professional and respectful."
+          }
+        },
+        {
+          "task_id": "t1007_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Complete the formal email phrases.",
+            "sentences": [
+              {"text": "I am writing ___ regard ___ your job application.", "answer": "with / to"},
+              {"text": "Please find the updated document ___ to this email.", "answer": "attached"},
+              {"text": "I would be ___ if you could confirm the date.", "answer": "grateful"},
+              {"text": "Please do not ___ to contact me if you have any further questions.", "answer": "hesitate"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Make these informal phrases formal.",
+            "sentences": [
+              {"text": "I want to know about the job. → I am writing ___ regarding the position.", "answer": "to enquire"},
+              {"text": "Can you send the file? → I ___ be grateful if you could send the file.", "answer": "would"},
+              {"text": "I'll wait for your reply. → I ___ forward ___ hearing from you.", "answer": "look / to"},
+              {"text": "Thanks a lot! → ___ you for your time and consideration.", "answer": "Thank"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a correct formal email opening sentence.",
+            "words": ["writing", "request", "I", "am", "a", "to", "meeting", "brief"],
+            "answer": "I am writing to request a brief meeting."
+          }
+        },
+        {
+          "task_id": "t1007_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a correct formal email closing sentence.",
+            "words": ["hearing", "look", "I", "you", "from", "forward", "to"],
+            "answer": "I look forward to hearing from you."
+          }
+        },
+        {
+          "task_id": "t1007_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the informal phrase to its formal equivalent.",
+            "pairs": [
+              {"left": "I want to ask about...", "right": "I am writing to enquire about..."},
+              {"left": "Can you help me?", "right": "I would be grateful if you could assist me."},
+              {"left": "Here's the file.", "right": "Please find the document attached."},
+              {"left": "Talk soon!", "right": "I look forward to hearing from you."},
+              {"left": "Thanks!", "right": "Thank you for your time and consideration."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Discussing how to write a formal email — college, Bangalore",
+            "setting": "Sonal is helping her friend Arjun write a formal email to a professor requesting an extension on his assignment.",
+            "dialogue": [
+              {"speaker": "Arjun", "text": "Sonal, I need to write a formal email to Professor Verma asking for an assignment extension. I've never written one before."},
+              {"speaker": "Sonal", "text": "Okay, it's not too difficult. First, write a clear subject line — something like 'Request for Assignment Extension — Arjun Mehta'."},
+              {"speaker": "Arjun", "text": "Okay. Then how do I start?"},
+              {"speaker": "Sonal", "text": "Start with 'Dear Professor Verma,' — never 'Hey' or just her first name in a formal email."},
+              {"speaker": "Arjun", "text": "Got it. And then?"},
+              {"speaker": "Sonal", "text": "Your opening line should state why you're writing. Something like: 'I am writing to request an extension for the Marketing Case Study assignment.'"},
+              {"speaker": "Arjun", "text": "Simple and to the point. What do I put in the body?"},
+              {"speaker": "Sonal", "text": "Explain your reason briefly — keep it honest and professional. Something like: 'I have been unwell this week and have been unable to complete the work to the required standard.'"},
+              {"speaker": "Arjun", "text": "Should I mention the new date I want?"},
+              {"speaker": "Sonal", "text": "Yes — say exactly what you need: 'I would be grateful if you could grant me an extension until Friday, 14th March.'"},
+              {"speaker": "Arjun", "text": "Perfect. And how do I end it?"},
+              {"speaker": "Sonal", "text": "End with: 'I apologise for any inconvenience caused and I look forward to your response.' Then sign off with 'Yours sincerely' or 'Kind regards' and your full name."},
+              {"speaker": "Arjun", "text": "This is really helpful. Should I say anything else?"},
+              {"speaker": "Sonal", "text": "You could add: 'Please do not hesitate to contact me if you require any further information.' That shows you're being professional and cooperative."},
+              {"speaker": "Arjun", "text": "Great! I'll write it up now. Thanks so much, Sonal."}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What should Arjun use as the subject line?",
+                "options": [
+                  "Extension Please",
+                  "Request for Assignment Extension — Arjun Mehta",
+                  "Hi Professor — urgent!",
+                  "About my assignment"
+                ],
+                "correct": "Request for Assignment Extension — Arjun Mehta"
+              },
+              {
+                "question": "Why is Arjun requesting an extension?",
+                "options": ["He forgot the assignment.", "He has been unwell.", "He lost his notes.", "He misunderstood the brief."],
+                "correct": "He has been unwell."
+              },
+              {
+                "question": "What sign-off does Sonal recommend?",
+                "options": ["Thanks!", "Bye for now,", "Yours sincerely / Kind regards", "See you soon!"],
+                "correct": "Yours sincerely / Kind regards"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "This formal email has 3 mistakes. Find and correct them.",
+            "sentences": [
+              {
+                "wrong": "Hey Mr Kapoor, I'm writing to ask about the job.",
+                "correct": "Dear Mr Kapoor, I am writing to enquire about the position.",
+                "explanation": "'Hey' is too casual for a formal email. Use 'Dear'. Also use full forms: 'I am' not 'I'm'."
+              },
+              {
+                "wrong": "Can you please tell me when the results will come?",
+                "correct": "I would be grateful if you could inform me when the results will be announced.",
+                "explanation": "'Can you' is informal. Use 'I would be grateful if you could...' in formal emails."
+              },
+              {
+                "wrong": "Thanks a lot! Cheers, Ravi",
+                "correct": "Thank you for your time. Kind regards, Ravi Kumar",
+                "explanation": "'Thanks a lot' and 'Cheers' are too informal. Use 'Thank you' and 'Kind regards' or 'Yours sincerely'."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1007_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You are writing to a hotel in Mysore to ask if they have rooms available for the Dussehra weekend. What is the best subject line?",
+            "options": [
+              "Question",
+              "Hi — need a room?",
+              "Room Availability Enquiry — Dussehra Weekend (12-14 October)",
+              "Do you have rooms?"
+            ],
+            "correct": "Room Availability Enquiry — Dussehra Weekend (12-14 October)",
+            "explanation": "A good formal email subject line is specific, clear, and professional. Include what + when."
+          }
+        },
+        {
+          "task_id": "t1007_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Read this formal email aloud and then explain each part — what is the subject, greeting, opening line, body, and closing?",
+            "prompt": "Read and explain the structure of this email:\n\nSubject: Request for Meeting — Project Proposal\n\nDear Ms Kavitha,\n\nI am writing to request a brief meeting to discuss my project proposal for the upcoming product launch.\n\nI would be grateful if you could spare 20 minutes at your earliest convenience. I am available on Tuesday or Wednesday afternoon.\n\nPlease find a summary of the proposal attached.\n\nI look forward to hearing from you. Please do not hesitate to contact me if you require any further information.\n\nYours sincerely,\nArjun Mehta",
+            "example_response": "This is a well-structured formal email. The subject line is 'Request for Meeting — Project Proposal' — it's short, clear and tells the reader exactly what the email is about. The greeting is 'Dear Ms Kavitha' — formal and respectful, using the title and name. The opening line 'I am writing to request a brief meeting' immediately states the purpose — this is very important in formal emails. The body has two short paragraphs: the first makes the request and explains how long it will take, and the second offers specific availability — Tuesday or Wednesday afternoon — which makes it easy for the reader to respond. There's also a mention of an attachment. The closing lines are very professional: 'I look forward to hearing from you' is the standard formal closing, and 'please do not hesitate to contact me' shows politeness. The sign-off 'Yours sincerely' followed by full name is perfectly formal.",
+            "key_phrases": ["subject line", "greeting", "opening line", "body", "closing", "sign-off"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1007_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "You need to write a formal email to your company's HR department requesting a work-from-home arrangement for the next month. Describe what you would write — include all 5 parts of the email.",
+            "prompt": "Dictate a formal email to HR requesting a work-from-home arrangement. Include subject, greeting, reason, request, and sign-off.",
+            "example_response": "Here is the formal email I would write:\n\nSubject: Request for Work-From-Home Arrangement — November 2025\n\nDear HR Team,\n\nI am writing to request a work-from-home arrangement for the month of November 2025. I am currently managing a health situation that requires me to stay close to home during this period, though I am fully able to continue my work responsibilities remotely.\n\nI would be grateful if you could grant this arrangement for the period of 1st to 30th November. I assure you that my availability, productivity and response times will not be affected. I am happy to attend any mandatory in-person meetings with sufficient notice.\n\nI have attached a brief note from my doctor for your reference.\n\nThank you for your understanding. I look forward to your response at your earliest convenience. Please do not hesitate to contact me if you require any further information.\n\nYours sincerely,\nPriya Rajan\nSoftware Engineer, Team Horizon",
+            "key_phrases": ["I am writing to request", "I would be grateful", "Please find attached", "I look forward to", "Yours sincerely"],
+            "min_words": 120
+          }
+        },
+        {
+          "task_id": "t1007_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this formal email with the correct words/phrases.",
+            "text": "Subject: ___ (1) for Leave of Absence — 3-5 April\n\nDear Mr Sharma,\n\nI am ___ (2) to request three days of leave from 3rd to 5th April 2025, due to a family function.\n\nI have ensured that all my current deliverables ___ (3) be completed before my leave begins. I will also ensure a proper handover ___ (4) my colleague Ms Meera Iyer.\n\nI ___ (5) be grateful if you could kindly approve this request. I am happy to discuss this ___ (6) your convenience.\n\nThank you for your time. I ___ (7) forward to your response.\n\n___ (8) sincerely,\nKavya Nair",
+            "answers": ["Request", "writing", "will", "to", "would", "at", "look", "Yours"]
+          }
+        },
+        {
+          "task_id": "t1007_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 7 complete — Writing formal emails",
+            "key_points": [
+              "5 parts: Subject line, Greeting (Dear...), Opening line, Body, Closing + Sign-off",
+              "Use full forms: I am, I do not, I would (not I'm, don't, I'd) — though contractions are acceptable in less formal professional emails",
+              "Opening: 'I am writing to...'",
+              "Request: 'I would be grateful if you could...'",
+              "Closing: 'I look forward to hearing from you.'",
+              "Sign-off: 'Yours sincerely / Kind regards / Best regards'"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Formal vs informal email language"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit10_lesson08",
+      "unit": 10,
+      "lesson_number": 8,
+      "level": "A2",
+      "title": "Formal vs informal email language",
+      "description": "Understand and practise the difference between formal and informal register in written English.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1008_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Register — formal vs informal",
+            "body": "REGISTER means the level of formality in your language. You choose based on WHO you are writing to.\n\nFORMAL (to a boss, client, professor, stranger, company):\n• Full sentences, full forms\n• No slang, no emoji\n• Polite and distant\n• 'I am writing to request...'\n\nINFORMAL (to a friend, close colleague, family):\n• Contractions, casual phrases\n• Can use emoji, exclamation marks\n• Friendly and warm\n• 'Hey! Just wanted to check...'\n\nSEMI-FORMAL (to a known colleague you're friendly with):\n• Mix of both — friendly but professional",
+            "grammar_note": "Register mistakes = mismatches\nWriting to your boss like a friend = too casual\nWriting to your friend like a formal letter = awkward"
+          }
+        },
+        {
+          "task_id": "t1008_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Formal vs informal phrase comparison",
+            "body": "INFORMAL → FORMAL\n\n• Hey! → Dear [Name],\n• Just wanted to say → I am writing to inform you\n• Can you...? → Could you please...? / I would be grateful if you could...\n• Sorry for the late reply → I apologise for the delay in responding\n• Thanks! → Thank you for your time\n• No problem → It is not an inconvenience\n• I'll do it → I will ensure it is completed\n• ASAP → at your earliest convenience\n• FYI → For your information / Please note that\n• Let me know → Please do not hesitate to contact me\n• Bye! / Cheers → Yours sincerely / Kind regards",
+            "grammar_note": "Abbreviations like FYI, ASAP, BTW are informal only\nNever use them in formal emails"
+          }
+        },
+        {
+          "task_id": "t1008_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Email and communication words",
+            "vocabulary": [
+              {"word": "correspondence", "meaning": "letters or emails exchanged", "example": "All correspondence should be kept on file."},
+              {"word": "acknowledge", "meaning": "to confirm you received something", "example": "Please acknowledge receipt of this email."},
+              {"word": "inconvenience", "meaning": "trouble or difficulty caused", "example": "I apologise for any inconvenience."},
+              {"word": "forward", "meaning": "to send a received email to someone else", "example": "I will forward the email to the relevant team."},
+              {"word": "cc", "meaning": "carbon copy — to send a copy to another person", "example": "Please cc the manager on all client emails."},
+              {"word": "urgent", "meaning": "needs immediate attention", "example": "This is urgent — please reply today."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u10l8_listen",
+            "sentences": [
+              "I apologise for the delay in responding to your email.",
+              "Could you please confirm your availability for a meeting?",
+              "Please note that the deadline has been extended to Friday.",
+              "I will ensure the report is completed by end of day.",
+              "Thank you for bringing this matter to my attention."
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Priya is writing to a potential employer. Which greeting is correct?",
+            "options": [
+              "Hey Rajesh!",
+              "Hiya,",
+              "Dear Mr Rajesh Kumar,",
+              "Hello mate,"
+            ],
+            "correct": "Dear Mr Rajesh Kumar,",
+            "explanation": "A potential employer = formal. 'Dear Mr [Name]' is the correct formal greeting."
+          }
+        },
+        {
+          "task_id": "t1008_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Which sentence is appropriate in a formal email?",
+            "options": [
+              "Sorry for the late reply — things got crazy!",
+              "I apologise for the delay in my response.",
+              "Oops, forgot to reply — my bad!",
+              "Been super busy, sry!"
+            ],
+            "correct": "I apologise for the delay in my response.",
+            "explanation": "Formal English: full sentences, full words, polite phrasing."
+          }
+        },
+        {
+          "task_id": "t1008_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Kavya is messaging her close friend about weekend plans. Which is appropriate?",
+            "options": [
+              "Dear Meera, I am writing to enquire about your availability this weekend.",
+              "Hey Meera! Are you free Saturday? 😊",
+              "To Whom It May Concern, I wish to discuss weekend plans.",
+              "I would be grateful if you could confirm your weekend availability."
+            ],
+            "correct": "Hey Meera! Are you free Saturday? 😊",
+            "explanation": "Writing to a close friend = informal. Casual greetings, contractions, and emoji are all fine here."
+          }
+        },
+        {
+          "task_id": "t1008_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Which sign-off is appropriate for a formal email to a client?",
+            "options": [
+              "Cheers 🎉",
+              "TTYL",
+              "Best regards, Arjun Mehta",
+              "Bye bye, Arjun"
+            ],
+            "correct": "Best regards, Arjun Mehta",
+            "explanation": "'Best regards' + full name = professional and appropriate for a client email."
+          }
+        },
+        {
+          "task_id": "t1008_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Rewrite the informal phrase as a formal one.",
+            "sentences": [
+              {"text": "Can you send it ASAP? → Could you please send it ___ ___?", "answer": "at your earliest convenience"},
+              {"text": "Sorry, forgot to reply → I ___ for the delay in responding.", "answer": "apologise"},
+              {"text": "FYI the meeting is moved. → ___ ___ ___ the meeting has been rescheduled.", "answer": "Please note that"},
+              {"text": "Let me know if you need anything. → Please do not ___ to contact me.", "answer": "hesitate"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Is each email sentence FORMAL (F) or INFORMAL (I)? Write F or I.",
+            "sentences": [
+              {"text": "I am writing to inform you of a change in schedule.", "answer": "F"},
+              {"text": "Hey! Just checking — still on for tomorrow?", "answer": "I"},
+              {"text": "I would be grateful if you could review the attached document.", "answer": "F"},
+              {"text": "Can't make it today — something came up 😅", "answer": "I"},
+              {"text": "I look forward to hearing from you at your earliest convenience.", "answer": "F"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a formal apology sentence.",
+            "words": ["for", "I", "apologise", "delay", "the", "responding", "in"],
+            "answer": "I apologise for the delay in responding."
+          }
+        },
+        {
+          "task_id": "t1008_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a formal request.",
+            "words": ["grateful", "could", "if", "I", "confirm", "be", "you", "would", "your", "attendance"],
+            "answer": "I would be grateful if you could confirm your attendance."
+          }
+        },
+        {
+          "task_id": "t1008_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the informal phrase to its formal equivalent.",
+            "pairs": [
+              {"left": "ASAP", "right": "at your earliest convenience"},
+              {"left": "FYI", "right": "Please note that"},
+              {"left": "Sorry for the late reply", "right": "I apologise for the delay in responding"},
+              {"left": "Can you check this?", "right": "Could you please review this?"},
+              {"left": "Talk soon!", "right": "I look forward to hearing from you."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Two emails — same message, different registers",
+            "setting": "Ravi needs to tell his team about a meeting change. He writes two versions — one to his best friend on the team, and one to his director.",
+            "dialogue": [
+              {"speaker": "Ravi (to friend Ankit — informal)", "text": "Hey Ankit! Quick heads up — the team meeting tomorrow has moved to 3 PM instead of 11. Something came up on the director's side. Let me know if that works for you. See you then! 😊"},
+              {"speaker": "Ankit", "text": "No worries! 3 PM works fine. Thanks for letting me know 👍"},
+              {"speaker": "Ravi (to Director Sharma — formal)", "text": "Dear Mr Sharma, I am writing to inform you that the team meeting scheduled for tomorrow at 11 AM has been rescheduled to 3 PM. I apologise for any inconvenience this may cause. Please let me know if this time is convenient for you. I look forward to your confirmation. Kind regards, Ravi Krishnan"},
+              {"speaker": "Director Sharma", "text": "Dear Ravi, thank you for the update. 3 PM works for me. Please send a revised calendar invite."},
+              {"speaker": "Ravi", "text": "Dear Mr Sharma, thank you for confirming. I will send the updated calendar invite shortly. Kind regards, Ravi"},
+              {"speaker": "Ravi (to Ankit — informal again)", "text": "Director confirmed! 3 PM it is. I'll update the calendar. This meeting better be short though 😂"},
+              {"speaker": "Ankit", "text": "Haha agreed! See you tomorrow 🙌"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What changed about the meeting?",
+                "options": ["It was cancelled.", "It moved from 11 AM to 3 PM.", "It moved to a different day.", "The location changed."],
+                "correct": "It moved from 11 AM to 3 PM."
+              },
+              {
+                "question": "Which phrase does Ravi use in the formal email to apologise?",
+                "options": [
+                  "Sorry about that!",
+                  "I apologise for any inconvenience this may cause.",
+                  "Oops!",
+                  "My bad!"
+                ],
+                "correct": "I apologise for any inconvenience this may cause."
+              },
+              {
+                "question": "What does the Director ask Ravi to do?",
+                "options": ["Cancel the meeting", "Send a revised calendar invite", "Postpone to next week", "Hold the meeting online"],
+                "correct": "Send a revised calendar invite"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "These formal email extracts have register mistakes. Correct them.",
+            "sentences": [
+              {
+                "wrong": "Hey! I'm writing about the invoice I sent last week.",
+                "correct": "Dear [Name], I am writing regarding the invoice I submitted last week.",
+                "explanation": "'Hey' is informal. Use 'Dear'. Also use full form 'I am' and formal verb 'submitted'."
+              },
+              {
+                "wrong": "Can you get back to me ASAP?",
+                "correct": "I would appreciate a response at your earliest convenience.",
+                "explanation": "'ASAP' is informal/abbreviation. 'Can you' is too casual for formal emails."
+              },
+              {
+                "wrong": "Cheers, Priya 😊",
+                "correct": "Kind regards, Priya Rajan",
+                "explanation": "'Cheers' and emoji are informal. Use 'Kind regards' or 'Yours sincerely' + full name."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1008_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You need to email your university's admissions office to ask about scholarship options. Which opening is most appropriate?",
+            "options": [
+              "Hey! I wanted to ask about scholarships.",
+              "Dear Admissions Office, I am writing to enquire about scholarship opportunities available for the 2025-26 academic year.",
+              "To whoever's reading this — I need scholarship info.",
+              "Hi, can you tell me about scholarships?"
+            ],
+            "correct": "Dear Admissions Office, I am writing to enquire about scholarship opportunities available for the 2025-26 academic year.",
+            "explanation": "An official university department = formal register. Clear, specific, and polite."
+          }
+        },
+        {
+          "task_id": "t1008_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Compare these two situations and explain what register you would use and why. Then give 3 example phrases for each.",
+            "prompt": "Situation A: Emailing a new client about a project proposal. Situation B: Messaging your close colleague to say you'll be 10 minutes late. What register? What phrases?",
+            "example_response": "For Situation A — emailing a new client — I would use formal register because I don't know them personally and this is a professional business context. I would use phrases like: 'Dear Mr/Ms [Name],' to open, 'I am writing to present our proposal for the upcoming project' for the opening line, and 'I look forward to your feedback at your earliest convenience' to close. I would not use contractions or abbreviations.\n\nFor Situation B — messaging my close colleague — I would use informal register. We know each other well, this is a quick update, and it's through messaging, not email. I'd write something like: 'Hey! Running 10 mins late — sorry!' or 'On my way — traffic is bad, be there by 9:15' or just 'Late by 10 — sorry!' with maybe a quick emoji. The context matters a lot — the same information is communicated very differently depending on who you're talking to.",
+            "key_phrases": ["formal register", "informal register", "Dear...", "I am writing to...", "Hey!", "formal phrases vs casual phrases"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1008_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Write and say aloud TWO short emails: one formal, one informal — both saying the same thing. The message: you need to cancel a plan for this Friday.",
+            "prompt": "Say aloud: (1) A formal email to a business contact cancelling a Friday meeting. (2) An informal message to a friend cancelling Friday plans.",
+            "example_response": "Here are both versions:\n\nFormal email: 'Subject: Cancellation of Friday Meeting — 18th October. Dear Ms Kapoor, I am writing to inform you that I am unfortunately unable to attend our meeting scheduled for Friday, 18th October, due to an urgent personal commitment. I sincerely apologise for any inconvenience this may cause. I would be grateful if we could reschedule at a mutually convenient time. Please let me know your availability for next week. Kind regards, Arjun Mehta.'\n\nInformal message to a friend: 'Hey Meera! Really sorry but I have to cancel our Friday plans — something urgent came up with my family. Can we reschedule to next weekend? I'll make it up to you, promise! 🙏 Let me know what works for you.'",
+            "key_phrases": ["I am writing to inform you", "I sincerely apologise", "could we reschedule", "Hey! / Really sorry", "Can we reschedule?"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1008_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Read each context and choose FORMAL or INFORMAL phrasing for each gap.",
+            "text": "Context: Ravi is writing to his college professor (FORMAL).\n\nDear ___ (1) Patel,\n\nI ___ (2) writing to request your guidance on the final year project topic. I have been ___ (3) two possible areas — Machine Learning and Data Visualisation — and I would value your expert opinion.\n\n___ (4) you please advise me on which area would be more suitable given the department's current research focus?\n\nI ___ (5) forward to your response. Please ___ (6) hesitate to let me know if you would like me to prepare any additional material beforehand.\n\n___ (7) sincerely,\nRavi Sharma",
+            "answers": ["Professor", "am", "considering", "Could", "look", "do not / don't", "Yours"]
+          }
+        },
+        {
+          "task_id": "t1008_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 8 complete — Formal vs informal email",
+            "key_points": [
+              "Register = the level of formality — choose based on your relationship with the reader",
+              "Formal: full forms, no slang, polite phrases, professional sign-offs",
+              "Informal: contractions, casual phrases, emoji allowed",
+              "Common switches: ASAP → 'at your earliest convenience', FYI → 'Please note that', Can you → 'Could you please'",
+              "Mixing registers sounds unnatural — be consistent throughout the email"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Making appointments — suggesting, accepting, and confirming times"
+          }
+        }
+      ]
+    }
+  ]
+}

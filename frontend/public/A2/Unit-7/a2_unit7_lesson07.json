@@ -1,0 +1,355 @@
+{
+  "lesson_id": "a2_unit7_lesson07",
+  "unit": 7,
+  "lesson_number": 7,
+  "level": "A2",
+  "title": "Advice for Common Problems",
+  "description": "Practice giving and receiving advice for real-life problems: travel, health, money, and study — using a wide range of advice language.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0707_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Full Range of Advice Language",
+      "content": {
+        "explanation": "In real conversations, we use MANY different ways to give advice. Here is the full picture:\n\n🔴 STRONG advice (sounds more urgent):\n• You really should go to the doctor.\n• You must try this — it's amazing!\n• You have to see this film!\n\n🟡 NORMAL advice (most common):\n• You should / shouldn't...\n• I think you should...\n• If I were you, I would...\n• My advice would be to...\n• I suggest you...\n• I recommend...\n\n🟢 SOFT / GENTLE advice (options, not pressure):\n• You could try...\n• Have you thought about...?\n• One option would be to...\n• It might be worth...\n• Why don't you...?\n• What about...?\n\n💡 ASKING for advice:\n• What would you do in my situation?\n• Do you have any advice?\n• What do you think I should do?\n• Any tips for...?\n• What's the best way to...?",
+        "examples": [
+          "You really should see a doctor if it's been hurting for more than three days.",
+          "Have you thought about taking an online course?",
+          "It might be worth calling the bank directly.",
+          "What would you do if you were in my position?"
+        ],
+        "tip": "Use stronger advice (should, really should) for serious problems. Use softer advice (could, might be worth) for smaller suggestions."
+      }
+    },
+    {
+      "task_id": "t0707_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Common Problem Situations & Useful Phrases",
+      "content": {
+        "explanation": "Here are 4 common real-life problem areas and useful phrases:\n\n✈️ TRAVEL PROBLEMS:\n• 'I missed my train.' → You should call the station and check the next one.\n• 'I lost my passport.' → You must go to the embassy immediately.\n• 'My hotel is fully booked.' → You could try booking a different hotel online.\n\n💊 HEALTH PROBLEMS:\n• 'I have a bad cold.' → You should rest and drink hot liquids.\n• 'I can't sleep.' → You shouldn't use your phone before bed.\n• 'I've had a headache for 3 days.' → You really should see a doctor.\n\n💰 MONEY PROBLEMS:\n• 'I spend too much.' → You should make a monthly budget.\n• 'I need to save money.' → You could cook at home instead of eating out.\n• 'I have too much debt.' → I suggest you speak to a financial advisor.\n\n📚 STUDY PROBLEMS:\n• 'I can't concentrate.' → You should study in a quiet place.\n• 'I fail tests.' → Have you thought about finding a study partner?\n• 'I have no motivation.' → It might be worth setting small daily goals.",
+        "examples": [
+          "If you lost your wallet, you should cancel your cards immediately.",
+          "If you can't sleep, you could try avoiding coffee after 4 pm.",
+          "If you're struggling with savings, I recommend tracking your expenses."
+        ],
+        "tip": "Always match the strength of advice to the seriousness of the problem."
+      }
+    },
+    {
+      "task_id": "t0707_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Problem-Solving Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "struggle", "meaning": "to have difficulty doing something", "example": "I'm struggling to save money this month." },
+          { "word": "manage", "meaning": "to succeed in doing something difficult", "example": "Did you manage to get a refund?" },
+          { "word": "afford", "meaning": "to have enough money to pay for something", "example": "I can't afford to take a taxi every day." },
+          { "word": "deadline", "meaning": "the final time by which something must be done", "example": "I keep missing deadlines — I need better time management." },
+          { "word": "procrastinate", "meaning": "to delay doing something you should do", "example": "I tend to procrastinate — I need advice on how to stop." },
+          { "word": "budget", "meaning": "a plan for spending money", "example": "You should make a budget at the start of each month." },
+          { "word": "alternative", "meaning": "another option", "example": "If that doesn't work, you could try an alternative approach." },
+          { "word": "overwhelmed", "meaning": "feeling like you have too much to deal with", "example": "I feel overwhelmed with so much work." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0707_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Giving Advice Naturally",
+      "content": {
+        "instruction": "Listen and repeat these natural advice phrases. Focus on sounding warm and helpful.",
+        "items": [
+          { "audio_key": "a2_u7_l7_lr1", "text": "Have you thought about speaking to someone about this?" },
+          { "audio_key": "a2_u7_l7_lr2", "text": "It might be worth checking the terms and conditions." },
+          { "audio_key": "a2_u7_l7_lr3", "text": "If I were you, I would call the bank straight away." },
+          { "audio_key": "a2_u7_l7_lr4", "text": "You really should see a doctor about that." },
+          { "audio_key": "a2_u7_l7_lr5", "text": "What about trying a different study method?" }
+        ]
+      }
+    },
+    {
+      "task_id": "t0707_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Meera says: 'I always feel very tired at work — I can't concentrate.' What is the BEST advice?",
+      "options": [
+        "You should drink more coffee throughout the day.",
+        "You should try to sleep 7-8 hours a night and eat regular meals.",
+        "You must stop working immediately.",
+        "You shouldn't go to work if you're tired."
+      ],
+      "correct_answer": "You should try to sleep 7-8 hours a night and eat regular meals.",
+      "explanation": "Practical, evidence-based advice for tiredness and lack of concentration — sleep and nutrition are the most helpful recommendations."
+    },
+    {
+      "task_id": "t0707_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Ravi says 'I missed my flight from Mumbai to Delhi. What should I do?' Which response uses advice language INCORRECTLY?",
+      "options": [
+        "You should go to the airline counter and ask about the next available flight.",
+        "If I were you, I would check if travel insurance covers this.",
+        "You must stayed calm and find a solution.",
+        "It might be worth calling your hotel to delay check-in."
+      ],
+      "correct_answer": "You must stayed calm and find a solution.",
+      "explanation": "MUST + stayed is wrong. MUST is followed by the BASE VERB: 'You must stay calm'."
+    },
+    {
+      "task_id": "t0707_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "A student says: 'I procrastinate a lot and can't finish my assignments on time.' Which is the SOFTEST advice?",
+      "options": [
+        "You must complete your assignments immediately.",
+        "You have to stop procrastinating now.",
+        "What about breaking your work into smaller tasks each day?",
+        "You shouldn't procrastinate at all."
+      ],
+      "correct_answer": "What about breaking your work into smaller tasks each day?",
+      "explanation": "'What about...?' is the softest and most gentle form of advice — it suggests an option without pressure."
+    },
+    {
+      "task_id": "t0707_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Kavya says: 'I spend a lot of money and can't save anything. I feel stressed.' What is the most HELPFUL and COMPLETE advice?",
+      "options": [
+        "You should stop spending money.",
+        "I suggest you track your monthly expenses, make a budget, and try to cook at home more often.",
+        "You must not buy anything this month.",
+        "Have you thought about getting a second job?"
+      ],
+      "correct_answer": "I suggest you track your monthly expenses, make a budget, and try to cook at home more often.",
+      "explanation": "This gives specific, practical, and multi-part advice — the most helpful response to a complex problem."
+    },
+    {
+      "task_id": "t0707_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Fill in the blanks with the correct advice phrase: should, could, might be worth, or why don't you.",
+      "items": [
+        {
+          "sentence": "You _____ talk to your doctor about the medication — it might be causing your symptoms.",
+          "answer": "should",
+          "hint": "Medical advice — use a clear recommendation."
+        },
+        {
+          "sentence": "It _____ checking if there's a cheaper flight option for your trip.",
+          "answer": "might be worth",
+          "hint": "This is a gentle suggestion — not urgent."
+        },
+        {
+          "sentence": "_____ try the new café on Brigade Road — their coffee is amazing!",
+          "answer": "Why don't you",
+          "hint": "A friendly suggestion in question form."
+        }
+      ]
+    },
+    {
+      "task_id": "t0707_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Complete each piece of advice with an appropriate ending.",
+      "items": [
+        {
+          "sentence": "If you're struggling with English grammar, I suggest you _____.",
+          "answer": "practise with exercises every day / find a language partner / take an online course",
+          "hint": "A practical suggestion for improving English."
+        },
+        {
+          "sentence": "If you feel overwhelmed at work, you could _____.",
+          "answer": "speak to your manager / make a priority list / take short breaks",
+          "hint": "A soft suggestion to manage stress at work."
+        },
+        {
+          "sentence": "If I were you and I had lost my wallet, I would _____.",
+          "answer": "cancel my cards immediately / report it to the police / call the bank",
+          "hint": "Urgent action advice for a lost wallet."
+        }
+      ]
+    },
+    {
+      "task_id": "t0707_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make correct advice sentences.",
+      "items": [
+        {
+          "words": ["Have", "you", "thought", "about", "speaking", "to", "a", "financial", "advisor?"],
+          "answer": "Have you thought about speaking to a financial advisor?"
+        },
+        {
+          "words": ["It", "might", "be", "worth", "calling", "the", "doctor", "today"],
+          "answer": "It might be worth calling the doctor today."
+        }
+      ]
+    },
+    {
+      "task_id": "t0707_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make correct advice sentences.",
+      "items": [
+        {
+          "words": ["If", "I", "were", "you", "I", "would", "make", "a", "daily", "study", "schedule"],
+          "answer": "If I were you, I would make a daily study schedule."
+        },
+        {
+          "words": ["What", "about", "trying", "a", "different", "approach", "to", "saving", "money?"],
+          "answer": "What about trying a different approach to saving money?"
+        }
+      ]
+    },
+    {
+      "task_id": "t0707_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the problem with the most appropriate piece of advice.",
+      "pairs": [
+        { "left": "I can't afford the rent this month.", "right": "Have you thought about speaking to your landlord about a short delay?" },
+        { "left": "I have a very bad toothache.", "right": "You really should see a dentist as soon as possible." },
+        { "left": "I keep failing vocabulary tests.", "right": "It might be worth making flashcards and reviewing them daily." },
+        { "left": "I missed my connecting train in Bangalore.", "right": "If I were you, I would go to the station counter and ask for the next train." },
+        { "left": "I feel very lonely after moving to a new city.", "right": "You could join some clubs or groups to meet new people." }
+      ]
+    },
+    {
+      "task_id": "t0707_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Advice Between Classmates — Hyderabad",
+      "dialogue": {
+        "context": "Ananya and Riya are college friends in Hyderabad. Ananya has several problems and is asking Riya for advice.",
+        "turns": [
+          { "speaker": "Ananya", "text": "Riya, I'm really struggling this semester. I don't know where to start." },
+          { "speaker": "Riya", "text": "Tell me what's going on. What are your biggest problems?" },
+          { "speaker": "Ananya", "text": "First, I keep failing my statistics exam. I just can't understand the formulas." },
+          { "speaker": "Riya", "text": "Have you thought about going to the professor's extra classes? They're free and really helpful." },
+          { "speaker": "Ananya", "text": "No, I didn't know about them! Also, I procrastinate all the time — I waste hours on social media." },
+          { "speaker": "Riya", "text": "If I were you, I would put my phone in another room when I'm studying. It really works. You could also try the Pomodoro technique — 25 minutes study, 5 minutes break." },
+          { "speaker": "Ananya", "text": "That sounds good. Another problem is that I spend too much money. I have no savings at all." },
+          { "speaker": "Riya", "text": "I suggest you write down everything you spend for one week — then you'll see where your money goes." },
+          { "speaker": "Ananya", "text": "Hmm, I probably spend too much on food delivery apps." },
+          { "speaker": "Riya", "text": "Exactly! You really should cook your own food at least five days a week. It saves so much money." },
+          { "speaker": "Ananya", "text": "And the last thing — I've been feeling very tired and I get headaches often." },
+          { "speaker": "Riya", "text": "You should definitely see a doctor about the headaches. It might be worth checking if you're getting enough sleep and drinking enough water too." },
+          { "speaker": "Ananya", "text": "You're right. I think I only sleep five hours a night." },
+          { "speaker": "Riya", "text": "You really shouldn't do that. Seven to eight hours is the minimum. Start tonight — go to bed by 10:30!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What does Riya suggest for Ananya's statistics problem?",
+            "options": ["Hire a private tutor", "Go to the professor's extra classes", "Study alone in the library", "Drop the subject"],
+            "correct_answer": "Go to the professor's extra classes"
+          },
+          {
+            "question": "What money-saving advice does Riya give?",
+            "options": ["Use food delivery apps more", "Cook her own food at least five days a week", "Get a part-time job", "Borrow money from friends"],
+            "correct_answer": "Cook her own food at least five days a week"
+          },
+          {
+            "question": "What does Riya say about Ananya's sleep?",
+            "options": ["Five hours is enough", "She should sleep six hours", "Seven to eight hours is the minimum", "She should take naps instead"],
+            "correct_answer": "Seven to eight hours is the minimum"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0707_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each advice sentence.",
+      "items": [
+        {
+          "sentence": "Have you thought to try meditation for stress?",
+          "error": "thought to try",
+          "correction": "thought about trying",
+          "explanation": "'Have you thought about + -ing?' is the correct structure — not 'thought to try'."
+        },
+        {
+          "sentence": "It might be worth to speak to a specialist.",
+          "error": "worth to speak",
+          "correction": "worth speaking",
+          "explanation": "'It might be worth + -ing' — the -ing form is required after 'worth', not 'to + verb'."
+        },
+        {
+          "sentence": "I suggest you to see a dentist soon.",
+          "error": "suggest you to see",
+          "correction": "suggest you see",
+          "explanation": "'I suggest + subject + base verb' (no 'to'). OR 'I suggest seeing a dentist' (-ing after suggest)."
+        }
+      ]
+    },
+    {
+      "task_id": "t0707_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "Your friend Suresh tells you he has been studying English for one year but still cannot speak confidently. He feels embarrassed to speak and avoids English conversations. He asks for your advice.",
+      "question": "Which is the MOST helpful and realistic advice?",
+      "options": [
+        "You mustn't speak English until you're perfect.",
+        "You should accept that you're just not good at languages.",
+        "I suggest you practise speaking every day — even just 10 minutes. You could also join a conversation club or find a language partner. Don't worry about making mistakes — it's the only way to improve!",
+        "Why don't you watch English TV with Hindi subtitles so you don't have to speak?"
+      ],
+      "correct_answer": "I suggest you practise speaking every day — even just 10 minutes. You could also join a conversation club or find a language partner. Don't worry about making mistakes — it's the only way to improve!",
+      "explanation": "This advice is practical, encouraging, and specific. It uses 'I suggest' and 'could' appropriately and addresses the fear of making mistakes."
+    },
+    {
+      "task_id": "t0707_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Your friend tells you they are feeling very stressed about money — they spend more than they earn and have no savings. Give them 5-6 pieces of practical advice using a variety of advice language. Speak for at least 60 seconds.",
+      "prompt": "Give advice to a friend with financial problems.",
+      "example_response": "I understand how stressful money problems can be. Here is my advice for you. First, I suggest you track every rupee you spend for the next two weeks. Write it down or use an app — you'll be surprised where your money goes. I think you should also make a monthly budget — list your income and all your expenses and see what's left. You really should stop using food delivery apps every day — they are very expensive. You could cook simple meals at home and save hundreds of rupees every week. Have you thought about cancelling subscriptions you don't use? Many people pay for apps and streaming services they forget about. If I were you, I would set up an automatic transfer to a savings account on salary day — even ₹500 a month is a start. And please don't feel embarrassed to speak to your bank — they often have helpful options for people who want to manage their money better.",
+      "key_phrases": ["I suggest you", "I think you should", "you really should", "you could", "have you thought about", "if I were you"],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0707_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Tell me about a time someone gave YOU good advice. What was the problem? What advice did they give? Did you follow it? What happened? Speak for at least 60 seconds.",
+      "prompt": "Talk about a time you received helpful advice.",
+      "example_response": "A few years ago, I was really struggling with my studies. I was in my first year of college and the workload was much more than school. I felt completely overwhelmed and didn't know how to manage my time. My older cousin, who had already completed his engineering degree, gave me some very helpful advice. He said I should stop trying to study everything at once and instead focus on one subject per day. He also suggested I should create a study timetable at the beginning of each week. He told me not to study for more than 90 minutes without a break, because the brain can't focus for too long. At first, I didn't follow all his advice — but after my first exam results were not good, I decided to take his advice seriously. I started making a weekly schedule and taking proper breaks. By the second semester, my marks improved a lot. His advice was simple but very effective, and I am grateful I listened!",
+      "key_phrases": ["he suggested", "he told me to", "he said I should", "his advice was", "I decided to follow", "it worked because"],
+      "min_words": 100
+    },
+    {
+      "task_id": "t0707_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this advice email using appropriate advice language. Choose from: should, shouldn't, could, might be worth, I suggest, have you thought about, if I were you.",
+      "paragraph": "Dear Priya,\n\nThank you for asking for my advice about your study problems. Here are some suggestions.\n\nFirst, I (1)_____ you start by speaking to your professor — they can help more than you think. You (2)_____ also try studying with a group — some students find this very helpful. (3)_____ joining an online study forum? Many students share notes and tips there.\n\n(4)_____ going to bed so late every night. Lack of sleep seriously affects your ability to concentrate. (5)_____ it speaking to a counsellor at your college — they are there to help students who feel overwhelmed.\n\n(6)_____, I would focus on just two or three subjects at a time instead of trying to revise everything at once. And please remember — you (7)_____ compare yourself to others. Everyone learns at their own pace.\n\nI hope this helps! Let me know how it goes.\n\nBest wishes, Anita",
+      "answers": ["suggest", "could", "Have you thought about", "You shouldn't", "It might be worth", "If I were you", "shouldn't"],
+      "hint": "Think about the structure that follows each phrase — is it base verb, -ing, or something else?"
+    },
+    {
+      "task_id": "t0707_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 7 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Strong advice: You really should / You must try / You have to...",
+          "Normal advice: You should / I think you should / If I were you, I would...",
+          "Soft advice: You could / Have you thought about...? / What about...? / It might be worth...",
+          "Asking for advice: What should I do? / Any tips for...? / What would you do?",
+          "Grammar patterns: suggest + -ing OR suggest + subject + base verb; worth + -ing; thought about + -ing",
+          "Real topics: travel, health, money, and study advice",
+          "Key vocab: struggle, manage, afford, deadline, procrastinate, budget, alternative, overwhelmed"
+        ],
+        "grammar_summary": "Different advice expressions need different grammar: 'I suggest + -ing' OR 'I suggest you + base verb'. 'It's worth + -ing'. 'Have you thought about + -ing?'",
+        "encouragement": "Outstanding work! You can now give advice confidently in many different real-world situations. This skill will make you sound natural and fluent. Congratulations! 🌟"
+      }
+    }
+  ]
+}

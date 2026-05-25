@@ -1,0 +1,36 @@
+﻿{
+    "estimated_minutes":  30,
+    "description":  "Review and consolidate all Unit 9 skills: present perfect, for/since, just/already/yet, and past simple contrast.",
+    "xp_reward":  200,
+    "lesson_number":  8,
+    "tasks":  [
+                  {
+                      "title":  "Unit 9 Review",
+                      "content":  {
+                                      "what_you_learned":  [
+                                                               "Present perfect formation (have/has + past participle)",
+                                                               "For and since with time expressions",
+                                                               "Just, already, and yet",
+                                                               "Difference between present perfect and past simple"
+                                                           ],
+                                      "congratulations":  "Great work completing Unit 9! You\u0027ve mastered the present perfect and past simple."
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "content":  {
+                                      "correct_index":  1,
+                                      "question":  "Which sentence uses present perfect correctly?",
+                                      "explanation":  "Use past participle \u0027seen\u0027 with \u0027have\u0027.",
+                                      "options":  [
+                                                      "I have saw him yesterday.",
+                                                      "I have seen that film twice.",
+                                                      "I have go to school."
+                                                  ]
+                                  },
+                      "type":  "mcq"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson08",
+    "title":  "Unit 9 Review"
+}

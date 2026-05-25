@@ -1,0 +1,363 @@
+{
+  "lesson_id": "a2_unit8_lesson02",
+  "unit": 8,
+  "lesson_number": 2,
+  "level": "A2",
+  "title": "The Best I've Ever — Superlatives with Experience",
+  "description": "Learn to use superlatives with 'ever' and present perfect to talk about the best, worst, most amazing experiences of your life.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0802_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Superlatives Review",
+      "content": {
+        "explanation": "You already know how to form superlatives. Let's review:\n\n📌 SHORT adjectives → the + -est:\n• cheap → the cheapest\n• fast → the fastest\n• big → the biggest\n• hot → the hottest\n\n📌 LONG adjectives → the most + adjective:\n• expensive → the most expensive\n• comfortable → the most comfortable\n• beautiful → the most beautiful\n\n📌 IRREGULAR superlatives:\n• good → the best\n• bad → the worst\n• far → the farthest / furthest\n\n✅ Examples:\n• This is the tallest building in Mumbai.\n• It was the most delicious biryani I have ever eaten.\n• He is the best cricketer in the team.",
+        "examples": [
+          "That was the funniest film I have seen this year.",
+          "This is the most expensive restaurant in the city.",
+          "She is the kindest person I know."
+        ],
+        "tip": "Always use 'the' before a superlative. Use 'most' for long adjectives (2+ syllables usually)."
+      }
+    },
+    {
+      "task_id": "t0802_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Superlatives with EVER",
+      "content": {
+        "explanation": "We combine superlatives with EVER + present perfect to talk about life experiences:\n\n🏆 PATTERN: the + superlative + I have ever + past participle\n\n✅ Examples:\n• It was the best meal I have EVER eaten.\n• She is the most intelligent person I have EVER met.\n• That was the worst film I have EVER seen.\n• This is the hottest day I have EVER experienced.\n• He is the funniest teacher I have EVER had.\n\n📌 CONTRACTION in speaking:\n• I have → I've\n• 'The best I've ever eaten' sounds more natural in conversation.\n\n📌 Asking about experiences:\n• What is the best place you have ever visited?\n• Who is the most interesting person you have ever spoken to?\n• What is the worst food you have ever tasted?\n\n📌 EVER = at any time in your life (up to now)\n• It is placed after the subject and have/has.",
+        "examples": [
+          "This is the most beautiful sunset I've ever seen.",
+          "That was the hardest exam I've ever taken.",
+          "She is the most talented singer I've ever heard.",
+          "This is the spiciest curry I've ever eaten!"
+        ],
+        "tip": "The pattern is: the + superlative + I've/he's/she's ever + PAST PARTICIPLE. In speaking, use contractions (I've, he's, she's)."
+      }
+    },
+    {
+      "task_id": "t0802_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Experience & Opinion Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "breathtaking", "meaning": "extremely beautiful or impressive; takes your breath away", "example": "The view from the hill was absolutely breathtaking." },
+          { "word": "unforgettable", "meaning": "so good or strong that you cannot forget it", "example": "Our trip to Kerala was truly unforgettable." },
+          { "word": "outstanding", "meaning": "exceptionally good; excellent", "example": "It was the most outstanding performance I've ever seen." },
+          { "word": "dreadful", "meaning": "extremely bad or unpleasant", "example": "That was the most dreadful food I've ever tasted." },
+          { "word": "mediocre", "meaning": "not very good; average quality", "example": "The service was mediocre — nothing special." },
+          { "word": "exceptional", "meaning": "unusually good; going beyond what is normal", "example": "Her work is truly exceptional." },
+          { "word": "overrated", "meaning": "described as better than it really is", "example": "That tourist spot is overrated — it wasn't that impressive." },
+          { "word": "worthwhile", "meaning": "worth the time, money, or effort", "example": "The long train journey was absolutely worthwhile." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0802_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Superlatives with Ever",
+      "content": {
+        "instruction": "Listen and repeat. Notice the natural rhythm and stress in these sentences.",
+        "items": [
+          { "audio_key": "a2_u8_l2_lr1", "text": "That was the best biryani I've ever eaten." },
+          { "audio_key": "a2_u8_l2_lr2", "text": "She is the most talented person I've ever met." },
+          { "audio_key": "a2_u8_l2_lr3", "text": "It was the worst journey I've ever experienced." },
+          { "audio_key": "a2_u8_l2_lr4", "text": "This is the most beautiful place I've ever visited." },
+          { "audio_key": "a2_u8_l2_lr5", "text": "That was the funniest film I've ever seen!" }
+        ]
+      }
+    },
+    {
+      "task_id": "t0802_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "That was the most delicious food I ever ate.",
+        "That was the most delicious food I've ever ate.",
+        "That was the most delicious food I've ever eaten.",
+        "That was the most delicious food I ever have eaten."
+      ],
+      "correct_answer": "That was the most delicious food I've ever eaten.",
+      "explanation": "The correct pattern is: the + superlative + I've ever + PAST PARTICIPLE. 'Eaten' is the past participle of 'eat'."
+    },
+    {
+      "task_id": "t0802_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Kavya visited the Himalayas and was amazed by the view. How would she best describe it?",
+      "options": [
+        "It was a very beautiful view.",
+        "The view was more beautiful than I expected.",
+        "It was the most breathtaking view I've ever seen.",
+        "The view was very the most beautiful."
+      ],
+      "correct_answer": "It was the most breathtaking view I've ever seen.",
+      "explanation": "The superlative + ever pattern is used for life-experience statements. This is the most natural and expressive way to say it."
+    },
+    {
+      "task_id": "t0802_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Which question correctly asks about someone's experience?",
+      "options": [
+        "What is the best place you ever visited?",
+        "What is the best place you've ever visited?",
+        "What is the best place you have ever visit?",
+        "What was the best place you've ever visiting?"
+      ],
+      "correct_answer": "What is the best place you've ever visited?",
+      "explanation": "Correct pattern: have/has + ever + past participle. 'Visited' is the past participle of 'visit'."
+    },
+    {
+      "task_id": "t0802_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Arjun had a terrible experience at a hotel. Which sentence expresses this most strongly?",
+      "options": [
+        "The hotel was not very good.",
+        "The hotel was bad.",
+        "The hotel was worse than I expected.",
+        "It was the worst hotel I've ever stayed in."
+      ],
+      "correct_answer": "It was the worst hotel I've ever stayed in.",
+      "explanation": "Superlative + ever makes the strongest statement about a life experience. This is the most emphatic and natural option."
+    },
+    {
+      "task_id": "t0802_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Complete the sentence using the superlative form and the correct past participle.",
+      "items": [
+        {
+          "sentence": "That concert was _____ (amazing) experience _____ ever had. (I)",
+          "answer": "the most amazing / I've ever had",
+          "hint": "Long adjective → the most ___ / Use 'have' contraction."
+        },
+        {
+          "sentence": "This is _____ (hot) summer _____ remember. (I)",
+          "answer": "the hottest / I can ever remember",
+          "hint": "Short adjective → double t + est / remember stays as base verb here."
+        },
+        {
+          "sentence": "She is _____ (talented) student _____ taught. (he)",
+          "answer": "the most talented / he's ever taught",
+          "hint": "Long adjective / Third person singular: he's ever + past participle."
+        }
+      ]
+    },
+    {
+      "task_id": "t0802_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Write the full superlative + ever sentence from the prompts.",
+      "items": [
+        {
+          "sentence": "good / meal / eat → That was _____.",
+          "answer": "That was the best meal I've ever eaten.",
+          "hint": "Irregular superlative: good → best."
+        },
+        {
+          "sentence": "difficult / exam / take → It was _____.",
+          "answer": "It was the most difficult exam I've ever taken.",
+          "hint": "Long adjective → the most difficult."
+        },
+        {
+          "sentence": "bad / flight / experience → That was _____.",
+          "answer": "That was the worst flight I've ever experienced.",
+          "hint": "Irregular superlative: bad → worst."
+        }
+      ]
+    },
+    {
+      "task_id": "t0802_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a correct superlative + ever sentence.",
+      "items": [
+        {
+          "words": ["That", "was", "the", "spiciest", "curry", "I've", "ever", "tasted"],
+          "answer": "That was the spiciest curry I've ever tasted."
+        },
+        {
+          "words": ["She", "is", "the", "most", "hardworking", "colleague", "I've", "ever", "worked", "with"],
+          "answer": "She is the most hardworking colleague I've ever worked with."
+        }
+      ]
+    },
+    {
+      "task_id": "t0802_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a correct superlative + ever sentence.",
+      "items": [
+        {
+          "words": ["This", "is", "the", "most", "beautiful", "saree", "I've", "ever", "seen"],
+          "answer": "This is the most beautiful saree I've ever seen."
+        },
+        {
+          "words": ["What", "is", "the", "best", "book", "you've", "ever", "read?"],
+          "answer": "What is the best book you've ever read?"
+        }
+      ]
+    },
+    {
+      "task_id": "t0802_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the experience with the correct superlative + ever sentence.",
+      "pairs": [
+        { "left": "An amazing trip to Rajasthan", "right": "It was the most unforgettable holiday I've ever taken." },
+        { "left": "A very tough university entrance exam", "right": "It was the hardest exam I've ever faced." },
+        { "left": "Meeting a very kind professor", "right": "She was the most helpful teacher I've ever had." },
+        { "left": "Eating terrible street food", "right": "It was the worst food I've ever eaten." },
+        { "left": "Watching a stunning Bharatanatyam performance", "right": "It was the most beautiful dance I've ever seen." }
+      ]
+    },
+    {
+      "task_id": "t0802_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Talking About Travel Experiences — Bangalore",
+      "dialogue": {
+        "context": "Sonal and Vikram are colleagues in Bangalore talking about their recent travels during their lunch break.",
+        "turns": [
+          { "speaker": "Sonal", "text": "Vikram, you went to Meghalaya last month, right? How was it?" },
+          { "speaker": "Vikram", "text": "Sonal, it was absolutely incredible! Honestly, it was the most beautiful place I've ever visited." },
+          { "speaker": "Sonal", "text": "Really? Even better than Goa?" },
+          { "speaker": "Vikram", "text": "Completely different but yes — the living root bridges and the waterfalls were the most breathtaking things I've ever seen." },
+          { "speaker": "Sonal", "text": "Wow! And the food? I've heard Northeast Indian food is very different." },
+          { "speaker": "Vikram", "text": "It was the most unique food I've ever tried. Smoked pork with bamboo shoots — I've never tasted anything like it!" },
+          { "speaker": "Sonal", "text": "Was the journey difficult? Meghalaya seems quite far from here." },
+          { "speaker": "Vikram", "text": "The connecting flight from Guwahati was the bumpiest flight I've ever been on — but so worth it!" },
+          { "speaker": "Sonal", "text": "Did you stay in a nice place?" },
+          { "speaker": "Vikram", "text": "Yes! A small homestay — it was the most welcoming accommodation I've ever experienced. The family was incredibly kind." },
+          { "speaker": "Sonal", "text": "That sounds magical. I went to Coorg recently — it was the greenest and most peaceful place I've ever seen in Karnataka." },
+          { "speaker": "Vikram", "text": "Oh, Coorg is wonderful! Have you ever been somewhere that surprised you completely?" },
+          { "speaker": "Sonal", "text": "Yes — Hampi! I had no expectations but it was the most historically fascinating place I've ever explored." },
+          { "speaker": "Vikram", "text": "We should plan a trip together next time. I want to visit Hampi — it sounds outstanding!" }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What does Vikram say was the most breathtaking thing he has ever seen in Meghalaya?",
+            "options": ["The food", "The homestay", "The living root bridges and waterfalls", "The bumpy flight"],
+            "correct_answer": "The living root bridges and waterfalls"
+          },
+          {
+            "question": "What kind of accommodation did Vikram stay in?",
+            "options": ["A five-star hotel", "A resort by the beach", "A small homestay", "A tent camp"],
+            "correct_answer": "A small homestay"
+          },
+          {
+            "question": "What does Sonal say surprised her the most?",
+            "options": ["Coorg's greenery", "Hampi — the most historically fascinating place she's visited", "The Meghalaya food", "The flight to the Northeast"],
+            "correct_answer": "Hampi — the most historically fascinating place she's visited"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0802_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find and correct the mistake in each sentence.",
+      "items": [
+        {
+          "sentence": "That was the most best film I've ever seen.",
+          "error": "the most best",
+          "correction": "the best",
+          "explanation": "'Best' is already the superlative of 'good'. NEVER say 'the most best'."
+        },
+        {
+          "sentence": "It was the most delicious food I've ever eat.",
+          "error": "ever eat",
+          "correction": "ever eaten",
+          "explanation": "After 'have/has ever', use the PAST PARTICIPLE. 'Eaten' is the past participle of 'eat'."
+        },
+        {
+          "sentence": "She is the more talented singer I've ever heard.",
+          "error": "the more talented",
+          "correction": "the most talented",
+          "explanation": "In a superlative, use 'the most' — not 'the more' (which is comparative, not superlative)."
+        }
+      ]
+    },
+    {
+      "task_id": "t0802_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You are writing a review of a restaurant you visited in Chennai. The food was exceptional, the service was incredibly attentive, and the ambience was beautiful — it was the best restaurant experience you have ever had. How do you start your review?",
+      "question": "Which opening sentence uses superlatives most effectively?",
+      "options": [
+        "This restaurant is good.",
+        "I liked this restaurant a lot.",
+        "This is the best restaurant I've ever visited — the food was outstanding, the service was exceptional, and the ambience was the most beautiful I've ever experienced.",
+        "The food here is more delicious than other restaurants."
+      ],
+      "correct_answer": "This is the best restaurant I've ever visited — the food was outstanding, the service was exceptional, and the ambience was the most beautiful I've ever experienced.",
+      "explanation": "This uses superlatives + ever correctly and with impact. It communicates a life-best experience clearly and naturally."
+    },
+    {
+      "task_id": "t0802_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Tell me about the best travel experience you have ever had. Where did you go? What made it so special? Use superlatives with 'ever' to describe it. Speak for at least 70 seconds.",
+      "prompt": "Describe the best travel experience you've ever had.",
+      "example_response": "The best trip I have ever taken was to Kerala during the monsoon season. It was the most lush and green landscape I have ever seen in my life — the backwaters of Alleppey were absolutely stunning. We stayed on a houseboat for one night and it was the most peaceful and romantic experience I've ever had. The food in Kerala was exceptional — the fish curry was the most flavourful dish I've ever tasted. The people were incredibly warm and welcoming. The rain made everything feel even more magical. The coconut trees and rice paddies were the most beautiful scenery I've ever seen. It was also the most relaxing holiday I've ever experienced because there was no rush — we just floated slowly through the water. I would say Kerala in monsoon is the most underrated travel destination in India and I highly recommend it to everyone.",
+      "key_phrases": ["the best... I've ever", "the most... I've ever", "the most... thing I've ever seen / tasted / experienced", "absolutely", "truly"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0802_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "Tell me about the worst experience you've ever had — it could be a bad meal, a terrible journey, a disappointing film, or a difficult day. Use superlatives with 'ever' and explain what happened. Speak for at least 70 seconds.",
+      "prompt": "Describe the worst experience you've ever had using superlatives with 'ever'.",
+      "example_response": "I would say the worst journey I have ever experienced was a bus trip from Bangalore to Mysore during a festival. It was the most crowded bus I have ever been on — people were standing in the aisle and some were even sitting on the roof! The traffic was the worst I have ever seen — we were stuck for almost four hours on a stretch that normally takes one. It was also the hottest day of the year, and the bus had no air conditioning. The smell was the most unpleasant I have ever encountered on a public bus! By the time we arrived, it was nearly midnight — it had taken seven hours for a two-hour journey. That was the most exhausting and frustrating day of my entire life. I have never taken a bus during a festival holiday since then. The lesson I learned was to always book a private car for such trips in advance!",
+      "key_phrases": ["the worst... I've ever", "the most... I've ever", "the most... experience", "I have never... since"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0802_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Complete this travel blog extract using the superlative + ever pattern.",
+      "paragraph": "Last weekend, I visited Pondicherry and I have to say it was (1)_____ (charming) town I've ever explored in South India. The French Quarter was (2)_____ (picturesque) neighbourhood I've ever walked through — every street was a perfect photo opportunity. The beachside promenade at sunset was (3)_____ (beautiful) view I've ever captured on my phone. We ate at a small café and the crêpes were (4)_____ (good) I've ever tasted — even better than any I had in France! The hotel we stayed in was (5)_____ (comfortable) place I've ever slept — the beds were incredibly soft. The one downside was the auto-rickshaw driver we had in the morning — he was (6)_____ (rude) person I've ever met during a trip. But overall, Pondicherry is (7)_____ (interesting) mix of Indian and French culture I've ever experienced.",
+      "answers": [
+        "the most charming",
+        "the most picturesque",
+        "the most beautiful",
+        "the best",
+        "the most comfortable",
+        "the rudest",
+        "the most interesting"
+      ],
+      "hint": "Some adjectives take '-est', others take 'the most'. Irregular: good → best."
+    },
+    {
+      "task_id": "t0802_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 2 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Superlative review: the + -est (short) / the most (long) / best / worst (irregular)",
+          "Pattern: the + superlative + I've / he's / she's + ever + PAST PARTICIPLE",
+          "Examples: the best I've ever eaten / the most beautiful I've ever seen",
+          "In questions: What is the best place you've ever visited?",
+          "NEVER say 'the most best' — 'best' is already a superlative",
+          "NEVER say 'ever eat' — always use the past participle (eaten)",
+          "Key vocab: breathtaking, unforgettable, outstanding, dreadful, mediocre, exceptional, overrated, worthwhile"
+        ],
+        "grammar_summary": "Superlative + EVER = talking about life experiences. Pattern: the + superlative + subject + 've ever + past participle. This structure works in conversation, reviews, and storytelling.",
+        "encouragement": "Wonderful work! You can now describe life experiences in a vivid, expressive way. This is the language of storytelling and reviews — essential for real-world communication. Keep going! 🌟"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Ask and answer questions about life experiences using the present perfect.",
+    "xp_reward":  150,
+    "lesson_number":  2,
+    "tasks":  [
+                  {
+                      "title":  "Have You Ever…?",
+                      "content":  {
+                                      "patterns":  [
+                                                       {
+                                                           "pattern":  "Have you ever + past participle?",
+                                                           "examples":  [
+                                                                            "Have you ever eaten Thai food?",
+                                                                            "Have you ever met a famous person?"
+                                                                        ]
+                                                       }
+                                                   ],
+                                      "items":  [
+                                                    {
+                                                        "phrase":  "I have.",
+                                                        "note":  "Short positive answer"
+                                                    },
+                                                    {
+                                                        "phrase":  "No, never.",
+                                                        "note":  "Short negative answer"
+                                                    }
+                                                ],
+                                      "explanation":  "Use \u0027Have you ever…?\u0027 to ask about experiences at any time in someone\u0027s life."
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "title":  "Talk about your experiences",
+                      "content":  {
+                                      "instruction":  "Tell me three things you have done in your life.",
+                                      "example_response":  "I have visited three countries. I have tried many different foods. I have learned two languages.",
+                                      "key_phrases":  [
+                                                          "I have",
+                                                          "I\u0027ve never",
+                                                          "Have you ever"
+                                                      ]
+                                  },
+                      "type":  "speaking"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson02",
+    "title":  "Have You Ever…?"
+}

@@ -1,0 +1,362 @@
+{
+  "lesson_id": "a2_unit8_lesson03",
+  "unit": 8,
+  "lesson_number": 3,
+  "level": "A2",
+  "title": "Adjective Order — A Beautiful Old Red Wooden Box",
+  "description": "Learn the correct order for using multiple adjectives before a noun — one of the most important rules for sounding natural in English.",
+  "estimated_minutes": 25,
+  "xp_reward": 150,
+  "tasks": [
+    {
+      "task_id": "t0803_01",
+      "type": "learn_card",
+      "order": 1,
+      "title": "Why Adjective Order Matters",
+      "content": {
+        "explanation": "In English, when we use MORE than one adjective before a noun, they must go in a specific order. Native speakers naturally follow this order without thinking about it.\n\n🔴 WRONG ORDER (sounds very unnatural):\n• a wooden old big brown box ❌\n\n✅ CORRECT ORDER (sounds completely natural):\n• a big old brown wooden box ✅\n\n📋 THE ADJECTIVE ORDER RULE:\n1. OPINION/GENERAL → beautiful, lovely, awful, interesting, strange\n2. SIZE → big, small, tall, tiny, huge\n3. AGE → old, young, new, ancient, modern\n4. SHAPE → round, square, flat, oval\n5. COLOUR → red, blue, dark, pale\n6. ORIGIN → Indian, French, Chinese, South Indian\n7. MATERIAL → wooden, cotton, leather, plastic, gold\n8. PURPOSE → running (shoes), sleeping (bag), dining (table)\n\n🎯 EASY MEMORY TIP: 'OSASCOMP'\nOpinion → Size → Age → Shape → Colour → Origin → Material → Purpose",
+        "examples": [
+          "a lovely small old square gold ring",
+          "a beautiful long red silk saree",
+          "a big new black leather bag",
+          "a tiny ancient round silver coin"
+        ],
+        "tip": "You don't usually use more than 2-3 adjectives together in normal speech. But when you do, the order must be right!"
+      }
+    },
+    {
+      "task_id": "t0803_02",
+      "type": "learn_card",
+      "order": 2,
+      "title": "Adjective Order — Practical Examples",
+      "content": {
+        "explanation": "Let's see adjective order in real, everyday situations:\n\n🛍️ SHOPPING / DESCRIBING OBJECTS:\n• a beautiful blue cotton kurta (opinion → colour → material)\n• a small new silver laptop (size → age → colour)\n• a large old wooden dining table (size → age → material → purpose)\n\n🏠 DESCRIBING PLACES:\n• a lovely small cosy flat (opinion → size → opinion)\n• a huge modern glass building (size → age → material)\n\n👤 DESCRIBING PEOPLE:\n• a tall young Indian woman (size → age → origin)\n• a little old man (size → age)\n\n⚠️ COMMA RULE:\n• Adjectives of the SAME type need a comma between them:\n  → a dark, stormy night (two opinions)\n  → a tall, slim woman (two sizes)\n• Adjectives of DIFFERENT types do NOT need a comma:\n  → a beautiful young woman (no comma)",
+        "examples": [
+          "She was wearing a gorgeous long green silk saree.",
+          "He lives in a small old stone house in the hills.",
+          "They bought a beautiful large round wooden dining table.",
+          "I found a tiny old brass coin at the market."
+        ],
+        "tip": "Same adjective type = comma. Different adjective types = no comma."
+      }
+    },
+    {
+      "task_id": "t0803_03",
+      "type": "learn_card",
+      "order": 3,
+      "title": "Describing Objects Vocabulary",
+      "content": {
+        "vocabulary": [
+          { "word": "ornate", "meaning": "decorated with a lot of detailed patterns", "example": "She bought an ornate silver jewellery box." },
+          { "word": "antique", "meaning": "old and valuable or interesting", "example": "My grandmother has an antique wooden clock." },
+          { "word": "sleek", "meaning": "smooth, modern, and stylish", "example": "He has a sleek new black laptop." },
+          { "word": "embroidered", "meaning": "decorated with patterns sewn in thread", "example": "She wore a beautiful embroidered cotton top." },
+          { "word": "handmade", "meaning": "made by hand, not by machine", "example": "I bought a lovely handmade clay pot from the market." },
+          { "word": "sturdy", "meaning": "strong and solid; not likely to break", "example": "We need a big sturdy wooden table for the garden." },
+          { "word": "fragile", "meaning": "easily broken or damaged", "example": "Please handle the small glass figurine carefully — it's fragile." },
+          { "word": "intricate", "meaning": "having many small, detailed parts", "example": "The jewellery had intricate gold patterns." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0803_04",
+      "type": "listen_repeat",
+      "order": 4,
+      "title": "Listen & Repeat — Adjective Order Phrases",
+      "content": {
+        "instruction": "Listen and repeat. Notice how the adjectives flow naturally in the correct order.",
+        "items": [
+          { "audio_key": "a2_u8_l3_lr1", "text": "She was wearing a beautiful long red silk saree." },
+          { "audio_key": "a2_u8_l3_lr2", "text": "They have a big old brown leather sofa." },
+          { "audio_key": "a2_u8_l3_lr3", "text": "He bought a small new silver watch." },
+          { "audio_key": "a2_u8_l3_lr4", "text": "It's a lovely little antique wooden box." },
+          { "audio_key": "a2_u8_l3_lr5", "text": "We visited a beautiful ancient stone temple." }
+        ]
+      }
+    },
+    {
+      "task_id": "t0803_05",
+      "type": "mcq",
+      "order": 5,
+      "question": "Which sentence has the adjectives in the CORRECT order?",
+      "options": [
+        "a wooden old big round table",
+        "a big old round wooden table",
+        "a round old wooden big table",
+        "a big wooden round old table"
+      ],
+      "correct_answer": "a big old round wooden table",
+      "explanation": "Correct order: SIZE (big) → AGE (old) → SHAPE (round) → MATERIAL (wooden). This follows the OSASCOMP rule."
+    },
+    {
+      "task_id": "t0803_06",
+      "type": "mcq",
+      "order": 6,
+      "question": "Which phrase is in the CORRECT adjective order?",
+      "options": [
+        "a cotton beautiful long blue saree",
+        "a beautiful long blue cotton saree",
+        "a long blue beautiful cotton saree",
+        "a blue cotton beautiful long saree"
+      ],
+      "correct_answer": "a beautiful long blue cotton saree",
+      "explanation": "Correct order: OPINION (beautiful) → SIZE (long) → COLOUR (blue) → MATERIAL (cotton). Opinion always comes first."
+    },
+    {
+      "task_id": "t0803_07",
+      "type": "mcq",
+      "order": 7,
+      "question": "Meera found an old coin at an antique market. It is small, round, gold, and ancient. What is the CORRECT description?",
+      "options": [
+        "a gold small round ancient coin",
+        "an ancient round gold small coin",
+        "a small ancient round gold coin",
+        "a round small gold ancient coin"
+      ],
+      "correct_answer": "a small ancient round gold coin",
+      "explanation": "Correct order: SIZE (small) → AGE (ancient) → SHAPE (round) → COLOUR/MATERIAL (gold). SIZE comes before AGE."
+    },
+    {
+      "task_id": "t0803_08",
+      "type": "mcq",
+      "order": 8,
+      "question": "Which sentence correctly describes a kurta?",
+      "options": [
+        "He wore a cotton white long beautiful kurta.",
+        "He wore a beautiful long white cotton kurta.",
+        "He wore a long beautiful cotton white kurta.",
+        "He wore a white beautiful long cotton kurta."
+      ],
+      "correct_answer": "He wore a beautiful long white cotton kurta.",
+      "explanation": "OPINION (beautiful) → SIZE (long) → COLOUR (white) → MATERIAL (cotton). This is the correct adjective order."
+    },
+    {
+      "task_id": "t0803_09",
+      "type": "fill_blank",
+      "order": 9,
+      "instruction": "Put the adjectives in the correct order to complete the sentence.",
+      "items": [
+        {
+          "sentence": "She carries a _____ bag everywhere. (leather / small / black / lovely)",
+          "answer": "lovely small black leather",
+          "hint": "Opinion → Size → Colour → Material"
+        },
+        {
+          "sentence": "We sat around a _____ table. (round / dining / large / teak)",
+          "answer": "large round teak dining",
+          "hint": "Size → Shape → Material → Purpose"
+        },
+        {
+          "sentence": "He has a _____ phone. (new / sleek / Chinese / black / small)",
+          "answer": "sleek small new black Chinese",
+          "hint": "Opinion → Size → Age → Colour → Origin"
+        }
+      ]
+    },
+    {
+      "task_id": "t0803_10",
+      "type": "fill_blank",
+      "order": 10,
+      "instruction": "Correct the adjective order in each sentence.",
+      "items": [
+        {
+          "sentence": "She was wearing a silk red long beautiful saree.",
+          "answer": "She was wearing a beautiful long red silk saree.",
+          "hint": "Opinion → Size → Colour → Material"
+        },
+        {
+          "sentence": "We visited an stone ancient beautiful temple.",
+          "answer": "We visited a beautiful ancient stone temple.",
+          "hint": "Opinion → Age → Material"
+        },
+        {
+          "sentence": "He bought a leather brown big new bag.",
+          "answer": "He bought a big new brown leather bag.",
+          "hint": "Size → Age → Colour → Material"
+        }
+      ]
+    },
+    {
+      "task_id": "t0803_11",
+      "type": "sort_words",
+      "order": 11,
+      "instruction": "Rearrange the words to make a sentence with correct adjective order.",
+      "items": [
+        {
+          "words": ["My", "grandmother", "has", "a", "beautiful", "old", "brass", "lamp"],
+          "answer": "My grandmother has a beautiful old brass lamp."
+        },
+        {
+          "words": ["They", "sell", "lovely", "small", "handmade", "clay", "pots", "at", "the", "market"],
+          "answer": "They sell lovely small handmade clay pots at the market."
+        }
+      ]
+    },
+    {
+      "task_id": "t0803_12",
+      "type": "sort_words",
+      "order": 12,
+      "instruction": "Rearrange the words to make a sentence with correct adjective order.",
+      "items": [
+        {
+          "words": ["She", "found", "a", "tiny", "ancient", "round", "gold", "coin"],
+          "answer": "She found a tiny ancient round gold coin."
+        },
+        {
+          "words": ["We", "stayed", "in", "a", "beautiful", "small", "old", "stone", "guesthouse"],
+          "answer": "We stayed in a beautiful small old stone guesthouse."
+        }
+      ]
+    },
+    {
+      "task_id": "t0803_13",
+      "type": "match_pairs",
+      "order": 13,
+      "instruction": "Match the scrambled adjective group with the correct ordered version.",
+      "pairs": [
+        { "left": "cotton / blue / long / beautiful", "right": "a beautiful long blue cotton saree" },
+        { "left": "wooden / old / large / round", "right": "a large old round wooden table" },
+        { "left": "gold / tiny / antique / round", "right": "a tiny antique round gold pendant" },
+        { "left": "black / new / sleek / Italian", "right": "a sleek new black Italian motorbike" },
+        { "left": "stone / beautiful / ancient / huge", "right": "a beautiful huge ancient stone fort" }
+      ]
+    },
+    {
+      "task_id": "t0803_14",
+      "type": "dialogue",
+      "order": 14,
+      "title": "Shopping at a Craft Market — Jaipur",
+      "dialogue": {
+        "context": "Priya and her cousin Arun are shopping at a traditional craft market in Jaipur. They are describing and deciding what to buy.",
+        "turns": [
+          { "speaker": "Priya", "text": "Arun, look at this! Isn't it gorgeous?" },
+          { "speaker": "Arun", "text": "Oh wow — what is it exactly?" },
+          { "speaker": "Priya", "text": "It's a beautiful large brass elephant — a traditional Rajasthani one. I think it would look perfect in our living room." },
+          { "speaker": "Arun", "text": "It's stunning. And look at those intricate patterns on it! What about this one next to it?" },
+          { "speaker": "Priya", "text": "That's a small old silver mirror — probably antique. I love the ornate round frame." },
+          { "speaker": "Arun", "text": "It's lovely. But it might be too fragile. What about the fabric section? I want to find something for Amma." },
+          { "speaker": "Priya", "text": "Good idea! Oh, Arun — look at this beautiful long red silk dupatta. Amma would love it." },
+          { "speaker": "Arun", "text": "It's perfect. And it's not expensive at all. What about this blue one?" },
+          { "speaker": "Priya", "text": "That's a lovely deep blue embroidered cotton dupatta — also very nice. But I prefer the red silk one." },
+          { "speaker": "Arun", "text": "Let's get both — they're both beautiful. Oh! Look at this box over here." },
+          { "speaker": "Priya", "text": "That's a gorgeous little antique wooden jewellery box. The carving is so detailed!" },
+          { "speaker": "Arun", "text": "How much is it? It looks like it could be expensive." },
+          { "speaker": "Priya", "text": "Only ₹800. For a beautiful handmade old Rajasthani wooden box? That's a bargain!" },
+          { "speaker": "Arun", "text": "Let's buy everything then! This market is incredible." }
+        ],
+        "comprehension_questions": [
+          {
+            "question": "What does Priya want to buy for the living room?",
+            "options": ["A small silver mirror", "A beautiful large brass elephant", "A red silk dupatta", "A wooden jewellery box"],
+            "correct_answer": "A beautiful large brass elephant"
+          },
+          {
+            "question": "Which dupatta does Priya prefer?",
+            "options": ["The blue cotton one", "The embroidered one", "The beautiful long red silk one", "The small antique one"],
+            "correct_answer": "The beautiful long red silk one"
+          },
+          {
+            "question": "How much does the wooden jewellery box cost?",
+            "options": ["₹500", "₹800", "₹1,200", "₹2,000"],
+            "correct_answer": "₹800"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "t0803_15",
+      "type": "error_correction",
+      "order": 15,
+      "instruction": "Find the adjective order mistake and write the correct version.",
+      "items": [
+        {
+          "sentence": "She wore a silk blue long beautiful saree to the wedding.",
+          "error": "silk blue long beautiful",
+          "correction": "beautiful long blue silk",
+          "explanation": "Correct order: Opinion (beautiful) → Size (long) → Colour (blue) → Material (silk)."
+        },
+        {
+          "sentence": "He drives a German black new big car.",
+          "error": "German black new big",
+          "correction": "big new black German",
+          "explanation": "Correct order: Size (big) → Age (new) → Colour (black) → Origin (German)."
+        },
+        {
+          "sentence": "They bought a round wooden old lovely table.",
+          "error": "round wooden old lovely",
+          "correction": "lovely old round wooden",
+          "explanation": "Correct order: Opinion (lovely) → Age (old) → Shape (round) → Material (wooden)."
+        }
+      ]
+    },
+    {
+      "task_id": "t0803_16",
+      "type": "scenario_mcq",
+      "order": 16,
+      "scenario": "You want to describe a gift you received — a necklace that is old, beautiful, made of gold, and shaped like a small leaf. How do you describe it correctly?",
+      "question": "Which is the correct description?",
+      "options": [
+        "It's a gold beautiful small old leaf-shaped necklace.",
+        "It's a small old gold beautiful leaf-shaped necklace.",
+        "It's a beautiful small old gold leaf-shaped necklace.",
+        "It's a leaf-shaped beautiful old small gold necklace."
+      ],
+      "correct_answer": "It's a beautiful small old gold leaf-shaped necklace.",
+      "explanation": "Opinion (beautiful) → Size (small) → Age (old) → Colour/Material (gold) → Shape/Purpose (leaf-shaped). This follows the correct OSASCOMP order."
+    },
+    {
+      "task_id": "t0803_17",
+      "type": "speaking",
+      "order": 17,
+      "instruction": "Describe 4-5 objects in your home using at least 2 adjectives for each one. Make sure your adjectives are in the correct order. Speak for at least 60 seconds.",
+      "prompt": "Describe objects in your home using multiple adjectives in the correct order.",
+      "example_response": "Let me describe some things in my home. First, we have a large old dark wooden dining table in our main room — my grandfather bought it over 40 years ago and it's still very sturdy. Next to it are six small round plastic chairs. In the corner, there is a beautiful tall brass lamp that my mother brought from a temple shop in Tirupati. In my bedroom, I have a comfortable large new cotton mattress that I bought last year. On my desk, there is a sleek new black plastic laptop that I use for work. My favourite object is a tiny ancient gold ring that belonged to my great-grandmother — it has a beautiful round stone in the middle. And finally, we have a lovely old heavy iron key that we use as a paperweight — we don't even know which door it belongs to!",
+      "key_phrases": ["a [opinion] [size] [age] [colour] [material] [noun]", "it's a", "there is a"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0803_18",
+      "type": "speaking",
+      "order": 18,
+      "instruction": "You are at a craft market or textile shop. Describe 4-5 things you see using multiple adjectives in the correct order. You can describe clothes, jewellery, furniture, or handicrafts. Speak for at least 60 seconds.",
+      "prompt": "Describe items at a craft market using correct adjective order.",
+      "example_response": "I'm at a beautiful craft market in Mysore and there are so many amazing things here. First, I can see a large round brass tray with intricate flower patterns carved into it — it looks like traditional South Indian design. Next to it is a small old silver oil lamp — the kind you use for puja at home. On the fabric stall, there is a gorgeous long green silk Mysore silk saree — it's shimmering in the sunlight! There are also some beautiful small colourful cotton bags that are handmade by local women's groups. I can see a lovely old wooden dancing Ganesha statue that is quite large — maybe 30 centimetres tall. And on the last stall, there are some fascinating tiny ancient brass temple bells that make a beautiful sound when you ring them. Everything here is so unique and represents the incredible craftsmanship of Karnataka.",
+      "key_phrases": ["I can see a [adjectives] [noun]", "there is a [adjectives] [noun]", "next to it is a [adjectives] [noun]"],
+      "min_words": 90
+    },
+    {
+      "task_id": "t0803_19",
+      "type": "fill_blank",
+      "order": 19,
+      "instruction": "Put the adjectives in the correct order to complete this description of a traditional Indian home.",
+      "paragraph": "My ancestral home in Kerala is a wonderful place. It is a (1: large / old / beautiful / Kerala-style) _____ house with high ceilings and wooden beams. The main hall has a (2: brass / antique / heavy / round) _____ lamp hanging from the ceiling. In the prayer room, there is a (3: small / gold / beautiful / carved) _____ idol of Ganesha. The kitchen has a (4: large / round / stone / old) _____ grinding stone that my grandmother still uses every morning. On the veranda, there are (5: wooden / rocking / lovely / two / old) _____ chairs where the elders sit in the evenings. The walls are decorated with (6: intricate / old / circular / brass) _____ mirrors. It is one of the most beautiful places I have ever seen.",
+      "answers": [
+        "beautiful large old Kerala-style",
+        "beautiful antique heavy round brass",
+        "beautiful small carved gold",
+        "large old round stone",
+        "two lovely old wooden rocking",
+        "beautiful old intricate circular brass"
+      ],
+      "hint": "Remember OSASCOMP: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose"
+    },
+    {
+      "task_id": "t0803_20",
+      "type": "lesson_summary",
+      "order": 20,
+      "title": "Lesson 3 Complete! 🎉",
+      "content": {
+        "what_you_learned": [
+          "Adjective order rule: Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose",
+          "Memory trick: OSASCOMP",
+          "Same-type adjectives need a comma; different-type adjectives do not",
+          "Never use more than 3-4 adjectives in one phrase in normal speech",
+          "Common patterns: opinion + size + colour + material / opinion + age + material",
+          "Key vocab: ornate, antique, sleek, embroidered, handmade, sturdy, fragile, intricate"
+        ],
+        "grammar_summary": "When using multiple adjectives before a noun, follow OSASCOMP order: Opinion, Size, Age, Shape, Colour, Origin, Material, Purpose. This makes English sound natural and fluent.",
+        "encouragement": "Brilliant! Adjective order is one of the most noticeable markers of advanced English. You now know the rule that native speakers follow instinctively. Keep practising! 🏆"
+      }
+    }
+  ]
+}

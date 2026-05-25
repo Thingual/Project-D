@@ -1,0 +1,48 @@
+﻿{
+    "estimated_minutes":  25,
+    "description":  "Add detail to present perfect sentences using just, already and yet.",
+    "xp_reward":  150,
+    "lesson_number":  4,
+    "tasks":  [
+                  {
+                      "title":  "Just, Already \u0026 Yet",
+                      "content":  {
+                                      "items":  [
+                                                    {
+                                                        "phrase":  "I\u0027ve just arrived.",
+                                                        "note":  "JUST — very recently"
+                                                    },
+                                                    {
+                                                        "phrase":  "She\u0027s already finished.",
+                                                        "note":  "ALREADY — sooner than expected"
+                                                    },
+                                                    {
+                                                        "phrase":  "Have you eaten yet?",
+                                                        "note":  "YET — in questions"
+                                                    },
+                                                    {
+                                                        "phrase":  "I haven\u0027t started yet.",
+                                                        "note":  "YET — in negatives"
+                                                    }
+                                                ],
+                                      "explanation":  "JUST = a very short time ago. ALREADY = sooner than expected. YET = up to now (negatives \u0026 questions)."
+                                  },
+                      "type":  "learn_card"
+                  },
+                  {
+                      "content":  {
+                                      "correct_index":  2,
+                                      "question":  "I haven\u0027t done my homework ___",
+                                      "explanation":  "\u0027Yet\u0027 is used in negative sentences and questions.",
+                                      "options":  [
+                                                      "just.",
+                                                      "already.",
+                                                      "yet."
+                                                  ]
+                                  },
+                      "type":  "mcq"
+                  }
+              ],
+    "lesson_id":  "a2_unit9_lesson04",
+    "title":  "Just, Already \u0026 Yet"
+}

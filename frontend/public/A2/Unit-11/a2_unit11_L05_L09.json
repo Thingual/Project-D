@@ -1,0 +1,1673 @@
+{
+  "unit": 11,
+  "level": "A2",
+  "lesson_range": "5-9",
+  "lessons": [
+
+    {
+      "lesson_id": "a2_unit11_lesson05",
+      "unit": 11,
+      "lesson_number": 5,
+      "level": "A2",
+      "title": "Phone English — calling, holding, transferring",
+      "description": "Handle phone calls confidently — introducing yourself, asking to hold, transferring, leaving and taking messages.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1105_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Starting and ending a phone call",
+            "body": "STARTING a call — caller:\n• 'Good morning, this is [name] calling from [company].'\n• 'Hello, could I speak to [name], please?'\n• 'Hi, I'm calling about [reason].'\n• 'I'm calling to enquire about...'\n\nSTARTING — receiver:\n• 'Good morning, [company name]. How may I help you?'\n• '[Name] speaking — how can I help?'\n• 'Hello, who am I speaking to?'\n\nENDING a call:\n• 'Thank you for calling. Have a good day!'\n• 'I'll look into that and get back to you.'\n• 'Thanks — speak soon!'\n• 'Goodbye!'",
+            "grammar_note": "'This is [name]' — NOT 'I am [name]' on phone calls\n'Could I speak to...' — more polite than 'Give me'\nReceiver: '[Name] speaking' = professional"
+          }
+        },
+        {
+          "task_id": "t1105_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Holding, transferring and taking messages",
+            "body": "ASKING TO HOLD:\n• 'Could you hold the line, please?'\n• 'Could you hold on a moment?'\n• 'Please bear with me a moment.'\n• 'Just a moment, please.'\n\nTRANSFERRING:\n• 'I'll transfer you to the right department.'\n• 'Let me put you through to Ms Priya.'\n• 'I'll connect you to the sales team.'\n\nTAKING A MESSAGE:\n• 'She's not available — can I take a message?'\n• 'Could I take your name and number?'\n• 'I'll make sure she gets this message.'\n\nLEAVING A MESSAGE:\n• 'Yes — could you tell her that [name] called?'\n• 'Could you ask her to call me back?'\n• 'My number is...'",
+            "grammar_note": "'Put you through' = transfer the call\n'Bear with me' = please wait patiently\n'I'll get back to you' = I'll call/email you later"
+          }
+        },
+        {
+          "task_id": "t1105_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Phone call problems",
+            "vocabulary": [
+              {"word": "cut off", "meaning": "when the call disconnects suddenly", "example": "Sorry — I think we got cut off!"},
+              {"word": "break up", "meaning": "when the signal is bad and voice is unclear", "example": "You're breaking up — can you hear me?"},
+              {"word": "call back", "meaning": "to return a call", "example": "I'll call you back in five minutes."},
+              {"word": "put through", "meaning": "to connect to another person/extension", "example": "I'll put you through to the manager."},
+              {"word": "extension", "meaning": "an internal phone number", "example": "Please call extension 204 for accounts."},
+              {"word": "voicemail", "meaning": "a recorded message when someone doesn't answer", "example": "I left a voicemail — please call back."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l5_listen",
+            "sentences": [
+              "Good morning — this is Arjun calling from TechBridge Solutions.",
+              "Could you hold the line for just a moment?",
+              "I'll put you through to the relevant department right away.",
+              "I'm afraid she's in a meeting — can I take a message?",
+              "Could you ask him to call me back at his earliest convenience?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "You call a company. The receptionist answers. What do you say first?",
+            "options": [
+              "I am Priya. Give me the manager.",
+              "Good morning — this is Priya Iyer calling. Could I speak to the HR manager, please?",
+              "Hello. Manager please.",
+              "Hi, it's me — is the manager there?"
+            ],
+            "correct": "Good morning — this is Priya Iyer calling. Could I speak to the HR manager, please?",
+            "explanation": "'This is [name] calling' + polite request = correct professional phone call opening."
+          }
+        },
+        {
+          "task_id": "t1105_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "The person you're calling is not available. The receptionist offers to take a message. What do you say?",
+            "options": [
+              "Tell her I called.",
+              "Yes please — could you let her know that Ravi Kumar called and ask her to call me back on 98765 43210?",
+              "I'll call again.",
+              "When will she be back? I'll call later."
+            ],
+            "correct": "Yes please — could you let her know that Ravi Kumar called and ask her to call me back on 98765 43210?",
+            "explanation": "A complete message: name + request to call back + number. Clear, polite, and professional."
+          }
+        },
+        {
+          "task_id": "t1105_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "During a call, the signal becomes very unclear. What do you say?",
+            "options": [
+              "SPEAK LOUDER.",
+              "I'm sorry — you're breaking up a little. Could you repeat that?",
+              "Bad signal.",
+              "Your phone is bad."
+            ],
+            "correct": "I'm sorry — you're breaking up a little. Could you repeat that?",
+            "explanation": "'Breaking up' = technical term for poor signal. Polite apology + polite request to repeat."
+          }
+        },
+        {
+          "task_id": "t1105_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "The caller asks for the accounts team. You need to transfer them. What do you say?",
+            "options": [
+              "Accounts is not me. Hold on.",
+              "Let me put you through to the accounts team — please hold the line.",
+              "Call accounts directly.",
+              "I'll transfer. Bye."
+            ],
+            "correct": "Let me put you through to the accounts team — please hold the line.",
+            "explanation": "'Let me put you through' + 'please hold the line' = professional transfer language."
+          }
+        },
+        {
+          "task_id": "t1105_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the correct phone English phrase.",
+            "sentences": [
+              {"text": "'I'll ___ you ___ to the right department.' (transfer)", "answer": "put / through"},
+              {"text": "'Could you ___ the line for a moment?' (hold)", "answer": "hold"},
+              {"text": "'I'm afraid she's not available. Can I ___ a message?' (record)", "answer": "take"},
+              {"text": "'Could you ___ me ___ at your earliest convenience?' (return my call)", "answer": "call / back"},
+              {"text": "'I'm sorry — we seem to have ___ ___.' (call disconnected)", "answer": "been cut off / got cut off"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete the message-taking dialogue.",
+            "sentences": [
+              {"text": "Caller: Is Mr Kapoor available? Agent: I'm afraid he's ___ a meeting right now.", "answer": "in"},
+              {"text": "Agent: Can I ___ a message? Caller: Yes please.", "answer": "take"},
+              {"text": "Caller: Could you ask him to ___ me ___ when he's free?", "answer": "call / back"},
+              {"text": "Agent: Of course — could I take your ___? Caller: Priya Sharma.", "answer": "name"},
+              {"text": "Agent: And your ___ number? Caller: 98765 43210.", "answer": "contact / phone"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a correct phone call opening.",
+            "words": ["TechCare", "from", "calling", "morning", "Good", "Priya", "this", "is"],
+            "answer": "Good morning — this is Priya calling from TechCare."
+          }
+        },
+        {
+          "task_id": "t1105_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a hold request.",
+            "words": ["just", "the", "hold", "Could", "a", "moment", "line", "you", "for"],
+            "answer": "Could you hold the line for just a moment?"
+          }
+        },
+        {
+          "task_id": "t1105_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the phone situation to the correct phrase.",
+            "pairs": [
+              {"left": "The caller needs a different department", "right": "Let me put you through to the right team."},
+              {"left": "You can't hear the caller clearly", "right": "I'm sorry — you're breaking up. Could you repeat that?"},
+              {"left": "The person they need is busy", "right": "I'm afraid she's in a meeting — can I take a message?"},
+              {"left": "You need a moment to check something", "right": "Bear with me a moment — let me look that up."},
+              {"left": "Ending the call professionally", "right": "Thank you for calling. Have a great day!"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Extended phone call — job enquiry, Bangalore",
+            "setting": "Arjun calls a company HR department to enquire about a job vacancy he saw online. This dialogue covers many phone call skills from this lesson.",
+            "dialogue": [
+              {"speaker": "Receptionist", "text": "Good afternoon — BrightTech Solutions, how may I help you?"},
+              {"speaker": "Arjun", "text": "Good afternoon — this is Arjun Mehta calling. I'm calling to enquire about the Software Engineer vacancy advertised on your website."},
+              {"speaker": "Receptionist", "text": "Of course! Let me put you through to our HR department. Could you hold the line for a moment?"},
+              {"speaker": "Arjun", "text": "Not at all, please go ahead."},
+              {"speaker": "HR Agent", "text": "HR department — Sonal speaking. How can I help?"},
+              {"speaker": "Arjun", "text": "Good afternoon, Sonal. This is Arjun Mehta. I'm calling regarding the Software Engineer position posted on your website."},
+              {"speaker": "HR Agent", "text": "Oh yes — that's a current opening. Are you currently employed?"},
+              {"speaker": "Arjun", "text": "Yes, I'm working with TechBridge — 4 years of experience in backend development."},
+              {"speaker": "HR Agent", "text": "Excellent. Bear with me a moment — let me pull up the job description to answer your questions better."},
+              {"speaker": "Arjun", "text": "Of course — take your time."},
+              {"speaker": "HR Agent", "text": "Right! So the role is based in Bangalore, with some travel. Do you have any specific questions?"},
+              {"speaker": "Arjun", "text": "Could you tell me whether the role allows remote work on some days?"},
+              {"speaker": "HR Agent", "text": "Yes — we have a hybrid model: 3 days in office, 2 remote. Anything else?"},
+              {"speaker": "Arjun", "text": "And could you give me an idea of the application deadline?"},
+              {"speaker": "HR Agent", "text": "Applications close on the 30th. I'd suggest emailing your CV to hr@brighttech.in — I'm afraid I can't accept it directly over the phone."},
+              {"speaker": "Arjun", "text": "Understood — I'll email it today. Thank you so much for your time, Sonal."},
+              {"speaker": "HR Agent", "text": "Our pleasure! Best of luck with your application. Goodbye!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "Why is Arjun calling?",
+                "options": ["To resign from his current job", "To enquire about a Software Engineer vacancy", "To request a salary increase", "To report a technical problem"],
+                "correct": "To enquire about a Software Engineer vacancy"
+              },
+              {
+                "question": "What is the hybrid policy at BrightTech?",
+                "options": ["5 days remote", "Full time in office", "3 days in office, 2 days remote", "2 days in office, 3 days remote"],
+                "correct": "3 days in office, 2 days remote"
+              },
+              {
+                "question": "How does Arjun submit his application?",
+                "options": ["By post", "By phone", "By emailing his CV", "By visiting the office"],
+                "correct": "By emailing his CV"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find the phone call language mistake.",
+            "sentences": [
+              {
+                "wrong": "Hello, I am Priya. Is the manager?",
+                "correct": "Good morning — this is Priya calling. Could I speak to the manager, please?",
+                "explanation": "On a phone call: 'This is [name]' not 'I am'. Always add a polite request with 'could I speak to'."
+              },
+              {
+                "wrong": "Please hold, I'm transferring to you the accounts team.",
+                "correct": "Please hold — I'll put you through to the accounts team.",
+                "explanation": "'Put you through to' is the correct phrase. 'Transferring to you' is incorrect word order."
+              },
+              {
+                "wrong": "She is not here. Leave message.",
+                "correct": "I'm afraid she's not available right now. Can I take a message?",
+                "explanation": "Professional phone language needs full sentences and polite phrasing."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1105_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You call a restaurant to book a table. The line is very noisy and you can barely hear the person. What do you say?",
+            "options": [
+              "SPEAK LOUDER!",
+              "I'm sorry — I'm having a little difficulty hearing you. Could you speak up slightly?",
+              "Bad line. Bye.",
+              "You are too quiet."
+            ],
+            "correct": "I'm sorry — I'm having a little difficulty hearing you. Could you speak up slightly?",
+            "explanation": "Polite apology + polite request. Never shout instructions — always frame it as your difficulty."
+          }
+        },
+        {
+          "task_id": "t1105_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Role-play a full phone call. You are calling a hotel to book a room for 3 nights. Use the phone language from this lesson throughout.",
+            "prompt": "Make a hotel booking call covering: introduction, request, dates, room type, price, and confirmation.",
+            "example_response": "Good evening — I'm calling to make a booking. This is Kavya Nair calling. I'd like to enquire about availability for the 15th to the 17th of October — that's three nights. Could you tell me what room types are available? Oh, a standard room and a deluxe — could you tell me the difference in price? The standard is ₹3,500 per night and the deluxe is ₹5,200? Could I book the standard room please? And could I confirm — does the price include breakfast? Wonderful — so that's breakfast included. Could you hold on a moment while I check one thing? Yes, I'm back — I'd like to proceed with the booking. Could you take my name — it's Kavya Nair, K-A-V-Y-A. My number is 98765 43210. And could you send a confirmation to kavya.nair@email.com? Perfect — thank you so much! Goodbye!",
+            "key_phrases": ["This is [name] calling", "Could I book…?", "Could you tell me…?", "Could you hold on?", "Could you send a confirmation?"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1105_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "You are the receptionist at a company. A caller wants to speak to someone who is unavailable. Handle the call: take a message, ask for their name and number, and promise to pass it on.",
+            "prompt": "Play the role of a professional receptionist handling an incoming call where the required person is busy.",
+            "example_response": "Good morning — Sunrise Consulting, Arjun speaking. How may I help you? Good morning! I'm afraid Ms Sonal Mehta is in a meeting right now and unavailable to take calls. I expect she'll be free in about 30 minutes. Can I take a message for her? Of course — could I have your name please? Ms Priya Rajan — thank you. And your contact number? 98765 43210 — I'll note that. And could you tell me briefly what it's regarding so I can let her know? It's about the Q4 proposal — I'll make sure to mention that. Would you like her to call you back as soon as she's free, or is there a specific time that works better for you? Any time after 2 PM works? Perfect — I'll pass on the message. Thank you for calling, Ms Rajan — have a great day!",
+            "key_phrases": ["I'm afraid [name] is in a meeting", "Can I take a message?", "Could I have your name?", "I'll make sure she gets this", "Have a great day"],
+            "min_words": 110
+          }
+        },
+        {
+          "task_id": "t1105_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this phone message note form based on the call details.",
+            "text": "PHONE MESSAGE SLIP\n\nDate: Monday 14th October\nTime: 2:35 PM\n\nMessage ___ (1): Sonal Mehta\nCalled ___ (2): Priya Rajan\nCompany: Rajan Consultants\nPhone: ___ (3): 98765 43210\nReason ___ (4) call: Regarding the Q4 marketing proposal\n\nAction ___ (5): Please ___ (6) Ms Priya Rajan ___ (7) your earliest convenience.\n\nMessage ___ (8) by: Arjun (Reception)",
+            "answers": ["for", "by", "number", "for", "required", "call / contact", "at", "taken"]
+          }
+        },
+        {
+          "task_id": "t1105_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 5 complete — Phone English",
+            "key_points": [
+              "Caller opening: 'This is [name] calling from [company].' (not 'I am')",
+              "Receiver opening: '[Name] speaking — how can I help?'",
+              "Hold: 'Could you hold the line?' / 'Bear with me a moment.'",
+              "Transfer: 'I'll put you through to...'",
+              "Message: 'Can I take a message?' + name + number + reason",
+              "Problems: 'You're breaking up' / 'We got cut off'",
+              "Ending: 'Thank you for calling. Have a great day!'"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Social media and texting language"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson06",
+      "unit": 11,
+      "lesson_number": 6,
+      "level": "A2",
+      "title": "Social media & texting language",
+      "description": "Understand common digital communication styles — abbreviations, emoji use, and the difference between formal and informal digital writing.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1106_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Texting and social media language",
+            "body": "In digital communication, people often use SHORTENED LANGUAGE — especially in casual messages:\n\nCOMMON ABBREVIATIONS:\n• btw = by the way\n• lol = laughing out loud\n• omg = oh my goodness\n• tbh = to be honest\n• imo = in my opinion\n• fyi = for your information\n• asap = as soon as possible\n• brb = be right back\n• ngl = not gonna lie\n• icymi = in case you missed it\n\nIMPORTANT: These are ONLY for casual, informal messages to friends. Never use them in formal emails, professional messages, or with seniors/strangers.",
+            "grammar_note": "Abbreviations = informal only\nCapitalisation often dropped in texts\nEmoji use = casual contexts only"
+          }
+        },
+        {
+          "task_id": "t1106_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Online etiquette — dos and don'ts",
+            "body": "GOOD digital communication:\n✓ Reply promptly when possible\n✓ Use full words in professional messages\n✓ Double-check before sending\n✓ Match the tone of the person you're writing to\n✓ Use emoji sparingly and appropriately\n✓ Be clear — avoid confusion\n\nAVOID:\n✗ All caps (sounds like shouting)\n✗ Sending too many follow-up messages\n✗ Using abbreviations in professional contexts\n✗ Sharing personal/private information publicly\n✗ Responding emotionally when angry — wait before replying\n✗ Reading messages and not replying for days\n\nA good rule: Would I say this to their face? If not, reconsider.",
+            "grammar_note": "ALL CAPS = shouting in digital communication\nProfessional messages: full words, no abbreviations\nRead, pause, then reply if emotional"
+          }
+        },
+        {
+          "task_id": "t1106_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Digital communication",
+            "vocabulary": [
+              {"word": "thread", "meaning": "a series of connected messages", "example": "Check the email thread for the full conversation."},
+              {"word": "tag", "meaning": "to mention someone in a post", "example": "She tagged me in her Instagram post."},
+              {"word": "dm / direct message", "meaning": "a private message on social media", "example": "Send me a DM with the details."},
+              {"word": "ghosting", "meaning": "suddenly stopping all contact without explanation", "example": "He just stopped replying — total ghosting."},
+              {"word": "caption", "meaning": "text written under a photo", "example": "What caption did she put under that photo?"},
+              {"word": "viral", "meaning": "spreading rapidly and widely online", "example": "That video went viral overnight."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l6_listen",
+            "sentences": [
+              "Btw, are you coming to the meeting tonight?",
+              "I'll send you the details in a DM.",
+              "That video of the dog completely went viral!",
+              "Check the email thread — the answer is in there.",
+              "Omg — have you seen what she posted? That's hilarious!"
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Which message is appropriate to send to a NEW COLLEAGUE you've just met at work?",
+            "options": [
+              "Omg ur so funny lol 😂😂😂",
+              "Hi Priya — great to meet you today! Looking forward to working together.",
+              "btw when r u free tmrw?",
+              "HEY PRIYA!! WHEN ARE YOU FREE????"
+            ],
+            "correct": "Hi Priya — great to meet you today! Looking forward to working together.",
+            "explanation": "New colleague = semi-formal. Full words, friendly but professional tone, no abbreviations or all caps."
+          }
+        },
+        {
+          "task_id": "t1106_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "What does 'tbh' mean?",
+            "options": ["to be here", "to be honest", "talking by heart", "to be helpful"],
+            "correct": "to be honest",
+            "explanation": "TBH = to be honest. Often used before sharing a genuine or slightly uncomfortable opinion."
+          }
+        },
+        {
+          "task_id": "t1106_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "You want to send an update to your entire team about a meeting. Which message is most appropriate?",
+            "options": [
+              "FYI meeting moved to 3 btw!! lol",
+              "TEAM MEETING IS NOW AT 3 PM!!!",
+              "Hi team — just a quick update: tomorrow's meeting has been moved to 3 PM. Please update your calendars.",
+              "Hey all — 3pm not 2pm tmrw k?"
+            ],
+            "correct": "Hi team — just a quick update: tomorrow's meeting has been moved to 3 PM. Please update your calendars.",
+            "explanation": "Team communication = professional. Full words, clear information, no unnecessary abbreviations or all caps."
+          }
+        },
+        {
+          "task_id": "t1106_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What is 'ghosting' in digital communication?",
+            "options": [
+              "Posting scary Halloween content online",
+              "Suddenly stopping all contact without any explanation",
+              "Using a fake profile name",
+              "Replying very slowly"
+            ],
+            "correct": "Suddenly stopping all contact without any explanation",
+            "explanation": "'Ghosting' = disappearing from a conversation or relationship without explanation — considered very rude."
+          }
+        },
+        {
+          "task_id": "t1106_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Expand these abbreviations into full words.",
+            "sentences": [
+              {"text": "btw → ___ ___ ___", "answer": "by the way"},
+              {"text": "imo → ___ ___ ___", "answer": "in my opinion"},
+              {"text": "fyi → ___ ___ ___", "answer": "for your information"},
+              {"text": "asap → ___ ___ ___ ___", "answer": "as soon as possible"},
+              {"text": "ngl → ___ ___ ___", "answer": "not gonna lie"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Rewrite this casual text message as a professional team message.",
+            "sentences": [
+              {"text": "'omg meeting tmrw is cancelled btw!! lol so happy' → 'Hi team — ___'", "answer": "Hi team — just to let you know, tomorrow's meeting has been cancelled. Hope everyone has a good day!"},
+              {"text": "'pls send report ASAP!!' → 'Could you ___'", "answer": "Could you please send the report as soon as possible? Thank you."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a professional team message.",
+            "words": ["update", "quick", "a", "the", "has", "4", "to", "moved", "Hi", "team", "—", "meeting", "been", "PM"],
+            "answer": "Hi team — a quick update: the meeting has been moved to 4 PM."
+          }
+        },
+        {
+          "task_id": "t1106_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a casual text to a friend.",
+            "words": ["coming", "tonight", "btw", "are", "you", "the", "to", "dinner"],
+            "answer": "Btw, are you coming to the dinner tonight?"
+          }
+        },
+        {
+          "task_id": "t1106_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the digital communication issue to the correct advice.",
+            "pairs": [
+              {"left": "Someone sends you an angry message", "right": "Wait before replying — don't respond emotionally."},
+              {"left": "You're texting your senior manager", "right": "Use full words and professional tone — no abbreviations."},
+              {"left": "You see a controversial post on social media", "right": "Think carefully before commenting — your digital footprint matters."},
+              {"left": "A friend hasn't replied for 3 days", "right": "They may be busy — don't send too many follow-ups."},
+              {"left": "You're in a group chat and want to share a sensitive update", "right": "Consider a private DM instead of the public group."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Group chat vs formal update — colleagues, Pune",
+            "setting": "Sonal is part of two chats — a casual group with friends and a professional team group. Watch how her language changes completely.",
+            "dialogue": [
+              {"speaker": "Sonal (friends chat)", "text": "Omg you guys — the project is DONE! We can finally breathe! 🎉🎉🎉"},
+              {"speaker": "Riya (friend)", "text": "Yesssss!! Lol finally!! Are you coming out to celebrate tonight btw?"},
+              {"speaker": "Sonal (friends chat)", "text": "Obviously!! Ngl I've been dreaming about this moment for weeks 😂"},
+              {"speaker": "Kavya (friend)", "text": "Same omg. Btw where are we going? Imo that new rooftop place looks amazing!"},
+              {"speaker": "Sonal (friends chat)", "text": "Yaas! I'll dm you all the address asap. Brb — need to send a proper update to my work team 😅"},
+              {"speaker": "Sonal (WORK team chat)", "text": "Hi team — I'm pleased to share that we've successfully completed the Horizon Project as of today. Thank you all for your dedication over the past three months."},
+              {"speaker": "Sonal (WORK team chat)", "text": "A detailed summary report will be shared by end of day. Please review and share any final comments by Friday. Well done, everyone!"},
+              {"speaker": "Manager Arjun (work chat)", "text": "Excellent work, Sonal. Thank you for leading this so professionally. The report looks great."},
+              {"speaker": "Sonal (back to friends chat)", "text": "Okay I'm back! Let's gooooo 🎉 Dinner at 8? "},
+              {"speaker": "Riya (friend)", "text": "8 is perfect!! Btw so proud of you Sonal — you worked so hard for this! 💪"},
+              {"speaker": "Sonal (friends chat)", "text": "Tbh I couldn't have done it without you guys cheering me on lol. See you at 8! 😍"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "How does Sonal's language CHANGE between the friends chat and work chat?",
+                "options": [
+                  "It doesn't change at all.",
+                  "She uses abbreviations only in the work chat.",
+                  "She uses casual abbreviations and emoji with friends, but formal full sentences with her work team.",
+                  "She is ruder to her friends than her colleagues."
+                ],
+                "correct": "She uses casual abbreviations and emoji with friends, but formal full sentences with her work team."
+              },
+              {
+                "question": "What does Sonal share in the work team message?",
+                "options": [
+                  "Dinner plans",
+                  "That the project is complete and a report will follow",
+                  "Her personal celebration plans",
+                  "A complaint about the workload"
+                ],
+                "correct": "That the project is complete and a report will follow"
+              },
+              {
+                "question": "What does 'ngl' mean in the friends chat?",
+                "options": ["next good lunch", "not gonna lie", "no good life", "never give up laughing"],
+                "correct": "not gonna lie"
+              }
+            ],
+            "discussion_questions": [
+              "List 5 abbreviations or informal elements from the friends chat.",
+              "What makes the work message professional? List 3 features.",
+              "Why is it important to match your language to the audience?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "These messages have register mistakes. Rewrite correctly.",
+            "sentences": [
+              {
+                "wrong": "Email to HR: 'omg can u send the form asap?? thx!!'",
+                "correct": "Dear HR, Could you please send me the required form at your earliest convenience? Thank you.",
+                "explanation": "Email to HR = formal. No abbreviations, full sentences, polite request."
+              },
+              {
+                "wrong": "Work announcement: 'THE MEETING IS AT 3 NOT 2 FYI!!'",
+                "correct": "Hi team — just to confirm: today's meeting is at 3 PM, not 2 PM. Please update your calendars.",
+                "explanation": "All caps = shouting. Professional messages need full words and a calm tone."
+              },
+              {
+                "wrong": "WhatsApp to a close friend: 'I am writing to enquire whether you are available for dinner this Saturday evening.'",
+                "correct": "Hey! Are you free for dinner this Saturday? 😊",
+                "explanation": "This is too formal for a close friend on WhatsApp — be natural and casual."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You see an online post that makes you very angry. You want to respond. What should you do?",
+            "options": [
+              "Reply immediately with a very strong, emotional response.",
+              "Type your response in capital letters so they understand you're serious.",
+              "Wait until you feel calm. Think about whether replying will help the situation. If you respond, keep it respectful and factual.",
+              "Share it everywhere immediately."
+            ],
+            "correct": "Wait until you feel calm. Think about whether replying will help the situation. If you respond, keep it respectful and factual.",
+            "explanation": "Good online etiquette: never react when emotional. Pause, think, and respond with facts — not feelings."
+          }
+        },
+        {
+          "task_id": "t1106_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Compare two types of messages — informal (to a friend) and formal (to a manager) — for the same situation: you need to take a day off tomorrow.",
+            "prompt": "Write and say two messages — one casual to a friend, one professional to your manager — about taking a day off tomorrow.",
+            "example_response": "Here are both versions!\n\nCasual WhatsApp to my friend Meera: 'Hey! Ngl I'm totally exhausted 😅 I'm taking tomorrow off! Btw can we do our walk on Saturday instead? Omg I cannot wait to just sleep in lol 😂'\n\nProfessional message to my manager: 'Hi [Manager's name] — I wanted to let you know that I'm not feeling well and would like to take a sick day tomorrow if that's okay. I'll make sure all urgent tasks are completed or handed over before I log off today. I'll share a brief update on pending work by 5 PM. Please let me know if this causes any issues. Thank you for understanding.'\n\nYou can see the difference clearly — with my friend I use abbreviations, emoji, and very casual phrasing. With my manager, I explain the situation clearly, offer to manage my work responsibly, and ask for permission politely. Same situation, completely different language — and that's exactly how it should be.",
+            "key_phrases": ["casual: btw, omg, ngl, lol", "formal: I wanted to let you know, I'll ensure, Thank you for understanding"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1106_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Think about how social media and digital communication have changed the way people communicate in India. What are the positive changes? What are the problems? Share your opinion.",
+            "prompt": "Discuss the impact of social media and digital communication on everyday life in India — pros and cons.",
+            "example_response": "Social media and digital communication have completely transformed how people communicate in India — and there are both good and not-so-good sides to this. On the positive side, staying connected with family members who live far away has become so easy. My cousins are spread across Chennai, Bangalore, Hyderabad, and even the UK — and we all talk on a family WhatsApp group every day. Without that, we'd barely know what was happening in each other's lives. Digital communication has also made business much faster — everything from job applications to client meetings can happen online now. I think that's genuinely wonderful. However, there are problems too. A lot of people — especially young people — spend far too much time on social media and it affects their mental health. They compare their lives to others and feel inadequate. There's also the problem of misinformation spreading very quickly through WhatsApp forwards. And tbh, sometimes I think people have forgotten how to have a proper face-to-face conversation — everyone's on their phone even when they're together. It's a bit sad. So overall — a brilliant tool, but we need to use it wisely.",
+            "key_phrases": ["social media", "digital communication", "stay connected", "misinformation", "mental health", "in my opinion"],
+            "min_words": 120
+          }
+        },
+        {
+          "task_id": "t1106_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Label each message as FORMAL (F) or INFORMAL (I) and correct any register mistakes.",
+            "sentences": [
+              {"text": "'Hi team! Wanted to flag that the deadline is tmrw — pls submit ASAP!!' [F or I? Correct if needed]", "answer": "Informal register in a professional context. Correct: 'Hi team — a reminder that the deadline is tomorrow. Please submit your work as soon as possible. Thank you.'"},
+              {"text": "'Omg I literally cannot come tonight — so sorry!!' [F or I?]", "answer": "Informal — appropriate for texting a friend. No correction needed."},
+              {"text": "'I am writing to enquire if you received my application.' [F or I?]", "answer": "Formal — appropriate for an email to a company. No correction needed."},
+              {"text": "'Hey — meeting at 3 btw 😊' (to your manager) [F or I? Correct?]", "answer": "Too informal for a manager. Correct: 'Hi [name] — just a quick note that the meeting is at 3 PM today.'"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1106_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 6 complete — Social media and texting language",
+            "key_points": [
+              "Abbreviations (btw, omg, lol, fyi) = informal ONLY — never in professional messages",
+              "ALL CAPS = shouting in digital communication — avoid in professional contexts",
+              "Match your register to your audience — casual for friends, professional for colleagues",
+              "Good online etiquette: wait before replying when emotional, don't over-message, use emoji appropriately",
+              "Same message, different register = completely different language"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Online communication — professional chat and email"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson07",
+      "unit": 11,
+      "lesson_number": 7,
+      "level": "A2",
+      "title": "Online communication — professional chat and email",
+      "description": "Write and respond to professional messages, team chats, and work emails with the right tone and structure.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1107_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Semi-formal professional chat language",
+            "body": "Most modern workplaces use chat tools (Slack, Teams, WhatsApp Work). This is SEMI-FORMAL — friendly but professional.\n\nGood semi-formal chat:\n• 'Hi Priya — could you send me the report when you get a chance?'\n• 'Hey team — quick update: the call is at 3, not 2.'\n• 'Thanks for the heads up!'\n• 'I'll look into this and get back to you shortly.'\n• 'Happy to help — just send it over.'\n• 'Noted — I'll take care of it.'\n\nAvoid in work chats:\n• 'omg thx lol'\n• 'K' (too curt — sounds rude)\n• All caps\n• Ignoring messages",
+            "grammar_note": "Semi-formal = friendly + professional\n'Heads up' = advance notice (informal but acceptable in chats)\n'Noted' = I understand and will act on it"
+          }
+        },
+        {
+          "task_id": "t1107_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Useful professional chat phrases",
+            "body": "GIVING UPDATES:\n• 'Just to let you know...'\n• 'Quick update — the meeting is confirmed for 3 PM.'\n• 'FYI — the client has pushed back the deadline.'\n\nACKNOWLEDGING:\n• 'Got it — thanks!'\n• 'Noted — I'll action this today.'\n• 'Understood — I'll update the team.'\n\nASKING FOR HELP:\n• 'Could you take a look at this when you're free?'\n• 'Happy for any feedback on this.'\n• 'Would you be able to cover this while I'm away?'\n\nSHARING DOCUMENTS:\n• 'Sharing the updated file here.'\n• 'See the attached — let me know if anything needs changing.'\n• 'I've dropped the doc in the shared folder.'",
+            "grammar_note": "'Action this' = to take action on something (professional verb)\n'Happy for feedback' = I welcome feedback\n'Drop a doc' = informal way of sharing a file"
+          }
+        },
+        {
+          "task_id": "t1107_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Workplace communication",
+            "vocabulary": [
+              {"word": "loop in", "meaning": "to include someone in a conversation or email chain", "example": "Can you loop in Sonal on this thread?"},
+              {"word": "flag", "meaning": "to draw attention to something", "example": "I wanted to flag that the deadline is approaching."},
+              {"word": "action", "meaning": "to take action on something (professional use)", "example": "I'll action this by end of day."},
+              {"word": "circulate", "meaning": "to share/distribute to everyone", "example": "I'll circulate the minutes after the meeting."},
+              {"word": "heads up", "meaning": "advance warning or notice", "example": "Just a heads up — the client is visiting tomorrow."},
+              {"word": "sign off", "meaning": "to give final approval", "example": "The manager needs to sign off on this proposal."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l7_listen",
+            "sentences": [
+              "Just a heads up — the client call has been moved to 4 PM.",
+              "Could you loop in Priya on this thread? She should be aware.",
+              "Noted — I'll action this before end of day.",
+              "I've dropped the report in the shared folder — please review.",
+              "Happy to help — just let me know what you need."
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "A colleague says: 'Loop me in on the client email.' What does this mean?",
+            "options": [
+              "Send the email in a circle.",
+              "Include me in the email conversation — add me to the thread.",
+              "Write the email very quickly.",
+              "Delete the email chain."
+            ],
+            "correct": "Include me in the email conversation — add me to the thread.",
+            "explanation": "'Loop someone in' = add them to an email/conversation so they're informed."
+          }
+        },
+        {
+          "task_id": "t1107_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Which work chat message is most professional?",
+            "options": [
+              "k done",
+              "ok noted thanks bye",
+              "Got it — I'll complete this before end of day and share the update with you then.",
+              "OKAY I WILL DO IT"
+            ],
+            "correct": "Got it — I'll complete this before end of day and share the update with you then.",
+            "explanation": "Clear acknowledgment + specific commitment + update promise = professional work chat response."
+          }
+        },
+        {
+          "task_id": "t1107_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Your manager asks you in a chat to prepare a presentation for tomorrow. What is the best reply?",
+            "options": [
+              "K",
+              "Sure lol I'll do it",
+              "Understood — I'll prepare the presentation and share a draft by this evening for your review.",
+              "YES OKAY WILL DO IT TONIGHT"
+            ],
+            "correct": "Understood — I'll prepare the presentation and share a draft by this evening for your review.",
+            "explanation": "Professional reply: confirms understanding + gives a specific timeline + offers to share for review."
+          }
+        },
+        {
+          "task_id": "t1107_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What does it mean to 'sign off' on something at work?",
+            "options": [
+              "To leave the office",
+              "To write your name at the end of an email",
+              "To give final approval or permission",
+              "To delete a file"
+            ],
+            "correct": "To give final approval or permission",
+            "explanation": "'Sign off' in professional contexts = officially approve something."
+          }
+        },
+        {
+          "task_id": "t1107_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Fill in the correct professional chat phrase.",
+            "sentences": [
+              {"text": "'I wanted to ___ that the deadline is moved to Friday.' (draw attention to)", "answer": "flag"},
+              {"text": "'Can you ___ Arjun ___ on this email? He needs to know.' (include)", "answer": "loop / in"},
+              {"text": "'___ — I'll ___ this by 5 PM.' (acknowledge + take action)", "answer": "Noted / action"},
+              {"text": "'Just a ___ — the client is coming in tomorrow morning.' (advance notice)", "answer": "heads up"},
+              {"text": "'I'll ___ the meeting notes to everyone after.' (share with all)", "answer": "circulate"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Rewrite these curt or unclear messages in a more professional way.",
+            "sentences": [
+              {"text": "'k done' → '___'", "answer": "Done — let me know if you need anything else."},
+              {"text": "'where is report' → '___'", "answer": "Hi — could you tell me where the report has been saved? I can't find it in the shared folder."},
+              {"text": "'call me' → '___'", "answer": "Hi — would you be free for a quick call sometime today? I have a few questions to discuss."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a professional heads-up message.",
+            "words": ["up", "heads", "a", "Just", "—", "the", "3", "moved", "to", "has", "PM", "meeting", "been"],
+            "answer": "Just a heads up — the meeting has been moved to 3 PM."
+          }
+        },
+        {
+          "task_id": "t1107_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a professional acknowledgement.",
+            "words": ["I'll", "—", "Noted", "this", "action", "today"],
+            "answer": "Noted — I'll action this today."
+          }
+        },
+        {
+          "task_id": "t1107_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the professional chat phrase to its meaning.",
+            "pairs": [
+              {"left": "Just a heads up", "right": "Advance notice about something"},
+              {"left": "Loop me in", "right": "Add me to the email/conversation"},
+              {"left": "I'll action this", "right": "I'll take action on this task"},
+              {"left": "Can you flag that?", "right": "Can you draw attention to that issue?"},
+              {"left": "Needs to be signed off", "right": "Requires official approval"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "★ FEATURED DIALOGUE — Scenario 5: Workplace team chat — marketing startup, Mumbai",
+            "scenario_id": "scenario_5",
+            "setting": "A startup's marketing team uses a shared chat (like Slack or WhatsApp Work) to coordinate. This dialogue shows how professional but friendly workplace chat looks in practice.",
+            "learning_note": "Notice how the team is friendly and efficient. No unnecessary abbreviations, clear messages, quick acknowledgements. This scenario is revisited in Lesson 13.",
+            "dialogue": [
+              {"speaker": "Priya (Team Lead)", "text": "Hi team 👋 Just a heads up — the client presentation is moved to Thursday at 3 PM instead of Friday. Please update your calendars."},
+              {"speaker": "Arjun", "text": "Got it — updated. Should I prepare any new slides for Thursday?"},
+              {"speaker": "Priya", "text": "Yes — could you add a slide on Q3 results? I'll send you the data in a bit."},
+              {"speaker": "Arjun", "text": "Sure — happy to. Sharing a draft by Wednesday evening work?"},
+              {"speaker": "Priya", "text": "Perfect. Sonal — could you also loop in Meera on the preparation thread? She should be aware."},
+              {"speaker": "Sonal", "text": "Will do — I'll add her now."},
+              {"speaker": "Meera", "text": "Thanks Sonal! Quick question — has the client seen our latest proposal? I want to make sure Thursday is a review, not a first look."},
+              {"speaker": "Priya", "text": "Good flag, Meera — I'll check with the account manager and get back to you by today EOD."},
+              {"speaker": "Meera", "text": "Thanks — noted! Just wanted to make sure we're aligned."},
+              {"speaker": "Arjun", "text": "I've dropped the updated Q3 data in the shared folder btw — file name is 'Q3_Results_Oct_final'. Let me know if the numbers look right."},
+              {"speaker": "Priya", "text": "Great — I'll take a look shortly. Thanks everyone for moving so quickly on this 🙌"},
+              {"speaker": "Sonal", "text": "Teamwork! 💪 Let's nail Thursday."}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What change did Priya announce at the start?",
+                "options": [
+                  "The presentation was cancelled.",
+                  "The presentation moved from Friday to Thursday at 3 PM.",
+                  "The client was visiting on Wednesday.",
+                  "The team meeting was postponed."
+                ],
+                "correct": "The presentation moved from Friday to Thursday at 3 PM."
+              },
+              {
+                "question": "What does Meera want to confirm before Thursday?",
+                "options": [
+                  "Whether the client has seen the latest proposal",
+                  "Whether Arjun has finished the slides",
+                  "Whether the meeting room is booked",
+                  "Whether Sonal will attend"
+                ],
+                "correct": "Whether the client has seen the latest proposal"
+              },
+              {
+                "question": "Where did Arjun share the Q3 data?",
+                "options": ["By email", "In the chat directly", "In the shared folder", "In the presentation file"],
+                "correct": "In the shared folder"
+              }
+            ],
+            "discussion_questions": [
+              "What makes this workplace chat professional yet friendly? List 3 features.",
+              "Find examples of: (a) a heads up, (b) a flag, (c) acknowledgement, (d) an offer to help.",
+              "How does the team keep the conversation efficient without being rude?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find the professional communication mistake and correct it.",
+            "sentences": [
+              {
+                "wrong": "Work chat: 'done report. folder.' (sent to manager)",
+                "correct": "Hi — I've completed the report and uploaded it to the shared folder. Please let me know if you need any changes.",
+                "explanation": "Professional chat needs complete, clear sentences. 'done report. folder.' is too curt and unclear."
+              },
+              {
+                "wrong": "Team update: 'FYI meeting tmrw at 3 not 2 ok????'",
+                "correct": "Hi team — quick update: tomorrow's meeting is at 3 PM, not 2 PM. Please adjust your schedules accordingly.",
+                "explanation": "Too many question marks and casual abbreviations. Professional update needs calm, clear language."
+              },
+              {
+                "wrong": "Email reply: 'K'",
+                "correct": "Understood — I'll take care of this. Thank you.",
+                "explanation": "'K' alone is extremely curt and can seem rude in professional contexts. Always acknowledge properly."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1107_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your manager sends a work chat message: 'Priya — the client moved the deadline to Monday. Can you make sure the team knows and update the project timeline?' What is your best reply?",
+            "options": [
+              "K",
+              "OMG Monday?? That's so soon!! lol okay fine",
+              "Understood — I'll inform the team immediately and update the project timeline. I'll share the revised schedule by this afternoon.",
+              "OKAY WILL DO"
+            ],
+            "correct": "Understood — I'll inform the team immediately and update the project timeline. I'll share the revised schedule by this afternoon.",
+            "explanation": "Professional reply: confirms understanding + states specific actions + gives a timeline."
+          }
+        },
+        {
+          "task_id": "t1107_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Your team lead has asked you to coordinate a team lunch for Friday. Write and say a professional but friendly team chat message covering: the invitation, time, venue options, and asking people to confirm.",
+            "prompt": "Write a semi-formal team chat message organising a Friday team lunch. Cover all the details.",
+            "example_response": "Hi team! 🍛 Quick message to let you know that we're planning a team lunch this Friday to celebrate completing the project. We're thinking 1 PM — would that work for everyone? I've shortlisted two options for the venue: Coastal Kitchen on Brigade Road (great for South Indian and seafood) or Indigo Deli if people prefer something different. Both are within 10 minutes of the office. Could everyone let me know by tomorrow: (1) whether you can make it on Friday at 1, and (2) which restaurant you'd prefer? I'll make the booking based on majority preference. If Friday doesn't work for anyone, do let me know and we can explore Saturday as a backup. Looking forward to celebrating together — well done everyone on a brilliant project! 🎉",
+            "key_phrases": ["Just a quick message", "Would that work?", "Could everyone let me know?", "Looking forward to", "Happy to adjust if needed"],
+            "min_words": 100
+          }
+        },
+        {
+          "task_id": "t1107_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Revisit Scenario 5 — the team chat dialogue. Answer these questions in detail:\n1. How does the team handle the sudden schedule change?\n2. What does Meera's message add to the conversation?\n3. What professional chat habits does this team show?",
+            "prompt": "Analyse the team chat dialogue and describe what makes it effective professional communication.",
+            "example_response": "The team in Scenario 5 handles the sudden schedule change very efficiently. Priya, the team lead, immediately sends a clear heads-up message — she states what changed, when, and what everyone needs to do — update their calendars. There's no panic, no confusion. Arjun responds immediately and proactively asks whether he needs to do anything additional — that shows initiative and professionalism. Meera's question adds real value to the conversation. She raises an important point that nobody else had thought of — whether the client had already seen the proposal. This is what Priya calls a 'good flag'. It shows that Meera is thinking beyond just attending the meeting. In terms of professional chat habits, the team shows several excellent practices. They acknowledge messages quickly — 'Got it', 'Noted', 'Will do'. They give specific timelines — 'draft by Wednesday evening', 'by today EOD'. They stay solution-focused rather than complaining about the change. And they're friendly — a friendly emoji or two is perfectly fine in a team chat. The result is a chat that is efficient, clear, and pleasant to be part of.",
+            "min_words": 120
+          }
+        },
+        {
+          "task_id": "t1107_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this professional team chat exchange.",
+            "text": "Arjun: Hi Sonal — ___ (1) a heads up: the product demo is now on Wednesday, not Thursday.\n\nSonal: ___ (2) — I'll update my calendar. Should I ___ (3) Meera in on this?\n\nArjun: Yes please — she needs to know. Also, could you ___ (4) the updated brief to everyone? I dropped it in the shared ___ (5) this morning.\n\nSonal: ___ (6) — I'll circulate it right now. ___ (7) the demo need sign-off from the manager before Wednesday?\n\nArjun: Good ___ (8) — let me check and ___ (9) back to you within the hour.\n\nSonal: Perfect. Just ___ (10) me know what he says.",
+            "answers": ["just", "Got it / Noted", "loop", "circulate / send", "folder", "Sure / Will do", "Does", "flag / question / point", "get", "let"]
+          }
+        },
+        {
+          "task_id": "t1107_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 7 complete — Professional online communication",
+            "key_points": [
+              "Semi-formal = friendly + professional — right tone for most workplace chats",
+              "Key phrases: 'Just a heads up', 'Noted', 'Got it', 'I'll action this', 'Loop in', 'Flag'",
+              "Always acknowledge messages — even 'Got it — thanks' is better than no reply",
+              "Give specific timelines when committing to a task",
+              "Avoid: single letters ('K'), all caps, too many question marks, ignoring messages",
+              "'Loop in' = add to conversation; 'Flag' = draw attention; 'Sign off' = approve"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Small talk — topics and reactions"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson08",
+      "unit": 11,
+      "lesson_number": 8,
+      "level": "A2",
+      "title": "Small talk — topics and reactions",
+      "description": "Start and sustain small talk conversations about common topics — weather, sport, food, weekend plans, and current events.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1108_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "What is small talk and why does it matter?",
+            "body": "SMALL TALK is light, casual conversation about everyday topics. It's important because:\n• It builds relationships\n• It breaks the ice with new people\n• It fills comfortable silences\n• It's the first step to deeper conversations\n\nCOMMON SMALL TALK TOPICS:\n✓ Weather: 'Can you believe this heat?'\n✓ Weekend plans: 'Any plans this weekend?'\n✓ Food: 'Have you tried the new place on the corner?'\n✓ Work (general): 'How's work going?'\n✓ Sport: 'Did you watch the match last night?'\n✓ Travel: 'Have you been anywhere nice recently?'\n✓ Current events (positive/neutral): 'Did you see the festival in the city?'\n\nAVOID for first small talk:\n✗ Money, salary, politics (controversial)\n✗ Personal family problems\n✗ Negative complaints about people",
+            "grammar_note": "Small talk uses present simple, present perfect (Have you...?), and past simple\nQuestions are open-ended to encourage the other person to talk"
+          }
+        },
+        {
+          "task_id": "t1108_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Reaction phrases and keeping conversation going",
+            "body": "Show you're listening and engaged:\n\nREACTIONS:\n• Really? / Oh wow!\n• That sounds lovely / That sounds tough!\n• How interesting!\n• You're kidding!\n• Tell me more!\n• I can imagine.\n• Oh no! / That's great!\n\nFOLLOW-UP QUESTIONS to keep talking:\n• 'What was it like?'\n• 'How long were you there?'\n• 'Did you enjoy it?'\n• 'Would you recommend it?'\n• 'What do you think of it?'\n• 'Was it your first time?'",
+            "grammar_note": "Reactions show you're actively listening\nFollow-up questions are WH- or YES/NO questions\nAvoid one-word answers in small talk"
+          }
+        },
+        {
+          "task_id": "t1108_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Small talk topics in Indian context",
+            "vocabulary": [
+              {"word": "humid", "meaning": "hot and damp weather", "example": "It's incredibly humid in Chennai right now!"},
+              {"word": "commute", "meaning": "travel to and from work", "example": "How's your commute? The traffic on that road is terrible."},
+              {"word": "Pongal/Dussehra/Diwali", "meaning": "Indian festivals — good neutral small talk topics", "example": "Any plans for Diwali this year?"},
+              {"word": "IPL", "meaning": "Indian Premier League — cricket tournament", "example": "Did you watch the IPL final last night?"},
+              {"word": "staycation", "meaning": "a holiday spent at or near home", "example": "We had a staycation this weekend — explored our own city."},
+              {"word": "foodie", "meaning": "someone who loves exploring food", "example": "I'm a total foodie — I try a new restaurant every weekend."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l8_listen",
+            "sentences": [
+              "Can you believe this rain? It's been non-stop since Monday!",
+              "Did you watch the IPL final last night? What a match!",
+              "Any plans for the long weekend? Going anywhere?",
+              "Have you tried that new restaurant on Anna Salai? I heard it's amazing.",
+              "Oh wow — that sounds wonderful! How long were you there?"
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "You're in a lift with a colleague you don't know well. What's the best small talk opener?",
+            "options": [
+              "How much do you earn?",
+              "Can you believe how hot it's been this week?",
+              "Why did your team not do well last quarter?",
+              "Do you like your job?"
+            ],
+            "correct": "Can you believe how hot it's been this week?",
+            "explanation": "Weather is the classic safe small talk topic — neutral, relatable, and non-controversial."
+          }
+        },
+        {
+          "task_id": "t1108_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Your colleague says: 'I went to Coorg last weekend!' What's the best response?",
+            "options": [
+              "Okay.",
+              "Oh nice.",
+              "Oh wow — Coorg is beautiful! How long were you there? Was the weather good?",
+              "I've been there already."
+            ],
+            "correct": "Oh wow — Coorg is beautiful! How long were you there? Was the weather good?",
+            "explanation": "Show genuine interest with a reaction + follow-up question. This keeps the conversation alive."
+          }
+        },
+        {
+          "task_id": "t1108_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Which topic is MOST suitable for small talk with a new colleague?",
+            "options": [
+              "Their political views",
+              "Their salary package",
+              "Whether they have any plans for the upcoming long weekend",
+              "Why they left their last company"
+            ],
+            "correct": "Whether they have any plans for the upcoming long weekend",
+            "explanation": "Weekend plans = safe, positive, and invites a friendly conversation without personal or controversial topics."
+          }
+        },
+        {
+          "task_id": "t1108_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "Your friend mentions they tried a new restaurant. What follow-up question keeps the conversation going?",
+            "options": [
+              "That's nice.",
+              "How was it? What did you order? Would you recommend it?",
+              "I don't eat out.",
+              "Was it expensive?"
+            ],
+            "correct": "How was it? What did you order? Would you recommend it?",
+            "explanation": "Multiple relevant follow-up questions show genuine interest and keep the conversation flowing."
+          }
+        },
+        {
+          "task_id": "t1108_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Complete the small talk conversation with a natural reaction and follow-up.",
+            "sentences": [
+              {"text": "'I went to Pondicherry last weekend!' → '___ ___ — was it your first time there?'", "answer": "Oh wow / How lovely"},
+              {"text": "'I've been learning to play the guitar.' → '___ interesting! How long have you been learning?'", "answer": "How"},
+              {"text": "'The traffic was terrible today — two hours to get here!' → '___ no — that must have been exhausting!'", "answer": "Oh"},
+              {"text": "'I tried making biryani for the first time this weekend.' → '___ you? How did it turn out?'", "answer": "Did"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Choose the best small talk topic opener for each situation.",
+            "sentences": [
+              {"text": "Meeting a colleague on a Monday morning: '___ did you get up to this weekend?' (What)", "answer": "What"},
+              {"text": "Waiting for a delayed train with a stranger: 'Can you ___ how delayed this train is?' (believe)", "answer": "believe"},
+              {"text": "After a cricket match everyone was watching: '___ you watch the match last night?' (Did)", "answer": "Did"},
+              {"text": "During the festival season: '___ plans for Diwali?' (Any)", "answer": "Any"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a small talk opener.",
+            "words": ["you", "believe", "heat", "this", "Can", "week", "the", "this"],
+            "answer": "Can you believe the heat this week?"
+          }
+        },
+        {
+          "task_id": "t1108_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into a follow-up question.",
+            "words": ["first", "your", "Was", "time", "it", "there"],
+            "answer": "Was it your first time there?"
+          }
+        },
+        {
+          "task_id": "t1108_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the small talk statement to the best reaction + follow-up.",
+            "pairs": [
+              {"left": "'I got promoted last week!'", "right": "Oh wow — congratulations! What's the new role?"},
+              {"left": "'The commute was awful today.'", "right": "Oh no! How long were you stuck in traffic?"},
+              {"left": "'I tried skydiving in Mysore!'", "right": "You're kidding! Was it terrifying? Would you do it again?"},
+              {"left": "'I've started cooking South Indian food at home.'", "right": "Oh how lovely! What have you made so far?"},
+              {"left": "'I'm going to Ladakh next month.'", "right": "Oh amazing — is this your first time? How long are you going for?"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Small talk at a wedding — Hyderabad",
+            "setting": "Priya and Sonal meet at a mutual friend's wedding in Hyderabad. They don't know each other well — small talk brings them together.",
+            "dialogue": [
+              {"speaker": "Priya", "text": "It's a beautiful wedding, isn't it? The decorations are stunning!"},
+              {"speaker": "Sonal", "text": "Absolutely gorgeous! They've done such a wonderful job. Are you a friend of the bride or the groom?"},
+              {"speaker": "Priya", "text": "College friend of the bride! We've known each other for almost ten years. You?"},
+              {"speaker": "Sonal", "text": "I'm the groom's cousin — I've come all the way from Bangalore for this. Have you been to Hyderabad before?"},
+              {"speaker": "Priya", "text": "A couple of times but never long enough to really explore. Anything you'd recommend?"},
+              {"speaker": "Sonal", "text": "Oh you must try the biryani here — it's on a completely different level! Not to take anything away from other cities, but Hyderabadi biryani is something else."},
+              {"speaker": "Priya", "text": "Ha! I completely agree — we had some last night and it was incredible. Are you a foodie?"},
+              {"speaker": "Sonal", "text": "Total foodie! Wherever I travel, trying local food is number one on the list. What about you — do you like to travel?"},
+              {"speaker": "Priya", "text": "Love it! Though I haven't gone anywhere in a while. I went to Coorg about three months ago — that was beautiful."},
+              {"speaker": "Sonal", "text": "Oh, I've been wanting to go there! How was it? Was it very crowded?"},
+              {"speaker": "Priya", "text": "Not at all — we went on a weekday which helped. The coffee estates are just breathtaking. You should definitely go!"},
+              {"speaker": "Sonal", "text": "I will! This has been so lovely — it's refreshing to actually have a proper conversation at these events. Most people are just on their phones!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "How does Priya know the couple getting married?",
+                "options": ["She is the groom's colleague.", "She is a college friend of the bride.", "She is the bride's cousin.", "She is Sonal's friend."],
+                "correct": "She is a college friend of the bride."
+              },
+              {
+                "question": "What does Sonal say is the most important thing when she travels?",
+                "options": ["Shopping", "Visiting temples", "Trying local food", "Staying in luxury hotels"],
+                "correct": "Trying local food"
+              },
+              {
+                "question": "Where did Priya go three months ago?",
+                "options": ["Hyderabad", "Bangalore", "Ladakh", "Coorg"],
+                "correct": "Coorg"
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "Find the small talk mistake — these responses kill the conversation.",
+            "sentences": [
+              {
+                "wrong": "Friend: 'I went to Shimla last weekend!' You: 'Nice.'",
+                "correct": "Friend: 'I went to Shimla last weekend!' You: 'Oh, how amazing! Was it cold? What was the best part of the trip?'",
+                "explanation": "One-word responses end conversations. Show genuine interest with a reaction + follow-up questions."
+              },
+              {
+                "wrong": "Colleague: 'Any plans for the weekend?' You: 'No.' ",
+                "correct": "Colleague: 'Any plans for the weekend?' You: 'Not much planned honestly — maybe a quiet weekend at home. What about you?'",
+                "explanation": "Even if you have no plans, give a brief answer and return the question. 'No' alone is too curt."
+              },
+              {
+                "wrong": "Starting small talk: 'So — what's your salary at this company?'",
+                "correct": "Starting small talk: 'Have you been here long? How are you finding the company so far?'",
+                "explanation": "Salary is too personal for small talk with new people. Start with safe, general topics."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1108_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "You're at a colleague's farewell party. You don't know most people there. Someone stands next to you at the food table. What do you say to start a small talk conversation?",
+            "options": [
+              "Why are you here?",
+              "Do you know how much this event cost?",
+              "Great spread, isn't it? Have you tried the paneer?",
+              "I don't really know anyone here."
+            ],
+            "correct": "Great spread, isn't it? Have you tried the paneer?",
+            "explanation": "Food at an event = perfect small talk opener. Light, positive, relatable, and opens the door for a reply."
+          }
+        },
+        {
+          "task_id": "t1108_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Practise starting small talk in 3 different situations. For each one, give an opening sentence AND a follow-up question after the person responds.",
+            "prompt": "Start small talk in: (1) a company lift on a Monday, (2) while waiting for a delayed train, (3) at a friend's birthday party with new people.",
+            "example_response": "Situation 1 — Lift on a Monday morning: 'Morning! Can you believe the traffic today? I was stuck near the signal for almost 40 minutes! Is your commute usually this bad?' If they say yes: 'Oh no — which route do you take? I should probably try the metro more often honestly!'\n\nSituation 2 — Delayed train: 'This delay is something else, isn't it? I've been here 30 minutes already. Are you travelling far? At least the platform isn't too crowded!' If they say they're going to Coimbatore: 'Oh lovely — is it a holiday trip or visiting family?'\n\nSituation 3 — Birthday party: 'Great party, isn't it? The food is amazing — have you tried that mango dessert? I think I've had three already! Are you a friend of Meera's from work or college?' If they say college: 'Oh nice! Which college? I was in Bangalore for three years myself — whereabouts?'",
+            "key_phrases": ["Isn't it?", "Can you believe…?", "Have you tried…?", "Are you…?", "How long…?", "What's it like?"],
+            "min_words": 110
+          }
+        },
+        {
+          "task_id": "t1108_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Think about the best small talk conversation you've ever had — or imagine one. What was the topic? How did it start? Where did it go? What made it so enjoyable?",
+            "prompt": "Describe a memorable small talk conversation — real or imagined — that flowed really well.",
+            "example_response": "One of the best small talk conversations I've ever had was completely unexpected. I was waiting at a bus stop in Chennai during a sudden downpour — absolutely soaked and a bit annoyed. An elderly gentleman next to me said, 'Well, this rain has no manners, does it?' — which made me laugh immediately. We started talking about the monsoon and how unpredictable the Chennai rains are. He told me he'd lived in the city for over 60 years and could predict rain by looking at the sea. I was fascinated. It led to a conversation about how the city had changed — the old Madras versus new Chennai. He knew so many beautiful stories about the old neighbourhood markets, the old cinema halls, the filter coffee culture. By the time the bus came, almost 20 minutes had passed and I was genuinely sad to end the conversation. What made it special was that it started with something simple — the weather — and turned into this rich, unexpected exchange. The best small talk always does that.",
+            "key_phrases": ["started with", "led to", "the conversation flowed", "I was fascinated", "what made it special was"],
+            "min_words": 120
+          }
+        },
+        {
+          "task_id": "t1108_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this small talk conversation at an office networking event.",
+            "text": "Ravi: Hi! First time at one of these events?\n\nPriya: Yes actually! A bit ___ (1) but everyone seems friendly. You?\n\nRavi: I've been ___ (2) a couple of times. Gets easier — the food alone makes it worth it! ___ (3) you tried the kebabs?\n\nPriya: Not yet — are they good? I'll have to ___ (4) them! Have you worked in Bangalore long?\n\nRavi: About three years now. Moved here from Hyderabad. It's a great city — do you ___ (5) it here?\n\nPriya: I love it! The weather is what did it for me — after Chennai summers, Bangalore feels ___ (6) paradise! Where in Hyderabad are you from?\n\nRavi: Banjara Hills area. Beautiful but ___ (7) Mumbai levels of traffic. Anyway — shall we grab some of those kebabs before they disappear?\n\nPriya: Absolutely — ___ (8) now while we can!",
+            "answers": ["nervous", "a few / come", "Have", "try", "like", "like", "almost", "let's grab some"]
+          }
+        },
+        {
+          "task_id": "t1108_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 8 complete — Small talk",
+            "key_points": [
+              "Safe topics: weather, food, weekend, travel, sport, festivals — NOT salary, politics, or personal problems",
+              "Open with relatable openers: 'Can you believe…?', 'Have you tried…?', 'Any plans for…?'",
+              "React with interest: 'Oh wow!', 'Really?', 'That sounds amazing!', 'You're kidding!'",
+              "Follow-up questions keep the conversation alive: 'How was it?', 'Would you recommend it?'",
+              "Return the question: after answering, ask back — 'What about you?'",
+              "Never give one-word answers in small talk — always add something"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Reactions and follow-up questions"
+          }
+        }
+      ]
+    },
+
+    {
+      "lesson_id": "a2_unit11_lesson09",
+      "unit": 11,
+      "lesson_number": 9,
+      "level": "A2",
+      "title": "Reactions and follow-up questions",
+      "description": "Respond naturally to what people say — express surprise, sympathy, happiness — and ask the right questions to keep conversation going.",
+      "estimated_minutes": 25,
+      "xp_reward": 150,
+      "tasks": [
+        {
+          "task_id": "t1109_01",
+          "type": "learn_card",
+          "order": 1,
+          "content": {
+            "title": "Reacting naturally to news",
+            "body": "Different types of news need different reactions:\n\nGOOD NEWS:\n• 'That's wonderful news!'\n• 'Congratulations!'\n• 'I'm so happy for you!'\n• 'You must be thrilled!'\n• 'Oh wow — that's brilliant!'\n\nBAD NEWS:\n• 'Oh no — I'm so sorry to hear that.'\n• 'That's terrible — are you okay?'\n• 'I can imagine how hard that must be.'\n• 'Please let me know if there's anything I can do.'\n\nSURPRISING NEWS:\n• 'Really? I had no idea!'\n• 'Seriously? I can't believe it!'\n• 'You're joking! / No way!'\n• 'That's incredible!'\n\nINTERESTING NEWS:\n• 'How fascinating!'\n• 'That's really interesting — tell me more!'\n• 'I didn't know that!'",
+            "grammar_note": "Reactions use exclamations and short phrases\n'Must be' is used to empathise: 'You must be so excited!'\n'I can imagine' shows you understand their feelings"
+          }
+        },
+        {
+          "task_id": "t1109_02",
+          "type": "learn_card",
+          "order": 2,
+          "content": {
+            "title": "Echoing and showing active listening",
+            "body": "ECHOING = repeating part of what someone said to show you're listening:\n\n• 'I got the promotion!' → 'The promotion! That's wonderful!'\n• 'We moved to a new flat.' → 'A new flat — how exciting!'\n• 'I failed the exam.' → 'Failed? Oh no — I'm so sorry!'\n\nOther active listening techniques:\n• Mm-hmm / Right / I see (shows you're following)\n• 'Oh really?' (surprise + invitation to continue)\n• 'And then what happened?' (asking for more detail)\n• 'How did that make you feel?' (empathy)\n• 'I bet!' (I imagine that!)\n• 'That said a lot.' / 'That must have taken courage.'",
+            "grammar_note": "Echoing = repeat a KEY WORD with an exclamation\nActive listening = show you're engaged, not just waiting to speak\n'I bet!' = I can well imagine!"
+          }
+        },
+        {
+          "task_id": "t1109_03",
+          "type": "learn_card",
+          "order": 3,
+          "content": {
+            "title": "Vocabulary: Emotions and reactions",
+            "vocabulary": [
+              {"word": "thrilled", "meaning": "extremely excited and happy", "example": "You must be absolutely thrilled!"},
+              {"word": "gutted", "meaning": "very disappointed (informal)", "example": "Oh, you must be gutted — I'm so sorry."},
+              {"word": "relieved", "meaning": "feeling glad that something bad didn't happen", "example": "I bet you're relieved it's over!"},
+              {"word": "overwhelmed", "meaning": "having very strong feelings", "example": "I was just completely overwhelmed by the news."},
+              {"word": "sympathise", "meaning": "to understand and share someone's feelings", "example": "I really sympathise — that situation sounds so tough."},
+              {"word": "empathise", "meaning": "to truly understand how someone feels", "example": "I can empathise — I went through something similar."}
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_04",
+          "type": "listen_repeat",
+          "order": 4,
+          "content": {
+            "audio_key": "a2_u11l9_listen",
+            "sentences": [
+              "Really? I had absolutely no idea — congratulations!",
+              "Oh no — that's terrible news. Are you doing okay?",
+              "You're joking! How did that happen?",
+              "I can imagine how hard that must have been for you.",
+              "That's brilliant — you must be absolutely thrilled!"
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_05",
+          "type": "mcq",
+          "order": 5,
+          "content": {
+            "question": "Your colleague tells you she's just been offered a job at her dream company. What's the best reaction?",
+            "options": [
+              "Good.",
+              "That's wonderful news — you must be over the moon! When do you start?",
+              "Oh — so you're leaving?",
+              "Make sure you negotiate the salary."
+            ],
+            "correct": "That's wonderful news — you must be over the moon! When do you start?",
+            "explanation": "Warm, genuine reaction ('wonderful news', 'over the moon') + natural follow-up question."
+          }
+        },
+        {
+          "task_id": "t1109_06",
+          "type": "mcq",
+          "order": 6,
+          "content": {
+            "question": "Your friend tells you her cat passed away. What's the most empathetic response?",
+            "options": [
+              "Oh well, you can get another one.",
+              "Cats don't live that long anyway.",
+              "Oh no — I'm so sorry. She was such a lovely cat. How are you holding up?",
+              "That's sad. Did you cry?"
+            ],
+            "correct": "Oh no — I'm so sorry. She was such a lovely cat. How are you holding up?",
+            "explanation": "Empathetic response: acknowledge the loss, show you care, and gently check on them."
+          }
+        },
+        {
+          "task_id": "t1109_07",
+          "type": "mcq",
+          "order": 7,
+          "content": {
+            "question": "Arjun tells you he climbed a mountain last weekend. What reaction keeps the conversation going best?",
+            "options": [
+              "Oh.",
+              "That sounds dangerous.",
+              "No way! Which mountain? How long did it take? Was the view worth it?",
+              "I don't like climbing."
+            ],
+            "correct": "No way! Which mountain? How long did it take? Was the view worth it?",
+            "explanation": "Energetic reaction + multiple follow-up questions = shows genuine interest and keeps the conversation going."
+          }
+        },
+        {
+          "task_id": "t1109_08",
+          "type": "mcq",
+          "order": 8,
+          "content": {
+            "question": "What does 'You must be thrilled!' mean?",
+            "options": [
+              "You must be in pain.",
+              "You have to be excited — I assume you're very happy.",
+              "You should be more excited.",
+              "You might be happy."
+            ],
+            "correct": "You have to be excited — I assume you're very happy.",
+            "explanation": "'Must be' = I assume this is how you feel based on the situation. 'Thrilled' = very excited and happy."
+          }
+        },
+        {
+          "task_id": "t1109_09",
+          "type": "fill_blank",
+          "order": 9,
+          "content": {
+            "instruction": "Write the best reaction + one follow-up question for each situation.",
+            "sentences": [
+              {"text": "Friend: 'I'm getting married next March!' You: '___ ___ — ___?'", "answer": "Congratulations! / That's wonderful — who's the lucky person?"},
+              {"text": "Colleague: 'I failed my driving test again.' You: '___ ___ — ___?'", "answer": "Oh no, I'm so sorry — was it the parallel parking again?"},
+              {"text": "Friend: 'I ran my first 5K this morning!' You: '___ ___ — ___?'", "answer": "Oh wow, that's brilliant! — How long did it take you?"},
+              {"text": "Colleague: 'My flight was cancelled and I had to sleep in the airport.' You: '___ ___ — ___?'", "answer": "Oh no, how awful! — How long were you stuck there?"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_10",
+          "type": "fill_blank",
+          "order": 10,
+          "content": {
+            "instruction": "Complete the reactions using the correct emotional word.",
+            "sentences": [
+              {"text": "Friend passes a tough exam: 'You must be absolutely ___ !'", "answer": "thrilled / relieved / happy"},
+              {"text": "Friend's holiday was cancelled: 'Oh, you must be so ___ — I'm really sorry.'", "answer": "gutted / disappointed / upset"},
+              {"text": "Surprising news: 'You're ___ ! I had no idea that was happening!'", "answer": "joking / kidding"},
+              {"text": "Empathising: 'I can ___ — that situation sounds incredibly difficult.'", "answer": "imagine / empathise"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_11",
+          "type": "sort_words",
+          "order": 11,
+          "content": {
+            "instruction": "Arrange into a warm reaction sentence.",
+            "words": ["be", "You", "thrilled", "absolutely", "must"],
+            "answer": "You must be absolutely thrilled!"
+          }
+        },
+        {
+          "task_id": "t1109_12",
+          "type": "sort_words",
+          "order": 12,
+          "content": {
+            "instruction": "Arrange into an empathetic bad news response.",
+            "words": ["hard", "that", "imagine", "must", "how", "been", "have", "I", "can"],
+            "answer": "I can imagine how hard that must have been."
+          }
+        },
+        {
+          "task_id": "t1109_13",
+          "type": "match_pairs",
+          "order": 13,
+          "content": {
+            "instruction": "Match the news to the most natural reaction.",
+            "pairs": [
+              {"left": "'I got the promotion!'", "right": "That's fantastic — you absolutely deserved it!"},
+              {"left": "'My phone was stolen.'", "right": "Oh no — that's awful! Did you manage to lock it remotely?"},
+              {"left": "'I'm moving to Canada next month.'", "right": "Really? That's such a big step! Are you excited or nervous?"},
+              {"left": "'I finished reading a 600-page novel in two days.'", "right": "You're joking! Two days? That's incredible!"},
+              {"left": "'I missed my flight to London.'", "right": "Oh no — what a nightmare! What are you going to do now?"}
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_14",
+          "type": "dialogue",
+          "order": 14,
+          "content": {
+            "title": "Catching up after a while — college friends, Bangalore coffee shop",
+            "setting": "Priya (from Chennai) is visiting Bangalore and meets her old friend Kavya. They haven't spoken in months. The conversation is full of natural reactions and follow-up questions.",
+            "dialogue": [
+              {"speaker": "Kavya", "text": "Priya! Oh my goodness — you look amazing. Sit, sit! How have you been?"},
+              {"speaker": "Priya", "text": "I've been good! A bit all over the place honestly. So much has happened since we last talked!"},
+              {"speaker": "Kavya", "text": "Tell me everything! What's been going on?"},
+              {"speaker": "Priya", "text": "Okay — so the big news: I resigned from my job three months ago."},
+              {"speaker": "Kavya", "text": "What?! You resigned? I had no idea — are you okay? What happened?"},
+              {"speaker": "Priya", "text": "I'm actually great! It was tough at first but the job was making me miserable for a long time."},
+              {"speaker": "Kavya", "text": "I can imagine — you seemed quite stressed whenever we spoke last year. So what are you doing now?"},
+              {"speaker": "Priya", "text": "I'm freelancing! I've been working with a few design clients online and it's going really well."},
+              {"speaker": "Kavya", "text": "Oh wow — freelancing! How long did that take to set up? I always thought you'd be brilliant at it."},
+              {"speaker": "Priya", "text": "It took about a month to get the first client, then it kind of snowballed. But the big thing is — I'm actually happy at work for the first time in years!"},
+              {"speaker": "Kavya", "text": "That's such wonderful news, Priya — you must be so relieved! I'm genuinely happy for you."},
+              {"speaker": "Priya", "text": "I am! And what about you? You look well — anything new on your end?"},
+              {"speaker": "Kavya", "text": "Well... I got engaged last month!"},
+              {"speaker": "Priya", "text": "No way! Kavya! Congratulations — I'm so happy for you! Who is he? Tell me everything!"},
+              {"speaker": "Kavya", "text": "Ha! His name is Arjun — he works in Bangalore, we've been together for two years. It happened quite suddenly but it felt right."},
+              {"speaker": "Priya", "text": "You must be absolutely over the moon! I want to see a photo right now!"}
+            ],
+            "comprehension_questions": [
+              {
+                "question": "What big change happened in Priya's work life?",
+                "options": ["She got a promotion.", "She resigned and started freelancing.", "She moved to Bangalore.", "She started a company."],
+                "correct": "She resigned and started freelancing."
+              },
+              {
+                "question": "How does Priya feel about her work now?",
+                "options": ["She is worried about money.", "She is happy for the first time in years.", "She misses her old job.", "She wants to go back to employment."],
+                "correct": "She is happy for the first time in years."
+              },
+              {
+                "question": "What is Kavya's big news?",
+                "options": ["She got promoted.", "She moved to a new city.", "She got engaged.", "She started a new business."],
+                "correct": "She got engaged."
+              }
+            ],
+            "discussion_questions": [
+              "Find 4 reaction phrases in the dialogue. What type of reaction is each one (surprise, happiness, sympathy)?",
+              "Find 3 follow-up questions. What purpose does each one serve?",
+              "What makes this conversation feel natural and warm? List 3 features."
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_15",
+          "type": "error_correction",
+          "order": 15,
+          "content": {
+            "instruction": "These reactions are inappropriate or unnatural. Correct them.",
+            "sentences": [
+              {
+                "wrong": "Friend: 'I got promoted!' You: 'I knew I was better than you for that role.'",
+                "correct": "Friend: 'I got promoted!' You: 'That's amazing news — you really deserved it! Congratulations!'",
+                "explanation": "Never make someone's good news about you or compare. Celebrate genuinely."
+              },
+              {
+                "wrong": "Friend: 'My grandmother passed away.' You: 'Oh well, she was very old, wasn't she?'",
+                "correct": "Friend: 'My grandmother passed away.' You: 'I'm so sorry to hear that — she sounded like such a wonderful person. Are you doing okay?'",
+                "explanation": "Never minimise someone's grief. Show empathy and ask how they're coping."
+              },
+              {
+                "wrong": "Friend: 'I'm moving abroad!' You: 'Don't you think that's a bit risky?'",
+                "correct": "Friend: 'I'm moving abroad!' You: 'Wow — that's such an exciting step! Where are you going? You must be so excited!'",
+                "explanation": "Don't question their decision with negativity — react positively and show interest."
+              }
+            ]
+          }
+        },
+        {
+          "task_id": "t1109_16",
+          "type": "scenario_mcq",
+          "order": 16,
+          "content": {
+            "scenario": "Your colleague comes to work looking very upset. When you ask, she says she didn't get the project she applied for. She was really hoping for it. What do you say?",
+            "options": [
+              "Better luck next time.",
+              "That's okay, there will be other projects.",
+              "Oh, I'm really sorry — you must be so disappointed. You worked so hard for that. Is there anything I can do?",
+              "Why didn't you get it?"
+            ],
+            "correct": "Oh, I'm really sorry — you must be so disappointed. You worked so hard for that. Is there anything I can do?",
+            "explanation": "Acknowledge the feeling ('must be disappointed'), validate the effort ('worked so hard'), and offer support."
+          }
+        },
+        {
+          "task_id": "t1109_17",
+          "type": "speaking",
+          "order": 17,
+          "content": {
+            "instruction": "Respond to these 5 pieces of news with a natural reaction + follow-up question. Speak for at least 2 sentences per response.",
+            "prompt": "React to each piece of news:\n1. 'I'm going to become a vegetarian!'\n2. 'My flight was diverted to the wrong city.'\n3. 'I finished learning Japanese in one year.'\n4. 'My company offered me a transfer to London.'\n5. 'I've decided to run a half marathon next month.'",
+            "example_response": "1. 'I'm going to become a vegetarian!' — Oh wow, that's a big change! What inspired the decision? Are you going full vegetarian or starting gradually? I think that's great — I've thought about it too sometimes.\n\n2. 'My flight was diverted to the wrong city.' — Oh no, you're joking! That sounds like an absolute nightmare! Where did you end up? How long did it take to sort out? You must have been exhausted!\n\n3. 'I finished learning Japanese in one year.' — Are you serious?! That's incredible — Japanese is supposed to be one of the hardest languages in the world! How did you do it? Were you taking formal classes?\n\n4. 'My company offered me a transfer to London.' — Oh wow — that's huge! Are you excited or nervous? Have you decided whether you're going to accept? London is amazing but it's a big move!\n\n5. 'I've decided to run a half marathon next month.' — Really?! That's so impressive — have you been training for a while? A half marathon is no joke — 21 kilometres! I bet you'll do brilliantly!",
+            "key_phrases": ["Oh wow", "That's incredible", "You must be", "Are you serious?", "How long?", "What inspired you?"],
+            "min_words": 110
+          }
+        },
+        {
+          "task_id": "t1109_18",
+          "type": "speaking",
+          "order": 18,
+          "content": {
+            "instruction": "Share a piece of news from your own life — real or imagined — and describe how people reacted to it. Were their reactions good? What made a reaction feel warm or cold?",
+            "prompt": "Tell a story about sharing some news with someone and how they reacted. What did they say? How did it make you feel?",
+            "example_response": "I'd like to talk about when I told my family I'd decided to leave my stable engineering job to try freelancing. I was very nervous because I knew it was an unconventional choice. When I told my mother, her first reaction was quiet — then she said: 'Are you sure? What if it doesn't work out? You have a good job.' And honestly, even though she meant well, that reaction made me feel deflated. I'd expected more support. Then I told my best friend and she said: 'Oh my god — that's so brave! You've been wanting to do this for years. I'm so proud of you. What are your plans? How can I help?' And that reaction changed everything. I felt validated and excited. The same news got two completely different reactions — one focused on the risk, one on the possibility. I learned that when someone shares big news, the most important thing is to lead with warmth and interest, not with fear. Ask questions, show excitement, and save the practical concerns for later.",
+            "key_phrases": ["their reaction was", "made me feel", "I expected", "the most important thing is", "lead with warmth"],
+            "min_words": 120
+          }
+        },
+        {
+          "task_id": "t1109_19",
+          "type": "fill_blank",
+          "order": 19,
+          "content": {
+            "instruction": "Complete this catching-up conversation with natural reactions.",
+            "text": "Kavya: I have some big news — I'm pregnant!\n\nPriya: Oh ___ (1) — congratulations! You must be ___ (2)! When is the baby due?\n\nKavya: March! We're both over the moon.\n\nPriya: ___ (3) — March is beautiful for a baby. How are you feeling?\n\nKavya: A bit tired but really happy. Oh — and my sister failed her board exams.\n\nPriya: Oh ___ (4) — ___ (5) be so disappointed. Is she doing okay?\n\nKavya: She's upset but she's planning to retake them in six months.\n\nPriya: That's the spirit — she'll do brilliantly next time! And your job — still loving it?\n\nKavya: Actually, I got a pay rise last month!\n\nPriya: ___ (6)?! That's ___ (7) news — you completely ___ (8) it!",
+            "answers": ["wow / my goodness", "thrilled / over the moon", "Lovely", "no", "she must", "Really / Seriously", "brilliant / wonderful / fantastic", "deserved"]
+          }
+        },
+        {
+          "task_id": "t1109_20",
+          "type": "lesson_summary",
+          "order": 20,
+          "content": {
+            "title": "Lesson 9 complete — Reactions and follow-up questions",
+            "key_points": [
+              "Good news: 'That's wonderful!', 'Congratulations!', 'You must be thrilled!'",
+              "Bad news: 'I'm so sorry', 'That sounds so tough', 'I can imagine'",
+              "Surprise: 'Really?!', 'You're joking!', 'No way!'",
+              "Echoing = repeat a key word: 'A promotion? That's amazing!'",
+              "Active listening: Mm-hmm, Right, I see, I bet!",
+              "Follow-up questions: 'How long…?', 'Was it your first time?', 'How did that feel?'",
+              "Never minimise someone's news — always lead with warmth"
+            ],
+            "xp_earned": 150,
+            "next_lesson": "Expressing opinions and agreeing/disagreeing"
+          }
+        }
+      ]
+    }
+
+  ]
+}
